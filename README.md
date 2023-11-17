@@ -17,7 +17,7 @@ npm install
 
 3. Add your content:
 
-Open the project in your preferred code editor and locate the content/docs/Technical writing course directory. Create a new Markdown file (.md) for your topic and add your content. 
+Open the project in your preferred code editor and locate the `content/docs/Technical` writing course directory. Create a new Markdown file (.md) for your topic and add your content. 
 Make sure to include the frontmatter information:
 ```
 ---

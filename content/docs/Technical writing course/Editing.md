@@ -18,7 +18,7 @@ menu:
 
     identifier: "example-6a1a6be4373e933280d78ea53de6158e"
 
-    weight: 1110
+    weight: 1101
 
 toc: true
 
@@ -65,7 +65,7 @@ Here are other vital importance of editing in technical documentation.
 - **Enhancement of Readability and Accessibility**: Technical editing involves breaking down complex ideas into digestible chunks, using appropriate headings and subheadings, and incorporating visual elements. Enhanced readability makes technical content more user-friendly for a diverse audience.
 - **Logical Organization of Information**: Technical editing involves assessing the document's structure and organization. Editing ensures a logical arrangement of information, following a clear and coherent flow. A well-organized document facilitates efficient information retrieval and supports the reader's understanding of complex concepts.
 
-> The coming section talks about the various aspects of editing.
+> The coming section talks more about the various aspects of editing.
 
 ## Different types of editing
 

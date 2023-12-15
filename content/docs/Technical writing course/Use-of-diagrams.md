@@ -1,30 +1,22 @@
 ---
 title: "Use of diagrams"
-
 description: "Visual elements like diagrams, images, and illustrations are effective tools for making your documentation engaging and easy to understand. They're great for explaining complex concepts, processes, or workflows. Additionally, they break up large chunks of text and improve readability."
-
 summary: "This article explains the use of diagrams in technical documentation. It also provides tips for creating effective diagrams and do's and don'ts for using images in technical documentation."
-
-date: 2023-11-17T13:12:49+00:00
+date: 2023-11-17T13:13:49+20:00
 lastmod: 2023-11-17T13:12:49+02:00
-draft: true
-
+draft: false
 menu:
   docs:
     parent: ""
-    identifier: "example-6a1a6be4373e933280d78ea53de6158e"
+    identifier: "diagram-6a1a6be4373e933280d78ea53de6158ue"
     weight: 1091
-
 toc: true
-
 seo:
   title: "The use of Diagrams"
   description: "Visual elements like diagrams, images, and illustrations are effective tools for making your documentation engaging and easy to understand. They're great for explaining complex concepts, processes, or workflows. Additionally, they break up large chunks of text and improve readability."
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---
-
-# The use of Diagrams
 
 Visual elements like diagrams, images, and illustrations are effective tools for making your documentation engaging and easy to understand. They're great for explaining complex concepts, processes, or workflows. Additionally, they break up large chunks of text and improve readability.
 
@@ -71,20 +63,22 @@ Creating understandable diagrams is crucial. If your diagram is too complex, rea
 **1. Keep It Simple, Yet Informative:**
 Simplify your diagram for clarity. Each element should directly contribute to understanding the concept. For instance, in cloud engineering, architectural diagrams should present a high-level view without overwhelming details.
 
-![clear image](/assets/images/clear.png)
+<!-- ![clear image](/assets/images/clear.png) -->
+
 _**Figure 1**. Architectural diagram displaying clear information_
 
 **2. Embrace Consistency:**
 Consistency is key. Use uniform shapes, colors, and formatting throughout. In web development, consistent symbols in user flow diagrams make it easier for developers and designers to interpret user journeys across different parts of a website.
 
-![consistent image](/assets/images/consistent.png)
+<!-- ![consistent image](/assets/images/consistent.png) -->
 
 _**Figure 2**. User flow diagram displaying image design consistency_
 
 **3. Thoughtful Use of Labels and Annotations:**
 Guide the reader with clear labels and annotations. In data science, well-placed annotations in process flow diagrams highlight critical steps, aiding data scientists in understanding and optimizing workflows.
 
-![Use of label image](/assets/images/data.png)
+<!-- ![Use of label image](/assets/images/data.png) -->
+
 _**Figure 3**. Data flow diagram displaying proper use of labels_
 
 **4. Align with Audience Expectations:**

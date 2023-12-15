@@ -1,38 +1,22 @@
 ---
 title: "Editing"
-
-description: "In this module, you will learn how to edit for clarity, conciseness, and accuracy (correctness), the importance of technical editing, and the various aspects of editing in detail.
-"
-
+description: "In this module, you will learn how to edit for clarity, conciseness, and accuracy (correctness), the importance of technical editing, and the various aspects of editing in detail."
 summary: ""
-
 date: 2023-08-07T16:04:48+02:00
-
 lastmod: 2023-09-07T16:04:48+02:00
-
-draft: true
-
+draft: false
 menu:
   docs:
     parent: ""
-
-    identifier: "example-6a1a6be4373e933280d78ea53de6158e"
-
-    weight: 1110
-
+    identifier: "editing-6a1a6be4373e933280d78ea53de6158e"
+    weight: 810
 toc: true
-
 seo:
   title: "Editing" # custom title (optional)
-
-  description: "In this module, you will learn how to edit for clarity, conciseness, and accuracy (correctness), the importance of technical editing, and the various aspects of editing in detail." 
-
+  description: "In this module, you will learn how to edit for clarity, conciseness, and accuracy (correctness), the importance of technical editing, and the various aspects of editing in detail."
   canonical: "" # custom canonical URL (optional)
-
   noindex: false # false (default) or true
 ---
-
-# EDITING - Module 8 (Full Draft)
 
 ## Table of Content
 
@@ -69,7 +53,7 @@ Here are other vital importance of editing in technical documentation.
 
 ## Different types of editing
 
-![types of editing](/assets/images/types-of-editing-PCS.png)
+<!-- ![types of editing](/assets/images/editingtypes.png) -->
 
 Ernest Hemingway says - "The first draft of anything is shit." These emphasize the importance of the editing process in refining initial drafts; there are different kinds of editing in some technical documentation. You may use all the various methods for one documentation; in others, you may pair one of each to meet your editing goals.
 
@@ -148,7 +132,7 @@ Substantive editing is a critical step in producing high-quality technical docum
 
 ## Editing Technical Documentation for Clarity, Conciseness, and Correctness (Accuracy)
 
-![How to editing](/assets/images/How-to-editing-CCC.jpg)
+<!-- ![How to editing](/assets/images/How-to-editing-CCC.jpg) -->
 
 Editing for clarity, conciseness, and correctness is a standard for producing credible and quality technical documentation. The section details how to edit technical documentation with the 3Cs.
 

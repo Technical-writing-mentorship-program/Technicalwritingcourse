@@ -53,7 +53,11 @@ Here are other vital importance of editing in technical documentation.
 
 ## Different types of editing
 
-<!-- ![types of editing](/assets/images/editingtypes.png) -->
+<!-- ![types of editing](https://github.com/wise4rmgod/Technicalwritingcourse/blob/main/abc.png) -->
+
+<!-- ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/zzz49tg57h6bkelkjnyp.png) -->
+
+<img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/zzz49tg57h6bkelkjnyp.png" alt="Image description" width="400" height="300">
 
 Ernest Hemingway says - "The first draft of anything is shit." These emphasize the importance of the editing process in refining initial drafts; there are different kinds of editing in some technical documentation. You may use all the various methods for one documentation; in others, you may pair one of each to meet your editing goals.
 
@@ -133,6 +137,8 @@ Substantive editing is a critical step in producing high-quality technical docum
 ## Editing Technical Documentation for Clarity, Conciseness, and Correctness (Accuracy)
 
 <!-- ![How to editing](/assets/images/How-to-editing-CCC.jpg) -->
+
+<img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/xykfc692ilw3uf886sdu.jpg" alt="Image description" width="400" height="500">
 
 Editing for clarity, conciseness, and correctness is a standard for producing credible and quality technical documentation. The section details how to edit technical documentation with the 3Cs.
 

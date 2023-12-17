@@ -112,7 +112,7 @@ The following are important attributes that must be contained in your style guid
 
   An excellent illustration of effective brand communication is demonstrated by [Slack](https://brand.slackhq.com/brand-values). They clearly outline their identity, values and all they represent.
 
-  <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/yujq2iw7fjjvslpfexxz.png" alt="Slack's Brand Identity">
+  <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/yujq2iw7fjjvslpfexxz.png" alt="Slack's Brand Identity" width="100%">
 
   _**Figure 1**. Slack's brand identity_
 
@@ -140,7 +140,7 @@ The following are important attributes that must be contained in your style guid
 
   An exemplary case of a company effectively communicating its voice and tone is [Mailchimp](https://styleguide.mailchimp.com/voice-and-tone/). They provide extensive details on how their company engages with customers.
 
-  <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/mvycyilg27oy0q9wvzsf.png" alt="Mailchimp's voice and tone">
+  <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/mvycyilg27oy0q9wvzsf.png" alt="Mailchimp's voice and tone" width="100%">
 
   _**Figure 2**. Mailchimps voice and tone_
 
@@ -156,7 +156,7 @@ The following are important attributes that must be contained in your style guid
 
   Given the multitude of standards in this area, refer to [Shopify's style guide](https://polaris.shopify.com/content/grammar-and-mechanics) for a comprehensive example. They provide clear explanations with numerous examples to illustrate their grammar and punctuation rules.
 
-  <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/qyohkegqnsqboc0vlzyi.png" alt="Shopify's grammar and punctuation">
+  <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/qyohkegqnsqboc0vlzyi.png" alt="Shopify's grammar and punctuation" width="100%">
 
   _**Figure 3**. Shopify's grammar and punctuation_
 
@@ -176,7 +176,7 @@ The following are important attributes that must be contained in your style guid
 
   A notable example of effective documentation formatting can be found in the [Google Developer Documentation Style Guide](https://developers.google.com/style/text-formatting). This guide provides comprehensive rules for formatting, covering areas such as headings, titles, numbers, lists, tables, and more.
 
-  <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/nrjbb8docki3c5eti52f.png" alt="Google Developer Documentation Style Guide formatting section">
+  <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/nrjbb8docki3c5eti52f.png" alt="Google Developer Documentation Style Guide formatting section" width="100%">
 
   _**Figure 4**. Google Developer Documentation Style Guide formatting section_
 
@@ -194,7 +194,7 @@ The following are important attributes that must be contained in your style guid
 
   A commendable example of incorporating terminology and abbreviations into documentation can be found in [The 18F Content Guide](https://guides.18f.gov/content-guide/our-style/abbreviations-and-acronyms/). This guide provides insights into when to use abbreviations, how to introduce them, and more.
 
-  <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/4auz88kaxt2hiqk4f522.png" alt="18F's Content Guide terminology and abbreviations section">
+  <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/4auz88kaxt2hiqk4f522.png" alt="18F's Content Guide terminology and abbreviations section" width="100%">
 
   _**Figure 5**. 18F's Content Guide terminology and abbreviations section_
 
@@ -212,7 +212,7 @@ The following are important attributes that must be contained in your style guid
 
   Providing guidance on producing images aligned with the company's goals is essential for writers. [DigitalOcean](https://www.digitalocean.com/community/tutorials/digitalocean-s-technical-writing-guidelines#images-and-other-assets) serves as an excellent example, effectively communicating necessary information about incorporating images into content.
 
-  <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/lf555c5lcp0uhshuldwd.png" alt="DigitalOcean's image and assets style guide section">
+  <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/lf555c5lcp0uhshuldwd.png" alt="DigitalOcean's image and assets style guide section" width="100%">
 
   _**Figure 6**. DigitalOcean's image and assets style guide section_
 

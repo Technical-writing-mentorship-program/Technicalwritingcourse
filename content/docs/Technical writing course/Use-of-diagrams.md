@@ -63,21 +63,21 @@ Creating understandable diagrams is crucial. If your diagram is too complex, rea
 **1. Keep It Simple, Yet Informative:**
 Simplify your diagram for clarity. Each element should directly contribute to understanding the concept. For instance, in cloud engineering, architectural diagrams should present a high-level view without overwhelming details.
 
-<img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/34iz52azancbtzpmb3lm.png" alt="clear image">
+<img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/34iz52azancbtzpmb3lm.png" alt="clear image" width="100%">
 
 _**Figure 1**. Architectural diagram displaying clear information_
 
 **2. Embrace Consistency:**
 Consistency is key. Use uniform shapes, colors, and formatting throughout. In web development, consistent symbols in user flow diagrams make it easier for developers and designers to interpret user journeys across different parts of a website.
 
-<img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/go8ywzrdhobxd4ti7rln.png" alt="consistent image">
+<img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/go8ywzrdhobxd4ti7rln.png" alt="consistent image" width="100%">
 
 _**Figure 2**. User flow diagram displaying image design consistency_
 
 **3. Thoughtful Use of Labels and Annotations:**
 Guide the reader with clear labels and annotations. In data science, well-placed annotations in process flow diagrams highlight critical steps, aiding data scientists in understanding and optimizing workflows.
 
-<img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/gbck87oypf7opi8gw343.png" alt="data image">
+<img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/gbck87oypf7opi8gw343.png" alt="data image" width="100%">
 
 _**Figure 3**. Data flow diagram displaying proper use of labels_
 

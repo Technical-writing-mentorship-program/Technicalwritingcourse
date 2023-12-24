@@ -14,9 +14,9 @@ images = ["cover.png"]
   containerBreakpoint = "lg" # "", "sm", "md", "lg" (default), "xl", "xxl", or "fluid"
 
   ## Button
-  navBarButton = false # false (default) or true
+  navBarButton = true # false (default) or true
   navBarButtonUrl = "/docs/prologue/introduction/"
-  navBarButtonText = "Get started"
+  navBarButtonText = "Apply Now"
 
   # FlexSearch
   flexSearch = true # true (default) or false
@@ -26,7 +26,7 @@ images = ["cover.png"]
   indexSummary = false # true or false (default); whether to index only the `.Summary` instead of the full `.Content`; limits the respective JSON field size and thus increases loading time
 
   ## Search results
-  showDate = false # false (default) or true
+  showDate = true # false (default) or true
   showSummary = true # true (default) or false
   searchLimit = 99 # 0 (no limit, default) or natural number
 
@@ -39,13 +39,13 @@ images = ["cover.png"]
 
   # Nav
   sectionNav = ["docs"] # ["docs"] (default) or list of sections (e.g. ["docs", "guides"])
-  toTopButton = false # false (default) or true
-  breadcrumbTrail = false # false (default) or true
+  toTopButton = true # false (default) or true
+  breadcrumbTrail = true # false (default) or true
   headlineHash = true # true (default) or false
   scrollSpy = true # true (default) or false
 
   # Multilingual
-  multilingualMode = false # false (default) or true
+  multilingualMode = true # false (default) or true
   showMissingLanguages = true # whether or not to show untranslated languages in the language menu; true (default) or false
 
   # Versioning
@@ -68,8 +68,8 @@ images = ["cover.png"]
   katex = false
 
   # Repository
-  editPage = false # false (default) or true
-  lastMod = false # false (default) or true
+  editPage = true # false (default) or true
+  lastMod = true # false (default) or true
   repoHost = "GitHub" # GitHub (default), Gitea, GitLab, Bitbucket, or BitbucketServer
   docsRepo = "https://github.com/h-enk/doks"
   docsRepoBranch = "main" # main (default), master, or <branch name>
@@ -126,7 +126,7 @@ images = ["cover.png"]
   [seo.schemas]
     type = "Organization" # Organization (default) or Person
     logo = "favicon-512x512.png" # Logo of Organization — favicon-512x512.png (default)
-    name = "Hyas" # Name of Organization or Person
+    name = "TWMP" # Name of Organization or Person
     sameAs = [] # E.g. ["https://github.com/gethyas/hyas", "https://fosstodon.org/@hyas"]
     images = ["cover.png"] # ["cover.png"] (default)
     article = [] # Article sections

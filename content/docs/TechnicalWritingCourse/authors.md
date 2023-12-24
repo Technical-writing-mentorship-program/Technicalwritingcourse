@@ -18,8 +18,18 @@ seo:
   noindex: false # false (default) or true
 ---
 
-Guides lead a user through a specific task they want to accomplish, often with a sequence of steps. Writing a good guide requires thinking about what your users are trying to do.
+These fantastic folks volunteered their time and skills to create this Open Source Technical Writing Course for Beginners. It's packed with useful stuff and totally **FREE for everyone!**
 
-## Further reading
+## Coach:
 
-- Read [about how-to guides](https://diataxis.fr/how-to-guides/) in the Diátaxis framework
+- Wisdom Nwokocha: a seasoned software engineer and a technical writer
+
+## Meet the Mentors:
+
+- Susan Idii: A seasoned software engineer with a passion for clear communication, leads the Introduction to Technical Writing section, demystifying core concepts and best practices.
+
+_Why free?_ We believe everyone deserves to learn tech writing, no matter what! So grab this open-source course and unlock your future in tech writing.
+
+{{< callout context="tip" title="Remeber" icon="rocket" >}}
+This course is completely free and open to all! Get started today and open the door to your tech writing future!
+{{< /callout >}}

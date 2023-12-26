@@ -1,7 +1,8 @@
 ---
-title: "Welcome to TWMP"
+title: "Welcome to Technical writing mentorship program"
 description: ""
-lead: "Ready to master tech writing in 3 months?"
+lead: "Are you passionate about mastering the art of technical writing? 
+Whether you're a beginner or looking to refine your skills, our mentorship program offers invaluable guidance and support."
 date: 2023-09-07T16:33:54+02:00
 lastmod: 2023-09-07T16:33:54+02:00
 draft: false

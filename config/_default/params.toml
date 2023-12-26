@@ -1,6 +1,6 @@
 # Hugo
-title = "My Docs"
-description = "Congrats on setting up a new Doks project!"
+title = "Technical writing mentorship program"
+description = ""
 images = ["cover.png"]
 
 # Doks (@hyas/doks-core)

@@ -22,7 +22,7 @@ These fantastic folks volunteered their time and skills to create this Open Sour
 
 ## Coach:
 
-- Wisdom Nwokocha: a seasoned software engineer and a technical writer
+- [Wisdom Nwokocha:](https://www.linkedin.com/in/joklinztech) a seasoned software engineer and a technical writer
 
 ## Meet the Mentors:
 

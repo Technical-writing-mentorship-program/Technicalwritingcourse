@@ -34,7 +34,10 @@ Editing is a vital aspect of the technical writing process. It gives technical d
 
 Everyone can coin a write-up, but what makes a valuable document is its conciseness and correctness, edited to fit all required criteria (Such as style, tone, audience needs, and so on).
 
-Robert Cormier says - “The beautiful part of writing is that you don't have to get it right the first time, unlike, say, a brain surgeon. You can always do it better; find the exact word, the apt phrase, the leaping simile." Editing is the other layer of work that makes your technical documentation better.
+Robert Cormier says - “The beautiful part of writing is that you don't have to get it right the first time, unlike, say, a brain surgeon.
+
+You can always do it better; find the exact word, the apt phrase, the leaping simile." Editing is the other layer of work that makes your technical documentation better.
+
 In this module, you will learn how to edit for clarity, conciseness, and accuracy (correctness), the importance of technical editing, and the various aspects of editing in detail.
 
 ## Importance of Editing
@@ -44,12 +47,17 @@ Editing is an essential step in the documentation process for several reasons: I
 Here are other vital importance of editing in technical documentation.
 
 - **Error Prevention and Correction**: Technical editing ensures meticulous proofreading to identify and correct errors in grammar, spelling, punctuation, and technical details. Documentation must be error-free to maintain credibility.
+
 - **Consistency in Style and Terminology**: Editing ensures consistent terminology, style, and formatting use throughout the document. Consistent language helps readers understand and interpret technical information, reducing the risk of confusion or misinterpretation.
+
 - **Alignment with Standards and Guidelines**: Organizations have specific standards and guidelines for technical documentation, and editing ensures the document aligns with these standards. It aids compliance and adherence to the organizations' regulations.
+
 - **Enhancement of Readability and Accessibility**: Technical editing involves breaking down complex ideas into digestible chunks, using appropriate headings and subheadings, and incorporating visual elements. Enhanced readability makes technical content more user-friendly for a diverse audience.
+
 - **Logical Organization of Information**: Technical editing involves assessing the document's structure and organization. Editing ensures a logical arrangement of information, following a clear and coherent flow. A well-organized document facilitates efficient information retrieval and supports the reader's understanding of complex concepts.
 
-> The coming section talks about the various aspects of editing.
+{{< callout context="tip" title="The coming section talks about the various aspects of editing." icon="rocket" >}}
+{{< /callout >}}
 
 ## Different types of editing
 
@@ -59,13 +67,18 @@ Here are other vital importance of editing in technical documentation.
 
 <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/zzz49tg57h6bkelkjnyp.png" alt="Image description" width="400" height="300">
 
-Ernest Hemingway says - "The first draft of anything is shit." These emphasize the importance of the editing process in refining initial drafts; there are different kinds of editing in some technical documentation. You may use all the various methods for one documentation; in others, you may pair one of each to meet your editing goals.
+Ernest Hemingway says - "The first draft of anything is shit." These emphasize the importance of the editing process in refining initial drafts; there are different kinds of editing in some technical documentation.
+
+You may use all the various methods for one documentation; in others, you may pair one of each to meet your editing goals.
 
 This section explores Proofreading, Copy editing, and substantive editing.
 
 ### Proofreading
 
-Proofreading focuses on finding and correcting errors within writing, grammar, tense, language, typography, spelling, and punctuation. It is carefully examining your work for any remaining mistakes. With proofreading, it is important to slowly and carefully read through your work.
+Proofreading focuses on finding and correcting errors within writing, grammar, tense, language, typography, spelling, and punctuation.
+It is carefully examining your work for any remaining mistakes.
+
+With proofreading, it is important to slowly and carefully read through your work.
 
 Here is a more in-depth look at how proofreading works in the context of technical documentation:
 

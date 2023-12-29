@@ -65,3 +65,18 @@ To preview your changes before publishing, run the project with Hugo server:
 ```
 hugo server
 ```
+
+5. Add Images
+
+Images can be aceessed from the **images** folder located in the **assests** folder. To add add an image:
+
+1. Give your image an appropriate naming convention.  For instance, if you are working on module 9 and you have an image called **"data.png"**, for clerity, rename it to **"module9_data.png"**.
+
+1. Upload your image in the images folder. 
+
+1. Call the image whenever you want to use it. The code below shows how to do this
+
+```
+
+
+```

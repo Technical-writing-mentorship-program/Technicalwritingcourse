@@ -18,11 +18,11 @@ seo:
   noindex: false # false (default) or true
 ---
 
-Guides lead a user through a specific task they want to accomplish, often with a sequence of steps. Writing a good guide requires thinking about what your users are trying to do.
+<!-- Guides lead a user through a specific task they want to accomplish, often with a sequence of steps. Writing a good guide requires thinking about what your users are trying to do. -->
 
-## Further reading
+<!-- ## Further reading -->
 
-- Read [about how-to guides](https://diataxis.fr/how-to-guides/) in the Diátaxis framework
+<!-- - Read [about how-to guides](https://diataxis.fr/how-to-guides/) in the Diátaxis framework -->
 
 ## Table of Contents
 - What is technical writing?
@@ -199,7 +199,8 @@ There are numerous reasons for writing technical documentation. The purpose of t
 There are five technical writing steps.
 
 
-![alt text](assets/images/module1_audience_for_technical_writing.png)
+![alt text](/assets/images/module1_technical_writting_steps.png)
+
 
 
 

@@ -74,9 +74,9 @@ Images can be aceessed from the **images** folder located in the **assests** fol
 
 1. Upload your image in the images folder. 
 
-1. Call the image whenever you want to use it. The code below shows how to do this
+1. Call the image anywhere you want to use it. The code below shows how to do this
 
 ```
-
+![alt text](/assets/images/module9_data.png)
 
 ```

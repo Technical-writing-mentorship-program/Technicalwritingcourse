@@ -64,11 +64,14 @@ This involves answering the question: "***What do I aim to achieve with my techn
 
 **Here are some steps to take to define the purpose of your document:**
 
-1. **Identify the Goal:** Identify the primary goal of your document. Are you informing, instructing, or persuading your audience? Your goal will determine the structure and tone of your document.
-2. **Define The Outcome:** After reading your document, what should your user be able to do? Would you want them to be able to implement a specific Technology? Or would you want them to understand a complex concept? Or do you want them to be able to make an informed decision based on the information gained from your document?
-3. **Content Scope:** With your goal and outcome clearly defined, you can draft out the scope of your document's content based on the technical background of your audience. What information should your audience have already, and what information do you want them to gain from your document?
+##### 1. Identify the Goal:
+Identify the primary goal of your document. Are you informing, instructing, or persuading your audience? Your goal will determine the structure and tone of your document.
+##### 2. Define The Outcome:
+After reading your document, what should your user be able to do? Would you want them to be able to implement a specific Technology? Or would you want them to understand a complex concept? Or do you want them to be able to make an informed decision based on the information gained from your document?
+##### 3. Content Scope:
+With your goal and outcome clearly defined, you can draft out the scope of your document's content based on the technical background of your audience. What information should your audience have already, and what information do you want them to gain from your document?
 
-According to Google’s Technical Writing course:
+##### According to Google’s Technical Writing course:
 
 `A Good documentation = knowledge and skills your audience needs to do a task − your audience's current knowledge and skills`
 
@@ -83,13 +86,13 @@ Here are some key sources of information:
 
 ### 1. Subject Matter Experts (SMEs):
 
-A subject matter expert is a person with deep knowledge, experience, and prowess in a particular field called "**the subject**". They are a valuable and reliable source for:
+A subject-matter expert is a person with deep knowledge, experience, and prowess in a particular field called "**the subject**". They are a valuable and reliable source for:
 
 * Accurate and insightful information,
 * Best practices, and
 * Everyday solutions to real-world problems, etc.
 
-Within that subject matter/field. You can get information from SMEs through:
+Within that subject/field. You can get information from SMEs through:
 
 * Interviews,
 * Meetings, and
@@ -162,18 +165,24 @@ You can maximize your information-gathering process by developing a research pla
 
 ### Setting Clear Objectives
 
-1. **Be Specific**: Clearly outline the goals and objectives of your technical document by answering the question: "***What specific information(s) do you want to deliver to your audience?***" This will serve as a roadmap in your information-gathering process.
+##### 1. Be Specific:
+Clearly outline the goals and objectives of your technical document by answering the question: "***What specific information(s) do you want to deliver to your audience?***" This will serve as a roadmap in your information-gathering process.
 
 For example, instead of a general goal like “***Understanding Programming Principles***”, you can aim for a more targeted objective like: “***Understanding SOLID principle in Kotlin***“. This way, you have mapped out what software principle and programming language you will show examples.
 
-2. **Prioritize**: Based on your audience analysis, you can prioritize what topics are most important, thus focusing your research efforts on areas that will have the greatest impact on your audience. In our previous example: “***Understanding SOLID principle in Kotlin***”, you don't need to research what Kotlin programming language is and its history because your audience is expected to be already familiar with Kotlin programming language.
-3. **Use the Question-Driven Approach**: Create specific questions that your audience should be able to answer after reading your document. This will act as a guide and help your technical document to stay focused and relevant.
+##### 2. Prioritize:
+Based on your audience analysis, you can prioritize what topics are most important, thus focusing your research efforts on areas that will have the greatest impact on your audience. In our previous example: “***Understanding SOLID principle in Kotlin***”, you don't need to research what Kotlin programming language is and its history because your audience is expected to be already familiar with Kotlin programming language.
+##### 3. Use the Question-Driven Approach:
+Create specific questions that your audience should be able to answer after reading your document. This will act as a guide and help your technical document to stay focused and relevant.
 
 ### Time Management
 
-1. **Set Deadlines**: Break down your research process into different phases and allocate realistic deadlines for each phase.
-2. **Balance Depth and Breadth**: From your audience analysis, allocate time based on how important and complex a topic is.
-3. **Schedule Reviews**: Have review sessions to assess your progress against the roadmap and timelines you set and make adjustments when needed.
+##### 1. Set Deadlines:
+Break down your research process into different phases and allocate realistic deadlines for each phase.
+##### 2. Balance Depth and Breadth:
+From your audience analysis, allocate time based on how important and complex a topic is.
+##### 3. Schedule Reviews:
+Have review sessions to assess your progress against the roadmap and timelines you set and make adjustments when needed.
 
 ## Gather Information
 
@@ -183,14 +192,19 @@ There are various methods and techniques you can employ when gathering informati
 
 ### 1. Systematic Data Collection:
 
-* **Follow your Research Plan**: Your research plan already includes the goal of your document, the specific topics you would cover, and the questions your document should answer. Follow these systematically, collecting information according to them. This will help you stay organized and on track, ensuring you cover all the necessary areas.
-* **Adapt**: Information is always evolving, so be prepared to alter your research plan as new information emerges.
-* **Have a Documentation Strategy**: There are various ways of documenting your findings. Choose one and stay consistent with it. This will make it easier and quicker to recover and reference information later.
+##### i.  Follow your Research Plan:
+Your research plan already includes the goal of your document, the specific topics you would cover, and the questions your document should answer. Follow these systematically, collecting information according to them. This will help you stay organized and on track, ensuring you cover all the necessary areas.
+##### ii. Adapt:
+Information is always evolving, so be prepared to alter your research plan as new information emerges.
+##### iii. Have a Documentation Strategy:
+There are various ways of documenting your findings. Choose one and stay consistent with it. This will make it easier and quicker to recover and reference information later.
 
 ### 2. Note-Taking and Organization
 
-* **Effective Note-Taking Techniques**: Implementing the Cornell method or mind mapping can make your note-taking process more efficient. You can even choose to combine them, whichever works best for you. This will help you in documenting and retrieving information effectively.
-* **Categorization and Tagging**: Using categories, tags, or labels to organize your notes will make it easier to find information, identify knowledge gaps, and connect information.
+##### i. Effective Note-Taking Techniques:
+Implementing the Cornell method or mind mapping can make your note-taking process more efficient. You can even choose to combine them, whichever works best for you. This will help you in documenting and retrieving information effectively.
+##### ii. Categorization and Tagging:
+Using categories, tags, or labels to organize your notes will make it easier to find information, identify knowledge gaps, and connect information.
 
 ### 3. Cross-verification and Fact-Checking
 
@@ -214,16 +228,21 @@ Doing this may expose you to questions and challenges your audience might face.
 
 After gathering information for your technical document, you must read through the technical document and critically analyze its:
 
-* **Accuracy and Credibility**: By ensuring the information is correct, reliable, current, and error and bias free. Also, evaluate that your information source is reliable, from an expert, or a reputable publication.
-* **Relevance**: Confirm that the information answers the questions you stated your document should answer in your Research Plan. This ensures that your document satisfies its purpose and objectives and is suitable for your audience. You can remove irrelevant information from your writing to maintain the focus of the writing.
+##### 1. Accuracy and Credibility:
+By ensuring the information is correct, reliable, current, and error and bias free. Also, evaluate that your information source is reliable, from an expert, or a reputable publication.
+##### 2. Relevance:
+Confirm that the information answers the questions you stated your document should answer in your Research Plan. This ensures that your document satisfies its purpose and objectives and is suitable for your audience. You can remove irrelevant information from your writing to maintain the focus of the writing.
 
 ### Synthesize your Data:
 
 After evaluating, you must organize your technical writing in a logical and orderly manner that is easy to read through and understand. You can do this by:
 
-* **Connecting the Dots**: Identify the key themes and concepts and extract the central and unifying ideas. Look beyond the individual bits of information but see how they relate. One way to do this is by linking theoretical concepts with their real-world application or comparing the new technology with a technology your audience is familiar with.
-* **Organize the information into a logical structure**: Structure your document so that each piece builds to the next. Highlight important points and findings while ensuring an uninterrupted flow of information in your document. Identifying repeating concepts in your documents can help you structure complex information in an easy-to-understand way.
-* **Storytelling and Engagement Strategies**: An example of a storytelling approach is relating abstract concepts in your document to physical, relatable things or systems. Including real-world examples or hypothetical scenarios to illustrate important points will also help to make your document more engaging.
+##### 1. Connecting the Dots:
+Identify the key themes and concepts and extract the central and unifying ideas. Look beyond the individual bits of information but see how they relate. One way to do this is by linking theoretical concepts with their real-world application or comparing the new technology with a technology your audience is familiar with.
+##### 2. Organize the information into a logical structure:
+Structure your document so that each piece builds to the next. Highlight important points and findings while ensuring an uninterrupted flow of information in your document. Identifying repeating concepts in your documents can help you structure complex information in an easy-to-understand way.
+##### 3. Storytelling and Engagement Strategies:
+An example of a storytelling approach is relating abstract concepts in your document to physical, relatable things or systems. Including real-world examples or hypothetical scenarios to illustrate important points will also help to make your document more engaging.
 
 ## Review and revise your information.
 

@@ -158,7 +158,7 @@ It is used by companies to provide information about upgrades in their product o
 
 There are five technical writing steps.
 
-<img src="https://github.com/Technical-writing-mentorship-program/Technicalwritingcourse/blob/main/assets/images/module1_technical_writting_steps.png" alt="Image description" width="400" height="300">
+<img src="https://res.cloudinary.com/practicaldev/image/fetch/s--_rMBQNHl--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_800/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/l2y9jgpfaxyg9wkox56o.png" width="400" height="300">
 
 
 

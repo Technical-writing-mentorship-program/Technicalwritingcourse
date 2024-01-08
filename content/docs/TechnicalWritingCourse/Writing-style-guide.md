@@ -3,7 +3,7 @@ title: "Writing style guide"
 description: "Writing style guides are essential for technical writers. They ensure consistency in writing style and formatting, making documentation clear and easy to understand. This section explains the importance of style guides and how to create one."
 summary: "Understanding the importance of style guides and how to create one."
 date: 2023-12-17T13:13:49+20:00
-lastmod: 2023-12-17T13:12:49+02:00
+lastmod: 2024-1-8T14:18:49+02:00
 draft: false
 menu:
   docs:
@@ -96,7 +96,9 @@ Government agencies and academic institutions rely on style guides to uphold con
 - [Gov.uk Style Guide](https://www.gov.uk/guidance/style-guide)
 - [Plainlanguage.gov](https://www.plainlanguage.gov/guidelines/)
 
-**Note:** When using a style guide, make sure to follow it persistently throughout your documentation. Don't mix and match different style guides because the representation of information can confuse your readers.
+{{< callout context="note" title="Note" icon="info-circle" >}}
+When using a style guide, make sure to follow it persistently throughout your documentation. Don't mix and match different style guides because the representation of information can confuse your readers.
+{{< /callout >}}
 
 ## How to create a writing style guide
 
@@ -216,7 +218,9 @@ The following are important attributes that must be contained in your style guid
 
   _**Figure 6**. DigitalOcean's image and assets style guide section_
 
-**Note:** Striking the right balance is crucial for a style guide—it shouldn't be excessively long, diverting writers' focus and resulting in subpar documentation, nor should it be too short, leading to random filling of missing parts and conflicts in style. An optimal style guide typically spans three to five pages, offering sufficient, focused information for writers.
+{{< callout context="note" title="Note" icon="info-circle" >}}
+Striking the right balance is crucial for a style guide—it shouldn't be excessively long, diverting writers' focus and resulting in subpar documentation, nor should it be too short, leading to random filling of missing parts and conflicts in style. An optimal style guide typically spans three to five pages, offering sufficient, focused information for writers.
+{{< /callout >}}
 
 ### Utilize a Template
 

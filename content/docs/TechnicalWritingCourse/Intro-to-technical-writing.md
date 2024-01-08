@@ -136,21 +136,34 @@ Now, let’s use the questions above to know your target audience.
 
 There are numerous reasons for writing technical documentation. The purpose of technical documentation includes:
 
-- **Guidance:** It provides comprehensive and easy-to-follow guidance, instructions, and directions on using a product, software, or service.
+- ### Guidance: 
+It provides comprehensive and easy-to-follow guidance, instructions, and directions on using a product, software, or service.
 
-- **Reference:** It serves as reference materials for product or service users, as it details a product's different features.
+- ### Reference: 
 
-- **Training materials:** Technical documentation can be used to train new users, employees, or technicians.
+It serves as reference materials for product or service users, as it details a product's different features.
 
-- **Updates:** It is used by companies to provide information about upgrades in their product or service.
+- ### Training materials: 
 
-**Troubleshooting:** Technical documentation provides troubleshooting guides that can help users when they encounter a problem while using a product.
+Technical documentation can be used to train new users, employees, or technicians.
+
+- ### Updates: 
+It is used by companies to provide information about upgrades in their product or service.
+
+- ### Troubleshooting:
+
+ Technical documentation provides troubleshooting guides that can help users when they encounter a problem while using a product.
 
 ## Technical writing process
 
 There are five technical writing steps.
 
-**Plan:** A popular saying goes, “If you fail to plan, you plan to fail.”. This principle applies to technical writing as well.
+<img src="https://github.com/Technical-writing-mentorship-program/Technicalwritingcourse/blob/main/assets/images/module1_technical_writting_steps.png" alt="Image description" width="400" height="300">
+
+
+
+-  ### Plan:
+ A popular saying goes, “If you fail to plan, you plan to fail”. This principle applies to technical writing as well.
 
 Before you begin writing, planning and preparing for your topic is essential. Planning can be as straightforward as creating bullet points outlining the project you want to cover.
 
@@ -158,13 +171,16 @@ This mental exercise will help you address important questions about your audien
 
 At the planning stage, you need to determine your document's purpose and scope, writing style, and length. A well-thought-out plan saves time and ensures a successful outcome.
 
-**Structure:** Structure serves as the backbone of your documentation, providing the necessary organization for the hierarchy of your document.
+- ### Structure:
+
+ Structure serves as the backbone of your documentation, providing the necessary organization for the hierarchy of your document.
 
 You lay a framework for how your document will unfold at this stage. For instance, creating a table of contents enhances the organization of your content and mentally prepares you for the writing journey.
 
 It is also important to note that the structure of your document is not a rigid constraint; it evolves as you write, allowing for adaptability as you write.
 
-**Research:** This stage is the foundational step in the documentation process. It involves getting all the information you need for your writing.
+- ### Research:
+ This stage is the foundational step in the documentation process. It involves getting all the information you need for your writing.
 
 This includes reading relevant documents, watching videos, and interviewing experts in the field.
 
@@ -175,7 +191,8 @@ Furthermore, gaining hands-on experience through practice deepens your knowledge
 
 Taking this approach will enable you to give your audience detailed and up-to-date information about the Google Chrome browser.
 
-**Write:** In this stage, you will put all the information you have gathered into a logical and cohesive document. You must also write simply, clearly, and concisely, always keeping your audience in mind.
+- ### Write:
+ In this stage, you will put all the information you have gathered into a logical and cohesive document. You must also write simply, clearly, and concisely, always keeping your audience in mind.
 
 Adapt your language to resonate with the specific needs of your readers. For instance, if you are writing for beginners, focus on clarity and provide explanations to ensure solid understanding.
 
@@ -189,7 +206,9 @@ For clarity, incorporate images, code snippets, tables, screenshots, and diagram
 
 As you craft your document, envision your audience engaging with the material and tailor your writing to meet their expectations.
 
-**Review:** This stage is the polishing stage. In this stage, your goal is to ensure the overall quality of your document. Start with reviewing your document.
+- ### Review:
+
+ This stage is the polishing stage. In this stage, your goal is to ensure the overall quality of your document. Start with reviewing your document.
 
 As you review, pay close attention to maintaining a consistent writing style, correcting grammatical errors, and addressing misspelled words.
 
@@ -197,7 +216,8 @@ Next, consider seeking the input of experts or colleagues in the field to review
 
 The goal of this stage is not just error correction but the refinement of your document to meet the highest standard of clarity and professionalism.
 
-**Publish:** This stage is the final step in releasing your document to reach your intended audience.
+- ### Publish:
+ This stage is the final step in releasing your document to reach your intended audience.
 
 Platforms like Medium, Hashnode, Devrel, and other social media platforms can serve as avenues for sharing your work with the world.
 

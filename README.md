@@ -18,6 +18,7 @@ Navigate to the cloned project directory and install the project's dependencies:
 cd Technicalwritingcourse
 npm install
 npm install @hyas/doks-core@lastest
+bash npm create hyas@lastest --template doks
 ```
 
 3.  Add your content:

@@ -99,6 +99,8 @@ Get ready to start building projects
 
 - Susan Idii: A seasoned software engineer with a passion for clear communication, leads the Introduction to Technical Writing section, demystifying core concepts and best practices.
 
+- [Temitope Victoria:](https://www.linkedin.com/in/temitope-victoria/) a technical writer and cloud engineer. 
+
 _Why free?_ We believe everyone deserves to learn tech writing, no matter what! So grab this open-source course and unlock your future in tech writing.
 
 {{< callout context="tip" title="Remeber" icon="rocket" >}}

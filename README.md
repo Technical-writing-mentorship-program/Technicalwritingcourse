@@ -68,7 +68,7 @@ seo:
 
 4. Preview your changes:
 
-To preview your changes before publishing, run the project with Hugo server:
+To preview your changes before publishing, run the project using the Hugo server:
 
 ```bash
 hugo server

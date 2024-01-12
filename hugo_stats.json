@@ -4,7 +4,7 @@
       "a",
       "article",
       "aside",
-      "base",
+      "blockquote",
       "body",
       "br",
       "button",
@@ -45,7 +45,6 @@
       "script",
       "section",
       "small",
-      "source",
       "span",
       "strong",
       "style",
@@ -60,8 +59,7 @@
       "time",
       "title",
       "tr",
-      "ul",
-      "video"
+      "ul"
     ],
     "classes": [
       "DocSearch-Label",
@@ -85,7 +83,6 @@
       "btn-toggle",
       "btn-toggle-nav",
       "callout",
-      "callout-Note",
       "callout-body",
       "callout-content",
       "callout-icon",
@@ -394,36 +391,24 @@
       "active-voice",
       "addressing-punctuation-issues",
       "alignment-with-standards-and-guidelines",
-
       "annotely",
-
       "api-documentation",
       "artificial-intelligence-ai-tools",
       "assignment-tasks",
       "assignment-title",
-      "assignment-title-the-movie-database-tmdb-api-documentation",
       "audience-for-technical-documentation",
-
-      "avoid-ambiguity",
-      "avoid-wordiness",
-      "buttonColorMode",
-
       "authoring-tools",
       "avoid-ambiguity",
       "avoid-wordiness",
       "buttonColorMode",
       "chatgpt",
-
       "check-spelling-and-typographical-errors",
       "check-technical-details",
       "checking-for-spelling-errors",
       "clarity",
       "conciseness",
       "conciseness-and-efficiency",
-
-
       "conclusion",
-
       "condense-lists",
       "consistency",
       "consistency-in-abbreviations-and-acronyms",
@@ -470,36 +455,25 @@
       "glasp",
       "google-calendar",
       "government-and-academic-style-guides",
-
-  
       "grammar",
       "grammar-and-syntax",
       "grammarly",
-
       "guidance",
       "highlighting",
       "how-to-choose-the-right-software",
       "how-to-create-a-writing-style-guide",
       "how-to-create-effective-diagrams",
-
-      "identify-redundant-information",
-      "identify-your-sources-of-information",
-      "identifying-and-correcting-typos",
-
       "how-to-use-tech-writing-tools-to-create-and-edit-technical-documentation",
       "identify-redundant-information",
       "identify-your-sources-of-information",
       "identifying-and-correcting-typos",
       "image-tools",
-
       "importance-of-editing",
       "information-evaluation",
       "installation-guides",
       "integrated-development-environment-ide",
       "introduction",
-
       "keyword-surfer",
-
       "logical-organization-of-information",
       "meet-the-authors",
       "module-10-information-gathering",
@@ -510,9 +484,7 @@
       "online-help",
       "open-source-style-guides",
       "organization-and-structure",
-
       "plagiarism",
-
       "plan",
       "popular-style-guides-and-how-to-pick-one-for-your-project",
       "portfolio-websites",
@@ -534,10 +506,8 @@
       "review",
       "review-and-revise-your-information",
       "revision-and-iteration",
-
       "screen-capture",
       "search-engine-optimization-seo",
-
       "search-form",
       "searchModal",
       "searchModalLabel",
@@ -552,12 +522,6 @@
       "sentence-and-paragraph-structure",
       "setting-clear-objectives",
       "simplify-technical-jargon",
-
-      "socialMenu",
-      "structural-reorganization",
-      "structure",
-      "style-and-consistency",
-
       "snipping-tool",
       "socialMenu",
       "static-site-generators",
@@ -565,9 +529,9 @@
       "structure",
       "style-and-consistency",
       "submission-deadline-no-deadline",
-
       "substantive-editing",
       "synthesize-your-data",
+      "table-of-content",
       "table-of-contents",
       "technical-proposal",
       "technical-reports",
@@ -584,9 +548,7 @@
       "tools-you-can-use-to-create-diagrams",
       "training-materials",
       "troubleshooting",
-
       "types-of-technical-writing-tools",
-
       "understand-your-audience",
       "updates",
       "usability-and-accessibility",
@@ -595,9 +557,7 @@
       "use-bullet-points-and-headings",
       "user-manuals",
       "utilize-a-template",
-
       "video-tools",
-
       "visual-aids",
       "visual-elements",
       "visual-elements-1",

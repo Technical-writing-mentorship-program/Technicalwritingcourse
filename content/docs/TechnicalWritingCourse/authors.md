@@ -99,7 +99,9 @@ Get ready to start building projects
 
 - Susan Idii: A seasoned software engineer with a passion for clear communication, leads the Introduction to Technical Writing section, demystifying core concepts and best practices.
 
+
 - [Blessing Ene Anyebe](https://www.linkedin.com/in/anyebe-blessing-ene-kwennb/): Blessing is a well-rounded tech person with skills that include design and frontend engineering. Currently she focuses on Technical Writing, API documentation, and Search Engine Optimization.
+
 
 _Why free?_ We believe everyone deserves to learn tech writing, no matter what! So grab this open-source course and unlock your future in tech writing.
 

@@ -31,7 +31,7 @@ Robert Cormier says - “The beautiful part of writing is that you don't have to
 
 Editing is an essential step in the documentation process for several reasons: It ensures clarity, conciseness, and accuracy in a technical document, but we will explore this aspect in the coming sections of this module.
 
-Other vital importance of editing in technical documentation include;
+**_Other vital importance of editing in technical documentation include;_**
 
 ##### Error Prevention and Correction:
 
@@ -78,7 +78,7 @@ It is carefully examining your work for any remaining mistakes.
 
 With proofreading, it is important to slowly and carefully read through your work.
 
-An in-depth look at how proofreading works in the context of technical documentation:
+**_An in-depth look at how proofreading works in the context of technical documentation:_**
 
 ##### Identifying and Correcting Typos:
 
@@ -108,6 +108,23 @@ Proofreading pays attention to the document's formatting and layout, including i
 
 Proofreading verifies that abbreviations are consistently applied throughout the document and are defined or explained upon first use.
 
+**_Example of proofreading;_**
+
+```
+Original:
+
+The studnet's preformance on the experiment was exceelent, demnstrating a thorough understandng of the scientific methode.
+```
+
+```
+Proofread Version:
+
+The student's performance in the experiment was excellent, demonstrating a thorough understanding of the scientific method.
+```
+
+{{< callout context="tip" title="Notice how (student's), (excellent), and (demostrating) were wrongly spelt in the orginal." icon="rocket" >}}
+{{< /callout >}}
+
 It's important to note that proofreading needs a keen eye for detail, a strong command of language, and a thorough understanding of the subject matter. While proofreading can enhance the overall quality of technical documentation by eliminating surface-level errors, it is just the first step in the editing process.
 
 Subsequent editing stages, such as copy and substantive editing, focus on more comprehensive aspects of the document, such as content clarity, style, and overall structure.
@@ -118,7 +135,7 @@ Copy editing involves shaping the technical documentation. It ensures factual an
 
 Copy editing ensures the document adheres to a specific style guide, maintains a consistent voice, and presents technical information in a manner that is accessible and engaging for the target audience.
 
-How copy editing works in technical documentation:
+**_How copy editing works in technical documentation:_**
 
 ##### Style and Consistency:
 
@@ -148,6 +165,23 @@ Copy editing reviews visual elements such as tables, figures, diagrams, and capt
 
 If the document includes references, citations, or footnotes, copy editing verifies their accuracy and consistency with the chosen citation style, such as APA, MLA, or a specific industry standard.
 
+**_Example of copy editing;_**
+
+```
+Original:
+
+The company's marketing strategy is good. They aim to reach a wide audience and their products are superior than others in the market.
+```
+
+```
+Copy Edited Version:
+
+The company's marketing strategy is effective. They aim to reach a broad audience, and their products are superior to others in the market.
+```
+
+{{< callout context="tip" title="Notice how copy editing fixed the sentence structure and the tone/voice." icon="rocket" >}}
+{{< /callout >}}
+
 Copy editing ensures the document conveys accurate technical information clearly, concisely, and engagingly, enhancing its usability and effectiveness.
 
 ### Substantive Editing
@@ -167,7 +201,7 @@ With cohesiveness, it ensures information flows logically. You can use a where y
 
 Substantive editing checks the intended use, organization, flow, and content strength. You can also check if too much or too little information is present and if similar information is presented consistently across documentation. But it is always better to use less information. Thomas Jefferson says - “The most valuable of all talents is that of never using two words when one will do."
 
-How substantive editing works in technical documentation:
+**_How substantive editing works in technical documentation:_**
 
 ##### Content Evaluation:
 
@@ -209,6 +243,23 @@ Substantive editing reviews and suggests improvements to visual elements, such a
 
 It considers the usability and accessibility of the document. It includes assessing its navigational aids, such as headings, bulleted lists, and links, to ensure readers easily find information. Ensuring better accessibility of the document to individuals with disabilities in compliance with relevant accessibility standards.
 
+**_Example of substantive editing;_**
+
+```
+Original:
+
+In this report, we discuss various aspects of climate change. The first section is about causes, the second is about effects, and the third is about solutions.
+```
+
+```
+Substantive Edited Version:
+
+This report comprehensively explores climate change, covering its causes, effects, and potential solutions in three distinct sections.
+```
+
+{{< callout context="tip" title="Notice how substantive editing fixed the overall structure, organization, and content." icon="rocket" >}}
+{{< /callout >}}
+
 Substantive editing is a critical step in producing high-quality technical documentation. It ensures the documentation communicates accurate technical information but does so in a way that is clear, well-structured, and tailored to the needs of the intended audience, ultimately enhancing its value and impact.
 
 {{< callout context="tip" title="The coming section explores editing technical documentation for clarity, conciseness, and accuracy (correctness)." icon="rocket" >}}
@@ -226,7 +277,7 @@ Editing for clarity, conciseness, and correctness is a standard for producing cr
 
 Clarity refers to the quality of being clear, transparent, and easily understood. It involves expressing ideas, information, or instructions in a way that is easy for the audience to comprehend. A clear message is free from ambiguity, confusion, or unnecessary complexity.Editing for clarity ensures easy understanding for its target audience.
 
-How to edit for clarity:
+**_How to edit for clarity:_**
 
 ##### Understand Your Audience:
 
@@ -264,6 +315,21 @@ Provide real-world examples and analogies to explain technical concepts. Analogi
 
 Editing for clarity is an iterative process. After making initial edits, revisit the document multiple times to refine and enhance its clarity. Each revision brings the content closer to your clarity goals.
 
+```
+Original:
+
+The new software update has implemented changes to the user interface, providing users with a more seamless and user-friendly experience.
+```
+
+```
+Clarity Edit:
+
+The latest software update has improved the user interface, making it more seamless and user-friendly.
+```
+
+{{< callout context="tip" title="Notice how clarity edit gave better understanding and easy readability to the text." icon="rocket" >}}
+{{< /callout >}}
+
 By applying these principles and techniques, you can effectively edit technical documentation for clarity, making it more accessible and understandable for your intended readers, regardless of their level of technical expertise. Clarity in technical documentation is vital to its usability and effectiveness.
 
 ### Conciseness
@@ -272,7 +338,7 @@ Conciseness refers to the quality of expressing ideas in a precise manner withou
 
 Editing for conciseness is also an essential aspect of creating better technical documentation. A concise document is more engaging, easier to read, and communicates information more efficiently.
 
-How to edit for conciseness:
+**_How to edit for conciseness:_**
 
 ##### Identify Redundant Information:
 
@@ -319,6 +385,23 @@ Prioritize the most critical information and eliminate less vital details. Your 
 
 Bullet points and headings can break up dense paragraphs and provide concise, organized information. Use them to present key points and create a visually appealing document.
 
+**_Example of editing for conciseness;_**
+
+```
+Original:
+
+It is important to note that the primary reason for the increase in sales is due to the fact that our marketing strategies have been highly effective.
+```
+
+```
+Conciseness Edit:
+
+The increase in sales is primarily due to our highly effective marketing strategies.
+```
+
+{{< callout context="tip" title="Notice how concise edit eliminated unnecessary words/information and made the content more direct. to the text." icon="rocket" >}}
+{{< /callout >}}
+
 Editing for conciseness is a better balance between preserving essential information and removing unnecessary content. A concise document saves the writer and the reader time and enhances the documentation overall readability and impact.
 
 ### Correctness (Accuracy)
@@ -327,7 +410,7 @@ Correctness refers to the quality or state of being accurate, free from errors, 
 
 Editing for correctness is another critical aspect of technical documentation. Ensuring the information in your documentation is precise and error-free is essential to maintain the credibility of the content.
 
-How to edit for correctness:
+**_How to edit for correctness:_**
 
 ##### Fact-Checking:
 
@@ -350,6 +433,23 @@ Accurate grammar and syntax are essential for clear and precise communication. R
 Even a single typographical error casts doubt on the accuracy of your document. Proofread the document carefully to catch spelling mistakes and typographical errors. Spelling errors can change the meaning of a word or term, leading to confusion.
 
 Maintaining accuracy in technical documentation is paramount, as errors lead to misunderstandings, misinterpretations, or potentially dangerous consequences. Thoroughly editing for accuracy helps ensure your document is a reliable and trustworthy source of information.
+
+**_Example of editing for correctness;_**
+
+```
+Original:
+
+The experiment was conducted on April 25th, 2022, and the results were published in the June 2022 edition of the journal.
+```
+
+```
+Correctness Edit:
+
+The experiment was conducted on April 25, 2022, and the results were published in the June 2022 edition of the journal.
+```
+
+{{< callout context="tip" title="Notice how correctness edit ensured the document is accurate and free from errors." icon="rocket" >}}
+{{< /callout >}}
 
 Editing improves the quality of your technical documentation, making it a valuable resource that communicates concisely and accurately to your target audience.
 

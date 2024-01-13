@@ -26,14 +26,21 @@ A writing style guide, also known as a manual of style, is a document containing
 
 Whether crafting a blog article or collaborating with a documentation team, a style guide is crucial in maintaining a consistent brand voice and tone. Without this consistency in your writing style, your readers may struggle to grasp your intended message.
 
-For instance, observe how the Google Developers documentation style guide utilizes its guide to maintain consistency. In the following example, you'll see clear guidelines on formatting lists. They not only provide clear guidelines but also examples on representing various list types in their documentation and how to introduce them.
+For instance, observe how the Google Developers documentation style guide utilizes its guide to maintain consistency.
 
-{{< callout context="tips" title="Google Developers Documentation Style Guide Sample" icon="info-circle" >}}
+In the following example, you'll see clear guidelines on formatting lists. They not only provide clear guidelines but also examples on representing various list types in their documentation and how to introduce them.
+
+{{< callout context="tip" title="Google Developers Documentation Style Guide Sample" icon="rocket" >}}
 **Introductory sentences for lists**
 
-Introduce a list with the appropriate context. In most cases, precede a list with an introductory sentence. The sentence can end with a colon or a period; usually a colon if it immediately precedes the list, usually a period if there's more material (such as a note paragraph) between the introduction and the list.
+Introduce a list with the appropriate context. In most cases, precede a list with an introductory sentence.
+
+The sentence can end with a colon or a period; usually a colon if it immediately precedes the list, usually a period if there's more material (such as a note paragraph) between the introduction and the list.
 
 If the list doesn't need any additional context other than the heading that immediately precedes the list, it's OK to not introduce a list with an introductory sentence.
+
+- lie
+- lie
 
 To learn more about Google Developers Documentation style guide, visit [Google Developers Documentation style guide](https://developers.google.com/style/lists).
 {{< /callout >}}

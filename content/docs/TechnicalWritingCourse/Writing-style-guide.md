@@ -3,7 +3,7 @@ title: "Writing style guide"
 description: "Writing style guides are essential for technical writers. They ensure consistency in writing style and formatting, making documentation clear and easy to understand. This section explains the importance of style guides and how to create one."
 summary: "Understanding the importance of style guides and how to create one."
 date: 2023-12-17T13:13:49+20:00
-lastmod: 2023-12-17T13:12:49+02:00
+lastmod: 2024-1-11T19:46:49+02:00
 draft: false
 menu:
   docs:
@@ -26,77 +26,24 @@ A writing style guide, also known as a manual of style, is a document containing
 
 Whether crafting a blog article or collaborating with a documentation team, a style guide is crucial in maintaining a consistent brand voice and tone. Without this consistency in your writing style, your readers may struggle to grasp your intended message.
 
-## Why is it important for technical writers to have a writing style guide?
+For instance, observe how the Google Developers documentation style guide utilizes its guide to maintain consistency.
 
-The primary aim of a style guide is to enhance communication between the writer and the reader. With a well-defined style guide, writers can uphold consistency throughout their documents, thereby reducing the cognitive load on readers.
+In the following example, you'll see clear guidelines on formatting lists. They not only provide clear guidelines but also examples on representing various list types in their documentation and how to introduce them.
 
-Here are a few reasons why adopting a style guide is beneficial:
+{{< callout context="tip" title="Google Developers Documentation Style Guide Sample" icon="rocket" >}}
+**Introductory sentences for lists**
 
-- **Establishing a distinct brand representation**: Take popular blogs like MDN or DigitalOcean, for instance. You can quickly identify an article as theirs simply by observing the writing style. This is made possible by their adherence to a style guide, ensuring a consistent brand voice and tone.
+Introduce a list with the appropriate context. In most cases, precede a list with an introductory sentence.
 
-  This is crucial as it contributes to building trust with your readers. When readers trust you, they are more inclined to return for more content. This is particularly significant for technical writers aiming to establish a brand or companies seeking to cultivate a community around their product.
+The sentence can end with a colon or a period; usually a colon if it immediately precedes the list, usually a period if there's more material (such as a note paragraph) between the introduction and the list.
 
-- **Minimize readers' cognitive load**: A style guide enables you to sustain consistency in your writing style, simplifying the understanding of your documentation for readers. Without a style guide, readers would need to invest more time deciphering your documentation due to inconsistency of content.
+If the list doesn't need any additional context other than the heading that immediately precedes the list, it's OK to not introduce a list with an introductory sentence.
 
-  The longer it takes for readers to comprehend your documentation, the higher the likelihood they'll leave. This is detrimental for your blog or company, as it translates to potential loss of subscribers or customers.
+- lie
+- lie
 
-- **Simplified editing process**: A style guide streamlines the editing of your documentation for your editors. With a clear set of guidelines, they know exactly what to look for during the editing process. Without a style guide, editors would spend more time figuring out what needs editing.
-
-  The longer editors spend searching for useful information to edit your documentation, the greater the chance of making mistakes. These errors can have significant repercussions on the credibility of your documentation.
-
-- **Single Source of Truth (SSOT)**: It serves as a centralized point of reference containing all information related to your documentation. SSOT encompasses grammar and punctuation rules, formatting guidelines, terminologies, abbreviations, as well as visual elements like images and diagrams.
-
-  The lack of a style guide means that your writers will invest more time figuring out how to format their documents. This is due to the absence of a trustworthy source containing all the necessary information for editing their documentation.
-
-## Popular style guides and how to pick one for your project
-
-While you can create your own style guide (which we'll discuss later), there are advantages to relying on an existing guide. Using an existing style guide saves time since you don't have to create one from scratch; you can simply choose one that fits your needs and start using it immediately.
-
-Style guides are categorized based on the type of content they address. Examples include style guides for technical documentation, academic writing, open source documentation, and more. Here are details about some of the most popular style guides, aiding you in selecting the one suitable for your project.
-
-### Publishing style guides
-
-Publishing style guides are employed by publishers to uphold consistency in their publications. They encompass aspects such as grammar, punctuation, formatting, and more. Here are details about some of the most popular publishing style guides:
-
-- [The Chicago Manual of Style](https://www.chicagomanualofstyle.org/home.html)
-- [The Associated Press Stylebook](https://www.apstylebook.com/)
-- [The MLA Style Manual](https://style.mla.org/)
-- [The APA Style Guide](https://apastyle.apa.org/)
-
-### Technical writing style guides
-
-Technical writing style guides assist technical writers in ensuring consistency in their documentation. They address aspects like punctuation, terminology, abbreviations, images, diagrams, and more. Here are details about some of the most popular technical writing style guides:
-
-- [Microsoft Manual of Style](https://docs.microsoft.com/en-us/style-guide/welcome/)
-- [Google Developer Documentation Style Guide](https://developers.google.com/style)
-- [Apple Style Guide](https://help.apple.com/asg/)
-- [IBM Style Guide](https://www.ibm.com/ibm/styleguide/)
-
-### Content style guides
-
-Many blogs and companies utilize concise style guides to uphold consistency in their content. These guides cover various aspects to ensure uniformity. Here are details about some of the most popular content style guides:
-
-- [MDN Web Docs](https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide)
-- [DigitalOcean](https://www.digitalocean.com/community/tutorials/digitalocean-s-technical-writing-guidelines)
-- [The Red Hat Style Guide](https://styleguide.redhat.com/)
-- [The Mailchimp Content Style Guide](https://styleguide.mailchimp.com/)
-
-### Open source style guides
-
-Guides governing technical content in open source projects are crucial for maintaining consistency. Here are details about some of the most popular open source style guides:
-
-- [Gnome Documentation Style Guide](https://developer.gnome.org/documentation/guidelines/devel-docs.html)
-- [Open SUSE Documentation Style Guide](https://documentation.suse.com/style/current/single-html/docu_styleguide/)
-
-### Government and Academic style guides
-
-Government agencies and academic institutions rely on style guides to uphold consistency in their content. Here are details about some of the most popular government and academic style guides:
-
-- [Princeton University Style Guide](https://communications.princeton.edu/guides-tools/princeton-editorial-style-guide/)
-- [Gov.uk Style Guide](https://www.gov.uk/guidance/style-guide)
-- [Plainlanguage.gov](https://www.plainlanguage.gov/guidelines/)
-
-**Note:** When using a style guide, make sure to follow it persistently throughout your documentation. Don't mix and match different style guides because the representation of information can confuse your readers.
+To learn more about Google Developers Documentation style guide, visit [Google Developers Documentation style guide](https://developers.google.com/style/lists).
+{{< /callout >}}
 
 ## How to create a writing style guide
 
@@ -216,7 +163,9 @@ The following are important attributes that must be contained in your style guid
 
   _**Figure 6**. DigitalOcean's image and assets style guide section_
 
-**Note:** Striking the right balance is crucial for a style guide—it shouldn't be excessively long, diverting writers' focus and resulting in subpar documentation, nor should it be too short, leading to random filling of missing parts and conflicts in style. An optimal style guide typically spans three to five pages, offering sufficient, focused information for writers.
+{{< callout context="note" title="Note" icon="info-circle" >}}
+Striking the right balance is crucial for a style guide—it shouldn't be excessively long, diverting writers' focus and resulting in subpar documentation, nor should it be too short, leading to random filling of missing parts and conflicts in style. An optimal style guide typically spans three to five pages, offering sufficient, focused information for writers.
+{{< /callout >}}
 
 ### Utilize a Template
 
@@ -225,3 +174,85 @@ If you prefer not to start from scratch or are on a tight deadline to create a c
 While a quick Google search yields several style guide templates, [Writers.com](https://writer.com/downloads/style-guide-template.txt) offers a particularly neat and recommended template. Downloading this template provides a solid starting point for creating your style guide.
 
 Always keep in mind that consistency is the key to a good style guide. Adhere consistently to the standards and rules you adopt.
+
+## Why is it important for technical writers to have a writing style guide?
+
+The primary aim of a style guide is to enhance communication between the writer and the reader. With a well-defined style guide, writers can uphold consistency throughout their documents, thereby reducing the cognitive load on readers.
+
+Below are few reasons why adopting a style guide is beneficial:
+
+- **Establishing a distinct brand representation**: Take popular blogs like MDN or DigitalOcean, for instance. You can quickly identify an article as theirs simply by observing the writing style. This is made possible by their adherence to a style guide, ensuring a consistent brand voice and tone.
+
+  {{< callout context="tips" title="MDN Writing Style Guide Sample" icon="info-circle" >}}
+  **How to add images and media**
+
+  To add an image to a document, add your image file to the document's folder, and then reference the image from within the document's index.md file using Markdown image syntax or the equivalent HTML <img> element.
+
+  To learn more about MDN writing style guide, visit [MDN Web Docs](https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines).
+  {{< /callout >}}
+
+  This is crucial as it contributes to building trust with your readers. When readers trust you, they are more inclined to return for more content. This is particularly significant for technical writers aiming to establish a brand or companies seeking to cultivate a community around their product.
+
+- **Minimize readers' cognitive load**: A style guide enables you to sustain consistency in your writing style, simplifying the understanding of your documentation for readers. Without a style guide, readers would need to invest more time deciphering your documentation due to inconsistency of content.
+
+  The longer it takes for readers to comprehend your documentation, the higher the likelihood they'll leave. This is detrimental for your blog or company, as it translates to potential loss of subscribers or customers.
+
+- **Simplified editing process**: A style guide streamlines the editing of your documentation for your editors. With a clear set of guidelines, they know exactly what to look for during the editing process. Without a style guide, editors would spend more time figuring out what needs editing.
+
+  The longer editors spend searching for useful information to edit your documentation, the greater the chance of making mistakes. These errors can have significant repercussions on the credibility of your documentation.
+
+- **Single Source of Truth (SSOT)**: It serves as a centralized point of reference containing all information related to your documentation. SSOT encompasses grammar and punctuation rules, formatting guidelines, terminologies, abbreviations, as well as visual elements like images and diagrams.
+
+  The lack of a style guide means that your writers will invest more time figuring out how to format their documents. This is due to the absence of a trustworthy source containing all the necessary information for editing their documentation.
+
+## Popular style guides and how to pick one for your project
+
+While you can create your own style guide (which we'll discuss later), there are advantages to relying on an existing guide. Using an existing style guide saves time since you don't have to create one from scratch; you can simply choose one that fits your needs and start using it immediately.
+
+Style guides are categorized based on the type of content they address. Examples include style guides for technical documentation, academic writing, open source documentation, and more. Here are details about some of the most popular style guides, aiding you in selecting the one suitable for your project.
+
+##### 1. Publishing style guides
+
+Publishing style guides are employed by publishers to uphold consistency in their publications. They encompass aspects such as grammar, punctuation, formatting, and more. Here are details about some of the most popular publishing style guides:
+
+- [The Chicago Manual of Style](https://www.chicagomanualofstyle.org/home.html)
+- [The Associated Press Stylebook](https://www.apstylebook.com/)
+- [The MLA Style Manual](https://style.mla.org/)
+- [The APA Style Guide](https://apastyle.apa.org/)
+
+##### 2. Technical writing style guides
+
+Technical writing style guides assist technical writers in ensuring consistency in their documentation. They address aspects like punctuation, terminology, abbreviations, images, diagrams, and more. Here are details about some of the most popular technical writing style guides:
+
+- [Microsoft Manual of Style](https://docs.microsoft.com/en-us/style-guide/welcome/)
+- [Google Developer Documentation Style Guide](https://developers.google.com/style)
+- [Apple Style Guide](https://help.apple.com/asg/)
+- [IBM Style Guide](https://www.ibm.com/ibm/styleguide/)
+
+##### 3. Content style guides
+
+Many blogs and companies utilize concise style guides to uphold consistency in their content. These guides cover various aspects to ensure uniformity. Here are details about some of the most popular content style guides:
+
+- [MDN Web Docs](https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide)
+- [DigitalOcean](https://www.digitalocean.com/community/tutorials/digitalocean-s-technical-writing-guidelines)
+- [The Red Hat Style Guide](https://styleguide.redhat.com/)
+- [The Mailchimp Content Style Guide](https://styleguide.mailchimp.com/)
+
+##### 4. Open source style guides
+
+Guides governing technical content in open source projects are crucial for maintaining consistency. Here are details about some of the most popular open source style guides:
+
+- [Gnome Documentation Style Guide](https://developer.gnome.org/documentation/guidelines/devel-docs.html)
+- [Open SUSE Documentation Style Guide](https://documentation.suse.com/style/current/single-html/docu_styleguide/)
+
+##### 5. Government and Academic style guides
+
+Government agencies and academic institutions rely on style guides to uphold consistency in their content. Here are details about some of the most popular government and academic style guides:
+
+- [Princeton University Style Guide](https://communications.princeton.edu/guides-tools/princeton-editorial-style-guide/)
+- [Gov.uk Style Guide](https://www.gov.uk/guidance/style-guide)
+- [Plainlanguage.gov](https://www.plainlanguage.gov/guidelines/)
+
+{{< callout context="note" title="Note" icon="info-circle" >}}
+When using a style guide, make sure to follow it persistently throughout your documentation. Don't mix and match different style guides because the representation of information can confuse your readers.
+{{< /callout >}}

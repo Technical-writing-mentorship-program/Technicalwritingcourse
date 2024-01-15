@@ -18,7 +18,7 @@ seo:
   noindex: false # false (default) or true
 ---
 
-Picture this: You've got a team of ten contributors working on the same documentation project. Each of these writers all having their unique writing style. As the documentation project concludes, what you're left with is a document marked by inconsistent styles, creating confusion for your readers. The solution to this disaster is a writing style guide.
+## Module content
 
 ## What is a writing style guide?
 
@@ -26,7 +26,9 @@ A writing style guide, also known as a manual of style, is a document containing
 
 Whether crafting a blog article or collaborating with a documentation team, a style guide is crucial in maintaining a consistent brand voice and tone. Without this consistency in your writing style, your readers may struggle to grasp your intended message.
 
-For instance, observe how the Google Developers documentation style guide utilizes its guide to maintain consistency. In the following example, you'll see clear guidelines on formatting lists. They not only provide clear guidelines but also examples on representing various list types in their documentation and how to introduce them.
+For instance, observe how the Google Developers documentation style guide utilizes its guide to maintain consistency.
+
+In the following example, you'll see clear guidelines on formatting lists. They not only provide clear guidelines but also examples on representing various list types in their documentation and how to introduce them.
 
 {{< callout context="tips" title="Google Developers Documentation Style Guide Sample" icon="info-circle" >}}
 **Introductory sentences for lists**

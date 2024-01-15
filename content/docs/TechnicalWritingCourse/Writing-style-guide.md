@@ -18,7 +18,12 @@ seo:
   noindex: false # false (default) or true
 ---
 
-Picture this: You've got a team of ten contributors working on the same documentation project. Each of these writers all having their unique writing style. As the documentation project concludes, what you're left with is a document marked by inconsistent styles, creating confusion for your readers. The solution to this disaster is a writing style guide.
+## Module content
+
+- What is a writing style guide?
+- How to create a writing style guide
+- Why is it important for technical writers to have a writing style guide?
+- Popular style guides and how to pick one for your project
 
 ## What is a writing style guide?
 
@@ -39,21 +44,32 @@ The sentence can end with a colon or a period; usually a colon if it immediately
 
 If the list doesn't need any additional context other than the heading that immediately precedes the list, it's OK to not introduce a list with an introductory sentence.
 
-- lie
-- lie
+Introduce a list with a complete sentence, not a partial one that's completed by the list items. You can also use the following as a noun phrase (see following in the word list).
+
+##### Recommended
+
+Use the **Submit** button for any of the following purposes:
+
+- To submit the form.
+- To indicate that you're done.
+- To allow the next person to enter their data.
 
 To learn more about Google Developers Documentation style guide, visit [Google Developers Documentation style guide](https://developers.google.com/style/lists).
 {{< /callout >}}
 
 ## How to create a writing style guide
 
-If you're unable to find a pre-existing guide that aligns with your company's style and brand, consider creating an in-house guide. This allows you to tailor the guide to effectively communicate your company's values, establish a desired voice and tone, and ensure the use of appropriate grammar and punctuation. In this section, you'll delve into these essential aspects and more for creating a comprehensive style guide.
+If you're unable to find a pre-existing guide that aligns with your company's style and brand, consider creating an in-house guide. This allows you to tailor the guide to effectively communicate your company's values, establish a desired voice and tone, and ensure the use of appropriate grammar and punctuation.
+
+In this section, you'll delve into these essential aspects and more for creating a comprehensive style guide.
 
 The following are important attributes that must be contained in your style guide:
 
 - **Establishing the Company's Brand**
 
-  The initial step in crafting an effective guide involves aligning the writer's mindset with the company's identity, values, and objectives. This is crucial as it enables the writer to comprehend the company's brand and how to effectively communicate it to the reader.
+  The initial step in crafting an effective guide involves aligning the writer's mindset with the company's identity, values, and objectives.
+
+  This step is crucial as it enables the writer to comprehend the company's brand and how to effectively communicate it to the reader.
 
   Addressing a company's brand entails emphasizing its values, mission, and vision. Placing your company's brand identity at the forefront of your style guide is essential, serving as a constant reminder for the writer.
 
@@ -73,7 +89,13 @@ The following are important attributes that must be contained in your style guid
 
 - **Voice and Tone**
 
-  Understanding voice and tone is crucial, yet it can be misunderstood by many writers. Voice represents the personality of your writing, while tone sets the mood. For instance, if you're composing a blog post about a new product, aim for a friendly voice and an excited tone.
+  Understanding voice and tone is crucial, yet it can be misunderstood by many writers. Voice represents the personality of your writing, while tone sets the mood.
+
+  {{< callout context="tip" title="Voice and Tone tip" icon="rocket" >}}
+
+  If you're composing a blog post about a new product, aim for a friendly voice and an excited tone.
+
+  {{< /callout >}}
 
   For companies with diverse social media outlets for customer communication, maintaining a consistent voice and tone is essential. This consistency plays a key role in building trust with customers.
 
@@ -164,7 +186,9 @@ The following are important attributes that must be contained in your style guid
   _**Figure 6**. DigitalOcean's image and assets style guide section_
 
 {{< callout context="note" title="Note" icon="info-circle" >}}
+
 Striking the right balance is crucial for a style guide—it shouldn't be excessively long, diverting writers' focus and resulting in subpar documentation, nor should it be too short, leading to random filling of missing parts and conflicts in style. An optimal style guide typically spans three to five pages, offering sufficient, focused information for writers.
+
 {{< /callout >}}
 
 ### Utilize a Template
@@ -184,11 +208,13 @@ Below are few reasons why adopting a style guide is beneficial:
 - **Establishing a distinct brand representation**: Take popular blogs like MDN or DigitalOcean, for instance. You can quickly identify an article as theirs simply by observing the writing style. This is made possible by their adherence to a style guide, ensuring a consistent brand voice and tone.
 
   {{< callout context="tips" title="MDN Writing Style Guide Sample" icon="info-circle" >}}
+
   **How to add images and media**
 
   To add an image to a document, add your image file to the document's folder, and then reference the image from within the document's index.md file using Markdown image syntax or the equivalent HTML <img> element.
 
   To learn more about MDN writing style guide, visit [MDN Web Docs](https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines).
+
   {{< /callout >}}
 
   This is crucial as it contributes to building trust with your readers. When readers trust you, they are more inclined to return for more content. This is particularly significant for technical writers aiming to establish a brand or companies seeking to cultivate a community around their product.
@@ -207,9 +233,13 @@ Below are few reasons why adopting a style guide is beneficial:
 
 ## Popular style guides and how to pick one for your project
 
-While you can create your own style guide (which we'll discuss later), there are advantages to relying on an existing guide. Using an existing style guide saves time since you don't have to create one from scratch; you can simply choose one that fits your needs and start using it immediately.
+While you can create your own style guide (which we'll discuss later), there are advantages to relying on an existing guide.
 
-Style guides are categorized based on the type of content they address. Examples include style guides for technical documentation, academic writing, open source documentation, and more. Here are details about some of the most popular style guides, aiding you in selecting the one suitable for your project.
+Using an existing style guide saves time since you don't have to create one from scratch; you can simply choose one that fits your needs and start using it immediately.
+
+Style guides are categorized based on the type of content they address. Examples include style guides for technical documentation, academic writing, open source documentation, and more.
+
+Here are details about some of the most popular style guides, aiding you in selecting the one suitable for your project.
 
 ##### 1. Publishing style guides
 
@@ -254,5 +284,7 @@ Government agencies and academic institutions rely on style guides to uphold con
 - [Plainlanguage.gov](https://www.plainlanguage.gov/guidelines/)
 
 {{< callout context="note" title="Note" icon="info-circle" >}}
+
 When using a style guide, make sure to follow it persistently throughout your documentation. Don't mix and match different style guides because the representation of information can confuse your readers.
+
 {{< /callout >}}

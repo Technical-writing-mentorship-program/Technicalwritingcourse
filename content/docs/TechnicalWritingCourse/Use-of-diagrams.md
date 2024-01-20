@@ -38,6 +38,10 @@ Diagrams in your documentation can enhance communication. Consider using them fo
 
 - **Time-saving:** In the fast-paced world of technology, time matters. Diagrams help users quickly find information, reducing the time spent searching through extensive documentation.
 
+{{< callout context="tip" title="Did you know?" icon="rocket" >}}
+Did you know that most installation manuals use images to guide users through the process instead of text? Utitlizing this method allows these manuals to be used by people who speak different languages.
+{{< /callout >}}
+
 Diagrams are useful for conveying messages in various technical documentation forms, such as API documentation, how-to guides, tutorials, or a simple README file. However, creating diagrams may be challenging without design skills or proper tools.
 
 ## Tools you can use to create diagrams

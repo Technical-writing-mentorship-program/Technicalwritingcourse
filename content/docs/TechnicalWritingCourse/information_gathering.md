@@ -28,7 +28,8 @@ Information gathering in the context of technical writing is the process of coll
 
 It is focused on acquiring specific knowledge about a particular technology, process, or software you want to write on.
 
-**In this Module, you will learn how to:**
+
+{{< callout context="note" title="In this Module, you will learn how to:" icon="info-circle" >}}
 
 * Define your audience and purpose.
 * Identify your sources of information:
@@ -41,6 +42,9 @@ It is focused on acquiring specific knowledge about a particular technology, pro
 * Gather information.
 * Evaluate and synthesize the information you have gathered.
 * Review and revise your information.
+
+
+{{< /callout >}}
 
 ## Define Your Audience And Purpose
 
@@ -71,9 +75,14 @@ After reading your document, what should your user be able to do? Would you want
 ##### 3. Content Scope:
 With your goal and outcome clearly defined, you can draft out the scope of your document's content based on the technical background of your audience. What information should your audience have already, and what information do you want them to gain from your document?
 
-##### According to Google’s Technical Writing course:
+
+{{< callout context="note" title="Formula for a good documentation" icon="info-circle" >}}
+
+According to Google’s Technical Writing course:
 
 `A Good documentation = knowledge and skills your audience needs to do a task − your audience's current knowledge and skills`
+
+{{< /callout >}}
 
 Aligning your information gathering with your document's purpose ensures your technical document's relevance and effectiveness.
 
@@ -100,11 +109,14 @@ Within that subject/field. You can get information from SMEs through:
 
 Apart from being a source of valuable information, SMEs can also help validate the accuracy and relevance of your content.
 
-Here are some helpful tips when engaging with an SME:
+
+{{< callout context="note" title="Here are some helpful tips when engaging with an SME:" icon="info-circle" >}}
 
 * Ask open-ended questions. This way, you are giving the expert room to provide detailed explanations.
 * Follow up the discussion with a summary of your thoughts to be sure you didn't miss anything and confirm you got everything right.
 * Build a collaboration with the SMEs to help with future support and review.
+
+{{< /callout >}}
 
 ### 2. Technical Documentation:
 
@@ -140,7 +152,6 @@ Online forums and communities relating to your Subject matter are great places t
 
 You can also get to ask questions and gather insights from community members. Again, you should verify the credibility of the information before using it to supplement your document.
 
-Online forums and communities are also great places to connect with SMEs.
 
 ### 5. Additional Sources of Information:
 
@@ -151,7 +162,11 @@ Other sources of information include but are not limited to:
 * User Feedback and Reviews,
 * Tutorial Videos, etc.
 
+{{< callout context="note" title="" icon="info-circle" >}}
+
 Always verify the credibility of the information obtained from these sources and cross-reference them to get reliable and accurate content.
+
+{{< /callout >}}
 
 Taking a deeper approach to gathering information from various sources can significantly increase the quality and credibility of your technical writing.
 

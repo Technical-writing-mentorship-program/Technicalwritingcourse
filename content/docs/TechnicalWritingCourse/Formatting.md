@@ -180,10 +180,10 @@ Bullet lists can also add whitespace to a document to improve readability. Howev
 
 ### Here are some examples of how bullet lists can be used:
 
-1. To list the ingredients for a recipe
-2. To outline the steps in a procedure
-3. To summarize the key points of a presentation,
-4. To create a checklist of tasks
+-  To list the ingredients for a recipe
+-  To outline the steps in a procedure
+-  To summarize the key points of a presentation,
+-  To create a checklist of tasks
 
 
 ## Numbered List

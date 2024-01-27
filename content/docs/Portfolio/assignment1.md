@@ -1,5 +1,5 @@
 ---
-title: "API Documentation assignment"
+title: "API Documentation Assignment"
 description: "This assignment is about"
 summary: ""
 date: 2023-08-07T16:04:48+02:00

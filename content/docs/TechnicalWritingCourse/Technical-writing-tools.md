@@ -686,7 +686,7 @@ Write an article detailing what you learnt from this course. This article should
   </label><br>
 
   <h2>Question 2:</h2>
-  <p>WWhich of the following is not a publishing site?</p>
+  <p>Which of the following is not a publishing site?</p>
   <label>
     <input type="radio" name="question2" value="site"> Madcap Flare
   </label><br>

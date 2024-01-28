@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About Us on TWMP</title>
+    <link>/docs/about-us/</link>
+    <description>Recent content in About Us on TWMP</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright (c) 2023 TWMP</copyright>
+    <lastBuildDate>Sat, 07 Oct 2023 16:10:37 +0200</lastBuildDate><atom:link href="/docs/about-us/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Us</title>
+      <link>/docs/about-us/about-us/</link>
+      <pubDate>Sat, 07 Oct 2023 16:04:48 +0200</pubDate>
+      
+      <guid>/docs/about-us/about-us/</guid>
+      <description>Our program is designed for individuals who are looking to improve their technical writing skills and advance their careers in fields such as software development, community management, and developer advocacy.</description>
+    </item>
+    
+  </channel>
+</rss>

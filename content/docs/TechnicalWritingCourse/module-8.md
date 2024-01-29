@@ -262,6 +262,62 @@ This report comprehensively explores climate change, covering its causes, effect
 
 Substantive editing is a critical step in producing high-quality technical documentation. It ensures the documentation communicates accurate technical information but does so in a way that is clear, well-structured, and tailored to the needs of the intended audience, ultimately enhancing its value and impact.
 
+<body>
+{{< details "Check your knowledge" >}}
+<form id="quizForm">
+  <h2>Question 1:</h2>
+  <p>What is the purpose of proofreading in technical writing?</p>
+  <label>
+    <input type="radio" name="question1" value="grammar"> To correct grammatical errors
+  </label><br>
+  <label>
+    <input type="radio" name="question1" value="complex"> To rewrite the entire document
+  </label><br>
+  <label>
+    <input type="radio" name="question1" value="London"> To add more technical details
+  </label><br>
+  <h2>Question 2:</h2>
+  <p>Why is editing considered a vital aspect of the technical writing process?</p>
+  <label>
+    <input type="radio" name="question2" value="3"> To add complexity and confusion to technical documents.
+  </label><br>
+  <label>
+    <input type="radio" name="question2" value="report"> Only to correct spelling errors.
+  </label><br>
+  <label>
+    <input type="radio" name="question2" value="4"> To ensure accuracy, consistency, clarity, and better user comprehension of technical documents.
+  </label><br>
+  <br>
+  <input type="submit" value="Check your answers" onclick="gradeQuiz()">
+</form>
+<p id="result"></p>
+<script>
+  function gradeQuiz() {
+    event.preventDefault(); // Prevent form submission
+    const answers = {
+      question1: document.querySelector('input[name="question1"]:checked').value,
+      question2: document.querySelector('input[name="question2"]:checked').value
+    };
+    // Correct answers
+    const correctAnswers = {
+      question1: "grammar",
+      question2: "4"
+    };
+    let score = 0;
+    // Check answers and calculate score
+    if (answers.question1 === correctAnswers.question1) {
+      score++;
+    }
+    if (answers.question2 === correctAnswers.question2) {
+      score++;
+    }
+    // Display the score
+    document.getElementById('result').innerHTML = `You scored ${score} out of 2`;
+  }
+</script>
+</body>
+{{< /details >}}
+
 {{< callout context="tip" title="The coming section explores editing technical documentation for clarity, conciseness, and accuracy (correctness)." icon="rocket" >}}
 {{< /callout >}}
 
@@ -452,6 +508,33 @@ The experiment was conducted on April 25, 2022, and the results were published i
 {{< /callout >}}
 
 Editing improves the quality of your technical documentation, making it a valuable resource that communicates concisely and accurately to your target audience.
+
+### Exercise:
+
+**Complete the following exercises before procedding to the next module.**
+
+1. Carefully edit this technical document for all of the editing How's and Types discussed in this module.
+
+```
+Growth, an ever-present facet of the human experience, manifests in myriad dimensions throughout our lives. It transcends physicality, weaving into personal development, knowledge acquisition, emotional resilience, and societal progress. As we traverse life's intricate tapestry, growth emerges as our guiding compass through uncharted territories of potential.
+Growth is a dynamic process, an intricate dance between aspiration and realization. It encapsulates evolution, a continuous journey unfolding in response to external stimuli, internal reflections, and the interplay of resilience and adaptability. In personal development, growth mirrors a seedling breaking through soil, reaching for the sun, driven by an innate desire to thrive.
+The journey of growth often commences in the crucible of challenges. Adversity, far from being an obstacle, serves as fertile ground where seeds of potential sprout and resilience takes root. Challenges are not adversaries but catalysts for growth, urging us to stretch beyond perceived limitations, fostering courage, and fortifying resolve. It is through the crucible of challenges that character is forged, and latent capacities within us unfurl.
+Educational pursuits exmeplify transformative arenas for growth. The acquisition of knowledge, skills, and perspectives propels individuals toward intellectual maturity and a deeper understanding of the world. Growth in education is not confined to the classroom; it permeates every facet of life, shaping critical thinking, problem-solving abilities, and a nuanced appreciation for diverse viewpoints.
+Beyond personal development, societal growth emerges from collective endeavors to address challenges, innovate, and build a more equitable and sustainable future. Societal growth is a tapestry woven by the collaborative efforts of individuals and communities, each contributing unique threads to the fabric of progress. It encompasses advancements in technology, improvements in infrastructure, and the evolution of cultural norms that reflect an ever-changing collective consciousness.
+Economic growth, a pivotal aspect of societal progress, is not merely measured in monetary terms but also in the expansion of opportunities, the reduction of inequalities, and the enhancement of overall well-being. A flourishing economy is one that fosters innovation, embraces diversity, and ensures that the benefits of growth are inclusive, reaching all segments of society.
+The dynamisc of growth extend into the intricate realm of emotional and spiritual maturation. Embracing vulnerability, cultivating empathy, and navigating complex landscapes of human relationships contribute to profound personal growth. Emotional resilience, forged through life's trials, enables individuals to weather storms with grace and emerge stronger, more compassionate beings.
+In the natural world, growth is evident in the cycles of seasons, where flora and fauna undergo transformations, demonstrating the cyclical nature of life. Trees, with roots delving deep into the earth, symbolize stability, while their branches reaching skyward epitomize the ceaseless pursuit of higher aspirations. Nature, with its intricate ecosystems, teaches us the interconnectedness of growth—a reminder that individual and collective flourishing are intertwined.
+The metaphor of growth extends to the corporate landscape, where businesses navigate competitive climates and market fluctuations. Sustainable growth in business involves strategic foresight, adaptability to changing market dynamics, and a commitment to ethical practices. Organizations that prioritize innovation, employee development, and societal responsibility contribute not only to their growth but also to the broader fabric of societal advancement.
+Growth, however, is not a linear trajectory but a mosaic of peaks and valleys, successes and setbacks. It necessitates reflection on failures as opportunities for learning and refinement. The willingness to reassess goals, recalibrate strategies, and pivot in response to evolving circumstances is integral to sustained growth.
+In the pursuit of growth, the concept of self-discovery assumes paramount significance. Knowing oneself—acknowledging strengths, confronting weaknesses, and understanding one's passions—forms the bedrock for intentional personal and professional growth. This introspective journey fosters authenticity, aligning individual aspirations with actions that propel growth.
+As we navigate the myriad dimensions of growth, it is crucial to recognize that the pursuit of progress is not a solitary endeavor. Collaborative growth, where individuals, communities, and societies uplift each other, catalyzes a collective ascent toward shared ideals. Growth becomes not only a personal quest but a shared commitment to building a world that reflects our highest aspirations.
+In conclusion, growth is the rhythmic heartbeat that animates the human experience. It is the unfurling of potential, the refinement in the crucible of challenges, and the collective endeavor to create a better world. Embracing the dynamics of growth requires resilience, adaptability, and a steadfast commitment to continuous learning. In this intricate dance of evolution, we discover the profound beauty of becoming—who we are meant to be and who we are continually striving to become.
+
+```
+
+Answer the following questions.
+
+<iframe src="https://forms.gle/GbVyVD466ouHzMLM7" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
 {{< callout context="tip" title="The next module explores in-depth the use of diagrams in technical documentation." icon="rocket" >}}
 {{< /callout >}}

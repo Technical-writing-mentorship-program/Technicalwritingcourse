@@ -774,6 +774,54 @@ Tailor your diagrams to your audience. In network security, align a network topo
 <p><strong>5. Utilize Visual Hierarchy:</strong>
 Guide the reader&rsquo;s eye with visual hierarchy. In plain diagrams explaining conceptual ideas, use size, color, or placement to emphasize key elements. This enhances understanding, whether illustrating a decision-making process or showcasing relationships between concepts.</p>
 <p>It&rsquo;s not just about creating a diagram but creating one that works. Keep it simple, consistent, and aligned with your audience&rsquo;s needs. Your diagrams, when simple and aligned, become powerful tools for communication in any technical domain. Embrace the visual language, and let your diagrams tell a compelling story!</p>
+<body>
+<details>
+  <summary>Check your knowledge</summary>
+  <form id="quizForm">
+  <h2>Question 1:</h2>
+  <p> As a technical writer creating diagrams, I should do the following EXCEPT:</p>
+  <label>
+    <input type="radio" name="question1" value="consistent"> Use consistent design elements
+  </label><br>
+  <label>
+    <input type="radio" name="question1" value="quality"> Use poor quality images
+  </label><br>
+  <label>
+    <input type="radio" name="question1" value="alt-text"> Utilize alt text for images
+  </label><br>
+  <label>
+    <input type="radio" name="question1" value="high-resolution"> Provide high-resolution images
+  </label><br>
+  <br>
+  <input type="submit" value="Check your answer" onclick="gradeQuiz()">
+</form>
+<p id="result"></p>
+<script>
+  function gradeQuiz() {
+    event.preventDefault(); // Prevent form submission
+
+    const answers = {
+      question1: document.querySelector('input[name="question1"]:checked').value,
+    };
+
+    // Correct answers
+    const correctAnswers = {
+      question1: "quality",
+    };
+
+    let score = 0;
+
+    // Check answers and calculate score
+    if (answers.question1 === correctAnswers.question1) {
+      score++;
+    }
+
+    // Display the score
+    document.getElementById('result').innerHTML = You scored ${score} out of 1;
+  }
+</script>
+</body>
+</details>
 <h2 id="dos-and-donts-for-effective-technical-diagrams">Do&rsquo;s and Don&rsquo;ts for effective technical diagrams<a href="#dos-and-donts-for-effective-technical-diagrams" class="anchor" aria-hidden="true">#</a> </h2>
 <p>As with any concept, usage rules apply. Consider the following when creating diagrams for technical documentation:</p>
 <p><strong>Do&rsquo;s for Using Images in Technical Documentation:</strong></p>
@@ -804,6 +852,54 @@ Guide the reader&rsquo;s eye with visual hierarchy. In plain diagrams explaining
 <p><strong>Unified formats:</strong> Stick to consistent image formats for a polished look. Whether you&rsquo;re a technical writer or developer, using a unified format enhances professionalism and readability.</p>
 </li>
 </ul>
+<body>
+<details>
+  <summary>Check your knowledge</summary>
+  <form id="quizForm">
+  <h2>Question 2:</h2>
+  <p>Why is it important to give proper attribution when using images created by others in technical documentation?</p>
+  <label>
+    <input type="radio" name="question2" value="no impact"> It has no impact on ethical standards
+  </label><br>
+  <label>
+    <input type="radio" name="question2" value="exclusivity"> It ensures exclusivity for image creators
+  </label><br>
+  <label>
+    <input type="radio" name="question2" value="ethical"> It maintains ethical standards in content creation
+  </label><br>
+  <label>
+    <input type="radio" name="question2" value="confusion"> It increases confusion for readers
+  </label><br>
+  <br>
+  <input type="submit" value="Check your answer" onclick="gradeQuiz()">
+</form>
+<p id="result"></p>
+<script>
+  function gradeQuiz() {
+    event.preventDefault(); // Prevent form submission
+
+    const answers = {
+      question2: document.querySelector('input[name="question2"]:checked').value
+    };
+
+    // Correct answers
+    const correctAnswers = {
+      question2: "ethical"
+    };
+
+    let score = 0;
+
+    // Check answers and calculate score
+    if (answers.question2 === correctAnswers.question2) {
+      score++;
+    }
+
+    // Display the score
+    document.getElementById('result').innerHTML = You scored ${score} out of 1;
+  }
+</script>
+</body>
+</details>
 <p><strong>Don&rsquo;ts for Using Images in Technical Documentation:</strong></p>
 <ul>
 <li>
@@ -819,6 +915,21 @@ Guide the reader&rsquo;s eye with visual hierarchy. In plain diagrams explaining
 <p><strong>Don&rsquo;t Neglect Consistency in Style:</strong> Maintain a consistent style throughout your technical diagrams. Whether you&rsquo;re a developer illustrating system interactions or a technical writer creating documentation, inconsistency in style can lead to confusion. Stick to a unified design language to ensure a cohesive and professional appearance across all your visual elements.</p>
 </li>
 </ul>
+<iframe src="https://forms.gle/NPS6C8bgw8aeCpS6A" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+<div class="callout callout-note d-flex flex-row mt-4 mb-4 pt-4 pe-4 pb-2 ps-3">
+  <svg class="info-circle svg-inline callout-icon me-2 mb-3"  xmlns="http://www.w3.org/2000/svg"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 12a9 9 0 1018 0A9 9 0 003 12"/><path d="M12 9h.01"/><path d="M11 12h1v4h1"/></svg>
+  <div class="callout-content">
+    <div class="callout-title">
+        <p>Exercise</p>
+
+      </div>
+    <div class="callout-body">
+      <p>Create an article on how to setup git on your local machine. Make sure to include visual representation that guides a user at each step. Also, adhere to all the tips and measures from this documentation. After review, tag @TechnicalWriti6 on Twitter to the link to your article.</p>
+
+    </div>
+  </div>
+</div>
+
 
 			<div class="page-footer-meta d-flex flex-column flex-md-row justify-content-between">
 				
@@ -842,7 +953,7 @@ Guide the reader&rsquo;s eye with visual hierarchy. In plain diagrams explaining
 
 
 <div class="edit-page">
-  <a href="https://github.com/h-enk/doks/blob/main/content/en/docs/TechnicalWritingCourse/Use-of-diagrams.md">
+  <a href="https://github.com/h-enk/doks/blob/main/content/en/docs/TechnicalWritingCourse/module-9.md">
     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-edit-2">
       <path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"></path>
     </svg>

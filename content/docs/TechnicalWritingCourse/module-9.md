@@ -93,6 +93,61 @@ Guide the reader's eye with visual hierarchy. In plain diagrams explaining conce
 
 It's not just about creating a diagram but creating one that works. Keep it simple, consistent, and aligned with your audience's needs. Your diagrams, when simple and aligned, become powerful tools for communication in any technical domain. Embrace the visual language, and let your diagrams tell a compelling story!
 
+<body>
+
+{{< details "Check your knowledge" >}}
+
+<form id="quizForm">
+  <h2>Question 1:</h2>
+  <p> As a technical writer creating diagrams, I should do the following EXCEPT:</p>
+  <label>
+    <input type="radio" name="question1" value="consistent"> Use consistent design elements
+  </label><br>
+  <label>
+    <input type="radio" name="question1" value="quality"> Use poor quality images
+  </label><br>
+  <label>
+    <input type="radio" name="question1" value="alt-text"> Utilize alt text for images
+  </label><br>
+  <label>
+    <input type="radio" name="question1" value="high-resolution"> Provide high-resolution images
+  </label><br>
+
+  <br>
+  <input type="submit" value="Check your answer" onclick="gradeQuiz()">
+</form>
+
+<p id="result"></p>
+
+<script>
+  function gradeQuiz() {
+    event.preventDefault(); // Prevent form submission
+
+    const answers = {
+      question1: document.querySelector('input[name="question1"]:checked').value,
+    };
+
+    // Correct answers
+    const correctAnswers = {
+      question1: "quality",
+    };
+
+    let score = 0;
+
+    // Check answers and calculate score
+    if (answers.question1 === correctAnswers.question1) {
+      score++;
+    }
+
+    // Display the score
+    document.getElementById('result').innerHTML = You scored ${score} out of 1;
+  }
+</script>
+
+</body>
+
+{{< /details >}}
+
 ## Do's and Don'ts for effective technical diagrams
 
 As with any concept, usage rules apply. Consider the following when creating diagrams for technical documentation:
@@ -135,6 +190,61 @@ As with any concept, usage rules apply. Consider the following when creating dia
 
 - **Unified formats:** Stick to consistent image formats for a polished look. Whether you're a technical writer or developer, using a unified format enhances professionalism and readability.
 
+<body>
+
+{{< details "Check your knowledge" >}}
+
+<form id="quizForm">
+  <h2>Question 2:</h2>
+  <p>Why is it important to give proper attribution when using images created by others in technical documentation?</p>
+  <label>
+    <input type="radio" name="question2" value="no impact"> It has no impact on ethical standards
+  </label><br>
+  <label>
+    <input type="radio" name="question2" value="exclusivity"> It ensures exclusivity for image creators
+  </label><br>
+  <label>
+    <input type="radio" name="question2" value="ethical"> It maintains ethical standards in content creation
+  </label><br>
+  <label>
+    <input type="radio" name="question2" value="confusion"> It increases confusion for readers
+  </label><br>
+
+  <br>
+  <input type="submit" value="Check your answer" onclick="gradeQuiz()">
+</form>
+
+<p id="result"></p>
+
+<script>
+  function gradeQuiz() {
+    event.preventDefault(); // Prevent form submission
+
+    const answers = {
+      question2: document.querySelector('input[name="question2"]:checked').value
+    };
+
+    // Correct answers
+    const correctAnswers = {
+      question2: "ethical"
+    };
+
+    let score = 0;
+
+    // Check answers and calculate score
+    if (answers.question2 === correctAnswers.question2) {
+      score++;
+    }
+
+    // Display the score
+    document.getElementById('result').innerHTML = You scored ${score} out of 1;
+  }
+</script>
+
+</body>
+
+{{< /details >}}
+
 **Don'ts for Using Images in Technical Documentation:**
 
 - **Avoid overcomplicating images:** Steer clear of overwhelming your audience with overly complex images. Whether you're a developer illustrating code architecture or a technical writer creating process flow diagrams, prioritize simplicity. Avoid unnecessary details that might confuse rather than clarify.
@@ -144,3 +254,11 @@ As with any concept, usage rules apply. Consider the following when creating dia
 - **Avoid including personal information:** Be cautious not to include personal information in diagrams or screenshots, especially when showcasing your codebase. Prevent exposing sensitive information to the public.
 
 - **Don't Neglect Consistency in Style:** Maintain a consistent style throughout your technical diagrams. Whether you're a developer illustrating system interactions or a technical writer creating documentation, inconsistency in style can lead to confusion. Stick to a unified design language to ensure a cohesive and professional appearance across all your visual elements.
+
+<iframe src="https://forms.gle/NPS6C8bgw8aeCpS6A" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+
+{{< callout context="note" title="Exercise" icon="info-circle" >}}
+
+Create an article on how to setup git on your local machine. Make sure to include visual representation that guides a user at each step. Also, adhere to all the tips and measures from this documentation. After review, tag @TechnicalWriti6 on Twitter to the link to your article.
+
+{{< /callout >}}

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Welcome to Technical writing mentorship program on TWMP</title>
+    <link>/</link>
+    <description>Recent content in Welcome to Technical writing mentorship program on TWMP</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright (c) 2023 TWMP</copyright>
+    <lastBuildDate>Thu, 07 Sep 2023 16:33:54 +0200</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Example Post</title>
+      <link>/blog/example-post/</link>
+      <pubDate>Thu, 07 Sep 2023 16:27:22 +0200</pubDate>
+      
+      <guid>/blog/example-post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Introduction to Markdown</title>
+      <link>/blog/introduction-to-markdown/</link>
+      <pubDate>Thu, 07 Sep 2023 16:27:22 +0200</pubDate>
+      
+      <guid>/blog/introduction-to-markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>About Us</title>
+      <link>/docs/about-us/about-us/</link>
+      <pubDate>Sat, 07 Oct 2023 16:04:48 +0200</pubDate>
+      
+      <guid>/docs/about-us/about-us/</guid>
+      <description>Our program is designed for individuals who are looking to improve their technical writing skills and advance their careers in fields such as software development, community management, and developer advocacy.</description>
+    </item>
+    
+    <item>
+      <title>API Documentation Assignment</title>
+      <link>/docs/portfolio/api-documentation-assignment/</link>
+      <pubDate>Mon, 07 Aug 2023 16:04:48 +0200</pubDate>
+      
+      <guid>/docs/portfolio/api-documentation-assignment/</guid>
+      <description>Assignment Title: The Movie Database (TMDb) API Documentation ObjectiveIn this assignment, you will create API documentation for The Movie Database (TMDb) API using Postman or any API platform you can use (Eg, Readme,Postman), a popular movie and TV show database API.</description>
+    </item>
+    
+    <item>
+      <title>Authors</title>
+      <link>/docs/technicalwritingcourse/authors/</link>
+      <pubDate>Mon, 07 Aug 2023 16:04:48 +0200</pubDate>
+      
+      <guid>/docs/technicalwritingcourse/authors/</guid>
+      <description>These fantastic folks volunteered their time and skills to create this Open Source Technical Writing Course for Beginners.
+It&amp;rsquo;s packed with useful stuff and totally FREE for everyone!</description>
+    </item>
+    
+    <item>
+      <title>Cohort 1</title>
+      <link>/docs/cohorts/cohort-1/</link>
+      <pubDate>Mon, 07 Aug 2023 16:04:48 +0200</pubDate>
+      
+      <guid>/docs/cohorts/cohort-1/</guid>
+      <description>Guides lead a user through a specific task they want to accomplish, often with a sequence of steps. Writing a good guide requires thinking about what your users are trying to do.</description>
+    </item>
+    
+    <item>
+      <title>Cohort 2</title>
+      <link>/docs/cohorts/cohort-2/</link>
+      <pubDate>Mon, 07 Aug 2023 16:04:48 +0200</pubDate>
+      
+      <guid>/docs/cohorts/cohort-2/</guid>
+      <description>Guides lead a user through a specific task they want to accomplish, often with a sequence of steps. Writing a good guide requires thinking about what your users are trying to do.</description>
+    </item>
+    
+    <item>
+      <title>Glasp User Guide Assignment</title>
+      <link>/docs/portfolio/glasp-user-guide-assignment/</link>
+      <pubDate>Mon, 07 Aug 2023 16:04:48 +0200</pubDate>
+      
+      <guid>/docs/portfolio/glasp-user-guide-assignment/</guid>
+      <description>Assignment Title: Glasp user guide Do the following:
+Generate the table of content. Choose a suitable title. Write in Markdown. Create a repo on GitHub.</description>
+    </item>
+    
+    <item>
+      <title>Intro to technical writing</title>
+      <link>/docs/technicalwritingcourse/intro-to-technical-writing/</link>
+      <pubDate>Mon, 07 Aug 2023 16:04:48 +0200</pubDate>
+      
+      <guid>/docs/technicalwritingcourse/intro-to-technical-writing/</guid>
+      <description>Table of Contents What is technical writing? Different types of technical documentation The audience for technical documentation The purpose of technical documentation The technical writing process What is technical writing?</description>
+    </item>
+    
+    <item>
+      <title>Technical Writing Talent</title>
+      <link>/docs/talent/technical-writing-talent/</link>
+      <pubDate>Mon, 07 Aug 2023 16:04:48 +0200</pubDate>
+      
+      <guid>/docs/talent/technical-writing-talent/</guid>
+      <description>Guides lead a user through a specific task they want to accomplish, often with a sequence of steps. Writing a good guide requires thinking about what your users are trying to do.</description>
+    </item>
+    
+  </channel>
+</rss>

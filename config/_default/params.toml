@@ -19,7 +19,7 @@ images = ["cover.png"]
   navBarButtonText = "Apply Now"
 
   # FlexSearch
-  flexSearch = false # true (default) or false
+  flexSearch = true # true (default) or false
   searchExclKinds = [] # list of page kinds to exclude from search indexing (e.g. ["home", "taxonomy", "term"] )
   searchExclTypes = [] # list of content types to exclude from search indexing (e.g. ["blog", "docs", "legal", "contributors", "categories"])
   showSearch = [] # [] (all pages, default) or homepage (optionally) and list of sections (e.g. ["homepage", "blog", "guides"])
@@ -49,7 +49,7 @@ images = ["cover.png"]
   showMissingLanguages = true # whether or not to show untranslated languages in the language menu; true (default) or false
 
   # Versioning
-  docsVersioning = true # false (default) or true
+  docsVersioning = false # false (default) or true
   docsVersion = "1.0"
 
   # UX

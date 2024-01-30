@@ -14,35 +14,40 @@ draft: false
 
 menu:
 
-  docs:
+  docs:
 
-    parent: ""
+    parent: ""
 
-    identifier: "example-6a1a6be4373e933280d78ea53de6158e"
+    identifier: "example-6a1a6be4373e933280d78ea53de6158e"
 
-    weight: 810
+    weight: 810
 
 toc: true
 
 seo:
 
-  title: "" # custom title (optional)
+  title: "" # custom title (optional)
 
-  description: "" # custom description (recommended)
+  description: "" # custom description (recommended)
 
-  canonical: "" # custom canonical URL (optional)
+  canonical: "" # custom canonical URL (optional)
 
-  noindex: false # false (default) or true
+  noindex: false # false (default) or true
 
 ---
 ## Module content
 
-- Headings 
+
+{{< callout context="note" title="In this Module, you will learn:" icon="info-circle" >}}
+
+- Headings
 - Example of good and bad headings
 - Lists
 - Tables
 - Figures and Images
 - How to use formatting to improve the readability and clarity of your technical documentation
+
+{{< /callout >}}
 
 
 ## Formatting - Definition
@@ -69,17 +74,21 @@ The information should be presented in a style that is easy to read and understa
 
 ## Common formatting elements for technical documentation:
 
-Headings
- Most technical articles and documents follow a particular hierarchy from introduction to conclusion. Often, the structure depends on the type of article or technical document. 
+ {{< callout context="tip" title="The coming section explores Headings, Key Guidelines for Headings, and Levels Of Heading ." icon="rocket" >}}
+{{< /callout >}}
 
- Headings and subheadings are important elements of technical writing. They make your content more organized and help your readers navigate through what you have written. 
+
+## Headings
+ Most technical articles and documents follow a particular hierarchy from introduction to conclusion. Often, the structure depends on the type of article or technical document. 
+
+ Headings and subheadings are important elements of technical writing. They make your content more organized and help your readers navigate through what you have written. 
 
 
 
 Proper use of headings and subheadings increases the accessibility of your documents. One very important practice is writing descriptive and concise headings highlighting each section's main idea
 
 
- Headings are really important features in technical writing; they alert your readers about upcoming topics and subtopics and help readers skip and go to what they are interested in, in the case of long technical articles or documentation. 
+ Headings are really important features in technical writing; they alert your readers about upcoming topics and subtopics and help readers skip and go to what they are interested in, in the case of long technical articles or documentation. 
 
 
 Headings can help you organize your content into large sections [major headings] and smaller sections [sub-headings]. Headings are formatted by level [first level, second level, third level], which can vary in position and formatting. 
@@ -118,32 +127,36 @@ Here are examples of good and bad headings to illustrate key principles.
 ##### Good Headings 
 1. *“Introduction to Data Analysis”*
 
-   Indicates the main topic section
+   Indicates the main topic section
 
 
 2. *“Key Benefits of Eating Balanced Diets”*
 
-   conveys the main points to be discussed
+   conveys the main points to be discussed
 
 
 3. *“Methods for improving productivity as a student”*
 
-   Describes the section's content and provides a clear focus
+   Describes the section's content and provides a clear focus
 
 ##### Bad Headings
 1. *“Jewelry I found”*
 
-  Vague and lacks specificity, leaving readers uncertain about the content.
+  Vague and lacks specificity, leaving readers uncertain about the content.
 
 
 2. *“Chapter 1”*
 
-  Generic and Uninformative: readers can't discern the content without more context
+  Generic and Uninformative: readers can't discern the content without more context
 
 
 3. *“Random Stuffs”*
 
-  Similar to “Random Facts”, it lacks specificity and doesn’t guide the reader
+  Similar to “Random Facts”, it lacks specificity and doesn’t guide the reader
+
+  {{< callout context="tip" title="The coming section explores list, Guidelines for Creating Lists in Technical Writing, and List Types ." icon="rocket" >}}
+{{< /callout >}}
+
 
 
 ## List
@@ -172,18 +185,17 @@ Listing in technical writing can make a technical document more readable and sim
 
 Just as different items in a kitchen have different purposes, different kinds of lists also serve different purposes. In this section, we will look at five commonly used types of lists. 
 
-## Bullet List                                                                                                                                  
-Bullet lists are the most commonly used type of list. They typically emphasize two or more items when a specific order is unimportant.  
-
+## Bullet List                                                                                                                                  
+Bullet lists are the most commonly used type of list. They typically emphasize two or more items when a specific order is unimportant.  
 
 Bullet lists can also add whitespace to a document to improve readability. However, they are generally short and should not be used for items longer than a few words.
 
 ### Here are some examples of how bullet lists can be used:
 
--  To list the ingredients for a recipe
--  To outline the steps in a procedure
--  To summarize the key points of a presentation,
--  To create a checklist of tasks
+-  To list the ingredients for a recipe
+-  To outline the steps in a procedure
+-  To summarize the key points of a presentation,
+-  To create a checklist of tasks
 
 
 ## Numbered List
@@ -210,7 +222,7 @@ Subsequently, review your documents and check for formatting to enhance readabil
 
 ## In-sentence lists
 
- Sentence lists are typically employed when you have only two to four items and desire to preserve sentence structure and paragraphing. For instance, you could utilize a sentence list to list the ingredients for a simple recipe or the key points of a brief presentation.
+ Sentence lists are typically employed when you have only two to four items and desire to preserve sentence structure and paragraphing. For instance, you could utilize a sentence list to list the ingredients for a simple recipe or the key points of a brief presentation.
 
 
 Here's an example of a sentence list:
@@ -241,37 +253,41 @@ Nested lists are commonly used when list items have sub-lists, which are lists w
 Here's an example of a nested list:
 - Fruit
 
-     - Citrus
+     - Citrus
 
-          - Orange
+          - Orange
 
-          - Lemon
+          - Lemon
 
-         - Grapefruit
+         - Grapefruit
 
-     - Berries
+     - Berries
 
-          - Raspberry
+          - Raspberry
 
-          - Strawberry
+          - Strawberry
 
-          - Blueberry
+          - Blueberry
 
-       
-    -  Tropical
+       
+    -  Tropical
 
-          - Mango
+          - Mango
 
-          - Pineapple
+          - Pineapple
 
-          - Banana
+          - Banana
 
-        
+        
 Lists are crucial features of technical writing. They enhance readability, improve clarity, and ensure that ideas are conveyed accurately and effectively. 
 
 
 
 Lists break down complex information into digestible chunks, making it easier for readers to grasp and retain key points. They also help to organize and structure content, creating a logical flow that guides the reader through the material.
+
+
+{{< callout context="tip" title="The coming section explores tables, steps to prepare tables in a technical document, and formatting guidelines for creating tables ." icon="rocket" >}}
+{{< /callout >}}
 
 
 ## Tables
@@ -342,11 +358,11 @@ An example of a table with appropriate introductory text and format
 
 ##### Table 1: The following table identifies States and Capitals in Nigeria and Their Slogans with Current Governor
 
-| S/N     | State | Capital | Slogan | Current Governor |
+| S/N     | State | Capital | Slogan | Current Governor |
 | ----------- | ----------- | ------- |------- | -----------------|
-| 01      | Abia       | Umuahia | God’s Own State | Alex Otti |    
-| 02   | Adamawa        | Yola    | Land of Beauty | Ahmadu Umaru Fintiri |    
-| 03   | Akwa - Ibom        | Uyo     | Land of Promise | Umo Eno | 
+| 01      | Abia       | Umuahia | God’s Own State | Alex Otti |    
+| 02   | Adamawa        | Yola    | Land of Beauty | Ahmadu Umaru Fintiri |    
+| 03   | Akwa - Ibom        | Uyo     | Land of Promise | Umo Eno | 
 
 
 
@@ -354,6 +370,73 @@ An example of a table with appropriate introductory text and format
 
 
 In summary, tables should be introduced and referenced in the text beforehand. They should be numbered sequentially and have concise, descriptive, and easy-to-understand captions.
+
+{{< callout context="note" title="Check your knowledge:" icon="info-circle" >}}
+
+<body>
+<form id="quizForm">
+  <h2>Question 1:</h2>
+  <p>All of these are steps to prepare tables in a Technical Document except?</p>
+  <label>
+    <input type="radio" name="question1" value="grammar"> Identify your audience
+  </label><br>
+  <label>
+    <input type="radio" name="question1" value="complex"> Write a clear outline.
+  </label><br>
+  <label>
+    <input type="radio" name="question1" value="London"> Create a template for your table.
+  </label><br>
+  <label>
+    <input type="radio" name="question1" value="London"> Do not number your table
+  </label><br>
+  <h2>Question 2:</h2>
+  <p>Which of these is the most commonly used type of list?</p>
+  <label>
+    <input type="radio" name="question2" value="3"> Numbered list
+  </label><br>
+  <label>
+    <input type="radio" name="question2" value="report"> Bullet list
+  </label><br>
+  <label>
+    <input type="radio" name="question2" value="4"> In-sentence list
+  </label><br>
+  <label>
+    <input type="radio" name="question2" value="4"> Labeled list 
+  </label><br>
+  <br>
+  <input type="submit" value="Check your answers" onclick="gradeQuiz()">
+</form>
+<p id="result"></p>
+<script>
+  function gradeQuiz() {
+    event.preventDefault(); // Prevent form submission
+    const answers = {
+      question1: document.querySelector('input[name="question1"]:checked').value,
+      question2: document.querySelector('input[name="question2"]:checked').value
+    };
+    // Correct answers
+    const correctAnswers = {
+      question1: "grammar",
+      question2: "4"
+    };
+    let score = 0;
+    // Check answers and calculate score
+    if (answers.question1 === correctAnswers.question1) {
+      score++;
+    }
+    if (answers.question2 === correctAnswers.question2) {
+      score++;
+    }
+    // Display the score
+    document.getElementById('result').innerHTML = `You scored ${score} out of 2`;
+  }
+</script>
+</body>
+{{< /callout >}}
+
+{{< callout context="tip" title="The coming section explores figures, key guidelines for figures, and types of figures in technical writing ." icon="rocket" >}}
+{{< /callout >}}
+
 
 
 ## Figures
@@ -434,6 +517,11 @@ There are many types of figures in technical writing, including but not limited 
 
 4. **Histogram**: A histogram is a graphical representation that organizes a group of data points into user-specified ranges.
 
+
+{{< callout context="tip" title="The coming section explores Images, General Guidelines to Consider While Adding an Image to a Technical Document, and Pictures in Documentation; “The What and What not” ." icon="rocket" >}}
+{{< /callout >}}
+
+
 ## Images
 
 As a technical writer, you aim to craft clear, understandable, and readable documents. The goal is to provide your readers with the best possible assistance for using a product. 
@@ -506,7 +594,7 @@ As you can see, the example with visuals gave a better, more readable, and more 
 So, there are several good reasons for adding visuals to technical documentation. Images make the content easier to understand, and they aid in the speed at which the information presented is processed. 
 
 
-It also makes complex documentation clear and concise. How and where you will use images in your documentation depends on many elements.  
+It also makes complex documentation clear and concise. How and where you will use images in your documentation depends on many elements.  
 
 Indeed, images and illustrations can greatly enhance the clarity and understanding of technical documentation. 
 
@@ -567,3 +655,10 @@ Readability is simply communicating ideas in a clear and accessible way.
 
 4. Finally, simplicity is key in technical writing. Always use clear and straightforward language and write short sentences. This will help you convey your information concisely and ensure your readers can easily understand your content.
 
+<br>
+
+#### Answer the following questions.
+
+<br>
+
+<iframe src="https://forms.gle/KjfkZjTuTUNLwdxc6" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>

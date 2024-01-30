@@ -161,7 +161,7 @@ With Photoshop, you can design pictures from scratch or use templates. Images an
 
 Images increase user engagement. Photoshop is useful for creating designs from scratch and editing photos.
 
-##### 3. **Annotely**
+##### 2. **Annotely**
 
 [Annotely](https://annotely.com/) is a free and easy tool to add comments and explain images. It is handy for you to add arrows and pointers to pictures for further emphasis.
 
@@ -169,14 +169,14 @@ Images increase user engagement. Photoshop is useful for creating designs from s
 You can illustrate, blur, and highlight words in an image using Annotely.
 {{< /callout >}}
 
-##### 4. **Canva**
+##### 3. **Canva**
 
 [Canva](https://www.canva.com/) is an online graphic design tool for creating designs across social media platforms. Canva has free and Pro versions to access templates.
 
 It helps design images for your write-ups, like cover photos, banners, Instagram posts, and YouTube covers. Canva has built-in templates for editing and creating graphics and images.
 One great feature of Canva is the vast templates for different uses. You can create carousels and images for your write-ups with the templates.
 
-##### 5. **Microsoft Designer**
+##### 4. **Microsoft Designer**
 
 [Microsoft Designer](https://designer.microsoft.com/) is an AI tool for graphics and pictures to create designs based on the prompts.
 
@@ -490,6 +490,75 @@ Google developed [Bard](https://bard.google.com/), an AI tool to provide writing
 Grammarly Go is an AI tool integrated with Grammarly to help you quickly write content for clients' emails, articles, and websites.
 It helps writers overcome writer's block and generate sentences based on prompts.
 
+<body>
+
+{{< details "Check your knowledge" >}}
+
+<form id="quizForm">
+  <h2>Question 1:</h2>
+  <p> Technical writing is a field that requires _____________, and __________in communication.</p>
+  <label>
+    <input type="radio" name="question1" value="ambiguity"> Ambiguity, transparency
+  </label><br>
+  <label>
+    <input type="radio" name="question1" value="clarity"> Clarity, efficiency
+  </label><br>
+  <label>
+    <input type="radio" name="question1" value="opacity"> Opacity, vagueness
+  </label><br>
+
+  <h2>Question 2:</h2>
+  <p>Which of the following is not a publishing site?</p>
+  <label>
+    <input type="radio" name="question2" value="site"> Madcap Flare
+  </label><br>
+  <label>
+    <input type="radio" name="question2" value="word"> WordPress
+  </label><br>
+  <label>
+    <input type="radio" name="question2" value="ssg"> Sphinx
+  </label><br>
+
+  <br>
+  <input type="submit" value="Check your answers" onclick="gradeQuiz()">
+</form>
+
+<p id="result"></p>
+
+<script>
+  function gradeQuiz() {
+    event.preventDefault(); // Prevent form submission
+
+    const answers = {
+      question1: document.querySelector('input[name="question1"]:checked').value,
+      question2: document.querySelector('input[name="question2"]:checked').value
+    };
+
+    // Correct answers
+    const correctAnswers = {
+      question1: "clarity",
+      question2: "ssg"
+    };
+
+    let score = 0;
+
+    // Check answers and calculate score
+    if (answers.question1 === correctAnswers.question1) {
+      score++;
+    }
+    if (answers.question2 === correctAnswers.question2) {
+      score++;
+    }
+
+    // Display the score
+    document.getElementById('result').innerHTML = You scored ${score} out of 2;
+  }
+</script>
+
+</body>
+
+{{< /details >}}
+
 ### **How to use tech writing tools to create and edit technical documentation**
 
 Now, let's talk about how to use technical writing tools to create and edit technical documentation.
@@ -662,3 +731,38 @@ Writing tools help you to increase accuracy and correctness by checking for erro
 
 Writing tools increase creativity and innovation. Artificial Intelligence tools enhance creativity in writers. For example, you can use Microsoft Designer or Canva to design a cover image for your article.
 These designs make the write-up more interactive and engaging for users.
+
+### **Exercise**
+
+**In this exercise, you will write an article covering everything about Google Docs and how to use it.**
+
+Do the following:
+
+- Generate the table of content.
+- Choose a suitable title.
+- Write in Markdown. 
+- Watch this video to learn how to write in Markdown - [Introduction to Markdown](https://www.youtube.com/watch?v=8-gJmNPlanw&t=1s).
+- Create a repo on GitHub.
+- Create a new markdown file that will contain your assignment.
+- Use VSCode to write and test your markdown (Send a screenshot of your vscode containing your assignment)
+- Submit your Github repo URL.
+
+This article should have the following.
+
+- Arrange the order of the content.
+- Attention to details.
+- Work on the information architecture.
+- It should be over 1000 words.
+- No plagiarism.
+- Don’t use AI-generated content.
+- Your audience is a novice.
+- Proper citation .
+- No grammatical or spelling error.
+- No repetitive and filler words.
+- Must have necessary images.
+- Use the Google Writing style guide.
+
+After review, tag @TechnicalWriti6 on Twitter to the link to your article.
+
+Answer the following questions.
+<iframe src="https://forms.gle/VNHhDccs6kSwRUBC6" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>

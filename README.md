@@ -1,6 +1,8 @@
 # Technicalwritingcourse
 
-This repository contains modules for the Technical Writing Course. The course is designed to help you learn the basics of technical writing and documentation. It is a hands-on course that includes exercises and quizzes to test your knowledge. The course is divided into modules, each of which covers a specific topic. The modules are designed to be completed in order, but you can skip around if you want to.
+This repository contains modules for the Technical Writing Course. The course is designed to help you learn the basics of technical writing and documentation. It is a hands-on course that includes exercises and quizzes to test your knowledge. 
+
+The course is divided into modules, each of which covers a specific topic. The modules are designed to be completed in order, but you can skip around if you want to.
 
 ## How to contribute to this project
 

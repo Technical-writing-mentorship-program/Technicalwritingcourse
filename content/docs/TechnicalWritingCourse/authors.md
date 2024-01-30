@@ -18,11 +18,13 @@ seo:
   noindex: false # false (default) or true
 ---
 
-These fantastic folks volunteered their time and skills to create this Open Source Technical Writing Course for Beginners. It's packed with useful stuff and totally **FREE for everyone!**
+These fantastic folks volunteered their time and skills to create this Open Source Technical Writing Course for Beginners.
+
+It's packed with useful stuff and totally **FREE for everyone!**
 
 <body>
 
-<h1>Check your knowledge</h1>
+{{< details "Check your knowledge Now" >}}
 
 <form id="quizForm">
   <h2>Question 1:</h2>
@@ -31,7 +33,7 @@ These fantastic folks volunteered their time and skills to create this Open Sour
     <input type="radio" name="question1" value="Paris"> To confuse the audience
   </label><br>
   <label>
-    <input type="radio" name="question1" value="complex"> <span style="color: #FF0000;" class="highlight">To explain complex ideas clearly </span>
+    <input type="radio" name="question1" value="complex"> To explain complex ideas clearly
   </label><br>
   <label>
     <input type="radio" name="question1" value="London"> To use complex language
@@ -87,9 +89,13 @@ These fantastic folks volunteered their time and skills to create this Open Sour
 
 </body>
 
-## Exercise - Get a sample application
+{{< /details >}}
+
+<h3><span style="color: #FF0000;" class="highlight">Help us solve this challenge</span></h3>
+{{< details " Write a sample application" open >}}
 
 Get ready to start building projects
+{{< /details >}}
 
 ## Editor:
 
@@ -103,7 +109,9 @@ Get ready to start building projects
 
 - [Blessing Ene Anyebe](https://www.linkedin.com/in/anyebe-blessing-ene-kwennb/): Blessing is a well-rounded tech person with skills that include design and frontend engineering. Currently she focuses on Technical Writing, API documentation, and Search Engine Optimization.
 
-_Why free?_ We believe everyone deserves to learn tech writing, no matter what! So grab this open-source course and unlock your future in tech writing.
+_Why free?_
+
+We believe everyone deserves to learn tech writing, no matter what! So grab this open-source course and unlock your future in tech writing.
 
 {{< callout context="tip" title="Remeber" icon="rocket" >}}
 This course is completely free and open to all! Get started today and open the door to your tech writing future!

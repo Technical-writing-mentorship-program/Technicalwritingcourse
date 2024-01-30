@@ -29,7 +29,7 @@
   url = "/blog/"
 
 [[main]]
-  name = "Docs"
+  name = "Academy"
   url = "/docs/technicalwritingcourse/authors/" 
 # url = "/docs/1.0/prologue/introduction/"
   weight = 10

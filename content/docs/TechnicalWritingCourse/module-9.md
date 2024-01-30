@@ -144,3 +144,11 @@ As with any concept, usage rules apply. Consider the following when creating dia
 - **Avoid including personal information:** Be cautious not to include personal information in diagrams or screenshots, especially when showcasing your codebase. Prevent exposing sensitive information to the public.
 
 - **Don't Neglect Consistency in Style:** Maintain a consistent style throughout your technical diagrams. Whether you're a developer illustrating system interactions or a technical writer creating documentation, inconsistency in style can lead to confusion. Stick to a unified design language to ensure a cohesive and professional appearance across all your visual elements.
+
+<iframe src="https://forms.gle/NPS6C8bgw8aeCpS6A" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+
+{{< callout context="note" title="Exercise" icon="info-circle" >}}
+
+Create an article on how to setup git on your local machine. Make sure to include visual representation that guides a user at each step. Also, adhere to all the tips and measures from this documentation. After review, tag @TechnicalWriti6 on Twitter to the link to your article.
+
+{{< /callout >}}

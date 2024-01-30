@@ -49,7 +49,7 @@ images = ["cover.png"]
   showMissingLanguages = true # whether or not to show untranslated languages in the language menu; true (default) or false
 
   # Versioning
-  docsVersioning = true # false (default) or true
+  docsVersioning = false # false (default) or true
   docsVersion = "1.0"
 
   # UX
@@ -71,7 +71,7 @@ images = ["cover.png"]
   editPage = true # false (default) or true
   lastMod = true # false (default) or true
   repoHost = "GitHub" # GitHub (default), Gitea, GitLab, Bitbucket, or BitbucketServer
-  docsRepo = "https://github.com/h-enk/doks"
+  docsRepo = "https://github.com/Technical-writing-mentorship-program/Technicalwritingcourse"
   docsRepoBranch = "main" # main (default), master, or <branch name>
   docsRepoSubPath = "" # "" (none, default) or <sub path>
 

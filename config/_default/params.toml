@@ -19,7 +19,7 @@ images = ["cover.png"]
   navBarButtonText = "Apply Now"
 
   # FlexSearch
-  flexSearch = true # true (default) or false
+  flexSearch = false # true (default) or false
   searchExclKinds = [] # list of page kinds to exclude from search indexing (e.g. ["home", "taxonomy", "term"] )
   searchExclTypes = [] # list of content types to exclude from search indexing (e.g. ["blog", "docs", "legal", "contributors", "categories"])
   showSearch = [] # [] (all pages, default) or homepage (optionally) and list of sections (e.g. ["homepage", "blog", "guides"])
@@ -71,7 +71,7 @@ images = ["cover.png"]
   editPage = true # false (default) or true
   lastMod = true # false (default) or true
   repoHost = "GitHub" # GitHub (default), Gitea, GitLab, Bitbucket, or BitbucketServer
-  docsRepo = "https://github.com/h-enk/doks"
+  docsRepo = "https://github.com/Technical-writing-mentorship-program/Technicalwritingcourse"
   docsRepoBranch = "main" # main (default), master, or <branch name>
   docsRepoSubPath = "" # "" (none, default) or <sub path>
 

@@ -12,7 +12,7 @@
 </script>
 
 
-<link rel="stylesheet" href="/main.1963ca2e00af56c0841655a7301fb00d74909df4778ba04ceba63ad42498835eefc3f616071a0143335cd8de0bb3c5b4ed592ec1df3ea09afdd13723868b2f85.css" integrity="sha512-GWPKLgCvVsCEFlWnMB&#43;wDXSQnfR3i6BM66Y61CSYg17vw/YWBxoBQzNc2N4Ls8W07Vkuwd8&#43;oJr90TcjhosvhQ==" crossorigin="anonymous">
+<link rel="stylesheet" href="/main.f13e8bf296f05704ebe58dec6bf4ad98e9ca8e5fe3e154d9f8f848789a87dd8f667daed8b70a1cd3871125e2663e5c42e8ed80419644e8ff42ab7da1465f05e8.css" integrity="sha512-8T6L8pbwVwTr5Y3sa/StmOnKjl/j4VTZ&#43;PhIeJqH3Y9mfa7Ytwoc04cRJeJmPlxC6O2AQZZE6P9Cq32hRl8F6A==" crossorigin="anonymous">
 <noscript><style>img.lazyload { display: none; }</style></noscript>
   <link rel="canonical" href="/docs/technicalwritingcourse/editing/">
 
@@ -77,13 +77,12 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/docs/technicalwritingcourse/editing/" /><meta property="og:image" content="/cover.png"/><meta property="article:section" content="docs" />
 <meta property="article:published_time" content="2023-08-07T16:04:48+02:00" />
-<meta property="article:modified_time" content="2023-09-07T16:04:48+02:00" /><meta property="og:site_name" content="Technical writing mentorship program" />
+<meta property="article:modified_time" content="2024-01-30T12:44:56+01:00" /><meta property="og:site_name" content="Technical writing mentorship program" />
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="/cover.png"/>
 
 <meta name="twitter:title" content="Editing"/>
 <meta name="twitter:description" content="In this module, you will learn how to edit for clarity, conciseness, and accuracy (correctness), the importance of technical editing, and the various aspects of editing in detail."/>
-<meta name="twitter:site" content="@getdoks"/>
 
     
     
@@ -139,13 +138,6 @@
 
     
     
-    <button type="button" id="searchToggleMobile" class="btn btn-link nav-link mx-2 d-lg-none" aria-label="Search website">
-      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-        <circle cx="10" cy="10" r="7"></circle>
-        <line x1="21" y1="21" x2="15" y2="15"></line>
-      </svg>
-    </button>
     
     <button class="btn btn-link d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavSection" aria-controls="offcanvasNavSection" aria-label="Open section navigation menu">
       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-dots-vertical" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -359,13 +351,6 @@
 
         
         
-        <button type="button" id="searchToggleDesktop" class="btn btn-link nav-link p-2 d-none d-lg-block" aria-label="Search website">
-          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-            <circle cx="10" cy="10" r="7"></circle>
-            <line x1="21" y1="21" x2="15" y2="15"></line>
-          </svg>
-        </button>
         
         <div class="dropdown mt-1 order-lg-2">
           <button class="btn btn-dropdown dropdown-toggle" id="doks-languages" data-bs-toggle="dropdown" aria-expanded="false" data-bs-display="static">
@@ -447,53 +432,6 @@
     <a class="btn btn-primary rounded-pill ms-3 me-2 px-4 order-lg-3 d-none d-lg-block" href="/docs/prologue/introduction/" role="button">Apply Now</a>
     </div>
 </header>
-</div>
-
-<div class="modal" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-scrollable modal-fullscreen-md-down">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5 visually-hidden" id="searchModalLabel">Search</h1>
-        <button type="button" class="btn-close visually-hidden" data-bs-dismiss="modal" aria-label="Close"></button>
-        <div class="search-input flex-grow-1 d-none">
-          <form id="search-form" class="search-form" action="#" method="post" accept-charset="UTF-8" role="search">
-            <label for="query" class="visually-hidden">Search</label>
-            <div class="d-flex">
-              <input type="search" id="query" name="query" class="search-text form-control form-control-lg" placeholder="Search" aria-label="Search" maxlength="128" autocomplete="off">
-              <button type="button" class="btn btn-link text-decoration-none px-0 ms-3 d-md-none" data-bs-dismiss="modal" aria-label="Close">Cancel</button>
-            </div>
-          </form>
-        </div>
-      </div>
-      <div class="modal-body">
-        <p class="search-loading status message d-none mt-3 text-center">Loading search index…</p>
-        <p class="search-no-recent message d-none mt-3 text-center">No recent searches</p>
-        <p class="search-no-results message d-none mt-3 text-center">No results for "<strong><span class="query-no-results">Query here</span></strong>"</p>
-        <div id="searchResults" class="search-results"></div>
-        <template>
-          <article class="search-result list-view">
-            <div class="card my-3">
-              <div class="card-body">
-                <header>
-                  <h2 class="h5 title title-submitted mb-0"><a class="stretched-link text-decoration-none text-reset" href="#">Title here</a></h2>
-                  <div class="submitted"><time class="created-date">Date here</time></div>
-                </header>
-                <div class="content">Summary here</div>
-              </div>
-            </div>
-          </article>
-        </template>
-      </div>
-      <div class="modal-footer">
-        <ul class="list-inline me-auto d-none d-md-block">
-          <li class="list-inline-item"><kbd class="me-2"><svg width="15" height="15" aria-label="Enter key" role="img"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"><path d="M12 3.53088v3c0 1-1 2-2 2H4M7 11.53088l-3-3 3-3"></path></g></svg></kbd><span class="DocSearch-Label">to select</span></li>
-          <li class="list-inline-item"><kbd class="me-2"><svg width="15" height="15" aria-label="Arrow down" role="img"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"><path d="M7.5 3.5v8M10.5 8.5l-3 3-3-3"></path></g></svg></kbd><kbd class="me-2"><svg width="15" height="15" aria-label="Arrow up" role="img"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"><path d="M7.5 11.5v-8M10.5 6.5l-3-3-3 3"></path></g></svg></kbd><span class="DocSearch-Label">to navigate</span></li>
-          <li class="list-inline-item"><kbd class="me-2"><svg width="15" height="15" aria-label="Escape key" role="img"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"><path d="M13.6167 8.936c-.1065.3583-.6883.962-1.4875.962-.7993 0-1.653-.9165-1.653-2.1258v-.5678c0-1.2548.7896-2.1016 1.653-2.1016.8634 0 1.3601.4778 1.4875 1.0724M9 6c-.1352-.4735-.7506-.9219-1.46-.8972-.7092.0246-1.344.57-1.344 1.2166s.4198.8812 1.3445.9805C8.465 7.3992 8.968 7.9337 9 8.5c.032.5663-.454 1.398-1.4595 1.398C6.6593 9.898 6 9 5.963 8.4851m-1.4748.5368c-.2635.5941-.8099.876-1.5443.876s-1.7073-.6248-1.7073-2.204v-.4603c0-1.0416.721-2.131 1.7073-2.131.9864 0 1.6425 1.031 1.5443 2.2492h-2.956"></path></g></svg></kbd><span class="DocSearch-Label">to close</span></li>
-        </ul>
-        <p class="d-md-none">Search by <a class="text-decoration-none" href="https://github.com/nextapps-de/flexsearch">FlexSearch</a></p>
-      </div>
-    </div>
-  </div>
 </div>
 
 
@@ -677,6 +615,7 @@
         <li><a href="#clarity">Clarity</a></li>
         <li><a href="#conciseness">Conciseness</a></li>
         <li><a href="#correctness-accuracy">Correctness (Accuracy)</a></li>
+        <li><a href="#exercise">Exercise:</a></li>
       </ul>
     </li>
   </ul>
@@ -720,6 +659,7 @@
         <li><a href="#clarity">Clarity</a></li>
         <li><a href="#conciseness">Conciseness</a></li>
         <li><a href="#correctness-accuracy">Correctness (Accuracy)</a></li>
+        <li><a href="#exercise">Exercise:</a></li>
       </ul>
     </li>
   </ul>
@@ -730,12 +670,11 @@
 			</nav>
 			<p>Editing is a vital aspect of the technical writing process. It gives technical document accuracy, consistency, clarity, and better user comprehension. With editing, you check for organization, navigation, paragraph structure, style, tone, and overall content.</p>
 <p>Everyone can coin a write-up, but what makes a valuable document is its conciseness and correctness, edited to fit all required criteria (Such as style, tone, audience needs, and so on).</p>
-<p>Robert Cormier says - “The beautiful part of writing is that you don&rsquo;t have to get it right the first time, unlike, say, a brain surgeon. You can always do it better; find the exact word, the apt phrase, the leaping simile.&quot; Editing is the other layer of work that makes your technical documentation better.</p>
 <div class="callout callout-tip d-flex flex-row mt-4 mb-4 pt-4 pe-4 pb-2 ps-3">
   <svg class="rocket svg-inline callout-icon me-2 mb-3"  xmlns="http://www.w3.org/2000/svg"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 13a8 8 0 017 7 6 6 0 003-5 9 9 0 006-8 3 3 0 00-3-3 9 9 0 00-8 6 6 6 0 00-5 3"/><path d="M7 14a6 6 0 00-3 6 6 6 0 006-3"/><path d="M15 9m-1 0a1 1 0 102 0 1 1 0 10-2 0"/></svg>
   <div class="callout-content">
     <div class="callout-title">
-        <p>In this module, you will learn how to edit for clarity, conciseness, and accuracy (correctness), the importance of technical editing, and the various aspects of editing in detail.</p>
+        <p>Robert Cormier says - “The beautiful part of writing is that you don&rsquo;t have to get it right the first time, unlike, say, a brain surgeon. You can always do it better; find the exact word, the apt phrase, the leaping simile.</p>
 
       </div>
     <div class="callout-body">
@@ -744,18 +683,63 @@
   </div>
 </div>
 
+<p>Editing is the other layer of work that makes your technical documentation better.</p>
+<div class="callout callout-note d-flex flex-row mt-4 mb-4 pt-4 pe-4 pb-2 ps-3">
+  <svg class="info-circle svg-inline callout-icon me-2 mb-3"  xmlns="http://www.w3.org/2000/svg"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 12a9 9 0 1018 0A9 9 0 003 12"/><path d="M12 9h.01"/><path d="M11 12h1v4h1"/></svg>
+  <div class="callout-content">
+    <div class="callout-title">
+        <p>In this Module, you will learn:</p>
+
+      </div>
+    <div class="callout-body">
+      <ul>
+<li>The importance of editing,</li>
+<li>The different types of editing, and</li>
+<li>How to edit for;
+<ul>
+<li>Clarity</li>
+<li>Conciseness</li>
+<li>Correctness</li>
+</ul>
+</li>
+</ul>
+
+    </div>
+  </div>
+</div>
+
 <h2 id="importance-of-editing">Importance of Editing<a href="#importance-of-editing" class="anchor" aria-hidden="true">#</a> </h2>
 <p>Editing is an essential step in the documentation process for several reasons: It ensures clarity, conciseness, and accuracy in a technical document, but we will explore this aspect in the coming sections of this module.</p>
 <p><strong><em>Other vital importance of editing in technical documentation include;</em></strong></p>
-<h5 id="error-prevention-and-correction">Error Prevention and Correction:<a href="#error-prevention-and-correction" class="anchor" aria-hidden="true">#</a> </h5>
+<ol>
+<li>
+<h6 id="error-prevention-and-correction">Error Prevention and Correction:<a href="#error-prevention-and-correction" class="anchor" aria-hidden="true">#</a> </h6>
+</li>
+</ol>
 <p>Technical editing ensures meticulous proofreading to identify and correct errors in grammar, spelling, punctuation, and technical details. Documentation must be error-free to maintain credibility.</p>
-<h5 id="consistency-in-style-and-terminology">Consistency in Style and Terminology:<a href="#consistency-in-style-and-terminology" class="anchor" aria-hidden="true">#</a> </h5>
+<ol start="2">
+<li>
+<h6 id="consistency-in-style-and-terminology">Consistency in Style and Terminology:<a href="#consistency-in-style-and-terminology" class="anchor" aria-hidden="true">#</a> </h6>
+</li>
+</ol>
 <p>Editing ensures consistent terminology, style, and formatting use throughout the document. Consistent language helps readers understand and interpret technical information, reducing the risk of confusion or misinterpretation.</p>
-<h5 id="alignment-with-standards-and-guidelines">Alignment with Standards and Guidelines:<a href="#alignment-with-standards-and-guidelines" class="anchor" aria-hidden="true">#</a> </h5>
+<ol start="3">
+<li>
+<h6 id="alignment-with-standards-and-guidelines">Alignment with Standards and Guidelines:<a href="#alignment-with-standards-and-guidelines" class="anchor" aria-hidden="true">#</a> </h6>
+</li>
+</ol>
 <p>Organizations have specific standards and guidelines for technical documentation, and editing ensures the document aligns with these standards. It aids compliance and adherence to the organizations&rsquo; regulations.</p>
-<h5 id="enhancement-of-readability-and-accessibility">Enhancement of Readability and Accessibility:<a href="#enhancement-of-readability-and-accessibility" class="anchor" aria-hidden="true">#</a> </h5>
+<ol start="4">
+<li>
+<h6 id="enhancement-of-readability-and-accessibility">Enhancement of Readability and Accessibility:<a href="#enhancement-of-readability-and-accessibility" class="anchor" aria-hidden="true">#</a> </h6>
+</li>
+</ol>
 <p>Technical editing involves breaking down complex ideas into digestible chunks, using appropriate headings and subheadings, and incorporating visual elements. Enhanced readability makes technical content more user-friendly for a diverse audience.</p>
-<h5 id="logical-organization-of-information">Logical Organization of Information:<a href="#logical-organization-of-information" class="anchor" aria-hidden="true">#</a> </h5>
+<ol start="5">
+<li>
+<h6 id="logical-organization-of-information">Logical Organization of Information:<a href="#logical-organization-of-information" class="anchor" aria-hidden="true">#</a> </h6>
+</li>
+</ol>
 <p>Technical editing involves assessing the document&rsquo;s structure and organization. Editing ensures a logical arrangement of information, following a clear and coherent flow. A well-organized document facilitates efficient information retrieval and supports the reader&rsquo;s understanding of complex concepts.</p>
 <div class="callout callout-tip d-flex flex-row mt-4 mb-4 pt-4 pe-4 pb-2 ps-3">
   <svg class="rocket svg-inline callout-icon me-2 mb-3"  xmlns="http://www.w3.org/2000/svg"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 13a8 8 0 017 7 6 6 0 003-5 9 9 0 006-8 3 3 0 00-3-3 9 9 0 00-8 6 6 6 0 00-5 3"/><path d="M7 14a6 6 0 00-3 6 6 6 0 006-3"/><path d="M15 9m-1 0a1 1 0 102 0 1 1 0 10-2 0"/></svg>
@@ -790,32 +774,65 @@
 </div>
 
 <h3 id="proofreading">Proofreading<a href="#proofreading" class="anchor" aria-hidden="true">#</a> </h3>
-<p>Proofreading focuses on finding and correcting errors within writing, grammar, tense, language, typography, spelling, and punctuation.
-It is carefully examining your work for any remaining mistakes.</p>
+<p>Proofreading focuses on finding and correcting errors within writing, grammar, tense, language, typography, spelling, and punctuation.</p>
+<p>It is carefully examining your work for any remaining mistakes.</p>
 <p>With proofreading, it is important to slowly and carefully read through your work.</p>
 <p><strong><em>An in-depth look at how proofreading works in the context of technical documentation:</em></strong></p>
-<h5 id="identifying-and-correcting-typos">Identifying and Correcting Typos:<a href="#identifying-and-correcting-typos" class="anchor" aria-hidden="true">#</a> </h5>
-<p>One primary objective of proofreading is to catch and correct typographical errors or &ldquo;typos&rdquo; in the document. It includes instances where you omit or duplicate letters or words. Proofreading goes through the document to spot and rectify such mistakes.</p>
-<h5 id="checking-for-spelling-errors">Checking for Spelling Errors:<a href="#checking-for-spelling-errors" class="anchor" aria-hidden="true">#</a> </h5>
-<p>Spelling errors are common in technical documentation and undermine the credibility of the content. Proofreading carefully reviews the document to identify and rectify any misspelled words. It includes common words and industry-specific terminology.</p>
-<h5 id="correcting-grammatical-mistakes">Correcting Grammatical Mistakes:<a href="#correcting-grammatical-mistakes" class="anchor" aria-hidden="true">#</a> </h5>
+<ol>
+<li>
+<h6 id="identifying-and-correcting-typos">Identifying and Correcting Typos:<a href="#identifying-and-correcting-typos" class="anchor" aria-hidden="true">#</a> </h6>
+</li>
+</ol>
+<p>One primary objective of proofreading is to catch and correct typographical errors or &ldquo;typos&rdquo; in the document.</p>
+<p>It includes instances where you omit or duplicate letters or words. Proofreading goes through the document to spot and rectify such mistakes.</p>
+<ol start="2">
+<li>
+<h6 id="checking-for-spelling-errors">Checking for Spelling Errors:<a href="#checking-for-spelling-errors" class="anchor" aria-hidden="true">#</a> </h6>
+</li>
+</ol>
+<p>Spelling errors are common in technical documentation and undermine the credibility of the content.</p>
+<p>Proofreading carefully reviews the document to identify and rectify any misspelled words. It includes common words and industry-specific terminology.</p>
+<ol start="3">
+<li>
+<h6 id="correcting-grammatical-mistakes">Correcting Grammatical Mistakes:<a href="#correcting-grammatical-mistakes" class="anchor" aria-hidden="true">#</a> </h6>
+</li>
+</ol>
 <p>Proofreading involves the correction of grammatical errors. It includes issues such as, subject-verb agreement, verb tense consistency, pronoun-antecedent agreement, and sentence structure. Proper grammar is essential for clear and effective communication.</p>
-<h5 id="addressing-punctuation-issues">Addressing Punctuation Issues:<a href="#addressing-punctuation-issues" class="anchor" aria-hidden="true">#</a> </h5>
-<p>Correct punctuation gives clarity to technical documentation. Proofreading ensures punctuation marks such as commas, semicolons, colons, and periods work correctly. They also check for consistent formatting with quotation marks, parentheses, and other special characters.</p>
-<h5 id="cross-referencing-and-hyperlinks">Cross-Referencing and Hyperlinks:<a href="#cross-referencing-and-hyperlinks" class="anchor" aria-hidden="true">#</a> </h5>
-<p>You have cross-references and hyperlinks to related sections or external resources. Proofreading reviews these elements to ensure they are accurate and functional. Broken links or incorrect references disrupt the reader experience and undermine the document&rsquo;s reliability.</p>
-<h5 id="formatting-and-layout">Formatting and Layout:<a href="#formatting-and-layout" class="anchor" aria-hidden="true">#</a> </h5>
-<p>Proofreading pays attention to the document&rsquo;s formatting and layout, including issues like line spacing, margins, and alignment. They ensure the document is visually appealing and adheres to any formatting guidelines.</p>
-<h5 id="consistency-in-abbreviations-and-acronyms">Consistency in Abbreviations and Acronyms:<a href="#consistency-in-abbreviations-and-acronyms" class="anchor" aria-hidden="true">#</a> </h5>
+<ol start="4">
+<li>
+<h6 id="addressing-punctuation-issues">Addressing Punctuation Issues:<a href="#addressing-punctuation-issues" class="anchor" aria-hidden="true">#</a> </h6>
+</li>
+</ol>
+<p>Correct punctuation gives clarity to technical documentation. Proofreading ensures punctuation marks such as commas, semicolons, colons, and periods work correctly.</p>
+<p>They also check for consistent formatting with quotation marks, parentheses, and other special characters.</p>
+<ol start="5">
+<li>
+<h6 id="cross-referencing-and-hyperlinks">Cross-Referencing and Hyperlinks:<a href="#cross-referencing-and-hyperlinks" class="anchor" aria-hidden="true">#</a> </h6>
+</li>
+</ol>
+<p>You have cross-references and hyperlinks to related sections or external resources. Proofreading reviews these elements to ensure they are accurate and functional.</p>
+<p>Broken links or incorrect references disrupt the reader experience and undermine the document&rsquo;s reliability.</p>
+<ol start="6">
+<li>
+<h6 id="formatting-and-layout">Formatting and Layout:<a href="#formatting-and-layout" class="anchor" aria-hidden="true">#</a> </h6>
+</li>
+</ol>
+<p>Proofreading pays attention to the document&rsquo;s formatting and layout, including issues like line spacing, margins, and alignment.
+They ensure the document is visually appealing and adheres to any formatting guidelines.</p>
+<ol start="7">
+<li>
+<h6 id="consistency-in-abbreviations-and-acronyms">Consistency in Abbreviations and Acronyms:<a href="#consistency-in-abbreviations-and-acronyms" class="anchor" aria-hidden="true">#</a> </h6>
+</li>
+</ol>
 <p>Proofreading verifies that abbreviations are consistently applied throughout the document and are defined or explained upon first use.</p>
 <p><strong><em>Example of proofreading;</em></strong></p>
-<pre tabindex="0"><code>Original:
-
-The studnet&#39;s preformance on the experiment was exceelent, demnstrating a thorough understandng of the scientific methode.
-</code></pre><pre tabindex="0"><code>Proofread Version:
-
-The student&#39;s performance in the experiment was excellent, demonstrating a thorough understanding of the scientific method.
-</code></pre><div class="callout callout-tip d-flex flex-row mt-4 mb-4 pt-4 pe-4 pb-2 ps-3">
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">Original:
+</span></span><span class="line"><span class="ln">2</span><span class="cl">
+</span></span><span class="line"><span class="ln">3</span><span class="cl">The studnet&#39;s preformance on the experiment was exceelent, demnstrating a thorough understandng of the scientific methode.
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">Proofread Version:
+</span></span><span class="line"><span class="ln">2</span><span class="cl">
+</span></span><span class="line"><span class="ln">3</span><span class="cl">The student&#39;s performance in the experiment was excellent, demonstrating a thorough understanding of the scientific method.
+</span></span></code></pre></div><div class="callout callout-tip d-flex flex-row mt-4 mb-4 pt-4 pe-4 pb-2 ps-3">
   <svg class="rocket svg-inline callout-icon me-2 mb-3"  xmlns="http://www.w3.org/2000/svg"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 13a8 8 0 017 7 6 6 0 003-5 9 9 0 006-8 3 3 0 00-3-3 9 9 0 00-8 6 6 6 0 00-5 3"/><path d="M7 14a6 6 0 00-3 6 6 6 0 006-3"/><path d="M15 9m-1 0a1 1 0 102 0 1 1 0 10-2 0"/></svg>
   <div class="callout-content">
     <div class="callout-title">
@@ -831,31 +848,60 @@ The student&#39;s performance in the experiment was excellent, demonstrating a t
 <p>It&rsquo;s important to note that proofreading needs a keen eye for detail, a strong command of language, and a thorough understanding of the subject matter. While proofreading can enhance the overall quality of technical documentation by eliminating surface-level errors, it is just the first step in the editing process.</p>
 <p>Subsequent editing stages, such as copy and substantive editing, focus on more comprehensive aspects of the document, such as content clarity, style, and overall structure.</p>
 <h3 id="copy-editing">Copy Editing<a href="#copy-editing" class="anchor" aria-hidden="true">#</a> </h3>
-<p>Copy editing involves shaping the technical documentation. It ensures factual and stylistic consistency across the technical document, improves readability, improves sentence flow, and corrects tone inconsistencies. Copy editing is a factor that makes sure a piece of writing is accurate, clear, and correct.</p>
+<p>Copy editing involves shaping the technical documentation. It ensures factual and stylistic consistency across the technical document, improves readability, improves sentence flow, and corrects tone inconsistencies.</p>
+<p>Copy editing is a factor that makes sure a piece of writing is accurate, clear, and correct.</p>
 <p>Copy editing ensures the document adheres to a specific style guide, maintains a consistent voice, and presents technical information in a manner that is accessible and engaging for the target audience.</p>
 <p><strong><em>How copy editing works in technical documentation:</em></strong></p>
-<h5 id="style-and-consistency">Style and Consistency:<a href="#style-and-consistency" class="anchor" aria-hidden="true">#</a> </h5>
+<ol>
+<li>
+<h6 id="style-and-consistency">Style and Consistency:<a href="#style-and-consistency" class="anchor" aria-hidden="true">#</a> </h6>
+</li>
+</ol>
 <p>Copy editing enforces a consistent style throughout the document. It includes ensuring elements such as headings, subheadings, font styles, and formatting adhere to a predefined style guide (industry standard or organizational guideline).</p>
-<h5 id="tone-and-voice">Tone and Voice:<a href="#tone-and-voice" class="anchor" aria-hidden="true">#</a> </h5>
+<ol start="2">
+<li>
+<h6 id="tone-and-voice">Tone and Voice:<a href="#tone-and-voice" class="anchor" aria-hidden="true">#</a> </h6>
+</li>
+</ol>
 <p>Copy editing focuses on maintaining a consistent tone and voice throughout the document. It ensures the documentation tone aligns with the audience expectations. The tone is more formal and informative for technical documentation but may need to be adjusted to fit the specific audience.</p>
-<h5 id="eliminating-redundancy">Eliminating Redundancy:<a href="#eliminating-redundancy" class="anchor" aria-hidden="true">#</a> </h5>
+<ol start="3">
+<li>
+<h6 id="eliminating-redundancy">Eliminating Redundancy:<a href="#eliminating-redundancy" class="anchor" aria-hidden="true">#</a> </h6>
+</li>
+</ol>
 <p>Redundant information clutter technical documentation. Esther Freud says - “Editing is everything. Cut until you can cut no more.&quot; Copy editing helps you trim excesses and refine your work to its essential components. You identify and eliminate unnecessary repetition or redundant content to ensure the document is concise.</p>
-<h5 id="conciseness-and-efficiency">Conciseness and Efficiency:<a href="#conciseness-and-efficiency" class="anchor" aria-hidden="true">#</a> </h5>
+<ol start="4">
+<li>
+<h6 id="conciseness-and-efficiency">Conciseness and Efficiency:<a href="#conciseness-and-efficiency" class="anchor" aria-hidden="true">#</a> </h6>
+</li>
+</ol>
 <p>Copy editing makes documentation more concise by removing wordiness and unnecessary tenses. Concise writing is essential for maintaining readers interest and conveying information efficiently.</p>
-<h5 id="sentence-and-paragraph-structure">Sentence and Paragraph Structure:<a href="#sentence-and-paragraph-structure" class="anchor" aria-hidden="true">#</a> </h5>
+<ol start="5">
+<li>
+<h6 id="sentence-and-paragraph-structure">Sentence and Paragraph Structure:<a href="#sentence-and-paragraph-structure" class="anchor" aria-hidden="true">#</a> </h6>
+</li>
+</ol>
 <p>Copy editing evaluates sentences and paragraph structure to ensure information logically flows. It may reorganize paragraphs or suggest changes in the sentence structure to enhance the overall coherence of the document.</p>
-<h5 id="visual-elements">Visual Elements:<a href="#visual-elements" class="anchor" aria-hidden="true">#</a> </h5>
+<ol start="6">
+<li>
+<h6 id="visual-elements">Visual Elements:<a href="#visual-elements" class="anchor" aria-hidden="true">#</a> </h6>
+</li>
+</ol>
 <p>Copy editing reviews visual elements such as tables, figures, diagrams, and captions to ensure correct labeling, format, and reference within the text. It also checks if visual elements are consistent with the overall style of the document.</p>
-<h5 id="references-and-citations">References and Citations:<a href="#references-and-citations" class="anchor" aria-hidden="true">#</a> </h5>
+<ol start="7">
+<li>
+<h6 id="references-and-citations">References and Citations:<a href="#references-and-citations" class="anchor" aria-hidden="true">#</a> </h6>
+</li>
+</ol>
 <p>If the document includes references, citations, or footnotes, copy editing verifies their accuracy and consistency with the chosen citation style, such as APA, MLA, or a specific industry standard.</p>
 <p><strong><em>Example of copy editing;</em></strong></p>
-<pre tabindex="0"><code>Original:
-
-The company&#39;s marketing strategy is good. They aim to reach a wide audience and their products are superior than others in the market.
-</code></pre><pre tabindex="0"><code>Copy Edited Version:
-
-The company&#39;s marketing strategy is effective. They aim to reach a broad audience, and their products are superior to others in the market.
-</code></pre><div class="callout callout-tip d-flex flex-row mt-4 mb-4 pt-4 pe-4 pb-2 ps-3">
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">Original:
+</span></span><span class="line"><span class="ln">2</span><span class="cl">
+</span></span><span class="line"><span class="ln">3</span><span class="cl">The company&#39;s marketing strategy is good. They aim to reach a wide audience and their products are superior than others in the market.
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">Copy Edited Version:
+</span></span><span class="line"><span class="ln">2</span><span class="cl">
+</span></span><span class="line"><span class="ln">3</span><span class="cl">The company&#39;s marketing strategy is effective. They aim to reach a broad audience, and their products are superior to others in the market.
+</span></span></code></pre></div><div class="callout callout-tip d-flex flex-row mt-4 mb-4 pt-4 pe-4 pb-2 ps-3">
   <svg class="rocket svg-inline callout-icon me-2 mb-3"  xmlns="http://www.w3.org/2000/svg"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 13a8 8 0 017 7 6 6 0 003-5 9 9 0 006-8 3 3 0 00-3-3 9 9 0 00-8 6 6 6 0 00-5 3"/><path d="M7 14a6 6 0 00-3 6 6 6 0 006-3"/><path d="M15 9m-1 0a1 1 0 102 0 1 1 0 10-2 0"/></svg>
   <div class="callout-content">
     <div class="callout-title">
@@ -899,36 +945,78 @@ The company&#39;s marketing strategy is effective. They aim to reach a broad aud
 </tr>
 </tbody>
 </table>
-<p>Substantive editing checks the intended use, organization, flow, and content strength. You can also check if too much or too little information is present and if similar information is presented consistently across documentation. But it is always better to use less information. Thomas Jefferson says - “The most valuable of all talents is that of never using two words when one will do.&quot;</p>
+<p>Substantive editing checks the intended use, organization, flow, and content strength.</p>
+<p>You can also check if too much or too little information is present and if similar information is presented consistently across documentation.</p>
+<p>But it is always better to use less information. Thomas Jefferson says - “The most valuable of all talents is that of never using two words when one will do.&quot;</p>
 <p><strong><em>How substantive editing works in technical documentation:</em></strong></p>
-<h5 id="content-evaluation">Content Evaluation:<a href="#content-evaluation" class="anchor" aria-hidden="true">#</a> </h5>
+<ol>
+<li>
+<h6 id="content-evaluation">Content Evaluation:<a href="#content-evaluation" class="anchor" aria-hidden="true">#</a> </h6>
+</li>
+</ol>
 <p>It evaluates the overall documentation content to ensure it aligns with the documentation purpose and target audience. It assesses whether the content is relevant, accurate, and comprehensive.</p>
-<h5 id="structural-reorganization">Structural Reorganization:<a href="#structural-reorganization" class="anchor" aria-hidden="true">#</a> </h5>
+<ol start="2">
+<li>
+<h6 id="structural-reorganization">Structural Reorganization:<a href="#structural-reorganization" class="anchor" aria-hidden="true">#</a> </h6>
+</li>
+</ol>
 <p>It involves reorganizing the document&rsquo;s structure for optimal clarity. You suggest changes to the order of sections, headings, and subheadings to ensure a logical flow of information. This restructuring makes complex technical concepts more accessible to readers.</p>
-<h5 id="content-expansion-or-reduction">Content Expansion or Reduction:<a href="#content-expansion-or-reduction" class="anchor" aria-hidden="true">#</a> </h5>
+<ol start="3">
+<li>
+<h6 id="content-expansion-or-reduction">Content Expansion or Reduction:<a href="#content-expansion-or-reduction" class="anchor" aria-hidden="true">#</a> </h6>
+</li>
+</ol>
 <p>Depending on the documentation purpose, substantive editing may recommend adding more detailed explanations or examples for better clarity. Conversely, it might require condensing overly thorough content to maintain conciseness while preserving essential information.</p>
-<h5 id="tone-and-voice-adjustment">Tone and Voice Adjustment:<a href="#tone-and-voice-adjustment" class="anchor" aria-hidden="true">#</a> </h5>
+<ol start="4">
+<li>
+<h6 id="tone-and-voice-adjustment">Tone and Voice Adjustment:<a href="#tone-and-voice-adjustment" class="anchor" aria-hidden="true">#</a> </h6>
+</li>
+</ol>
 <p>It fine-tunes the documentation tone and voice. It ensures the content is better pitched (for end-users, technical experts, or other stakeholders). The adjustment helps maintain the readers engagement.</p>
-<h5 id="enhancing-clarity">Enhancing Clarity:<a href="#enhancing-clarity" class="anchor" aria-hidden="true">#</a> </h5>
+<ol start="5">
+<li>
+<h6 id="enhancing-clarity">Enhancing Clarity:<a href="#enhancing-clarity" class="anchor" aria-hidden="true">#</a> </h6>
+</li>
+</ol>
 <p>It makes the technical content clear, rephrases sentences, simplifies complex language, and provides concise simplification for technical terms and concepts. The goal is to ensure readers with limited technical knowledge grasp the information.</p>
-<h5 id="fact-checking-and-accuracy">Fact-Checking and Accuracy:<a href="#fact-checking-and-accuracy" class="anchor" aria-hidden="true">#</a> </h5>
+<ol start="6">
+<li>
+<h6 id="fact-checking-and-accuracy">Fact-Checking and Accuracy:<a href="#fact-checking-and-accuracy" class="anchor" aria-hidden="true">#</a> </h6>
+</li>
+</ol>
 <p>It pays meticulous attention to the accuracy of the information presented. Substantive editing verifies data, statistics, references, and technical details to ensure they are up-to-date and accurate. The fact-checking is essential for maintaining the documentation’s credibility.</p>
-<h5 id="consistency-in-terminology">Consistency in Terminology:<a href="#consistency-in-terminology" class="anchor" aria-hidden="true">#</a> </h5>
+<ol start="7">
+<li>
+<h6 id="consistency-in-terminology">Consistency in Terminology:<a href="#consistency-in-terminology" class="anchor" aria-hidden="true">#</a> </h6>
+</li>
+</ol>
 <p>It confirms that terminology and technical jargon work consistently throughout the documentation. It may create a glossary to define all technical terms and ensure the definition or explanation of the terms upon first use.</p>
-<h5 id="cross-referencing-and-citations">Cross-Referencing and Citations:<a href="#cross-referencing-and-citations" class="anchor" aria-hidden="true">#</a> </h5>
+<ol start="8">
+<li>
+<h6 id="cross-referencing-and-citations">Cross-Referencing and Citations:<a href="#cross-referencing-and-citations" class="anchor" aria-hidden="true">#</a> </h6>
+</li>
+</ol>
 <p>It checks the accuracy and consistency of cross-references, citations, and footnotes. Substantive editing ensures correct formatting of all references according to the chosen citation style, such as APA, MLA, or a specific industry standard.</p>
-<h5 id="visual-elements-1">Visual Elements:<a href="#visual-elements-1" class="anchor" aria-hidden="true">#</a> </h5>
+<ol start="9">
+<li>
+<h6 id="visual-elements-1">Visual Elements:<a href="#visual-elements-1" class="anchor" aria-hidden="true">#</a> </h6>
+</li>
+</ol>
 <p>Substantive editing reviews and suggests improvements to visual elements, such as tables, figures, diagrams, and captions. It confirms if these elements enhance the content&rsquo;s clarity and integrate effectively into the text.</p>
-<h5 id="usability-and-accessibility">Usability and Accessibility:<a href="#usability-and-accessibility" class="anchor" aria-hidden="true">#</a> </h5>
+<ol start="10">
+<li>
+<h6 id="usability-and-accessibility">Usability and Accessibility:<a href="#usability-and-accessibility" class="anchor" aria-hidden="true">#</a> </h6>
+</li>
+</ol>
 <p>It considers the usability and accessibility of the document. It includes assessing its navigational aids, such as headings, bulleted lists, and links, to ensure readers easily find information. Ensuring better accessibility of the document to individuals with disabilities in compliance with relevant accessibility standards.</p>
 <p><strong><em>Example of substantive editing;</em></strong></p>
-<pre tabindex="0"><code>Original:
-
-In this report, we discuss various aspects of climate change. The first section is about causes, the second is about effects, and the third is about solutions.
-</code></pre><pre tabindex="0"><code>Substantive Edited Version:
-
-This report comprehensively explores climate change, covering its causes, effects, and potential solutions in three distinct sections.
-</code></pre><div class="callout callout-tip d-flex flex-row mt-4 mb-4 pt-4 pe-4 pb-2 ps-3">
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">Original:
+</span></span><span class="line"><span class="ln">2</span><span class="cl">
+</span></span><span class="line"><span class="ln">3</span><span class="cl">In this report, we discuss various aspects of climate change. The first section is about causes, the second is about effects, and the third is about solutions.
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">Substantive Edited Version:
+</span></span><span class="line"><span class="ln">2</span><span class="cl">
+</span></span><span class="line"><span class="ln">3</span><span class="cl">This report comprehensively explores climate change, covering its causes, effects, and potential solutions in three distinct sections.
+</span></span></code></pre></div><div class="callout callout-tip d-flex flex-row mt-4 mb-4 pt-4 pe-4 pb-2 ps-3">
   <svg class="rocket svg-inline callout-icon me-2 mb-3"  xmlns="http://www.w3.org/2000/svg"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 13a8 8 0 017 7 6 6 0 003-5 9 9 0 006-8 3 3 0 00-3-3 9 9 0 00-8 6 6 6 0 00-5 3"/><path d="M7 14a6 6 0 00-3 6 6 6 0 006-3"/><path d="M15 9m-1 0a1 1 0 102 0 1 1 0 10-2 0"/></svg>
   <div class="callout-content">
     <div class="callout-title">
@@ -942,6 +1030,72 @@ This report comprehensively explores climate change, covering its causes, effect
 </div>
 
 <p>Substantive editing is a critical step in producing high-quality technical documentation. It ensures the documentation communicates accurate technical information but does so in a way that is clear, well-structured, and tailored to the needs of the intended audience, ultimately enhancing its value and impact.</p>
+<div class="callout callout-note d-flex flex-row mt-4 mb-4 pt-4 pe-4 pb-2 ps-3">
+  <svg class="info-circle svg-inline callout-icon me-2 mb-3"  xmlns="http://www.w3.org/2000/svg"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 12a9 9 0 1018 0A9 9 0 003 12"/><path d="M12 9h.01"/><path d="M11 12h1v4h1"/></svg>
+  <div class="callout-content">
+    <div class="callout-title">
+        <p>Check your knowledge:</p>
+
+      </div>
+    <div class="callout-body">
+      <body>
+<form id="quizForm">
+  <h2>Question 1:</h2>
+  <p>What is the purpose of proofreading in technical writing?</p>
+  <label>
+    <input type="radio" name="question1" value="grammar"> To correct grammatical errors
+  </label><br>
+  <label>
+    <input type="radio" name="question1" value="complex"> To rewrite the entire document
+  </label><br>
+  <label>
+    <input type="radio" name="question1" value="London"> To add more technical details
+  </label><br>
+  <h2>Question 2:</h2>
+  <p>Why is editing considered a vital aspect of the technical writing process?</p>
+  <label>
+    <input type="radio" name="question2" value="3"> To add complexity and confusion to technical documents.
+  </label><br>
+  <label>
+    <input type="radio" name="question2" value="report"> Only to correct spelling errors.
+  </label><br>
+  <label>
+    <input type="radio" name="question2" value="4"> To ensure accuracy, consistency, clarity, and better user comprehension of technical documents.
+  </label><br>
+  <br>
+  <input type="submit" value="Check your answers" onclick="gradeQuiz()">
+</form>
+<p id="result"></p>
+<script>
+  function gradeQuiz() {
+    event.preventDefault(); // Prevent form submission
+    const answers = {
+      question1: document.querySelector('input[name="question1"]:checked').value,
+      question2: document.querySelector('input[name="question2"]:checked').value
+    };
+    // Correct answers
+    const correctAnswers = {
+      question1: "grammar",
+      question2: "4"
+    };
+    let score = 0;
+    // Check answers and calculate score
+    if (answers.question1 === correctAnswers.question1) {
+      score++;
+    }
+    if (answers.question2 === correctAnswers.question2) {
+      score++;
+    }
+    // Display the score
+    document.getElementById('result').innerHTML = `You scored ${score} out of 2`;
+  }
+</script>
+</body>
+
+    </div>
+  </div>
+</div>
+
 <div class="callout callout-tip d-flex flex-row mt-4 mb-4 pt-4 pe-4 pb-2 ps-3">
   <svg class="rocket svg-inline callout-icon me-2 mb-3"  xmlns="http://www.w3.org/2000/svg"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 13a8 8 0 017 7 6 6 0 003-5 9 9 0 006-8 3 3 0 00-3-3 9 9 0 00-8 6 6 6 0 00-5 3"/><path d="M7 14a6 6 0 00-3 6 6 6 0 006-3"/><path d="M15 9m-1 0a1 1 0 102 0 1 1 0 10-2 0"/></svg>
   <div class="callout-content">
@@ -960,33 +1114,70 @@ This report comprehensively explores climate change, covering its causes, effect
 <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/xykfc692ilw3uf886sdu.jpg" alt="Image description" width="400" height="500">
 <p>Editing for clarity, conciseness, and correctness is a standard for producing credible and quality technical documentation. The section details how to edit technical documentation with the 3Cs.</p>
 <h3 id="clarity">Clarity<a href="#clarity" class="anchor" aria-hidden="true">#</a> </h3>
-<p>Clarity refers to the quality of being clear, transparent, and easily understood. It involves expressing ideas, information, or instructions in a way that is easy for the audience to comprehend. A clear message is free from ambiguity, confusion, or unnecessary complexity.Editing for clarity ensures easy understanding for its target audience.</p>
+<p>Clarity refers to the quality of being clear, transparent, and easily understood. It involves expressing ideas, information, or instructions in a way that is easy for the audience to comprehend.</p>
+<p>A clear message is free from ambiguity, confusion, or unnecessary complexity.Editing for clarity ensures easy understanding for its target audience.</p>
 <p><strong><em>How to edit for clarity:</em></strong></p>
-<h5 id="understand-your-audience">Understand Your Audience:<a href="#understand-your-audience" class="anchor" aria-hidden="true">#</a> </h5>
+<ol>
+<li>
+<h6 id="understand-your-audience">Understand Your Audience:<a href="#understand-your-audience" class="anchor" aria-hidden="true">#</a> </h6>
+</li>
+</ol>
 <p>Before you begin the editing process, clearly understand your target audience. Are you writing for technical experts, beginners, or a mixed audience? Knowing your audience knowledge level, interests, and expectations is the first step in editing for clarity.</p>
-<h5 id="simplify-technical-jargon">Simplify Technical Jargon:<a href="#simplify-technical-jargon" class="anchor" aria-hidden="true">#</a> </h5>
+<ol start="2">
+<li>
+<h6 id="simplify-technical-jargon">Simplify Technical Jargon:<a href="#simplify-technical-jargon" class="anchor" aria-hidden="true">#</a> </h6>
+</li>
+</ol>
 <p>Technical documentation often contains specialized terminology and jargon unfamiliar to non-experts. Edit by explaining technical terms and consider using simpler synonyms. Clarity helps you strike a balance between technical accuracy and accessibility.</p>
-<h5 id="organization-and-structure">Organization and Structure:<a href="#organization-and-structure" class="anchor" aria-hidden="true">#</a> </h5>
+<ol start="3">
+<li>
+<h6 id="organization-and-structure">Organization and Structure:<a href="#organization-and-structure" class="anchor" aria-hidden="true">#</a> </h6>
+</li>
+</ol>
 <p>Review the organization and structure of the document. Ensure the logical presentation of information. Headings and subheadings help readers navigate through the content. Group related information and use a clear hierarchy to show the relationships between sections.</p>
-<h5 id="consistency">Consistency:<a href="#consistency" class="anchor" aria-hidden="true">#</a> </h5>
+<ol start="4">
+<li>
+<h6 id="consistency">Consistency:<a href="#consistency" class="anchor" aria-hidden="true">#</a> </h6>
+</li>
+</ol>
 <p>Consistency in terminology, style, and formatting is essential for clarity. Ensure the consistent use of the same terms throughout the documentation. Formatting elements such as fonts, headings, and lists should follow a uniform style.</p>
-<h5 id="active-voice">Active Voice:<a href="#active-voice" class="anchor" aria-hidden="true">#</a> </h5>
+<ol start="5">
+<li>
+<h6 id="active-voice">Active Voice:<a href="#active-voice" class="anchor" aria-hidden="true">#</a> </h6>
+</li>
+</ol>
 <p>Active voice sentences are more direct and easier to understand. Passive voice may make sentences more complex and less clear. Editing for clarity ensures the use of active voice in your sentences.</p>
-<h5 id="avoid-ambiguity">Avoid Ambiguity:<a href="#avoid-ambiguity" class="anchor" aria-hidden="true">#</a> </h5>
+<ol start="6">
+<li>
+<h6 id="avoid-ambiguity">Avoid Ambiguity:<a href="#avoid-ambiguity" class="anchor" aria-hidden="true">#</a> </h6>
+</li>
+</ol>
 <p>Ambiguity can lead to confusion. Review your content for ambiguous terms, phrases, or sentences. Be explicit in your explanations, and avoid leaving room for multiple interpretations. If there&rsquo;s room for misunderstanding, clarify.</p>
-<h5 id="visual-aids">Visual Aids:<a href="#visual-aids" class="anchor" aria-hidden="true">#</a> </h5>
+<ol start="7">
+<li>
+<h6 id="visual-aids">Visual Aids:<a href="#visual-aids" class="anchor" aria-hidden="true">#</a> </h6>
+</li>
+</ol>
 <p>Consider using visual aids like diagrams, charts, and illustrations. These help clarify complex concepts and make the content more accessible. Ensure proper labeling of visual aids and integration into the text.</p>
-<h5 id="examples-and-analogies">Examples and Analogies:<a href="#examples-and-analogies" class="anchor" aria-hidden="true">#</a> </h5>
+<ol start="8">
+<li>
+<h6 id="examples-and-analogies">Examples and Analogies:<a href="#examples-and-analogies" class="anchor" aria-hidden="true">#</a> </h6>
+</li>
+</ol>
 <p>Provide real-world examples and analogies to explain technical concepts. Analogies bridge the knowledge gap and make abstract or complex ideas more relatable.</p>
-<h5 id="revision-and-iteration">Revision and Iteration:<a href="#revision-and-iteration" class="anchor" aria-hidden="true">#</a> </h5>
+<ol start="9">
+<li>
+<h6 id="revision-and-iteration">Revision and Iteration:<a href="#revision-and-iteration" class="anchor" aria-hidden="true">#</a> </h6>
+</li>
+</ol>
 <p>Editing for clarity is an iterative process. After making initial edits, revisit the document multiple times to refine and enhance its clarity. Each revision brings the content closer to your clarity goals.</p>
-<pre tabindex="0"><code>Original:
-
-The new software update has implemented changes to the user interface, providing users with a more seamless and user-friendly experience.
-</code></pre><pre tabindex="0"><code>Clarity Edit:
-
-The latest software update has improved the user interface, making it more seamless and user-friendly.
-</code></pre><div class="callout callout-tip d-flex flex-row mt-4 mb-4 pt-4 pe-4 pb-2 ps-3">
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">Original:
+</span></span><span class="line"><span class="ln">2</span><span class="cl">
+</span></span><span class="line"><span class="ln">3</span><span class="cl">The new software update has implemented changes to the user interface, providing users with a more seamless and user-friendly experience.
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">Clarity Edit:
+</span></span><span class="line"><span class="ln">2</span><span class="cl">
+</span></span><span class="line"><span class="ln">3</span><span class="cl">The latest software update has improved the user interface, making it more seamless and user-friendly.
+</span></span></code></pre></div><div class="callout callout-tip d-flex flex-row mt-4 mb-4 pt-4 pe-4 pb-2 ps-3">
   <svg class="rocket svg-inline callout-icon me-2 mb-3"  xmlns="http://www.w3.org/2000/svg"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 13a8 8 0 017 7 6 6 0 003-5 9 9 0 006-8 3 3 0 00-3-3 9 9 0 00-8 6 6 6 0 00-5 3"/><path d="M7 14a6 6 0 00-3 6 6 6 0 006-3"/><path d="M15 9m-1 0a1 1 0 102 0 1 1 0 10-2 0"/></svg>
   <div class="callout-content">
     <div class="callout-title">
@@ -999,47 +1190,85 @@ The latest software update has improved the user interface, making it more seaml
   </div>
 </div>
 
-<p>By applying these principles and techniques, you can effectively edit technical documentation for clarity, making it more accessible and understandable for your intended readers, regardless of their level of technical expertise. Clarity in technical documentation is vital to its usability and effectiveness.</p>
+<p>By applying these principles and techniques, you can effectively edit technical documentation for clarity, making it more accessible and understandable for your intended readers, regardless of their level of technical expertise.</p>
+<p>Clarity in technical documentation is vital to its usability and effectiveness.</p>
 <h3 id="conciseness">Conciseness<a href="#conciseness" class="anchor" aria-hidden="true">#</a> </h3>
-<p>Conciseness refers to the quality of expressing ideas in a precise manner without unnecessary elaboration or redundancy. Concise technical documentation conveys information using the most efficient/effective language, avoiding unnecessary words or details that do not contribute to the main message.</p>
+<p>Conciseness refers to the quality of expressing ideas in a precise manner without unnecessary elaboration or redundancy.</p>
+<p>Concise technical documentation conveys information using the most efficient/effective language, avoiding unnecessary words or details that do not contribute to the main message.</p>
 <p>Editing for conciseness is also an essential aspect of creating better technical documentation. A concise document is more engaging, easier to read, and communicates information more efficiently.</p>
 <p><strong><em>How to edit for conciseness:</em></strong></p>
-<h5 id="identify-redundant-information">Identify Redundant Information:<a href="#identify-redundant-information" class="anchor" aria-hidden="true">#</a> </h5>
+<ol>
+<li>
+<h6 id="identify-redundant-information">Identify Redundant Information:<a href="#identify-redundant-information" class="anchor" aria-hidden="true">#</a> </h6>
+</li>
+</ol>
 <p>Review your document to identify redundant content. Check for repeated information, ideas, and unnecessary phrases and eliminate redundancy to make the document more concise.</p>
-<h5 id="remove-unnecessary-words">Remove Unnecessary Words:<a href="#remove-unnecessary-words" class="anchor" aria-hidden="true">#</a> </h5>
+<ol start="2">
+<li>
+<h6 id="remove-unnecessary-words">Remove Unnecessary Words:<a href="#remove-unnecessary-words" class="anchor" aria-hidden="true">#</a> </h6>
+</li>
+</ol>
 <p>Carefully examine each sentence and paragraph to identify and remove unnecessary words. Examples include filler words, redundant adjectives, and overly complex sentence structures. Simplify sentences to convey the same meaning with fewer words.</p>
-<h5 id="avoid-wordiness">Avoid Wordiness:<a href="#avoid-wordiness" class="anchor" aria-hidden="true">#</a> </h5>
+<ol start="3">
+<li>
+<h6 id="avoid-wordiness">Avoid Wordiness:<a href="#avoid-wordiness" class="anchor" aria-hidden="true">#</a> </h6>
+</li>
+</ol>
 <p>Check for wordy phrases you can shorten without losing meaning. For example, replace</p>
 <ul>
 <li>&ldquo;due to the fact that&rdquo; with &ldquo;because&rdquo;</li>
 <li>&ldquo;in order to&rdquo; with &ldquo;to.&rdquo;</li>
 </ul>
 <p>Reducing wordiness is a quick way to increase conciseness.</p>
-<h5 id="use-active-voice">Use Active Voice:<a href="#use-active-voice" class="anchor" aria-hidden="true">#</a> </h5>
+<ol start="4">
+<li>
+<h6 id="use-active-voice">Use Active Voice:<a href="#use-active-voice" class="anchor" aria-hidden="true">#</a> </h6>
+</li>
+</ol>
 <p>Passive voice sentences are wordier than active voice sentences. Rewrite passive voice sentences to make them active. It shortens sentences and makes them more direct and engaging.</p>
-<h5 id="cut-down-on-qualifiers">Cut Down on Qualifiers:<a href="#cut-down-on-qualifiers" class="anchor" aria-hidden="true">#</a> </h5>
+<ol start="5">
+<li>
+<h6 id="cut-down-on-qualifiers">Cut Down on Qualifiers:<a href="#cut-down-on-qualifiers" class="anchor" aria-hidden="true">#</a> </h6>
+</li>
+</ol>
 <p>Qualifying words and phrases like &ldquo;very,&rdquo; &ldquo;extremely,&rdquo; &ldquo;quite,&rdquo; and &ldquo;somewhat&rdquo; can often be eliminated without affecting the meaning of a sentence. Reducing qualifiers leads to more concise and assertive statements.</p>
-<h5 id="condense-lists">Condense Lists:<a href="#condense-lists" class="anchor" aria-hidden="true">#</a> </h5>
+<ol start="6">
+<li>
+<h6 id="condense-lists">Condense Lists:<a href="#condense-lists" class="anchor" aria-hidden="true">#</a> </h6>
+</li>
+</ol>
 <p>Lists may become lengthy and cumbersome. Edit lists to be more concise by</p>
 <ul>
 <li>Removing unnecessary items,</li>
 <li>Combining related items,</li>
 <li>Presenting the information in a more organized format, such as a table or chart.</li>
 </ul>
-<h5 id="use-abbreviations-and-acronyms-judiciously">Use Abbreviations and Acronyms Judiciously:<a href="#use-abbreviations-and-acronyms-judiciously" class="anchor" aria-hidden="true">#</a> </h5>
+<ol start="7">
+<li>
+<h6 id="use-abbreviations-and-acronyms-judiciously">Use Abbreviations and Acronyms Judiciously:<a href="#use-abbreviations-and-acronyms-judiciously" class="anchor" aria-hidden="true">#</a> </h6>
+</li>
+</ol>
 <p>Abbreviations and acronyms help reduce the length of technical terms. However, carefully use them and ensure it suits your target audience. Always spell out the full term on first time and include the abbreviation in parentheses. An example is the Technical Writing Mentorship Program (TWMP).</p>
-<h5 id="focus-on-key-information">Focus on Key Information:<a href="#focus-on-key-information" class="anchor" aria-hidden="true">#</a> </h5>
+<ol start="8">
+<li>
+<h6 id="focus-on-key-information">Focus on Key Information:<a href="#focus-on-key-information" class="anchor" aria-hidden="true">#</a> </h6>
+</li>
+</ol>
 <p>Prioritize the most critical information and eliminate less vital details. Your documentation should deliver the essential information without overwhelming the reader.</p>
-<h5 id="use-bullet-points-and-headings">Use Bullet Points and Headings:<a href="#use-bullet-points-and-headings" class="anchor" aria-hidden="true">#</a> </h5>
+<ol start="9">
+<li>
+<h6 id="use-bullet-points-and-headings">Use Bullet Points and Headings:<a href="#use-bullet-points-and-headings" class="anchor" aria-hidden="true">#</a> </h6>
+</li>
+</ol>
 <p>Bullet points and headings can break up dense paragraphs and provide concise, organized information. Use them to present key points and create a visually appealing document.</p>
 <p><strong><em>Example of editing for conciseness;</em></strong></p>
-<pre tabindex="0"><code>Original:
-
-It is important to note that the primary reason for the increase in sales is due to the fact that our marketing strategies have been highly effective.
-</code></pre><pre tabindex="0"><code>Conciseness Edit:
-
-The increase in sales is primarily due to our highly effective marketing strategies.
-</code></pre><div class="callout callout-tip d-flex flex-row mt-4 mb-4 pt-4 pe-4 pb-2 ps-3">
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">Original:
+</span></span><span class="line"><span class="ln">2</span><span class="cl">
+</span></span><span class="line"><span class="ln">3</span><span class="cl">It is important to note that the primary reason for the increase in sales is due to the fact that our marketing strategies have been highly effective.
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">Conciseness Edit:
+</span></span><span class="line"><span class="ln">2</span><span class="cl">
+</span></span><span class="line"><span class="ln">3</span><span class="cl">The increase in sales is primarily due to our highly effective marketing strategies.
+</span></span></code></pre></div><div class="callout callout-tip d-flex flex-row mt-4 mb-4 pt-4 pe-4 pb-2 ps-3">
   <svg class="rocket svg-inline callout-icon me-2 mb-3"  xmlns="http://www.w3.org/2000/svg"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 13a8 8 0 017 7 6 6 0 003-5 9 9 0 006-8 3 3 0 00-3-3 9 9 0 00-8 6 6 6 0 00-5 3"/><path d="M7 14a6 6 0 00-3 6 6 6 0 006-3"/><path d="M15 9m-1 0a1 1 0 102 0 1 1 0 10-2 0"/></svg>
   <div class="callout-content">
     <div class="callout-title">
@@ -1052,30 +1281,52 @@ The increase in sales is primarily due to our highly effective marketing strateg
   </div>
 </div>
 
-<p>Editing for conciseness is a better balance between preserving essential information and removing unnecessary content. A concise document saves the writer and the reader time and enhances the documentation overall readability and impact.</p>
+<p>Editing for conciseness is a better balance between preserving essential information and removing unnecessary content.</p>
+<p>A concise document saves the writer and the reader time and enhances the documentation overall readability and impact.</p>
 <h3 id="correctness-accuracy">Correctness (Accuracy)<a href="#correctness-accuracy" class="anchor" aria-hidden="true">#</a> </h3>
 <p>Correctness refers to the quality or state of being accurate, free from errors, and following established standards, rules, or facts. In technical documentation, correctness is a measure of accuracy and appropriateness.</p>
 <p>Editing for correctness is another critical aspect of technical documentation. Ensuring the information in your documentation is precise and error-free is essential to maintain the credibility of the content.</p>
 <p><strong><em>How to edit for correctness:</em></strong></p>
-<h5 id="fact-checking">Fact-Checking:<a href="#fact-checking" class="anchor" aria-hidden="true">#</a> </h5>
+<ol>
+<li>
+<h6 id="fact-checking">Fact-Checking:<a href="#fact-checking" class="anchor" aria-hidden="true">#</a> </h6>
+</li>
+</ol>
 <p>Verify the accuracy of data, statistics, references, and any technical details. Ensure the information is up-to-date and consistent with current knowledge and industry standards.</p>
-<h5 id="cross-reference-sources">Cross-Reference Sources:<a href="#cross-reference-sources" class="anchor" aria-hidden="true">#</a> </h5>
+<ol start="2">
+<li>
+<h6 id="cross-reference-sources">Cross-Reference Sources:<a href="#cross-reference-sources" class="anchor" aria-hidden="true">#</a> </h6>
+</li>
+</ol>
 <p>If your document cites external sources or references, cross-reference these sources to confirm the accuracy of the information. Check that citations are correctly formatted and lead to the intended source.</p>
-<h5 id="check-technical-details">Check Technical Details:<a href="#check-technical-details" class="anchor" aria-hidden="true">#</a> </h5>
+<ol start="3">
+<li>
+<h6 id="check-technical-details">Check Technical Details:<a href="#check-technical-details" class="anchor" aria-hidden="true">#</a> </h6>
+</li>
+</ol>
 <p>Pay close attention to technical details. Double-check codes, calculations, formulas, and specific measurements to ensure accuracy. Even minor errors in technical details have significant consequences.</p>
-<h5 id="grammar-and-syntax">Grammar and Syntax:<a href="#grammar-and-syntax" class="anchor" aria-hidden="true">#</a> </h5>
+<ol start="4">
+<li>
+<h6 id="grammar-and-syntax">Grammar and Syntax:<a href="#grammar-and-syntax" class="anchor" aria-hidden="true">#</a> </h6>
+</li>
+</ol>
 <p>Accurate grammar and syntax are essential for clear and precise communication. Review the document for grammatical errors, such as subject-verb agreement, verb tense consistency, and sentence structure. Incorrect grammar can lead to misunderstandings.</p>
-<h5 id="check-spelling-and-typographical-errors">Check Spelling and Typographical Errors:<a href="#check-spelling-and-typographical-errors" class="anchor" aria-hidden="true">#</a> </h5>
+<ol start="5">
+<li>
+<h6 id="check-spelling-and-typographical-errors">Check Spelling and Typographical Errors:<a href="#check-spelling-and-typographical-errors" class="anchor" aria-hidden="true">#</a> </h6>
+</li>
+</ol>
 <p>Even a single typographical error casts doubt on the accuracy of your document. Proofread the document carefully to catch spelling mistakes and typographical errors. Spelling errors can change the meaning of a word or term, leading to confusion.</p>
-<p>Maintaining accuracy in technical documentation is paramount, as errors lead to misunderstandings, misinterpretations, or potentially dangerous consequences. Thoroughly editing for accuracy helps ensure your document is a reliable and trustworthy source of information.</p>
+<p>Maintaining accuracy in technical documentation is paramount, as errors lead to misunderstandings, misinterpretations, or potentially dangerous consequences.</p>
+<p>Thoroughly editing for accuracy helps ensure your document is a reliable and trustworthy source of information.</p>
 <p><strong><em>Example of editing for correctness;</em></strong></p>
-<pre tabindex="0"><code>Original:
-
-The experiment was conducted on April 25th, 2022, and the results were published in the June 2022 edition of the journal.
-</code></pre><pre tabindex="0"><code>Correctness Edit:
-
-The experiment was conducted on April 25, 2022, and the results were published in the June 2022 edition of the journal.
-</code></pre><div class="callout callout-tip d-flex flex-row mt-4 mb-4 pt-4 pe-4 pb-2 ps-3">
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">Original:
+</span></span><span class="line"><span class="ln">2</span><span class="cl">
+</span></span><span class="line"><span class="ln">3</span><span class="cl">The experiment was conducted on April 25th, 2022, and the results were published in the June 2022 edition of the journal.
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">Correctness Edit:
+</span></span><span class="line"><span class="ln">2</span><span class="cl">
+</span></span><span class="line"><span class="ln">3</span><span class="cl">The experiment was conducted on April 25, 2022, and the results were published in the June 2022 edition of the journal.
+</span></span></code></pre></div><div class="callout callout-tip d-flex flex-row mt-4 mb-4 pt-4 pe-4 pb-2 ps-3">
   <svg class="rocket svg-inline callout-icon me-2 mb-3"  xmlns="http://www.w3.org/2000/svg"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 13a8 8 0 017 7 6 6 0 003-5 9 9 0 006-8 3 3 0 00-3-3 9 9 0 00-8 6 6 6 0 00-5 3"/><path d="M7 14a6 6 0 00-3 6 6 6 0 006-3"/><path d="M15 9m-1 0a1 1 0 102 0 1 1 0 10-2 0"/></svg>
   <div class="callout-content">
     <div class="callout-title">
@@ -1089,6 +1340,24 @@ The experiment was conducted on April 25, 2022, and the results were published i
 </div>
 
 <p>Editing improves the quality of your technical documentation, making it a valuable resource that communicates concisely and accurately to your target audience.</p>
+<h3 id="exercise">Exercise:<a href="#exercise" class="anchor" aria-hidden="true">#</a> </h3>
+<p><strong>Complete the following exercises before procedding to the next module.</strong></p>
+<p>Carefully edit this technical document for all of the diferent types and aspects of editing discussed in this module. After review, tag @TechnicalWriti6 on X(Twitter with the link to you published submission.)</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln"> 1</span><span class="cl">Growth, an ever-present facet of the human experience, manifests in myriad dimensions throughout our lives. It transcends physicality, weaving into personal development, knowledge acquisition, emotional resilience, and societal progress. As we traverse life&#39;s intricate tapestry, growth emerges as our guiding compass through uncharted territories of potential.
+</span></span><span class="line"><span class="ln"> 2</span><span class="cl">Growth is a dynamic process, an intricate dance between aspiration and realization. It encapsulates evolution, a continuous journey unfolding in response to external stimuli, internal reflections, and the interplay of resilience and adaptability. In personal development, growth mirrors a seedling breaking through soil, reaching for the sun, driven by an innate desire to thrive.
+</span></span><span class="line"><span class="ln"> 3</span><span class="cl">The journey of growth often commences in the crucible of challenges. Adversity, far from being an obstacle, serves as fertile ground where seeds of potential sprout and resilience takes root. Challenges are not adversaries but catalysts for growth, urging us to stretch beyond perceived limitations, fostering courage, and fortifying resolve. It is through the crucible of challenges that character is forged, and latent capacities within us unfurl.
+</span></span><span class="line"><span class="ln"> 4</span><span class="cl">Educational pursuits exmeplify transformative arenas for growth. The acquisition of knowledge, skills, and perspectives propels individuals toward intellectual maturity and a deeper understanding of the world. Growth in education is not confined to the classroom; it permeates every facet of life, shaping critical thinking, problem-solving abilities, and a nuanced appreciation for diverse viewpoints.
+</span></span><span class="line"><span class="ln"> 5</span><span class="cl">Beyond personal development, societal growth emerges from collective endeavors to address challenges, innovate, and build a more equitable and sustainable future. Societal growth is a tapestry woven by the collaborative efforts of individuals and communities, each contributing unique threads to the fabric of progress. It encompasses advancements in technology, improvements in infrastructure, and the evolution of cultural norms that reflect an ever-changing collective consciousness.
+</span></span><span class="line"><span class="ln"> 6</span><span class="cl">Economic growth, a pivotal aspect of societal progress, is not merely measured in monetary terms but also in the expansion of opportunities, the reduction of inequalities, and the enhancement of overall well-being. A flourishing economy is one that fosters innovation, embraces diversity, and ensures that the benefits of growth are inclusive, reaching all segments of society.
+</span></span><span class="line"><span class="ln"> 7</span><span class="cl">The dynamisc of growth extend into the intricate realm of emotional and spiritual maturation. Embracing vulnerability, cultivating empathy, and navigating complex landscapes of human relationships contribute to profound personal growth. Emotional resilience, forged through life&#39;s trials, enables individuals to weather storms with grace and emerge stronger, more compassionate beings.
+</span></span><span class="line"><span class="ln"> 8</span><span class="cl">In the natural world, growth is evident in the cycles of seasons, where flora and fauna undergo transformations, demonstrating the cyclical nature of life. Trees, with roots delving deep into the earth, symbolize stability, while their branches reaching skyward epitomize the ceaseless pursuit of higher aspirations. Nature, with its intricate ecosystems, teaches us the interconnectedness of growth—a reminder that individual and collective flourishing are intertwined.
+</span></span><span class="line"><span class="ln"> 9</span><span class="cl">The metaphor of growth extends to the corporate landscape, where businesses navigate competitive climates and market fluctuations. Sustainable growth in business involves strategic foresight, adaptability to changing market dynamics, and a commitment to ethical practices. Organizations that prioritize innovation, employee development, and societal responsibility contribute not only to their growth but also to the broader fabric of societal advancement.
+</span></span><span class="line"><span class="ln">10</span><span class="cl">Growth, however, is not a linear trajectory but a mosaic of peaks and valleys, successes and setbacks. It necessitates reflection on failures as opportunities for learning and refinement. The willingness to reassess goals, recalibrate strategies, and pivot in response to evolving circumstances is integral to sustained growth.
+</span></span><span class="line"><span class="ln">11</span><span class="cl">In the pursuit of growth, the concept of self-discovery assumes paramount significance. Knowing oneself—acknowledging strengths, confronting weaknesses, and understanding one&#39;s passions—forms the bedrock for intentional personal and professional growth. This introspective journey fosters authenticity, aligning individual aspirations with actions that propel growth.
+</span></span><span class="line"><span class="ln">12</span><span class="cl">As we navigate the myriad dimensions of growth, it is crucial to recognize that the pursuit of progress is not a solitary endeavor. Collaborative growth, where individuals, communities, and societies uplift each other, catalyzes a collective ascent toward shared ideals. Growth becomes not only a personal quest but a shared commitment to building a world that reflects our highest aspirations.
+</span></span><span class="line"><span class="ln">13</span><span class="cl">In conclusion, growth is the rhythmic heartbeat that animates the human experience. It is the unfurling of potential, the refinement in the crucible of challenges, and the collective endeavor to create a better world. Embracing the dynamics of growth requires resilience, adaptability, and a steadfast commitment to continuous learning. In this intricate dance of evolution, we discover the profound beauty of becoming—who we are meant to be and who we are continually striving to become.
+</span></span></code></pre></div><p>Answer the following questions.</p>
+<iframe src="https://forms.gle/GbVyVD466ouHzMLM7" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 <div class="callout callout-tip d-flex flex-row mt-4 mb-4 pt-4 pe-4 pb-2 ps-3">
   <svg class="rocket svg-inline callout-icon me-2 mb-3"  xmlns="http://www.w3.org/2000/svg"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 13a8 8 0 017 7 6 6 0 003-5 9 9 0 006-8 3 3 0 00-3-3 9 9 0 00-8 6 6 6 0 00-5 3"/><path d="M7 14a6 6 0 00-3 6 6 6 0 006-3"/><path d="M15 9m-1 0a1 1 0 102 0 1 1 0 10-2 0"/></svg>
   <div class="callout-content">
@@ -1104,7 +1373,13 @@ The experiment was conducted on April 25, 2022, and the results were published i
 
 
 			<div class="page-footer-meta d-flex flex-column flex-md-row justify-content-between">
-				
+				<div class="last-modified">
+    <a href="https://github.com/Technical-writing-mentorship-program/Technicalwritingcourse/commit/a3763bb2be6b257cf03dbe9f70eb3d3e91142c7c">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+      Last updated on January 30, 2024
+    </a>
+  </div>
+
 				
 
 
@@ -1125,7 +1400,7 @@ The experiment was conducted on April 25, 2022, and the results were published i
 
 
 <div class="edit-page">
-  <a href="https://github.com/h-enk/doks/blob/main/content/en/docs/TechnicalWritingCourse/module-8.md">
+  <a href="https://github.com/Technical-writing-mentorship-program/Technicalwritingcourse/blob/main/content/en/docs/TechnicalWritingCourse/module-8.md">
     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-edit-2">
       <path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"></path>
     </svg>
@@ -1209,14 +1484,6 @@ The experiment was conducted on April 25, 2022, and the results were published i
 
 
 
-<script async
-  src="/js/flexsearch.78e4b7a9456a2770bd6faffb1f6488b30db12ca157c3df4e89e3ae2e258888ae.js"
-  integrity="sha256-eOS3qUVqJ3C9b6/7H2SIsw2xLKFXw99OieOuLiWIiK4=">
-</script>
-<script async
-  src="/js/search-modal.c4c023efcdee308e4b5f1110afe1db6b1656f217e67aa7efe54e2f4bf2feccf8.js"
-  integrity="sha256-xMAj783uMI5LXxEQr&#43;HbaxZW8hfmeqfv5U4vS/L&#43;zPg=">
-</script>
 
     <div class="d-inline-flex fixed-bottom-right pb-4 pe-4">
   <button id="toTop" type="button" class="btn btn-primary rounded-circle ms-auto p-2"><span class="visually-hidden">Top</span><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-up" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M6 15l6 -6l6 6"></path></svg></button>

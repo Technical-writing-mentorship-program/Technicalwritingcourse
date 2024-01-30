@@ -3,14 +3,14 @@
   
     <url>
       <loc>/blog/example-post/</loc>
-      <lastmod>2023-09-07T16:27:22+02:00</lastmod>
+      <lastmod>2023-11-06T19:46:18+01:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
     </url>
     
     <url>
       <loc>/blog/introduction-to-markdown/</loc>
-      <lastmod>2023-09-07T16:27:22+02:00</lastmod>
+      <lastmod>2023-11-06T19:46:18+01:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
     </url>

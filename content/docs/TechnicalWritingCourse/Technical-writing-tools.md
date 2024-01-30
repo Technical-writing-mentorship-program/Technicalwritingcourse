@@ -8,7 +8,7 @@ draft: false
 menu:
   docs:
     parent: ""
-    identifier: "diagram-6a1a6be4373e933280d78ea53de6158ue" 
+    identifier: "diagram-6a1a6be4373e933280d78ea53de6158ue"
     weight: 1091
 toc: true
 seo:
@@ -40,7 +40,7 @@ This lesson will cover the most popular tools for technical writing that every w
 - Search Engine Optimization (SEO)
 - Productivity
 - Highlighting
-- Artificial Intelligence (AI) Tools  
+- Artificial Intelligence (AI) Tools
 - Video editing tools
 
 #### **Grammar**
@@ -63,11 +63,11 @@ These tips assist with writing better emails, articles, documents, and webpages 
 
 Grammarly fixes mistakes and reduces time spent proofreading. It helps to increase writing quality and boost your confidence in writing.
 
-It works with online Word documents, Gmail documents, and Google Docs.  It can also be used anywhere you write on the internet. This covers LinkedIn, Hashnode, YouTube, Instagram, Twitter, and Yahoo.
+It works with online Word documents, Gmail documents, and Google Docs. It can also be used anywhere you write on the internet. This covers LinkedIn, Hashnode, YouTube, Instagram, Twitter, and Yahoo.
 
 ##### 2. **Quillbot**
 
-[Quillbot](https://quillbot.com/) is a grammar checker, paraphraser, and summarizer tool that helps improve writing quality. Quillbot is very useful for reducing plagiarism. Quillbot provides writing suggestions; however, it is only sometimes accurate.  
+[Quillbot](https://quillbot.com/) is a grammar checker, paraphraser, and summarizer tool that helps improve writing quality. Quillbot is very useful for reducing plagiarism. Quillbot provides writing suggestions; however, it is only sometimes accurate.
 
 Quillbot is a Chrome extension, an add-on for Microsoft Word and MacOS. The Quillbot extension is accessible in the Chrome extensions store.
 
@@ -121,7 +121,7 @@ Plagiarism detector works across multiple languages such as English, Italian, Fr
 - Deep Search
 - Multiple languages
 - Check up to 25k words
-{{< /callout >}}
+  {{< /callout >}}
 
 #### **Authoring tools**
 
@@ -161,7 +161,7 @@ With Photoshop, you can design pictures from scratch or use templates. Images an
 
 Images increase user engagement. Photoshop is useful for creating designs from scratch and editing photos.
 
-##### 3. **Annotely**
+##### 2. **Annotely**
 
 [Annotely](https://annotely.com/) is a free and easy tool to add comments and explain images. It is handy for you to add arrows and pointers to pictures for further emphasis.
 
@@ -169,14 +169,14 @@ Images increase user engagement. Photoshop is useful for creating designs from s
 You can illustrate, blur, and highlight words in an image using Annotely.
 {{< /callout >}}
 
-##### 4. **Canva**
+##### 3. **Canva**
 
 [Canva](https://www.canva.com/) is an online graphic design tool for creating designs across social media platforms. Canva has free and Pro versions to access templates.
 
 It helps design images for your write-ups, like cover photos, banners, Instagram posts, and YouTube covers. Canva has built-in templates for editing and creating graphics and images.
 One great feature of Canva is the vast templates for different uses. You can create carousels and images for your write-ups with the templates.
 
-##### 5. **Microsoft Designer**
+##### 4. **Microsoft Designer**
 
 [Microsoft Designer](https://designer.microsoft.com/) is an AI tool for graphics and pictures to create designs based on the prompts.
 
@@ -250,7 +250,7 @@ Video tools are useful for social media posting and increasing engagements to ca
 
 [Inshot](https://inshot.com/) is a photo and video editing tool available for mobile devices. Creating videos for social media engagements and write-ups with Inshot is made easy.
 
- It is suitable for social media platforms such as Youtube, Instagram, TikTok, LinkedIn and Whatsapp.  InShot allows you to showcase your write-ups in a video format.  
+It is suitable for social media platforms such as Youtube, Instagram, TikTok, LinkedIn and Whatsapp. InShot allows you to showcase your write-ups in a video format.
 
 ##### 2.**CapCut**
 
@@ -277,10 +277,10 @@ WordPress, Wix, Medium, Hashnode, Adobe Framemaker, Robohelp, Madcap Flare, and 
 [WordPress](https://wordpress.com/) is a content management system (CMS) that allows users to build websites. These websites can be used as blogs and sites to publish content.
 WordPress is open-source and free. WordPress can be used to build a site without a deep knowledge of coding. It is an excellent tool for writers to publish write-ups consistently.
 
-##### 2.  **Madcap Flare**
+##### 2. **Madcap Flare**
 
 [Madcap Flare](https://www.madcapsoftware.com/) is a writing tool for publishing documentation, knowledge bases, user guides, and user manuals. With Madcap Flare, you can write once and publish for printing, web, desktop, and learning management systems.
-The interface is easy to use and user-friendly.  
+The interface is easy to use and user-friendly.
 
 ##### 3. **Medium**
 
@@ -341,7 +341,7 @@ Hugo's offers integration with Google Analytics. Hosting can be done on Gitlab a
 
 ##### 2. **Sphinx**
 
-[Sphinx](https://www.sphinx-doc.org/en/master/) is used to create documentation. It is optimized for text formats to HTML.  Sphinx is a popular Python documentation tool.
+[Sphinx](https://www.sphinx-doc.org/en/master/) is used to create documentation. It is optimized for text formats to HTML. Sphinx is a popular Python documentation tool.
 
 **Features:**
 
@@ -361,7 +361,7 @@ Hugo's offers integration with Google Analytics. Hosting can be done on Gitlab a
 ##### 4. **MkDocs**
 
 [Mkdocs](https://www.mkdocs.org/) supports building HTML pages. Mkdocs is a Python package used to develop and load web pages.
-A recent version of Python and Python Package Manager (pip) is required to install Mkdocs. Mkdocs is free to access and geared towards speed and simplicity.  
+A recent version of Python and Python Package Manager (pip) is required to install Mkdocs. Mkdocs is free to access and geared towards speed and simplicity.
 
 **Features:**
 
@@ -388,7 +388,7 @@ Common SEO tools are Semrush, Keyword Surfer, and Google Analytics.
 
 [Semrush](http://semrush.com/) is a powerful, extensive tool for search engine optimization. Semrush provides analysis tools for websites and businesses.
 
-They offer features to analyze competitors’ traffic, organic research, and domain overviews. Semrush has a keyword research tool to give insights on keyword overview, managing keywords, and organic traffic insights.  
+They offer features to analyze competitors’ traffic, organic research, and domain overviews. Semrush has a keyword research tool to give insights on keyword overview, managing keywords, and organic traffic insights.
 
 ##### 2. **Keyword Surfer**
 
@@ -412,7 +412,7 @@ Google Analytics has an academy and offers certification upon passing exams and 
 
 #### **Productivity**
 
-Productivity Tools are useful for keeping track of ideas and increasing efficiency. They help save time, set tasks, streamline workflows, and increase overall writing performance.  
+Productivity Tools are useful for keeping track of ideas and increasing efficiency. They help save time, set tasks, streamline workflows, and increase overall writing performance.
 
 ##### 1. **Notion**
 
@@ -435,7 +435,7 @@ This way, you can focus on researching and writing instead of mindlessly scrolli
 
 With Google Calendar, you can break down the different aspects of a writing project in weeks or days. Schedule your writing within your working hours on Google Calendar.
 
-This will significantly improve productivity.  
+This will significantly improve productivity.
 
 ##### 4. **Microsoft To-Do**
 
@@ -446,7 +446,7 @@ Microsoft To-Do is a free Windows, Mac, and Android application. It helps users 
 
 Imagine researching a topic on a website and finding multiple critical points to add to your write-up. You may need help with taking notes of everything.
 
-This is where highlighting tools come in. They help you highlight text on websites and PDFs so you can easily refer back to them.  
+This is where highlighting tools come in. They help you highlight text on websites and PDFs so you can easily refer back to them.
 
 ##### 1. **Glasp**
 
@@ -454,7 +454,7 @@ This is where highlighting tools come in. They help you highlight text on websit
 
 With Glasp, users worldwide can highlight content on various websites and PDFs. Glasp is a mobile app for Android and iOS and an extension for web browsers.
 
-With Glasp, you can see what other users highlighted on your profile page. Glasp offers an extension to highlight and copy transcripts of YouTube videos.  Glasp is useful in highlighting online articles or videos. It helps organize thoughts and find online references.
+With Glasp, you can see what other users highlighted on your profile page. Glasp offers an extension to highlight and copy transcripts of YouTube videos. Glasp is useful in highlighting online articles or videos. It helps organize thoughts and find online references.
 
 Glasp restricts website promotion. For security, Google Docs, note-taking apps, banking apps, and local PDF files cannot be highlighted.
 
@@ -509,7 +509,7 @@ To use Grammarly for web browsers, follow these steps.
 
 Grammarly for mobile works as a keyboard and integrates across all applications. It is compatible with Android and iOS devices.
 
-Sign up to Grammarly using grammarly.com with your Gmail to use the Grammarly web app. This automatically adds your account to Grammarly.  
+Sign up to Grammarly using grammarly.com with your Gmail to use the Grammarly web app. This automatically adds your account to Grammarly.
 
 You can upload your files to Grammarly on the web app. Login to Grammarly’s website to use the web app, and upload the document to check for corrections.
 
@@ -561,29 +561,29 @@ If a part of the text is plagiarized, it highlights the text and cites the sourc
 Annotely is very easy to use. Annotely does not require a sign-up with email.
 
 - Open your web browser, and visit Annotely’s website. Select “Start Annotating now.”
-<img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/i0nvrp6ob2ehn8ibr2t1.png" alt="Annotely Website" width="100%">
+  <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/i0nvrp6ob2ehn8ibr2t1.png" alt="Annotely Website" width="100%">
 
 - Drag or drop the image from your device.
-<img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/kpp2irskp1o1c4ang71i.png" alt="Annotely" width="100%">
+  <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/kpp2irskp1o1c4ang71i.png" alt="Annotely" width="100%">
 
 - Annotely has arrows, blur, and text options to add to the photos.
-<img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/dbn6jk2g6imrt5jauu48.png" alt="Annotely Interface" width="100%">
+  <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/dbn6jk2g6imrt5jauu48.png" alt="Annotely Interface" width="100%">
 
 - Download the image once you’re done.  
-<img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/l4eaj0cu4oviojj1qnwd.png" alt="Download Annotely image" width="100%">
+  <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/l4eaj0cu4oviojj1qnwd.png" alt="Download Annotely image" width="100%">
 
 #### **Snipping Tool:**
 
 How do you use the snipping tool on Windows? Follow the instructions to use the tool.
 
 - On your start bar, search for “snipping tool.”
-<img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/orofjb7jpodc1u0f5tz4.png" alt="Snipping Tool" width="100%">
+  <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/orofjb7jpodc1u0f5tz4.png" alt="Snipping Tool" width="100%">
 
 - Select new and snip the page.
-<img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/idf862b60icmj10cow00.png" alt="Snipping Tool" width="100%">
+  <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/idf862b60icmj10cow00.png" alt="Snipping Tool" width="100%">
 
 - Save it on your PC.
-<img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/wtu2ms6gitr2844fu21w.png" alt="Snip Tool" width="100%">
+  <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/wtu2ms6gitr2844fu21w.png" alt="Snip Tool" width="100%">
 
 ##### **Keyword Surfer**
 
@@ -592,11 +592,11 @@ To use Keyword Surfer, follow these steps.
 
 - Download it from the Chrome extensions store.
 - Select “Add to Chrome.”
-<img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/riw32xha58tux6uu0req.png" alt="Keyword Sufer Chrome extension" width="100%">
+  <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/riw32xha58tux6uu0req.png" alt="Keyword Sufer Chrome extension" width="100%">
 
 - Once it is added, it automatically starts working on the web browser.
 - Search for any keyword, and Keyword Surfer will provide the keywords required.
-<img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/f679ng7jo7f2ih8skhx8.png" alt="Keyword surfer" width="100%">
+  <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/f679ng7jo7f2ih8skhx8.png" alt="Keyword surfer" width="100%">
 
 #### **Google Calendar**
 
@@ -612,13 +612,13 @@ Glasp is free. It works on desktop PCs with Chrome, Safari, Edge, Brave, Vivaldi
 To start highlighting with Glasp, follow these steps:
 
 - Open your desired article or PDF
-<img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/545kzc5v84mol384hn4w.png" alt="Glasp HomePage" width="100%">
+  <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/545kzc5v84mol384hn4w.png" alt="Glasp HomePage" width="100%">
 - Choose words to highlight and select the highlight colour. Choose from four colours. Pink, yellow, green, and blue.
-<img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/d3z30uuk6rmdr3487ae3.png" alt="Glasp HomePage" width="100%">
+  <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/d3z30uuk6rmdr3487ae3.png" alt="Glasp HomePage" width="100%">
 - Once the colour is selected, the text is highlighted.
-<img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/qvdc2kjhc9ztu3kvmniy.png" alt="Glasp HomePage" width="100%">
+  <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/qvdc2kjhc9ztu3kvmniy.png" alt="Glasp HomePage" width="100%">
 - You can access the text highlighted on your profile page on Glasp Website.
-<img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/c1cbz6ydra0ol3qf4ejq.png" alt="Glasp HomePage" width="100%">
+  <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/c1cbz6ydra0ol3qf4ejq.png" alt="Glasp HomePage" width="100%">
 
 ##### **ChatGPT**
 
@@ -628,10 +628,11 @@ ChatGPT has a free version for all to use. Sign up on [ChatGPT’s website](http
 
 Choose the right software based on your needs, use, and budget for the tools and software. If you need to check grammar, use tools like Grammarly and Quilbot.
 
-Always consider your goal with the tools and their pricing. Compare their pricing and features and use the free versions as much as possible.  
+Always consider your goal with the tools and their pricing. Compare their pricing and features and use the free versions as much as possible.
 
 ### **The Impact of Writing Tools**
-Technical Writing Tools are important and useful for writers in many ways.  
+
+Technical Writing Tools are important and useful for writers in many ways.
 
 #### 1. **Technical Writing Tools Saves Time**
 
@@ -662,3 +663,108 @@ Writing tools help you to increase accuracy and correctness by checking for erro
 
 Writing tools increase creativity and innovation. Artificial Intelligence tools enhance creativity in writers. For example, you can use Microsoft Designer or Canva to design a cover image for your article.
 These designs make the write-up more interactive and engaging for users.
+
+### **Exercise**
+
+**In this exercise, you will write an article covering everything about Google Docs and how to use it.**
+
+Do the following:
+
+- Generate the table of content.
+- Choose a suitable title.
+- Write in Markdown.
+- Watch this video to learn how to write in Markdown - [Introduction to Markdown](https://www.youtube.com/watch?v=8-gJmNPlanw&t=1s).
+- Create a repo on GitHub.
+- Create a new markdown file that will contain your assignment.
+- Use VSCode to write and test your markdown (Send a screenshot of your vscode containing your assignment)
+- Submit your Github repo URL.
+
+This article should have the following.
+
+- Arrange the order of the content.
+- Attention to details.
+- Work on the information architecture.
+- It should be over 1000 words.
+- No plagiarism.
+- Don’t use AI-generated content.
+- Your audience is a novice.
+- Proper citation .
+- No grammatical or spelling error.
+- No repetitive and filler words.
+- Must have necessary images.
+- Use the Google Writing style guide.
+
+After review, tag @TechnicalWriti6 on Twitter to the link to your article.
+
+Answer the following questions.
+
+<iframe src="https://forms.gle/VNHhDccs6kSwRUBC6" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+
+{{< callout context="note" title="Check your knowledge" icon="rocket" >}}
+
+<body>
+
+<form id="equizForm">
+  <h2>Question 1:</h2>
+  <p>The main goal of technical writing is?</p>
+  <label>
+    <input type="radio" name="question1" value="ambiguity"> To confuse the audience
+  </label><br>
+  <label>
+    <input type="radio" name="question1" value="clarity"> To explain complex ideas clearly
+  </label><br>
+  <label>
+    <input type="radio" name="question1" value="opacity"> To use complex language
+  </label><br>
+
+  <h2>Question 2:</h2>
+  <p>Which of the following is an example of a document created through technical writing?</p>
+  <label>
+    <input type="radio" name="question2" value="site"> A fictional short story
+  </label><br>
+  <label>
+    <input type="radio" name="question2" value="word"> A report on market trends in the finance industry
+  </label><br>
+  <label>
+    <input type="radio" name="question2" value="ssg"> A cookbook with recipes from around the world
+  </label><br>
+
+  <br>
+  <input type="submit" value="Check your answers" onclick="dgradeQuiz()">
+</form>
+
+<p id="result"></p>
+
+<script>
+  function dgradeQuiz() {
+    event.preventDefault(); // Prevent form submission
+
+    const answers = {
+      question1: document.querySelector('input[name="question1"]:checked').value,
+      question2: document.querySelector('input[name="question2"]:checked').value
+    };
+
+    // Correct answers
+    const correctAnswers = {
+     question1: "clarity",
+      question2: "ssg"
+    };
+
+    let score = 0;
+
+    // Check answers and calculate score
+    if (answers.question1 === correctAnswers.question1) {
+      score++;
+    }
+    if (answers.question2 === correctAnswers.question2) {
+      score++;
+    }
+
+    // Display the score
+    document.getElementById('result').innerHTML = `You scored ${score} out of 2`;
+  }
+</script>
+
+</body>
+
+{{< /callout >}}

@@ -109,7 +109,7 @@ Get ready to start building projects
 
 - [Blessing Ene Anyebe](https://www.linkedin.com/in/anyebe-blessing-ene-kwennb/): Blessing is a well-rounded tech person with skills that include design and frontend engineering. Currently she focuses on Technical Writing, API documentation, and Search Engine Optimization.
 
-- [Akorede Da silva](https://www.linkedin.com/in/akorede-dasilva/) Akorede is a multi-disciplinary designer, product manager, XR developer and technical writer.
+- [Akorede Da silva](https://www.linkedin.com/in/akorede-dasilva/) Akorede is a multi-disciplinary designer, product manager, XR developer and technical writer. 
 
 _Why free?_
 

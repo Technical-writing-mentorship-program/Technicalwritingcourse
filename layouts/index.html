@@ -15,22 +15,18 @@
       {{ .Content }}
     </div>
   </div>
-
-  <!-- Google tag (gtag.js) -->
-  <script
-    async
-    src="https://www.googletagmanager.com/gtag/js?id=G-YQGVM14S29"
-  ></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag("js", new Date());
-
-    gtag("config", "G-YQGVM14S29");
-  </script>
 </section>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+
+  gtag("config", "G-YQGVM14S29");
+</script>
+
 {{ end }} {{ define "sidebar-prefooter" }} {{ if site.Params.doks.backgroundDots
 -}}
 <div class="d-flex justify-content-start">
@@ -102,12 +98,11 @@
         </p>
       </div>
       <div class="col-lg-5">
-        <h2 class="h4">Get In Touch</h2>
-        <p>Ready to take the next step?</p>
+        <h2 class="h4">Buy me a coffee</h2>
         <p>
-          Sign up for a free consultation and learn how our program can help you
-          achieve your writing goals. <a href="https://getdoks.org/">Docs</a>.
+          Do you want to support us to pay for some resources and subscriptions
         </p>
+        <p><a href="https://selar.co/showlove/twmp">Buy me a coffee</a>.</p>
       </div>
     </div>
   </div>

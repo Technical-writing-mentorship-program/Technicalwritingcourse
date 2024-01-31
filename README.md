@@ -1,6 +1,6 @@
 # Technicalwritingcourse
 
-This repository contains modules for the Technical Writing Course. The course is designed to help you learn the basics of technical writing and documentation. It is a hands-on course that includes exercises and quizzes to test your knowledge. 
+This repository contains modules for the Technical Writing Course. The course is designed to help you learn the basics of technical writing and documentation. It is a hands-on course that includes exercises and quizzes to test your knowledge.
 
 The course is divided into modules, each of which covers a specific topic. The modules are designed to be completed in order, but you can skip around if you want to.
 
@@ -19,14 +19,15 @@ Navigate to the cloned project directory and install the project's dependencies:
 ```bash
 cd Technicalwritingcourse
 npm install
-npm install @hyas/doks-core@lastest
-npm create hyas@lastest --template doks
 ```
 
 3.  Add your content:
 
-Open the project in your preferred code editor and locate the `content/docs/Technical` writing course directory. Create a new Markdown file (.md) for your topic and add your content.
-Make sure to include the frontmatter information:
+- Open the project in your preferred code editor and locate the `content/docs/TechnicalWritingCourse` writing course directory.
+- Create a new Markdown file (.md) for your topic and add your content.
+- Make sure to include the frontmatter information:
+
+> Dont modify the dates in the frontmatter, they help in the order of the course.
 
 ```bash
 ---
@@ -70,8 +71,10 @@ seo:
 
 4. Preview your changes:
 
-You can preview your changes before publishing. To do this, run the project using the Hugo server:
+You can preview your changes before submitting a PR.
+
+To do this, run the project using the Hugo server:
 
 ```bash
-hugo server
+npm run dev
 ```

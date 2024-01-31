@@ -9,20 +9,11 @@
     <copyright>Copyright (c) 2023 TWMP</copyright>
     <lastBuildDate>Thu, 07 Sep 2023 16:33:54 +0200</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Example Post</title>
-      <link>/blog/example-post/</link>
+      <title>Introduction to technical wrting mentorship program</title>
+      <link>/blog/introduction-to-technical-wrting-mentorship-program/</link>
       <pubDate>Thu, 07 Sep 2023 16:27:22 +0200</pubDate>
       
-      <guid>/blog/example-post/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Introduction to Markdown</title>
-      <link>/blog/introduction-to-markdown/</link>
-      <pubDate>Thu, 07 Sep 2023 16:27:22 +0200</pubDate>
-      
-      <guid>/blog/introduction-to-markdown/</guid>
+      <guid>/blog/introduction-to-technical-wrting-mentorship-program/</guid>
       <description></description>
     </item>
     
@@ -98,6 +89,15 @@ Generate the table of content. Choose a suitable title. Write in Markdown. Creat
       
       <guid>/docs/talent/technical-writing-talent/</guid>
       <description>Guides lead a user through a specific task they want to accomplish, often with a sequence of steps. Writing a good guide requires thinking about what your users are trying to do.</description>
+    </item>
+    
+    <item>
+      <title>Information gathering</title>
+      <link>/docs/technicalwritingcourse/information-gathering/</link>
+      <pubDate>Sat, 30 Dec 2023 16:51:00 +0100</pubDate>
+      
+      <guid>/docs/technicalwritingcourse/information-gathering/</guid>
+      <description>Learn how to find the knowledge you need for your documentation.</description>
     </item>
     
   </channel>

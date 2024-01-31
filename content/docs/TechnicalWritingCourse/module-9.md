@@ -2,7 +2,7 @@
 title: "Use of diagrams"
 description: "Visual elements like diagrams, images, and illustrations are effective tools for making your documentation engaging and easy to understand. They're great for explaining complex concepts, processes, or workflows. Additionally, they break up large chunks of text and improve readability."
 summary: "This article explains the use of diagrams in technical documentation. It also provides tips for creating effective diagrams and do's and don'ts for using images in technical documentation."
-date: 2023-11-17T13:13:49+20:00
+date: 2024-01-09T16:04:50+20:00
 lastmod: 2023-11-17T13:12:49+02:00
 draft: false
 menu:

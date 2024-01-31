@@ -5,7 +5,7 @@ disableAliases = true
 disableHugoGeneratorInject = true
 # disableKinds = ["taxonomy", "term"]
 enableEmoji = true
-enableGitInfo = false
+enableGitInfo = true
 enableRobotsTXT = true
 languageCode = "en-US"
 paginate = 10
@@ -23,7 +23,7 @@ copyRight = "Copyright (c) 2023 TWMP"
   enable = true
 
 [social]
-  twitter = "getdoks"
+  twitter = ""
 
 [outputs]
   home = ["HTML", "RSS", "searchIndex"]

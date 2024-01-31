@@ -29,7 +29,8 @@ seo:
 {{< /callout >}} 
 
 
-### **Information Architecture**
+### **Information Arxhitecture**
+This lesson will cover the following
 
 - What is information architecture
 - Importance of information architecture in technical documentation
@@ -191,7 +192,7 @@ While still on the Kubernetes documentation example used in Global navigation,  
     <input type="radio" name="question1" value="London"> It forces users to follow a specific path in the documentation  
   </label><br>
   <label>
-    <input type="radio" name="question1" value="London"> IIt ensures all topic are covered
+    <input type="radio" name="question1" value="London"> It ensures all topic are covered
   </label><br>
 
   <h2>Question 2:</h2>
@@ -267,13 +268,12 @@ Your duty is to instinctively know what that information is and place it where i
 
 - **Gather feedback and iterate**: Be sure to test your article /documentation with real users as well as your fellow technical writers to gather insight on what you have done right and what needs to be adjusted, and iterate based on feedback obtained. 
 
-#### **Information architecture principles to consider when drafting your technical documentation
+#### **Information architecture principles to consider when drafting your technical documentation**
 
 Crafting effective information architecture is not a game of chance. It's a disciplined process guided by established principles and methodologies. It starts with a deep understanding of the application, content, and organizational goals, followed by the consistent application of established principles throughout the process. 
 
-{{< callout context="tip" title="The principle of Information Architecture was first proposed by Dan Brown in 2010." icon="rocket" >}} {{< /callout >}}
-
-We must consider the following when building Information Architecture. 
+{{< callout context="tip" title="Robert Cormier says - “The beautiful part of writing is that you don't have to get it right the first time, unlike, say, a brain surgeon. You can always do it better; find the exact word, the apt phrase, the leaping simile." icon="rocket" >}} {{< /callout >}}
+The principle of Information Architecture was first proposed by Dan Brown in 2010. We must consider the following when building Information Architecture. 
 
 - **The principle of objects**: Content should be viewed as a living and breathing document with unique characteristics, lifecycle, behaviors, and attributes. Content is more than just static text as each piece of information evolves from creation to publication, revision, and eventual removal when it has served its use. Treating content as living objects lets you ensure it remains relevant and accessible with the overall information system structure.
 

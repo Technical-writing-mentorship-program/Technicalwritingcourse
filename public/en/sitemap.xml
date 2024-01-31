@@ -148,6 +148,42 @@
   
   
   <url>
+    <loc>/docs/technicalwritingcourse/using-technical-writing-tools/</loc>
+    <lastmod>2024-08-07T16:04:48+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  
+  
+  <url>
+    <loc>/docs/technicalwritingcourse/formatting/</loc>
+    <lastmod>2023-09-07T16:04:48+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  
+  
+  <url>
+    <loc>/docs/technicalwritingcourse/editing/</loc>
+    <lastmod>2023-09-07T16:04:48+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  
+  
+  <url>
+    <loc>/docs/technicalwritingcourse/use-of-diagrams/</loc>
+    <lastmod>2023-11-17T13:12:49+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  
+  
+  <url>
     <loc>/docs/technicalwritingcourse/information-gathering/</loc>
     <lastmod>2024-01-02T04:24:46+01:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -175,24 +211,6 @@
   
   
   <url>
-    <loc>/docs/technicalwritingcourse/use-of-diagrams/</loc>
-    <lastmod>2023-11-17T13:12:49+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  
-  
-  <url>
-    <loc>/docs/technicalwritingcourse/using-technical-writing-tools/</loc>
-    <lastmod>2023-11-17T13:12:49+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  
-  
-  <url>
     <loc>/privacy/</loc>
     <lastmod>2023-09-07T17:19:07+02:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -204,24 +222,6 @@
   <url>
     <loc>/</loc>
     <lastmod>2023-09-07T16:33:54+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  
-  
-  <url>
-    <loc>/docs/technicalwritingcourse/editing/</loc>
-    <lastmod>2023-09-07T16:04:48+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  
-  
-  <url>
-    <loc>/docs/technicalwritingcourse/formatting/</loc>
-    <lastmod>2023-09-07T16:04:48+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

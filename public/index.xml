@@ -23,7 +23,7 @@
       <pubDate>Sat, 07 Oct 2023 16:04:48 +0200</pubDate>
       
       <guid>/docs/about-us/about-us/</guid>
-      <description>Our program is designed for individuals who are looking to improve their technical writing skills and advance their careers in fields such as software development, community management, and developer advocacy.</description>
+      <description>Our program is designed for individuals looking to improve their technical writing skills and advance their careers in software development, community management, and developer advocacy.</description>
     </item>
     
     <item>
@@ -92,12 +92,12 @@ Generate the table of content. Choose a suitable title. Write in Markdown. Creat
     </item>
     
     <item>
-      <title>Information gathering</title>
-      <link>/docs/technicalwritingcourse/information-gathering/</link>
-      <pubDate>Sat, 30 Dec 2023 16:51:00 +0100</pubDate>
+      <title>Using Technical Writing Tools</title>
+      <link>/docs/technicalwritingcourse/using-technical-writing-tools/</link>
+      <pubDate>Fri, 12 Jan 2024 16:04:50 +2000</pubDate>
       
-      <guid>/docs/technicalwritingcourse/information-gathering/</guid>
-      <description>Learn how to find the knowledge you need for your documentation.</description>
+      <guid>/docs/technicalwritingcourse/using-technical-writing-tools/</guid>
+      <description>This article explains the various types of technical writing software available in the market and how they can aid the writing process.</description>
     </item>
     
   </channel>

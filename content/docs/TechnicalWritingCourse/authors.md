@@ -24,7 +24,7 @@ It's packed with useful stuff and totally **FREE for everyone!**
 
 <body>
 
-{{< details "Check your knowledge" >}}
+{{< details "Check your knowledge Now" >}}
 
 <form id="quizForm">
   <h2>Question 1:</h2>

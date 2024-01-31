@@ -421,7 +421,65 @@ Findability can be achieved by implementing hierarchy and information architectu
 
 
 
+{{< callout context="note" title="Check your knowledge:" icon="info-circle" >}}
 
+<body>
+<form id="quizForm">
+  <h2>Question 1:</h2>
+  <p>______ is the sum of techniques design and developer teams use to make products easy for consumers to use. </p>
+  <label>
+    <input type="radio" name="question1" value="grammar"> Usability
+  </label><br>
+  <label>
+    <input type="radio" name="question1" value="complex"> Consumer protection
+  </label><br>
+  <label>
+    <input type="radio" name="question1" value="London"> User experience
+  </label><br>
+  <h2>Question 2:</h2>
+  <p>Which of these is not an element of typographical emphasis?</p>
+  <label>
+    <input type="radio" name="question2" value="3"> full stop
+  </label><br>
+  <label>
+    <input type="radio" name="question2" value="report"> backtick
+  </label><br>
+  <label>
+    <input type="radio" name="question2" value="4"> strikethrough
+  </label><br>
+  <br>
+  <input type="submit" value="Check your answers" onclick="gradeQuiz()">
+</form>
+<p id="result"></p>
+<script>
+  function gradeQuiz() {
+    event.preventDefault(); // Prevent form submission
+    const answers = {
+      question1: document.querySelector('input[name="question1"]:checked').value,
+      question2: document.querySelector('input[name="question2"]:checked').value
+    };
+    // Correct answers
+    const correctAnswers = {
+      question1: "user experience",
+      question2: "full stop"
+    };
+    let score = 0;
+    // Check answers and calculate score
+    if (answers.question1 === correctAnswers.question1) {
+      score++;
+    }
+    if (answers.question2 === correctAnswers.question2) {
+      score++;
+    }
+    // Display the score
+    document.getElementById('result').innerHTML = `You scored ${score} out of 2`;
+  }
+</script>
+</body>
+{{< /callout >}}
+
+{{< callout context="tip" title="Up next: writing user-friendly technical documentation!" icon="rocket" >}}
+{{< /callout >}}
 
 
 
@@ -907,18 +965,31 @@ Writing for user experience (UX) is an essential skill for technical writers. Wr
 
 This module explained the meaning of user experience and highlighted popular misconceptions about it. It further discussed why user experience is important for technical writing and the UX principles writers can apply.
 
+Writing user-friendly documentation is no mean feat, but as with every skill,  it can be learned. Applying the methods taught will be sure to give you positive results.    
 
 
 
+### Exercise:
+
+**Complete the following exercises before leaving this module.**
+
+Write an article on [Caisy](https://caisy.io), a headless CMS platform. Introduce it to users and highlight the features that set it apart from other CMS platforms.
+
+Your article should be between 1,500-2,000 words. Make use of the [Google writing style guide](https://developers.google.com/style), ensure to implement all the UX principles taught in this module, and make sure your content is user-friendly, according to what you have been taught. 
+
+Publish the article on [Hashnode](https://hashnode.com/), share the link on Twitter and LinkedIn. Tag @caisyio and @TechnicalWriti6 on X (Twitter) with the link to your published submission.
+
+
+    
 
 
 
+Answer the following questions.
 
-Writing user-friendly documentation is no mean feat, but as with every skill,  it can be learned. Applying the methods taught will be sure to give you positive results.        
+<iframe src="https://forms.gle/4KcWEovrvgmXETyBA" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
-
-
-
+{{< callout context="tip" title="This is the last module for this course!" icon="rocket" >}}
+{{< /callout >}}
 
 
 

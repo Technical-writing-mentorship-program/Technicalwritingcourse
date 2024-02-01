@@ -63,7 +63,7 @@ You can check out [Module 2](Writing_for_Different_Audiences.md) of this course 
 
 This involves answering the question: "**_What do I aim to achieve with my technical document_**?".
 
-**Here are some steps to take to define the purpose of your document:**
+**_Here are some steps to take to define the purpose of your document:_**
 
 ##### 1. Identify the Goal:
 
@@ -77,7 +77,7 @@ After reading your document, what should your user be able to do? Would you want
 
 With your goal and outcome clearly defined, you can draft out the scope of your document's content based on the technical background of your audience. What information should your audience have already, and what information do you want them to gain from your document?
 
-{{< callout context="note" title="Formula for a good documentation" icon="info-circle" >}}
+{{< callout context="tip" title="Formula for a good documentation" icon="rocket" >}}
 
 According to Google’s Technical Writing course:
 
@@ -92,7 +92,8 @@ Aligning your information gathering with your document's purpose ensures your te
 The scope of your documentation will determine the sources you can gather information.
 
 There are various information sources, each having its unique strengths and limitations.
-Here are some key sources of information:
+
+**_Here are some key sources of information:_**
 
 ### 1. Subject Matter Experts (SMEs):
 
@@ -161,13 +162,73 @@ Other sources of information include but are not limited to:
 - User Feedback and Reviews,
 - Tutorial Videos, etc.
 
-{{< callout context="note" title="" icon="info-circle" >}}
+{{< callout context="tip" title="" icon="rocket" >}}
 
 Always verify the credibility of the information obtained from these sources and cross-reference them to get reliable and accurate content.
 
 {{< /callout >}}
 
 Taking a deeper approach to gathering information from various sources can significantly increase the quality and credibility of your technical writing.
+
+{{< callout context="note" title="Check your knowledge:" icon="info-circle" >}}
+
+<body>
+<form id="quizForm">
+  <h2>Question 1:</h2>
+  <p>Which of the following is NOT a recommended source of information for technical writing?</p>
+  <label>
+    <input type="radio" name="question1" value="grammar"> Subject matter experts (SMEs)
+  </label><br>
+  <label>
+    <input type="radio" name="question1" value="complex">  User forums with anonymous contributors
+  </label><br>
+  <label>
+    <input type="radio" name="question1" value="London"> White papers from reputable organizations
+  </label><br>
+  <h2>Question 2:</h2>
+  <p>What are the two key factors to consider when defining your audience for a technical document?</p>
+  <label>
+    <input type="radio" name="question2" value="3"> The writer's expertise and interests.
+  </label><br>
+  <label>
+    <input type="radio" name="question2" value="report"> The document's length and complexity.
+  </label><br>
+  <label>
+    <input type="radio" name="question2" value="4"> The audience's technical knowledge and expectations.
+  </label><br>
+  <br>
+  <input type="submit" value="Check your answers" onclick="gradeQuiz()">
+</form>
+<p id="result"></p>
+<script>
+  function gradeQuiz() {
+    event.preventDefault(); // Prevent form submission
+    const answers = {
+      question1: document.querySelector('input[name="question1"]:checked').value,
+      question2: document.querySelector('input[name="question2"]:checked').value
+    };
+    // Correct answers
+    const correctAnswers = {
+      question1: "complex",
+      question2: "4"
+    };
+    let score = 0;
+    // Check answers and calculate score
+    if (answers.question1 === correctAnswers.question1) {
+      score++;
+    }
+    if (answers.question2 === correctAnswers.question2) {
+      score++;
+    }
+    // Display the score
+    document.getElementById('result').innerHTML = `You scored ${score} out of 2`;
+  }
+</script>
+</body>
+{{< /callout >}}
+
+{{< callout context="tip" title="The coming section explores editing technical documentation for clarity, conciseness, and accuracy (correctness)." icon="rocket" >}}
+{{< /callout >}}
 
 ## Develop a research plan
 
@@ -183,7 +244,19 @@ You can maximize your information-gathering process by developing a research pla
 
 Clearly outline the goals and objectives of your technical document by answering the question: "**_What specific information(s) do you want to deliver to your audience?_**" This will serve as a roadmap in your information-gathering process.
 
-For example, instead of a general goal like “**_Understanding Programming Principles_**”, you can aim for a more targeted objective like: “**_Understanding SOLID principle in Kotlin_**“. This way, you have mapped out what software principle and programming language you will show examples.
+**_An example of a general and specific goal:_**
+
+```
+General goal:
+
+Understanding Programming Principles
+ ```
+```
+Targeted goal:
+
+Understanding SOLID principle in Kotlin
+ ```
+ This way, you have mapped out what software principle and programming language you will show examples.
 
 ##### 2. Prioritize:
 
@@ -331,3 +404,70 @@ If your technical document includes hands-on instructions or coding, follow thro
 You can also have your peer reviewers test the hands-on instructions or coding to be sure it's simple and easy to follow.
 
 Be ready to revise the document, as this may reveal issues you might not have anticipated.
+
+
+{{< callout context="note" title="Complete the following exercises before proceeding to the next module." icon="rocket" >}}
+{{< /callout >}}
+
+## Exercise: Develop a Research Plan
+
+#### Objective
+**_In this exercise, you will practice your knowledge in information gathering and research on an emerging technology relevant to your field._**
+
+### Instructions:
+
+#### 1. Choose an Emerging Technology:
+   Select a technology within your field of expertise that is still in its early stages of development but has the potential for significant impact.  Ensure it is a topic that requires gathering information from various sources.
+
+#### 2. Define Your Audience and Purpose:
+- Clearly identify your target audience for the technical document: Determine who would benefit most from understanding this technology. Consider factors like existing knowledge, potential applications, and decision-making power.
+- Define the purpose of your document - whether it is to inform, instruct, or persuade.
+
+#### 3. Research Sources:
+- Identify at least four different sources of information for your chosen topic. These can include SMEs, technical documentation, industry publications, online forums, etc.
+- Explain why each source is relevant and how it will contribute to the overall understanding of the topic.
+
+#### 4. Develop a Research Plan:
+- Clearly outline the goals and objectives of your technical document.
+- Prioritize the topics based on their importance to your audience.
+- Formulate at least five specific questions that your document should answer.
+
+#### 5. Time Management:
+- Break down your research process into different phases.
+- Set realistic deadlines for each phase.
+- Balance the depth and breadth of your research, allocating time based on the importance and complexity of each topic.
+
+#### 6. Gather Information:
+- Use systematic data collection methods following your research plan.
+- Implement any effective note-taking technique (Cornell method, mind mapping, etc.).
+- Cross-verify information obtained from different sources for consistency.
+
+#### 7. Evaluate and Synthesize Information:
+- Evaluate the accuracy, credibility, and relevance of the information gathered.
+- Organize the information into a logical structure, identifying key themes and concepts.
+
+#### 8. Review and Revise:
+- Conduct a self-review of your technical document.
+- Share your document with a peer or SME for review and feedback.
+- Incorporate feedback into the document and revise accordingly.
+
+#### 9. Final Proofreading:
+- Conduct a final proofread, checking for clarity, consistency, and correctness.
+- Ensure you follow a specific style guide.
+
+#### 10. Reflection:
+- Write a brief reflection on the challenges faced during the information gathering process and how you addressed them.
+- Highlight any adjustments you made to the research plan based on evolving information.
+
+### Submission:
+
+{{< callout context="tip" title="Submission" icon="rocket" >}}
+- Host your developed research plan and a brief reflection on the challenges and adjustments made during the process on our blog or any other blog you wish to.
+- Make a post and tag us on Twitter at **_@TechnicalWriti6_**
+{{< /callout >}}
+
+## Quiz:
+
+Answer the following questions.
+
+<iframe src="https://forms.gle/CmySC2SdwfzF8CHV7" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>

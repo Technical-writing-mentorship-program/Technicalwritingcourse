@@ -264,6 +264,7 @@ As with popular brands, they can be associated with a particular slogan or color
 
 
 
+{{< callout context="note" title="Note" icon="info-circle" >}}
 
 
 
@@ -272,7 +273,7 @@ For example, Docker has the image of a whale carrying a stack of containers on i
 
 
 
-
+{{< /callout >}}
 
 
 
@@ -350,12 +351,13 @@ The technical writer can achieve hierarchy with written content by writing it ac
 
 
 
+{{< callout context="note" title="Note" icon="info-circle" >}}
 
 
 
 For example, if you were to write a tutorial, you would write a title, add a cover image and prerequisites needed by the reader, and then the main body of the tutorial, assisted by visual aids to ensure they are on the right track.
 
-
+{{< /callout >}}
 
 
 
@@ -968,6 +970,8 @@ This module explained the meaning of user experience and highlighted popular mis
 Writing user-friendly documentation is no mean feat, but as with every skill,  it can be learned. Applying the methods taught will be sure to give you positive results.    
 
 
+{{< callout context="note" title="Note" icon="info-circle" >}}
+
 
 ### Exercise:
 
@@ -980,7 +984,7 @@ Your article should be between 1,500-2,000 words. Make use of the [Google writin
 Publish the article on [Hashnode](https://hashnode.com/), share the link on Twitter and LinkedIn. Tag @caisyio and @TechnicalWriti6 on X (Twitter) with the link to your published submission.
 
 
-    
+ {{< /callout >}}   
 
 
 

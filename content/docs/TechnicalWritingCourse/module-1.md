@@ -36,6 +36,66 @@ Technical writing mainly aims to break down hard concepts or information into si
 
 In simple terms, technical writing provides factual and concise information to facilitate understanding and task completion.
 
+
+{{< callout context="note" title="Check your knowledge:" icon="info-circle" >}}
+
+<body>
+<form id="quizForm">
+  <h2>Question 1:</h2>
+  <p>The demand for technical writers keeps growing because the rapid advancement in science and technology
+</p>
+  <label>
+    <input type="radio" name="question1" value="grammar"> True
+  </label><br>
+  <label>
+    <input type="radio" name="question1" value="complex"> False
+  </label><br>
+  <label>
+    <input type="radio" name="question1" value="London"> Maybe
+  </label><br>
+  <h2>Question 2:</h2>
+  <p>What is the aim of technical writing?</p>
+  <label>
+    <input type="radio" name="question2" value="3"> To simplify a complex concept
+  </label><br>
+  <label>
+    <input type="radio" name="question2" value="report"> To further complicate a complex concept
+  </label><br>
+  <label>
+    <input type="radio" name="question2" value="4">  To write a complex concept  ambiguously
+  </label><br>
+  <br>
+  <input type="submit" value="Check your answers" onclick="gradeQuiz()">
+</form>
+<p id="result"></p>
+<script>
+  function gradeQuiz() {
+    event.preventDefault(); // Prevent form submission
+    const answers = {
+      question1: document.querySelector('input[name="question1"]:checked').value,
+      question2: document.querySelector('input[name="question2"]:checked').value
+    };
+    // Correct answers
+    const correctAnswers = {
+      question1: "True",
+      question2: "3"
+    };
+    let score = 0;
+    // Check answers and calculate score
+    if (answers.question1 === correctAnswers.question1) {
+      score++;
+    }
+    if (answers.question2 === correctAnswers.question2) {
+      score++;
+    }
+    // Display the score
+    document.getElementById('result').innerHTML = `You scored ${score} out of 2`;
+  }
+</script>
+</body>
+{{< /callout >}}
+
+
 ## Different Types of Technical Documentation
 
 Technical documentation comprises detailed instructions, step-by-step guides, or information regarding a product or technology.

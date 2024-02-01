@@ -9,21 +9,12 @@
     <copyright>Copyright (c) 2023 TWMP</copyright>
     <lastBuildDate>Thu, 07 Sep 2023 16:33:54 +0200</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Example Post</title>
-      <link>/blog/example-post/</link>
-      <pubDate>Thu, 07 Sep 2023 16:27:22 +0200</pubDate>
+      <title>Introduction to technical wrting mentorship program</title>
+      <link>/blog/introduction-to-technical-wrting-mentorship-program/</link>
+      <pubDate>Sun, 07 Jan 2024 16:27:22 +0200</pubDate>
       
-      <guid>/blog/example-post/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Introduction to Markdown</title>
-      <link>/blog/introduction-to-markdown/</link>
-      <pubDate>Thu, 07 Sep 2023 16:27:22 +0200</pubDate>
-      
-      <guid>/blog/introduction-to-markdown/</guid>
-      <description></description>
+      <guid>/blog/introduction-to-technical-wrting-mentorship-program/</guid>
+      <description>Technical writing bridges the gap between complex concepts and their practical application. Whether documenting software features, creating user manuals, or explaining intricate processes, technical writers are crucial in making information accessible to a wide audience.</description>
     </item>
     
     <item>
@@ -32,7 +23,7 @@
       <pubDate>Sat, 07 Oct 2023 16:04:48 +0200</pubDate>
       
       <guid>/docs/about-us/about-us/</guid>
-      <description>Our program is designed for individuals who are looking to improve their technical writing skills and advance their careers in fields such as software development, community management, and developer advocacy.</description>
+      <description>Our program is designed for individuals looking to improve their technical writing skills and advance their careers in software development, community management, and developer advocacy.</description>
     </item>
     
     <item>
@@ -98,6 +89,15 @@ Generate the table of content. Choose a suitable title. Write in Markdown. Creat
       
       <guid>/docs/talent/technical-writing-talent/</guid>
       <description>Guides lead a user through a specific task they want to accomplish, often with a sequence of steps. Writing a good guide requires thinking about what your users are trying to do.</description>
+    </item>
+    
+    <item>
+      <title>Using Technical Writing Tools</title>
+      <link>/docs/technicalwritingcourse/using-technical-writing-tools/</link>
+      <pubDate>Fri, 12 Jan 2024 16:04:50 +2000</pubDate>
+      
+      <guid>/docs/technicalwritingcourse/using-technical-writing-tools/</guid>
+      <description>This article explains the various types of technical writing software available in the market and how they can aid the writing process.</description>
     </item>
     
   </channel>

@@ -339,6 +339,66 @@ It is used by companies to provide information about upgrades in their product o
 
  Technical documentation provides troubleshooting guides that can help users when they encounter a problem while using a product.
 
+
+ <body>
+<form id="quizForm">
+  <h2>Question 1:</h2>
+  <p>Technical documentation can be used to train new users, employees, or technicians
+
+</p>
+  <label>
+    <input type="radio" name="question1" value="1"> True
+  </label><br>
+  <label>
+    <input type="radio" name="question1" value="2"> False
+  </label><br>
+  <label>
+    <input type="radio" name="question1" value="London"> Maybe
+  </label><br>
+  <h2>Question 2:</h2>
+  <p>One of these is  purpose of a technical documentation
+</p>
+  <label>
+    <input type="radio" name="question2" value="1"> To provide reference
+  </label><br>
+  <label>
+    <input type="radio" name="question2" value="2"> To further complicate a complex concept
+  </label><br>
+  <label>
+    <input type="radio" name="question2" value="3">  I don't know
+  </label><br>
+  <br>
+  <input type="submit" value="Check your answers" onclick="gradeQuiz()">
+</form>
+<p id="result"></p>
+<script>
+  function gradeQuiz() {
+    event.preventDefault(); // Prevent form submission
+    const answers = {
+      question1: document.querySelector('input[name="question1"]:checked').value,
+      question2: document.querySelector('input[name="question2"]:checked').value
+    };
+    // Correct answers
+    const correctAnswers = {
+      question1: "1",
+      question2: "1"
+    };
+    let score = 0;
+    // Check answers and calculate score
+    if (answers.question1 === correctAnswers.question1) {
+      score++;
+    }
+    if (answers.question2 === correctAnswers.question2) {
+      score++;
+    }
+    // Display the score
+    document.getElementById('result').innerHTML = `You scored ${score} out of 2`;
+  }
+</script>
+</body>
+{{< /callout >}}
+
+
 ## Technical writing process
 
 There are five technical writing steps.

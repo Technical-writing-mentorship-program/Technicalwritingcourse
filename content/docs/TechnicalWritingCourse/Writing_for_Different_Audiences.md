@@ -19,26 +19,20 @@ seo:
 ---
 
 
-## Module Content
-
-
-
-
-- Identifying your audience
-- Tailoring your writing to your audience
-- Using plain language
-- Avoiding technical jargon
-- Writing for different levels of expertise
-
-
 ## Introduction
 
 
 Writing for different audiences is necessary for every writer; it involves tailoring your content to ensure it is accessible, engaging, and comprehensible to the readers.
 
 
-{{< callout context="tip" title="In this module,you will learn how to identify your audience, tailor your writing to your audience, use plain language, avoid technical jargon, and write for different levels of expertise.
-  " icon="rocket" >}}
+{{< callout context="note" title="Module content" icon="info-circle" >}}
+In this Module, you will learn how to:
+- Identifying your audience
+- Tailoring your writing to your audience
+- Using plain language
+- Avoiding technical jargon
+- Writing for different levels of expertise
+
 {{< /callout >}}
 
 

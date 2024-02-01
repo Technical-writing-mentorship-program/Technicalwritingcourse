@@ -45,7 +45,7 @@ In simple terms, technical writing provides factual and concise information to f
   <p>The demand for technical writers keeps growing because the rapid advancement in science and technology
 </p>
   <label>
-    <input type="radio" name="question1" value="grammar"> True
+    <input type="radio" name="question1" value="True"> True
   </label><br>
   <label>
     <input type="radio" name="question1" value="complex"> False
@@ -169,6 +169,67 @@ These digital documents provide instructions, guidance, or information to assist
 For example, Google [Chrome's](https://support.google.com/chrome/?hl=en#topic=7439538) online help informs users about the browser, new features, and issues reporting.
 
 Online help enhances the user experience by offering troubleshooting guides and product insights.
+
+
+<body>
+<form id="quizForm">
+  <h2>Question 1:</h2>
+  <p>Paystack documentation is an example of:
+</p>
+  <label>
+    <input type="radio" name="question1" value="api"> API documentation
+  </label><br>
+  <label>
+    <input type="radio" name="question1" value="White"> White paper documentation
+
+  </label><br>
+  <label>
+    <input type="radio" name="question1" value="Release"> Release note documentation
+  </label><br>
+  <h2>Question 2:</h2>
+  <p> The goal of a technical proposal is to:</p>
+  <label>
+    <input type="radio" name="question2" value="3"> Provide comprehensive analysis, information, or recommendations on a specific topic, product, or technology.
+
+  </label><br>
+  <label>
+    <input type="radio" name="question2" value="1"> Show actionable plans to stakeholders or decision-makers, persuading them to accept and support the proposed project
+
+  </label><br>
+  <label>
+    <input type="radio" name="question2" value="4">  Provide instructions, guidance, or information to assist users in effectively using product
+  </label><br>
+  <br>
+  <input type="submit" value="Check your answers" onclick="gradeQuiz()">
+</form>
+<p id="result"></p>
+<script>
+  function gradeQuiz() {
+    event.preventDefault(); // Prevent form submission
+    const answers = {
+      question1: document.querySelector('input[name="question1"]:checked').value,
+      question2: document.querySelector('input[name="question2"]:checked').value
+    };
+    // Correct answers
+    const correctAnswers = {
+      question1: "api",
+      question2: "1"
+    };
+    let score = 0;
+    // Check answers and calculate score
+    if (answers.question1 === correctAnswers.question1) {
+      score++;
+    }
+    if (answers.question2 === correctAnswers.question2) {
+      score++;
+    }
+    // Display the score
+    document.getElementById('result').innerHTML = `You scored ${score} out of 2`;
+  }
+</script>
+</body>
+{{< /callout >}}
+
 
 ## Audience for technical documentation
 

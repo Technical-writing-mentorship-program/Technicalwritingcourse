@@ -27,9 +27,8 @@ seo:
  _**Figure 1**. The concept of writing for User Experience (UX)._
 
 
-### Module content  
 
-{{< callout context="note" title="Note" icon="info-circle" >}}
+{{< callout context="note" title="Module content" icon="info-circle" >}}
 
 In this module, you will leaarn;
 

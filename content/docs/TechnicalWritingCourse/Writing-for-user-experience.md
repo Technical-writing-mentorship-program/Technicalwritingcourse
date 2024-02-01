@@ -28,6 +28,18 @@ seo:
 
 
 
+{{< callout context="note" title="Module content" icon="info-circle" >}}
+
+In this module, you will leaarn;
+
+- What is user experience (UX)?
+- Why is UX important for technical writing?
+- What are UX principles?
+- How to write user-friendly technical documentation.
+
+{{< /callout >}}
+
+
 
 **User experience**, otherwise known as **UX**, is used to describe the emotional sentiment of an individual when they use a product. This product can be of any form - physical or digital.
 

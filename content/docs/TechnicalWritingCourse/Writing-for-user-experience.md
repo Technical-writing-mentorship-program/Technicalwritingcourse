@@ -266,9 +266,20 @@ As with popular brands, they can be associated with a particular slogan or color
 
 
 
+{{< callout context="note" title="Note" icon="info-circle" >}}
+
+
 
 
 For example, Docker has the image of a whale carrying a stack of containers on its way to customers, closely related to their services.
+
+
+
+
+
+{{< /callout >}}
+
+
 
 
 
@@ -350,12 +361,14 @@ The technical writer can achieve hierarchy with written content by writing it ac
 
 
 
+{{< callout context="note" title="Note" icon="info-circle" >}}
 
 
 
 For example, if you were to write a tutorial, you would write a title, add a cover image and prerequisites needed by the reader, and then the main body of the tutorial, assisted by visual aids to ensure they are on the right track.
 
 
+{{< /callout >}}
 
 
 
@@ -379,12 +392,14 @@ This is an important principle that cuts across different sectors aside from tec
 
 
 
+{{< callout context="note" title="Note" icon="info-circle" >}}
+
 
 
 Let us consider this example: if a product caters to users with macOS and iOS devices and gadgets, writing troubleshooting guides and user guides that include Android and Linux-based devices may not be useful to the users.
 
 
-
+{{< /callout >}}
 
 
 
@@ -536,9 +551,15 @@ There are several ways to create user-friendly documentation. These steps are as
 
 
 
-Before creating content for users, it is important to research the background of the users. For example, tutorials for new users would differ from those curated for existing product users.
+Before creating content for users, it is important to research the background of the users. 
+
+{{< callout context="note" title="Note" icon="info-circle" >}}
 
 
+For example, tutorials for new users would differ from those curated for existing product users.
+
+
+{{< /callout >}}
 
 
 
@@ -669,8 +690,13 @@ It is necessary to arrange your content properly to aid your reader's search for
 
 
 
-Use consistent formatting while writing. Do not mismatch the arrangement of written content while writing. For example, using images of different sizes and dimensions in the same piece could be less visually appealing and tends to put the reader off balance.
+Use consistent formatting while writing. Do not mismatch the arrangement of written content while writing. 
 
+{{< callout context="note" title="Note" icon="info-circle" >}}
+
+For example, using images of different sizes and dimensions in the same piece could be less visually appealing and tends to put the reader off balance.
+
+{{< /callout >}}
 
 
 
@@ -726,7 +752,7 @@ Maintaining consistent formatting while curating written content is important as
 
 
 
-Technical writing means something other than that the content would be filled with technical jargon and hard-to-read sentences. Write in plain text and avoid using technical terms unless necessary.
+Technical writing does not require content would be filled with technical jargon and hard-to-read sentences. Write in plain text and avoid using technical terms unless necessary.
 
 
 
@@ -965,8 +991,11 @@ Writing for user experience (UX) is an essential skill for technical writers. Wr
 
 This module explained the meaning of user experience and highlighted popular misconceptions about it. It further discussed why user experience is important for technical writing and the UX principles writers can apply.
 
-Writing user-friendly documentation is no mean feat, but as with every skill,  it can be learned. Applying the methods taught will be sure to give you positive results.    
+Writing user-friendly documentation is no mean feat, but as with every skill,  it can be learned. Applying the methods taught will be sure to give you positive results.   
 
+
+
+{{< callout context="note" title="Note" icon="info-circle" >}}
 
 
 ### Exercise:
@@ -979,7 +1008,7 @@ Your article should be between 1,500-2,000 words. Make use of the [Google writin
 
 Publish the article on [Hashnode](https://hashnode.com/), share the link on Twitter and LinkedIn. Tag @caisyio and @TechnicalWriti6 on X (Twitter) with the link to your published submission.
 
-
+{{< /callout >}}
     
 
 

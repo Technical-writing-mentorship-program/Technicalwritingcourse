@@ -109,6 +109,7 @@ Get ready to start building projects
 
 - [Blessing Ene Anyebe](https://www.linkedin.com/in/anyebe-blessing-ene-kwennb/): Blessing is a well-rounded tech person with skills that include design and frontend engineering. Currently she focuses on Technical Writing, API documentation, and Search Engine Optimization.
 
+- [Rejoice Anodo](https://linktr.ee/rejoiceanodo): Rejoice focuses on curating technical written content for B2B SaaS companies.
 _Why free?_
 
 We believe everyone deserves to learn tech writing, no matter what! So grab this open-source course and unlock your future in tech writing.

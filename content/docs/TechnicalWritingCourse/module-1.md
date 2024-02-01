@@ -171,6 +171,8 @@ For example, Google [Chrome's](https://support.google.com/chrome/?hl=en#topic=74
 Online help enhances the user experience by offering troubleshooting guides and product insights.
 
 
+{{< callout context="note" title="Check your knowledge:" icon="info-circle" >}}
+
 <body>
 <form id="quizForm">
   <h2>Question 1:</h2>
@@ -181,8 +183,7 @@ Online help enhances the user experience by offering troubleshooting guides and 
   </label><br>
   <label>
     <input type="radio" name="question1" value="White"> White paper documentation
-
-  </label><br>
+</label><br>
   <label>
     <input type="radio" name="question1" value="Release"> Release note documentation
   </label><br>
@@ -190,12 +191,14 @@ Online help enhances the user experience by offering troubleshooting guides and 
   <p> The goal of a technical proposal is to:</p>
   <label>
     <input type="radio" name="question2" value="3"> Provide comprehensive analysis, information, or recommendations on a specific topic, product, or technology.
+</label><br>
 
-  </label><br>
+
   <label>
     <input type="radio" name="question2" value="1"> Show actionable plans to stakeholders or decision-makers, persuading them to accept and support the proposed project
+</label><br>
 
-  </label><br>
+
   <label>
     <input type="radio" name="question2" value="4">  Provide instructions, guidance, or information to assist users in effectively using product
   </label><br>
@@ -228,6 +231,7 @@ Online help enhances the user experience by offering troubleshooting guides and 
   }
 </script>
 </body>
+
 {{< /callout >}}
 
 
@@ -251,13 +255,15 @@ If you answer the questions above, this will help your readers understand this t
 
 Now, let’s use the questions above to know your target audience.
 
-- <span style="color: #FFCCCB;" class="highlight"> Who am I writing for? </span> Technical writers,
+- <span style="color: #FF6F61;" class="highlight"> Who am I writing for? </span> Technical writers,
+<!-- #FFCCCB -->
 
-- <span style="color: #FFCCCB;" class="highlight"> What is their level of expertise?</span> Beginners
+- <span style="color: #FF6F61;" class="highlight"> What is their level of expertise?</span> Beginners
 
-- <span style="color: #FFCCCB;" class="highlight"> What do they expect from my article? </span> They expect this article to give a comprehensive overview of technical writing, the audience for technical writing, types of technical documentation, tools and software for technical writing, and so on.
+- <span style="color: #FF6F61;" class="highlight"> What do they expect from my article? </span> They expect this article to give a comprehensive overview of technical writing, the audience for technical writing, types of technical documentation, tools and software for technical writing, and so on.
 
 
+{{< callout context="note" title="Check your knowledge:" icon="info-circle" >}}
 
 <body>
 <form id="quizForm">
@@ -339,6 +345,7 @@ It is used by companies to provide information about upgrades in their product o
 
  Technical documentation provides troubleshooting guides that can help users when they encounter a problem while using a product.
 
+{{< callout context="note" title="Check your knowledge:" icon="info-circle" >}}
 
  <body>
 <form id="quizForm">
@@ -467,6 +474,8 @@ The goal of this stage is not just error correction but the refinement of your d
 Platforms like Medium, Hashnode, Devrel, and other social media platforms can serve as avenues for sharing your work with the world.
 
 Consider the nature of your content and your target audience when deciding the suitable platform for publication.
+
+{{< callout context="note" title="Check your knowledge:" icon="info-circle" >}}
 
 
  <body>

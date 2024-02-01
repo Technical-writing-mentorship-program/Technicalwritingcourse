@@ -257,6 +257,66 @@ Now, let’s use the questions above to know your target audience.
 
 - <span style="color: #FFCCCB;" class="highlight"> What do they expect from my article? </span> They expect this article to give a comprehensive overview of technical writing, the audience for technical writing, types of technical documentation, tools and software for technical writing, and so on.
 
+
+
+<body>
+<form id="quizForm">
+  <h2>Question 1:</h2>
+  <p>Who is the audience of a technical writer?
+</p>
+  <label>
+    <input type="radio" name="question1" value="1"> The people for whom THEY are writing
+  </label><br>
+  <label>
+    <input type="radio" name="question1" value="White"> Everybody
+</label><br>
+  <label>
+    <input type="radio" name="question1" value="Release"> I don’t know
+  </label><br>
+  <h2>Question 2:</h2>
+  <p> One of the questions you need to ask yourself to determine your audience is..</p>
+  <label>
+    <input type="radio" name="question2" value="3"> Who am I writing for?
+ </label><br>
+  <label>
+    <input type="radio" name="question2" value="1"> Will they criticize my documentation?
+</label><br><label>
+    <input type="radio" name="question2" value="4">  Are they more intelligent than I am?
+  </label> <br><br>
+
+ <input type="submit" value="Check your answers" onclick="gradeQuiz()">
+</form>
+<p id="result"></p>
+<script>
+  function gradeQuiz() {
+    event.preventDefault(); // Prevent form submission
+    const answers = {
+      question1: document.querySelector('input[name="question1"]:checked').value,
+      question2: document.querySelector('input[name="question2"]:checked').value
+    };
+    // Correct answers
+    const correctAnswers = {
+      question1: "1",
+      question2: "3"
+    };
+    let score = 0;
+    // Check answers and calculate score
+    if (answers.question1 === correctAnswers.question1) {
+      score++;
+    }
+    if (answers.question2 === correctAnswers.question2) {
+      score++;
+    }
+    // Display the score
+    document.getElementById('result').innerHTML = `You scored ${score} out of 2`;
+  }
+</script>
+</body>
+{{< /callout >}}
+
+
+
+
 ## Purpose for Technical Documentation
 
 There are numerous reasons for writing technical documentation. The purpose of technical documentation includes:

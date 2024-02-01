@@ -12,8 +12,8 @@ menu:
 weight: 810
 toc: true
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
+  title: "Introduction to technical writing" # custom title (optional)
+  description: "In this module, you will learn what technical writing is, the different type of technical documentation, audience for technical documentation, purpose of technical documentation and technical writing process."
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---
@@ -40,7 +40,11 @@ In simple terms, technical writing provides factual and concise information to f
 
 Technical documentation comprises detailed instructions, step-by-step guides, or information regarding a product or technology.
 
+
+
+{{< callout context="tip" title="Did you know?" icon="rocket" >}}
 To create effective technical documentation, a technical writer must possess subject matter expertise, ensuring their audience can effortlessly comprehend the instructions or guides.
+{{< /callout >}}
 
         For instance, a technical writer lacking a strong background in programming cannot produce quality API documentation, as it demands a solid understanding of programming concepts like functions, arrays, objects, maps, and so on.
 

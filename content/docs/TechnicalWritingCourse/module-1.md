@@ -467,3 +467,65 @@ The goal of this stage is not just error correction but the refinement of your d
 Platforms like Medium, Hashnode, Devrel, and other social media platforms can serve as avenues for sharing your work with the world.
 
 Consider the nature of your content and your target audience when deciding the suitable platform for publication.
+
+
+ <body>
+<form id="quizForm">
+  <h2>Question 1:</h2>
+  <p>The goal of the review stage is not just to correct errors but to--
+
+</p>
+
+ <label>
+    <input type="radio" name="question1" value="London"> Publish your documentation
+  </label><br>
+
+  <label>
+    <input type="radio" name="question1" value="1">  Meet the highest standard of clarity and professionalism
+  </label><br>
+  <label>
+    <input type="radio" name="question1" value="2"> Structure your documentation
+  </label><br>
+ 
+  <h2>Question 2:</h2>
+  <p> Which stage is the foundational step in the documentation process
+</p>
+  <label>
+    <input type="radio" name="question2" value="1"> Write
+  </label><br>
+  <label>
+    <input type="radio" name="question2" value="2"> Research
+  </label><br>
+  <label>
+    <input type="radio" name="question2" value="3">  Review
+  </label><br>
+  <br>
+  <input type="submit" value="Check your answers" onclick="gradeQuiz()">
+</form>
+<p id="result"></p>
+<script>
+  function gradeQuiz() {
+    event.preventDefault(); // Prevent form submission
+    const answers = {
+      question1: document.querySelector('input[name="question1"]:checked').value,
+      question2: document.querySelector('input[name="question2"]:checked').value
+    };
+    // Correct answers
+    const correctAnswers = {
+      question1: "1",
+      question2: "2"
+    };
+    let score = 0;
+    // Check answers and calculate score
+    if (answers.question1 === correctAnswers.question1) {
+      score++;
+    }
+    if (answers.question2 === correctAnswers.question2) {
+      score++;
+    }
+    // Display the score
+    document.getElementById('result').innerHTML = `You scored ${score} out of 2`;
+  }
+</script>
+</body>
+{{< /callout >}}

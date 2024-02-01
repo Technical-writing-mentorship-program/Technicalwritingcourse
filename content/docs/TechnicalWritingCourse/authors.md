@@ -34,6 +34,17 @@ It's packed with useful stuff and totally **FREE for everyone!**
 
 - [Blessing Ene Anyebe](https://www.linkedin.com/in/anyebe-blessing-ene-kwennb/): Blessing is a well-rounded tech person with skills that include design and frontend engineering. Currently she focuses on Technical Writing, API documentation, and Search Engine Optimization.
 
+
+- [Rejoice Anodo](https://linktr.ee/rejoiceanodo): Rejoice focuses on curating technical written content for B2B SaaS companies.
+
+- [Love Otudor](https://www.linkedin.com/in/loveotudor/): an Android developer and technical writer. She is a Women Techmakers Ambassador and Google Developers Group co-organizer.
+
+
+- [Prince Onyeanuna](https://www.linkedin.com/in/prince-onyeanuna-607352246/): Prince is a technical writer and DevOps engineer who believes in the power of showing up. He is passionate about helping others learn and grow through writing and coding.
+
+- [Love Otudor](https://www.linkedin.com/in/loveotudor/): an Android developer and technical writer. She is a Women Techmakers Ambassador and Google Developers Group co-organizer.
+
+
 _Why free?_
 
 We believe everyone deserves to learn tech writing, no matter what! So grab this open-source course and unlock your future in tech writing.

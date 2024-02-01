@@ -20,7 +20,7 @@ seo:
 
 Technical writing is a field that requires clarity, and efficiency in communication. Writers rely on various tools and software applications to produce effective technical documentation.
 
-{< callout context="tip" title= Krista Van Laan says - Technical writing is a continuous process of learning, carefully gathering, sifting, organizing, and assessing, all while trying to craft something that makes sense for a user.”" icon="rocket" >}} {{< /callout >}}
+{{< callout context="tip" title= Krista Van Laan says - Technical writing is a continuous process of learning, carefully gathering, sifting, organizing, and assessing, all while trying to craft something that makes sense for a user.”" icon="rocket" >}} {{< /callout >}}
 
 What are technical writing tools? Technical writing tools are used in creating, editing, formatting, and managing technical content. These tools aid writing and save time.
 
@@ -278,7 +278,7 @@ Premier Pro is a go-to software to create videos with audio for film, TV, and so
 
 Publishing sites are essential for posting your writing samples, documents, solutions, and articles.
 
-{{< callout context="note" title="Grammarly" icon="rocket" >}}
+{{< callout context="note" title="Publishing Sites" icon="rocket" >}}
 WordPress, Wix, Medium, Hashnode, Adobe Framemaker, Robohelp, Madcap Flare, and Qblogger are publishing sites.
 {{< /callout >}}
 

@@ -1,5 +1,5 @@
 ---
-title: "Information  Architecture for Technical Writers: A blueprint for usable documentation"
+title: "Information  Architecture for Technical Writers"
 description: "This guide equips technical writers with the essential skills needed to structure your content efficiently and logically, while creating user-friendly pathways through technical documentation."
 summary: "Technical writers are the architect of knowledge, but curating effective documentation requires more than just a clear prose. A well-crafted information architecture forms the foundation, ensuring users can navigate complex information with ease and find the answers they need quickly."
 date: 2023-08-07T16:04:48+02:00
@@ -170,8 +170,7 @@ While still on the Kubernetes documentation example used in Global navigation,  
 - **Efficient content management**: A well-defined taxonomy makes organizing and managing large amounts of content easier.
 
 - **Search result**: By aligning the taxonomy with search keywords, you can ensure that users get more relevant results when they search for specific information.
-
-{{< details "Check your knowledge" >}}
+{{< callout context="note" title="Check your knowledge" icon="rocket" >}}
 <form id="quizForm">
   <h2>Question 1:</h2>
   <p>hy is taxonomy important when building your information architecture for technical documentation?</p>
@@ -240,7 +239,7 @@ While still on the Kubernetes documentation example used in Global navigation,  
 </script>
 
 </body>
-{{< /details >}}
+{{< /callout >}}
 
 
 #### **How to create an information architecture for your technical documentation**
@@ -288,9 +287,12 @@ The principle of Information Architecture was first proposed by Dan Brown in 201
 
 {{< callout context="note" title="Exercise" icon="info-circle" >}}
 
-Choose a complex technical concept of your choice and explain how you would break it down and organise it effectively for different reader levels through the use of information architecture. Also, adhere to all the tips and measures from this documentation. After review, tag @TechnicalWriti6 on Twitter to the link to your article.
+Choose a complex technical concept of your choice, research extensively and write on it. Ensure you apply all you've learnt about information architecture and adhere to all the tips and measures from this documentation. After review, tag @TechnicalWriti6 on Twitter to the link to your article.
 
 {{< /callout >}}
 
-Answer the following questions
+#### Answer the following questions
 <`iframe src="https://forms.gle/tn3pe9Y7CK6edGp38" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>`
+
+{{< callout context="tip" title="The next module explores in-depth on how to use formatting to improve the readability and clarity of your technical documentation
+" icon="rocket" >}} {{< /callout >}}

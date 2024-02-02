@@ -9,8 +9,22 @@
     </url>
     
     <url>
+      <loc>/docs/technicalwritingcourse/information-architecture/</loc>
+      <lastmod>2023-09-07T16:04:48+02:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+    </url>
+    
+    <url>
       <loc>/docs/technicalwritingcourse/intro-to-technical-writing/</loc>
       <lastmod>2023-09-07T16:04:48+02:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+    </url>
+    
+    <url>
+      <loc>/docs/technicalwritingcourse/managing-technical-writing-projects/</loc>
+      <lastmod>2024-02-01T16:37:00+02:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
     </url>
@@ -46,6 +60,13 @@
     <url>
       <loc>/docs/technicalwritingcourse/information-gathering/</loc>
       <lastmod>2024-01-02T04:24:46+01:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+    </url>
+    
+    <url>
+      <loc>/docs/technicalwritingcourse/writing-for-different-audiences/</loc>
+      <lastmod>2024-01-20T19:46:49+02:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
     </url>

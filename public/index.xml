@@ -46,24 +46,6 @@ It&amp;rsquo;s packed with useful stuff and totally FREE for everyone!</descript
     </item>
     
     <item>
-      <title>Cohort 1</title>
-      <link>/docs/cohorts/cohort-1/</link>
-      <pubDate>Mon, 07 Aug 2023 16:04:48 +0200</pubDate>
-      
-      <guid>/docs/cohorts/cohort-1/</guid>
-      <description>Guides lead a user through a specific task they want to accomplish, often with a sequence of steps. Writing a good guide requires thinking about what your users are trying to do.</description>
-    </item>
-    
-    <item>
-      <title>Cohort 2</title>
-      <link>/docs/cohorts/cohort-2/</link>
-      <pubDate>Mon, 07 Aug 2023 16:04:48 +0200</pubDate>
-      
-      <guid>/docs/cohorts/cohort-2/</guid>
-      <description>Guides lead a user through a specific task they want to accomplish, often with a sequence of steps. Writing a good guide requires thinking about what your users are trying to do.</description>
-    </item>
-    
-    <item>
       <title>Glasp User Guide Assignment</title>
       <link>/docs/portfolio/glasp-user-guide-assignment/</link>
       <pubDate>Mon, 07 Aug 2023 16:04:48 +0200</pubDate>
@@ -71,6 +53,15 @@ It&amp;rsquo;s packed with useful stuff and totally FREE for everyone!</descript
       <guid>/docs/portfolio/glasp-user-guide-assignment/</guid>
       <description>Assignment Title: Glasp user guide Do the following:
 Generate the table of content. Choose a suitable title. Write in Markdown. Create a repo on GitHub.</description>
+    </item>
+    
+    <item>
+      <title>Information  Architecture</title>
+      <link>/docs/technicalwritingcourse/information-architecture/</link>
+      <pubDate>Mon, 07 Aug 2023 16:04:48 +0200</pubDate>
+      
+      <guid>/docs/technicalwritingcourse/information-architecture/</guid>
+      <description>Technical writers are the architect of knowledge, but curating effective documentation requires more than just a clear prose. A well-crafted information architecture forms the foundation, ensuring users can navigate complex information with ease and find the answers they need quickly.</description>
     </item>
     
     <item>
@@ -88,7 +79,16 @@ Generate the table of content. Choose a suitable title. Write in Markdown. Creat
       <pubDate>Mon, 07 Aug 2023 16:04:48 +0200</pubDate>
       
       <guid>/docs/talent/technical-writing-talent/</guid>
-      <description>Guides lead a user through a specific task they want to accomplish, often with a sequence of steps. Writing a good guide requires thinking about what your users are trying to do.</description>
+      <description>At our disposal, we have a talented pool of trusted writers who are poised to create world-class content tailored to your needs.</description>
+    </item>
+    
+    <item>
+      <title>Managing Technical Writing Projects</title>
+      <link>/docs/technicalwritingcourse/managing-technical-writing-projects/</link>
+      <pubDate>Thu, 01 Feb 2024 16:37:00 +0200</pubDate>
+      
+      <guid>/docs/technicalwritingcourse/managing-technical-writing-projects/</guid>
+      <description>Build a solid foundation in project management practices for effective technical documentation</description>
     </item>
     
     <item>

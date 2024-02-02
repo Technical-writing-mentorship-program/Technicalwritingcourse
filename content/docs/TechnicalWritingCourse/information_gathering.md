@@ -227,8 +227,6 @@ Taking a deeper approach to gathering information from various sources can signi
 </body>
 {{< /callout >}}
 
-{{< callout context="tip" title="The coming section explores editing technical documentation for clarity, conciseness, and accuracy (correctness)." icon="rocket" >}}
-{{< /callout >}}
 
 ## Develop a research plan
 

@@ -2,7 +2,7 @@
 title: "Writing for User Experience (UX)"
 description: "Writing for User Experience (UX) is an essential skill needed when creating written content.It ensures that users' needs are adequately catered for as they make use of products and their associated content. This section discusses user experience (UX), UX principles and how to implement UX in technical writing."
 summary: "Understanding user experience (UX) prinicples and how to implement them in technical writing."
-date: 2023-12-17T13:13:49+20:00
+date: 2024-01-17T13:13:49+20:00
 lastmod: 2024-01-20T19:46:49+02:00
 draft: false
 menu:

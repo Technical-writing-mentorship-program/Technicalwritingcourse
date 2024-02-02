@@ -2,7 +2,7 @@
 title: "Information  Architecture"
 description: "This guide equips technical writers with the essential skills needed to structure your content efficiently and logically, while creating user-friendly pathways through technical documentation."
 summary: "Technical writers are the architect of knowledge, but curating effective documentation requires more than just a clear prose. A well-crafted information architecture forms the foundation, ensuring users can navigate complex information with ease and find the answers they need quickly."
-date: 2023-08-07T16:04:48+02:00
+date: 2024-01-07T16:04:48+02:00
 lastmod: 2023-09-07T16:04:48+02:00
 draft: false
 menu:
@@ -18,9 +18,9 @@ seo:
   noindex: false # false (default) or true
 ---
 
-{{< callout context="tip" title="Peter Morville says - “TFindability precedes usability; you can’t use what you can’t find. which makes information architecture vital when curating technical documentation that we want readers to find useful." icon="rocket" >}} {{< /callout >}}
+{{< callout context="tip" title="Peter Morville says - “Findability precedes usability; you can’t use what you can’t find. which makes information architecture vital when curating technical documentation that we want readers to find useful." icon="rocket" >}} {{< /callout >}}
 
-### **Information Architecture**
+### Information Architecture
 
 {{< callout context="note" title="In this Module, you will learn:" icon="info-circle" >}}
 
@@ -31,11 +31,13 @@ seo:
 - Key principles guiding information architecture
   {{< /callout >}}
 
-#### **What is information architecture**
+## What is information architecture
 
 Information Architecture, or IA, streamlines complex information by organizing it logically, sequentially, and concisely. It is the way we structure and label content in an effective and user-friendly manner.
 
-Information architecture helps improve the usability and accessibility of digital products and services. It is how the content of applications, websites, and information systems are organized and labeled for easy access and usage, saving users considerable time.
+Information architecture helps improve the usability and accessibility of digital products and services.
+
+It is how the content of applications, websites, and information systems are organized and labeled for easy access and usage, saving users considerable time.
 
 {{< callout context="tip" title="A good information architecture anticipates user needs and ensures a logical flow of information is followed through intelligent grouping and intuitive navigation medium." icon="rocket" >}} {{< /callout >}}
 
@@ -51,7 +53,7 @@ Good information architecture equates to a good user experience. For that reason
 
 - **Context**: This focuses on the environment and circumstances where users access information so the technical article is readily usable in different situations.
 
-#### **Importance of information architecture in technical documentation**
+## Importance of information architecture in technical documentation
 
 Information architecture plays a crucial role in technical documentation in multiple ways. It helps technical writers create clear and concise documents, promoting usability and strengthening comprehension of complex technical content for users.
 
@@ -71,9 +73,11 @@ Information architecture plays a crucial role in technical documentation in mult
 
 - **Strengthens understanding**: Information architecture ensures information is arranged logically and sequentially, facilitating readers’ comprehension of the connections and context between various documentation sections. This facilitates understanding and makes it easier for readers to absorb technical ideas easily.
 
-#### **Information architecture taxonomy**
+## Information architecture taxonomy
 
-In Information architecture, taxonomy is crucial in organizing and labeling content using a hierarchical structure. It is how information is segmented and labeled within a shared information environment. It helps organize topics, subtopics, and related content within manuals and guides.
+In Information architecture, taxonomy is crucial in organizing and labeling content using a hierarchical structure.
+
+It is how information is segmented and labeled within a shared information environment. It helps organize topics, subtopics, and related content within manuals and guides.
 
 <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/s92uajitouwqpxquamkt.png" alt="Taxonomy in use in The Atlantic website" width="100%">
 
@@ -81,7 +85,9 @@ _**Figure 2**: Taxonomy in use in The Atlantic website_
 
 The picture above is a taxonomy being used in [The Atlantic](https://www.theatlantic.com/world/) to specify broad categories like “Technology”, “Business”, “Global”, “Health”. It makes information easily discoverable and also strengthens SEO
 
-Think of Information architecture as a clothing store; the taxonomy is the dedicated space where each shopper will find men's, ladies', children’s, and babies' shoes and accessories. Then the clothing store will have other subcategories where dresses, pants, jackets, and shirts are found within the ladies' clothing section.
+Think of Information architecture as a clothing store; the taxonomy is the dedicated space where each shopper will find men's, ladies', children’s, and babies' shoes and accessories.
+
+Then the clothing store will have other subcategories where dresses, pants, jackets, and shirts are found within the ladies' clothing section.
 
 <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/7nru6tuftoxm60vqzpbi.png" alt="Information architecture and taxonomy working together to deliver content efficiently in an e-commerce platform" width="100%">
 
@@ -187,7 +193,7 @@ They are useful when a user needs to read more about that particular piece of in
 
 - **Search result**: By aligning the taxonomy with search keywords, you can ensure that users get more relevant results when they search for specific information.
 
-#### How to create an information architecture for your technical documentation
+## How to create an information architecture for your technical documentation
 
 - **User research**: Understanding the problem space is the first step in creating a good information architecture.
 
@@ -208,7 +214,7 @@ It isn't uncommon to see an article on a particular topic, but that article does
 
 - **Gather feedback and iterate**: Be sure to test your article /documentation with real users as well as your fellow technical writers to gather insight on what you have done right and what needs to be adjusted, and iterate based on feedback obtained.
 
-#### Information architecture principles to consider when drafting your technical documentation
+## Information architecture principles to consider when drafting your technical documentation
 
 Crafting effective information architecture is not a game of chance. It's a disciplined process guided by established principles and methodologies.
 
@@ -249,7 +255,7 @@ After review, tag @TechnicalWriti6 on Twitter to the link to your article.
 
 {{< /callout >}}
 
-#### Answer the following questions
+## Answer the following questions
 
 <iframe src="https://forms.gle/tn3pe9Y7CK6edGp38" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 

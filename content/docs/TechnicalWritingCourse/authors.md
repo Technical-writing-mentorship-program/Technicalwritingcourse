@@ -30,7 +30,7 @@ It's packed with useful stuff and totally **FREE for everyone!**
 
 - Susan Idii: A seasoned software engineer with a passion for clear communication, leads the Introduction to Technical Writing section, demystifying core concepts and best practices.
 
-- [Temitope Victoria:](https://www.linkedin.com/in/temitope-victoria/) a technical writer and cloud engineer.
+- [Temitope Victoria:](https://www.linkedin.com/in/temitope-victoria/) Temitope is an experienced and certified IT professional. She is skilled in Technical Writing, Search Engine Optimization, and Cloud Computing.
 
 - [Blessing Ene Anyebe](https://www.linkedin.com/in/anyebe-blessing-ene-kwennb/): Blessing is a well-rounded tech person with skills that include design and frontend engineering. Currently she focuses on Technical Writing, API documentation, and Search Engine Optimization.
 

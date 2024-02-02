@@ -20,6 +20,10 @@ seo:
 
 Technical writing is a field that requires clarity, and efficiency in communication. Writers rely on various tools and software applications to produce effective technical documentation.
 
+{{< callout context="tip" title="Krista Van Laan says" icon="rocket" >}}
+ Technical writing is a continuous process of learning, carefully gathering, sifting, organizing, and assessing, all while trying to craft something that makes sense for a user
+{{< /callout >}}
+
 What are technical writing tools? Technical writing tools are used in creating, editing, formatting, and managing technical content. These tools aid writing and save time.
 
 There are different writing tools to assist technical writers in increasing productivity, correcting grammar errors, and designing images.
@@ -588,7 +592,14 @@ Do the following:
 - Generate the table of content.
 - Choose a suitable title.
 - Write in Markdown.
-- Watch this video to learn how to write in Markdown - [Introduction to Markdown](https://www.youtube.com/watch?v=8-gJmNPlanw&t=1s).
+- Watch this video to learn how to write in Markdown -
+
+{{< callout context="note" title="Introduction to Markdown" icon="rocket" >}}
+
+[![Introduction to Markdown](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/b6fz2qd2kg6a3ng7gyva.jpg)](https://www.youtube.com/watch?v=8-gJmNPlanw&t=602s)
+
+{{< /callout >}}
+
 - Create a repo on GitHub.
 - Create a new markdown file that will contain your assignment.
 - Use VSCode to write and test your markdown (Send a screenshot of your vscode containing your assignment)
@@ -621,27 +632,27 @@ Answer the following questions.
 
 <form id="equizForm">
   <h2>Question 1:</h2>
-  <p>The main goal of technical writing is?</p>
+  <p>Technical writing is a field that requires _____________, and __________in communication.</p>
   <label>
-    <input type="radio" name="question1" value="ambiguity"> To confuse the audience
+    <input type="radio" name="question1" value="ambiguity"> Ambiguity, transparency
   </label><br>
   <label>
-    <input type="radio" name="question1" value="clarity"> To explain complex ideas clearly
+    <input type="radio" name="question1" value="clarity"> Clarity, efficiency
   </label><br>
   <label>
-    <input type="radio" name="question1" value="opacity"> To use complex language
+    <input type="radio" name="question1" value="opacity"> Opacity, vagueness
   </label><br>
 
   <h2>Question 2:</h2>
-  <p>Which of the following is an example of a document created through technical writing?</p>
+  <p>Which of the following is not a publishing site?</p>
   <label>
-    <input type="radio" name="question2" value="site"> A fictional short story
+    <input type="radio" name="question2" value="site"> Madcap Flare
   </label><br>
   <label>
-    <input type="radio" name="question2" value="word"> A report on market trends in the finance industry
+    <input type="radio" name="question2" value="word"> WordPress
   </label><br>
   <label>
-    <input type="radio" name="question2" value="ssg"> A cookbook with recipes from around the world
+    <input type="radio" name="question2" value="ssg"> Sphinx
   </label><br>
 
   <br>

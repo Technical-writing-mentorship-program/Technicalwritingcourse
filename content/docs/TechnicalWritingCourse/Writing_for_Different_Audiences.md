@@ -236,7 +236,12 @@ Examples of writing may include an introduction to html and CSS for beginners in
 
 
 
-Below is an article written for low-level technical audiences. (image)
+Below is an article written for low-level technical audiences.
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/wo14p86nzaupw30om3eb.JPG)
+_**Figure 1**.A Documentation written for low-level Technical Audiences_
+
+
 
 
 
@@ -267,7 +272,11 @@ They may include Subject matter experts, senior Engineers and Architects, advanc
 Examples of writing meant for this audience are advanced programming and code documentation and complex algorithm Documentation in machine learning.
 
 
-Below is an article written for high-level technical Audiences. (image).
+Below is an article written for high-level technical Audiences. 
+
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ik6ylpahxy3sny5hx3i1.JPG)
+_**Figure 1**.An Article written for high-level Technical Audiences_
 
 
 
@@ -290,7 +299,10 @@ Non-technical audiences include end users of software applications, educators, s
 Examples of writing for this audience may be How to make a screenshot, How to use Google Meet, and How to save and transfer files.
 
 
-Example of an article written for the non-technical audience (image)
+Example of an article written for the non-technical audience.
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/v3i60jbn1h7i6v8bmq0z.JPG)
+
  
  {{< callout context="tip" title="Defining your audience into the categories above will help you create appropriate documentation and communicate successfully.
 "icon="rocket" >}}
@@ -313,7 +325,74 @@ Now that you have a persona in mind, you need to tailor your writing to suit you
 
 Writing to meet your audience's needs requires selflessness; you must learn to create explanations that satisfy your audience's curiosity rather than your own.
 
+<body>
 
+{{< details "Check your knowledge" >}}
+
+<form id="quizForm">
+  <h2>Question 1:</h2>
+  <p>One of these is not a step in audience analysis</p>
+  <label>
+    <input type="radio" name="question1" value="Paris"> information Gathering
+  </label><br>
+  <label>
+    <input type="radio" name="question1" value="complex"> Tailoring your writing to your persona
+  </label><br>
+  <label>
+    <input type="radio" name="question1" value="London"> Trust and Credibility
+  </label><br>
+
+  <h2>Question 2:</h2>
+  <p>What is the Bedrock of a successful communication in technical writing??</p>
+  <label>
+    <input type="radio" name="question2" value="Nice"> Audience Identification
+  </label><br>
+  <label>
+    <input type="radio" name="question2" value="report"> Audience Analysis
+  </label><br>
+  <label>
+    <input type="radio" name="question2" value="4"> Audience Characteristics
+  </label><br>
+
+  <br>
+  <input type="submit" value="Check your answers" onclick="gradeQuiz()">
+</form>
+
+<p id="result"></p>
+
+<script>
+  function gradeQuiz() {
+    event.preventDefault(); // Prevent form submission
+
+    const answers = {
+      question1: document.querySelector('input[name="question1"]:checked').value,
+      question2: document.querySelector('input[name="question2"]:checked').value
+    };
+
+    // Correct answers
+    const correctAnswers = {
+      question1: "London",
+      question2: "Nice"
+    };
+
+    let score = 0;
+
+    // Check answers and calculate score
+    if (answers.question1 === correctAnswers.question1) {
+      score++;
+    }
+    if (answers.question2 === correctAnswers.question2) {
+      score++;
+    }
+
+    // Display the score
+    document.getElementById('result').innerHTML = 'You scored ${score} out of 2';
+  }
+</script>
+
+</body>
+
+{{< /details >}}
 
 
 ## Tailoring your Writing to your Audience
@@ -532,13 +611,7 @@ These individuals have mastered a particular technology or field. They comprehen
 The Experts:
 These include users at the peak of knowledge and expertise in a particular field or technology. They have a deep understanding and extensive experience of complex concepts. Technical documentation for experts should be advanced and sophisticated. It should reflect their advanced knowledge and expectations. It should provide insights beyond the basics and cater to professionals seeking the latest and most advanced information. Additionally, the document may acknowledge their role as experts and encourage collaboration and knowledge sharing.
 
+Answer the following questions.
 
-
-
-
-
-
-
-
-
+<iframe src="https://forms.gle/NTDDJMwN3KiPCGG5" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 

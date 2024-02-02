@@ -16,13 +16,6 @@
     </url>
     
     <url>
-      <loc>/docs/cohorts/</loc>
-      <lastmod>2023-01-07T16:06:50+02:00</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-    
-    <url>
       <loc>/docs/portfolio/</loc>
       <lastmod>2022-10-07T16:06:50+02:00</lastmod>
       <changefreq>monthly</changefreq>
@@ -42,8 +35,20 @@
         <priority>0.5</priority>
       </url>
       <url>
+        <loc>/docs/technicalwritingcourse/information-architecture/</loc>
+        <lastmod>2023-09-07T16:04:48+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+      </url>
+      <url>
         <loc>/docs/technicalwritingcourse/intro-to-technical-writing/</loc>
         <lastmod>2023-09-07T16:04:48+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+      </url>
+      <url>
+        <loc>/docs/technicalwritingcourse/managing-technical-writing-projects/</loc>
+        <lastmod>2024-02-01T16:37:00+02:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
       </url>
@@ -78,6 +83,12 @@
         <priority>0.5</priority>
       </url>
       <url>
+        <loc>/docs/technicalwritingcourse/writing-for-different-audiences/</loc>
+        <lastmod>2024-01-20T19:46:49+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+      </url>
+      <url>
         <loc>/docs/technicalwritingcourse/writing-for-user-experience-ux/</loc>
         <lastmod>2024-01-20T19:46:49+02:00</lastmod>
         <changefreq>monthly</changefreq>
@@ -96,18 +107,6 @@
       </url>
       <url>
         <loc>/docs/talent/technical-writing-talent/</loc>
-        <lastmod>2023-09-07T16:04:48+02:00</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-      </url>
-      <url>
-        <loc>/docs/cohorts/cohort-1/</loc>
-        <lastmod>2023-09-07T16:04:48+02:00</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-      </url>
-      <url>
-        <loc>/docs/cohorts/cohort-2/</loc>
         <lastmod>2023-09-07T16:04:48+02:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>

@@ -18,12 +18,14 @@ seo:
   noindex: false # false (default) or true
 ---
 
-## Module content
+{{< callout context="note" title="In this Module, you will learn:" icon="info-circle" >}}
 
 - What is a writing style guide?
 - How to create a writing style guide
 - Why is it important for technical writers to have a writing style guide?
 - Popular style guides and how to pick one for your project
+
+{{< /callout >}}
 
 ## What is a writing style guide?
 

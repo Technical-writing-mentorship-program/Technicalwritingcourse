@@ -217,7 +217,7 @@ As with any concept, usage rules apply. Consider the following when creating dia
 
 - **Don't Neglect Consistency in Style:** Maintain a consistent style throughout your technical diagrams. Whether you're a developer illustrating system interactions or a technical writer creating documentation, inconsistency in style can lead to confusion. Stick to a unified design language to ensure a cohesive and professional appearance across all your visual elements.
 
-### Exercise:
+{{< callout context="note" title="Exercise" icon="info-circle" >}}
 
 **Complete the following exercises before procedding to the next module.**
 
@@ -230,6 +230,8 @@ Navigate to the [Technical Writers Mentorship Program YouTube page](https://www.
 You must use an annotation tool such as [Annotely](https://annotely.com/editor) to create your diagrams.
 
 Also, adhere to all the tips and measures from this documentation. After review, tag @TechnicalWriti6 on Twitter to the link to your article.
+
+{{< /callout >}}
 
 Answer the following questions.
 

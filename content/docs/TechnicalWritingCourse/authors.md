@@ -40,7 +40,8 @@ It's packed with useful stuff and totally **FREE for everyone!**
 
 - [Prince Onyeanuna](https://www.linkedin.com/in/prince-onyeanuna-607352246/): Prince is a technical writer and DevOps engineer who believes in the power of showing up. He is passionate about helping others learn and grow through writing and coding.
 
-- [Akorede Da silva](https://www.linkedin.com/in/akorede-dasilva/) Akorede is a multi-disciplinary designer, product manager, XR developer and technical writer.
+- [Akorede Da silva](https://www.linkedin.com/in/akorede-dasilva/): Akorede is an experienced and multi-disciplinary designer, product manaeger, XR developer and Technical writer. He is an XRI Ambassador and also a community manager for Extend Africa (An XR community), Checkmate Africa, and Designers DAO.
+
 
 _Why free?_
 

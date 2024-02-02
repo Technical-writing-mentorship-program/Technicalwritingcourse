@@ -193,6 +193,77 @@ They are useful when a user needs to read more about that particular piece of in
 
 - **Search result**: By aligning the taxonomy with search keywords, you can ensure that users get more relevant results when they search for specific information.
 
+{{< callout context="note" title="Check your knowledge:" icon="info-circle" >}}
+
+<body>
+<form id="quizForm">
+  <h2>Question 1:</h2>
+  <p>Why is taxonomy important when building your information architecture for technical documentation?</p>
+  <label>
+    <input type="radio" name="question1" value="Paris"> It enhances user understanding by grouping related topics together
+  </label><br>
+  <label>
+    <input type="radio" name="question1" value="complex"> It eliminates the need for usability testing
+  </label><br>
+  <label>
+    <input type="radio" name="question1" value="London"> It forces users to follow a specific path in the documentation  
+  </label><br>
+   <label>
+    <input type="radio" name="question1" value="London"> It ensures all topic are covered
+  </label><br>
+
+  <h2>Question 2:</h2>
+  <p>What is the primary goal of information architecture in technical documentation?</p>
+  <label>
+    <input type="radio" name="question2" value="3"> To reduce maintenance cost
+  </label><br>
+  <label>
+    <input type="radio" name="question2" value="report"> To make technical documentation visually appealing
+  </label><br>
+  <label>
+    <input type="radio" name="question2" value="4"> To replace the need for clear writing
+  </label><br>
+   <label>
+    <input type="radio" name="question2" value="Fort"> To improve findability for users
+  </label><br>
+
+  <br>
+  <input type="submit" value="Check your answers" onclick="gradeQuiz()">
+</form>
+
+<p id="result"></p>
+
+<script>
+  function gradeQuiz() {
+    event.preventDefault(); // Prevent form submission
+
+    const answers = {
+      question1: document.querySelector('input[name="question1"]:checked').value,
+      question2: document.querySelector('input[name="question2"]:checked').value
+    };
+
+    // Correct answers
+    const correctAnswers = {
+      question1: "Paris",
+      question2: "Fort"
+    };
+
+    let score = 0;// Check answers and calculate score
+    if (answers.question1 === correctAnswers.question1) {
+      score++;
+    }
+    if (answers.question2 === correctAnswers.question2) {
+      score++;
+    }
+
+    // Display the score
+    document.getElementById('result').innerHTML = `You scored ${score} out of 2`;
+  }
+</script>
+
+</body>
+{{< /callout >}}
+
 ## How to create an information architecture for your technical documentation
 
 - **User research**: Understanding the problem space is the first step in creating a good information architecture.
@@ -218,10 +289,7 @@ It isn't uncommon to see an article on a particular topic, but that article does
 
 Crafting effective information architecture is not a game of chance. It's a disciplined process guided by established principles and methodologies.
 
-It starts with a deep understanding of the application, content, and organizational goals, followed by the consistent application of established principles throughout the process.
-
-{{< callout context="tip" title="Robert Cormier says - “The beautiful part of writing is that you don't have to get it right the first time, unlike, say, a brain surgeon. You can always do it better; find the exact word, the apt phrase, the leaping simile." icon="rocket" >}} {{< /callout >}}
-The principle of Information Architecture was first proposed by Dan Brown in 2010. We must consider the following when building Information Architecture.
+It starts with a deep understanding of the application, content, and organizational goals, followed by the consistent application of established principles throughout the process. The principle of Information Architecture was first proposed by Dan Brown in 2010. We must consider the following when building Information Architecture.
 
 - **The principle of objects**: Content should be viewed as a living and breathing document with unique characteristics, lifecycle, behaviors, and attributes.
 
@@ -259,4 +327,4 @@ After review, tag @TechnicalWriti6 on Twitter to the link to your article.
 
 <iframe src="https://forms.gle/tn3pe9Y7CK6edGp38" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
-{{< callout context="tip" title="The next module explores in-depth on how to use formatting to improve the readability and clarity of your technical documentation" icon="rocket" >}} {{< /callout >}}
+

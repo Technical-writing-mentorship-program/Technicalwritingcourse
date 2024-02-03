@@ -24,7 +24,7 @@ _**Figure 1**. The concept of writing for User Experience (UX)._
 
 {{< callout context="note" title="Module content" icon="info-circle" >}}
 
-In this module, you will leaarn;
+This module contains the following;
 
 - What is user experience (UX)?
 - Why is UX important for technical writing?
@@ -35,13 +35,15 @@ In this module, you will leaarn;
 
 **User experience**, otherwise known as **UX**, is used to describe the emotional sentiment of an individual when they use a product. This product can be of any form - physical or digital.
 
-UX is concerned with how the individual (the **user** in this context) can use the product according to its functionalities to fulfill their tasks, how well they understand its unique capabilities, and whether they have an overall pleasant experience.
-
 It is also the sum of techniques employed by design and developer teams to make a product easy to use by the target audience.
 
-There are common misconceptions attached to writing for user experience. This module will discuss them and attempt to clarify doubts with detailed explanations.
+UX is concerned with how the user (the **reader** in this context) can use the product according to its functionalities to fulfill their tasks, how well they understand its unique capabilities, and whether they have an overall pleasant experience.
 
-The first is this:: **\*user experience (UX)** and **user interface (UI)** are the same\*.
+
+
+There are common misconceptions attached to writing for user experience. This module will discuss them to clarify doubts with detailed explanations.
+
+The first is this:: _**user experience (UX)** and **user interface (UI)** are the same_.
 
 **User experience (UX)** is often and wrongly interchanged with the **user interface (UI)**. Although both concepts complement each other, they have different components and, therefore, can not be used in place of one another.
 
@@ -55,22 +57,23 @@ This is untrue; here’s why. Writing for user experience is aimed at creating c
 
 _**Figure 2**. Understanding user satisfaction in technical writing._
 
-It involves crafting words, phrases, and sentences to fit a user interface. It is meant to make clear, readable, concise, and user-friendly text.
+It involves crafting words, phrases, and sentences to fit a user interface. It is meant to make text clear, readable, concise, and user-friendly.
 
 These concepts, user interface (UI), user experience (UX), and writing for user experience have one goal in common: user satisfaction.
-Now that you understand the meaning of user experience let us learn why it is important for technical writing.
+
+Now that you understand the meaning of user experience, let us learn why it is important for technical writing.
 
 ## Why is UX important for technical writing?
 
-**Technical writing** is creating specialized content to convey information about a product to its prospective and continuous users.
+**Technical writing** involves creating specialized content to convey information about a product to its prospective and continuous users.
 
 Technical writing can be found in virtually every field, from medicine, telecommunication, sports, and media to software development.
 
-Technical writers in this field are adequately trained to curate content with the key terms of each field.
+Technical writers are adequately trained to curate content with the key terms of each field they specialize in.
 
 {{< callout context="note" title="Note" icon="info-circle" >}}
 
-The role of a technical writer can be likened to the function of a bridge. This person is the path that lies between the user and the product.
+The role of a technical writer can be likened to the function of a bridge. This person connectsvthe user and the product.
 
 {{< /callout >}}
 
@@ -95,11 +98,13 @@ These are some UX principles.
 
 #### Accessibility
 
-This is a means of designing products users can access despite their disabilities. Technical writing is curating written content that can be easily read and understood despite disabilities.
+This is a means of designing products users can access despite their disabilities.In technical writing, this means that written content should be made accessible for all readers, despite their disabilities.
 
 It is not advisable to assume all product users are free from neurological and physical impairments.
 
-Accessibility can be achieved by splitting large paragraphs and adding diagrams and charts. Alternative texts should be included in images for description.
+Writing for accessibility can be achieved by splitting large paragraphs and adding diagrams and charts. Alternative texts should be included in images for description. Link texts should carry meaningful information.
+
+Audio content in form of transcripts can be added at the top of content pages. Captions should be added to enhance multimedia identification.
 
 #### Consistency
 
@@ -107,7 +112,7 @@ As with popular brands, they can be associated with a particular slogan or color
 
 {{< callout context="note" title="Note" icon="info-circle" >}}
 
-For example, Docker has the image of a whale carrying a stack of containers on its way to customers, closely related to their services.
+For example, [Docker](https://docker.com) has the image of a whale carrying a stack of containers on its way to customers, closely related to their services. This can be found on their website, blog, documentation and social media pages. This way, whenever a reader sees their logo, their mind instantly thinks of Docker.
 
 {{< /callout >}}
 
@@ -116,11 +121,11 @@ Consistency is maintaining the language, feel, and look of written content for a
 It can be achieved by maintaining using a style guide. An ideal publication or company has a unique style guide that tells its technical writers how to construct their official documentation and other related documents.
 
 This covers all aspects of written content, from grammar and composition, use of pronouns, addition of backlinks, SEO optimization, and others.
-A style guide prevents a disruption in the flow of content transmission, especially with the change of writers.
+A style guide prevents a disruption in the flow of content transmission, especially with the change of writers. A popular example of one is [Google's writing style guide.](https://developers.google.com/style)
 
 #### Usability
 
-As it sounds, the usability of a product is ranked on how easy users find it to use. Technical writing refers to written content that can be understood and implemented by all product users, old and new.
+As it sounds, the usability of a product is ranked on how easy users find it to use. In technical writing, it refers to written content that can be understood and implemented by all product users, old and new.
 
 Usability can be achieved by testing already written content on brand-new users and noting their reactions and the rate of their learning curves.
 It can also be improved by conducting anonymous surveys, correcting loopholes, and permitting open-source contributions for users.
@@ -137,15 +142,22 @@ The technical writer can achieve hierarchy with written content by writing it ac
 
 For example, if you were to write a tutorial, you would write a title, add a cover image and prerequisites needed by the reader, and then the main body of the tutorial, assisted by visual aids to ensure they are on the right track.
 
+The writer would add headings and sub-headings as needed (from h1-h5), bullet points, numerical or alphabetical lists for key points, and adequate paragraph spacing to make the content easy to read.
+
 {{< /callout >}}
 
-The writer would add headings and sub-headings as needed (from h1-h5), bullet points, numerical or alphabetical lists for key points, and adequate paragraph spacing to make the content easy to read.
+
 
 #### Context
 
 This is an important principle that cuts across different sectors aside from technical writing. By creating documentation within context, users have access to specific information related to the concepts of a particular product.
 
-Let us consider this example: if a product caters to users with macOS and iOS devices and gadgets, writing troubleshooting guides and user guides that include Android and Linux-based devices may not be useful to the users.
+{{< callout context="note" title="Note" icon="info-circle" >}}
+
+
+If a product caters to users with macOS and iOS devices and gadgets, writing troubleshooting guides and user guides that include Android and Linux-based devices may not be useful to the users.
+
+{{< /callout >}}
 
 #### Findability
 
@@ -352,5 +364,4 @@ Answer the following questions.
 
 <iframe src="https://forms.gle/4KcWEovrvgmXETyBA" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
-{{< callout context="tip" title="This is the last module for this course!" icon="rocket" >}}
-{{< /callout >}}
+

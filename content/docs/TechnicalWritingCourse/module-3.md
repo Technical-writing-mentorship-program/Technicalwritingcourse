@@ -81,13 +81,13 @@ After defining the scope of your document, the next step is to set clear and ach
   **_For example, rather than setting an unclear objective like:_**
 
 ```
-Write a user manual.
+ Write a user manual.
 ```
 
 **_a SMART objective would be:_**
 
 ```
-Write a 25-page user manual for the X software, targeting first-time users. To be completed in four weeks.
+ Write a 25-page user manual for the X software, targeting first-time users. To be completed in four weeks.
 ```
 
 Clear objectives provide direction and focus for your project.
@@ -427,11 +427,11 @@ Post-project, evaluate the success of the collaboration.
 **_Ask these questions:_**
 
 ```
-What worked well?
+ What worked well?
 ```
 
 ```
-What could be improved?
+ What could be improved?
 ```
 
 This evaluation can provide valuable insights for future projects, helping to refine collaboration strategies and techniques.
@@ -576,7 +576,7 @@ This exercise will challenge your ability to apply the principles discussed in t
 
 - Integrate project milestones into the software to mark significant points.
 
-### Risk Management (10 points):
+### Risk Management:
 
 - Anticipate potential risks for the project, such as technical challenges, delays in feedback, or resource constraints.
 - Propose at least two strategies for mitigating each identified risk.

@@ -623,11 +623,6 @@
   <h3>On this page</h3>
     <nav id="toc">
   <ul>
-    <li>
-      <ul>
-        <li><a href="#information-architecture">Information Architecture</a></li>
-      </ul>
-    </li>
     <li><a href="#what-is-information-architecture">What is information architecture</a></li>
     <li><a href="#importance-of-information-architecture-in-technical-documentation">Importance of information architecture in technical documentation</a></li>
     <li><a href="#information-architecture-taxonomy">Information architecture taxonomy</a>
@@ -662,11 +657,6 @@
     <div class="page-links">
       <nav id="TableOfContents">
   <ul>
-    <li>
-      <ul>
-        <li><a href="#information-architecture">Information Architecture</a></li>
-      </ul>
-    </li>
     <li><a href="#what-is-information-architecture">What is information architecture</a></li>
     <li><a href="#importance-of-information-architecture-in-technical-documentation">Importance of information architecture in technical documentation</a></li>
     <li><a href="#information-architecture-taxonomy">Information architecture taxonomy</a>
@@ -696,7 +686,6 @@
   </div>
 </div>
 
-<h3 id="information-architecture">Information Architecture<a href="#information-architecture" class="anchor" aria-hidden="true">#</a> </h3>
 <div class="callout callout-note d-flex flex-row mt-4 mb-4 pt-4 pe-4 pb-2 ps-3">
   <svg class="info-circle svg-inline callout-icon me-2 mb-3"  xmlns="http://www.w3.org/2000/svg"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 12a9 9 0 1018 0A9 9 0 003 12"/><path d="M12 9h.01"/><path d="M11 12h1v4h1"/></svg>
   <div class="callout-content">
@@ -972,6 +961,81 @@
 <p><strong>Search result</strong>: By aligning the taxonomy with search keywords, you can ensure that users get more relevant results when they search for specific information.</p>
 </li>
 </ul>
+<div class="callout callout-note d-flex flex-row mt-4 mb-4 pt-4 pe-4 pb-2 ps-3">
+  <svg class="info-circle svg-inline callout-icon me-2 mb-3"  xmlns="http://www.w3.org/2000/svg"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 12a9 9 0 1018 0A9 9 0 003 12"/><path d="M12 9h.01"/><path d="M11 12h1v4h1"/></svg>
+  <div class="callout-content">
+    <div class="callout-title">
+        <p>Check your knowledge:</p>
+
+      </div>
+    <div class="callout-body">
+      <body>
+<form id="quizForm">
+  <h2>Question 1:</h2>
+  <p>Why is taxonomy important when building your information architecture for technical documentation?</p>
+  <label>
+    <input type="radio" name="question1" value="Paris"> It enhances user understanding by grouping related topics together
+  </label><br>
+  <label>
+    <input type="radio" name="question1" value="complex"> It eliminates the need for usability testing
+  </label><br>
+  <label>
+    <input type="radio" name="question1" value="London"> It forces users to follow a specific path in the documentation  
+  </label><br>
+   <label>
+    <input type="radio" name="question1" value="London"> It ensures all topic are covered
+  </label><br>
+  <h2>Question 2:</h2>
+  <p>What is the primary goal of information architecture in technical documentation?</p>
+  <label>
+    <input type="radio" name="question2" value="3"> To reduce maintenance cost
+  </label><br>
+  <label>
+    <input type="radio" name="question2" value="report"> To make technical documentation visually appealing
+  </label><br>
+  <label>
+    <input type="radio" name="question2" value="4"> To replace the need for clear writing
+  </label><br>
+   <label>
+    <input type="radio" name="question2" value="Fort"> To improve findability for users
+  </label><br>
+  <br>
+  <input type="submit" value="Check your answers" onclick="gradeQuiz()">
+</form>
+<p id="result"></p>
+<script>
+  function gradeQuiz() {
+    event.preventDefault(); // Prevent form submission
+
+    const answers = {
+      question1: document.querySelector('input[name="question1"]:checked').value,
+      question2: document.querySelector('input[name="question2"]:checked').value
+    };
+
+    // Correct answers
+    const correctAnswers = {
+      question1: "Paris",
+      question2: "Fort"
+    };
+
+    let score = 0;// Check answers and calculate score
+    if (answers.question1 === correctAnswers.question1) {
+      score++;
+    }
+    if (answers.question2 === correctAnswers.question2) {
+      score++;
+    }
+
+    // Display the score
+    document.getElementById('result').innerHTML = `You scored ${score} out of 2`;
+  }
+</script>
+</body>
+
+    </div>
+  </div>
+</div>
+
 <h2 id="how-to-create-an-information-architecture-for-your-technical-documentation">How to create an information architecture for your technical documentation<a href="#how-to-create-an-information-architecture-for-your-technical-documentation" class="anchor" aria-hidden="true">#</a> </h2>
 <ul>
 <li><strong>User research</strong>: Understanding the problem space is the first step in creating a good information architecture.</li>
@@ -1011,21 +1075,7 @@ Users should understand what your label means at the first read without having t
 </ul>
 <h2 id="information-architecture-principles-to-consider-when-drafting-your-technical-documentation">Information architecture principles to consider when drafting your technical documentation<a href="#information-architecture-principles-to-consider-when-drafting-your-technical-documentation" class="anchor" aria-hidden="true">#</a> </h2>
 <p>Crafting effective information architecture is not a game of chance. It&rsquo;s a disciplined process guided by established principles and methodologies.</p>
-<p>It starts with a deep understanding of the application, content, and organizational goals, followed by the consistent application of established principles throughout the process.</p>
-<p><div class="callout callout-tip d-flex flex-row mt-4 mb-4 pt-4 pe-4 pb-2 ps-3">
-  <svg class="rocket svg-inline callout-icon me-2 mb-3"  xmlns="http://www.w3.org/2000/svg"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 13a8 8 0 017 7 6 6 0 003-5 9 9 0 006-8 3 3 0 00-3-3 9 9 0 00-8 6 6 6 0 00-5 3"/><path d="M7 14a6 6 0 00-3 6 6 6 0 006-3"/><path d="M15 9m-1 0a1 1 0 102 0 1 1 0 10-2 0"/></svg>
-  <div class="callout-content">
-    <div class="callout-title">
-        <p>Robert Cormier says - “The beautiful part of writing is that you don&rsquo;t have to get it right the first time, unlike, say, a brain surgeon. You can always do it better; find the exact word, the apt phrase, the leaping simile.</p>
-
-      </div>
-    <div class="callout-body">
-      
-    </div>
-  </div>
-</div>
-
-The principle of Information Architecture was first proposed by Dan Brown in 2010. We must consider the following when building Information Architecture.</p>
+<p>It starts with a deep understanding of the application, content, and organizational goals, followed by the consistent application of established principles throughout the process. The principle of Information Architecture was first proposed by Dan Brown in 2010. We must consider the following when building Information Architecture.</p>
 <ul>
 <li><strong>The principle of objects</strong>: Content should be viewed as a living and breathing document with unique characteristics, lifecycle, behaviors, and attributes.</li>
 </ul>
@@ -1077,19 +1127,6 @@ The principle of Information Architecture was first proposed by Dan Brown in 201
 
 <h2 id="answer-the-following-questions">Answer the following questions<a href="#answer-the-following-questions" class="anchor" aria-hidden="true">#</a> </h2>
 <iframe src="https://forms.gle/tn3pe9Y7CK6edGp38" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-<div class="callout callout-tip d-flex flex-row mt-4 mb-4 pt-4 pe-4 pb-2 ps-3">
-  <svg class="rocket svg-inline callout-icon me-2 mb-3"  xmlns="http://www.w3.org/2000/svg"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 13a8 8 0 017 7 6 6 0 003-5 9 9 0 006-8 3 3 0 00-3-3 9 9 0 00-8 6 6 6 0 00-5 3"/><path d="M7 14a6 6 0 00-3 6 6 6 0 006-3"/><path d="M15 9m-1 0a1 1 0 102 0 1 1 0 10-2 0"/></svg>
-  <div class="callout-content">
-    <div class="callout-title">
-        <p>The next module explores in-depth on how to use formatting to improve the readability and clarity of your technical documentation</p>
-
-      </div>
-    <div class="callout-body">
-      
-    </div>
-  </div>
-</div>
-
 
 			<div class="page-footer-meta d-flex flex-column flex-md-row justify-content-between">
 				

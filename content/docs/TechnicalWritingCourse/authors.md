@@ -28,7 +28,7 @@ It's packed with useful stuff and totally **FREE for everyone!**
 
 ## Meet the Authors:
 
-- Susan Idii: A seasoned software engineer with a passion for clear communication, leads the Introduction to Technical Writing section, demystifying core concepts and best practices.
+- [Susan Odii](https://www.linkedin.com/feed/): Susan is a passionate frontend developer who loves at simplifying complex concepts, making them more accessible and resonant for her readers. 
 
 - [Temitope Victoria:](https://www.linkedin.com/in/temitope-victoria/) Temitope is an experienced and certified IT professional. She is skilled in Technical Writing, Search Engine Optimization, and Cloud Computing.
 

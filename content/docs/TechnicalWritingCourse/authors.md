@@ -2,14 +2,14 @@
 title: "Authors"
 description: "Guides lead a user through a specific task they want to accomplish, often with a sequence of steps."
 summary: ""
-date: 2024-01-12T16:04:48+02:00
+date: 2024-01-15T07:07:07+01:00
 lastmod: 2023-09-07T16:04:48+02:00
 draft: false
 menu:
   docs:
     parent: ""
     identifier: "example-6a1a6be4373e933280d78ea53de6158e"
-weight: 810
+weight: 1
 toc: true
 seo:
   title: "" # custom title (optional)
@@ -28,7 +28,7 @@ It's packed with useful stuff and totally **FREE for everyone!**
 
 ## Meet the Authors:
 
-- [Susan Odii](https://www.linkedin.com/feed/): Susan is a passionate frontend developer who loves at simplifying complex concepts, making them more accessible and resonant for her readers. 
+- [Susan Odii](https://www.linkedin.com/feed/): Susan is a passionate frontend developer who loves at simplifying complex concepts, making them more accessible and resonant for her readers.
 
 - [Temitope Victoria:](https://www.linkedin.com/in/temitope-victoria/) Temitope is an experienced and certified IT professional. She is skilled in Technical Writing, Search Engine Optimization, and Cloud Computing.
 
@@ -42,11 +42,9 @@ It's packed with useful stuff and totally **FREE for everyone!**
 
 - [Akorede Da silva](https://www.linkedin.com/in/akorede-dasilva/): Akorede is an experienced and multi-disciplinary designer, product manaeger, XR developer and Technical writer. He is an XRI Ambassador and also a community manager for Extend Africa (An XR community), Checkmate Africa, and Designers DAO.
 
-- [Peace Sandy](https://www.linkedin.com/in/peace-sandy-bb7a691b0/): Peace Sandy is a software developer who loves to break down technical jargon into simpler terms through writing. She is a technical writer who loves research, and is highly skilled in writing technical articles, how-to manuals, API documentation, tutorials, and release notes. 
+- [Peace Sandy](https://www.linkedin.com/in/peace-sandy-bb7a691b0/): Peace Sandy is a software developer who loves to break down technical jargon into simpler terms through writing. She is a technical writer who loves research, and is highly skilled in writing technical articles, how-to manuals, API documentation, tutorials, and release notes.
 
-- [Ruth Charles:](https://www.linkedin.com/in/ruthycharles)  A skilled Technical writer and DevOps engineer, with a passion for learning, solving problems, and helping others understand complex information through writing.
-
-
+- [Ruth Charles:](https://www.linkedin.com/in/ruthycharles) A skilled Technical writer and DevOps engineer, with a passion for learning, solving problems, and helping others understand complex information through writing.
 
 _Why free?_
 

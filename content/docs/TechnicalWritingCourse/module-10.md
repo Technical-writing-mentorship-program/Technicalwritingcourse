@@ -2,7 +2,7 @@
 title: "Information gathering"
 description: "In this Module, you will learn how to find, refine, and use information for your technical documentation."
 summary: "Learn how to find the knowledge you need for your documentation."
-date: 2024-01-08T16:04:50+20:00
+date: 2023-02-15T07:07:07+01:00
 lastmod: 2024-01-02T04:24:46+01:00
 draft: false
 menu:
@@ -227,7 +227,6 @@ Taking a deeper approach to gathering information from various sources can signi
 </body>
 {{< /callout >}}
 
-
 ## Develop a research plan
 
 You can maximize your information-gathering process by developing a research plan. Your research plan should generally have:
@@ -248,13 +247,15 @@ Clearly outline the goals and objectives of your technical document by answering
  General goal:
 
  Understanding Programming Principles
- ```
+```
+
 ```
  Targeted goal:
 
  Understanding SOLID principle in Kotlin
- ```
- This way, you have mapped out what software principle and programming language you will show examples.
+```
+
+This way, you have mapped out what software principle and programming language you will show examples.
 
 ##### 2. Prioritize:
 
@@ -403,66 +404,77 @@ You can also have your peer reviewers test the hands-on instructions or coding t
 
 Be ready to revise the document, as this may reveal issues you might not have anticipated.
 
-
 {{< callout context="note" title="Complete the following exercises before proceeding to the next module." icon="rocket" >}}
 {{< /callout >}}
 
 ## Exercise: Develop a Research Plan
 
 #### Objective
+
 **_In this exercise, you will practice your knowledge in information gathering and research on an emerging technology relevant to your field._**
 
 ### Instructions:
 
 #### 1. Choose an Emerging Technology:
-   Select a technology within your field of expertise that is still in its early stages of development but has the potential for significant impact.  Ensure it is a topic that requires gathering information from various sources.
+
+Select a technology within your field of expertise that is still in its early stages of development but has the potential for significant impact. Ensure it is a topic that requires gathering information from various sources.
 
 #### 2. Define Your Audience and Purpose:
+
 - Clearly identify your target audience for the technical document: Determine who would benefit most from understanding this technology. Consider factors like existing knowledge, potential applications, and decision-making power.
 - Define the purpose of your document - whether it is to inform, instruct, or persuade.
 
 #### 3. Research Sources:
+
 - Identify at least four different sources of information for your chosen topic. These can include SMEs, technical documentation, industry publications, online forums, etc.
 - Explain why each source is relevant and how it will contribute to the overall understanding of the topic.
 
 #### 4. Develop a Research Plan:
+
 - Clearly outline the goals and objectives of your technical document.
 - Prioritize the topics based on their importance to your audience.
 - Formulate at least five specific questions that your document should answer.
 
 #### 5. Time Management:
+
 - Break down your research process into different phases.
 - Set realistic deadlines for each phase.
 - Balance the depth and breadth of your research, allocating time based on the importance and complexity of each topic.
 
 #### 6. Gather Information:
+
 - Use systematic data collection methods following your research plan.
 - Implement any effective note-taking technique (Cornell method, mind mapping, etc.).
 - Cross-verify information obtained from different sources for consistency.
 
 #### 7. Evaluate and Synthesize Information:
+
 - Evaluate the accuracy, credibility, and relevance of the information gathered.
 - Organize the information into a logical structure, identifying key themes and concepts.
 
 #### 8. Review and Revise:
+
 - Conduct a self-review of your technical document.
 - Share your document with a peer or SME for review and feedback.
 - Incorporate feedback into the document and revise accordingly.
 
 #### 9. Final Proofreading:
+
 - Conduct a final proofread, checking for clarity, consistency, and correctness.
 - Ensure you follow a specific style guide.
 
 #### 10. Reflection:
+
 - Write a brief reflection on the challenges faced during the information gathering process and how you addressed them.
 - Highlight any adjustments you made to the research plan based on evolving information.
 
 ### Submission:
 
 {{< callout context="tip" title="Submission" icon="rocket" >}}
+
 - Host your developed research plan and a brief reflection on the challenges and adjustments made during the process on our blog or any other blog you wish to.
 - Make a post and tag us on Twitter at **_@TechnicalWriti6_**
-{{< /callout >}}
+  {{< /callout >}}
 
 ## Quiz:
 

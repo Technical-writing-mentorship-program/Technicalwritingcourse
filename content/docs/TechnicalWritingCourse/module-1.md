@@ -2,14 +2,14 @@
 title: "Intro to technical writing"
 description: "Unlock the essentials of technical writing in the dynamic tech industry. Acquire foundational knowledge, explore various types of technical documentation,audience for technical documentation and, master the art of becoming a proficient technical writer with our comprehensive course module"
 summary: " This detailed guide covers the fundamentals of technical articles, effective technical writing strategies, various types of technical documentation, identifying your target audience, and the essential steps in the technical writing process."
-date: 2024-01-10T16:04:48+02:00
-lastmod: 2023-09-07T16:04:48+02:00
+date: 2023-11-15T07:07:07+01:00
+lastmod: 2024-09-07T16:04:48+02:00
 draft: false
 menu:
   docs:
     parent: ""
-    identifier: "example-6a1a6be4373e933280d78ea53de6158e"
-weight: 810
+    identifier: "introduction-6a1a6be4373e933280d78ea53de6158e"
+weight: 2
 toc: true
 seo:
   title: " Introduction to technical writing" # custom title (optional)
@@ -26,10 +26,7 @@ Whether you're new to technical writing or just trying to improve your writing s
 
 So, buckle up as we delve into the essentials of technical writing!
 
-
-
 {{< callout context="tip" title=" Ernest Hemingway says - “It’s none of their business that you have to learn to write. Let them think you were born that way." icon="rocket" >}} {{< /callout >}}
-
 
 {{< callout context="note" title="In this Module, you will learn:" icon="info-circle" >}}
 
@@ -47,7 +44,7 @@ Technical writing is a specialized field that delivers clear and understandable 
 
 Technical writing mainly aims to break down hard concepts or information into simple concepts easily understood by the targeted audience.
 
-In simple terms, technical writing provides factual and concise information to facilitate understanding and task completion. 
+In simple terms, technical writing provides factual and concise information to facilitate understanding and task completion.
 
 ## Different Types of Technical Documentation
 
@@ -125,7 +122,6 @@ Explore various forms of technical documentation, understand their purposes, and
 
 {{< /callout >}}
 
-
 ## Audience for technical documentation
 
 To become an effective technical writer, you must know your audience. Your audience is the people for whom you are writing.
@@ -145,16 +141,15 @@ Here are some questions you need to ask yourself:
 If you answer the questions above, this will help your readers understand this topic very well.
 
 Now, let’s use the questions above to know your target audience.
+
 <!-- #FFCCCB -->
+
 - <span style="color: #FF9B9B;" class="highlight"> Who am I writing for? </span> Technical writers,
 
 - <span style="color: #FF9B9B;" class="highlight"> What is their level of expertise?</span> Beginners
 
 - <span style="color: #FF9B9B;" 
-class="highlight"> What do they expect from my article? </span> They expect this article to give a comprehensive overview of technical writing, the audience for technical writing, types of technical documentation, tools and software for technical writing, and so on.
-
-
-
+  class="highlight"> What do they expect from my article? </span> They expect this article to give a comprehensive overview of technical writing, the audience for technical writing, types of technical documentation, tools and software for technical writing, and so on.
 
 ## Purpose for Technical Documentation
 
@@ -179,7 +174,6 @@ Technical documentation can be used to train new users, employees, or technician
 - ### Troubleshooting:
 
 Technical documentation provides troubleshooting guides that can help users when they encounter a problem while using a product.
-
 
 {{< callout context="note" title="Check your knowledge:" icon="info-circle" >}}
 
@@ -239,7 +233,6 @@ Technical documentation provides troubleshooting guides that can help users when
 
 There are five technical writing steps.
 
-
 <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--_rMBQNHl--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_800/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/l2y9jgpfaxyg9wkox56o.png" alt="Technical writing steps" width="100%">
 
 _**Figure 1**: Technical writing steps_
@@ -252,8 +245,6 @@ Before you begin writing, planning and preparing for your topic is essential. Pl
 This mental exercise will help you address important questions about your audience.
 
 At the planning stage, you need to determine your document's purpose and scope, writing style, and length. A well-thought-out plan saves time and ensures a successful outcome.
-
-
 
 - ### Structure:
 
@@ -279,7 +270,6 @@ Taking this approach will enable you to give your audience detailed and up-to-da
   In this stage, you will put all the information you have gathered into a logical and cohesive document. You must also write simply, clearly, and concisely, always keeping your audience in mind.
 
 Adapt your language to resonate with the specific needs of your readers. For instance, if you are writing for beginners, focus on clarity and provide explanations to ensure solid understanding.
-
 
 For experts, delve into technical details assuming a deeper knowledge base.
 
@@ -308,24 +298,19 @@ Platforms like Medium, Hashnode, Devrel, and other social media platforms can se
 
 Consider the nature of your content and your target audience when deciding the suitable platform for publication.
 
-
 {{< callout context="note" title="Exercise" icon="info-circle" >}}
 
 **Complete the following exercises before procedding to the next module.**
 
 Navigate to the [Technical Writers Mentorship Program YouTube page](https://www.youtube.com/@TechnicalWriti6/) and complete the following exercises:
 
--   List and explain additional forms of technical documentation not addressed in this module
+- List and explain additional forms of technical documentation not addressed in this module
 - Choose a subject that captivates your curiosity for our writing adventure
 
 - Identify your audience and articulate what they're looking to gain from your article.
 
 - Clearly outline the structure of your document
-On which platform do you plan to publish your article?
-
-
-
-
+  On which platform do you plan to publish your article?
 
 Also, adhere to all the tips and measures from this documentation. After review, tag @TechnicalWriti6 on Twitter to the link to your article.
 

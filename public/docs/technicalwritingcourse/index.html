@@ -12,7 +12,7 @@
 </script>
 
 
-<link rel="stylesheet" href="/main.9ea9f8dd908284543a04a882a29abfb241e1148bc42a8c623a75239d2085c366d4c0f66f3d8c8ebbf900f6a72376ea5c16193b5451eb35540481fbc118909573.css" integrity="sha512-nqn43ZCChFQ6BKiCopq/skHhFIvEKoxiOnUjnSCFw2bUwPZvPYyOu/kA9qcjdupcFhk7VFHrNVQEgfvBGJCVcw==" crossorigin="anonymous">
+<link rel="stylesheet" href="/main.117b284a7fe70088b08277f459b5ff40f5fc77135b44272c1085949a6c29d7e56e93c73d2e6ee62a218b5938b770c437009fe355ffefa2d770da23e23913095d.css" integrity="sha512-EXsoSn/nAIiwgnf0WbX/QPX8dxNbRCcsEIWUmmwp1&#43;Vuk8c9Lm7mKiGLWTi3cMQ3AJ/jVf/votdw2iPiORMJXQ==" crossorigin="anonymous">
 <noscript><style>img.lazyload { display: none; }</style></noscript>
   <link rel="canonical" href="/docs/technicalwritingcourse/">
 
@@ -208,11 +208,6 @@
             
               
                 
-                <li><a class="docs-link rounded" href="/docs/technicalwritingcourse/information-architecture/">Information  Architecture</a></li>
-              
-            
-              
-                
                 <li><a class="docs-link rounded" href="/docs/technicalwritingcourse/authors/">Authors</a></li>
               
             
@@ -228,27 +223,7 @@
             
               
                 
-                <li><a class="docs-link rounded" href="/docs/technicalwritingcourse/writing-for-user-experience-ux/">Writing for User Experience (UX)</a></li>
-              
-            
-              
-                
-                <li><a class="docs-link rounded" href="/docs/technicalwritingcourse/use-of-diagrams/">Use of diagrams</a></li>
-              
-            
-              
-                
-                <li><a class="docs-link rounded" href="/docs/technicalwritingcourse/editing/">Editing</a></li>
-              
-            
-              
-                
-                <li><a class="docs-link rounded" href="/docs/technicalwritingcourse/writing-style-guide/">Writing style guide</a></li>
-              
-            
-              
-                
-                <li><a class="docs-link rounded" href="/docs/technicalwritingcourse/using-technical-writing-tools/">Using Technical Writing Tools</a></li>
+                <li><a class="docs-link rounded" href="/docs/technicalwritingcourse/information-architecture/">Information  Architecture</a></li>
               
             
               
@@ -258,7 +233,27 @@
             
               
                 
+                <li><a class="docs-link rounded" href="/docs/technicalwritingcourse/using-technical-writing-tools/">Using Technical Writing Tools</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/docs/technicalwritingcourse/writing-style-guide/">Writing style guide</a></li>
+              
+            
+              
+                
                 <li><a class="docs-link rounded" href="/docs/technicalwritingcourse/formatting/">Formatting</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/docs/technicalwritingcourse/editing/">Editing</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="/docs/technicalwritingcourse/use-of-diagrams/">Use of diagrams</a></li>
               
             
               
@@ -268,7 +263,7 @@
             
               
                 
-                <li><a class="docs-link rounded active" href="/docs/technicalwritingcourse/"></a></li>
+                <li><a class="docs-link rounded" href="/docs/technicalwritingcourse/writing-for-user-experience-ux/">Writing for User Experience (UX)</a></li>
               
             
           </ul>
@@ -475,17 +470,14 @@
   <div class="col-md-12 col-lg-10 col-xl-8">
     <article>
       <h1 class="text-center">Technical writing course</h1>
-      
+      <div class="text-center"><p>{{ range .Pages.ByDate.Reverse }}</p>
+<ul>
+<li>[{{ .Title }}]({{ .Permalink }})
+{{ end }}</li>
+</ul>
+</div>
 			<div class="card-list">
 				
-				
-					
-						<div class="card my-3">
-							<div class="card-body">
-								<a class="stretched-link" href="/docs/technicalwritingcourse/"> &rarr;</a>
-							</div>
-						</div>
-					
 				
 					
 				

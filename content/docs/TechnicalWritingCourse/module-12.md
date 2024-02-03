@@ -2,7 +2,7 @@
 title: "Writing for User Experience (UX)"
 description: "Writing for User Experience (UX) is an essential skill needed when creating written content.It ensures that users' needs are adequately catered for as they make use of products and their associated content. This section discusses user experience (UX), UX principles and how to implement UX in technical writing."
 summary: "Understanding user experience (UX) prinicples and how to implement them in technical writing."
-date: 2024-01-21T13:13:49+20:00
+date: 2023-01-15T07:07:07+01:00
 lastmod: 2024-01-20T19:46:49+02:00
 draft: false
 menu:
@@ -38,8 +38,6 @@ This module contains the following;
 It is also the sum of techniques employed by design and developer teams to make a product easy to use by the target audience.
 
 UX is concerned with how the user (the **reader** in this context) can use the product according to its functionalities to fulfill their tasks, how well they understand its unique capabilities, and whether they have an overall pleasant experience.
-
-
 
 There are common misconceptions attached to writing for user experience. This module will discuss them to clarify doubts with detailed explanations.
 
@@ -146,14 +144,11 @@ The writer would add headings and sub-headings as needed (from h1-h5), bullet po
 
 {{< /callout >}}
 
-
-
 #### Context
 
 This is an important principle that cuts across different sectors aside from technical writing. By creating documentation within context, users have access to specific information related to the concepts of a particular product.
 
 {{< callout context="note" title="Note" icon="info-circle" >}}
-
 
 If a product caters to users with macOS and iOS devices and gadgets, writing troubleshooting guides and user guides that include Android and Linux-based devices may not be useful to the users.
 
@@ -363,5 +358,3 @@ Publish the article on [Hashnode](https://hashnode.com/), share the link on Twit
 Answer the following questions.
 
 <iframe src="https://forms.gle/4KcWEovrvgmXETyBA" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-
-

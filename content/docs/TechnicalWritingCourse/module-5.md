@@ -2,14 +2,14 @@
 title: "Writing style guide"
 description: "Writing style guides are essential for technical writers. They ensure consistency in writing style and formatting, making documentation clear and easy to understand. This section explains the importance of style guides and how to create one."
 summary: "Understanding the importance of style guides and how to create one."
-date: 2024-01-14T13:13:49+20:00
-lastmod: 2024-1-11T19:46:49+02:00
+date: 2023-07-15T07:07:07+01:00
+lastmod: 2024-01-17T19:46:49+02:00
 draft: false
 menu:
   docs:
     parent: ""
-    identifier: "style-6a1a6be4373e933280d78ea53de6158ue"
-    weight: 2372
+    identifier: "writingstyle-6a1a6be4373e933280d78ea53de6158ue"
+    weight: 810
 toc: true
 seo:
   title: "Writing style guide"

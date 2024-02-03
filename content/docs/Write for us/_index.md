@@ -1,9 +1,9 @@
 ---
-title: "Cohorts"
+title: "Write For Us"
 description: ""
 summary: ""
 lastmod: 2023-01-07T16:06:50+02:00
-draft: false
+draft: true
 menu:
   docs:
     parent: ""

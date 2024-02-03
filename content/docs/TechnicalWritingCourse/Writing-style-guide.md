@@ -2,7 +2,7 @@
 title: "Writing style guide"
 description: "Writing style guides are essential for technical writers. They ensure consistency in writing style and formatting, making documentation clear and easy to understand. This section explains the importance of style guides and how to create one."
 summary: "Understanding the importance of style guides and how to create one."
-date: 2023-12-17T13:13:49+20:00
+date: 2024-01-17T13:13:49+20:00
 lastmod: 2024-1-11T19:46:49+02:00
 draft: false
 menu:
@@ -18,12 +18,14 @@ seo:
   noindex: false # false (default) or true
 ---
 
-## Module content
+{{< callout context="note" title="In this Module, you will learn:" icon="info-circle" >}}
 
 - What is a writing style guide?
 - How to create a writing style guide
 - Why is it important for technical writers to have a writing style guide?
 - Popular style guides and how to pick one for your project
+
+{{< /callout >}}
 
 ## What is a writing style guide?
 

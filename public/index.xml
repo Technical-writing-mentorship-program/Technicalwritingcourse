@@ -18,6 +18,34 @@
     </item>
     
     <item>
+      <title>Authors</title>
+      <link>/docs/technicalwritingcourse/authors/</link>
+      <pubDate>Fri, 12 Jan 2024 16:04:48 +0200</pubDate>
+      
+      <guid>/docs/technicalwritingcourse/authors/</guid>
+      <description>These fantastic folks volunteered their time and skills to create this Open Source Technical Writing Course for Beginners.
+It&amp;rsquo;s packed with useful stuff and totally FREE for everyone!</description>
+    </item>
+    
+    <item>
+      <title>Intro to technical writing</title>
+      <link>/docs/technicalwritingcourse/intro-to-technical-writing/</link>
+      <pubDate>Thu, 11 Jan 2024 16:04:48 +0200</pubDate>
+      
+      <guid>/docs/technicalwritingcourse/intro-to-technical-writing/</guid>
+      <description>Table of Contents What is technical writing? Different types of technical documentation The audience for technical documentation The purpose of technical documentation The technical writing process What is technical writing?</description>
+    </item>
+    
+    <item>
+      <title>Information  Architecture</title>
+      <link>/docs/technicalwritingcourse/information-architecture/</link>
+      <pubDate>Sun, 07 Jan 2024 16:04:48 +0200</pubDate>
+      
+      <guid>/docs/technicalwritingcourse/information-architecture/</guid>
+      <description>Technical writers are the architect of knowledge, but curating effective documentation requires more than just a clear prose. A well-crafted information architecture forms the foundation, ensuring users can navigate complex information with ease and find the answers they need quickly.</description>
+    </item>
+    
+    <item>
       <title>About Us</title>
       <link>/docs/about-us/about-us/</link>
       <pubDate>Sat, 07 Oct 2023 16:04:48 +0200</pubDate>
@@ -36,34 +64,6 @@
     </item>
     
     <item>
-      <title>Authors</title>
-      <link>/docs/technicalwritingcourse/authors/</link>
-      <pubDate>Mon, 07 Aug 2023 16:04:48 +0200</pubDate>
-      
-      <guid>/docs/technicalwritingcourse/authors/</guid>
-      <description>These fantastic folks volunteered their time and skills to create this Open Source Technical Writing Course for Beginners.
-It&amp;rsquo;s packed with useful stuff and totally FREE for everyone!</description>
-    </item>
-    
-    <item>
-      <title>Cohort 1</title>
-      <link>/docs/cohorts/cohort-1/</link>
-      <pubDate>Mon, 07 Aug 2023 16:04:48 +0200</pubDate>
-      
-      <guid>/docs/cohorts/cohort-1/</guid>
-      <description>Guides lead a user through a specific task they want to accomplish, often with a sequence of steps. Writing a good guide requires thinking about what your users are trying to do.</description>
-    </item>
-    
-    <item>
-      <title>Cohort 2</title>
-      <link>/docs/cohorts/cohort-2/</link>
-      <pubDate>Mon, 07 Aug 2023 16:04:48 +0200</pubDate>
-      
-      <guid>/docs/cohorts/cohort-2/</guid>
-      <description>Guides lead a user through a specific task they want to accomplish, often with a sequence of steps. Writing a good guide requires thinking about what your users are trying to do.</description>
-    </item>
-    
-    <item>
       <title>Glasp User Guide Assignment</title>
       <link>/docs/portfolio/glasp-user-guide-assignment/</link>
       <pubDate>Mon, 07 Aug 2023 16:04:48 +0200</pubDate>
@@ -74,30 +74,30 @@ Generate the table of content. Choose a suitable title. Write in Markdown. Creat
     </item>
     
     <item>
-      <title>Intro to technical writing</title>
-      <link>/docs/technicalwritingcourse/intro-to-technical-writing/</link>
-      <pubDate>Mon, 07 Aug 2023 16:04:48 +0200</pubDate>
-      
-      <guid>/docs/technicalwritingcourse/intro-to-technical-writing/</guid>
-      <description>Table of Contents What is technical writing? Different types of technical documentation The audience for technical documentation The purpose of technical documentation The technical writing process What is technical writing?</description>
-    </item>
-    
-    <item>
       <title>Technical Writing Talent</title>
       <link>/docs/talent/technical-writing-talent/</link>
       <pubDate>Mon, 07 Aug 2023 16:04:48 +0200</pubDate>
       
       <guid>/docs/talent/technical-writing-talent/</guid>
-      <description>Guides lead a user through a specific task they want to accomplish, often with a sequence of steps. Writing a good guide requires thinking about what your users are trying to do.</description>
+      <description>At our disposal, we have a talented pool of trusted writers who are poised to create world-class content tailored to your needs.</description>
     </item>
     
     <item>
-      <title>Using Technical Writing Tools</title>
-      <link>/docs/technicalwritingcourse/using-technical-writing-tools/</link>
-      <pubDate>Fri, 12 Jan 2024 16:04:50 +2000</pubDate>
+      <title>Managing Technical Writing Projects</title>
+      <link>/docs/technicalwritingcourse/managing-technical-writing-projects/</link>
+      <pubDate>Thu, 01 Feb 2024 16:37:00 +0200</pubDate>
       
-      <guid>/docs/technicalwritingcourse/using-technical-writing-tools/</guid>
-      <description>This article explains the various types of technical writing software available in the market and how they can aid the writing process.</description>
+      <guid>/docs/technicalwritingcourse/managing-technical-writing-projects/</guid>
+      <description>Build a solid foundation in project management practices for effective technical documentation</description>
+    </item>
+    
+    <item>
+      <title>Writing for User Experience (UX)</title>
+      <link>/docs/technicalwritingcourse/writing-for-user-experience-ux/</link>
+      <pubDate>Wed, 17 Jan 2024 13:13:49 +2000</pubDate>
+      
+      <guid>/docs/technicalwritingcourse/writing-for-user-experience-ux/</guid>
+      <description>Understanding user experience (UX) prinicples and how to implement them in technical writing.</description>
     </item>
     
   </channel>

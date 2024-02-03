@@ -11,7 +11,7 @@
     <item>
       <title>Authors</title>
       <link>/docs/technicalwritingcourse/authors/</link>
-      <pubDate>Mon, 07 Aug 2023 16:04:48 +0200</pubDate>
+      <pubDate>Fri, 12 Jan 2024 16:04:48 +0200</pubDate>
       
       <guid>/docs/technicalwritingcourse/authors/</guid>
       <description>These fantastic folks volunteered their time and skills to create this Open Source Technical Writing Course for Beginners.
@@ -21,10 +21,46 @@ It&amp;rsquo;s packed with useful stuff and totally FREE for everyone!</descript
     <item>
       <title>Intro to technical writing</title>
       <link>/docs/technicalwritingcourse/intro-to-technical-writing/</link>
-      <pubDate>Mon, 07 Aug 2023 16:04:48 +0200</pubDate>
+      <pubDate>Thu, 11 Jan 2024 16:04:48 +0200</pubDate>
       
       <guid>/docs/technicalwritingcourse/intro-to-technical-writing/</guid>
       <description>Table of Contents What is technical writing? Different types of technical documentation The audience for technical documentation The purpose of technical documentation The technical writing process What is technical writing?</description>
+    </item>
+    
+    <item>
+      <title>Information  Architecture</title>
+      <link>/docs/technicalwritingcourse/information-architecture/</link>
+      <pubDate>Sun, 07 Jan 2024 16:04:48 +0200</pubDate>
+      
+      <guid>/docs/technicalwritingcourse/information-architecture/</guid>
+      <description>Technical writers are the architect of knowledge, but curating effective documentation requires more than just a clear prose. A well-crafted information architecture forms the foundation, ensuring users can navigate complex information with ease and find the answers they need quickly.</description>
+    </item>
+    
+    <item>
+      <title>Managing Technical Writing Projects</title>
+      <link>/docs/technicalwritingcourse/managing-technical-writing-projects/</link>
+      <pubDate>Thu, 01 Feb 2024 16:37:00 +0200</pubDate>
+      
+      <guid>/docs/technicalwritingcourse/managing-technical-writing-projects/</guid>
+      <description>Build a solid foundation in project management practices for effective technical documentation</description>
+    </item>
+    
+    <item>
+      <title>Writing for User Experience (UX)</title>
+      <link>/docs/technicalwritingcourse/writing-for-user-experience-ux/</link>
+      <pubDate>Wed, 17 Jan 2024 13:13:49 +2000</pubDate>
+      
+      <guid>/docs/technicalwritingcourse/writing-for-user-experience-ux/</guid>
+      <description>Understanding user experience (UX) prinicples and how to implement them in technical writing.</description>
+    </item>
+    
+    <item>
+      <title>Writing style guide</title>
+      <link>/docs/technicalwritingcourse/writing-style-guide/</link>
+      <pubDate>Wed, 17 Jan 2024 13:13:49 +2000</pubDate>
+      
+      <guid>/docs/technicalwritingcourse/writing-style-guide/</guid>
+      <description>Understanding the importance of style guides and how to create one.</description>
     </item>
     
     <item>
@@ -47,57 +83,21 @@ Headings Example of good and bad headings Lists Tables Figures and Images How to
     </item>
     
     <item>
+      <title>Writing for Different Audiences</title>
+      <link>/docs/technicalwritingcourse/writing-for-different-audiences/</link>
+      <pubDate>Wed, 10 Jan 2024 16:04:48 +0200</pubDate>
+      
+      <guid>/docs/technicalwritingcourse/writing-for-different-audiences/</guid>
+      <description>Explore tailored strategies to engage diverse readers, whether you&amp;rsquo;re crafting content for end users, developers, managers, or regulatory authorities</description>
+    </item>
+    
+    <item>
       <title>Editing</title>
       <link>/docs/technicalwritingcourse/editing/</link>
       <pubDate>Wed, 10 Jan 2024 16:04:50 +2000</pubDate>
       
       <guid>/docs/technicalwritingcourse/editing/</guid>
       <description>Editing is a vital aspect of the technical writing process. It gives technical document accuracy, consistency, clarity, and better user comprehension.</description>
-    </item>
-    
-    <item>
-      <title>Use of diagrams</title>
-      <link>/docs/technicalwritingcourse/use-of-diagrams/</link>
-      <pubDate>Tue, 09 Jan 2024 16:04:50 +2000</pubDate>
-      
-      <guid>/docs/technicalwritingcourse/use-of-diagrams/</guid>
-      <description>This article explains the use of diagrams in technical documentation. It also provides tips for creating effective diagrams and do&amp;rsquo;s and don&amp;rsquo;ts for using images in technical documentation.</description>
-    </item>
-    
-    <item>
-      <title>Information gathering</title>
-      <link>/docs/technicalwritingcourse/information-gathering/</link>
-      <pubDate>Mon, 08 Jan 2024 16:04:50 +2000</pubDate>
-      
-      <guid>/docs/technicalwritingcourse/information-gathering/</guid>
-      <description>Learn how to find the knowledge you need for your documentation.</description>
-    </item>
-    
-    <item>
-      <title>Writing for User Experience (UX)</title>
-      <link>/docs/technicalwritingcourse/writing-for-user-experience-ux/</link>
-      <pubDate>Sun, 17 Dec 2023 13:13:49 +2000</pubDate>
-      
-      <guid>/docs/technicalwritingcourse/writing-for-user-experience-ux/</guid>
-      <description>Understanding user experience (UX) prinicples and how to implement them in technical writing.</description>
-    </item>
-    
-    <item>
-      <title>Writing style guide</title>
-      <link>/docs/technicalwritingcourse/writing-style-guide/</link>
-      <pubDate>Sun, 17 Dec 2023 13:13:49 +2000</pubDate>
-      
-      <guid>/docs/technicalwritingcourse/writing-style-guide/</guid>
-      <description>Understanding the importance of style guides and how to create one.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/docs/technicalwritingcourse/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/docs/technicalwritingcourse/</guid>
-      <description></description>
     </item>
     
   </channel>

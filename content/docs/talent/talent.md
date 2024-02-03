@@ -1,6 +1,6 @@
 ---
 title: "Technical Writing Talent"
-description: "Guides lead a user through a specific task they want to accomplish, often with a sequence of steps."
+description: ""
 summary: ""
 date: 2023-08-07T16:04:48+02:00
 lastmod: 2023-09-07T16:04:48+02:00
@@ -18,8 +18,43 @@ seo:
   noindex: false # false (default) or true
 ---
 
-Guides lead a user through a specific task they want to accomplish, often with a sequence of steps. Writing a good guide requires thinking about what your users are trying to do.
+At our disposal, we have a talented pool of trusted writers who are poised to create world-class content tailored to your needs. Whether you require assistance with technical writing, documentation, API guides, or any other aspect of technical articles, we’ve got you covered.
 
-## Further reading
+Feel free to reach out to us, and let’s embark on a journey of exceptional content creation together!
 
-- Read [about how-to guides](https://diataxis.fr/how-to-guides/) in the Diátaxis framework
+{{< callout context="note" title="Contact us:" icon="info-circle" >}}
+
+Email us at writingt82@gmail.com
+
+{{< /callout >}}
+
+## Sample Projects
+
+{{< tabs "create-new-site" >}}
+{{< tab "API Docs" >}}
+
+- [C-one wallet](https://c-one.readme.io/reference/getting-started-with-your-api)
+
+- [Dummy API](https://app.swaggerhub.com/apis-docs/wise4rmgod/DummyAPI/0.1)
+- [Nylas Docs](https://developer.nylas.com/docs/api/)
+
+{{< /tab >}}
+
+{{< tab "Documentation guides" >}}
+
+- [Interswitchgroup](https://docs.interswitchgroup.com/v1.1/docs/home)
+
+- [Accumulatenetwork](https://docs.accumulatenetwork.io)
+
+- [Nylas](https://developer.nylas.com)
+
+{{< /tab >}}
+
+{{< tab "Technical blogs" >}}
+
+- [How to Automate A Blog Post App Deployment With GitHub Actions, Node.js, CouchDB, and Aptible](https://hackernoon.com/how-to-automate-a-blog-post-app-deployment-with-github-actions-nodejs-couchdb-and-aptible)
+
+- [Postman Guide for Beginners: A Comprehensive Introduction to API Testing and Collaboration](https://wise4rmgod.hashnode.dev/postman-guide-for-beginners-a-comprehensive-introduction-to-api-testing-and-collaboration)
+
+{{< /tab >}}
+{{< /tabs >}}

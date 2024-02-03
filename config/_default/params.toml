@@ -45,7 +45,7 @@ images = ["cover.png"]
   scrollSpy = true # true (default) or false
 
   # Multilingual
-  multilingualMode = true # false (default) or true
+  multilingualMode = false # false (default) or true
   showMissingLanguages = true # whether or not to show untranslated languages in the language menu; true (default) or false
 
   # Versioning
@@ -68,7 +68,7 @@ images = ["cover.png"]
   katex = false
 
   # Repository
-  editPage = true # false (default) or true
+  editPage = false # false (default) or true
   lastMod = true # false (default) or true
   repoHost = "GitHub" # GitHub (default), Gitea, GitLab, Bitbucket, or BitbucketServer
   docsRepo = "https://github.com/Technical-writing-mentorship-program/Technicalwritingcourse"

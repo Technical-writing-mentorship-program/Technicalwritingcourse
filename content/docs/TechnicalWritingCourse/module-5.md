@@ -193,6 +193,62 @@ Striking the right balance is crucial for a style guide—it shouldn't be excess
 
 {{< /callout >}}
 
+{{< callout context="note" title="Check your knowledge:" icon="info-circle" >}}
+
+<body>
+<form id="quizForm">
+  <h2>Question 1:</h2>
+    <p>All of the following are components of a style guide EXCEPT:</p>
+    <label>
+      <input type="radio" name="question1" value="V&T" /> Voice and tone </label><br/>
+    <label>
+      <input type="radio" name="question1" value="G&P" /> Grammar and punctuation </label><br/>
+    <label>
+      <input type="radio" name="question1" value="Typography" /> Typography </label><br/>
+    <label>
+      <input type="radio" name="question1" value="formatting" /> Formatting guidelines </label><br/>
+  <h2>Question 2:</h2>
+    <p>What does the section on "Voice and Tone" in a style guide address?</p>
+    <label>
+      <input type="radio" name="question2" value="Rules for G&P" /> Rules for grammar and punctuation </label><br/>
+    <label>
+      <input type="radio" name="question2" value="image format" /> Choosing the right image format
+      </label><br/>
+    <label>
+      <input type="radio" name="question2" value="brand" /> Establishing the company's brand </label><br/>
+    <label>
+      <input type="radio" name="question2" value="P&M" /> Defining the personality and mood of writing </label><br/>
+  <br>
+  <input type="submit" value="Check your answers" onclick="gradeQuiz()">
+</form>
+<p id="result"></p>
+<script>
+  function gradeQuiz() {
+    event.preventDefault(); // Prevent form submission
+    const answers = {
+      question1: document.querySelector('input[name="question1"]:checked').value,
+      question2: document.querySelector('input[name="question2"]:checked').value
+    };
+    // Correct answers
+    const correctAnswers = {
+      question1: "Typography",
+      question2: "brand"
+    };
+    let score = 0;
+    // Check answers and calculate score
+    if (answers.question1 === correctAnswers.question1) {
+      score++;
+    }
+    if (answers.question2 === correctAnswers.question2) {
+      score++;
+    }
+    // Display the score
+    document.getElementById('result').innerHTML = `You scored ${score} out of 2`;
+  }
+</script>
+</body>
+{{< /callout >}}
+
 ### Utilize a Template
 
 If you prefer not to start from scratch or are on a tight deadline to create a company style guide, consider using a template. Templates serve as boilerplate guides where you can input your company's information, including vision, mission, and all the necessary sections discussed above.
@@ -285,8 +341,28 @@ Government agencies and academic institutions rely on style guides to uphold con
 - [Gov.uk Style Guide](https://www.gov.uk/guidance/style-guide)
 - [Plainlanguage.gov](https://www.plainlanguage.gov/guidelines/)
 
-{{< callout context="note" title="Note" icon="info-circle" >}}
+{{< callout context="tip" title="Note" icon="rocket" >}}
 
 When using a style guide, make sure to follow it persistently throughout your documentation. Don't mix and match different style guides because the representation of information can confuse your readers.
 
 {{< /callout >}}
+
+{{< callout context="note" title="Exercise" icon="info-circle" >}}
+
+**Complete the following exercises before procedding to the next module.**
+
+Imagine you've been tasked with creating a comprehensive writing style guide for a tech company. Use the information provided in this section to complete the following tasks:
+
+1. **Style elements identification**: Identify and list at least **five key style elements** that should be addressed in the writing style guide. These may include grammar rules, punctuation conventions, formatting guidelines, tone considerations, and use of industry-specific terminology.
+
+2. **Explanation and examples**: For each style element identified, provide a clear and concise explanation of why it's important and how it should be applied. Include at least two examples demonstrating both correct and incorrect usage.
+
+3. **Visual Design**: Design a visually appealing layout for the style guide document. Include appropriate headings, subheadings, bullet points, and other formatting elements to improve readability and usability.
+
+Adhere to all the tips and measures from this documentation. After review, tag @TechnicalWriti6 on Twitter to the link to your style guide.
+
+{{< /callout >}}
+
+Answer the following questions.
+
+<iframe src="https://forms.gle/E9nSuBVnJEHVapPG9" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>

@@ -245,14 +245,14 @@ Clearly outline the goals and objectives of your technical document by answering
 **_An example of a general and specific goal:_**
 
 ```
-General goal:
+ General goal:
 
-Understanding Programming Principles
+ Understanding Programming Principles
  ```
 ```
-Targeted goal:
+ Targeted goal:
 
-Understanding SOLID principle in Kotlin
+ Understanding SOLID principle in Kotlin
  ```
  This way, you have mapped out what software principle and programming language you will show examples.
 

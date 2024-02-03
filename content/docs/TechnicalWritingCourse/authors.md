@@ -42,6 +42,11 @@ It's packed with useful stuff and totally **FREE for everyone!**
 
 - [Akorede Da silva](https://www.linkedin.com/in/akorede-dasilva/) Akorede is a multi-disciplinary designer, product manager, XR developer and technical writer.
 
+
+- [Ruth Charles:](https://www.linkedin.com/in/ruthycharles)  A skilled Technical writer and DevOps engineer, with a passion for learning, solving problems, and helping others understand complex information through writing.
+
+
+
 _Why free?_
 
 We believe everyone deserves to learn tech writing, no matter what! So grab this open-source course and unlock your future in tech writing.

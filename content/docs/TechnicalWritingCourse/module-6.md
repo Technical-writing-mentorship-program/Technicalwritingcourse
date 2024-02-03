@@ -20,8 +20,6 @@ seo:
 
 {{< callout context="tip" title="Peter Morville says - “Findability precedes usability; you can’t use what you can’t find. which makes information architecture vital when curating technical documentation that we want readers to find useful." icon="rocket" >}} {{< /callout >}}
 
-### Information Architecture
-
 {{< callout context="note" title="In this Module, you will learn:" icon="info-circle" >}}
 
 - All about information architecture

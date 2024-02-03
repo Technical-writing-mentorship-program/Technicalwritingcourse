@@ -18,8 +18,6 @@ canonical: "" # custom canonical URL (optional)
 noindex: false # false (default) or true
 ---
 
-# Module 3: Managing Technical Writing Projects
-
 ## Introduction
 
 As a technical writer, it is important to know how to manage your activities, resources, and stakeholders or clients to ensure that the final document:

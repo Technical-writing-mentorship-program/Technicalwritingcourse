@@ -18,6 +18,15 @@
     </item>
     
     <item>
+      <title>Information  Architecture</title>
+      <link>/docs/technicalwritingcourse/information-architecture/</link>
+      <pubDate>Mon, 15 Jan 2024 16:04:48 +0200</pubDate>
+      
+      <guid>/docs/technicalwritingcourse/information-architecture/</guid>
+      <description>Technical writers are the architect of knowledge, but curating effective documentation requires more than just a clear prose. A well-crafted information architecture forms the foundation, ensuring users can navigate complex information with ease and find the answers they need quickly.</description>
+    </item>
+    
+    <item>
       <title>Authors</title>
       <link>/docs/technicalwritingcourse/authors/</link>
       <pubDate>Fri, 12 Jan 2024 16:04:48 +0200</pubDate>
@@ -30,19 +39,10 @@ It&amp;rsquo;s packed with useful stuff and totally FREE for everyone!</descript
     <item>
       <title>Intro to technical writing</title>
       <link>/docs/technicalwritingcourse/intro-to-technical-writing/</link>
-      <pubDate>Thu, 11 Jan 2024 16:04:48 +0200</pubDate>
+      <pubDate>Wed, 10 Jan 2024 16:04:48 +0200</pubDate>
       
       <guid>/docs/technicalwritingcourse/intro-to-technical-writing/</guid>
       <description>This detailed guide covers the fundamentals of technical articles, effective technical writing strategies, various types of technical documentation, identifying your target audience, and the essential steps in the technical writing process.</description>
-    </item>
-    
-    <item>
-      <title>Information  Architecture</title>
-      <link>/docs/technicalwritingcourse/information-architecture/</link>
-      <pubDate>Sun, 07 Jan 2024 16:04:48 +0200</pubDate>
-      
-      <guid>/docs/technicalwritingcourse/information-architecture/</guid>
-      <description>Technical writers are the architect of knowledge, but curating effective documentation requires more than just a clear prose. A well-crafted information architecture forms the foundation, ensuring users can navigate complex information with ease and find the answers they need quickly.</description>
     </item>
     
     <item>
@@ -85,7 +85,7 @@ Generate the table of content. Choose a suitable title. Write in Markdown. Creat
     <item>
       <title>Managing Technical Writing Projects</title>
       <link>/docs/technicalwritingcourse/managing-technical-writing-projects/</link>
-      <pubDate>Thu, 01 Feb 2024 16:37:00 +0200</pubDate>
+      <pubDate>Fri, 12 Jan 2024 16:37:00 +0200</pubDate>
       
       <guid>/docs/technicalwritingcourse/managing-technical-writing-projects/</guid>
       <description>Build a solid foundation in project management practices for effective technical documentation</description>
@@ -94,7 +94,7 @@ Generate the table of content. Choose a suitable title. Write in Markdown. Creat
     <item>
       <title>Writing for User Experience (UX)</title>
       <link>/docs/technicalwritingcourse/writing-for-user-experience-ux/</link>
-      <pubDate>Wed, 17 Jan 2024 13:13:49 +2000</pubDate>
+      <pubDate>Sun, 21 Jan 2024 13:13:49 +2000</pubDate>
       
       <guid>/docs/technicalwritingcourse/writing-for-user-experience-ux/</guid>
       <description>Understanding user experience (UX) prinicples and how to implement them in technical writing.</description>

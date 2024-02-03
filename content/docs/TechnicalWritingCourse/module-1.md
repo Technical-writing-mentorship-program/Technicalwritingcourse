@@ -271,7 +271,7 @@ Now, let’s use the questions above to know your target audience.
   <p>Who is the audience of a technical writer?
 </p>
   <label>
-    <input type="radio" name="question1" value="1"> The people for whom THEY are writing
+    <input type="radio" name="question1" value="1"> The people for whom they are writing
   </label><br>
   <label>
     <input type="radio" name="question1" value="White"> Everybody

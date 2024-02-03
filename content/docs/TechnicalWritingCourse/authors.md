@@ -42,7 +42,7 @@ It's packed with useful stuff and totally **FREE for everyone!**
 
 - [Akorede Da silva](https://www.linkedin.com/in/akorede-dasilva/): Akorede is an experienced and multi-disciplinary designer, product manaeger, XR developer and Technical writer. He is an XRI Ambassador and also a community manager for Extend Africa (An XR community), Checkmate Africa, and Designers DAO.
 
-
+- [Peace Sandy](https://www.linkedin.com/in/peace-sandy-bb7a691b0/): Peace Sandy is a software developer who loves to break down technical jargon into simpler terms through writing. She is a technical writer who loves research, and is highly skilled in writing technical articles, how-to manuals, API documentation, tutorials, and release notes. 
 
 - [Ruth Charles:](https://www.linkedin.com/in/ruthycharles)  A skilled Technical writer and DevOps engineer, with a passion for learning, solving problems, and helping others understand complex information through writing.
 

@@ -168,7 +168,6 @@ Listing in technical writing can make a technical document more readable and sim
 Just as different items in a kitchen have different purposes, different kinds of lists also serve different purposes. In this section, we will look at five commonly used types of lists.
 
 ## Bullet List                                                                                                                                  
-
 Bullet lists are the most commonly used type of list. They typically emphasize two or more items when a specific order is unimportant.
 
 Bullet lists can also add whitespace to a document to improve readability. However, they are generally short and should not be used for items longer than a few words.
@@ -565,6 +564,30 @@ Readability is simply communicating ideas in a clear and accessible way.
 
 4. Finally, simplicity is key in technical writing. Always use clear and straightforward language and write short sentences. This will help you convey your information concisely and ensure your readers can easily understand your content.
 
+{{< callout context="note" title="Exercise:" icon="info-circle" >}}
+
+**Complete the following exercises before procedding to the next module.**
+
+Write a blog post incorporating the different formatting techniques discussed in this module. 
+
+consider: 
+
+- Sentence length and structure: Are the sentences concise and varied?
+
+- Paragraph structure: Are the paragraphs focused and well-organized?
+
+- Headings and subheadings: Are they used effectively to break up the text and guide the reader?
+
+- Bullet points and numbered lists: Are they used appropriately for clarity and conciseness?
+
+- Images and other visuals: Are they relevant and well-placed?
+
+- Call to action: Does the post end with a clear call to action for the reader?
+
+ After review, tag @TechnicalWriti6 on X(Twitter with the link to you published submission.)
+
+{{< /callout >}}
+
 <br>
 
 #### Answer the following questions.
@@ -572,3 +595,8 @@ Readability is simply communicating ideas in a clear and accessible way.
 <br>
 
 <iframe src="https://forms.gle/KjfkZjTuTUNLwdxc6" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+
+
+{{< callout context="tip" title="The next module explores editing in technical writing." icon="rocket" >}}
+{{< /callout >}}
+

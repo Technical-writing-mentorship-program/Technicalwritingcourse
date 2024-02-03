@@ -28,7 +28,7 @@ It's packed with useful stuff and totally **FREE for everyone!**
 
 ## Meet the Authors:
 
-- Susan Idii: A seasoned software engineer with a passion for clear communication, leads the Introduction to Technical Writing section, demystifying core concepts and best practices.
+- [Susan Odii](https://www.linkedin.com/feed/): Susan is a passionate frontend developer who loves at simplifying complex concepts, making them more accessible and resonant for her readers. 
 
 - [Temitope Victoria:](https://www.linkedin.com/in/temitope-victoria/) Temitope is an experienced and certified IT professional. She is skilled in Technical Writing, Search Engine Optimization, and Cloud Computing.
 
@@ -42,7 +42,7 @@ It's packed with useful stuff and totally **FREE for everyone!**
 
 - [Akorede Da silva](https://www.linkedin.com/in/akorede-dasilva/): Akorede is an experienced and multi-disciplinary designer, product manaeger, XR developer and Technical writer. He is an XRI Ambassador and also a community manager for Extend Africa (An XR community), Checkmate Africa, and Designers DAO.
 
-
+- [Peace Sandy](https://www.linkedin.com/in/peace-sandy-bb7a691b0/): Peace Sandy is a software developer who loves to break down technical jargon into simpler terms through writing. She is a technical writer who loves research, and is highly skilled in writing technical articles, how-to manuals, API documentation, tutorials, and release notes. 
 
 - [Ruth Charles:](https://www.linkedin.com/in/ruthycharles)  A skilled Technical writer and DevOps engineer, with a passion for learning, solving problems, and helping others understand complex information through writing.
 

@@ -2,7 +2,7 @@
 title: "Managing Technical Writing Projects"
 description: "In this module, you will learn how to manage your technical writing projects, whether working as a team or solo."
 summary: "Build a solid foundation in project management practices for effective technical documentation"
-date: 2024-02-01T16:37:00+02:00
+date: 2024-01-12T16:37:00+02:00
 lastmod: 2024-02-01T16:37:00+02:00
 draft: false
 menu:

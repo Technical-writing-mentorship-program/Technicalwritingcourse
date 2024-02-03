@@ -2,7 +2,7 @@
 title: "Using Technical Writing Tools"
 description: "This article explains the various types of technical writing software available in the market and how they can aid the writing process. These tools are useful for creating API, technical documentation."
 summary: "This article explains the various types of technical writing software available in the market and how they can aid the writing process."
-date: 2024-01-12T16:04:50+20:00
+date: 2024-01-13T16:04:50+20:00
 lastmod: 2024-08-07T16:04:48+02:00
 draft: false
 menu:

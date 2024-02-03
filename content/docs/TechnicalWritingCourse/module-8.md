@@ -2,7 +2,7 @@
 title: "Editing"
 description: "In this module, you will learn how to edit for clarity, conciseness, and accuracy (correctness), the importance of technical editing, and the various aspects of editing in detail."
 summary: ""
-date: 2024-01-10T16:04:50+20:00
+date: 2024-01-17T16:04:50+20:00
 lastmod: 2023-09-07T16:04:48+02:00
 draft: false
 menu:

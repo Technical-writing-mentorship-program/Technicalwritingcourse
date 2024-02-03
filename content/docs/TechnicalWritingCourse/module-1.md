@@ -1,7 +1,7 @@
 ---
 title: "Intro to technical writing"
-description: "Guides lead a user through a specific task they want to accomplish, often with a sequence of steps."
-summary: ""
+description: " "
+summary: " This detailed guide covers the fundamentals of technical articles, effective technical writing strategies, various types of technical documentation, identifying your target audience, and the essential steps in the technical writing process."
 date: 2024-01-11T16:04:48+02:00
 lastmod: 2023-09-07T16:04:48+02:00
 draft: false
@@ -13,7 +13,7 @@ weight: 810
 toc: true
 seo:
   title: " Introduction to technical writing" # custom title (optional)
-  description: " " # custom description (recommended)
+  description: "Unlock the essentials of technical writing in the dynamic tech industry. Acquire foundational knowledge, explore various types of technical documentation,audience for technical documentation and master the art of becoming a proficient technical writer with our comprehensive course module" # custom description (recommended)
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---
@@ -279,6 +279,7 @@ Taking this approach will enable you to give your audience detailed and up-to-da
   In this stage, you will put all the information you have gathered into a logical and cohesive document. You must also write simply, clearly, and concisely, always keeping your audience in mind.
 
 Adapt your language to resonate with the specific needs of your readers. For instance, if you are writing for beginners, focus on clarity and provide explanations to ensure solid understanding.
+
 
 For experts, delve into technical details assuming a deeper knowledge base.
 

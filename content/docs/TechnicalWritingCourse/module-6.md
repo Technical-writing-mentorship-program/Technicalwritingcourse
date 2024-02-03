@@ -2,7 +2,7 @@
 title: "Information  Architecture"
 description: "This guide equips technical writers with the essential skills needed to structure your content efficiently and logically, while creating user-friendly pathways through technical documentation."
 summary: "Technical writers are the architect of knowledge, but curating effective documentation requires more than just a clear prose. A well-crafted information architecture forms the foundation, ensuring users can navigate complex information with ease and find the answers they need quickly."
-date: 2024-01-07T16:04:48+02:00
+date: 2024-01-15T16:04:48+02:00
 lastmod: 2023-09-07T16:04:48+02:00
 draft: false
 menu:

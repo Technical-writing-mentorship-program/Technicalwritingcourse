@@ -2,7 +2,7 @@
 title: "Intro to technical writing"
 description: "Unlock the essentials of technical writing in the dynamic tech industry. Acquire foundational knowledge, explore various types of technical documentation,audience for technical documentation and, master the art of becoming a proficient technical writer with our comprehensive course module"
 summary: " This detailed guide covers the fundamentals of technical articles, effective technical writing strategies, various types of technical documentation, identifying your target audience, and the essential steps in the technical writing process."
-date: 2024-01-11T16:04:48+02:00
+date: 2024-01-10T16:04:48+02:00
 lastmod: 2023-09-07T16:04:48+02:00
 draft: false
 menu:

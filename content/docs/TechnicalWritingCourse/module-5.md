@@ -61,7 +61,9 @@ To learn more about Google Developers Documentation style guide, visit [Google D
 
 ## How to create a writing style guide
 
-If you're unable to find a pre-existing guide that aligns with your company's style and brand, consider creating an in-house guide. This allows you to tailor the guide to effectively communicate your company's values, establish a desired voice and tone, and ensure the use of appropriate grammar and punctuation.
+If you're unable to find a pre-existing guide that aligns with your company's style and brand, consider creating an in-house guide.
+
+This allows you to tailor the guide to effectively communicate your company's values, establish a desired voice and tone, and ensure the use of appropriate grammar and punctuation.
 
 In this section, you'll delve into these essential aspects and more for creating a comprehensive style guide.
 
@@ -251,9 +253,13 @@ Striking the right balance is crucial for a style guide—it shouldn't be excess
 
 ### Utilize a Template
 
-If you prefer not to start from scratch or are on a tight deadline to create a company style guide, consider using a template. Templates serve as boilerplate guides where you can input your company's information, including vision, mission, and all the necessary sections discussed above.
+If you prefer not to start from scratch or are on a tight deadline to create a company style guide, consider using a template.
 
-While a quick Google search yields several style guide templates, [Writers.com](https://writer.com/downloads/style-guide-template.txt) offers a particularly neat and recommended template. Downloading this template provides a solid starting point for creating your style guide.
+Templates serve as boilerplate guides where you can input your company's information, including vision, mission, and all the necessary sections discussed above.
+
+While a quick Google search yields several style guide templates, [Writers.com](https://writer.com/downloads/style-guide-template.txt) offers a particularly neat and recommended template.
+
+Downloading this template provides a solid starting point for creating your style guide.
 
 Always keep in mind that consistency is the key to a good style guide. Adhere consistently to the standards and rules you adopt.
 

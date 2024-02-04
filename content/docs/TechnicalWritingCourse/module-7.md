@@ -51,10 +51,14 @@ seo:
 
 Formatting refers to how visually organized a document is arranged on the page. Formatting covers a wide range of things, including font size, font selection, lists, indentation, margins, alignment, spacing, etc. Technical documents must be reader-centered.
 
-The information should be explained and presented in a style that is readable and easy to understand. Formatting is one of the core elements of all technical documents. A format should show a hierarchical structure of information that guides the reader through the text.
+The information should be explained and presented in a style that is readable and easy to understand. Formatting is one of the core elements of all technical documents.
+
+A format should show a hierarchical structure of information that guides the reader through the text.
+
 Regarding technical writing, ensuring that the document is reader-friendly and follows a clear organizational pattern is important.
 
 Think of it like visiting a friend's apartment or going on vacation, where everything is in the wrong place. It can be frustrating and confusing to navigate through.
+
 Similarly, if a technical document is not properly formatted, it can be difficult for readers to understand the content.
 
 Certain guidelines should be followed to write a well-formatted and reader-centered technical document.
@@ -70,13 +74,13 @@ The information should be presented in a style that is easy to read and understa
 
 Most technical articles and documents follow a particular hierarchy from introduction to conclusion. Often, the structure depends on the type of article or technical document.
 
-Headings and subheadings are important elements of technical writing. They make your content more organized and help your readers navigate through what you have written.
+**Headings** and **subheadings** are important elements of technical writing. They make your content more organized and help your readers navigate through what you have written.
 
 Proper use of headings and subheadings increases the accessibility of your documents. One very important practice is writing descriptive and concise headings highlighting each section's main idea
 
 Headings are really important features in technical writing; they alert your readers about upcoming topics and subtopics and help readers skip and go to what they are interested in, in the case of long technical articles or documentation.
 
-Headings can help you organize your content into large sections [major headings] and smaller sections [sub-headings]. Headings are formatted by level [first level, second level, third level], which can vary in position and formatting.
+It can help you organize your content into large sections [major headings] and smaller sections [sub-headings]. Headings are formatted by level [first level, second level, third level], which can vary in position and formatting.
 
 Avoid using vague headings that do not convey any specific information. Headings should clearly state what your readers should expect from your content. Additionally, keywords in your headings help you optimize your technical document or article for search engines.
 
@@ -110,7 +114,7 @@ Level 3 is the subheading of Level 2. Third-level headings are usually smaller t
 
 Good headlines help you draw attention to your audience. Headings are a quick way to capture people’s attention and encourage them to read more.
 
-Here are examples of good and bad headings to illustrate key principles.
+Examples of good and bad headings to illustrate key principles.
 
 ##### Good Headings
 
@@ -167,20 +171,20 @@ Listing in technical writing can make a technical document more readable and sim
 
 Just as different items in a kitchen have different purposes, different kinds of lists also serve different purposes. In this section, we will look at five commonly used types of lists.
 
-## Bullet List                                                                                                                                  
+##### 1. Bullet List                                                                                                                                  
 
 Bullet lists are the most commonly used type of list. They typically emphasize two or more items when a specific order is unimportant.
 
 Bullet lists can also add whitespace to a document to improve readability. However, they are generally short and should not be used for items longer than a few words.
 
-### Here are some examples of how bullet lists can be used:
+###### Examples of how bullet lists can be used:
 
 - To list the ingredients for a recipe
 - To outline the steps in a procedure
 - To summarize the key points of a presentation,
 - To create a checklist of tasks
 
-## Numbered List
+##### 2. Numbered List
 
 Numbered lists should be used when the order of the listed items is important, and ideas must be expressed in chronological order.
 
@@ -201,21 +205,21 @@ For optimal clarity, strive to keep your numbered lists within eight items. Cons
 
 Subsequently, review your documents and check for formatting to enhance readability.
 
-## In-sentence lists
+##### 3. In-sentence lists
 
 Sentence lists are typically employed when you have only two to four items and desire to preserve sentence structure and paragraphing. For instance, you could utilize a sentence list to list the ingredients for a simple recipe or the key points of a brief presentation.
 
-Here's an example of a sentence list:
+Example of a sentence list:
 
 1. The ingredients for this recipe are flour, sugar, eggs, and milk.
 2. The key points of my presentation are the importance of communication, teamwork, and adaptability.
    As you can see, sentence lists allow you to maintain a cohesive flow while presenting a short list of items.
 
-## Labeled lists
+##### 4. Labeled lists
 
 Are employed when the listed items require further explanation or elaboration. For instance, you could utilize a labeled list to define key terms or outline the steps involved in a complex process.
 
-Here's an example of a labeled list:
+{{< callout context="note" title="Example of a labeled list:" icon="info-circle" >}}
 
 ##### Components of a Computer:
 
@@ -224,11 +228,13 @@ Here's an example of a labeled list:
 
 As you can see, labeled lists provide a clear and structured way to present information that requires additional explanation.
 
+{{< /callout >}}
+
 ## Nested Lists
 
 Nested lists are commonly used when list items have sub-lists, which are lists within a larger list. This structure can help organize and present complex information, particularly when hierarchical relationships between the items exist.
 
-Here's an example of a nested list:
+{{< callout context="note" title="Example of a nested list:" icon="info-circle" >}}
 
 - Fruit
 
@@ -255,10 +261,11 @@ Here's an example of a nested list:
 - Pineapple
 
 - Banana
+  {{< /callout >}}
 
 Lists are crucial features of technical writing. They enhance readability, improve clarity, and ensure that ideas are conveyed accurately and effectively.
 
-Lists break down complex information into digestible chunks, making it easier for readers to grasp and retain key points. They also help to organize and structure content, creating a logical flow that guides the reader through the material.
+It break down complex information into digestible chunks, making it easier for readers to grasp and retain key points. They also help to organize and structure content, creating a logical flow that guides the reader through the material.
 
 {{< callout context="tip" title="The coming section explores tables, steps to prepare tables in a technical document, and formatting guidelines for creating tables ." icon="rocket" >}}
 {{< /callout >}}
@@ -271,13 +278,7 @@ Well-designed tables in technical writing can make information clear and readabl
 
 Tables predominantly present numerical data, such as comparing characteristics like height and depth or listing product prices.
 
-Tables contribute to the accuracy, completeness, and readability of technical documents. Each table should be accompanied by an introductory sentence that provides context and summarizes the information presented in the table.
-
-Tables do make it easy to compare information. Tables can show trends or patterns of increasing or decreasing activity.
-
-A table consists of a group of rows and columns of data. At the top of each column is a column heading, which defines or identifies the contents of that column.
-
-Along the left edge of the table, there may be row headings, which define or identify the contents of those rows.
+> Tables do make it easy to compare information. It can show trends or patterns of increasing or decreasing activity.
 
 ## Steps to Prepare Tables in a Technical Document
 
@@ -458,19 +459,13 @@ There are many types of figures in technical writing, including but not limited 
 
 As a technical writer, you aim to craft clear, understandable, and readable documents. The goal is to provide your readers with the best possible assistance for using a product.
 
-One excellent way to achieve this is by incorporating images into your writing. These images may include photos, screenshots, graphics, and illustrations. Visual integration enhances your ability to create seamless, clear, concise documentation.
-
-Images improve content clarity, particularly when writing installation guides, instruction manuals, or introducing new products.
-
-Images are truly essential in technical writing, as they significantly enhance the clarity and approachability of technical documents.
-
-For some readers, text-heavy articles can be challenging to engage with. Incorporating images can significantly improve the understandability and visual appeal of your content.
+One excellent way to achieve this is by incorporating images into your writing. These images may include photos, screenshots, graphics, and illustrations. It improve content clarity, particularly when writing installation guides, instruction manuals, or introducing new products.
 
 Incorporating screenshots of the process enhances clarity and comprehension when crafting technical documents, such as user manuals, how-to guides, or release notes.
 
 When guiding a user to use a new application, it is important to ensure the instructions are clear and easy to understand. One effective way to achieve this is using images to support the text.
 
-Outlining the steps without an image might not be as descriptive and understandable as one with an image. Images can help users visualize what they are expected to do, making it easier to follow the instructions.
+> Outlining the steps without an image might not be as descriptive and understandable as one with an image. Images can help users visualize what they are expected to do, making it easier to follow the instructions.
 
 ##### Example 1
 
@@ -537,7 +532,7 @@ Best Practices for Adding Images to Technical Documentation
 
 Images are an essential part of technical documentation, as they can help illustrate complex concepts or procedures and provide additional information that may not be easily conveyed through text.
 
-Here are some best practices for adding images to technical documentation:
+Some best practices for adding images to technical documentation:
 
 1. Choose the right image format: When selecting an image format, consider the type of image you are working with and its intended use. Common image formats in technical documentation include JPEG, PNG, and GIF. JPEGs are best for photographs, while PNGs and GIFs are better suited for screenshots or diagrams.
 
@@ -550,8 +545,6 @@ Here are some best practices for adding images to technical documentation:
 5. Label images clearly: Use labels or captions to provide additional context or information about an image. For example, if you use a screenshot to illustrate a process, label each step with a descriptive caption.
 
 6. Use consistent formatting: To ensure consistency throughout your documentation, use the same formatting for all images. This includes size, resolution, and placement.
-
-By following these best practices, you can ensure that images in your technical documentation are clear, helpful, and effective in conveying complex information.
 
 ## How to use formatting to improve the readability and clarity of your technical documentation
 

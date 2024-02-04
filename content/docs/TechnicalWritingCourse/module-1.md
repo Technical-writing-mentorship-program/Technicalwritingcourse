@@ -18,8 +18,6 @@ seo:
   noindex: false # false (default) or true
 ---
 
-Welcome to the world of technical writing!
-
 Technical writing is a highly valued skill today, and the demand for technical writers will keep growing because of rapid advancements in science and technology.
 
 Whether you're new to technical writing or just trying to improve your writing skills, get ready for a rewarding journey!
@@ -31,7 +29,7 @@ So, buckle up as we delve into the essentials of technical writing!
 {{< callout context="note" title="In this Module, you will learn:" icon="info-circle" >}}
 
 - What is technical writing?
-- Different types of technical documentation
+- Different types of technical writing
 - The audience for technical documentation
 - The purpose of technical documentation
 - The technical writing process
@@ -42,21 +40,21 @@ So, buckle up as we delve into the essentials of technical writing!
 
 Technical writing is a specialized field that delivers clear and understandable instructions, directions, guidance, or information to a specific audience through documentation.
 
-Technical writing mainly aims to break down hard concepts or information into simple concepts easily understood by the targeted audience.
+It mainly aims to break down hard concepts or information into simple concepts easily understood by the targeted audience.
 
-In simple terms, technical writing provides factual and concise information to facilitate understanding and task completion.
+In simple terms, technical writing gives people clear instructions so they can easily use things or solve problems.
 
-## Different Types of Technical Documentation
+## Different Types of Technical Writing
 
-Technical documentation comprises detailed instructions, step-by-step guides, or information regarding a product or technology.
+Technical writing involves creating detailed instructions, step-by-step guides, or information about products or technology. A good technical writer needs to know the subject well so that their audience can easily understand the content.
 
-To create effective technical documentation, a technical writer must possess subject matter expertise, ensuring their audience can effortlessly comprehend the instructions or guides.
+For example, if a technical writer doesn’t understand programming, they won’t be able to write clear API documentation. API documentation requires knowledge of programming concepts like data types, arrays, and objects.
 
-        For instance, a technical writer lacking a strong background in programming cannot produce quality API documentation, as it demands a solid understanding of programming concepts like functions, arrays, objects, maps, and so on.
+{{< tweet user="Joklinztech" id="1746834470286561365" >}}
 
-There are numerous types of technical documentation, and their writing style varies. Below is a list of some types of technical documentation:
+### Common types of technical documentation:
 
-- ### Technical reports:
+###### 1. Technical reports:
 
 These documents provide detailed results of projects, research findings, investigations, and experiments in a specified field. They may include recommendations and conclusions.
 
@@ -64,17 +62,25 @@ The key elements of technical reports are the title, introduction, summary, expe
 
 An example of a technical report is the [Complete Engineering and Economics of Solar Photovoltaic Hybrid Power System ](https://www.offidocs.com/public/?v=ext&pdfurl=https://ecse.monash.edu/techrep/reports/2004/MECSE-29-2004.pdf).
 
-- ### Installation Guides:
+###### 2. Installation Guides:
 
-These documents assist users or customers in installing software, products, or systems correctly. Installation guides give general instructions about products or software and step-by-step instructions for installation. Examples of installation guides are home appliances, computer software, etc.
+These documents assist users or customers in installing software, products, or systems correctly.
 
-For example, the [Visual Studio Code](https://code.visualstudio.com/docs/setup/setup-overview) provides detailed step-by-step instructions for installing VScode on your computer.
+Installation guides give general instructions about products or software and step-by-step instructions for installation. Examples
 
-- ### User manuals:
+- Home appliances
+- Computer software
+- Etc.
 
-These are also known as user guides or instruction manuals. It is a written document that provides information on product features, step-by-step guides, product functionality, and troubleshooting instructions in case of issues. An example of a user manual is [WhatsApp User Manual](https://www.wiseradviser.org/uploads/general/WhatsApp_User_Manual_Final.pdf).
+An example is the [Visual Studio Code](https://code.visualstudio.com/docs/setup/setup-overview) set up guide that provides detailed step-by-step instructions for installing VScode on your computer.
 
-- ### Technical Specifications:
+###### 3. User manuals:
+
+These are also known as user guides or instruction manuals. It is a written document that provides information on product features, step-by-step guides, product functionality, and troubleshooting instructions in case of issues.
+
+An example of a user manual is [WhatsApp User Manual](https://www.wiseradviser.org/uploads/general/WhatsApp_User_Manual_Final.pdf).
+
+###### 4. Technical Specifications:
 
 These are manuals or documents that detail a product's technical aspects. They also provide vital information about product development.
 
@@ -82,25 +88,31 @@ For instance, in software development, the technical specification manual provid
 
 An example of a technical specification document is the [Software Requirements Specification document](https://krazytech.com/projects/sample-software-requirements-specificationsrs-report-airline-database).
 
-- ### API Documentation:
+###### 5. API Documentation:
 
-These documents guide users on integrating an application programming interface(API). It includes details on endpoints, authentication, request and response formats. An example is the [Paystack](https://paystack.com/docs/api/) API documentation.
+These documents guide users on integrating an application programming interface(API). It includes details on endpoints, authentication, request and response formats.
 
-- ### Technical proposal:
+An example is the [Paystack](https://paystack.com/docs/api/) API documentation.
 
-These are well-written documents that outline details of a proposed technical project, product, solution, and so on. The primary goal of a technical proposal is to show actionable plans to stakeholders or decision-makers, persuading them to accept and support the proposed project.
+###### 6. Technical proposal:
+
+These are well-written documents that outline details of a proposed technical project, product, solution, and so on.
+
+The primary goal of a technical proposal is to show actionable plans to stakeholders or decision-makers, persuading them to accept and support the proposed project.
 
 For instance, if a writer proposes a project to a company, the proposal should provide an overview, scope, target audience, and other essential project details.
 
 Click on this [Technical Proposal Template](https://goprospero.com/proposal/software-development-proposal-template/) to learn how to structure your technical proposal.
 
-- ### White Papers:
+###### 7. White Papers:
 
-These documents provide comprehensive analysis, information, or recommendations on a specific topic, product, or technology. White papers are used across various fields to provide in-depth reports to aid understanding and decision-making.
+These documents provide comprehensive analysis, information, or recommendations on a specific topic, product, or technology.
+
+White papers are used across various fields to provide in-depth reports to aid understanding and decision-making.
 
 An example of a white paper is the [WhatsApp Security White Paper](https://www.whatsapp.com/security/WhatsApp-Security-Whitepaper.pdf).
 
-- ### Release notes:
+###### 8. Release notes:
 
 These are documents that inform users, developers, or administrators about recent features of a software product, bug fixes, or any other update.
 
@@ -108,7 +120,7 @@ For example, a software company may introduce new features in their product, suc
 
 [The Google Cloud Release Note](https://cloud.google.com/release-notes) is an example of a release note.
 
-- ### Online help:
+###### 9. Online help:
 
 These digital documents provide instructions, guidance, or information to assist users in effectively using products.
 
@@ -136,7 +148,7 @@ Answering these questions will help you determine your target audience and guide
 
 For instance, you want to write an article titled: **Introduction to technical writing**.
 
-Here are some questions you need to ask yourself:
+Some questions you need to ask yourself:
 
 If you answer the questions above, this will help your readers understand this topic very well.
 
@@ -155,23 +167,23 @@ Now, let’s use the questions above to know your target audience.
 
 There are numerous reasons for writing technical documentation. The purpose of technical documentation includes:
 
-- ### Guidance:
+##### 1. Guidance:
 
-  It provides comprehensive and easy-to-follow guidance, instructions, and directions on using a product, software, or service.
+It provides comprehensive and easy-to-follow guidance, instructions, and directions on using a product, software, or service.
 
-- ### Reference:
+##### 2. Reference:
 
 It serves as reference materials for product or service users, as it details a product's different features.
 
-- ### Training materials:
+##### 3. Training materials:
 
 Technical documentation can be used to train new users, employees, or technicians.
 
-- ### Updates:
+##### 4. Updates:
 
-  It is used by companies to provide information about upgrades in their product or service.
+It is used by companies to provide information about upgrades in their product or service.
 
-- ### Troubleshooting:
+##### 5. Troubleshooting:
 
 Technical documentation provides troubleshooting guides that can help users when they encounter a problem while using a product.
 
@@ -237,8 +249,9 @@ There are five technical writing steps.
 
 _**Figure 1**: Technical writing steps_
 
-- ### Plan:
-  A popular saying goes, “If you fail to plan, you plan to fail”. This principle applies to technical writing as well.
+##### 1. Plan:
+
+A popular saying goes, “If you fail to plan, you plan to fail”. This principle applies to technical writing as well.
 
 Before you begin writing, planning and preparing for your topic is essential. Planning can be as straightforward as creating bullet points outlining the project you want to cover.
 
@@ -246,7 +259,7 @@ This mental exercise will help you address important questions about your audien
 
 At the planning stage, you need to determine your document's purpose and scope, writing style, and length. A well-thought-out plan saves time and ensures a successful outcome.
 
-- ### Structure:
+##### 2. Structure:
 
 Structure serves as the backbone of your documentation, providing the necessary organization for the hierarchy of your document.
 
@@ -254,20 +267,20 @@ You lay a framework for how your document will unfold at this stage. For instanc
 
 It is also important to note that the structure of your document is not a rigid constraint; it evolves as you write, allowing for adaptability as you write.
 
-- ### Research:
-  This stage is the foundational step in the documentation process. It involves getting all the information you need for your writing.
+##### 3. Research:
+
+This stage is the foundational step in the documentation process. It involves getting all the information you need for your writing.
 
 This includes reading relevant documents, watching videos, and interviewing experts in the field.
 
 For instance, if you want to write about Google Chrome, you will need to read Google Chrome documentation and other relevant documents to know about its features and how they work.
 Watching tutorial videos, if needed, will help you gain more insights.
 
-Furthermore, gaining hands-on experience through practice deepens your knowledge and contributes to the quality of your documentation.
-
 Taking this approach will enable you to give your audience detailed and up-to-date information about the Google Chrome browser.
 
-- ### Write:
-  In this stage, you will put all the information you have gathered into a logical and cohesive document. You must also write simply, clearly, and concisely, always keeping your audience in mind.
+##### 4. Write:
+
+In this stage, you will put all the information you have gathered into a logical and cohesive document. You must also write simply, clearly, and concisely, always keeping your audience in mind.
 
 Adapt your language to resonate with the specific needs of your readers. For instance, if you are writing for beginners, focus on clarity and provide explanations to ensure solid understanding.
 
@@ -281,7 +294,7 @@ For clarity, incorporate images, code snippets, tables, screenshots, and diagram
 
 As you craft your document, envision your audience engaging with the material and tailor your writing to meet their expectations.
 
-- ### Review:
+##### 5. Review:
 
 This stage is the polishing stage. In this stage, your goal is to ensure the overall quality of your document. Start with reviewing your document.
 
@@ -291,8 +304,9 @@ Next, consider seeking the input of experts or colleagues in the field to review
 
 The goal of this stage is not just error correction but the refinement of your document to meet the highest standard of clarity and professionalism.
 
-- ### Publish:
-  This stage is the final step in releasing your document to reach your intended audience.
+##### 6. Publish:
+
+This stage is the final step in releasing your document to reach your intended audience.
 
 Platforms like Medium, Hashnode, Devrel, and other social media platforms can serve as avenues for sharing your work with the world.
 

@@ -13,9 +13,4 @@ seo:
   noindex: false # false (default) or true
 ---
 
-## Recent Documents
-
-{{ range first 5 .Data.Pages.ByDate.Reverse }}
-
-- [{{ .Title }}]({{ .Permalink }})
-  {{ end }}
+{{< youtube id="4AVQ7Sr3UZI" title="Introduction to technical writing" autoplay="true" >}}

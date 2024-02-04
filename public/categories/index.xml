@@ -6,6 +6,16 @@
     <description>Recent content in Categories on TWMP</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>Copyright (c) 2023 TWMP</copyright><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Copyright (c) 2023 TWMP</copyright>
+    <lastBuildDate>Sun, 07 Jan 2024 16:27:22 +0200</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introductory</title>
+      <link>/categories/introductory/</link>
+      <pubDate>Sun, 07 Jan 2024 16:27:22 +0200</pubDate>
+      
+      <guid>/categories/introductory/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

@@ -6,6 +6,25 @@
     <description>Recent content in Tags on TWMP</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>Copyright (c) 2023 TWMP</copyright><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Copyright (c) 2023 TWMP</copyright>
+    <lastBuildDate>Sun, 07 Jan 2024 16:27:22 +0200</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>explanation</title>
+      <link>/tags/explanation/</link>
+      <pubDate>Sun, 07 Jan 2024 16:27:22 +0200</pubDate>
+      
+      <guid>/tags/explanation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>introdction</title>
+      <link>/tags/introdction/</link>
+      <pubDate>Sun, 07 Jan 2024 16:27:22 +0200</pubDate>
+      
+      <guid>/tags/introdction/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

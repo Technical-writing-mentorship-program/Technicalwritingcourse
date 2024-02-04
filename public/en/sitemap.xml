@@ -139,6 +139,69 @@
   
   
   <url>
+    <loc>/categories/</loc>
+    <lastmod>2023-09-07T16:27:22+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  
+  
+  <url>
+    <loc>/contributors/</loc>
+    <lastmod>2023-09-07T16:27:22+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  
+  
+  <url>
+    <loc>/tags/explanation/</loc>
+    <lastmod>2023-09-07T16:27:22+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  
+  
+  <url>
+    <loc>/tags/introdction/</loc>
+    <lastmod>2023-09-07T16:27:22+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  
+  
+  <url>
+    <loc>/categories/introductory/</loc>
+    <lastmod>2023-09-07T16:27:22+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2023-09-07T16:27:22+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  
+  
+  <url>
+    <loc>/contributors/wisdom-nwokocha/</loc>
+    <lastmod>2023-09-07T16:27:22+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  
+  
+  <url>
     <loc>/docs/technicalwritingcourse/writing-for-different-audiences/</loc>
     <lastmod>2024-01-15T07:07:07+01:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -222,30 +285,6 @@
   <url>
     <loc>/docs/technicalwritingcourse/writing-for-user-experience-ux/</loc>
     <lastmod>2024-01-20T19:46:49+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  
-  
-  <url>
-    <loc>/categories/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  
-  
-  <url>
-    <loc>/contributors/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  
-  
-  <url>
-    <loc>/tags/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

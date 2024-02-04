@@ -242,7 +242,7 @@ Premier Pro is a suitable tool for individuals who can work with complex video t
 
 Publishing sites are essential for posting your writing samples, documents, solutions, and articles.
 
-{{< callout context="note" title="Grammarly" icon="rocket" >}}
+{{< callout context="note" title="Publishing sites" icon="rocket" >}}
 WordPress, Wix, Medium, Hashnode, Adobe Framemaker, Robohelp, Madcap Flare, and Qblogger are publishing sites.
 {{< /callout >}}
 

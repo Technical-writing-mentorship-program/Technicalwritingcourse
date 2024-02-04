@@ -23,7 +23,7 @@ seo:
 {{< callout context="note" title="In this Module, you will learn:" icon="info-circle" >}}
 
 - All about information architecture
-- its importance to technical writers and readers
+- Its importance to technical writers and readers
 - Information architecture taxonomy and its importance
 - How to create efficient technical documentation
 - Key principles guiding information architecture

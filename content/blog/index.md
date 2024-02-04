@@ -7,7 +7,7 @@ lastmod: 2023-09-07T16:27:22+02:00
 draft: false
 weight: 50
 categories: [Introductory]
-tags: [introdction, explanation]
+tags: [introduction, explanation]
 contributors: [Wisdom Nwokocha]
 pinned: false
 homepage: false

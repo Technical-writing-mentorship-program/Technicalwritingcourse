@@ -13,9 +13,7 @@ pinned: false
 homepage: false
 seo:
   title: "Introduction to technical wrting mentorship program" # custom title (optional)
-  description: "Introduction to technical wrting mentorship program, Technical writing bridges the gap between complex concepts and their practical application. Whether documenting software features, creating user manuals, or explaining intricate processes, technical writers are crucial in making information accessible to a wide audience.
-
-Three years ago, I embarked on a journey to share my expertise with aspiring technical writers through the Technical Writing Mentorship Program. Let's delve into this initiative's origins, structure, and impact." # custom description (recommended)
+  description: "Introduction to technical wrting mentorship program, Technical writing bridges the gap between complex concepts and their practical application. Whether documenting software features, creating user manuals, or explaining intricate processes, technical writers are crucial in making information accessible to a wide audience." # custom description (recommended)
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---

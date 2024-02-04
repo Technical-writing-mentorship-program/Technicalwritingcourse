@@ -18,8 +18,6 @@ seo:
   noindex: false # false (default) or true
 ---
 
-# Module 10: Information gathering
-
 ## Introduction
 
 Information gathering in the context of technical writing is the process of collecting and organizing the information you would want to share in your technical document.

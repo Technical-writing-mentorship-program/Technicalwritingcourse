@@ -12,8 +12,8 @@ menu:
 weight: 1
 toc: true
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
+  title: "Authors" # custom title (optional)
+  description: "This is the authors page, the people that wrote the free technical writing course" # custom description (recommended)
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---
@@ -46,10 +46,6 @@ It's packed with useful stuff and totally **FREE for everyone!**
 
 - [Ruth Charles:](https://www.linkedin.com/in/ruthycharles) A skilled Technical writer and DevOps engineer, with a passion for learning, solving problems, and helping others understand complex information through writing.
 
-_Why free?_
-
+{{< callout context="tip" title="Why free?" icon="rocket" >}}
 We believe everyone deserves to learn tech writing, no matter what! So grab this open-source course and unlock your future in tech writing.
-
-{{< callout context="tip" title="Remeber" icon="rocket" >}}
-This course is completely free and open to all! Get started today and open the door to your tech writing future!
 {{< /callout >}}

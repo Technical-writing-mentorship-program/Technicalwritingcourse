@@ -18,7 +18,9 @@ seo:
   noindex: false # false (default) or true
 ---
 
-Visual elements like diagrams, images, and illustrations are effective tools for making your documentation engaging and easy to understand. They're great for explaining complex concepts, processes, or workflows. Additionally, they break up large chunks of text and improve readability.
+Visual elements like diagrams, images, and illustrations are effective tools for making your documentation engaging and easy to understand.
+
+They're great for explaining complex concepts, processes, or workflows. Additionally, they break up large chunks of text and improve readability.
 
 Using diagrams is an effective way to communicate complex ideas. They present information visually, making it easier to understand and remember compared to lengthy paragraphs.
 

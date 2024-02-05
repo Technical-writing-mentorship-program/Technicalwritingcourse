@@ -31,7 +31,6 @@
 [[main]]
   name = "Academy"
   url = "/docs/technicalwritingcourse/authors/" 
-# url = "/docs/1.0/prologue/introduction/"
   weight = 10
 
 [[main]]
@@ -39,10 +38,10 @@
   url = "/blog/"
   weight = 30
 
-  [[main]]
-  name = "Youtube"
-  url = "https://www.youtube.com/@TechnicalWriti6"
-  weight = 30
+   [[main]]
+   name = "Contact Us"
+   url = "mailto:writingt82@gmail.com"
+   weight = 30
 
 [[social]]
   name = "Twitter"

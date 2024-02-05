@@ -28,7 +28,7 @@ It's packed with useful stuff and totally **FREE for everyone!**
 
 ## Meet the Authors:
 
-- [Susan Odii](https://www.linkedin.com/in/susanodiifrontenddeveloper/): Susan is a passionate frontend developer who loves simplifying complex concepts, making them more accessible and resonant for her readers.
+- [Susan Odii:](https://www.linkedin.com/in/susanodiifrontenddeveloper/): Susan is a passionate frontend developer who loves simplifying complex concepts, making them more accessible and resonant for her readers.
 
 - [Temitope Victoria:](https://www.linkedin.com/in/temitope-victoria/) Temitope is an experienced and certified IT professional. She is skilled in Technical Writing, Search Engine Optimization, and Cloud Computing.
 

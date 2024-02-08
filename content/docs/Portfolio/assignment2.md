@@ -2,7 +2,7 @@
 title: "Glasp User Guide Assignment"
 description: "This assignment, you will write an article covering everything about Glasp https://glasp.co/ and how to use it.
 "
-summary: ""
+summary: "This assignment, you will write an article covering everything about Glasp https://glasp.co/ and how to use it"
 date: 2023-08-07T16:04:48+02:00
 lastmod: 2023-09-07T16:04:48+02:00
 draft: false
@@ -24,18 +24,26 @@ seo:
 
 ##### Glasp user guide
 
-Do the following:
+{{< details "Objective" open >}}
 
-- Generate the table of content.
+In this assignment, you will create write a user guide for **Glasp** using any writing platform you can use (Eg, `Hashnode`,`Medium` or even our blog).
+
+The goal is to teach you how to wrte a well detailed user guide with neccessary images and annotations.
+{{< /details >}}
+
+{{< callout context="note" title="" icon="info-circle" >}}
+
+Do the following:
+{{< /callout >}}
+
+- Understand what they are building at [Glasp](https://glasp.co/)
+- Generate the table of content .
 - Choose a suitable title.
-- Write in Markdown.
-- Create a repo on GitHub.
-- Create a Markdown file explaining your assignment.
-- Create a new markdown file that will contain your assignment.
-- Use vscode to write and test your markdown (Send a screenshot of your vscode containing your assignment)
-- Submit your Google docs URL.
+
+{{< callout context="note" title="" icon="info-circle" >}}
 
 This article should have the following.
+{{< /callout >}}
 
 - Arrange the order of the content.
 - Attention to details
@@ -43,13 +51,17 @@ This article should have the following.
 - It should be over 1000 words
 - No plagiarism
 - Don’t use AI-generated content
-- Your audience is a novice
+- Your audience are beginners
 - Proper citation
 - No grammatical or spelling error
 - No repetitive and filler words
 - Must have necessary images
 - Use the Google Writing style guide
 
+{{< callout context="note" title="Note" icon="info-circle" >}}
+
 After review, tag Glasp on Twitter and Linkedin, mentioning it's your second task from the technical writing mentorship program organized by @TechnicalWriti6 on your Twitter handle or LinkedIn.
 
-To be submitted: N/A
+{{< /callout >}}
+
+## Submission Deadline: N/A

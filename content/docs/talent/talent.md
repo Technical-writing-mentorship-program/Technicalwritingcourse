@@ -1,6 +1,6 @@
 ---
 title: "Technical Writing Talent"
-description: ""
+description: "This page contains information of writers that are reliable and trusted to work on your technical writing project. They have portfolios to shwo and we can recommend them because they are experts in their fields"
 summary: ""
 date: 2023-08-07T16:04:48+02:00
 lastmod: 2023-09-07T16:04:48+02:00
@@ -12,13 +12,15 @@ menu:
 weight: 810
 toc: true
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
+  title: "Technical Writing Talent" # custom title (optional)
+  description: "This page contains information of writers that are reliable and trusted to work on your technical writing project. They have portfolios to shwo and we can recommend them because they are experts in their fields" # custom description (recommended)
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---
 
-At our disposal, we have a talented pool of trusted writers who are poised to create world-class content tailored to your needs. Whether you require assistance with technical writing, documentation, API guides, or any other aspect of technical articles, we’ve got you covered.
+At our disposal, we have a talented pool of trusted writers who are poised to create world-class content tailored to your needs.
+
+Whether you require assistance with technical writing, documentation, API guides, or any other aspect of technical articles, we’ve got you covered.
 
 Feel free to reach out to us, and let’s embark on a journey of exceptional content creation together!
 

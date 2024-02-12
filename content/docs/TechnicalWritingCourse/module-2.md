@@ -452,6 +452,27 @@ These include users at the peak of knowledge and expertise in a particular field
 
 Technical documentation for experts should be advanced and sophisticated. It should reflect their advanced knowledge and expectations. It should provide insights beyond the basics and cater to professionals seeking the latest and most advanced information.
 
+{{< callout context="note" title="Note" icon="info-circle" >}}
+
+Exercise:
+Complete the following exercises before leaving this module.
+
+Write an article on how to use VScode for a low-level technical audience
+
+Follow the instructions below;
+
+
+- Conduct an audience analysis to understand the needs and preferences of your readers.
+- Create a table of contents that outlines the structure of your article.
+- Your article should be at least 500 words long.
+- Minimize the use of AI, and use simple language that is easy to understand.
+- Include relevant images to support your content.
+- Ensure that your article has no spelling, grammar, or punctuation errors.
+
+Lastly, please tag @Technicalwrit6 on Twitter and LinkedIn, stating that this is your exercise for module 2.
+
+{{< /callout >}}
+
 Answer the following questions.
 
 <iframe src="https://forms.gle/QSdqDSnziXjQ3HLN7" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>

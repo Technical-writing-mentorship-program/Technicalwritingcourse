@@ -15,8 +15,8 @@ images = ["cover.png"]
 
   ## Button
   navBarButton = true # false (default) or true
-  navBarButtonUrl = "/docs/prologue/introduction/"
-  navBarButtonText = "Apply Now"
+  navBarButtonUrl = "https://www.youtube.com/@TechnicalWriti6"
+  navBarButtonText = "YouTube Courses"
 
   # FlexSearch
   flexSearch = true # true (default) or false
@@ -40,7 +40,7 @@ images = ["cover.png"]
   # Nav
   sectionNav = ["docs"] # ["docs"] (default) or list of sections (e.g. ["docs", "guides"])
   toTopButton = true # false (default) or true
-  breadcrumbTrail = true # false (default) or true
+  breadcrumbTrail = false # false (default) or true
   headlineHash = true # true (default) or false
   scrollSpy = true # true (default) or false
 

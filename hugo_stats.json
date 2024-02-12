@@ -68,7 +68,6 @@
       "align-items-center",
       "anchor",
       "bg-dots",
-      "bg-light",
       "blog",
       "blog-header",
       "blur-up",
@@ -264,8 +263,6 @@
       "section",
       "section-features",
       "section-md",
-      "section-related",
-      "section-title",
       "show",
       "single",
       "small",
@@ -623,7 +620,6 @@
       "highlighting",
       "how-do-you-select-organizations-that-work-best",
       "how-to-avoid-jargon",
-      "how-to-crack-google-season-of-docs-2024",
       "how-to-create-a-writing-style-guide",
       "how-to-create-an-information-architecture-for-your-technical-documentation",
       "how-to-create-effective-diagrams",
@@ -798,6 +794,7 @@
       "write-a-proposal",
       "writing-for-different-levels-of-expertise",
       "you-earn",
+      "you-gain-open-source-experience",
       "you-improve-your-skills",
       "you-join-the-open-source-world"
     ]

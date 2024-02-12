@@ -19,9 +19,7 @@ seo:
   noindex: false # false (default) or true
 ---
 
-# How to crack Google Season of Docs 2024.
-
-## (Tips from GSOD’s past Interns)
+### (Tips from GSOD’s past Interns)
 
 ![Header designed image](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/kds36zdhckrv89i4xsaw.png)
 
@@ -51,19 +49,19 @@ GSOD aims to improve the documentation of open source projects and technical wri
 {{< callout context="tip" title="Let’s explore some more benefits in detail;" icon="rocket" >}}
 {{< /callout >}}
 
-### You join the Open source world:
+##### You gain Open source experience:
 
 Participating in GSOD has several benefits. It allows you to learn more about open source and its significance and helps you understand how to contribute. Moreover, you connect with like-minded open source enthusiasts, maintainers, and organizations. By participating in GSOD, you can claim the Open Source contributor badge with evidence, which is a solid achievement.
 
-### You improve your skills:
+##### You improve your skills:
 
 Contributing to GSOD gives you more real-world experience working on technical documentation. In addition to improving your technical skills, participating in projects and collaborative work can help you enhance your ability to work well with others, communicate effectively, work in teams, generate ideas, conduct research, and more. This sort of work can also help you identify areas where you may need to improve your skills and provide opportunities to develop and strengthen those areas.
 
-### You earn:
+##### You earn:
 
 In participating, you get stipends from Google paid through the organization. It is a rewarding experience to learn, contribute, and get paid. GSOD provides a completely stellar open source package.
 
-### Access to future opportunities:
+##### Access to future opportunities:
 
 GSOD helps expand your network. You become the person other beginners want to learn from, someone mentors/seniors can work with for other opportunities.
 

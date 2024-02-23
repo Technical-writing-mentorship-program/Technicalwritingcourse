@@ -63,7 +63,7 @@ If so, then the Glasp Writing Contest is tailor-made for you!
 - **Grammar and Clarity:** Proofread meticulously; clarity is key.
 - **Images:** Include relevant screenshots or visuals demonstrating Glasp in action.
 - **Citations:** Properly cite external sources (if any).
-- **Deadline:** Submit your article by March 31, 2024.
+- **Deadline:** Submit your article by March 5th, 2024.
 - **Prizes:** Winners will receive $100 Amazon gift cards and recognition.
 
 ## How to Submit
@@ -71,4 +71,4 @@ If so, then the Glasp Writing Contest is tailor-made for you!
 1. Write your article.
 2. Tag Glasp (@glaspco) and TWMP (@twmp_org) on Twitter.
 3. Use the hashtag #GlaspTWMPContest.
-4. Winners will be announced on March 5, 2024.
+4. Winners will be announced on March 10th, 2024.

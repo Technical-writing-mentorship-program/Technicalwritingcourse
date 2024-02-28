@@ -141,6 +141,20 @@ As it sounds, the usability of a product is ranked on how easy users find it to 
 Usability can be achieved by testing already written content on brand-new users and noting their reactions and the rate of their learning curves.
 It can also be improved by conducting anonymous surveys, correcting loopholes, and permitting open-source contributions for users.
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5378239849378753"
+     crossorigin="anonymous"></script>
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="fluid"
+     data-ad-layout-key="-69+df+2w-69+99"
+     data-ad-client="ca-pub-5378239849378753"
+     data-ad-slot="8738845156"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 #### Hierarchy
 
 Hierarchy is the methodical arrangement of written content to suit an acceptable narrative. We know that when we pick up a book, the first word or phrase we expect to see is the title, followed by the author's name.

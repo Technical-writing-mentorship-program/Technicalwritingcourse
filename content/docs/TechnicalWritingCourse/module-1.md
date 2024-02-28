@@ -134,6 +134,20 @@ For example, a software company may introduce new features in their product, suc
 
 [The Google Cloud Release Note](https://cloud.google.com/release-notes) is an example of a release note.
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5378239849378753"
+     crossorigin="anonymous"></script>
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="fluid"
+     data-ad-layout-key="-69+df+2w-69+99"
+     data-ad-client="ca-pub-5378239849378753"
+     data-ad-slot="8738845156"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ###### 9. Online help:
 
 These digital documents provide instructions, guidance, or information to assist users in effectively using products.

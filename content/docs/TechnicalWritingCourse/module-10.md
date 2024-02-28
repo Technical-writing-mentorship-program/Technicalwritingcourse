@@ -291,6 +291,20 @@ From your audience analysis, allocate time based on how important and complex a 
 
 Have review sessions to assess your progress against the roadmap and timelines you set and make adjustments when needed.
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5378239849378753"
+     crossorigin="anonymous"></script>
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="fluid"
+     data-ad-layout-key="-69+df+2w-69+99"
+     data-ad-client="ca-pub-5378239849378753"
+     data-ad-slot="8738845156"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ## Gather Information
 
 After creating a research plan, the next step will be to gather information from the various sources you mentioned in your research plan.

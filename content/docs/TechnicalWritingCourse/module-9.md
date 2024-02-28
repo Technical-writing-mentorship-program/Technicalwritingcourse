@@ -140,6 +140,19 @@ As with any concept, usage rules apply. Consider the following when creating dia
   Figure [NUMBER]. [DESCRIPTION]
   ```
 
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5378239849378753"
+       crossorigin="anonymous"></script>
+
+  <ins class="adsbygoogle"
+       style="display:block"
+       data-ad-format="fluid"
+       data-ad-layout-key="-69+df+2w-69+99"
+       data-ad-client="ca-pub-5378239849378753"
+       data-ad-slot="8738845156"></ins>
+  <script>
+       (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
 - **Give credit:** Provide proper attribution when using images created by others. This maintains ethical standards in content creation, crucial in web development.
 
   The following is an example of image attribution in markdown:

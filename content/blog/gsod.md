@@ -123,6 +123,20 @@ You can apply to as many organizations as your skills align with. If your skills
 
 Yes, shooting as many shots as possible is wise, but it could hurt you if there are too many. Follow your strengths and select the organizations you can deliver best to.
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5378239849378753"
+     crossorigin="anonymous"></script>
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="fluid"
+     data-ad-layout-key="-69+df+2w-69+99"
+     data-ad-client="ca-pub-5378239849378753"
+     data-ad-slot="8738845156"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ##### How do you select organizations that work best?
 
 - Your tech stack strength.

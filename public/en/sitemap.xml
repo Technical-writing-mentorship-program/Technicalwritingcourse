@@ -31,6 +31,24 @@
   
   
   <url>
+    <loc>/blog/glasp-writing-contest-how-glasp-helped-you-learn-faster-and-better/</loc>
+    <lastmod>2023-09-07T16:27:22+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  
+  
+  <url>
+    <loc>/blog/how-to-crack-google-season-of-docs-2024./</loc>
+    <lastmod>2024-02-12T10:03:22+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  
+  
+  <url>
     <loc>/blog/introduction-to-technical-wrting-mentorship-program/</loc>
     <lastmod>2023-09-07T16:27:22+02:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -140,7 +158,7 @@
   
   <url>
     <loc>/categories/</loc>
-    <lastmod>2023-09-07T16:27:22+02:00</lastmod>
+    <lastmod>2024-02-12T10:03:22+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -149,7 +167,79 @@
   
   <url>
     <loc>/contributors/</loc>
+    <lastmod>2024-02-12T10:03:22+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2024-02-12T10:03:22+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  
+  
+  <url>
+    <loc>/contributors/wisdom-nwokocha/</loc>
     <lastmod>2023-09-07T16:27:22+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  
+  
+  <url>
+    <loc>/tags/writing-contest/</loc>
+    <lastmod>2023-09-07T16:27:22+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  
+  
+  <url>
+    <loc>/categories/writing-contest/</loc>
+    <lastmod>2023-09-07T16:27:22+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  
+  
+  <url>
+    <loc>/contributors/blessing-ene-anyebe/</loc>
+    <lastmod>2024-02-12T10:03:22+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  
+  
+  <url>
+    <loc>/tags/google-season-of-docs/</loc>
+    <lastmod>2024-02-12T10:03:22+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  
+  
+  <url>
+    <loc>/tags/open-source/</loc>
+    <lastmod>2024-02-12T10:03:22+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  
+  
+  <url>
+    <loc>/categories/open-source/</loc>
+    <lastmod>2024-02-12T10:03:22+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -176,24 +266,6 @@
   
   <url>
     <loc>/categories/introductory/</loc>
-    <lastmod>2023-09-07T16:27:22+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2023-09-07T16:27:22+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  
-  
-  <url>
-    <loc>/contributors/wisdom-nwokocha/</loc>
     <lastmod>2023-09-07T16:27:22+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

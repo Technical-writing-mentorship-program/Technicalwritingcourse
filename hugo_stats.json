@@ -31,6 +31,7 @@
       "iframe",
       "img",
       "input",
+      "ins",
       "kbd",
       "label",
       "li",
@@ -68,6 +69,7 @@
     "classes": [
       "DocSearch-Label",
       "active",
+      "adsbygoogle",
       "align-items-center",
       "anchor",
       "bg-dots",

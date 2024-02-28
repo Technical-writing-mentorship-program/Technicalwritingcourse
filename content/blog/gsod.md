@@ -61,6 +61,20 @@ Contributing to GSOD gives you more real-world experience working on technical d
 
 In participating, you get stipends from Google paid through the organization. It is a rewarding experience to learn, contribute, and get paid. GSOD provides a completely stellar open source package.
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5378239849378753"
+     crossorigin="anonymous"></script>
+
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-5378239849378753"
+     data-ad-slot="8846640451"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ##### Access to future opportunities:
 
 GSOD helps expand your network. You become the person other beginners want to learn from, someone mentors/seniors can work with for other opportunities.

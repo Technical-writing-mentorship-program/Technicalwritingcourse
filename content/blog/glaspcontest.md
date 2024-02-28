@@ -28,6 +28,20 @@ If so, then the Glasp Writing Contest is tailor-made for you!
 
 **Objective:** Craft an informative and engaging article that showcases how Glasp can be utilized to highlight key points, add insightful notes, and generate summaries from websites and YouTube videos.
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5378239849378753"
+     crossorigin="anonymous"></script>
+
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-5378239849378753"
+     data-ad-slot="8846640451"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ### Key Points to Cover:
 
 ###### 1. Highlighting and Annotating Web Pages and PDFs:

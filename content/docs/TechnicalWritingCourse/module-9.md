@@ -18,6 +18,20 @@ seo:
   noindex: false # false (default) or true
 ---
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5378239849378753"
+     crossorigin="anonymous"></script>
+
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-5378239849378753"
+     data-ad-slot="8846640451"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 Visual elements like diagrams, images, and illustrations are effective tools for making your documentation engaging and easy to understand.
 
 They're great for explaining complex concepts, processes, or workflows. Additionally, they break up large chunks of text and improve readability.

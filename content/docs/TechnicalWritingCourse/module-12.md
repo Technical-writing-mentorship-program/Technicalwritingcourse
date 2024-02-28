@@ -18,6 +18,19 @@ seo:
   noindex: false # false (default) or true
 ---
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5378239849378753"
+     crossorigin="anonymous"></script>
+
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-5378239849378753"
+     data-ad-slot="8846640451"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/8fa406zshkkpi2r8urcs.jpg" alt= "Writing for User Experience (UX)" width="100%">
 
 _**Figure 1**. The concept of writing for User Experience (UX)._

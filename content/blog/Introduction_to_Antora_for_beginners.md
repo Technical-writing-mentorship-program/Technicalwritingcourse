@@ -214,6 +214,20 @@ To export your AsciiDoc document as a PDF, follow these steps:
 
 3. The AsciiDoc extension will prompt you to select the PDF's desired file name and location.
 
+ <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5378239849378753"
+       crossorigin="anonymous"></script>
+
+<ins class="adsbygoogle"
+       style="display:block"
+       data-ad-format="fluid"
+       data-ad-layout-key="-69+df+2w-69+99"
+       data-ad-client="ca-pub-5378239849378753"
+       data-ad-slot="8738845156"></ins>
+
+  <script>
+       (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
 **Save as HTML**
 To generate HTML from your Asciidoc file, follow the steps below:
 
@@ -351,6 +365,20 @@ To save your AsciiDoc file to Docbook, follow the steps below:
 
 - Just like you did for GitHub, follow a similar process for AzureStaticWebApp.
 - Make sure your documentation is ready and committed in your repository.
+
+ <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5378239849378753"
+       crossorigin="anonymous"></script>
+
+<ins class="adsbygoogle"
+       style="display:block"
+       data-ad-format="fluid"
+       data-ad-layout-key="-69+df+2w-69+99"
+       data-ad-client="ca-pub-5378239849378753"
+       data-ad-slot="8738845156"></ins>
+
+  <script>
+       (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
 
 **Create an Azure Pages Workflow**:
 

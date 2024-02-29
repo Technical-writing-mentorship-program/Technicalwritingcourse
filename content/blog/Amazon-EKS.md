@@ -18,7 +18,7 @@ seo:
   noindex: false # false (default) or true
 ---
 
-![Amazon EKS Cover Image](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/q6kahlgsssyon3l6amrl.png)
+{{< picture src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/q6kahlgsssyon3l6amrl.png" alt="Amazon EKS Cover Image" >}}
 
 Containers are a way to package, deploy, and manage applications. [Docker](https://docs.docker.com/get-started/overview/) is a popular open-source containerization platform that allows you to package your application, its OS libraries, and dependencies together into a container image.
 

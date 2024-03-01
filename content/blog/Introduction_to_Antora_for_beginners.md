@@ -7,8 +7,8 @@ date: 2024-02-29T16:27:22+02:00
 lastmod: 2023-09-07T16:27:22+02:00
 draft: false
 weight: 50
-categories: [writing contest]
-tags: [writing contest]
+categories: [antora, guide, doc as code, documentation]
+tags: [antora, guide, doc as code, documentation]
 contributors: [Wisdom Nwokocha]
 pinned: false
 homepage: false

@@ -32,6 +32,20 @@ The first step is to understand the type of content you're creating. Is it a blo
 
 Each type may have slightly different formatting and style considerations.
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5378239849378753"
+     crossorigin="anonymous"></script>
+
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-5378239849378753"
+     data-ad-slot="8846640451"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 #### Step 2: Break down your content
 
 Once you understand the content type, identify specific areas where you might need guidance. For example, are you including:
@@ -62,3 +76,17 @@ Based on the guide's recommendations, adapt your content to adhere to the sugges
 Finally, proofread your content thoroughly, ensuring consistency with the style guide's recommendations and your own unique voice.
 
 By following these steps and leveraging the Google writing style guide, you can create polished, informative, and Google-friendly content!
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5378239849378753"
+     crossorigin="anonymous"></script>
+
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-5378239849378753"
+     data-ad-slot="8846640451"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

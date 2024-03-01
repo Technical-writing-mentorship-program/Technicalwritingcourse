@@ -20,7 +20,7 @@ seo:
   noindex: false # false (default) or true
 ---
 
-# Introduction to Antora for beginners:
+![](https://paper-attachments.dropboxusercontent.com/s_040DBEFCD010CD9D72D8F68E5F48F297CEBF454A18B2565E8A617E8894CB0609_1708794318119_Screenshot+2024-02-24+at+18.05.04.png)
 
 Antora is a static site generator that transforms AsciiDoc content into documentation sites.
 

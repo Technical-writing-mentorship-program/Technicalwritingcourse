@@ -18,7 +18,7 @@ seo:
   noindex: false # false (default) or true
 ---
 
-![Amazon EKS Cover Image](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/q6kahlgsssyon3l6amrl.png)
+<img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/q6kahlgsssyon3l6amrl.png" alt="Amazon EKS Cover Image" width="100%">
 
 Containers are a way to package, deploy, and manage applications. [Docker](https://docs.docker.com/get-started/overview/) is a popular open-source containerization platform that allows you to package your application, its OS libraries, and dependencies together into a container image.
 
@@ -84,13 +84,13 @@ The application you'll be deploying is a sample hello-world application provided
 The application is written in Go and the source code is available on GitHub. Clone the repository by running the following command:
 
 ```bash
-git clone https://github.com/GoogleCloudPlatform/kubernetes-engine-samples.git
+  git clone https://github.com/GoogleCloudPlatform/kubernetes-engine-samples.git
 ```
 
 Change into the directory of the application:
 
 ```bash
-cd kubernetes-engine-samples/quickstarts/hello-app
+  cd kubernetes-engine-samples/quickstarts/hello-app
 ```
 
 ## Step 1 - Containerize the Application
@@ -102,18 +102,18 @@ The following steps will guide you in building the Docker image and pushing it t
 - **Build the Docker image**:
 
   ```bash
-  docker build -t hello-app .
+    docker build -t hello-app .
   ```
 
 - **Create an ECR repository**. Navigate to the AWS console and search for ECR. Click on **Get Started**. Give the repository a name and leave the other settings as default. Once you're done, click on **Create repository**.
 
-  ![Create ECR Repository](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/rgm64negf57aazzf3vlv.png)
+  <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/rgm64negf57aazzf3vlv.png" alt="Create ECR Repository" width="100%">
   _**Figure 1**: Create ECR Repository_
 
 - **Authenticate Docker to the ECR registry**:
 
   ```bash
-  aws ecr get-login-password --region <region> | docker login --username AWS --password-stdin <account-id>.dkr.ecr.<region>.amazonaws.com
+    aws ecr get-login-password --region <region> | docker login --username AWS --password-stdin <account-id>.dkr.ecr.<region>.amazonaws.com
   ```
 
   {{< callout context="note" title="Important:" icon="info-circle" >}}
@@ -122,13 +122,13 @@ The following steps will guide you in building the Docker image and pushing it t
 
   {{< /callout >}}
 
-  ![View Push Commands](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/fp2ya0sslkxfp4yeu5op.png)
+  <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/fp2ya0sslkxfp4yeu5op.png" alt="View Push Commands" width="100%">
   _**Figure 2**: View Push Commands (ECR Repository)_
 
 - **Tag the Docker image**:
 
   ```bash
-  docker tag hello-app:latest <account-id>.dkr.ecr.<region>.amazonaws.com/hello-app:latest
+    docker tag hello-app:latest <account-id>.dkr.ecr.<region>.amazonaws.com/hello-app:latest
   ```
 
   {{< callout context="note" title="Important:" icon="info-circle" >}}
@@ -140,7 +140,7 @@ The following steps will guide you in building the Docker image and pushing it t
 - **Push the Docker image to ECR**:
 
   ```bash
-  docker push <account-id>.dkr.ecr.<region>.amazonaws.com/hello-app:latest
+    docker push <account-id>.dkr.ecr.<region>.amazonaws.com/hello-app:latest
   ```
 
   {{< callout context="note" title="Important:" icon="info-circle" >}}
@@ -151,7 +151,7 @@ The following steps will guide you in building the Docker image and pushing it t
 
   View the pushed Docker image on the ECR console.
 
-  ![ECR Repository Image](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/bx3fnhv9uimu0h3k4xgz.png)
+  <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/bx3fnhv9uimu0h3k4xgz.png" alt="ECR Repository Image" width="100%">
   _**Figure 3**: ECR Repository Image_
 
 ## Step 2 - Install eksctl
@@ -161,19 +161,19 @@ You'll need to install `eksctl` if you haven't already. This tutorial uses a Lin
 - **Download and install `eksctl`**:
 
   ```bash
-  curl --silent --location "https://github.com/weaveworks/eksctl/releases/latest/download/eksctl_$(uname -s)_amd64.tar.gz" | tar xz -C /tmp
+    curl --silent --location "https://github.com/weaveworks/eksctl/releases/latest/download/eksctl_$(uname -s)_amd64.tar.gz" | tar xz -C /tmp
   ```
 
 - **Move the extracted binary to `/usr/local/bin`**:
 
   ```bash
-  sudo mv /tmp/eksctl /usr/local/bin
+    sudo mv /tmp/eksctl /usr/local/bin
   ```
 
 - **Test the installation**:
 
   ```bash
-  eksctl version
+    eksctl version
   ```
 
   You should see the version of `eksctl` installed.
@@ -183,14 +183,14 @@ You'll need to install `eksctl` if you haven't already. This tutorial uses a Lin
 You'll use `eksctl` to create an EKS cluster. The following command will create an EKS cluster with two worker nodes of type `t3.medium` in the `us-east-1` region.
 
 ```bash
-eksctl create cluster --name test-cluster --version 1.29 --region us-east-1 --nodegroup-name linux-nodes --node-type t3.medium --nodes 2
+  eksctl create cluster --name test-cluster --version 1.29 --region us-east-1 --nodegroup-name linux-nodes --node-type t3.medium --nodes 2
 ```
 
 The `--version` flag specifies the Kubernetes version to use. The `--nodegroup-name` flag specifies the name of the node group and the `--nodes` flag specifies the number of nodes to create.
 
 Modify the flags to suit your needs. The command will take a few minutes to complete and you'll see the progress in the terminal. After completing the command, you can view the created EKS cluster on the AWS console.
 
-![EKS Cluster](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/x6e37po6x898ue7q53lp.png)
+<img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/x6e37po6x898ue7q53lp.png" alt="EKS Cluster" width="100%">
 _**Figure 4**: EKS Cluster on AWS Console_
 
 ## Step 4 - Deploy the Application
@@ -200,7 +200,7 @@ Using `eksctl`, your EKS cluster information gets automatically added to the `ku
 To verify, run the following command:
 
 ```bash
-kubectl get nodes
+  kubectl get nodes
 ```
 
 This should display the two worker nodes you created.
@@ -220,13 +220,13 @@ Replace the `image` field with the URL of the container image in ECR. The URL sh
 After modifying the file, apply the deployment configuration:
 
 ```bash
-kubectl apply -f helloweb-deployment.yaml
+  kubectl apply -f helloweb-deployment.yaml
 ```
 
 This will create a deployment for the application. You can view the created deployment by running the following command:
 
 ```bash
-kubectl get deployments
+  kubectl get deployments
 ```
 
 ## Step 5 - Deploy the Service
@@ -238,18 +238,18 @@ The service configuration specifies the type of service to create, the port to e
 Apply the service configuration:
 
 ```bash
-kubectl apply -f helloweb-service-load-balancer.yaml
+  kubectl apply -f helloweb-service-load-balancer.yaml
 ```
 
 This will create a service for the application. View the created service by running the following command:
 
 ```bash
-kubectl get services
+  kubectl get services
 ```
 
 The service will take a few minutes to be created after which you can view the Load Balancer on the AWS console.
 
-![Load Balancer](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/o6nlbl8q4tts1guisxye.png)
+<img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/o6nlbl8q4tts1guisxye.png" alt="Load Balancer" width="100%">
 _**Figure 5**: Load Balancer on AWS Console_
 
 ## Step 6 - Access the Application
@@ -257,12 +257,12 @@ _**Figure 5**: Load Balancer on AWS Console_
 After the service is created, you can access the application online. Run the following command to get the URL of the Load Balancer:
 
 ```bash
-kubectl get svc
+  kubectl get svc
 ```
 
 Access the application by visiting the URL in your browser.
 
-![Application](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/09xdwxydsub9qe5mmaq6.png)
+<img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/09xdwxydsub9qe5mmaq6.png" alt="Application" width="100%">
 _**Figure 6**: Hello World Application running on Browser_
 
 ## Clean Up
@@ -272,7 +272,7 @@ After you're done with the application, `eksctl` makes it easy to delete the EKS
 - **Delete the EKS cluster**:
 
   ```bash
-  eksctl delete cluster --name test-cluster
+    eksctl delete cluster --name test-cluster
   ```
 
 - **Delete the ECR repository**: Navigate to the ECR console and delete the repository.
@@ -284,7 +284,7 @@ You might encounter a few issues when deploying an application to Amazon EKS. Th
 - **Version incompactability**. This error is encountered when connecting to the EKS cluster using kubectl. The error message looks like this:
 
   ```bash
-  Unable to connect to the server: getting credentials: decoding stdout: no kind "ExecCredential" is registered for version "client.authentication.k8s.io/v1alpha1" in scheme "pkg/client/auth/exec/exec.go:62"
+    Unable to connect to the server: getting credentials: decoding stdout: no kind "ExecCredential" is registered for version "client.authentication.k8s.io/v1alpha1" in scheme "pkg/client/auth/exec/exec.go:62"
   ```
 
   The key thing to note in this error message is the version `v1alpha1`. This means the `kubectl` version is not compatible with the EKS cluster version
@@ -299,7 +299,7 @@ You might encounter a few issues when deploying an application to Amazon EKS. Th
 - **Access Denied**. This error occurs when you try to create an EKS cluster using `eksctl` and you don't have the necessary permissions or the AWS CLI is not properly configured. The error message looks like this:
 
   ```bash
-  Error: checking AWS STS access – cannot get role ARN for current session: operation error STS: GetCallerIdentity, get identity: get credentials: failed to refresh cached credentials, no EC2 IMDS role found, operation error ec2imds: GetMetadata, http response error StatusCode: 404, request to EC2 IMDS failed
+    Error: checking AWS STS access – cannot get role ARN for current session: operation error STS: GetCallerIdentity, get identity: get credentials: failed to refresh cached credentials, no EC2 IMDS role found, operation error ec2imds: GetMetadata, http response error StatusCode: 404, request to EC2 IMDS failed
   ```
 
   To fix this, ensure you have the necessary permissions to create an EKS cluster and that the AWS CLI is properly configured.
@@ -307,7 +307,7 @@ You might encounter a few issues when deploying an application to Amazon EKS. Th
   You can also check the AWS CLI configuration by running the following command:
 
   ```bash
-  aws configure list
+    aws configure list
   ```
 
   This will display the AWS CLI configuration. Ensure that the `aws_access_key_id` and `aws_secret_access_key` are properly configured.

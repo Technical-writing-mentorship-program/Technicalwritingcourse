@@ -1,80 +1,15 @@
-# Technicalwritingcourse
+# Technical Writing Mentorship Program
 
-This repository contains modules for the Technical Writing Course. The course is designed to help you learn the basics of technical writing and documentation. It is a hands-on course that includes exercises and quizzes to test your knowledge.
+This repository contains modules for the Technical Writing Mentorship Program's documentation course.
 
-The course is divided into modules, each of which covers a specific topic. The modules are designed to be completed in order, but you can skip around if you want to.
+This course is designed to help you learn the basics of technical writing. It is a hands-on course that includes exercises and quizzes to test your knowledge.
+
+The course is divided into modules, with each module covering a specific topic. The modules are designed to be completed in order, however, you can skip around if you prefer.
 
 ## How to contribute to this project
 
-1. Clone the project:
+This project is open to contributions from the community. If you would like to contribute to this project, please follow the steps in our [contributing guide](CONTRIBUTING.md).
 
-```bash
-git clone https://github.com/Technical-writing-mentorship-program/Technicalwritingcourse.git
-```
+## License
 
-2. Install dependencies:
-
-Navigate to the cloned project directory and install the project's dependencies:
-
-```bash
-cd Technicalwritingcourse
-npm install
-```
-
-3.  Add your content:
-
-- Open the project in your preferred code editor and locate the `content/docs/TechnicalWritingCourse` writing course directory.
-- Create a new Markdown file (.md) for your topic and add your content.
-- Make sure to include the frontmatter information:
-
-> Dont modify the dates in the frontmatter, they help in the order of the course.
-
-```bash
----
-
-title: "Intro to technical writing"
-
-description: "Guides lead a user through a specific task they want to accomplish, often with a sequence of steps."
-
-summary: ""
-
-date: 2023-08-07T16:04:48+02:00
-
-lastmod: 2023-09-07T16:04:48+02:00
-
-draft: false
-
-menu:
-
-  docs:
-
-    parent: ""
-
-    identifier: "example-6a1a6be4373e933280d78ea53de6158e"
-
-    weight: 810
-
-toc: true
-
-seo:
-
-  title: "" # custom title (optional)
-
-  description: "" # custom description (recommended)
-
-  canonical: "" # custom canonical URL (optional)
-
-  noindex: false # false (default) or true
-
----
-```
-
-4. Preview your changes:
-
-You can preview your changes before submitting a PR.
-
-To do this, run the project using the Hugo server:
-
-```bash
-npm run dev
-```
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.

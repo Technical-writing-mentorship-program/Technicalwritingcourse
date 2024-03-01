@@ -193,6 +193,20 @@ Modify the flags to suit your needs. The command will take a few minutes to comp
 <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/x6e37po6x898ue7q53lp.png" alt="EKS Cluster" width="100%">
 _**Figure 4**: EKS Cluster on AWS Console_
 
+ <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5378239849378753"
+       crossorigin="anonymous"></script>
+
+<ins class="adsbygoogle"
+       style="display:block"
+       data-ad-format="fluid"
+       data-ad-layout-key="-69+df+2w-69+99"
+       data-ad-client="ca-pub-5378239849378753"
+       data-ad-slot="8738845156"></ins>
+
+  <script>
+       (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
 ## Step 4 - Deploy the Application
 
 Using `eksctl`, your EKS cluster information gets automatically added to the `kubeconfig` file. This means you can use kubectl to interact with the EKS cluster.
@@ -311,6 +325,18 @@ You might encounter a few issues when deploying an application to Amazon EKS. Th
   ```
 
   This will display the AWS CLI configuration. Ensure that the `aws_access_key_id` and `aws_secret_access_key` are properly configured.
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5378239849378753"
+        crossorigin="anonymous"></script>
+
+  <ins class="adsbygoogle"
+        style="display:block"
+        data-ad-format="fluid"
+        data-ad-layout-key="-69+df+2w-69+99"
+        data-ad-client="ca-pub-5378239849378753"
+        data-ad-slot="8738845156"></ins>
+   <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+   </script>
 
 ## Conclusion
 

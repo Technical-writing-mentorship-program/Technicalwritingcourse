@@ -18,6 +18,20 @@ seo:
   noindex: false # false (default) or true
 ---
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5378239849378753"
+     crossorigin="anonymous"></script>
+
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-5378239849378753"
+     data-ad-slot="8846640451"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 {{< callout context="note" title="In this Module, you will learn:" icon="info-circle" >}}
 
 - What is a writing style guide?
@@ -129,11 +143,23 @@ The following are important attributes that must be contained in your style guid
 
   Given the multitude of standards in this area, refer to [Shopify's style guide](https://polaris.shopify.com/content/grammar-and-mechanics) for a comprehensive example. They provide clear explanations with numerous examples to illustrate their grammar and punctuation rules.
 
-  <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/qyohkegqnsqboc0vlzyi.png" alt="Shopify's grammar and punctuation" width="100%">
+    <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/qyohkegqnsqboc0vlzyi.png" alt="Shopify's grammar and punctuation" width="100%">
 
   _**Figure 3**. Shopify's grammar and punctuation_
 
   In your guide, be sure to provide examples for every point you make. This practice aids your writers in understanding the intended message and application of the guidelines.
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5378239849378753"
+       crossorigin="anonymous"></script>
+
+  <ins class="adsbygoogle"
+       style="display:block"
+       data-ad-format="fluid"
+       data-ad-layout-key="-69+df+2w-69+99"
+       data-ad-client="ca-pub-5378239849378753"
+       data-ad-slot="8738845156"></ins>
+  <script>
+       (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
 
 - **Formatting**
 

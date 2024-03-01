@@ -37,6 +37,25 @@ It&amp;rsquo;s packed with useful stuff and totally FREE for everyone!</descript
     </item>
     
     <item>
+      <title>Glasp writing contest: How Glasp Helped You Learn Faster and Better</title>
+      <link>/blog/glasp-writing-contest-how-glasp-helped-you-learn-faster-and-better/</link>
+      <pubDate>Tue, 20 Feb 2024 16:27:22 +0200</pubDate>
+      
+      <guid>/blog/glasp-writing-contest-how-glasp-helped-you-learn-faster-and-better/</guid>
+      <description>Do you love to explore the depths of the internet and share your insights with the world?
+Are you a master at extracting valuable information from websites and distilling it into concise summaries?</description>
+    </item>
+    
+    <item>
+      <title>How to crack Google Season of Docs 2024.</title>
+      <link>/blog/how-to-crack-google-season-of-docs-2024./</link>
+      <pubDate>Mon, 12 Feb 2024 10:03:22 +0200</pubDate>
+      
+      <guid>/blog/how-to-crack-google-season-of-docs-2024./</guid>
+      <description>(Tips from GSOD’s past Interns) The Google Season of Docs is one of the most influential open source platforms for technical documentation beneficial to organizations and technical writers.</description>
+    </item>
+    
+    <item>
       <title>Introduction to technical wrting mentorship program</title>
       <link>/blog/introduction-to-technical-wrting-mentorship-program/</link>
       <pubDate>Sun, 07 Jan 2024 16:27:22 +0200</pubDate>
@@ -69,8 +88,7 @@ It&amp;rsquo;s packed with useful stuff and totally FREE for everyone!</descript
       <pubDate>Mon, 07 Aug 2023 16:04:48 +0200</pubDate>
       
       <guid>/docs/portfolio/glasp-user-guide-assignment/</guid>
-      <description>Assignment Title: Glasp user guide Do the following:
-Generate the table of content. Choose a suitable title. Write in Markdown. Create a repo on GitHub.</description>
+      <description>This assignment, you will write an article covering everything about Glasp https://glasp.co/ and how to use it</description>
     </item>
     
     <item>
@@ -80,24 +98,6 @@ Generate the table of content. Choose a suitable title. Write in Markdown. Creat
       
       <guid>/docs/talent/technical-writing-talent/</guid>
       <description>At our disposal, we have a talented pool of trusted writers who are poised to create world-class content tailored to your needs.</description>
-    </item>
-    
-    <item>
-      <title>Information  Architecture</title>
-      <link>/docs/technicalwritingcourse/information-architecture/</link>
-      <pubDate>Thu, 15 Jun 2023 07:07:07 +0100</pubDate>
-      
-      <guid>/docs/technicalwritingcourse/information-architecture/</guid>
-      <description>Technical writers are the architect of knowledge, but curating effective documentation requires more than just a clear prose. A well-crafted information architecture forms the foundation, ensuring users can navigate complex information with ease and find the answers they need quickly.</description>
-    </item>
-    
-    <item>
-      <title>Writing for Different Audiences</title>
-      <link>/docs/technicalwritingcourse/writing-for-different-audiences/</link>
-      <pubDate>Sun, 15 Oct 2023 07:07:07 +0100</pubDate>
-      
-      <guid>/docs/technicalwritingcourse/writing-for-different-audiences/</guid>
-      <description>Explore tailored strategies to engage diverse readers, whether you&amp;rsquo;re crafting content for end users, developers, managers, or regulatory authorities</description>
     </item>
     
   </channel>

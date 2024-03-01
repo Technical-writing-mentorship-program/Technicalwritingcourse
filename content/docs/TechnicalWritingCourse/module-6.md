@@ -18,6 +18,20 @@ seo:
   noindex: false # false (default) or true
 ---
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5378239849378753"
+     crossorigin="anonymous"></script>
+
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-5378239849378753"
+     data-ad-slot="8846640451"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 {{< callout context="tip" title="Peter Morville says - “Findability precedes usability; you can’t use what you can’t find. which makes information architecture vital when curating technical documentation that we want readers to find useful." icon="rocket" >}} {{< /callout >}}
 
 {{< callout context="note" title="In this Module, you will learn:" icon="info-circle" >}}
@@ -267,7 +281,17 @@ It isn't uncommon to see an article on a particular topic, but that article does
 - **Content inventory**: This is where you collate all existing articles on a particular topic and then audit each one in order to gather insights on how useful and accurate the information is to readers, what is missing, and what needs to be added to make for a sound article that would help users find what they are looking for easily.
 
 - **Information grouping and classification**: After you must have settled for an area in which you want to focus your article on, the next logical step is to note down what each section of the article contains and what are their sub-sections. This would create a logical hierarchy and a seamless way for users to understand your thought process, the information you wish to impact on them, and how each sub-section relates to the main section.
-
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5378239849378753"
+       crossorigin="anonymous"></script>
+  <ins class="adsbygoogle"
+       style="display:block"
+       data-ad-format="fluid"
+       data-ad-layout-key="-69+df+2w-69+99"
+       data-ad-client="ca-pub-5378239849378753"
+       data-ad-slot="8738845156"></ins>
+  <script>
+       (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
 - **Proper labeling and taxonomy**: Create a clear and concise label that leaves no room for ambiguity.
   Users should understand what your label means at the first read without having to guess second what that section is all about.
 

@@ -61,6 +61,20 @@ Contributing to GSOD gives you more real-world experience working on technical d
 
 In participating, you get stipends from Google paid through the organization. It is a rewarding experience to learn, contribute, and get paid. GSOD provides a completely stellar open source package.
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5378239849378753"
+     crossorigin="anonymous"></script>
+
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-5378239849378753"
+     data-ad-slot="8846640451"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ##### Access to future opportunities:
 
 GSOD helps expand your network. You become the person other beginners want to learn from, someone mentors/seniors can work with for other opportunities.
@@ -108,6 +122,20 @@ It is important to note that while contributing to open source organizations is 
 You can apply to as many organizations as your skills align with. If your skills align with all, apply to all and try not to overdo it. You can do a maximum of 3 and a minimum of 2. It is to ensure that your attention is not overly saturated.
 
 Yes, shooting as many shots as possible is wise, but it could hurt you if there are too many. Follow your strengths and select the organizations you can deliver best to.
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5378239849378753"
+     crossorigin="anonymous"></script>
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="fluid"
+     data-ad-layout-key="-69+df+2w-69+99"
+     data-ad-client="ca-pub-5378239849378753"
+     data-ad-slot="8738845156"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ##### How do you select organizations that work best?
 

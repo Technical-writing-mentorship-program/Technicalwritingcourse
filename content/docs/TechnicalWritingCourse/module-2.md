@@ -18,6 +18,20 @@ seo:
   noindex: false # false (default) or true
 ---
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5378239849378753"
+     crossorigin="anonymous"></script>
+
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-5378239849378753"
+     data-ad-slot="8846640451"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 Writing for different audiences is necessary for every writer; it involves tailoring your content to ensure it is accessible, engaging, and comprehensible to the readers.
 
 {{< callout context="note" title="Module content" icon="info-circle" >}}
@@ -142,6 +156,17 @@ Technical audiences can be grouped into:
 
 - _Low-level Technical Audiences_
 - _High-level Technical Audiences_
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5378239849378753"
+       crossorigin="anonymous"></script>
+  <ins class="adsbygoogle"
+       style="display:block"
+       data-ad-format="fluid"
+       data-ad-layout-key="-69+df+2w-69+99"
+       data-ad-client="ca-pub-5378239849378753"
+       data-ad-slot="8738845156"></ins>
+  <script>
+       (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
 
 ###### 2. Low-level Technical Audiences:
 
@@ -460,7 +485,6 @@ Complete the following exercises before leaving this module.
 Write an article on how to use VScode for a low-level technical audience
 
 Follow the instructions below;
-
 
 - Conduct an audience analysis to understand the needs and preferences of your readers.
 - Create a table of contents that outlines the structure of your article.

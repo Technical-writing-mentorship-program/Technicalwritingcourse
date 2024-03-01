@@ -18,6 +18,20 @@ seo:
   noindex: false # false (default) or true
 ---
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5378239849378753"
+     crossorigin="anonymous"></script>
+
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-5378239849378753"
+     data-ad-slot="8846640451"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 Technical writing is a field that requires clarity, and efficiency in communication. Writers rely on various tools and software applications to produce effective technical documentation.
 
 {{< callout context="tip" title="Krista Van Laan says" icon="rocket" >}}
@@ -173,6 +187,20 @@ Some IDEs are Visual Studio code, Markdown Editor, Notepad++, Sublime Text, and 
 [VSCode](https://code.visualstudio.com/) is a code editor built by Microsoft and is suitable for web and desktop applications.
 
 It is a robust platform that offers extensions and integrations to other platforms. VSCode has an extension marketplace to add and integrate apps and software.
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5378239849378753"
+     crossorigin="anonymous"></script>
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="fluid"
+     data-ad-layout-key="-69+df+2w-69+99"
+     data-ad-client="ca-pub-5378239849378753"
+     data-ad-slot="8738845156"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ###### 2. **Notepad++**
 

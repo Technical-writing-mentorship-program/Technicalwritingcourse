@@ -129,7 +129,7 @@ As with any concept, usage rules apply. Consider the following when creating dia
   The following is an example of alt text in markdown:
 
   ```markdown
-  ![alt text](/path/to/image.png)
+    ![alt text](/path/to/image.png)
   ```
 
 - **Figure descriptions:** Accompany images with clear figure descriptions. This helps readers, especially in scenarios like network security diagrams.
@@ -137,7 +137,7 @@ As with any concept, usage rules apply. Consider the following when creating dia
   The following is an example of a figure description in markdown:
 
   ```markdown
-  Figure [NUMBER]. [DESCRIPTION]
+    Figure [NUMBER]. [DESCRIPTION]
   ```
 
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5378239849378753"
@@ -158,15 +158,15 @@ As with any concept, usage rules apply. Consider the following when creating dia
   The following is an example of image attribution in markdown:
 
   ```markdown
-  ![alt text](/path/to/image.png)
-  Figure [NUMBER]. [DESCRIPTION]
-  Image source: [SOURCE]
+    ![alt text](/path/to/image.png)
+    Figure [NUMBER]. [DESCRIPTION]
+    Image source: [SOURCE]
   ```
 
   Or you can give credit in the figure description:
 
   ```markdown
-  Figure [NUMBER]. [Image source] from [image author]
+    Figure [NUMBER]. [Image source] from [image author]
   ```
 
 - **High resolution:** Maintain high-quality images for clear and legible details, benefiting both technical writers and developers.

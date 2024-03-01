@@ -1,5 +1,5 @@
 ---
-title: "How to Use a Google Writing Style Guide to Craft Stellar Articles"
+title: "How to Use a Google Writing Style Guide to Write Performing Articles"
 description: "Writing compelling and Google-friendly content is essential. The Google developer documentation style guide provides invaluable insights and guidelines to help you achieve this goal. "
 summary: ""
 date: 2024-02-20T18:27:22+02:00

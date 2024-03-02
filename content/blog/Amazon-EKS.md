@@ -108,7 +108,8 @@ The following steps will guide you in building the Docker image and pushing it t
 - **Create an ECR repository**. Navigate to the AWS console and search for ECR. Click on **Get Started**. Give the repository a name and leave the other settings as default. Once you're done, click on **Create repository**.
 
   <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/rgm64negf57aazzf3vlv.png" alt="Create ECR Repository" width="100%">
-  _**Figure 1**: Create ECR Repository_
+  
+  _**Figure 1**. Create ECR Repository_
 
 - **Authenticate Docker to the ECR registry**:
 
@@ -123,7 +124,8 @@ The following steps will guide you in building the Docker image and pushing it t
   {{< /callout >}}
 
   <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/fp2ya0sslkxfp4yeu5op.png" alt="View Push Commands" width="100%">
-  _**Figure 2**: View Push Commands (ECR Repository)_
+  
+  _**Figure 2**. View Push Commands (ECR Repository)_
 
 - **Tag the Docker image**:
 
@@ -152,7 +154,8 @@ The following steps will guide you in building the Docker image and pushing it t
   View the pushed Docker image on the ECR console.
 
   <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/bx3fnhv9uimu0h3k4xgz.png" alt="ECR Repository Image" width="100%">
-  _**Figure 3**: ECR Repository Image_
+  
+  _**Figure 3**. ECR Repository Image_
 
 ## Step 2 - Install eksctl
 
@@ -191,7 +194,8 @@ The `--version` flag specifies the Kubernetes version to use. The `--nodegroup-n
 Modify the flags to suit your needs. The command will take a few minutes to complete and you'll see the progress in the terminal. After completing the command, you can view the created EKS cluster on the AWS console.
 
 <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/x6e37po6x898ue7q53lp.png" alt="EKS Cluster" width="100%">
-_**Figure 4**: EKS Cluster on AWS Console_
+
+_**Figure 4**. EKS Cluster on AWS Console_
 
  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5378239849378753"
        crossorigin="anonymous"></script>
@@ -264,7 +268,8 @@ This will create a service for the application. View the created service by runn
 The service will take a few minutes to be created after which you can view the Load Balancer on the AWS console.
 
 <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/o6nlbl8q4tts1guisxye.png" alt="Load Balancer" width="100%">
-_**Figure 5**: Load Balancer on AWS Console_
+
+_**Figure 5**. Load Balancer on AWS Console_
 
 ## Step 6 - Access the Application
 
@@ -277,7 +282,8 @@ After the service is created, you can access the application online. Run the fol
 Access the application by visiting the URL in your browser.
 
 <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/09xdwxydsub9qe5mmaq6.png" alt="Application" width="100%">
-_**Figure 6**: Hello World Application running on Browser_
+
+_**Figure 6**. Hello World Application running on Browser_
 
 ## Clean Up
 

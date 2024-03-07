@@ -1,0 +1,273 @@
+
+# Master the Basics of SEO using Semrush 
+
+# Introduction to SEO 
+
+Search engine optimization(SEO) focuses on optimizing website content for better visibility on the search engine result page (SERP). 
+
+The goal is to drive organic traffic/results that are not paid i.e., the traffic is not gotten through Google ads.   
+
+According to Brian Dean, Over 60% of traffic on the web comes from search engines such as Google, Binge, Yahoo, YouTube, etc. 
+
+This guide covers core SEO concepts to help improve website visibility. Outline includes:
+
+* The basics of SEO
+* Finding effective keywords to target
+* Optimizing content for search crawlers
+* Strategies for building high-quality backlinks
+* Tracking and analyzing search performance over time
+
+You will also get detailed information on how search engines work and the key ranking factors that Google uses.
+
+
+## What is SEO  and Why it Matters
+
+SEO is a strategy for optimizing your website for higher ranking on search engines such as Google, binge, YouTube, yahoo, etc. 
+
+This process involves detailed research on the needs of your audience and creating high-quality content that is relevant, useful, and accurate. 
+
+
+### Why it Matters
+
+SEO is crucial in getting traffic, leads, and customers to your web page. It also boosts your brand recognition. SEO comprises both technical and content practices.
+
+There are three key factors taken into consideration for optimizing your website visibility on various search engines:
+
+
+
+1. **Relevancy:** This focuses on how relevant your content is on various search engines; for example, Google filters pages that are closely related to your keyword e.g., a user searches for the **best shoe brand in the world,** Google looks for a page that contains information and keywords related to the user’s search.
+
+
+![alt text](<../../resources/_gen/images/Screenshot (433).png>)
+
+
+
+2. **Authority:** This focuses on the accuracy and truthfulness of your content. The authority of a page is determined by the number of pages that link to your webpage.
+
+>**Note:** Backlinks are links from other pages. The more backlinks a page possesses, the higher its ranking will be on Google.
+
+However, Google's ability to measure the authority of webpages using links makes it stand out from other search engines. 
+
+3. **Usefulness:**  Usefulness of content is very important in SEO as this gives room for higher ranking. It focuses on how you organize your content. According to Google, there is a clear distinction between higher-quality and useful content. Google measures the usefulness of your page through how users interact with search results.
+
+For example, when a user searches for specific information, an expert writes the first result, which contains quality content and many backlinks. 
+
+However, if the content is not well organized and full of jargon, Google will rank a page with well-organized content that is easy to understand.
+
+
+# Keyword Research
+
+Keyword research is the process of finding keywords that users search for. It is SEO's most crucial component. 
+
+You can better understand your target audience by conducting keyword research. It provides you with information about what people are looking for. 
+
+
+### How to Develop Seed Keywords 
+
+Seed keywords give you keyword ideas that are less competitive to rank for. You must use seed keywords on your keyword research tools to get a better keyword.
+
+How do you develop seed keywords? 
+
+
+
+1. Start by brainstorming relevant words and phrases related to your business or industry.
+
+    e.g., an industry that sells sports kits and wear will search for seed keywords like **soccer cleats for midfielders**, **best soccer shoes**, etc.
+
+2. Find searches related to terms in Google search. For example, you have a term in mind, such as **best soccer shoe.** When you scroll down, you will find a list of keywords closely related to your search term.
+
+
+![alt text](<../../resources/_gen/images/Screenshot (434).png>)
+
+
+>**Note:** these are keyword ideas from Google, meaning tons of people are searching for these keywords.
+
+Click on one of the related search terms, scroll down again, and you will see a bunch of keywords you can add to your seed keyword list
+
+
+
+3. Check out Wikipedia: Head over to Wikipedia and enter a keyword related to your niche that will take you to the Wikipedia entry for the broad topic. Go to the content section and you will see a list of subtopics with awesome keywords. You can also click on the internal links on the page and check the table of contents and other related entries.
+
+![alt text](<../../resources/_gen/images/Screenshot (435).png>)
+
+
+For example, when you type your seed keyword in the Semrush keyword magic tool, you will see various keywords with different degrees of difficulty. 
+
+Link to the [ Sermrush keyword magic tool](https://www.semrush.com/analytics/keywordmagic/start)
+
+
+![alt text](<../../resources/_gen/images/Screenshot (436).png>)
+
+
+5. Find topics on Reddit: You can find a lot of great keywords on Reddit, a social media platform where users share information, news, discussion, etc. Head to[ Reddit](https://www.reddit.com/) and enter a keyword that interests your target audience and about your niche. Choose a subreddit and check out for threads with many comments and likes.
+
+![alt text](<../../resources/_gen/images/Screenshot (437).png>)
+
+
+
+### Generate Keyword ideas using Semrush 
+
+Now that you have seed keywords compiled in a list. Take these seed keywords to the Semrush keyword research tool for an overview. For example, if your keyword is pet names, enter the keyword and click on search; Semrush will give you a bunch of metrics.
+
+
+### Choose Keywords
+
+Choose keywords with the most potential. You can do this by checking out three key pointers
+
+* **Competition:** This is how hard it is to start ranking on Google. For beginners, you should target keywords with low competition keywords. To find the low, competitive keywords in Semrush, click on kd%; you will see a drop-down ranging from easy to hardest. Select easy or very easy; this will bring up the lowest competition terms on the list.
+
+
+![alt text](<../../resources/_gen/images/Screenshot (441).png>)
+
+
+* **Revenue potential:**  This explains the revenue that the specific keyword can make. To get the revenue potential, use the Semrush tool by checking out the cost-per-click CPC
+* **Product keyword fit:** This explains what the keyword has to do with your brand or what you sell. Consider if the keyword fits your brand or the product you are selling.
+* **Search volume:** This explains the number of persons searching for the keyword you entered.
+
+    Choosing a keyword with a high search volume for your industry is important. You can do that using the Semrush tool. The Semrush tool brings up various search volumes for various keywords.
+    
+    **Note:** You get more traffic if your keyword has a high search volume.
+
+* **User Intent:** Your user intent is what your users search for.
+
+
+#### Types of Keyword
+
+**Long tail:** are usually more targeted and specific. It has 3-5 words, for example, **best shoe brand in the world**. This keyword is more specific. 
+
+**Short tail:** A short tail is usually short, like 1-2 words; for example,** shoe brand** is an example of a short tail keyword. They are nonspecific.
+
+
+### Optimizing your Content for Search Crawlers
+
+The key to SEO is publishing great content, which is the foundation of SEO. The key to publishing great content is to use:
+
+
+#### Proven content templates 
+
+These are templates that are designed specifically for Ranking in Google. 
+
+* **[Expanded list post](https://www.coursehero.com/file/214115421/blog-post-templatedocx/):** This is like a regular list post. A list post is like a content main state; they are a collection of bite-sized tips that people can use to get specific results. With the expanded list post, you can give a lot of details about each item on your list
+* **Ultimate guide:** This is a complete resource that covers everything. Your guide should complete all the knowledge or information the user needs in your content.
+* **Tools of the trade:** This is a list of tools you recommend. For example, you wrote content on how to rank on Google and recommended that your users study Brian Dean's SEO course.
+
+
+#### On-page SEO Optimization
+
+On-page SEO is making sure that Google finds your web pages so that they can show users search results. It also involves having valuable content. You need to let Google know what your page is all about.
+
+Google scans your webpage for unique words and phrases, recognizing these keywords. This tells Google the main focus of your content and accounts for the importance of using your target keyword on your page. 
+
+**Top 3 steps for optimized SEO content**
+
+1. **Your title tag is KEY:** Front-load your main keyword i.e. start your title tag with your main keyword. This is important because search engines pay close attention to the terms you use and your title tag.
+2. **Internal Linking:** Adding a link from one page on your site to another page on your site. It is recommended to link to other pages on your site that are closely related to your main topic (write examples)For example you have a topic titled **Best Soccer cleat,** you can add a link from your blog with the topic **Soccer cleats for men.**
+3. **Optimize your page for user experience:** This involves improving your site's user experience. UX improves your SEO when users stick to the page Google thinks you have a great page, which will boost your ranking to make your page easier to find. UX also helps with SEO, as people are likely to share and link to user-friendly sites. So, if your site has a bunch of broken links, intrusive pop ups, and ads, people aren't going to link to it even if you have great content.
+
+After doing these three steps, use the **Semrush SEO writing assistant**. This feature analyses your content and provides detailed recommendations on optimizing your content. If your content is already published, you can import content from Google Docs or text from a live webpage to the SEO writing assistant.
+
+
+## Build backlinks to your site
+
+Link building refers to having links from other websites to your website.
+
+
+### Quality links
+
+Building backlinks to your site involves getting quality links; quality links here refer to links with high authority. Quality links have three features which include:
+
+
+
+1. The authority of the page and website linking to you: Links from authoritative pages and websites pass more authority to your website. To check for the authority of a website, copy the URL, go to Semrush, and place the link on **Domain Overview** you; will see the authority score. The higher the authority score, the more authority your site will have.
+
+![alt text](<../../resources/_gen/images/Screenshot (438).png>)
+
+ In the above image, search for a keyword on Google's **best soccer cleats,** copy the first URL link, and place it on the SemrushSermrush Domain Overview tool.  You can see that the website has an authority score of 97%
+
+2. Relevance of the site linking to you: Links from sites related to your site or niche give more SEO value than those from other industries. Links from relevant sites show Google that your site is legit. Using the **Backlink Analytics tool,** you can also check the type of sites you are getting backlinks from on Semrush.
+
+![alt text](<../../resources/_gen/images/Screenshot (439).png>)
+
+
+In the above image, you can see the categories of websites the URL gets backlinks from, which is related to the site niche.
+
+3. Editorially placed links: Editorial links are hyperlinks where someone links back to you because your site has high-quality content, useful resources, etc.
+
+
+### Strategies for building high-quality links
+
+
+
+1. The sky-scrapper technique
+* Find a piece of content in your industry that performed well regarding backlinks: A simple Google search is the easiest way to do that. Search for a keyword on Google, copy the URL of the first page that appears, and place it on the Semrush **[Backlink Analytic tool.](https://www.semrush.com/analytics/backlinks/)**
+* Create a piece of content that is 5-10x better: Go through the content on the first page and find a way to write more unique and better content.
+2. Broken link
+* Find a page that you would like to get a link from
+* Use a tool like [Check My Links](https://chromewebstore.google.com/detail/check-my-links/kkjfobdnekhdpmgomkpeibhlnmcjgian?hl=lv) to scan the page for broken links: Let the site owner know that their page has a broken link and that you have a page on your site that can replace the link by suggesting replacing your content with the dead link. This method is very effective. Instead of asking for something, you offer help first. You can do this by sending a mail using the sample below
+
+    
+
+
+![alt text](<../../resources/_gen/images/Screenshot (440).png>)
+
+
+
+Credit: [Brian Dean Crash SEO ](https://www.semrush.com/academy/courses/semrush-seo-crash-course-with-brian-dean/lessons/lesson-4/step-1/)
+
+3. Publish original data and industry studies: With studies, you are giving bloggers and journalists what they want, data that they can site in their articles 
+
+4. Build links from unlinked brand mentions: This involves someone mentioning your site, but they won't link to your site. These brand mentions are great opportunities to get backlinks.
+
+5. Competitor analysis: This involves analyzing your competitor's backlinks. To do this, pop a competitor into Semrush and then hit the[ backlink analytics tool.](https://www.semrush.com/analytics/backlinks/) This approach gives you insight into what approaches work best in your niche so you can double it down.
+
+6. Email outreach: This method also works but involves sending the right kind of emails; your email content should provide value to the people you are emailing. Semrush has a cool feature called a [link-building tool.](https://www.semrush.com/link_building/) The tool speeds up the process; all you need to do is set up a project for your site and it automatically generates a list of link prospects for you. You can also send outreach emails directly using the tool.
+
+
+## Tracking, Monitoring and Analyzing SEO Performance
+
+Tracking SEO results is very important. This will help you check whether the approach you are using works well. Monitoring your results is also very important, as this lets you know whether you are on the right track.
+
+
+### Key Metrics to Track
+
+1. **Organic Traffic:** Traffic from search engines. You should also track Google rankings for your main keywords. Website ranking alone doesn't provide all the information about your SEO because website rankings are unstable. You can see your site's organic traffic in the Google Analytics and Sermrush **organic research tools**.
+
+
+![alt text](<../../resources/_gen/images/Screenshot (443).png>)
+
+    
+The above image shows the **domain or URL** of a website e.g. [fourfourtwo](https://www.fourfourtwo.com/); click on search, which will display information about your website's organic traffic.
+
+
+>**Note:** SEO takes a lot of time for improvement
+
+
+
+2. **Individual Keyword Ranking**: Ranking your keywords will give valuable insight into whether your site is trending in the right direction.
+3. **Clicks and Impressions**: The Google console gives you a ton of information on your site's overall SEO performance, and you can use it to measure results from your SEO results. The total number of Google users clicked on your website from the search results is called clicks. Impressions are the total number of users that saw your site in the search results.
+4. **Traffic Cost**: Semrush traffic cost estimates the value of a site's SEO traffic. This tool also measures traffic quality.
+5. **Search Engine Visibility:** Measures how many people see your site in search results. It can give you the overall health of your website. You can measure your site's visibility percentage using the Semrush **rank tracking tool**.
+6. **Conversions**: for example, you can track the number of persons that sign up to your email list, purchases, etc.
+
+
+## Other Keyword Tools 
+
+There are varieties of keyword tools, which include:
+
+* Ahref
+* Google Keyword Planner
+* Uber Suggest
+* Keyword.io tool etc.
+
+
+## Wrap Up
+
+Mastering SEO requires doing the essential work, dedication, and patience.  We discussed
+
+* What is SEO and why it matters
+* Keyword Research
+* Building backlinks to your site
+* Tracking and Monitoring SEO
+* Other Keyword Tools 
+
+Applying the knowledge gained from this guide can enhance your online visibility and drive sustainable growth in your business or industry.

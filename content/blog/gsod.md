@@ -1,6 +1,6 @@
 ---
 title: "How to crack Google Season of Docs 2024"
-description: "Google Season of Docs focuses on technical documentation and technical writing-based contributions. Unlike Google Summer of Code and other Google open source initiatives, the Google Season of Docs is an annual paid internship program. It aims to improve the technical documentation of open source projects and provides opportunities for technical writers to contribute to open source.
+description: "Google Season of Docs focuses on technical documentation and technical writing-based contributions. Unlike Google Summer of Code and other Google open source initiatives, the Google Season of Docs is an annual paid internship program. It aims to improve the technical documentation of open source projects and provides opportunities for technical writers to contribute to open source
 "
 summary: ""
 date: 2024-02-12T10:03:22+02:00

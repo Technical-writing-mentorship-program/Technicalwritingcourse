@@ -7,98 +7,77 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright (c) 2023 TWMP</copyright>
-    <lastBuildDate>Thu, 07 Sep 2023 16:33:54 +0200</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 Sep 2024 16:04:48 +0200</lastBuildDate>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Authors</title>
       <link>/docs/technicalwritingcourse/authors/</link>
       <pubDate>Mon, 15 Jan 2024 07:07:07 +0100</pubDate>
-      
       <guid>/docs/technicalwritingcourse/authors/</guid>
-      <description>These fantastic folks volunteered their time and skills to create this Open Source Technical Writing Course for Beginners.
-It&amp;rsquo;s packed with useful stuff and totally FREE for everyone!</description>
+      <description>These fantastic folks volunteered their time and skills to create this Open Source Technical Writing Course for Beginners.&#xA;It&amp;rsquo;s packed with useful stuff and totally FREE for everyone!</description>
     </item>
-    
     <item>
       <title>Intro to technical writing</title>
       <link>/docs/technicalwritingcourse/intro-to-technical-writing/</link>
       <pubDate>Wed, 15 Nov 2023 07:07:07 +0100</pubDate>
-      
       <guid>/docs/technicalwritingcourse/intro-to-technical-writing/</guid>
       <description>This detailed guide covers the fundamentals of technical articles, effective technical writing strategies, various types of technical documentation, identifying your target audience, and the essential steps in the technical writing process.</description>
     </item>
-    
     <item>
       <title>Managing Technical Writing Projects</title>
       <link>/docs/technicalwritingcourse/managing-technical-writing-projects/</link>
       <pubDate>Fri, 15 Sep 2023 07:07:07 +0100</pubDate>
-      
       <guid>/docs/technicalwritingcourse/managing-technical-writing-projects/</guid>
       <description>Build a solid foundation in project management practices for effective technical documentation</description>
     </item>
-    
+    <item>
+      <title>Introduction to Antora for beginners</title>
+      <link>/blog/introduction-to-antora-for-beginners/</link>
+      <pubDate>Thu, 29 Feb 2024 16:27:22 +0200</pubDate>
+      <guid>/blog/introduction-to-antora-for-beginners/</guid>
+      <description>Antora is a static site generator that transforms AsciiDoc content into documentation sites.&#xA;AsciiDoc is a lightweight markup language for creating notes, articles, books, and web pages.</description>
+    </item>
+    <item>
+      <title>How to Deploy a Dockerized Application to Amazon EKS Cluster</title>
+      <link>/blog/how-to-deploy-a-dockerized-application-to-amazon-eks-cluster/</link>
+      <pubDate>Wed, 28 Feb 2024 16:27:22 +0200</pubDate>
+      <guid>/blog/how-to-deploy-a-dockerized-application-to-amazon-eks-cluster/</guid>
+      <description>Containers are a way to package, deploy, and manage applications. Docker is a popular open-source containerization platform that allows you to package your application, its OS libraries, and dependencies together into a container image.</description>
+    </item>
+    <item>
+      <title>How to Use a Google Writing Style Guide to Write Performing Articles</title>
+      <link>/blog/how-to-use-a-google-writing-style-guide-to-write-performing-articles/</link>
+      <pubDate>Tue, 20 Feb 2024 18:27:22 +0200</pubDate>
+      <guid>/blog/how-to-use-a-google-writing-style-guide-to-write-performing-articles/</guid>
+      <description>Writing compelling and Google-friendly content is essential. The Google developer documentation style guide provides invaluable insights and guidelines to help you achieve this goal.</description>
+    </item>
     <item>
       <title>Glasp writing contest: How Glasp Helped You Learn Faster and Better</title>
       <link>/blog/glasp-writing-contest-how-glasp-helped-you-learn-faster-and-better/</link>
       <pubDate>Tue, 20 Feb 2024 16:27:22 +0200</pubDate>
-      
       <guid>/blog/glasp-writing-contest-how-glasp-helped-you-learn-faster-and-better/</guid>
-      <description>Do you love to explore the depths of the internet and share your insights with the world?
-Are you a master at extracting valuable information from websites and distilling it into concise summaries?</description>
+      <description>Do you love to explore the depths of the internet and share your insights with the world?&#xA;Are you a master at extracting valuable information from websites and distilling it into concise summaries?</description>
     </item>
-    
     <item>
-      <title>How to crack Google Season of Docs 2024.</title>
-      <link>/blog/how-to-crack-google-season-of-docs-2024./</link>
+      <title>How to crack Google Season of Docs 2024</title>
+      <link>/blog/how-to-crack-google-season-of-docs-2024/</link>
       <pubDate>Mon, 12 Feb 2024 10:03:22 +0200</pubDate>
-      
-      <guid>/blog/how-to-crack-google-season-of-docs-2024./</guid>
+      <guid>/blog/how-to-crack-google-season-of-docs-2024/</guid>
       <description>(Tips from GSOD’s past Interns) The Google Season of Docs is one of the most influential open source platforms for technical documentation beneficial to organizations and technical writers.</description>
     </item>
-    
-    <item>
-      <title>Introduction to technical wrting mentorship program</title>
-      <link>/blog/introduction-to-technical-wrting-mentorship-program/</link>
-      <pubDate>Sun, 07 Jan 2024 16:27:22 +0200</pubDate>
-      
-      <guid>/blog/introduction-to-technical-wrting-mentorship-program/</guid>
-      <description>Technical writing bridges the gap between complex concepts and their practical application. Whether documenting software features, creating user manuals, or explaining intricate processes, technical writers are crucial in making information accessible to a wide audience.</description>
-    </item>
-    
     <item>
       <title>About Us</title>
       <link>/docs/about-us/about-us/</link>
       <pubDate>Sat, 07 Oct 2023 16:04:48 +0200</pubDate>
-      
       <guid>/docs/about-us/about-us/</guid>
       <description>Our program is designed for individuals looking to improve their technical writing skills and advance their careers in software development, community management, and developer advocacy.</description>
     </item>
-    
     <item>
       <title>API Documentation Assignment</title>
       <link>/docs/portfolio/api-documentation-assignment/</link>
       <pubDate>Mon, 07 Aug 2023 16:04:48 +0200</pubDate>
-      
       <guid>/docs/portfolio/api-documentation-assignment/</guid>
-      <description>Assignment Title: The Movie Database (TMDb) API Documentation ObjectiveIn this assignment, you will create API documentation for The Movie Database (TMDb) API using Postman or any API platform you can use (Eg, Readme,Postman), a popular movie and TV show database API.</description>
+      <description>Assignment Title: The Movie Database (TMDb) API Documentation Objective&#xD;In this assignment, you will create API documentation for The Movie Database (TMDb) API using Postman or any API platform you can use (Eg, Readme,Postman), a popular movie and TV show database API.</description>
     </item>
-    
-    <item>
-      <title>Glasp User Guide Assignment</title>
-      <link>/docs/portfolio/glasp-user-guide-assignment/</link>
-      <pubDate>Mon, 07 Aug 2023 16:04:48 +0200</pubDate>
-      
-      <guid>/docs/portfolio/glasp-user-guide-assignment/</guid>
-      <description>This assignment, you will write an article covering everything about Glasp https://glasp.co/ and how to use it</description>
-    </item>
-    
-    <item>
-      <title>Technical Writing Talent</title>
-      <link>/docs/talent/technical-writing-talent/</link>
-      <pubDate>Mon, 07 Aug 2023 16:04:48 +0200</pubDate>
-      
-      <guid>/docs/talent/technical-writing-talent/</guid>
-      <description>At our disposal, we have a talented pool of trusted writers who are poised to create world-class content tailored to your needs.</description>
-    </item>
-    
   </channel>
 </rss>

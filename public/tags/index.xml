@@ -7,51 +7,77 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright (c) 2023 TWMP</copyright>
-    <lastBuildDate>Tue, 20 Feb 2024 16:27:22 +0200</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Feb 2024 10:03:22 +0200</lastBuildDate>
+    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>writing contest</title>
+      <title>Antora</title>
+      <link>/tags/antora/</link>
+      <pubDate>Thu, 29 Feb 2024 16:27:22 +0200</pubDate>
+      <guid>/tags/antora/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Doc as Code</title>
+      <link>/tags/doc-as-code/</link>
+      <pubDate>Thu, 29 Feb 2024 16:27:22 +0200</pubDate>
+      <guid>/tags/doc-as-code/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Documentation</title>
+      <link>/tags/documentation/</link>
+      <pubDate>Thu, 29 Feb 2024 16:27:22 +0200</pubDate>
+      <guid>/tags/documentation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Guide</title>
+      <link>/tags/guide/</link>
+      <pubDate>Thu, 29 Feb 2024 16:27:22 +0200</pubDate>
+      <guid>/tags/guide/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AWS</title>
+      <link>/tags/aws/</link>
+      <pubDate>Wed, 28 Feb 2024 16:27:22 +0200</pubDate>
+      <guid>/tags/aws/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DevOps</title>
+      <link>/tags/devops/</link>
+      <pubDate>Wed, 28 Feb 2024 16:27:22 +0200</pubDate>
+      <guid>/tags/devops/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Writing Style Guide</title>
+      <link>/tags/writing-style-guide/</link>
+      <pubDate>Tue, 20 Feb 2024 18:27:22 +0200</pubDate>
+      <guid>/tags/writing-style-guide/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Writing Contest</title>
       <link>/tags/writing-contest/</link>
       <pubDate>Tue, 20 Feb 2024 16:27:22 +0200</pubDate>
-      
       <guid>/tags/writing-contest/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>Google Season Of Docs</title>
+      <title>Google Season of Docs</title>
       <link>/tags/google-season-of-docs/</link>
       <pubDate>Mon, 12 Feb 2024 10:03:22 +0200</pubDate>
-      
       <guid>/tags/google-season-of-docs/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>Open source</title>
+      <title>Open Source</title>
       <link>/tags/open-source/</link>
       <pubDate>Mon, 12 Feb 2024 10:03:22 +0200</pubDate>
-      
       <guid>/tags/open-source/</guid>
       <description></description>
     </item>
-    
-    <item>
-      <title>explanation</title>
-      <link>/tags/explanation/</link>
-      <pubDate>Sun, 07 Jan 2024 16:27:22 +0200</pubDate>
-      
-      <guid>/tags/explanation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>introduction</title>
-      <link>/tags/introduction/</link>
-      <pubDate>Sun, 07 Jan 2024 16:27:22 +0200</pubDate>
-      
-      <guid>/tags/introduction/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>

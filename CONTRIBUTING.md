@@ -67,6 +67,14 @@ The steps below will guide you on how to make your first contribution to the Tec
   git clone https://github.com/YOUR-USERNAME/Technicalwritingcourse.git
   ```
 
+  For Windows users, you can use the command below.
+
+  ```bash
+  git clone -c core.protectNTFS=false https://github.com/Technical-writing-mentorship-program/Technicalwritingcourse.git
+  ```
+
+  Replace `YOUR-USERNAME` with your GitHub username.
+
 - **Navigate to the cloned directory**. To do this, you can use the command below.
 
   ```bash
@@ -95,6 +103,14 @@ The steps below will guide you on how to make your first contribution to the Tec
 
   - If you're adding new content to the blog, navigate to **content** > **blog** and create a new markdown file with the title of your blog post.
   - If you're fixing a bug or a typo, navigate to **content** > **docs** > **TechnicalWritingCourse** and find the file with the bug or typo.
+
+- **Add an image**. You need a remote image URL to add an image to your blog post. Utilize dev.to to upload your image and get the URL. Use the following syntax to add an image:
+
+  ```html
+  <img src="IMAGE-URL" alt="IMAGE-DESCRIPTION" width="100%" />
+  ```
+
+  Replace `IMAGE-URL` with the URL of your image and `IMAGE-DESCRIPTION` with a brief description of your image.
 
 - **Test your changes**. To do this, you can use the command below.
 

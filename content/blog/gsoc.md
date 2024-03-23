@@ -18,6 +18,8 @@ seo:
   noindex: false # false (default) or true
 ---
 
+![Header designed image](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2a5jikx5anxedsq79vac.PNG)
+
 [Google Summer of Code (GSoC)](https://summerofcode.withgoogle.com/) is an annual program sponsored by Google that helps introduce students and open-source beginners to software development.
 
 It aims to encourage students to participate in open-source projects and allow them to gain real-world experience, mentorship, and financial support. GSoC is a highly competitive program, but it offers numerous benefits for those who are accepted.

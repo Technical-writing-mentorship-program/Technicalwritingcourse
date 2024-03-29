@@ -111,7 +111,11 @@ VS code IDE has a lot of beautiful features that enhance developers in its codin
 
 **5. Code Completion:** This feature enhances the developer's speed and eases the stress of fully typing cnertain keywords or code. It auto-completes and also suggests code for you. 
 
-{{< callout note >}}For example, if you want to type a keyword in a particular programming language, VS code automatically displays various keywords related to what you want to type for you to select. {{< /callout >}}
+{{< callout context="note" title="Example" icon="rocket" >}}
+
+If you want to type a keyword in a particular programming language, VS code automatically displays various keywords related to what you want to type for you to select.
+
+{{< /callout >}}
 
 
 

@@ -61,13 +61,25 @@ There are three key factors taken into consideration for optimizing your website
 
 2. **Authority:** This focuses on the accuracy and truthfulness of your content. The authority of a page is determined by the number of pages that link to your webpage.
 
->**Note:** Backlinks are links from other pages. The more backlinks a page possesses, the higher its ranking will be on Google.
+{{< callout context="note" title="Note" icon="info-circle" >}}
+
+Backlinks are links from other pages. The more backlinks a page possesses, the higher its ranking will be on Google.
+
+
+{{< /callout >}}
+
 
 However, Google's ability to measure the authority of webpages using links makes it stand out from other search engines. 
 
 3. **Usefulness:**  Usefulness of content is very important in SEO as this gives room for higher ranking. It focuses on how you organize your content. According to Google, there is a clear distinction between higher-quality and useful content. Google measures the usefulness of your page through how users interact with search results.
 
-For example, when a user searches for specific information, an expert writes the first result, which contains quality content and many backlinks. 
+{{< callout context="note" title="Example" icon="rocket" >}}
+
+When a user searches for specific information, an expert writes the first result, which contains quality content and many backlinks. 
+
+
+{{< /callout >}}
+
 
 However, if the content is not well organized and full of jargon, Google will rank a page with well-organized content that is easy to understand.
 
@@ -92,9 +104,12 @@ How do you develop seed keywords?
 
 <img src ="https://github.com/Nickyshe/TWMP-Image/blob/main/Screenshot%20(434).png?raw=true" >
 
+{{< callout context="note" title="Note" icon="info-circle" >}}
 
+These are keyword ideas from Google, meaning tons of people are searching for these keywords.
 
->**Note:** these are keyword ideas from Google, meaning tons of people are searching for these keywords.
+{{< /callout >}}
+
 
 Click on one of the related search terms, scroll down again, and you will see a bunch of keywords you can add to your seed keyword list.
 
@@ -106,7 +121,13 @@ Click on one of the related search terms, scroll down again, and you will see a 
 4. Semrush keyword magic tool: Semrush keyword tools make it easy for you to choose keywords with low difficulty
 For example, when you type your seed keyword in the Semrush keyword magic tool, you will see various keywords with different degrees of difficulty.
 
-For example, when you type your seed keyword in the Semrush keyword magic tool, you will see various keywords with different degrees of difficulty. 
+{{< callout context="note" title="Example" icon="rocket" >}}
+
+When you type your seed keyword in the Semrush keyword magic tool, you will see various keywords with different degrees of difficulty. 
+
+{{< /callout >}}
+
+
 
 Link to the [ Sermrush keyword magic tool](https://www.semrush.com/analytics/keywordmagic/start)
 <img src ="https://github.com/Nickyshe/TWMP-Image/blob/main/Screenshot%20(436).png?raw=true" >
@@ -137,8 +158,14 @@ Choose keywords with the most potential. You can do this by checking out three k
 * **Search volume:** This explains the number of persons searching for the keyword you entered.
 
     Choosing a keyword with a high search volume for your industry is important. You can do that using the Semrush tool. The Semrush tool brings up various search volumes for various keywords.
+
+    {{< callout context="note" title="Note" icon="info-circle" >}}
+
+You get more traffic if your keyword has a high search volume.
+
+{{< /callout >}}
     
-    > **Note:** You get more traffic if your keyword has a high search volume.
+  
 
 * **User Intent:** Your user intent is what your users search for.
 
@@ -250,8 +277,12 @@ Tracking SEO results is very important. This will help you check whether the app
     
 The above image shows the **domain or URL** of a website e.g. [fourfourtwo](https://www.fourfourtwo.com/); click on search, which will display information about your website's organic traffic.
 
+{{< callout context="note" title="Note" icon="info-circle" >}}
 
->**Note:** SEO takes a lot of time for improvement
+SEO takes a lot of time for improvement
+
+{{< /callout >}}
+
 
 
 
@@ -282,3 +313,5 @@ Mastering SEO requires doing the essential work, dedication, and patience.  We d
 * Other Keyword Tools 
 
 Applying the knowledge gained from this guide can enhance your online visibility and drive sustainable growth in your business or industry.
+
+Connect with me on [Linkedln](https://www.linkedin.com/in/etugbo-judith-984545236) and [Twitter](https://x.com/judith_etugbo?t=eqQWuj8uDTQMtF5L1UPOVA&s=09)

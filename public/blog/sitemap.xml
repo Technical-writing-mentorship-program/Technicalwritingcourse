@@ -2,8 +2,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     <url>
-      <loc>/blog/introduction-to-technical-wrting-mentorship-program/</loc>
+      <loc>/blog/introduction-to-antora-for-beginners/</loc>
       <lastmod>2023-09-07T16:27:22+02:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+    </url>
+    
+    <url>
+      <loc>/blog/how-to-deploy-a-dockerized-application-to-amazon-eks-cluster/</loc>
+      <lastmod>2023-09-07T16:27:22+02:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+    </url>
+    
+    <url>
+      <loc>/blog/how-to-use-a-google-writing-style-guide-to-write-performing-articles/</loc>
+      <lastmod>2023-09-07T16:27:22+02:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+    </url>
+    
+    <url>
+      <loc>/blog/glasp-writing-contest-how-glasp-helped-you-learn-faster-and-better/</loc>
+      <lastmod>2023-09-07T16:27:22+02:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+    </url>
+    
+    <url>
+      <loc>/blog/how-to-crack-google-season-of-docs-2024/</loc>
+      <lastmod>2024-02-12T10:03:22+02:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
     </url>

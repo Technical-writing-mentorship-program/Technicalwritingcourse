@@ -1,24 +1,24 @@
 ---
 title: "Introduction to technical wrting mentorship program"
-description: "Just an example post."
+description: "Introduction to technical wrting mentorship program, Technical writing bridges the gap between complex concepts and their practical application. Whether documenting software features, creating user manuals, or explaining intricate processes, technical writers are crucial in making information accessible to a wide audience."
 summary: ""
 date: 2024-01-07T16:27:22+02:00
 lastmod: 2023-09-07T16:27:22+02:00
 draft: false
 weight: 50
-categories: []
-tags: []
-contributors: []
+categories: [Introductory]
+tags: [introduction, explanation]
+contributors: [Wisdom Nwokocha]
 pinned: false
 homepage: false
 seo:
   title: "Introduction to technical wrting mentorship program" # custom title (optional)
-  description: "Introduction to technical wrting mentorship program, Technical writing bridges the gap between complex concepts and their practical application. Whether documenting software features, creating user manuals, or explaining intricate processes, technical writers are crucial in making information accessible to a wide audience.
-
-Three years ago, I embarked on a journey to share my expertise with aspiring technical writers through the Technical Writing Mentorship Program. Let's delve into this initiative's origins, structure, and impact." # custom description (recommended)
+  description: "Introduction to technical wrting mentorship program, Technical writing bridges the gap between complex concepts and their practical application. Whether documenting software features, creating user manuals, or explaining intricate processes, technical writers are crucial in making information accessible to a wide audience." # custom description (recommended)
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---
+
+{{< youtube id="4AVQ7Sr3UZI" title="Introduction to technical writing" autoplay="true" >}}
 
 Technical writing bridges the gap between complex concepts and their practical application. Whether documenting software features, creating user manuals, or explaining intricate processes, technical writers are crucial in making information accessible to a wide audience.
 
@@ -34,11 +34,11 @@ Around the same time, others reached out to me via Twitter and LinkedIn. They, t
 
 ## Program Structure
 
-### 1. Cohort-Based Learning
+##### 1. Cohort-Based Learning
 
 The Technical Writing Mentorship Program operates in cohorts, each lasting three months. Why cohorts? Because learning is more effective when done collaboratively. Participants join a supportive community, learn from one another, and progress together.
 
-### 2. Curriculum Development
+##### 2. Curriculum Development
 
 I meticulously crafted the curriculum for our inaugural cohort. It covers essential aspects of technical writing, including:
 
@@ -47,13 +47,13 @@ I meticulously crafted the curriculum for our inaugural cohort. It covers essent
 - Tools and Technologies: We explore popular tools like Markdown, Git, and documentation platforms.
 - Project Workshops: Hands-on exercises allow participants to apply their newfound knowledge.
 
-## 3. Mentorship and Guidance
+##### 3. Mentorship and Guidance
 
 As a mentor, I provide personalized guidance to each participant. We discuss their goals, review their work, and address any challenges they encounter.
 
 The mentorship extends beyond technical skills, encompassing professional growth, networking, and building confidence.
 
-## 4. Guest Speakers and Industry Insights
+##### 4. Guest Speakers and Industry Insights
 
 We invite guest speakers—experienced technical writers, editors, and industry professionals to enrich the program. They share real-world insights, discuss trends, and inspire our mentees.
 
@@ -62,6 +62,20 @@ We invite guest speakers—experienced technical writers, editors, and industry 
 The Technical Writing Mentorship Program has witnessed remarkable growth. Our alumni have gone on to secure roles in tech companies, contribute to open-source projects, and even publish their articles.
 
 Their success stories fuel our passion for nurturing the next generation of technical communicators.
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5378239849378753"
+     crossorigin="anonymous"></script>
+
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-5378239849378753"
+     data-ad-slot="8846640451"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Conclusion
 
@@ -74,5 +88,32 @@ Whether you're a seasoned technical writer or starting, there's always room to l
 Follow us on Twitter: @TechnicalWriti6
 
 For inquiries, email us at writingt82@gmail.com
+
+{{< /callout >}}
+
+{{< callout context="note" title="About the author:" icon="info-circle" >}}
+
+Wisdom Nwokocha is an experienced technical writer with over five years of expertise in creating technical articles and building documentation sites using the doc-as-code.
+
+His background includes coaching and mentoring, particularly in the field of software development and technical writing.
+
+Wisdom has hands-on experience with the following technologies:
+
+- Android: He has worked on Android app development projects.
+- React: Wisdom is proficient in building web applications using React.
+
+Additionally, he has a solid understanding of various programming languages:
+
+- Kotlin
+- Java
+- JavaScript
+- TypeScript
+- Solidity
+
+Wisdom’s passion lies in simplifying complex concepts and making them accessible to others.
+
+Whether it’s writing documentation or teaching coding principles, he thrives on effective communication in the tech world!
+
+[Authors Profile link:](www.linkedin.com/in/joklinztech)
 
 {{< /callout >}}

@@ -2,8 +2,8 @@
 title: "Use of diagrams"
 description: "Visual elements like diagrams, images, and illustrations are effective tools for making your documentation engaging and easy to understand. They're great for explaining complex concepts, processes, or workflows. Additionally, they break up large chunks of text and improve readability."
 summary: "This article explains the use of diagrams in technical documentation. It also provides tips for creating effective diagrams and do's and don'ts for using images in technical documentation."
-date: 2024-01-09T16:04:50+20:00
-lastmod: 2023-11-17T13:12:49+02:00
+date: 2023-03-15T07:07:07+01:00
+lastmod: 2024-11-17T13:12:49+02:00
 draft: false
 menu:
   docs:
@@ -18,7 +18,23 @@ seo:
   noindex: false # false (default) or true
 ---
 
-Visual elements like diagrams, images, and illustrations are effective tools for making your documentation engaging and easy to understand. They're great for explaining complex concepts, processes, or workflows. Additionally, they break up large chunks of text and improve readability.
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5378239849378753"
+     crossorigin="anonymous"></script>
+
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-5378239849378753"
+     data-ad-slot="8846640451"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+Visual elements like diagrams, images, and illustrations are effective tools for making your documentation engaging and easy to understand.
+
+They're great for explaining complex concepts, processes, or workflows. Additionally, they break up large chunks of text and improve readability.
 
 Using diagrams is an effective way to communicate complex ideas. They present information visually, making it easier to understand and remember compared to lengthy paragraphs.
 
@@ -113,7 +129,7 @@ As with any concept, usage rules apply. Consider the following when creating dia
   The following is an example of alt text in markdown:
 
   ```markdown
-  ![alt text](/path/to/image.png)
+    ![alt text](/path/to/image.png)
   ```
 
 - **Figure descriptions:** Accompany images with clear figure descriptions. This helps readers, especially in scenarios like network security diagrams.
@@ -121,23 +137,36 @@ As with any concept, usage rules apply. Consider the following when creating dia
   The following is an example of a figure description in markdown:
 
   ```markdown
-  Figure [NUMBER]. [DESCRIPTION]
+    Figure [NUMBER]. [DESCRIPTION]
   ```
+
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5378239849378753"
+       crossorigin="anonymous"></script>
+
+  <ins class="adsbygoogle"
+       style="display:block"
+       data-ad-format="fluid"
+       data-ad-layout-key="-69+df+2w-69+99"
+       data-ad-client="ca-pub-5378239849378753"
+       data-ad-slot="8738845156"></ins>
+  <script>
+       (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
 
 - **Give credit:** Provide proper attribution when using images created by others. This maintains ethical standards in content creation, crucial in web development.
 
   The following is an example of image attribution in markdown:
 
   ```markdown
-  ![alt text](/path/to/image.png)
-  Figure [NUMBER]. [DESCRIPTION]
-  Image source: [SOURCE]
+    ![alt text](/path/to/image.png)
+    Figure [NUMBER]. [DESCRIPTION]
+    Image source: [SOURCE]
   ```
 
   Or you can give credit in the figure description:
 
   ```markdown
-  Figure [NUMBER]. [Image source] from [image author]
+    Figure [NUMBER]. [Image source] from [image author]
   ```
 
 - **High resolution:** Maintain high-quality images for clear and legible details, benefiting both technical writers and developers.

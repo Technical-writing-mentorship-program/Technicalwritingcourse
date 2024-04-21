@@ -2,14 +2,14 @@
 title: "Managing Technical Writing Projects"
 description: "In this module, you will learn how to manage your technical writing projects, whether working as a team or solo."
 summary: "Build a solid foundation in project management practices for effective technical documentation"
-date: 2024-02-01T16:37:00+02:00
+date: 2023-09-15T07:07:07+01:00
 lastmod: 2024-02-01T16:37:00+02:00
 draft: false
 menu:
-docs:
-parent: ""
-identifier: "management-6a1a6be4373e933280d78ea53de6158e"
-weight: 2372
+  docs:
+    parent: ""
+    identifier: "managetechnical-6a1a6be4373e933280d78ea53de6158e"
+weight: 04
 toc: true
 seo:
 title: "Managing Technical Writing Projects"
@@ -17,6 +17,20 @@ description: "In this module, you will learn how to manage your technical writin
 canonical: "" # custom canonical URL (optional)
 noindex: false # false (default) or true
 ---
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5378239849378753"
+     crossorigin="anonymous"></script>
+
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-5378239849378753"
+     data-ad-slot="8846640451"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Introduction
 
@@ -232,6 +246,20 @@ Once you have identified the resources, the next step is to allocate them effect
 
 {{< callout context="tip" title="Steps to help you allocate human resources effectively:" icon="rocket" >}}
 {{< /callout >}}
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5378239849378753"
+     crossorigin="anonymous"></script>
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="fluid"
+     data-ad-layout-key="-69+df+2w-69+99"
+     data-ad-client="ca-pub-5378239849378753"
+     data-ad-slot="8738845156"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ###### (a). Balancing Workloads:
 

@@ -2,21 +2,35 @@
 title: "Authors"
 description: "Guides lead a user through a specific task they want to accomplish, often with a sequence of steps."
 summary: ""
-date: 2024-01-12T16:04:48+02:00
+date: 2024-01-15T07:07:07+01:00
 lastmod: 2023-09-07T16:04:48+02:00
 draft: false
 menu:
   docs:
     parent: ""
     identifier: "example-6a1a6be4373e933280d78ea53de6158e"
-weight: 810
+weight: 1
 toc: true
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
+  title: "Authors" # custom title (optional)
+  description: "This is the authors page, the people that wrote the free technical writing course" # custom description (recommended)
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5378239849378753"
+     crossorigin="anonymous"></script>
+
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-5378239849378753"
+     data-ad-slot="8846640451"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 These fantastic folks volunteered their time and skills to create this Open Source Technical Writing Course for Beginners.
 
@@ -28,7 +42,7 @@ It's packed with useful stuff and totally **FREE for everyone!**
 
 ## Meet the Authors:
 
-- Susan Idii: A seasoned software engineer with a passion for clear communication, leads the Introduction to Technical Writing section, demystifying core concepts and best practices.
+- [Susan Odii:](https://www.linkedin.com/in/susanodiifrontenddeveloper/): Susan is a passionate frontend developer who loves simplifying complex concepts, making them more accessible and resonant for her readers.
 
 - [Temitope Victoria:](https://www.linkedin.com/in/temitope-victoria/) Temitope is an experienced and certified IT professional. She is skilled in Technical Writing, Search Engine Optimization, and Cloud Computing.
 
@@ -40,18 +54,12 @@ It's packed with useful stuff and totally **FREE for everyone!**
 
 - [Prince Onyeanuna](https://www.linkedin.com/in/prince-onyeanuna-607352246/): Prince is a technical writer and DevOps engineer who believes in the power of showing up. He is passionate about helping others learn and grow through writing and coding.
 
-- [Akorede Da silva](https://www.linkedin.com/in/akorede-dasilva/): Akorede is an experienced and multi-disciplinary designer, product manaeger, XR developer and Technical writer. He is an XRI Ambassador and also a community manager for Extend Africa (An XR community), Checkmate Africa, and Designers DAO.
+- [Akorede Da silva](https://www.linkedin.com/in/akorede-dasilva/): Akorede is an experienced and multi-disciplinary designer, product manager, XR developer and Technical writer. He is an XRI Ambassador and also a community manager for Extend Africa (An XR community), Checkmate Africa, and Designers DAO.
 
+- [Peace Sandy](https://www.linkedin.com/in/peace-sandy-bb7a691b0/): Peace Sandy is a software developer who loves to break down technical jargon into simpler terms through writing. She is a technical writer who loves research, and is highly skilled in writing technical articles, how-to manuals, API documentation, tutorials, and release notes.
 
+- [Ruth Charles:](https://www.linkedin.com/in/ruthycharles) A skilled Technical writer and DevOps engineer, with a passion for learning, solving problems, and helping others understand complex information through writing.
 
-- [Ruth Charles:](https://www.linkedin.com/in/ruthycharles)  A skilled Technical writer and DevOps engineer, with a passion for learning, solving problems, and helping others understand complex information through writing.
-
-
-
-_Why free?_
-
+{{< callout context="tip" title="Why free?" icon="rocket" >}}
 We believe everyone deserves to learn tech writing, no matter what! So grab this open-source course and unlock your future in tech writing.
-
-{{< callout context="tip" title="Remeber" icon="rocket" >}}
-This course is completely free and open to all! Get started today and open the door to your tech writing future!
 {{< /callout >}}

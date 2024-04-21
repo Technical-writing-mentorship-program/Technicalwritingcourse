@@ -10,14 +10,7 @@
     
     <url>
       <loc>/docs/technicalwritingcourse/intro-to-technical-writing/</loc>
-      <lastmod>2023-09-07T16:04:48+02:00</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-    
-    <url>
-      <loc>/docs/technicalwritingcourse/information-architecture/</loc>
-      <lastmod>2023-09-07T16:04:48+02:00</lastmod>
+      <lastmod>2024-09-07T16:04:48+02:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
     </url>
@@ -30,50 +23,50 @@
     </url>
     
     <url>
-      <loc>/docs/technicalwritingcourse/writing-for-user-experience-ux/</loc>
-      <lastmod>2024-01-20T19:46:49+02:00</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-    
-    <url>
-      <loc>/docs/technicalwritingcourse/writing-style-guide/</loc>
-      <lastmod>2024-01-17T13:13:49+20:00</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-    
-    <url>
-      <loc>/docs/technicalwritingcourse/using-technical-writing-tools/</loc>
-      <lastmod>2024-08-07T16:04:48+02:00</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-    
-    <url>
-      <loc>/docs/technicalwritingcourse/formatting/</loc>
-      <lastmod>2023-09-07T16:04:48+02:00</lastmod>
+      <loc>/docs/technicalwritingcourse/information-architecture/</loc>
+      <lastmod>2024-07-07T16:04:48+02:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
     </url>
     
     <url>
       <loc>/docs/technicalwritingcourse/writing-for-different-audiences/</loc>
-      <lastmod>2024-01-20T19:46:49+02:00</lastmod>
+      <lastmod>2024-01-15T07:07:07+01:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+    </url>
+    
+    <url>
+      <loc>/docs/technicalwritingcourse/using-technical-writing-tools/</loc>
+      <lastmod>2024-01-07T16:04:48+02:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+    </url>
+    
+    <url>
+      <loc>/docs/technicalwritingcourse/writing-style-guide/</loc>
+      <lastmod>2024-01-17T19:46:49+02:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+    </url>
+    
+    <url>
+      <loc>/docs/technicalwritingcourse/formatting/</loc>
+      <lastmod>2024-09-07T16:04:48+02:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
     </url>
     
     <url>
       <loc>/docs/technicalwritingcourse/editing/</loc>
-      <lastmod>2023-09-07T16:04:48+02:00</lastmod>
+      <lastmod>2024-09-07T16:04:48+02:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
     </url>
     
     <url>
       <loc>/docs/technicalwritingcourse/use-of-diagrams/</loc>
-      <lastmod>2023-11-17T13:12:49+02:00</lastmod>
+      <lastmod>2024-11-17T13:12:49+02:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
     </url>
@@ -86,7 +79,8 @@
     </url>
     
     <url>
-      <loc>/docs/technicalwritingcourse/</loc>
+      <loc>/docs/technicalwritingcourse/writing-for-user-experience-ux/</loc>
+      <lastmod>2024-01-20T19:46:49+02:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
     </url>

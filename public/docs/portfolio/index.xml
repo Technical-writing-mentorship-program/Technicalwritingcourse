@@ -7,25 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright (c) 2023 TWMP</copyright>
-    <lastBuildDate>Fri, 07 Oct 2022 16:06:50 +0200</lastBuildDate><atom:link href="/docs/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 Sep 2023 16:04:48 +0200</lastBuildDate>
+    <atom:link href="/docs/portfolio/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>API Documentation Assignment</title>
       <link>/docs/portfolio/api-documentation-assignment/</link>
       <pubDate>Mon, 07 Aug 2023 16:04:48 +0200</pubDate>
-      
       <guid>/docs/portfolio/api-documentation-assignment/</guid>
-      <description>Assignment Title: The Movie Database (TMDb) API Documentation ObjectiveIn this assignment, you will create API documentation for The Movie Database (TMDb) API using Postman or any API platform you can use (Eg, Readme,Postman), a popular movie and TV show database API.</description>
+      <description>Assignment Title: The Movie Database (TMDb) API Documentation Objective&#xD;In this assignment, you will create API documentation for The Movie Database (TMDb) API using Postman or any API platform you can use (Eg, Readme,Postman), a popular movie and TV show database API.</description>
     </item>
-    
     <item>
       <title>Glasp User Guide Assignment</title>
       <link>/docs/portfolio/glasp-user-guide-assignment/</link>
       <pubDate>Mon, 07 Aug 2023 16:04:48 +0200</pubDate>
-      
       <guid>/docs/portfolio/glasp-user-guide-assignment/</guid>
-      <description>Assignment Title: Glasp user guide Do the following:
-Generate the table of content. Choose a suitable title. Write in Markdown. Create a repo on GitHub.</description>
+      <description>This assignment, you will write an article covering everything about Glasp https://glasp.co/ and how to use it</description>
     </item>
-    
   </channel>
 </rss>

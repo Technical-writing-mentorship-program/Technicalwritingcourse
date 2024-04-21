@@ -2,13 +2,13 @@
 title: "Information  Architecture"
 description: "This guide equips technical writers with the essential skills needed to structure your content efficiently and logically, while creating user-friendly pathways through technical documentation."
 summary: "Technical writers are the architect of knowledge, but curating effective documentation requires more than just a clear prose. A well-crafted information architecture forms the foundation, ensuring users can navigate complex information with ease and find the answers they need quickly."
-date: 2024-01-07T16:04:48+02:00
-lastmod: 2023-09-07T16:04:48+02:00
+date: 2023-06-15T07:07:07+01:00
+lastmod: 2024-07-07T16:04:48+02:00
 draft: false
 menu:
   docs:
     parent: ""
-    identifier: "example-6a1a6be4373e933280d78ea53de6158ue"
+    identifier: "informationarchitecture-6a1a6be4373e933280d78ea53de6158ue"
 weight: 810
 toc: true
 seo:
@@ -18,12 +18,26 @@ seo:
   noindex: false # false (default) or true
 ---
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5378239849378753"
+     crossorigin="anonymous"></script>
+
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-5378239849378753"
+     data-ad-slot="8846640451"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 {{< callout context="tip" title="Peter Morville says - “Findability precedes usability; you can’t use what you can’t find. which makes information architecture vital when curating technical documentation that we want readers to find useful." icon="rocket" >}} {{< /callout >}}
 
 {{< callout context="note" title="In this Module, you will learn:" icon="info-circle" >}}
 
 - All about information architecture
-- its importance to technical writers and readers
+- Its importance to technical writers and readers
 - Information architecture taxonomy and its importance
 - How to create efficient technical documentation
 - Key principles guiding information architecture
@@ -101,31 +115,27 @@ Another example is the navigation menu on your favorite website. Each menu optio
 
 The key steps for drafting an information architecture taxonomy are explained below.
 
-- **Identify the audience**: Understanding your audience is crucial for creating an effective taxonomy with their needs and expectations. Here are key aspects to consider when you want to identify your audience.
+1. **Identify the audience**: Understanding your audience is crucial for creating an effective taxonomy with their needs and expectations. Here are key aspects to consider when you want to identify your audience.
 
-1. **Roles and responsibilities**: You need to determine who would be using your technical documentation, the likely skill they intend on learning, their job role, and what task they will perform using the documentation.
+2. **Roles and responsibilities**: You need to determine who would be using your technical documentation, the likely skill they intend on learning, their job role, and what task they will perform using the documentation. Answering these questions helps you understand their objectives and workflows, which aids you with structuring information accordingly.
 
-Answering these questions helps you understand their objectives and workflows, which aids you with structuring information accordingly.
+3. **Technical expertise**: Your users' technical knowledge and experience will influence the terminology, complexity, and depth of information you include.
 
-2. **Technical expertise**: Your users' technical knowledge and experience will influence the terminology, complexity, and depth of information you include.
-
-3. **Information needed**: You need to know the specific information your users need. Then, you categorize these needs into topics, subtopics, related topics, and references to other articles that could fill a gap, especially for those needing a certain skill before they can grasp the content of the technical documentation you are offering them.
+4. **Information needed**: You need to know the specific information your users need. Then, you categorize these needs into topics, subtopics, related topics, and references to other articles that could fill a gap, especially for those needing a certain skill before they can grasp the content of the technical documentation you are offering them.
 
 {{< callout context="tip" title="Ensure you prioritize the most essential information based on your users' needs. " icon="rocket" >}} {{< /callout >}}
 
-4. **Context of use**: Consider how users access the documentation, e.g., online, printed, or mobile. Also, consider In what environment it would be used.
+5. **Context of use**: Consider how users access the documentation, e.g., online, printed, or mobile. Also, consider In what environment it would be used.
 
-5. **Expectations and user preference**: Find out how users typically search for information which could range from keywords, exploration e.t.c. Find out what level of detail is expected and formatting preferences if possible.
+6. **Expectations and user preference**: Find out how users typically search for information which could range from keywords, exploration e.t.c. Find out what level of detail is expected and formatting preferences if possible.
 
-6. **Method of gathering information**: You should review existing documentation feedback to know what users like and want as an improvement.
+7. **Method of gathering information**: You should review existing documentation feedback to know what users like and want as an improvement. You can also conduct surveys and web analytics and collaborate with subject matter experts to gather insights and validate assumptions.
 
-You can also conduct surveys and web analytics and collaborate with subject matter experts to gather insights and validate assumptions.
-
-7. **Map out user journey**: Do a walk-through on the steps users will take when interacting with the documentation.
+8. **Map out user journey**: Do a walk-through on the steps users will take when interacting with the documentation.
 
 {{< callout context="tip" title="Note down likely pain points users are trying to find answers to and the key decision point where they will find a solution to their probing question in your documentation. " icon="rocket" >}} {{< /callout >}}
 
-8. **Create content categories**: To do this, you have to define the content goal. Do you want them to learn to perform a task successfully, find specific information, or troubleshoot?
+9. **Create content categories**: To do this, you have to define the content goal. Do you want them to learn to perform a task successfully, find specific information, or troubleshoot?
 
 <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/h9ccz4e4pxs7lfi2c0ix.png" alt="Table of content showing content category for easy navigation" width="100%">
 
@@ -143,21 +153,19 @@ Once you have an answer to the question above, you can do the following.
 
 - **Identify key concepts and relationships**: Break down subject matter into topics and subtopics, forming a hierarchical Tree structure. Consider how each topic relates to the other such as the parent-child relationship, part of the topic, or sequential process.
 
-- \*_Choose category labels_: ensure chosen terms are clear and concise. Avoid technical jargon that might be unfamiliar at all costs.
+- **Choose category labels**: Ensure chosen terms are clear and concise. Avoid technical jargon that might be unfamiliar at all costs.
 
 {{< callout context="tip" title="Also, ensure you use consistent terminology throughout the taxonomy to avoid confusion on the user's part." icon="rocket" >}} {{< /callout >}}
 
-9. **Create content hierarchy**: To do this, you should think like a user and structure content as a user would think when searching for information.
+10. **Create content hierarchy**: To do this, you should think like a user and structure content as a user would think when searching for information. Place essential topics at the top of the hierarchy and group related content together for easy access. Also, consider future changes and growth when curating your content hierarchy.
 
-Place essential topics at the top of the hierarchy and group related content together for easy access. Also, consider future changes and growth when curating your content hierarchy.
+11. **Define layout and navigation**: Consider information density and visual hierarchy in your documentation. Use headings, spacings, and visual elements to guide users and signal importance. You should balance text with visuals (gifs, sketches, videos, images) to break up content and aid understanding. A user-friendly navigation system should also be considered.
 
-10. **Define layout and navigation**: consider information density and visual hierarchy in your documentation. Use headings, spacings, and visual elements to guide users and signal importance.
-
-You should balance text with visuals (gifs, sketches, videos, images) to break up content and aid understanding. A user-friendly navigation system should also be considered.
-
-{{< callout context="tip" title="you should consider the following navigation methods." icon="rocket" >}} {{< /callout >}}
+{{< callout context="tip" title="You should consider the following navigation methods." icon="rocket" >}} {{< /callout >}}
 
 - **Global navigation**: Consistent top-level access to primary categories should be present throughout the documentation.
+
+##### Example:
 
 [Kubernetes](https://kubernetes.io/docs/home/) documentation makes good use of this by using a clear and consistent global navigation bar at the top of every page and it remains visible wherever you are on the page.
 
@@ -167,9 +175,9 @@ It also provides easy access to key sections of the documentation like “Gettin
 
 _**Figure 5**: Global navigation system of kubernetes documentation website_
 
-- **Local navigation**: provide navigation for lengthy contents such as breadcrumbs, "jump to" links, and table of contents.
+- **Local navigation**: Provide navigation for lengthy contents such as breadcrumbs, "jump to" links, and table of contents.
 
-- **Search functionality**: implement a robust search feature for quick content delivery.
+- **Search functionality**: Implement a robust search feature for quick content delivery.
 
 <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2a3lc4lxmf833v0m25qm.png" alt="Local navigation and search functionality on Kubernetes documentation website" width="100%">
 
@@ -273,7 +281,17 @@ It isn't uncommon to see an article on a particular topic, but that article does
 - **Content inventory**: This is where you collate all existing articles on a particular topic and then audit each one in order to gather insights on how useful and accurate the information is to readers, what is missing, and what needs to be added to make for a sound article that would help users find what they are looking for easily.
 
 - **Information grouping and classification**: After you must have settled for an area in which you want to focus your article on, the next logical step is to note down what each section of the article contains and what are their sub-sections. This would create a logical hierarchy and a seamless way for users to understand your thought process, the information you wish to impact on them, and how each sub-section relates to the main section.
-
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5378239849378753"
+       crossorigin="anonymous"></script>
+  <ins class="adsbygoogle"
+       style="display:block"
+       data-ad-format="fluid"
+       data-ad-layout-key="-69+df+2w-69+99"
+       data-ad-client="ca-pub-5378239849378753"
+       data-ad-slot="8738845156"></ins>
+  <script>
+       (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
 - **Proper labeling and taxonomy**: Create a clear and concise label that leaves no room for ambiguity.
   Users should understand what your label means at the first read without having to guess second what that section is all about.
 
@@ -287,31 +305,23 @@ It isn't uncommon to see an article on a particular topic, but that article does
 
 Crafting effective information architecture is not a game of chance. It's a disciplined process guided by established principles and methodologies.
 
-It starts with a deep understanding of the application, content, and organizational goals, followed by the consistent application of established principles throughout the process. The principle of Information Architecture was first proposed by Dan Brown in 2010. We must consider the following when building Information Architecture.
+It starts with a deep understanding of the application, content, and organizational goals, followed by the consistent application of established principles throughout the process.
 
-- **The principle of objects**: Content should be viewed as a living and breathing document with unique characteristics, lifecycle, behaviors, and attributes.
+- **The principle of objects**: Content should be viewed as a living and breathing document with unique characteristics, lifecycle, behaviors, and attributes. Content is more than just static text as each piece of information evolves from creation to publication, revision, and eventual removal when it has served its use.
 
-Content is more than just static text as each piece of information evolves from creation to publication, revision, and eventual removal when it has served its use. Treating content as living objects lets you ensure it remains relevant and accessible with the overall information system structure.
+- **The principle of choices**: Overloading users with too much information leads to a bad user experience. Humans have a short attention span; therefore, create pages that offer meaningful choices to users without them having to stress their brain.
 
-- **The principle of choices**: Overloading users with too much information leads to a bad user experience. Humans have a short attention span; therefore, ‌ create pages that offer meaningful choices to users without them having to stress their brain.
-
-It relates to applications and websites but could also be helpful when writing technical documents.
-
-- **The principle of disclosure**: Present users with just enough information they can understand at a stretch and let them decide if they want to explore further.
-
-So technical articles often have an external link for readers who want to dive deeper. In summary, embrace a progressive disclosure approach by gradually unveiling more information as users dictate interest.
+- **The principle of disclosure**: Present users with just enough information they can understand at a stretch and let them decide if they want to explore further. So technical articles often have an external link for readers who want to dive deeper. In summary, embrace a progressive disclosure approach by gradually unveiling more information as users dictate interest.
 
 - **The principle of exemplars**: Some sections are not self-explanatory for an average user when writing technical documents. Provide examples as an image to exemplify the content as images are more visually appealing than text, and your readers will grasp the initial text easily afterwards.
 
-- **The principle of first doors**: Not all users will get to read your article right from the start as some of your audience could come in contact with it through optimized keyword search.
-
-Therefore, provide a welcoming experience at every point with relevant information and clear navigation that would make the site accessible to them.
+- **The principle of first doors**: Not all users will get to read your article right from the start as some of your audience could come in contact with it through optimized keyword search. Therefore, provide a welcoming experience at every point with relevant information and clear navigation that would make the site accessible to them.
 
 - **The principle of multiple classification**: Accommodate diverse User preferences by providing multiple ways for users to search the content on your site. factoring keyword searches, top-level menus, and intuitive browsing mechanisms are some ways of doing this, but some users might wish to browse or move through the hierarchy, so make sure your information architecture meets their needs.
 
 - **The principle of focused navigation** It emphasizes the importance of clarity and consistency in navigation design. This would help readers understand the content structure and easily locate the needed information.
 
-- 8. **The principle of growth**: Embrace flexibility and anticipate future expansion as there is every likelihood that the content you start with will evolve over time. Ensure it remains organized and scalable.
+- **The principle of growth**: Embrace flexibility and anticipate future expansion as there is every likelihood that the content you start with will evolve over time. Ensure it remains organized and scalable.
 
 {{< callout context="note" title="Exercise" icon="info-circle" >}}
 
@@ -324,5 +334,3 @@ After review, tag @TechnicalWriti6 on Twitter to the link to your article.
 ## Answer the following questions
 
 <iframe src="https://forms.gle/tn3pe9Y7CK6edGp38" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-
-

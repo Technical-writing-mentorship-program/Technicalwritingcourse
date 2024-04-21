@@ -2,14 +2,14 @@
 title: "Using Technical Writing Tools"
 description: "This article explains the various types of technical writing software available in the market and how they can aid the writing process. These tools are useful for creating API, technical documentation."
 summary: "This article explains the various types of technical writing software available in the market and how they can aid the writing process."
-date: 2024-01-12T16:04:50+20:00
-lastmod: 2024-08-07T16:04:48+02:00
+date: 2023-08-15T07:07:07+01:00
+lastmod: 2024-01-07T16:04:48+02:00
 draft: false
 menu:
   docs:
     parent: ""
-    identifier: "diagram-6a1a6be4373e933280d78ea53de6158ue"
-    weight: 1091
+    identifier: "usingtechnical-6a1a6be4373e933280d78ea53de6158ue"
+    weight: 1080
 toc: true
 seo:
   title: "Using Technical Writing Tools"
@@ -18,10 +18,24 @@ seo:
   noindex: false # false (default) or true
 ---
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5378239849378753"
+     crossorigin="anonymous"></script>
+
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-5378239849378753"
+     data-ad-slot="8846640451"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 Technical writing is a field that requires clarity, and efficiency in communication. Writers rely on various tools and software applications to produce effective technical documentation.
 
 {{< callout context="tip" title="Krista Van Laan says" icon="rocket" >}}
- Technical writing is a continuous process of learning, carefully gathering, sifting, organizing, and assessing, all while trying to craft something that makes sense for a user
+Technical writing is a continuous process of learning, carefully gathering, sifting, organizing, and assessing, all while trying to craft something that makes sense for a user
 {{< /callout >}}
 
 What are technical writing tools? Technical writing tools are used in creating, editing, formatting, and managing technical content. These tools aid writing and save time.
@@ -174,6 +188,20 @@ Some IDEs are Visual Studio code, Markdown Editor, Notepad++, Sublime Text, and 
 
 It is a robust platform that offers extensions and integrations to other platforms. VSCode has an extension marketplace to add and integrate apps and software.
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5378239849378753"
+     crossorigin="anonymous"></script>
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="fluid"
+     data-ad-layout-key="-69+df+2w-69+99"
+     data-ad-client="ca-pub-5378239849378753"
+     data-ad-slot="8738845156"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ###### 2. **Notepad++**
 
 Notepad++ is a simple source code editor for Windows. It supports various programming languages, including Markdown. You can use Notepad++ to write codes to add to your write-up.
@@ -242,7 +270,7 @@ Premier Pro is a suitable tool for individuals who can work with complex video t
 
 Publishing sites are essential for posting your writing samples, documents, solutions, and articles.
 
-{{< callout context="note" title="Grammarly" icon="rocket" >}}
+{{< callout context="note" title="Publishing sites" icon="rocket" >}}
 WordPress, Wix, Medium, Hashnode, Adobe Framemaker, Robohelp, Madcap Flare, and Qblogger are publishing sites.
 {{< /callout >}}
 

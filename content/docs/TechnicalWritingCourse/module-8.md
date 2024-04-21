@@ -2,8 +2,8 @@
 title: "Editing"
 description: "In this module, you will learn how to edit for clarity, conciseness, and accuracy (correctness), the importance of technical editing, and the various aspects of editing in detail."
 summary: ""
-date: 2024-01-10T16:04:50+20:00
-lastmod: 2023-09-07T16:04:48+02:00
+date: 2023-04-15T07:07:07+01:00
+lastmod: 2024-09-07T16:04:48+02:00
 draft: false
 menu:
   docs:
@@ -17,6 +17,20 @@ seo:
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5378239849378753"
+     crossorigin="anonymous"></script>
+
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-5378239849378753"
+     data-ad-slot="8846640451"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Editing is a vital aspect of the technical writing process. It gives technical document accuracy, consistency, clarity, and better user comprehension. With editing, you check for organization, navigation, paragraph structure, style, tone, and overall content.
 
@@ -362,6 +376,20 @@ Editing for clarity, conciseness, and correctness is a standard for producing cr
 Clarity refers to the quality of being clear, transparent, and easily understood. It involves expressing ideas, information, or instructions in a way that is easy for the audience to comprehend.
 
 A clear message is free from ambiguity, confusion, or unnecessary complexity.Editing for clarity ensures easy understanding for its target audience.
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5378239849378753"
+     crossorigin="anonymous"></script>
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="fluid"
+     data-ad-layout-key="-69+df+2w-69+99"
+     data-ad-client="ca-pub-5378239849378753"
+     data-ad-slot="8738845156"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **_How to edit for clarity:_**
 

@@ -290,7 +290,7 @@ Doks is a documentation website toolkit built with Hyas. You can get started wit
     }
 
     // Display the score
-    document.getElementById('result').innerHTML = 'You scored ${score} out of 2';
+    document.getElementById('result').innerHTML = `You scored ${score} out of 2`;
   }
 </script>
 

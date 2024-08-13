@@ -102,3 +102,11 @@ Please use an interactive API platform, where users can test without leaving the
   {{< youtube V4_t8HJQ7hI >}}
 
 ## Submission Deadline: No Deadline
+
+## Postman API Documentation Assignment
+
+{{< callout context="info" title="Submission" icon="user-circle" >}}
+- **Name:** Samuel Theophilus
+- **LinkedIn Profile:** https://www.linkedin.com/in/samuel-theophilus/
+- **Postman Documentation:** https://documenter.getpostman.com/view/26159839/2s9YsQ9AQD
+{{< /callout >}}

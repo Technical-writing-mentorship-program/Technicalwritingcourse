@@ -1,8 +1,8 @@
 ---
-title: "Technical writing course"
+title: "Introduction to Markdown"
 description: ""
 summary: ""
-lastmod: 2024-04-07T16:06:50+02:00
+lastmod: 2024-05-1T16:06:50+02:00
 draft: false
 menu:
   docs:

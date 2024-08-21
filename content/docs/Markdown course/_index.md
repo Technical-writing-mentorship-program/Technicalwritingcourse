@@ -1,8 +1,8 @@
 ---
-title: "Introduction to Markdown"
-description: ""
+title: "Markdown Course"
+description: "This is a Markdown course for beginners"
 summary: ""
-lastmod: 2024-05-1T16:06:50+02:00
+lastmod: 2024-08-1T16:06:50+02:00
 draft: false
 menu:
   docs:
@@ -11,8 +11,8 @@ menu:
 weight: 800
 toc: true
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
+  title: "Markdown Course" # custom title (optional)
+  description: "This is a Markdown course for beginners" # custom description (recommended)
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---

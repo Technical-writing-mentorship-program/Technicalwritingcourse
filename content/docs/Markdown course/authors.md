@@ -42,6 +42,7 @@ It's packed with useful stuff and totally **FREE for everyone!**
 
 ## Meet the Authors:
 
+- [Mercy Miracle Makinde:](https://www.linkedin.com/in/makindemercymiracle) a blockchain frontend developer and a technical content writer
 
 {{< callout context="tip" title="Why free?" icon="rocket" >}}
 We believe everyone deserves to learn tech writing, no matter what! So grab this open-source course and unlock your future in tech writing.

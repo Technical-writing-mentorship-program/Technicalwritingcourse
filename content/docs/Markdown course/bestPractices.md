@@ -2,8 +2,8 @@
 title: Best practices and tips in markdown
 description: It covers best tips and practices to help you create clear and easy to read markdown files. This guide also contains tips and workarounds on how to add complicated syntaxes or features in markdown. These tips will help you create high quality markdown documents. Finally, this guide introduces you to the top markdown tools, including their features, pricing, etc.
 summary: This detailed guide covers how to write quality markdown documents easier and faster. You will also find the top markdown tools to create markdown files seamlessly.
-date: 2024-08-23T02:40:00+01:00
-lastmod: 2024-08-23T02:40:00+01:00
+date: 2024-08-25T15:50:00+01:00
+lastmod: 2024-08-25T15:50:00+01:00
 draft: false
 menu:
   docs:
@@ -41,7 +41,7 @@ In this lesson, you will be learning:
 
 Let's get started
 
-# Best practices and tips in markdown.
+# Introduction.
 Markdown like any other type of writing also has rules and laws guiding its use. Any practise that is opposite to these rules and principles can lead to erroneous and disorganized documentation. Below are the best practises and tips to apply when working with markdown:
 
 

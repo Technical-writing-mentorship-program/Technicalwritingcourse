@@ -128,15 +128,15 @@ Facebook is a very popular messaging app. [click here](https://web.facebook.com/
 [Facebook](https://web.facebook.com/) is a very popular messaging app. You can create an account within 10 seconds.
 
 
-4. **Escape special characters with backlash:**
+4. **Escape special characters with backslash:**
 
-In some cases, you may want to include special characters like asterisks (*), hash(#), etc. in your markdown document. This can prove difficult since these special characters are also used to format elements in markdown. One way to solve this is by using a backlash (/). Below is an example: 
+In some cases, you may want to include special characters like asterisks (*), hash(#), etc. in your markdown document. This can prove difficult since these special characters are also used to format elements in markdown. One way to solve this is by using a backslash (\). Below is an example: 
 
 
     # The text below will be italicized
     *me and you*
     
-    # The backlash prevents the text from being italicized
+    # The backslash prevents the text from being italicized
     \*me and you\*
 
 Check the preview below:
@@ -278,12 +278,12 @@ This tip allows you to create a clickable image in markdown. This image is wrapp
     \[![Alt text\]()](link_url)
     
     # Sample Usage
-    \[![Django framework icon](https://www.svgrepo.com/show/376363/django.svg)](https://docs.djangoproject.com/en/5.1/)
+    \[![Django framework icon](https://cdn-icons-png.flaticon.com/512/9307/9307630.png)](https://docs.djangoproject.com/en/5.1/)
 
-Check the preview below:
-[![Django framework icon](https://www.svgrepo.com/show/376363/django.svg)](https://docs.djangoproject.com/en/5.1/)
+##### Check the preview below:
+[![Django framework icon](https://cdn-icons-png.flaticon.com/512/9307/9307630.png)](https://docs.djangoproject.com/en/5.1/)
 
-When you click on the icon image above, you will be redirected to django's official documentation.
+When you click on the image above, you will be redirected to django's official documentation.
 
 
 ## Consistent formatting and styles in markdown

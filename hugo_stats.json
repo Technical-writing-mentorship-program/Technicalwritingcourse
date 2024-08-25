@@ -103,6 +103,8 @@
       "col-xl-4",
       "col-xl-8",
       "col-xl-9",
+      "container",
+      "container-fluid",
       "container-lg",
       "content",
       "contributors",
@@ -254,7 +256,15 @@
       "search-results",
       "search-text",
       "section",
+<<<<<<< Updated upstream
       "section-nav",
+=======
+      "section-features",
+      "section-md",
+      "section-nav",
+      "section-related",
+      "section-title",
+>>>>>>> Stashed changes
       "show",
       "single",
       "social-link",
@@ -427,6 +437,10 @@
       "4-creating-a-collaborative-environment",
       "4-develop-a-research-plan",
       "4-document-endpoints",
+<<<<<<< Updated upstream
+=======
+      "4-export-as-pdf-html-docbook",
+>>>>>>> Stashed changes
       "4-increased-engagement",
       "4-labeled-lists",
       "4-microsoft-designer",
@@ -489,6 +503,11 @@
       "a-understand-project-requirements",
       "accessibility",
       "active-voice",
+<<<<<<< Updated upstream
+=======
+      "activity-bar",
+      "add-audio-to-videos",
+>>>>>>> Stashed changes
       "addressing-punctuation-issues",
       "alignment",
       "alignment-with-standards-and-guidelines",
@@ -507,8 +526,23 @@
       "b-detailed-budget-breakdown",
       "b-identify-key-information-sources",
       "bad-headings",
+<<<<<<< Updated upstream
+=======
+      "bad-link-text",
+      "basic-syntax",
+>>>>>>> Stashed changes
       "basic-syntax-and-formatting",
       "benefit-of-taxonomy-for-your-technical-documentatiion",
+<<<<<<< Updated upstream
+=======
+      "benefits-of-content-marketing",
+      "benefits-of-participating-in-gsod",
+      "best-practices-and-tips-in-markdown",
+      "blog-posts",
+      "bonus-tips",
+      "build-backlinks-to-your-site",
+      "business-to-business-b2b",
+>>>>>>> Stashed changes
       "buttonColorMode",
       "c-allocate-resources-appropriately",
       "c-invest-in-version-control-systems",
@@ -516,6 +550,7 @@
       "c-organize-an-information-repository",
       "check-spelling-and-typographical-errors",
       "check-technical-details",
+      "check-the-preview-below",
       "checking-for-spelling-errors",
       "clarity",
       "collaborating-with-other-stakeholders-in-technical-writing-projects",
@@ -530,6 +565,11 @@
       "consistency-in-abbreviations-and-acronyms",
       "consistency-in-style-and-terminology",
       "consistency-in-terminology",
+<<<<<<< Updated upstream
+=======
+      "consistent-formatting-and-styles-in-markdown",
+      "content-calendar",
+>>>>>>> Stashed changes
       "content-evaluation",
       "content-expansion-or-reduction",
       "context",
@@ -547,6 +587,7 @@
       "define-your-audience-and-purpose",
       "defining-your-audience",
       "delivering-the-project-on-time-and-within-budget",
+      "descriptive-link-text",
       "determining-the-purpose-of-your-document",
       "develop-a-persona-for-your-audience",
       "develop-a-research-plan",
@@ -554,6 +595,8 @@
       "different-types-of-technical-writing",
       "doks-docs-nav",
       "dos-and-donts-for-effective-technical-diagrams",
+      "download-images-with-videdit",
+      "download-via-url",
       "duplichecker",
       "e-automate-calculations",
       "e-explore-content-management-systems-cms",
@@ -576,16 +619,24 @@
       "examples-of-how-bullet-lists-can-be-used",
       "exercise",
       "exercise-develop-a-research-plan",
+      "extract-audio-from-video",
       "f-include-contingency",
       "f-leverage-graphic-design-and-multimedia-tools",
       "f-provide-clear-instructions",
       "f-security-and-access-controls",
       "fact-checking",
       "fact-checking-and-accuracy",
+<<<<<<< Updated upstream
+=======
+      "features-of-videdit",
+      "features-of-visual-studio-code",
+>>>>>>> Stashed changes
       "figures",
       "findability",
       "first-level-headings",
       "focus-on-key-information",
+      "for-a-code-block-or-long-code-snippet",
+      "for-a-simple-code-or-inline-code",
       "formatting---definition",
       "formatting-and-layout",
       "formatting-guidelines-for-creating-tables",
@@ -594,6 +645,12 @@
       "g-regular-monitoring-and-updates",
       "gather-information",
       "general-guidelines-to-consider-while-adding-an-image-to-a-technical-document",
+<<<<<<< Updated upstream
+=======
+      "generate-keyword-ideas-using-semrush",
+      "get-involved-with-the-organization",
+      "getting-started",
+>>>>>>> Stashed changes
       "glasp",
       "glasp-user-guide",
       "good-headings",
@@ -650,6 +707,8 @@
       "information-architecture-taxonomy",
       "information-evaluation",
       "instructions",
+      "integrate-videdit-with-tiktok",
+      "integrate-videdit-with-youtube",
       "integrated-development-environment-ide",
       "interactive-elements",
       "introduction",
@@ -667,6 +726,11 @@
       "list-types",
       "logical-organization-of-information",
       "managing-resources-in-technical-writing-projects",
+<<<<<<< Updated upstream
+=======
+      "markdown-table",
+      "measure-success",
+>>>>>>> Stashed changes
       "meet-the-authors",
       "milestone-incorporation",
       "milestones-and-progress",
@@ -731,6 +795,8 @@
       "smart-objectives",
       "snipping-tool",
       "socialMenu",
+      "specify-the-programming-lanaguage-1",
+      "specify-the-programming-lanaguage-2",
       "static-site-generators",
       "steps-in-audience-analysis",
       "steps-to-prepare-tables-in-a-technical-document",
@@ -764,12 +830,15 @@
       "task-and-deadline-integration",
       "task-delegation",
       "technical-writing-process",
+      "the-backlash-prevents-the-text-from-being-italicized",
       "the-movie-database-tmdb-api-documentation",
+      "the-text-below-will-be-italicized",
       "time-management",
       "toTop",
       "toc",
       "tone-and-voice",
       "tone-and-voice-adjustment",
+      "tools-for-markdown-editing",
       "tools-you-can-use-to-create-diagrams",
       "types-of-audiences",
       "types-of-figures",
@@ -785,6 +854,7 @@
       "user-feedback-and-content-update",
       "using-plain-language",
       "utilize-a-template",
+      "videdit-integrations",
       "video-tools",
       "visual-aids",
       "visual-elements",
@@ -796,6 +866,11 @@
       "what-is-plain-language",
       "what-is-technical-jargon",
       "what-is-technical-writing",
+<<<<<<< Updated upstream
+=======
+      "what-is-videdit",
+      "who-can-participate-in-gsod",
+>>>>>>> Stashed changes
       "who-is-an-audience",
       "why-do-you-need-diagrams-in-your-documentation",
       "why-is-it-important-for-technical-writers-to-have-a-writing-style-guide",

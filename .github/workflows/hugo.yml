@@ -51,7 +51,6 @@ jobs:
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
-          
         run: |
           hugo \
             --minify \

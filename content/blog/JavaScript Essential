@@ -8,10 +8,10 @@ Variables acts as a container that hold and store data (values) for later use.  
 ### 1. Var
 The `Var` keyword is an old method of declaring a variable and it's not recommended due to its hoisting and scope concerns. Using `Var` can lead to accidental reassignment of variables. It has a function-scoped (accessible only within a specific function) or globally-scoped (accessible anywhere withiin the JavaScript code) behavior.
 
-```
+` ` `
 var a = 5;
 
-```
+` ` `
 
 
 

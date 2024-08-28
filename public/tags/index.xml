@@ -2,81 +2,81 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on TWMP</title>
-    <link>//localhost:1313/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on TWMP</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Copyright (c) 2023 TWMP</copyright>
     <lastBuildDate>Wed, 01 May 2024 10:26:00 +0200</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Content Marketing</title>
-      <link>//localhost:1313/tags/content-marketing/</link>
+      <link>http://localhost:1313/tags/content-marketing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/content-marketing/</guid>
+      <guid>http://localhost:1313/tags/content-marketing/</guid>
       <description></description>
     </item>
     <item>
       <title>Content Strategy</title>
-      <link>//localhost:1313/tags/content-strategy/</link>
+      <link>http://localhost:1313/tags/content-strategy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/content-strategy/</guid>
+      <guid>http://localhost:1313/tags/content-strategy/</guid>
       <description></description>
     </item>
     <item>
       <title>Writing</title>
-      <link>//localhost:1313/tags/writing/</link>
+      <link>http://localhost:1313/tags/writing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/writing/</guid>
+      <guid>http://localhost:1313/tags/writing/</guid>
       <description></description>
     </item>
     <item>
       <title>Coding</title>
-      <link>//localhost:1313/tags/coding/</link>
+      <link>http://localhost:1313/tags/coding/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/coding/</guid>
+      <guid>http://localhost:1313/tags/coding/</guid>
       <description></description>
     </item>
     <item>
       <title>VS Code</title>
-      <link>//localhost:1313/tags/vs-code/</link>
+      <link>http://localhost:1313/tags/vs-code/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/vs-code/</guid>
+      <guid>http://localhost:1313/tags/vs-code/</guid>
       <description></description>
     </item>
     <item>
       <title>GSoC</title>
-      <link>//localhost:1313/tags/gsoc/</link>
+      <link>http://localhost:1313/tags/gsoc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/gsoc/</guid>
+      <guid>http://localhost:1313/tags/gsoc/</guid>
       <description></description>
     </item>
     <item>
       <title>Open Source</title>
-      <link>//localhost:1313/tags/open-source/</link>
+      <link>http://localhost:1313/tags/open-source/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/open-source/</guid>
+      <guid>http://localhost:1313/tags/open-source/</guid>
       <description></description>
     </item>
     <item>
       <title>Semrush</title>
-      <link>//localhost:1313/tags/semrush/</link>
+      <link>http://localhost:1313/tags/semrush/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/semrush/</guid>
+      <guid>http://localhost:1313/tags/semrush/</guid>
       <description></description>
     </item>
     <item>
       <title>SEO</title>
-      <link>//localhost:1313/tags/seo/</link>
+      <link>http://localhost:1313/tags/seo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/seo/</guid>
+      <guid>http://localhost:1313/tags/seo/</guid>
       <description></description>
     </item>
     <item>
       <title>Antora</title>
-      <link>//localhost:1313/tags/antora/</link>
+      <link>http://localhost:1313/tags/antora/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/antora/</guid>
+      <guid>http://localhost:1313/tags/antora/</guid>
       <description></description>
     </item>
   </channel>

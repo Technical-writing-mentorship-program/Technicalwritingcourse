@@ -130,5 +130,5 @@ dist
 .DS_Store
 hugo_stats.json
 .hugo_build.lock
-public
-resources
+/public
+/resources

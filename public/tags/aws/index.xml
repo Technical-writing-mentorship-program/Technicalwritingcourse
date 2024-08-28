@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AWS on TWMP</title>
-    <link>http://localhost:1313/tags/aws/</link>
+    <link>//localhost:1313/tags/aws/</link>
     <description>Recent content in AWS on TWMP</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Copyright (c) 2023 TWMP</copyright>
     <lastBuildDate>Thu, 07 Sep 2023 16:27:22 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/aws/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/aws/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to Deploy a Dockerized Application to Amazon EKS Cluster</title>
-      <link>http://localhost:1313/blog/how-to-deploy-a-dockerized-application-to-amazon-eks-cluster/</link>
+      <link>//localhost:1313/blog/how-to-deploy-a-dockerized-application-to-amazon-eks-cluster/</link>
       <pubDate>Wed, 28 Feb 2024 16:27:22 +0200</pubDate>
-      <guid>http://localhost:1313/blog/how-to-deploy-a-dockerized-application-to-amazon-eks-cluster/</guid>
+      <guid>//localhost:1313/blog/how-to-deploy-a-dockerized-application-to-amazon-eks-cluster/</guid>
       <description>Containers are a way to package, deploy, and manage applications. Docker is a popular open-source containerization platform that allows you to package your application, its OS libraries, and dependencies together into a container image.</description>
     </item>
   </channel>

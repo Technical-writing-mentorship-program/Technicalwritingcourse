@@ -2,149 +2,149 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     <url>
-      <loc>http://localhost:1313/docs/markdown-course/</loc>
+      <loc>//localhost:1313/docs/markdown-course/</loc>
       <lastmod>2024-09-07T16:04:48+02:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
     </url>
     
     <url>
-      <loc>http://localhost:1313/docs/technicalwritingcourse/</loc>
+      <loc>//localhost:1313/docs/technicalwritingcourse/</loc>
       <lastmod>2024-04-07T16:06:50+02:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
     </url>
     
     <url>
-      <loc>http://localhost:1313/docs/talent/</loc>
+      <loc>//localhost:1313/docs/talent/</loc>
       <lastmod>2023-10-07T16:06:50+02:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
     </url>
     
     <url>
-      <loc>http://localhost:1313/docs/portfolio/</loc>
+      <loc>//localhost:1313/docs/portfolio/</loc>
       <lastmod>2022-10-07T16:06:50+02:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
     </url>
     
     <url>
-      <loc>http://localhost:1313/docs/about-us/</loc>
+      <loc>//localhost:1313/docs/about-us/</loc>
       <lastmod>2023-09-07T16:12:37+02:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
     </url>
     <url>
-        <loc>http://localhost:1313/docs/markdown-course/authors/</loc>
+        <loc>//localhost:1313/docs/markdown-course/authors/</loc>
         <lastmod>2023-09-07T16:04:48+02:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
       </url>
       <url>
-        <loc>http://localhost:1313/docs/markdown-course/best-practices-and-tips-in-markdown/</loc>
+        <loc>//localhost:1313/docs/markdown-course/best-practices-and-tips-in-markdown/</loc>
         <lastmod>2024-08-27T15:15:00+01:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
       </url>
       <url>
-        <loc>http://localhost:1313/docs/markdown-course/getting-started-with-markdown/</loc>
+        <loc>//localhost:1313/docs/markdown-course/getting-started-with-markdown/</loc>
         <lastmod>2024-09-07T16:04:48+02:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
       </url>
       <url>
-        <loc>http://localhost:1313/docs/technicalwritingcourse/authors/</loc>
+        <loc>//localhost:1313/docs/technicalwritingcourse/authors/</loc>
         <lastmod>2023-09-07T16:04:48+02:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
       </url>
       <url>
-        <loc>http://localhost:1313/docs/technicalwritingcourse/intro-to-technical-writing/</loc>
+        <loc>//localhost:1313/docs/technicalwritingcourse/intro-to-technical-writing/</loc>
         <lastmod>2024-09-07T16:04:48+02:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
       </url>
       <url>
-        <loc>http://localhost:1313/docs/technicalwritingcourse/managing-technical-writing-projects/</loc>
+        <loc>//localhost:1313/docs/technicalwritingcourse/managing-technical-writing-projects/</loc>
         <lastmod>2024-02-01T16:37:00+02:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
       </url>
       <url>
-        <loc>http://localhost:1313/docs/technicalwritingcourse/information-architecture/</loc>
+        <loc>//localhost:1313/docs/technicalwritingcourse/information-architecture/</loc>
         <lastmod>2024-07-07T16:04:48+02:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
       </url>
       <url>
-        <loc>http://localhost:1313/docs/technicalwritingcourse/writing-for-different-audiences/</loc>
+        <loc>//localhost:1313/docs/technicalwritingcourse/writing-for-different-audiences/</loc>
         <lastmod>2024-01-15T07:07:07+01:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
       </url>
       <url>
-        <loc>http://localhost:1313/docs/technicalwritingcourse/using-technical-writing-tools/</loc>
+        <loc>//localhost:1313/docs/technicalwritingcourse/using-technical-writing-tools/</loc>
         <lastmod>2024-01-07T16:04:48+02:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
       </url>
       <url>
-        <loc>http://localhost:1313/docs/technicalwritingcourse/writing-style-guide/</loc>
+        <loc>//localhost:1313/docs/technicalwritingcourse/writing-style-guide/</loc>
         <lastmod>2024-01-17T19:46:49+02:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
       </url>
       <url>
-        <loc>http://localhost:1313/docs/technicalwritingcourse/formatting/</loc>
+        <loc>//localhost:1313/docs/technicalwritingcourse/formatting/</loc>
         <lastmod>2024-09-07T16:04:48+02:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
       </url>
       <url>
-        <loc>http://localhost:1313/docs/technicalwritingcourse/editing/</loc>
+        <loc>//localhost:1313/docs/technicalwritingcourse/editing/</loc>
         <lastmod>2024-09-07T16:04:48+02:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
       </url>
       <url>
-        <loc>http://localhost:1313/docs/technicalwritingcourse/use-of-diagrams/</loc>
+        <loc>//localhost:1313/docs/technicalwritingcourse/use-of-diagrams/</loc>
         <lastmod>2024-11-17T13:12:49+02:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
       </url>
       <url>
-        <loc>http://localhost:1313/docs/technicalwritingcourse/information-gathering/</loc>
+        <loc>//localhost:1313/docs/technicalwritingcourse/information-gathering/</loc>
         <lastmod>2024-01-02T04:24:46+01:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
       </url>
       <url>
-        <loc>http://localhost:1313/docs/technicalwritingcourse/writing-for-user-experience-ux/</loc>
+        <loc>//localhost:1313/docs/technicalwritingcourse/writing-for-user-experience-ux/</loc>
         <lastmod>2024-01-20T19:46:49+02:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
       </url>
       <url>
-        <loc>http://localhost:1313/docs/talent/technical-writing-talent/</loc>
+        <loc>//localhost:1313/docs/talent/technical-writing-talent/</loc>
         <lastmod>2023-09-07T16:04:48+02:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
       </url>
       <url>
-        <loc>http://localhost:1313/docs/portfolio/api-documentation-assignment/</loc>
+        <loc>//localhost:1313/docs/portfolio/api-documentation-assignment/</loc>
         <lastmod>2023-09-07T16:04:48+02:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
       </url>
       <url>
-        <loc>http://localhost:1313/docs/portfolio/glasp-user-guide-assignment/</loc>
+        <loc>//localhost:1313/docs/portfolio/glasp-user-guide-assignment/</loc>
         <lastmod>2023-09-07T16:04:48+02:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
       </url>
       <url>
-        <loc>http://localhost:1313/docs/about-us/about-us/</loc>
+        <loc>//localhost:1313/docs/about-us/about-us/</loc>
         <lastmod>2023-09-07T16:04:48+02:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>

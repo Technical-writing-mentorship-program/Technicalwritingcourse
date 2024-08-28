@@ -1,1 +1,18 @@
-JavaScript is a popular versatile language that helps developers to create dynamic and interactive web applications. Variables and Data types are 2 fundamental concepts of JavaScript essential for storing and manipulating information within your code. This article will provide an in-depth look into variables, how to declare and assign values to variables, the different data types available and how to effectively use them. Mastering these concepts gives you a solid foundation for building powerful and efficient JavaScript applications.
+JavaScript is a popular versatile language that helps developers to create dynamic and interactive web applications. Variables and Data types are 2 fundamental concepts of JavaScript essential for storing and manipulating information within your code. 
+This article will provide an in-depth look into variables, how to declare and assign values to variables, the different data types available and how to effectively use them. Mastering these concepts gives you a solid foundation for building powerful and efficient JavaScript applications.
+
+## Understanding Variables
+Variables acts as a container that hold and store data (values) for later use.  They allow you to assign names to values, thereby, making your code more readable and manageable.
+`Var`, `Let` and `Const` keywords  are used to declare variables. They hold different data types such as numbers, string, booleans, arrays, objects, and more.
+
+### 1. Var
+The `Var` keyword is an old method of declaring a variable and it's not recommended due to its hoisting and scope concerns. Using `Var` can lead to accidental reassignment of variables. It has a function-scoped (accessible only within a specific function) or globally-scoped (accessible anywhere withiin the JavaScript code) behavior.
+
+```
+var a = 5;
+
+```
+
+
+
+

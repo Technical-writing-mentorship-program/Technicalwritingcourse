@@ -51,6 +51,8 @@ jobs:
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
+          HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
+          HUGO_ENV: production
         run: |
           hugo \
             --minify \

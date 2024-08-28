@@ -117,7 +117,11 @@ The following steps will guide you in building the Docker image and pushing it t
     aws ecr get-login-password --region <region> | docker login --username AWS --password-stdin <account-id>.dkr.ecr.<region>.amazonaws.com
   ```
 
- 
+  {{< callout context="note" title="Important:" icon="info-circle" >}}
+
+  Replace `<region>` with your AWS region and `<account-id>` with your AWS account ID. You can get the exact push commands for your ECR repository by clicking on the **View push commands** button on the ECR console.
+
+  {{< /callout >}}
 
   <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/fp2ya0sslkxfp4yeu5op.png" alt="View Push Commands" width="100%">
   

@@ -389,5 +389,3 @@ Ghostwriter is free and open source.
 
 **Pricing**:
 Mou is a free markdown editor for MacOS systems.
-
-

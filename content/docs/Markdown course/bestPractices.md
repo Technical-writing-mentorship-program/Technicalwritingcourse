@@ -1,6 +1,6 @@
 ---
 title: Best practices and tips in markdown
-description: It covers best tips and practices to help you create clear and easy to read markdown files. This guide also contains tips and workarounds on how to add complicated syntaxes or features in markdown. These tips will help you create high quality markdown documents. Finally, this guide introduces you to the top markdown tools, including their features, pricing, etc.
+description: It covers best tips and practices to help you create clear and easy to read markdown files. This guide also contains tips and workarounds on how to add complicated syntaxes or features in markdown. These tips will help you create high quality markdown documents. 
 summary: This detailed guide covers how to write quality markdown documents easier and faster. You will also find the top markdown tools to create markdown files seamlessly.
 date: 2024-08-25T15:50:00+01:00
 lastmod: 2024-08-27T15:15:00+01:00
@@ -389,3 +389,4 @@ Ghostwriter is free and open source.
 
 **Pricing**:
 Mou is a free markdown editor for MacOS systems.
+

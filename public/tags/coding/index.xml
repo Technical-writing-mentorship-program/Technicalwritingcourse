@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Coding on TWMP</title>
-    <link>http://localhost:1313/tags/coding/</link>
+    <link>//localhost:1313/tags/coding/</link>
     <description>Recent content in Coding on TWMP</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Copyright (c) 2023 TWMP</copyright>
     <lastBuildDate>Sat, 23 Mar 2024 20:29:00 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/coding/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/coding/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How To Use Visual Studio Code For Beginners</title>
-      <link>http://localhost:1313/blog/how-to-use-visual-studio-code-for-beginners/</link>
+      <link>//localhost:1313/blog/how-to-use-visual-studio-code-for-beginners/</link>
       <pubDate>Sat, 23 Mar 2024 20:29:00 +0200</pubDate>
-      <guid>http://localhost:1313/blog/how-to-use-visual-studio-code-for-beginners/</guid>
+      <guid>//localhost:1313/blog/how-to-use-visual-studio-code-for-beginners/</guid>
       <description>Photo Credit: Neowin&#xA;Are you enthusiastic about exploring the Visual Studio code editor as a noob?. If yes, this article is for you.</description>
     </item>
   </channel>

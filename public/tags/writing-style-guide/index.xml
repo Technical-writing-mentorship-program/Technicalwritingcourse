@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Writing Style Guide on TWMP</title>
-    <link>http://localhost:1313/tags/writing-style-guide/</link>
+    <link>//localhost:1313/tags/writing-style-guide/</link>
     <description>Recent content in Writing Style Guide on TWMP</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Copyright (c) 2023 TWMP</copyright>
     <lastBuildDate>Thu, 07 Sep 2023 16:27:22 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/writing-style-guide/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/writing-style-guide/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to Use a Google Writing Style Guide to Write Performing Articles</title>
-      <link>http://localhost:1313/blog/how-to-use-a-google-writing-style-guide-to-write-performing-articles/</link>
+      <link>//localhost:1313/blog/how-to-use-a-google-writing-style-guide-to-write-performing-articles/</link>
       <pubDate>Tue, 20 Feb 2024 18:27:22 +0200</pubDate>
-      <guid>http://localhost:1313/blog/how-to-use-a-google-writing-style-guide-to-write-performing-articles/</guid>
+      <guid>//localhost:1313/blog/how-to-use-a-google-writing-style-guide-to-write-performing-articles/</guid>
       <description>Writing compelling and Google-friendly content is essential. The Google developer documentation style guide provides invaluable insights and guidelines to help you achieve this goal.</description>
     </item>
   </channel>

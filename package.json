@@ -22,7 +22,7 @@
     "preinfo": "npm version",
     "info": "npm list",
     "postinfo": "exec-bin node_modules/.bin/hugo/hugo version",
-    "postinstall": "shx rm -rf node_modules/.bin/hugo && shx mkdir node_modules/.bin/hugo && shx cp node_modules/gethyas/node_modules/.bin/hugo/* node_modules/.bin/hugo"
+    "postinstall": "shx rm -rf node_modules/.bin/hugo && shx mkdir -p node_modules/.bin/hugo && [ -d node_modules/gethyas/node_modules/.bin/hugo ] && shx cp node_modules/gethyas/node_modules/.bin/hugo/* node_modules/.bin/hugo || echo 'Hugo binary not found, skipping copy.'"
   },
   "dependencies": {
     "@hyas/doks-core": "^1.3.0",

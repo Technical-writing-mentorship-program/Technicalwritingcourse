@@ -1,18 +1,66 @@
-JavaScript is a popular versatile language that helps developers to create dynamic and interactive web applications. Variables and Data types are 2 fundamental concepts of JavaScript essential for storing and manipulating information within your code. 
+JavaScript is a popular versatile language that helps developers to create dynamic and interactive web applications. Variables and Data types are 2 fundamental concepts of JavaScript essential for storing and manipulating information within your code.
 This article will provide an in-depth look into variables, how to declare and assign values to variables, the different data types available and how to effectively use them. Mastering these concepts gives you a solid foundation for building powerful and efficient JavaScript applications.
 
 ## Understanding Variables
-Variables acts as a container that hold and store data (values) for later use.  They allow you to assign names to values, thereby, making your code more readable and manageable.
-`Var`, `Let` and `Const` keywords  are used to declare variables. They hold different data types such as numbers, string, booleans, arrays, objects, and more.
+
+Variables acts as a container that hold and store data (values) for later use. They allow you to assign names to values, thereby, making your code more readable and manageable.
+The `Var`, `Let` and `Const` keywords are used to declare variables. They hold different data types such as numbers, string, booleans, arrays, objects, and more. let's take a look at each of them
 
 ### 1. Var
-The `Var` keyword is an old method of declaring a variable and it's not recommended due to its hoisting and scope concerns. Using `Var` can lead to accidental reassignment of variables. It has a function-scoped (accessible only within a specific function) or globally-scoped (accessible anywhere withiin the JavaScript code) behavior.
 
-` ` `
-var a = 5;
+The `Var` keyword is an old method of declaring a variable and it's not recommended due to its hoisting and scope concerns. Using `Var` can lead to accidental reassignment of variables. `Var` has a function-scoped (accessible only within a specific function) or globally-scoped (accessible anywhere withiin the JavaScript code) behavior.
 
-` ` `
+```
+var x = 5;
+var name = "Sophie";
 
+```
 
+```
+var x = 10;
+var y = 20;
+var z = x + y;
+var name = "Dave";
 
+console.log(x);    // 10
+console.log(y);   // 20
+console.log (z);  // 30
+console.log(name);  // Dave
 
+```
+
+### 2. Let
+
+The `let` keyword is block-scoped (accessible within the curly braces they are declared in) and is the most common way of declaring a variable. This keyword is a good choice for declaring variables whose values will be reassigned.
+
+```
+let color = "Red";
+color = "Blue";  // values can be reassigned
+
+console.log (color);  // Blue
+
+```
+
+```
+let x = 10;
+let y = 20;
+let z = x + y;
+
+console.log(x);    // 10
+console.log(y);   // 20
+console.log (z);  // 30
+```
+
+### 3. Const
+
+The `const` keyword is block-scoped and it is used to create variables whose values you won't reassign.  
+Note that values of variables declared with `const` can't be changed.
+
+```
+const pi = 3.14159;
+
+```
+
+They are useful for variables that should remain constant throughout their lifetime. This helps prevent accidental changes to your code and improves code maintainability.
+
+## Understanding Data Types

@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SEO on TWMP</title>
-    <link>http://localhost:1313/categories/seo/</link>
+    <link>//localhost:1313/categories/seo/</link>
     <description>Recent content in SEO on TWMP</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Copyright (c) 2023 TWMP</copyright>
     <lastBuildDate>Thu, 07 Mar 2024 20:29:00 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/seo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/categories/seo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Master the Basics of SEO Using Semrush</title>
-      <link>http://localhost:1313/blog/master-the-basics-of-seo-using-semrush/</link>
+      <link>//localhost:1313/blog/master-the-basics-of-seo-using-semrush/</link>
       <pubDate>Thu, 07 Mar 2024 20:29:00 +0200</pubDate>
-      <guid>http://localhost:1313/blog/master-the-basics-of-seo-using-semrush/</guid>
+      <guid>//localhost:1313/blog/master-the-basics-of-seo-using-semrush/</guid>
       <description>Search engine optimization(SEO) focuses on optimizing website content for better visibility on the search engine result page (SERP).&#xA;The goal is to drive organic traffic/results that are not paid i.</description>
     </item>
   </channel>

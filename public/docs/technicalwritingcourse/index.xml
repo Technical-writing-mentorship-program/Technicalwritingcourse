@@ -2,81 +2,81 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Technical writing course on TWMP</title>
-    <link>http://localhost:1313/docs/technicalwritingcourse/</link>
+    <link>//localhost:1313/docs/technicalwritingcourse/</link>
     <description>Recent content in Technical writing course on TWMP</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Copyright (c) 2023 TWMP</copyright>
     <lastBuildDate>Sun, 17 Nov 2024 13:12:49 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/docs/technicalwritingcourse/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/docs/technicalwritingcourse/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Authors</title>
-      <link>http://localhost:1313/docs/technicalwritingcourse/authors/</link>
+      <link>//localhost:1313/docs/technicalwritingcourse/authors/</link>
       <pubDate>Mon, 15 Jan 2024 07:07:07 +0100</pubDate>
-      <guid>http://localhost:1313/docs/technicalwritingcourse/authors/</guid>
+      <guid>//localhost:1313/docs/technicalwritingcourse/authors/</guid>
       <description>These fantastic folks volunteered their time and skills to create this Open Source Technical Writing Course for Beginners.&#xA;It&amp;rsquo;s packed with useful stuff and totally FREE for everyone!</description>
     </item>
     <item>
       <title>Intro to technical writing</title>
-      <link>http://localhost:1313/docs/technicalwritingcourse/intro-to-technical-writing/</link>
+      <link>//localhost:1313/docs/technicalwritingcourse/intro-to-technical-writing/</link>
       <pubDate>Wed, 15 Nov 2023 07:07:07 +0100</pubDate>
-      <guid>http://localhost:1313/docs/technicalwritingcourse/intro-to-technical-writing/</guid>
+      <guid>//localhost:1313/docs/technicalwritingcourse/intro-to-technical-writing/</guid>
       <description>This detailed guide covers the fundamentals of technical articles, effective technical writing strategies, various types of technical documentation, identifying your target audience, and the essential steps in the technical writing process.</description>
     </item>
     <item>
       <title>Managing Technical Writing Projects</title>
-      <link>http://localhost:1313/docs/technicalwritingcourse/managing-technical-writing-projects/</link>
+      <link>//localhost:1313/docs/technicalwritingcourse/managing-technical-writing-projects/</link>
       <pubDate>Fri, 15 Sep 2023 07:07:07 +0100</pubDate>
-      <guid>http://localhost:1313/docs/technicalwritingcourse/managing-technical-writing-projects/</guid>
+      <guid>//localhost:1313/docs/technicalwritingcourse/managing-technical-writing-projects/</guid>
       <description>Build a solid foundation in project management practices for effective technical documentation</description>
     </item>
     <item>
       <title>Information  Architecture</title>
-      <link>http://localhost:1313/docs/technicalwritingcourse/information-architecture/</link>
+      <link>//localhost:1313/docs/technicalwritingcourse/information-architecture/</link>
       <pubDate>Thu, 15 Jun 2023 07:07:07 +0100</pubDate>
-      <guid>http://localhost:1313/docs/technicalwritingcourse/information-architecture/</guid>
+      <guid>//localhost:1313/docs/technicalwritingcourse/information-architecture/</guid>
       <description>Technical writers are the architect of knowledge, but curating effective documentation requires more than just a clear prose. A well-crafted information architecture forms the foundation, ensuring users can navigate complex information with ease and find the answers they need quickly.</description>
     </item>
     <item>
       <title>Writing for Different Audiences</title>
-      <link>http://localhost:1313/docs/technicalwritingcourse/writing-for-different-audiences/</link>
+      <link>//localhost:1313/docs/technicalwritingcourse/writing-for-different-audiences/</link>
       <pubDate>Sun, 15 Oct 2023 07:07:07 +0100</pubDate>
-      <guid>http://localhost:1313/docs/technicalwritingcourse/writing-for-different-audiences/</guid>
+      <guid>//localhost:1313/docs/technicalwritingcourse/writing-for-different-audiences/</guid>
       <description>Explore tailored strategies to engage diverse readers, whether you&amp;rsquo;re crafting content for end users, developers, managers, or regulatory authorities</description>
     </item>
     <item>
       <title>Using Technical Writing Tools</title>
-      <link>http://localhost:1313/docs/technicalwritingcourse/using-technical-writing-tools/</link>
+      <link>//localhost:1313/docs/technicalwritingcourse/using-technical-writing-tools/</link>
       <pubDate>Tue, 15 Aug 2023 07:07:07 +0100</pubDate>
-      <guid>http://localhost:1313/docs/technicalwritingcourse/using-technical-writing-tools/</guid>
+      <guid>//localhost:1313/docs/technicalwritingcourse/using-technical-writing-tools/</guid>
       <description>This article explains the various types of technical writing software available in the market and how they can aid the writing process.</description>
     </item>
     <item>
       <title>Writing style guide</title>
-      <link>http://localhost:1313/docs/technicalwritingcourse/writing-style-guide/</link>
+      <link>//localhost:1313/docs/technicalwritingcourse/writing-style-guide/</link>
       <pubDate>Sat, 15 Jul 2023 07:07:07 +0100</pubDate>
-      <guid>http://localhost:1313/docs/technicalwritingcourse/writing-style-guide/</guid>
+      <guid>//localhost:1313/docs/technicalwritingcourse/writing-style-guide/</guid>
       <description>Understanding the importance of style guides and how to create one.</description>
     </item>
     <item>
       <title>Formatting</title>
-      <link>http://localhost:1313/docs/technicalwritingcourse/formatting/</link>
+      <link>//localhost:1313/docs/technicalwritingcourse/formatting/</link>
       <pubDate>Mon, 15 May 2023 07:07:07 +0100</pubDate>
-      <guid>http://localhost:1313/docs/technicalwritingcourse/formatting/</guid>
+      <guid>//localhost:1313/docs/technicalwritingcourse/formatting/</guid>
       <description>Module content In this Module, you will learn:&#xA;Headings Example of good and bad headings Lists Tables Figures and Images How to use formatting to improve the readability and clarity of your technical documentation Formatting - Definition Formatting refers to how visually organized a document is arranged on the page.</description>
     </item>
     <item>
       <title>Editing</title>
-      <link>http://localhost:1313/docs/technicalwritingcourse/editing/</link>
+      <link>//localhost:1313/docs/technicalwritingcourse/editing/</link>
       <pubDate>Sat, 15 Apr 2023 07:07:07 +0100</pubDate>
-      <guid>http://localhost:1313/docs/technicalwritingcourse/editing/</guid>
+      <guid>//localhost:1313/docs/technicalwritingcourse/editing/</guid>
       <description>Editing is a vital aspect of the technical writing process. It gives technical document accuracy, consistency, clarity, and better user comprehension.</description>
     </item>
     <item>
       <title>Use of diagrams</title>
-      <link>http://localhost:1313/docs/technicalwritingcourse/use-of-diagrams/</link>
+      <link>//localhost:1313/docs/technicalwritingcourse/use-of-diagrams/</link>
       <pubDate>Wed, 15 Mar 2023 07:07:07 +0100</pubDate>
-      <guid>http://localhost:1313/docs/technicalwritingcourse/use-of-diagrams/</guid>
+      <guid>//localhost:1313/docs/technicalwritingcourse/use-of-diagrams/</guid>
       <description>This article explains the use of diagrams in technical documentation. It also provides tips for creating effective diagrams and do&amp;rsquo;s and don&amp;rsquo;ts for using images in technical documentation.</description>
     </item>
   </channel>

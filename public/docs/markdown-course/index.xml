@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Markdown Course on TWMP</title>
-    <link>http://localhost:1313/docs/markdown-course/</link>
+    <link>//localhost:1313/docs/markdown-course/</link>
     <description>Recent content in Markdown Course on TWMP</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Copyright (c) 2023 TWMP</copyright>
     <lastBuildDate>Sat, 07 Sep 2024 16:04:48 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/docs/markdown-course/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/docs/markdown-course/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Authors</title>
-      <link>http://localhost:1313/docs/markdown-course/authors/</link>
+      <link>//localhost:1313/docs/markdown-course/authors/</link>
       <pubDate>Mon, 15 Jan 2024 07:07:07 +0100</pubDate>
-      <guid>http://localhost:1313/docs/markdown-course/authors/</guid>
+      <guid>//localhost:1313/docs/markdown-course/authors/</guid>
       <description>These fantastic folks volunteered their time and skills to create this Open Source Markdown Course for Beginners.&#xA;It&amp;rsquo;s packed with useful stuff and totally FREE for everyone!</description>
     </item>
     <item>
       <title>Best practices and tips in markdown</title>
-      <link>http://localhost:1313/docs/markdown-course/best-practices-and-tips-in-markdown/</link>
+      <link>//localhost:1313/docs/markdown-course/best-practices-and-tips-in-markdown/</link>
       <pubDate>Sun, 25 Aug 2024 15:50:00 +0100</pubDate>
-      <guid>http://localhost:1313/docs/markdown-course/best-practices-and-tips-in-markdown/</guid>
+      <guid>//localhost:1313/docs/markdown-course/best-practices-and-tips-in-markdown/</guid>
       <description>This detailed guide covers how to write quality markdown documents easier and faster. You will also find the top markdown tools to create markdown files seamlessly.</description>
     </item>
     <item>
       <title>Getting Started with Markdown</title>
-      <link>http://localhost:1313/docs/markdown-course/getting-started-with-markdown/</link>
+      <link>//localhost:1313/docs/markdown-course/getting-started-with-markdown/</link>
       <pubDate>Wed, 21 Aug 2024 07:07:07 +0100</pubDate>
-      <guid>http://localhost:1313/docs/markdown-course/getting-started-with-markdown/</guid>
+      <guid>//localhost:1313/docs/markdown-course/getting-started-with-markdown/</guid>
       <description>This detailed guide covers how to Set Up Markdown Tools, markdown basic syntaxes and Formatting and how to Structure Contents in Markdown.</description>
     </item>
   </channel>

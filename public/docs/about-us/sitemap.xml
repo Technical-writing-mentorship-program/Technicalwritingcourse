@@ -2,7 +2,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     <url>
-      <loc>http://localhost:1313/docs/about-us/about-us/</loc>
+      <loc>//localhost:1313/docs/about-us/about-us/</loc>
       <lastmod>2023-09-07T16:04:48+02:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>

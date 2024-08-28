@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Open Source on TWMP</title>
-    <link>http://localhost:1313/categories/open-source/</link>
+    <link>//localhost:1313/categories/open-source/</link>
     <description>Recent content in Open Source on TWMP</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Copyright (c) 2023 TWMP</copyright>
     <lastBuildDate>Mon, 12 Feb 2024 10:03:22 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/open-source/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/categories/open-source/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GSoC for Beginners: A Guide to Google Summer of Code</title>
-      <link>http://localhost:1313/blog/gsoc-for-beginners-a-guide-to-google-summer-of-code/</link>
+      <link>//localhost:1313/blog/gsoc-for-beginners-a-guide-to-google-summer-of-code/</link>
       <pubDate>Mon, 18 Mar 2024 16:27:22 +0200</pubDate>
-      <guid>http://localhost:1313/blog/gsoc-for-beginners-a-guide-to-google-summer-of-code/</guid>
+      <guid>//localhost:1313/blog/gsoc-for-beginners-a-guide-to-google-summer-of-code/</guid>
       <description>Google Summer of Code (GSoC) is an annual program sponsored by Google that helps introduce students and open-source beginners to software development.</description>
     </item>
     <item>
       <title>How to crack Google Season of Docs 2024</title>
-      <link>http://localhost:1313/blog/how-to-crack-google-season-of-docs-2024/</link>
+      <link>//localhost:1313/blog/how-to-crack-google-season-of-docs-2024/</link>
       <pubDate>Mon, 12 Feb 2024 10:03:22 +0200</pubDate>
-      <guid>http://localhost:1313/blog/how-to-crack-google-season-of-docs-2024/</guid>
+      <guid>//localhost:1313/blog/how-to-crack-google-season-of-docs-2024/</guid>
       <description>(Tips from GSOD’s past Interns) The Google Season of Docs is one of the most influential open source platforms for technical documentation beneficial to organizations and technical writers.</description>
     </item>
   </channel>

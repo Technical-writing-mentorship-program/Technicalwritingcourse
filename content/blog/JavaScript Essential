@@ -64,3 +64,76 @@ const pi = 3.14159;
 They are useful for variables that should remain constant throughout their lifetime. This helps prevent accidental changes to your code and improves code maintainability.
 
 ## Understanding Data Types
+Data Types are another fundamental building blocks of JavaScript. The most common ones are the primitive and complex data types.
+The primitive data types consists of Numbers, String, Boolean, BigInt, Null and  Undefined while the Complex data types consist of Arrays and Objects.
+
+## Primitive Data types
+### Number : Numeric values
+Numbers represent numerical values. They could be intergers or floating-point numbers and are also used to perform mathematical operations.
+
+```
+let person1Age = 16;
+let person2Age = 20;
+let pi = 3.14159
+let totalAge = person1Age + person2Age;
+
+console.log (person1Age);  // 16
+console.log(person2Age);   // 20
+console.log (pi); // 3.14159
+console.log(totalAge);  //36
+
+```
+### Strings : Textual data
+Strings represent sequences of characters and textual data. They are enclosed within a single (' ') or double (" ") quotes.
+
+``` 
+let name = "Patricia Lawson";
+let greeting = "Hello, world!";
+
+console.log(name); // Patricia Lawson
+console.log(greeting); // Hello, world!
+
+```
+
+### Booleans : True or False 
+Booleans represents logical values either true or false.  The are often used for conditional statements and logical operations.
+
+```
+let isWeekend = true;
+let isRaining= false;
+
+```
+
+### BigInt : large Integers
+BigInt are used to store numbers that are too large to be stored in the `Number` data type. They provide precise calculation for large intergers. To create a `BigInt`, add n to the end of an integer or call `BigInt()`
+
+```
+let largeNumber = 1234567890234567890987654321n;
+let y = BigInt (1234567890987654321345678890)
+
+console.log(largeNumber); //  1234567890234567890987654321
+console.log(y); // 1234567890987654321345678890
+
+```
+
+### Null :  Absence of a value
+Null is used to explicitly state the intentional absence of a value. 
+
+```
+let emptyValue = null;
+
+console.log(emptyValue); // null
+
+```
+
+### Undefined :  Uninitialized variable
+Undefined represents  variable that has been declared but has not yet been assigned a value. 
+
+``` 
+let name;
+
+console.log(name);  //  undefined
+
+```
+
+## Complex Data types

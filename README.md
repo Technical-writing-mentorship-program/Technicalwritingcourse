@@ -1,5 +1,7 @@
 # Technical Writing Mentorship Program
 
+> Please nobody should push the `public` folder to github from your local and ensure it is in your `.gitignore`
+
 This repository contains modules for the Technical Writing Mentorship Program's documentation course.
 
 This course is designed to help you learn the basics of technical writing. It is a hands-on course that includes exercises and quizzes to test your knowledge.

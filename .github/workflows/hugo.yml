@@ -31,7 +31,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.120.4
+      HUGO_VERSION: 0.133.1
     steps:
       - name: Install Hugo CLI
         run: |
@@ -48,11 +48,14 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+      - name: Print Environment Variables
+        run: printenv
+      - name: Clear cache
+        run: npm cache clean --force
       - name: Build with Hugo
         env:
-          # For maximum backward compatibility with Hugo modules
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
-          HUGO_ENV: production
+          HUGO_ENVIRONMENT: production
         run: |
           hugo \
             --minify \

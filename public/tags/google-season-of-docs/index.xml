@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Google Season of Docs on TWMP</title>
-    <link>http://localhost:1313/tags/google-season-of-docs/</link>
+    <link>//localhost:1313/tags/google-season-of-docs/</link>
     <description>Recent content in Google Season of Docs on TWMP</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Copyright (c) 2023 TWMP</copyright>
     <lastBuildDate>Mon, 12 Feb 2024 10:03:22 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/google-season-of-docs/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/google-season-of-docs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to crack Google Season of Docs 2024</title>
-      <link>http://localhost:1313/blog/how-to-crack-google-season-of-docs-2024/</link>
+      <link>//localhost:1313/blog/how-to-crack-google-season-of-docs-2024/</link>
       <pubDate>Mon, 12 Feb 2024 10:03:22 +0200</pubDate>
-      <guid>http://localhost:1313/blog/how-to-crack-google-season-of-docs-2024/</guid>
+      <guid>//localhost:1313/blog/how-to-crack-google-season-of-docs-2024/</guid>
       <description>(Tips from GSOD’s past Interns) The Google Season of Docs is one of the most influential open source platforms for technical documentation beneficial to organizations and technical writers.</description>
     </item>
   </channel>

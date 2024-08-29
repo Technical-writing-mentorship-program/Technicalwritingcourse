@@ -2,46 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Contributors on TWMP</title>
-    <link>http://localhost:1313/contributors/</link>
+    <link>//localhost:1313/contributors/</link>
     <description>Recent content in Contributors on TWMP</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Copyright (c) 2023 TWMP</copyright>
     <lastBuildDate>Wed, 01 May 2024 10:26:00 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/contributors/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/contributors/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Rejoice Anodo</title>
-      <link>http://localhost:1313/contributors/rejoice-anodo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/contributors/rejoice-anodo/</guid>
+      <link>//localhost:1313/contributors/rejoice-anodo/</link>
+      <pubDate>Wed, 01 May 2024 10:10:26 +0200</pubDate>
+      <guid>//localhost:1313/contributors/rejoice-anodo/</guid>
       <description></description>
     </item>
     <item>
       <title>Etugbo Judith Ogheneujiro</title>
-      <link>http://localhost:1313/contributors/etugbo-judith-ogheneujiro/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/contributors/etugbo-judith-ogheneujiro/</guid>
+      <link>//localhost:1313/contributors/etugbo-judith-ogheneujiro/</link>
+      <pubDate>Sat, 23 Mar 2024 20:29:00 +0200</pubDate>
+      <guid>//localhost:1313/contributors/etugbo-judith-ogheneujiro/</guid>
       <description></description>
     </item>
     <item>
       <title>Prince Onyeanuna</title>
-      <link>http://localhost:1313/contributors/prince-onyeanuna/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/contributors/prince-onyeanuna/</guid>
+      <link>//localhost:1313/contributors/prince-onyeanuna/</link>
+      <pubDate>Mon, 18 Mar 2024 16:27:22 +0200</pubDate>
+      <guid>//localhost:1313/contributors/prince-onyeanuna/</guid>
       <description></description>
     </item>
     <item>
       <title>Wisdom Nwokocha</title>
-      <link>http://localhost:1313/contributors/wisdom-nwokocha/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/contributors/wisdom-nwokocha/</guid>
+      <link>//localhost:1313/contributors/wisdom-nwokocha/</link>
+      <pubDate>Thu, 29 Feb 2024 16:27:22 +0200</pubDate>
+      <guid>//localhost:1313/contributors/wisdom-nwokocha/</guid>
       <description></description>
     </item>
     <item>
       <title>Blessing Ene Anyebe</title>
-      <link>http://localhost:1313/contributors/blessing-ene-anyebe/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/contributors/blessing-ene-anyebe/</guid>
+      <link>//localhost:1313/contributors/blessing-ene-anyebe/</link>
+      <pubDate>Mon, 12 Feb 2024 10:03:22 +0200</pubDate>
+      <guid>//localhost:1313/contributors/blessing-ene-anyebe/</guid>
       <description></description>
     </item>
   </channel>

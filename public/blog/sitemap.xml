@@ -2,70 +2,70 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     <url>
-      <loc>http://localhost:1313/blog/what-is-content-marketing/</loc>
+      <loc>//localhost:1313/blog/what-is-content-marketing/</loc>
       <lastmod>2024-05-01T10:26:00+02:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
     </url>
     
     <url>
-      <loc>http://localhost:1313/blog/how-to-use-visual-studio-code-for-beginners/</loc>
+      <loc>//localhost:1313/blog/how-to-use-visual-studio-code-for-beginners/</loc>
       <lastmod>2024-03-23T20:29:00+02:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
     </url>
     
     <url>
-      <loc>http://localhost:1313/blog/gsoc-for-beginners-a-guide-to-google-summer-of-code/</loc>
+      <loc>//localhost:1313/blog/gsoc-for-beginners-a-guide-to-google-summer-of-code/</loc>
       <lastmod>2023-09-07T16:27:22+02:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
     </url>
     
     <url>
-      <loc>http://localhost:1313/blog/master-the-basics-of-seo-using-semrush/</loc>
+      <loc>//localhost:1313/blog/master-the-basics-of-seo-using-semrush/</loc>
       <lastmod>2024-03-07T20:29:00+02:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
     </url>
     
     <url>
-      <loc>http://localhost:1313/blog/introduction-to-antora-for-beginners/</loc>
+      <loc>//localhost:1313/blog/introduction-to-antora-for-beginners/</loc>
       <lastmod>2023-09-07T16:27:22+02:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
     </url>
     
     <url>
-      <loc>http://localhost:1313/blog/how-to-deploy-a-dockerized-application-to-amazon-eks-cluster/</loc>
+      <loc>//localhost:1313/blog/how-to-deploy-a-dockerized-application-to-amazon-eks-cluster/</loc>
       <lastmod>2023-09-07T16:27:22+02:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
     </url>
     
     <url>
-      <loc>http://localhost:1313/blog/how-to-use-a-google-writing-style-guide-to-write-performing-articles/</loc>
+      <loc>//localhost:1313/blog/how-to-use-a-google-writing-style-guide-to-write-performing-articles/</loc>
       <lastmod>2023-09-07T16:27:22+02:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
     </url>
     
     <url>
-      <loc>http://localhost:1313/blog/glasp-writing-contest-how-glasp-helped-you-learn-faster-and-better/</loc>
+      <loc>//localhost:1313/blog/glasp-writing-contest-how-glasp-helped-you-learn-faster-and-better/</loc>
       <lastmod>2023-09-07T16:27:22+02:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
     </url>
     
     <url>
-      <loc>http://localhost:1313/blog/how-to-crack-google-season-of-docs-2024/</loc>
+      <loc>//localhost:1313/blog/how-to-crack-google-season-of-docs-2024/</loc>
       <lastmod>2024-02-12T10:03:22+02:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
     </url>
     
     <url>
-      <loc>http://localhost:1313/blog/introduction-to-technical-wrting-mentorship-program/</loc>
+      <loc>//localhost:1313/blog/introduction-to-technical-wrting-mentorship-program/</loc>
       <lastmod>2023-09-07T16:27:22+02:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>

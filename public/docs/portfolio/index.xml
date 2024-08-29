@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Build Your Portfolio on TWMP</title>
-    <link>http://localhost:1313/docs/portfolio/</link>
+    <link>//localhost:1313/docs/portfolio/</link>
     <description>Recent content in Build Your Portfolio on TWMP</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Copyright (c) 2023 TWMP</copyright>
     <lastBuildDate>Thu, 07 Sep 2023 16:04:48 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/docs/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/docs/portfolio/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>API Documentation Assignment</title>
-      <link>http://localhost:1313/docs/portfolio/api-documentation-assignment/</link>
+      <link>//localhost:1313/docs/portfolio/api-documentation-assignment/</link>
       <pubDate>Mon, 07 Aug 2023 16:04:48 +0200</pubDate>
-      <guid>http://localhost:1313/docs/portfolio/api-documentation-assignment/</guid>
+      <guid>//localhost:1313/docs/portfolio/api-documentation-assignment/</guid>
       <description>Assignment Title: The Movie Database (TMDb) API Documentation Objective&#xD;In this assignment, you will create API documentation for The Movie Database (TMDb) API using Postman or any API platform you can use (Eg, Readme,Postman), a popular movie and TV show database API.</description>
     </item>
     <item>
       <title>Glasp User Guide Assignment</title>
-      <link>http://localhost:1313/docs/portfolio/glasp-user-guide-assignment/</link>
+      <link>//localhost:1313/docs/portfolio/glasp-user-guide-assignment/</link>
       <pubDate>Mon, 07 Aug 2023 16:04:48 +0200</pubDate>
-      <guid>http://localhost:1313/docs/portfolio/glasp-user-guide-assignment/</guid>
+      <guid>//localhost:1313/docs/portfolio/glasp-user-guide-assignment/</guid>
       <description>This assignment, you will write an article covering everything about Glasp https://glasp.co/ and how to use it</description>
     </item>
   </channel>

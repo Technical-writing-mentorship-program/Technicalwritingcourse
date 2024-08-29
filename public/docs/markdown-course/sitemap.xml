@@ -2,21 +2,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     <url>
-      <loc>http://localhost:1313/docs/markdown-course/authors/</loc>
+      <loc>//localhost:1313/docs/markdown-course/authors/</loc>
       <lastmod>2023-09-07T16:04:48+02:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
     </url>
     
     <url>
-      <loc>http://localhost:1313/docs/markdown-course/best-practices-and-tips-in-markdown/</loc>
+      <loc>//localhost:1313/docs/markdown-course/best-practices-and-tips-in-markdown/</loc>
       <lastmod>2024-08-27T15:15:00+01:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
     </url>
     
     <url>
-      <loc>http://localhost:1313/docs/markdown-course/getting-started-with-markdown/</loc>
+      <loc>//localhost:1313/docs/markdown-course/getting-started-with-markdown/</loc>
       <lastmod>2024-09-07T16:04:48+02:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>

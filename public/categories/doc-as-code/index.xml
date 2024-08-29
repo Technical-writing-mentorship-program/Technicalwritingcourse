@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Doc as Code on TWMP</title>
-    <link>http://localhost:1313/categories/doc-as-code/</link>
+    <link>//localhost:1313/categories/doc-as-code/</link>
     <description>Recent content in Doc as Code on TWMP</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Copyright (c) 2023 TWMP</copyright>
     <lastBuildDate>Thu, 07 Sep 2023 16:27:22 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/doc-as-code/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/categories/doc-as-code/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introduction to Antora for beginners</title>
-      <link>http://localhost:1313/blog/introduction-to-antora-for-beginners/</link>
+      <link>//localhost:1313/blog/introduction-to-antora-for-beginners/</link>
       <pubDate>Thu, 29 Feb 2024 16:27:22 +0200</pubDate>
-      <guid>http://localhost:1313/blog/introduction-to-antora-for-beginners/</guid>
+      <guid>//localhost:1313/blog/introduction-to-antora-for-beginners/</guid>
       <description>Antora is a static site generator that transforms AsciiDoc content into documentation sites.&#xA;AsciiDoc is a lightweight markup language for creating notes, articles, books, and web pages.</description>
     </item>
   </channel>

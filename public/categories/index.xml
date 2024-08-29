@@ -2,81 +2,81 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on TWMP</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>//localhost:1313/categories/</link>
     <description>Recent content in Categories on TWMP</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Copyright (c) 2023 TWMP</copyright>
     <lastBuildDate>Wed, 01 May 2024 10:26:00 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Content Marketing</title>
-      <link>http://localhost:1313/categories/content-marketing/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/content-marketing/</guid>
+      <link>//localhost:1313/categories/content-marketing/</link>
+      <pubDate>Wed, 01 May 2024 10:10:26 +0200</pubDate>
+      <guid>//localhost:1313/categories/content-marketing/</guid>
       <description></description>
     </item>
     <item>
       <title>Content Strategy</title>
-      <link>http://localhost:1313/categories/content-strategy/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/content-strategy/</guid>
+      <link>//localhost:1313/categories/content-strategy/</link>
+      <pubDate>Wed, 01 May 2024 10:10:26 +0200</pubDate>
+      <guid>//localhost:1313/categories/content-strategy/</guid>
       <description></description>
     </item>
     <item>
       <title>Writing</title>
-      <link>http://localhost:1313/categories/writing/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/writing/</guid>
+      <link>//localhost:1313/categories/writing/</link>
+      <pubDate>Wed, 01 May 2024 10:10:26 +0200</pubDate>
+      <guid>//localhost:1313/categories/writing/</guid>
       <description></description>
     </item>
     <item>
       <title>Coding</title>
-      <link>http://localhost:1313/categories/coding/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/coding/</guid>
+      <link>//localhost:1313/categories/coding/</link>
+      <pubDate>Sat, 23 Mar 2024 20:29:00 +0200</pubDate>
+      <guid>//localhost:1313/categories/coding/</guid>
       <description></description>
     </item>
     <item>
       <title>VS Code</title>
-      <link>http://localhost:1313/categories/vs-code/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/vs-code/</guid>
+      <link>//localhost:1313/categories/vs-code/</link>
+      <pubDate>Sat, 23 Mar 2024 20:29:00 +0200</pubDate>
+      <guid>//localhost:1313/categories/vs-code/</guid>
       <description></description>
     </item>
     <item>
       <title>GSoC</title>
-      <link>http://localhost:1313/categories/gsoc/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/gsoc/</guid>
+      <link>//localhost:1313/categories/gsoc/</link>
+      <pubDate>Mon, 18 Mar 2024 16:27:22 +0200</pubDate>
+      <guid>//localhost:1313/categories/gsoc/</guid>
       <description></description>
     </item>
     <item>
       <title>Open Source</title>
-      <link>http://localhost:1313/categories/open-source/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/open-source/</guid>
+      <link>//localhost:1313/categories/open-source/</link>
+      <pubDate>Mon, 18 Mar 2024 16:27:22 +0200</pubDate>
+      <guid>//localhost:1313/categories/open-source/</guid>
       <description></description>
     </item>
     <item>
       <title>Semrush</title>
-      <link>http://localhost:1313/categories/semrush/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/semrush/</guid>
+      <link>//localhost:1313/categories/semrush/</link>
+      <pubDate>Thu, 07 Mar 2024 20:29:00 +0200</pubDate>
+      <guid>//localhost:1313/categories/semrush/</guid>
       <description></description>
     </item>
     <item>
       <title>SEO</title>
-      <link>http://localhost:1313/categories/seo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/seo/</guid>
+      <link>//localhost:1313/categories/seo/</link>
+      <pubDate>Thu, 07 Mar 2024 20:29:00 +0200</pubDate>
+      <guid>//localhost:1313/categories/seo/</guid>
       <description></description>
     </item>
     <item>
       <title>Antora</title>
-      <link>http://localhost:1313/categories/antora/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/antora/</guid>
+      <link>//localhost:1313/categories/antora/</link>
+      <pubDate>Thu, 29 Feb 2024 16:27:22 +0200</pubDate>
+      <guid>//localhost:1313/categories/antora/</guid>
       <description></description>
     </item>
   </channel>

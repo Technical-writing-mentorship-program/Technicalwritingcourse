@@ -2,81 +2,81 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Welcome to Technical writing mentorship program on TWMP</title>
-    <link>http://localhost:1313/</link>
+    <link>//localhost:1313/</link>
     <description>Recent content in Welcome to Technical writing mentorship program on TWMP</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Copyright (c) 2023 TWMP</copyright>
     <lastBuildDate>Sat, 07 Sep 2024 16:04:48 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Authors</title>
-      <link>http://localhost:1313/docs/markdown-course/authors/</link>
+      <link>//localhost:1313/docs/markdown-course/authors/</link>
       <pubDate>Mon, 15 Jan 2024 07:07:07 +0100</pubDate>
-      <guid>http://localhost:1313/docs/markdown-course/authors/</guid>
+      <guid>//localhost:1313/docs/markdown-course/authors/</guid>
       <description>These fantastic folks volunteered their time and skills to create this Open Source Markdown Course for Beginners.&#xA;It&amp;rsquo;s packed with useful stuff and totally FREE for everyone!</description>
     </item>
     <item>
       <title>Authors</title>
-      <link>http://localhost:1313/docs/technicalwritingcourse/authors/</link>
+      <link>//localhost:1313/docs/technicalwritingcourse/authors/</link>
       <pubDate>Mon, 15 Jan 2024 07:07:07 +0100</pubDate>
-      <guid>http://localhost:1313/docs/technicalwritingcourse/authors/</guid>
+      <guid>//localhost:1313/docs/technicalwritingcourse/authors/</guid>
       <description>These fantastic folks volunteered their time and skills to create this Open Source Technical Writing Course for Beginners.&#xA;It&amp;rsquo;s packed with useful stuff and totally FREE for everyone!</description>
     </item>
     <item>
       <title>Best practices and tips in markdown</title>
-      <link>http://localhost:1313/docs/markdown-course/best-practices-and-tips-in-markdown/</link>
+      <link>//localhost:1313/docs/markdown-course/best-practices-and-tips-in-markdown/</link>
       <pubDate>Sun, 25 Aug 2024 15:50:00 +0100</pubDate>
-      <guid>http://localhost:1313/docs/markdown-course/best-practices-and-tips-in-markdown/</guid>
+      <guid>//localhost:1313/docs/markdown-course/best-practices-and-tips-in-markdown/</guid>
       <description>This detailed guide covers how to write quality markdown documents easier and faster. You will also find the top markdown tools to create markdown files seamlessly.</description>
     </item>
     <item>
       <title>Getting Started with Markdown</title>
-      <link>http://localhost:1313/docs/markdown-course/getting-started-with-markdown/</link>
+      <link>//localhost:1313/docs/markdown-course/getting-started-with-markdown/</link>
       <pubDate>Wed, 21 Aug 2024 07:07:07 +0100</pubDate>
-      <guid>http://localhost:1313/docs/markdown-course/getting-started-with-markdown/</guid>
+      <guid>//localhost:1313/docs/markdown-course/getting-started-with-markdown/</guid>
       <description>This detailed guide covers how to Set Up Markdown Tools, markdown basic syntaxes and Formatting and how to Structure Contents in Markdown.</description>
     </item>
     <item>
       <title>Intro to technical writing</title>
-      <link>http://localhost:1313/docs/technicalwritingcourse/intro-to-technical-writing/</link>
+      <link>//localhost:1313/docs/technicalwritingcourse/intro-to-technical-writing/</link>
       <pubDate>Wed, 15 Nov 2023 07:07:07 +0100</pubDate>
-      <guid>http://localhost:1313/docs/technicalwritingcourse/intro-to-technical-writing/</guid>
+      <guid>//localhost:1313/docs/technicalwritingcourse/intro-to-technical-writing/</guid>
       <description>This detailed guide covers the fundamentals of technical articles, effective technical writing strategies, various types of technical documentation, identifying your target audience, and the essential steps in the technical writing process.</description>
     </item>
     <item>
       <title>Managing Technical Writing Projects</title>
-      <link>http://localhost:1313/docs/technicalwritingcourse/managing-technical-writing-projects/</link>
+      <link>//localhost:1313/docs/technicalwritingcourse/managing-technical-writing-projects/</link>
       <pubDate>Fri, 15 Sep 2023 07:07:07 +0100</pubDate>
-      <guid>http://localhost:1313/docs/technicalwritingcourse/managing-technical-writing-projects/</guid>
+      <guid>//localhost:1313/docs/technicalwritingcourse/managing-technical-writing-projects/</guid>
       <description>Build a solid foundation in project management practices for effective technical documentation</description>
     </item>
     <item>
       <title>What is Content Marketing?</title>
-      <link>http://localhost:1313/blog/what-is-content-marketing/</link>
+      <link>//localhost:1313/blog/what-is-content-marketing/</link>
       <pubDate>Wed, 01 May 2024 10:10:26 +0200</pubDate>
-      <guid>http://localhost:1313/blog/what-is-content-marketing/</guid>
+      <guid>//localhost:1313/blog/what-is-content-marketing/</guid>
       <description>Content Marketing Content marketing is a sales strategy that shares unique, compelling content to attract and engage a target audience.</description>
     </item>
     <item>
       <title>How To Use Visual Studio Code For Beginners</title>
-      <link>http://localhost:1313/blog/how-to-use-visual-studio-code-for-beginners/</link>
+      <link>//localhost:1313/blog/how-to-use-visual-studio-code-for-beginners/</link>
       <pubDate>Sat, 23 Mar 2024 20:29:00 +0200</pubDate>
-      <guid>http://localhost:1313/blog/how-to-use-visual-studio-code-for-beginners/</guid>
+      <guid>//localhost:1313/blog/how-to-use-visual-studio-code-for-beginners/</guid>
       <description>Photo Credit: Neowin&#xA;Are you enthusiastic about exploring the Visual Studio code editor as a noob?. If yes, this article is for you.</description>
     </item>
     <item>
       <title>GSoC for Beginners: A Guide to Google Summer of Code</title>
-      <link>http://localhost:1313/blog/gsoc-for-beginners-a-guide-to-google-summer-of-code/</link>
+      <link>//localhost:1313/blog/gsoc-for-beginners-a-guide-to-google-summer-of-code/</link>
       <pubDate>Mon, 18 Mar 2024 16:27:22 +0200</pubDate>
-      <guid>http://localhost:1313/blog/gsoc-for-beginners-a-guide-to-google-summer-of-code/</guid>
+      <guid>//localhost:1313/blog/gsoc-for-beginners-a-guide-to-google-summer-of-code/</guid>
       <description>Google Summer of Code (GSoC) is an annual program sponsored by Google that helps introduce students and open-source beginners to software development.</description>
     </item>
     <item>
       <title>Master the Basics of SEO Using Semrush</title>
-      <link>http://localhost:1313/blog/master-the-basics-of-seo-using-semrush/</link>
+      <link>//localhost:1313/blog/master-the-basics-of-seo-using-semrush/</link>
       <pubDate>Thu, 07 Mar 2024 20:29:00 +0200</pubDate>
-      <guid>http://localhost:1313/blog/master-the-basics-of-seo-using-semrush/</guid>
+      <guid>//localhost:1313/blog/master-the-basics-of-seo-using-semrush/</guid>
       <description>Search engine optimization(SEO) focuses on optimizing website content for better visibility on the search engine result page (SERP).&#xA;The goal is to drive organic traffic/results that are not paid i.</description>
     </item>
   </channel>

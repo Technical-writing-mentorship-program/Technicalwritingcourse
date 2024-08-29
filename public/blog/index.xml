@@ -2,81 +2,81 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on TWMP</title>
-    <link>http://localhost:1313/blog/</link>
+    <link>//localhost:1313/blog/</link>
     <description>Recent content in Blog on TWMP</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Copyright (c) 2023 TWMP</copyright>
     <lastBuildDate>Wed, 01 May 2024 10:26:00 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What is Content Marketing?</title>
-      <link>http://localhost:1313/blog/what-is-content-marketing/</link>
+      <link>//localhost:1313/blog/what-is-content-marketing/</link>
       <pubDate>Wed, 01 May 2024 10:10:26 +0200</pubDate>
-      <guid>http://localhost:1313/blog/what-is-content-marketing/</guid>
+      <guid>//localhost:1313/blog/what-is-content-marketing/</guid>
       <description>Content Marketing Content marketing is a sales strategy that shares unique, compelling content to attract and engage a target audience.</description>
     </item>
     <item>
       <title>How To Use Visual Studio Code For Beginners</title>
-      <link>http://localhost:1313/blog/how-to-use-visual-studio-code-for-beginners/</link>
+      <link>//localhost:1313/blog/how-to-use-visual-studio-code-for-beginners/</link>
       <pubDate>Sat, 23 Mar 2024 20:29:00 +0200</pubDate>
-      <guid>http://localhost:1313/blog/how-to-use-visual-studio-code-for-beginners/</guid>
+      <guid>//localhost:1313/blog/how-to-use-visual-studio-code-for-beginners/</guid>
       <description>Photo Credit: Neowin&#xA;Are you enthusiastic about exploring the Visual Studio code editor as a noob?. If yes, this article is for you.</description>
     </item>
     <item>
       <title>GSoC for Beginners: A Guide to Google Summer of Code</title>
-      <link>http://localhost:1313/blog/gsoc-for-beginners-a-guide-to-google-summer-of-code/</link>
+      <link>//localhost:1313/blog/gsoc-for-beginners-a-guide-to-google-summer-of-code/</link>
       <pubDate>Mon, 18 Mar 2024 16:27:22 +0200</pubDate>
-      <guid>http://localhost:1313/blog/gsoc-for-beginners-a-guide-to-google-summer-of-code/</guid>
+      <guid>//localhost:1313/blog/gsoc-for-beginners-a-guide-to-google-summer-of-code/</guid>
       <description>Google Summer of Code (GSoC) is an annual program sponsored by Google that helps introduce students and open-source beginners to software development.</description>
     </item>
     <item>
       <title>Master the Basics of SEO Using Semrush</title>
-      <link>http://localhost:1313/blog/master-the-basics-of-seo-using-semrush/</link>
+      <link>//localhost:1313/blog/master-the-basics-of-seo-using-semrush/</link>
       <pubDate>Thu, 07 Mar 2024 20:29:00 +0200</pubDate>
-      <guid>http://localhost:1313/blog/master-the-basics-of-seo-using-semrush/</guid>
+      <guid>//localhost:1313/blog/master-the-basics-of-seo-using-semrush/</guid>
       <description>Search engine optimization(SEO) focuses on optimizing website content for better visibility on the search engine result page (SERP).&#xA;The goal is to drive organic traffic/results that are not paid i.</description>
     </item>
     <item>
       <title>Introduction to Antora for beginners</title>
-      <link>http://localhost:1313/blog/introduction-to-antora-for-beginners/</link>
+      <link>//localhost:1313/blog/introduction-to-antora-for-beginners/</link>
       <pubDate>Thu, 29 Feb 2024 16:27:22 +0200</pubDate>
-      <guid>http://localhost:1313/blog/introduction-to-antora-for-beginners/</guid>
+      <guid>//localhost:1313/blog/introduction-to-antora-for-beginners/</guid>
       <description>Antora is a static site generator that transforms AsciiDoc content into documentation sites.&#xA;AsciiDoc is a lightweight markup language for creating notes, articles, books, and web pages.</description>
     </item>
     <item>
       <title>How to Deploy a Dockerized Application to Amazon EKS Cluster</title>
-      <link>http://localhost:1313/blog/how-to-deploy-a-dockerized-application-to-amazon-eks-cluster/</link>
+      <link>//localhost:1313/blog/how-to-deploy-a-dockerized-application-to-amazon-eks-cluster/</link>
       <pubDate>Wed, 28 Feb 2024 16:27:22 +0200</pubDate>
-      <guid>http://localhost:1313/blog/how-to-deploy-a-dockerized-application-to-amazon-eks-cluster/</guid>
+      <guid>//localhost:1313/blog/how-to-deploy-a-dockerized-application-to-amazon-eks-cluster/</guid>
       <description>Containers are a way to package, deploy, and manage applications. Docker is a popular open-source containerization platform that allows you to package your application, its OS libraries, and dependencies together into a container image.</description>
     </item>
     <item>
       <title>How to Use a Google Writing Style Guide to Write Performing Articles</title>
-      <link>http://localhost:1313/blog/how-to-use-a-google-writing-style-guide-to-write-performing-articles/</link>
+      <link>//localhost:1313/blog/how-to-use-a-google-writing-style-guide-to-write-performing-articles/</link>
       <pubDate>Tue, 20 Feb 2024 18:27:22 +0200</pubDate>
-      <guid>http://localhost:1313/blog/how-to-use-a-google-writing-style-guide-to-write-performing-articles/</guid>
+      <guid>//localhost:1313/blog/how-to-use-a-google-writing-style-guide-to-write-performing-articles/</guid>
       <description>Writing compelling and Google-friendly content is essential. The Google developer documentation style guide provides invaluable insights and guidelines to help you achieve this goal.</description>
     </item>
     <item>
       <title>Glasp writing contest: How Glasp Helped You Learn Faster and Better</title>
-      <link>http://localhost:1313/blog/glasp-writing-contest-how-glasp-helped-you-learn-faster-and-better/</link>
+      <link>//localhost:1313/blog/glasp-writing-contest-how-glasp-helped-you-learn-faster-and-better/</link>
       <pubDate>Tue, 20 Feb 2024 16:27:22 +0200</pubDate>
-      <guid>http://localhost:1313/blog/glasp-writing-contest-how-glasp-helped-you-learn-faster-and-better/</guid>
+      <guid>//localhost:1313/blog/glasp-writing-contest-how-glasp-helped-you-learn-faster-and-better/</guid>
       <description>Do you love to explore the depths of the internet and share your insights with the world?&#xA;Are you a master at extracting valuable information from websites and distilling it into concise summaries?</description>
     </item>
     <item>
       <title>How to crack Google Season of Docs 2024</title>
-      <link>http://localhost:1313/blog/how-to-crack-google-season-of-docs-2024/</link>
+      <link>//localhost:1313/blog/how-to-crack-google-season-of-docs-2024/</link>
       <pubDate>Mon, 12 Feb 2024 10:03:22 +0200</pubDate>
-      <guid>http://localhost:1313/blog/how-to-crack-google-season-of-docs-2024/</guid>
+      <guid>//localhost:1313/blog/how-to-crack-google-season-of-docs-2024/</guid>
       <description>(Tips from GSOD’s past Interns) The Google Season of Docs is one of the most influential open source platforms for technical documentation beneficial to organizations and technical writers.</description>
     </item>
     <item>
       <title>Introduction to technical wrting mentorship program</title>
-      <link>http://localhost:1313/blog/introduction-to-technical-wrting-mentorship-program/</link>
+      <link>//localhost:1313/blog/introduction-to-technical-wrting-mentorship-program/</link>
       <pubDate>Sun, 07 Jan 2024 16:27:22 +0200</pubDate>
-      <guid>http://localhost:1313/blog/introduction-to-technical-wrting-mentorship-program/</guid>
+      <guid>//localhost:1313/blog/introduction-to-technical-wrting-mentorship-program/</guid>
       <description>Technical writing bridges the gap between complex concepts and their practical application. Whether documenting software features, creating user manuals, or explaining intricate processes, technical writers are crucial in making information accessible to a wide audience.</description>
     </item>
   </channel>

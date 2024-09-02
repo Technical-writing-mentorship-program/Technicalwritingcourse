@@ -2,7 +2,7 @@
 title: "Advanced Syntax and Formatting in Markdown"
 description: ""
 summary: ""
-date: 2024-08-31T13:30:23+01:00
+date: 2024-05-31T13:30:23+01:00
 lastmod: 2024-08-31T13:30:23+01:00
 params:
   math: true

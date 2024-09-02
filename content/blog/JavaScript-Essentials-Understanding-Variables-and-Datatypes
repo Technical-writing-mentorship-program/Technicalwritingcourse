@@ -14,12 +14,13 @@ pinned: false
 homepage: false
 seo:
   title: "JavaScript Variables and Data types: A Beginner's Guide" # custom title (optional)
-  description: "Understanding the fundamentals of JavaScript is essential. This guide will teach you the foundations of JavaScript variables and data types.  It will also help you build a solid foundation in JavaScript." " # custom description (recommended)
+  description: "Understanding the fundamentals of JavaScript is essential. This guide will help you learn the fundamentals of JavaScript variables and data types. You'll also learn how to declare, assign and manipulate values effectively " # custom description (recommended)
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---
 
 
+!([Header design - JavaScript Essentials: Understanding Variables and Data types](https://www.canva.com/design/DAGPbbVZHXY/o55Qf6sCcn2Tg4JFfNsrLw/edit?utm_content=DAGPbbVZHXY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton))
 
 ## Introduction
 

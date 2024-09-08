@@ -41,6 +41,13 @@ var x = 5;
 var name = "Sophie";
 
 ```
+{{< callout context="note" title="Explanation" icon="rocket" >}}
+var x = 5 : In this line of code, a variable "x" is declared and it is then assigned to a numerical value "5".
+
+var name = "Sophie" : In this line of code, a variable "name" is declared and it is then assigned to a string value  "Sophie".
+
+Don't worry about what a string is, we'll take about it later in this article.
+{{< /callout >}}
 
 ```
 var x = 10;
@@ -54,28 +61,45 @@ console.log (z);  // 30
 console.log(name);  // Dave
 
 ```
+{{< callout context="note" title="Explanation" icon="rocket" >}}
+var x = 10 : In this line a variable "x" is declared and assigned to a number "10"
+
+var y = 20 : A variable "y" is declared and assigned to a number "20"
+
+var z = x + y : A variable 'z" is declared and it is assigned the result of adding the values of "x" and "y"
+
+var name = "Dave": In this line of code, a variable "name" is declared and it is then assigned to a string value  "Dave".
+
+console.log(x), Console.log (y),  : These prints to the console each of the value of variables "x" and "y", which are 10 and 20 respectively.
+
+{{< /callout >}}
 
 ### 2. Let
 
 The `let` keyword  is the most common way of declaring a variable. This keyword is a good choice for declaring variables whose values will be reassigned.
 
 ```
+let x = 10;
 let color = "Red";
 color = "Blue";  // values can be reassigned
 
+console.log(x); // 10
 console.log (color);  // Blue
 
 ```
 
-```
-let x = 10;
-let y = 20;
-let z = x + y;
+{{< callout context="note" title="Explanation" icon="rocket" >}}
+let x = 10; This line declares a variable "x" using the "let" keyword and assigns it to a number value "10".
 
-console.log(x);    // 10
-console.log(y);   // 20
-console.log (z);  // 30
-```
+let color = "Red"; This line declares a variable "color" and assigns it to a string value "Red"
+
+color = 'Blue"; This line  **reassigns**  a new value "Blue" to the variable "color". The original value "Red" is **overwriten** by the new value.
+
+console.log(x) : This line prints to the console the value of the variable "x", which is "10".
+
+console.log(color) : This line prints to the console the current value of the variable "color", which is "Blue".
+{{< /callout >}}
+
 
 ### 3. Const
 
@@ -88,6 +112,15 @@ const pi = 3.14159;
 console.log(pi); // 3.14159
 
 ```
+{{< callout context="note" title="Explanation" icon="rocket" >}}
+
+The above code block defines a constant named pi and assigns it the value 3.14159. This value represents the mathematical constant pi, which is the ratio of a circle's circumference to its diameter.
+
+console.log(pi): Prints the value of the constant pi to the console
+
+*The const keyword is used to declare a constant variable, it is useful for values like mathematical constants*
+
+{{< /callout >}}
 
 <ins class="adsbygoogle"
      style="display:block"
@@ -121,9 +154,21 @@ console.log (pi); // 3.14159
 console.log(totalAge);  //36
 
 ```
-{{< callout context="note" title="Use case" icon="rocket" >}}
+{{< callout context="note" title="Explanation" icon="rocket" >}}
+person1Age and person2Age stores the ages of two people.
+pi holds the approximate value of the mathematical constant pi (a floating point value).
+totalAge is used to calculate and store the sum of person1Age and person2Age.
+The line "let totalAge = person1Age + person2Age; " calculates the total age by adding the ages of two people  and assigns the result to the totalAge variable.
 
-In a E-commerce, you can use Numbers to calculate product prices, discount etc.
+The console.log statements print the values of each of the variable to the console.
+Person1Age : 16
+Person2Age : 20
+Value of pi : 3.14159
+totalAge : 36 
+
+All of these are assigned to a numerical value.
+
+Use  case : In a E-commerce, you can use Numbers to calculate product prices, discount etc.
 
 {{< /callout >}}
 
@@ -140,8 +185,15 @@ console.log(greeting); // Hello, world!
 ```
 
 {{< callout context="note" title="Use case" icon="rocket" >}}
+The code block defines two variables
+name : Stores the string "Patricia Lawson"
+ greeting : Stores the string "Hello, world!"
 
- In a To-do application, you can use String to store the To-do tasks.
+ The console.log statements then print the values of these variables to the console :
+ console.log(name); prints  "Patricia Lawson"
+ console.log(greeting); prints "Hello, world!"
+
+ Use case : In a To-do application, you can use String to store the To-do tasks.
 
 {{< /callout >}}
 
@@ -153,11 +205,20 @@ Booleans represents logical values either `true` or `false`.  The are often used
 let isWeekend = true;
 let isRaining= false;
 
+console.log(isWeekend) // true
+console.log(isRaining) // false
 ```
 
-{{< callout context="note" title="Use case" icon="rocket" >}}
+{{< callout context="note" title="Explanation" icon="rocket" >}}
+The above code defines two boolean variables:
+isWeekend : Stores the boolean value "true", indicating that it is indeed the weekend.
+isRaining: Stores the boolean value "false", indicating that it is not raining.
 
-In a Social media application, you can use Boolean to determine if the user is a female or male when creating a profile.
+The console.log statements then prints the values of these variables to the console:
+console.log(isWeekend); prints  "true" because it is weekend.
+console.log(isRaining); prints "false" because it is not raining.
+
+Use case: In a Social media application, you can use Boolean to determine if the user is a female or male when creating a profile.
 
 {{< /callout >}}
 
@@ -170,18 +231,27 @@ let y = BigInt (12345678909876543213456788904567890643224566788)
 
 console.log(largeNumber); //  123456789023456789098765432155575643213456789
 console.log(y); // 12345678909876543213456788904567890643224566788
+
 ```
 
-{{< callout context="note" title="Use case" icon="rocket" >}}
+{{< callout context="note" title="Explanation" icon="rocket" >}}
+let largeNumber = 123456789023456789098765432155575643213456789n; This line declares a variable named "largeNumber" and assigns it a large interger value. The "n" suffix indicates that this value is a BigInt.
 
- In a financial application, you can use BigInt to store values that are too big to be stored in Number.
+Same goes for "let y = BigInt (12345678909876543213456788904567890643224566788);"
+
+The console.log statements print the values of each of the variable to the console.
+
+largeNumber : 123456789023456789098765432155575643213456789
+y : 12345678909876543213456788904567890643224566788
+
+Use case:  In a financial application, you can use BigInt to store values that are too big to be stored in Number.
 
 {{< /callout >}}
 
 
 
 #### Null :  Absence of a value
-Null is used to explicitly state the intentional absence of a value. It represents "nothing ", "empty" or "unknown value".
+Null is used to explicitly state the intentional absence of a value. It represents "nothing ", "empty" or "unknown value". It's often used to intentionally set a variable to an empty state.
 
 ```
 let emptyValue = null;
@@ -189,14 +259,18 @@ let emptyValue = null;
 console.log(emptyValue); // null
 
 ```
-{{< callout context="note" title="Use case" icon="rocket" >}}
+{{< callout context="note" title="Explanation" icon="rocket" >}}
 
-Imagine you're building a form where users can enter their informations . You can use Null to indicate the user chose not to answer a particular question.
+let emptyValue = null; This line declares a variable named emptyValue and assigns it the value "null".
+
+console.log(emptyValue); This line prints the value of "emptyValue" to the console. Since "emptyValue" is assigned the value "null", the output will be "null".
+
+Use case: Imagine you're building a form where users can enter their informations . You can use Null to indicate the user chose not to answer a particular question.
 
 {{< /callout >}}
 
 #### Undefined :  Uninitialized variable
-Undefined represents variable that has been declared but has not yet been assigned a value. 
+Undefined represents variable that has been declared but has not yet been assigned a value. It means the variable exists, but it doesn't hold any specific data yet.
 
 ``` 
 let name;
@@ -204,17 +278,20 @@ let name;
 console.log(name);  //  undefined
 
 ```
-{{< callout context="note" title="Use case" icon="rocket" >}}
+{{< callout context="note" title="Explanation" icon="rocket" >}}
+let name; This line declares a variable named "name". Since no value is assigned to it, "name" currently has the value "undefined".
 
-Imagine you're building an E-commerce website, when a user registers but hasn't completed their profile, their profile information could be undefined.
+console.log(name); This line prints the value of "name", because "name" is "undefined", the output will be : undefined.
+
+Use case: Imagine you're building an E-commerce website, when a user registers but hasn't completed their profile, their profile information could be undefined.
 
 {{< /callout >}}
 
 ### Complex Data types
 
 #### Arrays : Ordered collections
-Arrays are used to store and manipulate mutiple values in a specific order.  Each of these value is termed an element, and the each of these elements can be accessed using their index number, which starts from 0, because they are zero-indexed.
-
+Arrays are used to store and manipulate mutiple values in a specific order.  Each of these value is termed an element, and the each of these elements can be accessed using their index number, which starts from "0", because they are zero-indexed. 
+i.e the first element of an array is at index "0", the second element is at index "1", the third at index "2", and so on.
 ``` 
 let fruits = ["Strawberry", "Watermelon", "Grapes"];
 
@@ -223,15 +300,22 @@ console.log(fruits[1]); //Watermelon
 console.log(fruits[2]); //Grapes
 
 ```
-{{< callout context="note" title="Use case" icon="rocket" >}}
+{{< callout context="note" title="Explanation" icon="rocket" >}}
+let fruits = ["Strawberry", "Watermelon", "Grapes"]; This line declares an array named "fruits" and assigns it to the values "Strawberry", "Watermelon" and "Grapes". 
 
-Imagine you want to create a simple application that allows a user to input their favourite fruits. You can use a JavaScript Arrays to store the fruits.
+console.log(fruits[0]); This line of code prints to the console the element at index 0 of the "fruits" array, which is "Strawberry".
+
+console.log(fruits[1]); This line of code prints to the console the element at index 1 of the "fruits" array, which is "Watermelon".
+
+console.log(fruits[2]); This line of code prints to the console the element at index 2 of the "fruits" array, which is "Grapes".
+
+Use case: Imagine you want to create a simple application that allows a user to input their favourite fruits. You can use a JavaScript Arrays to store the fruits.
 
 {{< /callout >}}
 
 
 #### Objects : Unordered collections
-Objects are unordered collections of key-value pairs used to store data in a structured way and each of these key-value pair is termed a property. Objects also allows you to store different data types and the properties can be acessed using the properties names.
+Objects are unordered collections of key-value pairs used to store data in a structured way and each of these key-value pair is termed a property. An object literal is a collection of key-value pairs, enclosed in curly braces {}. Objects also allows you to store different data types and the properties can be acessed using the properties names.
 
 ``` 
 let person = {
@@ -247,9 +331,26 @@ console.log(person.isFemale);  // true
 console.log(person.country);  // Nigeria
 
 ```
-{{< callout context="note" title="Use case" icon="rocket" >}}
+{{< callout context="note" title="Explanation" icon="rocket" >}}
+Let person = { . . . }; This line declares a variable named "person" and assigns it an object literals.
 
- In an online store project, you might represent the product information as an Object, containing properties such as name of product, price, description, quantity available etc.
+name: "Doris"; This line defines a property named "name" with the value "Doris".  The "name" property is used to store the person's name.
+
+age : 18; This line defines a property named "age" with the value "18". The "age" property stores the person's age.
+
+isFemale : true; This line defines a property named "isFemale" with the value "true". The "isFemale" property stores a boolean value indicating the person's gender.
+
+country : "Nigeria"; This line defines a property named "country" with the value "Nigeria". The country property stores the person's country.
+
+console.log(person.name); This line prints the value of the name property of the person object to the console, which is "Doris".
+
+console.log(person.age); This line prints the value of the age property of the person object to the console, which is 18.
+
+console.log(person.isFemale); This line prints the value of the isFemale property of the person object to the console, which is true.
+
+console.log(person.country); This line prints the value of the country property of the person object to the console, which is "Nigeria".
+
+ Use case: In an online store project, you might represent the product information as an Object, containing properties such as name of product, price, description, quantity available etc.
 
 {{< /callout >}}
 

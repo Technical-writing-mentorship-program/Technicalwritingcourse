@@ -18,7 +18,7 @@ seo:
   noindex: false # false (default) or true
 ---
 
-{{< picture src="https://glasp.co/images/icons/feature_highlight.jpeg" alt="Glasp.co image" >}}
+![Alt text](https://glasp.co/images/icons/feature_highlight.jpeg "Glasp.co image")
 
 Do you love to explore the depths of the internet and share your insights with the world?
 

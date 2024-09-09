@@ -19,7 +19,6 @@ seo:
   noindex: false # false (default) or true
 ---
 
-
 <img src= "Header - JavaScript Essentials: Understanding Variables and Data types" alt="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/lcgdsfuzxfqsnklr4dpm.png" width="100%">
 
 ## Introduction
@@ -30,23 +29,24 @@ This article will go over variables in detail, how to declare and assign values 
 ## Understanding Variables
 
 Variables acts as a container that holds and stores data for later use. They allow you to assign names to values, thereby, making your code more readable and maintainable.
-The `Var`, `Let` and `Const` keywords are used to declare variables. They hold different data types such as numbers, string, booleans, arrays, objects, and more. Now, let's take a look at each one.
+The `Var`, `Let` and `Const` keywords are used to declare variables. The variables are assigned a value using the assignment operator (=). Variables  holds different data types such as numbers, string, booleans, arrays, objects, and more. Now, let's take a look at each one.
 
 ### 1. Var
 
-The `Var` keyword is an old method of declaring a variable and it's not recommended due to its hoisting and scope concerns. Using `Var` can lead to accidental reassignment of variables. 
+The `Var` keyword is an old method of declaring a variable and it's not recommended due to its [hoisting](https://www.freecodecamp.org/news/what-is-hoisting-in-javascript/) and [scope concerns](https://www.freecodecamp.org/news/scope-and-closures-in-javascript/). Using `Var` can lead to accidental reassignment of variables.
 
 ```
 var x = 5;
 var name = "Sophie";
 
 ```
+
 {{< callout context="note" title="Explanation" icon="rocket" >}}
-var x = 5 : In this line of code, a variable "x" is declared and it is then assigned to a numerical value "5".
+var x = 5 : In this line of code, a variable "x" is declared and it is then assigned (using the assignment operator = ) to a numerical value "5".
 
-var name = "Sophie" : In this line of code, a variable "name" is declared and it is then assigned to a string value  "Sophie".
+var name = "Sophie" : In this line of code, a variable "name" is declared and it is assigned to a string value "Sophie".
 
-Don't worry about what a string is, we'll take about it later in this article.
+Don't worry about what a string is, we'll talk about it later in this article.
 {{< /callout >}}
 
 ```
@@ -61,22 +61,26 @@ console.log (z);  // 30
 console.log(name);  // Dave
 
 ```
+
 {{< callout context="note" title="Explanation" icon="rocket" >}}
 var x = 10 : In this line a variable "x" is declared and assigned to a number "10"
 
 var y = 20 : A variable "y" is declared and assigned to a number "20"
 
-var z = x + y : A variable 'z" is declared and it is assigned the result of adding the values of "x" and "y"
+var z = x + y : A variable 'z" is declared and it is assigned to the result of adding the values of "x" and "y"
 
-var name = "Dave": In this line of code, a variable "name" is declared and it is then assigned to a string value  "Dave".
+var name = "Dave": In this line of code, a variable "name" is declared and is then assigned to a string value "Dave".
 
-console.log(x), Console.log (y),  : These prints to the console each of the value of variables "x" and "y", which are 10 and 20 respectively.
+console.log(x), Console.log (y) : These prints to the console each of the value of variables "x" and "y", which are 10 and 20 respectively.
 
+console.log(z) : This line prints to the console the result of the addition of  var "x" and "y", which is 30.
+
+console.log(name) : This line prints to the console the value of the var "name".
 {{< /callout >}}
 
 ### 2. Let
 
-The `let` keyword  is the most common way of declaring a variable. This keyword is a good choice for declaring variables whose values will be reassigned.
+The `let` keyword is the most common way of declaring a variable. This keyword is a good choice for declaring variables whose values will be reassigned.
 
 ```
 let x = 10;
@@ -93,13 +97,12 @@ let x = 10; This line declares a variable "x" using the "let" keyword and assign
 
 let color = "Red"; This line declares a variable "color" and assigns it to a string value "Red"
 
-color = 'Blue"; This line  **reassigns**  a new value "Blue" to the variable "color". The original value "Red" is **overwriten** by the new value.
+color = 'Blue"; This line **reassigns** a new value "Blue" to the variable "color". The original value "Red" will be  **overwriten** by the new value "Blue".
 
 console.log(x) : This line prints to the console the value of the variable "x", which is "10".
 
 console.log(color) : This line prints to the console the current value of the variable "color", which is "Blue".
 {{< /callout >}}
-
 
 ### 3. Const
 
@@ -112,13 +115,14 @@ const pi = 3.14159;
 console.log(pi); // 3.14159
 
 ```
+
 {{< callout context="note" title="Explanation" icon="rocket" >}}
 
-The above code block defines a constant named pi and assigns it the value 3.14159. This value represents the mathematical constant pi, which is the ratio of a circle's circumference to its diameter.
+The above code block defines a constant named "pi" and assigns it the value 3.14159. This value represents the mathematical constant pi, which is the ratio of a circle's circumference to its diameter.
 
 console.log(pi): Prints the value of the constant pi to the console
 
-*The const keyword is used to declare a constant variable, it is useful for values like mathematical constants*
+_The const keyword is used to declare a constant variable, it is useful for values like mathematical constants_
 
 {{< /callout >}}
 
@@ -134,18 +138,20 @@ console.log(pi): Prints the value of the constant pi to the console
 </script>
 
 ## Understanding Data Types
+
 Data Types are another fundamental building blocks of JavaScript. The most common ones are the primitive and complex data types.
-The primitive data types consists of Number, String, Boolean, BigInt, Null and  Undefined while the Complex data types consist of but not limited to  Arrays and Objects.
+The primitive data types consists of Number, String, Boolean, BigInt, Null and Undefined while the Complex data types consist of but not limited to Arrays and Objects.
 
 ### Primitive Data types
 
 #### Number : Numeric values
+
 Number represents numerical values. They could be intergers or floating-point numbers and are also used to perform mathematical operations.
 
 ```
 let person1Age = 16;
 let person2Age = 20;
-let pi = 3.14159
+const pi = 3.14159
 let totalAge = person1Age + person2Age;
 
 console.log (person1Age);  // 16
@@ -154,28 +160,33 @@ console.log (pi); // 3.14159
 console.log(totalAge);  //36
 
 ```
+
 {{< callout context="note" title="Explanation" icon="rocket" >}}
-person1Age and person2Age stores the ages of two people.
-pi holds the approximate value of the mathematical constant pi (a floating point value).
-totalAge is used to calculate and store the sum of person1Age and person2Age.
-The line "let totalAge = person1Age + person2Age; " calculates the total age by adding the ages of two people  and assigns the result to the totalAge variable.
+"person1Age" and "person2Age" stores the ages of two people.
+
+"pi" holds the approximate value of the mathematical constant pi (a floating point value).
+
+"totalAge" is used to calculate and store the sum of "person1Age" and "person2Age".
+
+The line "let totalAge = person1Age + person2Age; " calculates the total age by adding the ages of two people and assigns the result to the "totalAge" variable.
 
 The console.log statements print the values of each of the variable to the console.
 Person1Age : 16
 Person2Age : 20
 Value of pi : 3.14159
-totalAge : 36 
+totalAge : 36
 
-All of these are assigned to a numerical value.
+You can see that all of these are assigned to a numerical value.
 
-Use  case : In a E-commerce, you can use Numbers to calculate product prices, discount etc.
+Use case : In a E-commerce, you can use Numbers to calculate product prices, discount etc.
 
 {{< /callout >}}
 
 #### String : Textual data
+
 String represent sequences of characters and textual data. They must be enclosed within a single (' ') or double (" ") quotes.
 
-``` 
+```
 let name = "Patricia Lawson";
 let greeting = "Hello, world!";
 
@@ -185,21 +196,23 @@ console.log(greeting); // Hello, world!
 ```
 
 {{< callout context="note" title="Use case" icon="rocket" >}}
-The code block defines two variables
-name : Stores the string "Patricia Lawson"
- greeting : Stores the string "Hello, world!"
+The code block defines two variables,
+name : which stores the string "Patricia Lawson"
+greeting : stores the string "Hello, world!"
 
- The console.log statements then print the values of these variables to the console :
- console.log(name); prints  "Patricia Lawson"
- console.log(greeting); prints "Hello, world!"
+The console.log statements then print the values of these variables to the console,
+console.log(name); prints "Patricia Lawson"
+console.log(greeting); prints "Hello, world!"
 
- Use case : In a To-do application, you can use String to store the To-do tasks.
+Note: It is a string data type when they are enclosed in a single or double quotes.
+
+Use case : In a To-do application, you can use String to store the To-do tasks.
 
 {{< /callout >}}
 
+#### Booleans : True or False
 
-#### Booleans : True or False 
-Booleans represents logical values either `true` or `false`.  The are often used for conditional statements and logical operations. `true` means "yes or correct", and `false` means "no or incorrect"
+Booleans represents logical values either `true` or `false`. The are often used for conditional statements and logical operations. `true` means "yes or correct", and `false` means "no or incorrect"
 
 ```
 let isWeekend = true;
@@ -210,12 +223,12 @@ console.log(isRaining) // false
 ```
 
 {{< callout context="note" title="Explanation" icon="rocket" >}}
-The above code defines two boolean variables:
+The above code defines two boolean variables,
 isWeekend : Stores the boolean value "true", indicating that it is indeed the weekend.
 isRaining: Stores the boolean value "false", indicating that it is not raining.
 
-The console.log statements then prints the values of these variables to the console:
-console.log(isWeekend); prints  "true" because it is weekend.
+The console.log statements then prints the values of these variables to the console,
+console.log(isWeekend); prints "true" because it is weekend.
 console.log(isRaining); prints "false" because it is not raining.
 
 Use case: In a Social media application, you can use Boolean to determine if the user is a female or male when creating a profile.
@@ -223,6 +236,7 @@ Use case: In a Social media application, you can use Boolean to determine if the
 {{< /callout >}}
 
 #### BigInt : large Integers
+
 BigInt are used to store numbers that are too large to be stored in the `Number` data type. They provide precise calculation for large intergers. To create a `BigInt`, add n to the end of an integer or call `BigInt()`
 
 ```
@@ -244,13 +258,12 @@ The console.log statements print the values of each of the variable to the conso
 largeNumber : 123456789023456789098765432155575643213456789
 y : 12345678909876543213456788904567890643224566788
 
-Use case:  In a financial application, you can use BigInt to store values that are too big to be stored in Number.
+Use case: In a financial application, you can use BigInt to store values that are too big to be stored in Number.
 
 {{< /callout >}}
 
+#### Null : Absence of a value
 
-
-#### Null :  Absence of a value
 Null is used to explicitly state the intentional absence of a value. It represents "nothing ", "empty" or "unknown value". It's often used to intentionally set a variable to an empty state.
 
 ```
@@ -259,6 +272,7 @@ let emptyValue = null;
 console.log(emptyValue); // null
 
 ```
+
 {{< callout context="note" title="Explanation" icon="rocket" >}}
 
 let emptyValue = null; This line declares a variable named emptyValue and assigns it the value "null".
@@ -269,15 +283,17 @@ Use case: Imagine you're building a form where users can enter their information
 
 {{< /callout >}}
 
-#### Undefined :  Uninitialized variable
+#### Undefined : Uninitialized variable
+
 Undefined represents variable that has been declared but has not yet been assigned a value. It means the variable exists, but it doesn't hold any specific data yet.
 
-``` 
+```
 let name;
 
 console.log(name);  //  undefined
 
 ```
+
 {{< callout context="note" title="Explanation" icon="rocket" >}}
 let name; This line declares a variable named "name". Since no value is assigned to it, "name" currently has the value "undefined".
 
@@ -290,9 +306,11 @@ Use case: Imagine you're building an E-commerce website, when a user registers b
 ### Complex Data types
 
 #### Arrays : Ordered collections
-Arrays are used to store and manipulate mutiple values in a specific order.  Each of these value is termed an element, and the each of these elements can be accessed using their index number, which starts from "0", because they are zero-indexed. 
+
+Arrays are used to store and manipulate mutiple values in a specific order. Each of these value is termed an element, and the each of these elements can be accessed using their index number, which starts from "0", because they are zero-indexed.
 i.e the first element of an array is at index "0", the second element is at index "1", the third at index "2", and so on.
-``` 
+
+```
 let fruits = ["Strawberry", "Watermelon", "Grapes"];
 
 console.log(fruits[0]); //Strawberry
@@ -300,8 +318,9 @@ console.log(fruits[1]); //Watermelon
 console.log(fruits[2]); //Grapes
 
 ```
+
 {{< callout context="note" title="Explanation" icon="rocket" >}}
-let fruits = ["Strawberry", "Watermelon", "Grapes"]; This line declares an array named "fruits" and assigns it to the values "Strawberry", "Watermelon" and "Grapes". 
+let fruits = ["Strawberry", "Watermelon", "Grapes"]; This line declares an array named "fruits" and assigns it to the values "Strawberry", "Watermelon" and "Grapes".
 
 console.log(fruits[0]); This line of code prints to the console the element at index 0 of the "fruits" array, which is "Strawberry".
 
@@ -313,11 +332,11 @@ Use case: Imagine you want to create a simple application that allows a user to 
 
 {{< /callout >}}
 
-
 #### Objects : Unordered collections
+
 Objects are unordered collections of key-value pairs used to store data in a structured way and each of these key-value pair is termed a property. An object literal is a collection of key-value pairs, enclosed in curly braces {}. Objects also allows you to store different data types and the properties can be acessed using the properties names.
 
-``` 
+```
 let person = {
   name: "Doris",
   age : 18,
@@ -331,10 +350,11 @@ console.log(person.isFemale);  // true
 console.log(person.country);  // Nigeria
 
 ```
+
 {{< callout context="note" title="Explanation" icon="rocket" >}}
 Let person = { . . . }; This line declares a variable named "person" and assigns it an object literals.
 
-name: "Doris"; This line defines a property named "name" with the value "Doris".  The "name" property is used to store the person's name.
+name: "Doris"; This line defines a property named "name" with the value "Doris". The "name" property is used to store the person's name.
 
 age : 18; This line defines a property named "age" with the value "18". The "age" property stores the person's age.
 
@@ -350,7 +370,7 @@ console.log(person.isFemale); This line prints the value of the isFemale propert
 
 console.log(person.country); This line prints the value of the country property of the person object to the console, which is "Nigeria".
 
- Use case: In an online store project, you might represent the product information as an Object, containing properties such as name of product, price, description, quantity available etc.
+Use case: In an online store project, you might represent the product information as an Object, containing properties such as name of product, price, description, quantity available etc.
 
 {{< /callout >}}
 
@@ -360,6 +380,6 @@ In this article, we’ve explored the fundamental building blocks of JavaScript:
 
 {{< callout context="note" title="Connect" icon="rocket" >}}
 
-Connect with me on [Linkedln](linkedin.com/in/deborah-fabusuyi/) and [Twitter]([text](https://x.com/Debbyiecodes)) 
+Connect with me on [Linkedln](linkedin.com/in/deborah-fabusuyi/) and [Twitter](<[text](https://x.com/Debbyiecodes)>)
 
 {{< /callout >}}

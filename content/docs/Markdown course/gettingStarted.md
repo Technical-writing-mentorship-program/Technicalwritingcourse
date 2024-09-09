@@ -2,8 +2,8 @@
 title: "Getting Started with Markdown"
 description: " It covers the basics of Markdown syntax, best practices for writing clear and effective technical content, and tips for organizing and structuring your documents. Whether you're new to Markdown or looking to refine your skills, this guide will help you master the essentials and produce professional-quality documentation"
 summary: " This detailed guide covers how to Set Up Markdown Tools, markdown basic syntaxes and Formatting and how to Structure Contents in Markdown."
-date: 2024-08-21T07:07:07+01:00
-lastmod: 2024-09-07T16:04:48+02:00
+date: 2024-07-01T07:07:07+01:00
+lastmod: 2024-08-07T16:04:48+02:00
 draft: false
 menu:
   docs:

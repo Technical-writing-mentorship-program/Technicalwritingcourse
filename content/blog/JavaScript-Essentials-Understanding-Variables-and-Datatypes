@@ -19,23 +19,27 @@ seo:
   noindex: false # false (default) or true
 ---
 
-<img src= "Header - JavaScript Essentials: Understanding Variables and Data types" alt="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/lcgdsfuzxfqsnklr4dpm.png" width="100%">
+<img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/lcgdsfuzxfqsnklr4dpm.png" alt="Header" width="100%">
 
 ## Introduction
 
 JavaScript is a popular, verstile programming language that allows developers to create dynamic and interactive online applications. Variables and data types are two key elements in JavaScript that are required for storing and manipulating information within your code.
+
 This article will go over variables in detail, how to declare and assign values to them, as well as the various data types available and how to use them effectively. Mastering these ideas provides a solid basis for creating powerful and efficient JavaScript applications.
 
 ## Understanding Variables
 
 Variables acts as a container that holds and stores data for later use. They allow you to assign names to values, thereby, making your code more readable and maintainable.
-The `Var`, `Let` and `Const` keywords are used to declare variables. The variables are assigned a value using the assignment operator (=). Variables  holds different data types such as numbers, string, booleans, arrays, objects, and more. Now, let's take a look at each one.
 
-### 1. Var
+The `Var`, `Let` and `Const` keywords are used to declare variables. The variables are assigned a value using the assignment operator (=).
+
+Variables holds different data types such as numbers, string, booleans, arrays, objects, and more. Now, let's take a look at each one.
+
+### Var
 
 The `Var` keyword is an old method of declaring a variable and it's not recommended due to its [hoisting](https://www.freecodecamp.org/news/what-is-hoisting-in-javascript/) and [scope concerns](https://www.freecodecamp.org/news/scope-and-closures-in-javascript/). Using `Var` can lead to accidental reassignment of variables.
 
-```
+```javascript
 var x = 5;
 var name = "Sophie";
 
@@ -49,7 +53,7 @@ var name = "Sophie" : In this line of code, a variable "name" is declared and it
 Don't worry about what a string is, we'll talk about it later in this article.
 {{< /callout >}}
 
-```
+```javascript
 var x = 10;
 var y = 20;
 var z = x + y;
@@ -78,11 +82,11 @@ console.log(z) : This line prints to the console the result of the addition of  
 console.log(name) : This line prints to the console the value of the var "name".
 {{< /callout >}}
 
-### 2. Let
+### Let
 
 The `let` keyword is the most common way of declaring a variable. This keyword is a good choice for declaring variables whose values will be reassigned.
 
-```
+```javascript
 let x = 10;
 let color = "Red";
 color = "Blue";  // values can be reassigned
@@ -104,12 +108,12 @@ console.log(x) : This line prints to the console the value of the variable "x", 
 console.log(color) : This line prints to the console the current value of the variable "color", which is "Blue".
 {{< /callout >}}
 
-### 3. Const
+### Const
 
 The `const` keyword is used to create variables whose values you won't reassign. They are useful for variables that should remain constant throughout their lifetime. This helps prevent accidental changes to your code and improves code maintainability.
 Note that values of variables declared with `const` can't be changed.
 
-```
+```javascript
 const pi = 3.14159;
 
 console.log(pi); // 3.14159
@@ -140,6 +144,7 @@ _The const keyword is used to declare a constant variable, it is useful for valu
 ## Understanding Data Types
 
 Data Types are another fundamental building blocks of JavaScript. The most common ones are the primitive and complex data types.
+
 The primitive data types consists of Number, String, Boolean, BigInt, Null and Undefined while the Complex data types consist of but not limited to Arrays and Objects.
 
 ### Primitive Data types
@@ -148,7 +153,7 @@ The primitive data types consists of Number, String, Boolean, BigInt, Null and U
 
 Number represents numerical values. They could be intergers or floating-point numbers and are also used to perform mathematical operations.
 
-```
+```javascript
 let person1Age = 16;
 let person2Age = 20;
 const pi = 3.14159
@@ -186,7 +191,7 @@ Use case : In a E-commerce, you can use Numbers to calculate product prices, dis
 
 String represent sequences of characters and textual data. They must be enclosed within a single (' ') or double (" ") quotes.
 
-```
+```javascript
 let name = "Patricia Lawson";
 let greeting = "Hello, world!";
 
@@ -214,7 +219,7 @@ Use case : In a To-do application, you can use String to store the To-do tasks.
 
 Booleans represents logical values either `true` or `false`. The are often used for conditional statements and logical operations. `true` means "yes or correct", and `false` means "no or incorrect"
 
-```
+```javascript
 let isWeekend = true;
 let isRaining= false;
 
@@ -239,7 +244,7 @@ Use case: In a Social media application, you can use Boolean to determine if the
 
 BigInt are used to store numbers that are too large to be stored in the `Number` data type. They provide precise calculation for large intergers. To create a `BigInt`, add n to the end of an integer or call `BigInt()`
 
-```
+```javascript
 let largeNumber = 123456789023456789098765432155575643213456789n;
 let y = BigInt (12345678909876543213456788904567890643224566788)
 
@@ -266,7 +271,7 @@ Use case: In a financial application, you can use BigInt to store values that ar
 
 Null is used to explicitly state the intentional absence of a value. It represents "nothing ", "empty" or "unknown value". It's often used to intentionally set a variable to an empty state.
 
-```
+```javascript
 let emptyValue = null;
 
 console.log(emptyValue); // null
@@ -287,7 +292,7 @@ Use case: Imagine you're building a form where users can enter their information
 
 Undefined represents variable that has been declared but has not yet been assigned a value. It means the variable exists, but it doesn't hold any specific data yet.
 
-```
+```javascript
 let name;
 
 console.log(name);  //  undefined
@@ -308,9 +313,10 @@ Use case: Imagine you're building an E-commerce website, when a user registers b
 #### Arrays : Ordered collections
 
 Arrays are used to store and manipulate mutiple values in a specific order. Each of these value is termed an element, and the each of these elements can be accessed using their index number, which starts from "0", because they are zero-indexed.
-i.e the first element of an array is at index "0", the second element is at index "1", the third at index "2", and so on.
 
-```
+That means, the first element of an array is at index "0", the second element is at index "1", the third at index "2", and so on.
+
+```javascript
 let fruits = ["Strawberry", "Watermelon", "Grapes"];
 
 console.log(fruits[0]); //Strawberry
@@ -334,9 +340,11 @@ Use case: Imagine you want to create a simple application that allows a user to 
 
 #### Objects : Unordered collections
 
-Objects are unordered collections of key-value pairs used to store data in a structured way and each of these key-value pair is termed a property. An object literal is a collection of key-value pairs, enclosed in curly braces {}. Objects also allows you to store different data types and the properties can be acessed using the properties names.
+Objects are unordered collections of key-value pairs used to store data in a structured way and each of these key-value pair is termed a property.
 
-```
+An object literal is a collection of key-value pairs, enclosed in curly braces {}. Objects also allows you to store different data types and the properties can be acessed using the properties names.
+
+```javascript
 let person = {
   name: "Doris",
   age : 18,
@@ -376,7 +384,11 @@ Use case: In an online store project, you might represent the product informatio
 
 ## Conclusion
 
-In this article, we’ve explored the fundamental building blocks of JavaScript: Variables and Data types. We’ve looked into how these JavaScript essentials store and manipulate data in your scripts as well as real-life use cases for each of the Data types. As you continue your journey in JavaScript these concepts will form the foundation for more complex topics and help you create powerful, efficient and interactive web apps.
+In this article, we’ve explored the fundamental building blocks of JavaScript: Variables and Data types.
+
+We’ve looked into how these JavaScript essentials store and manipulate data in your scripts as well as real-life use cases for each of the Data types.
+
+As you continue your journey in JavaScript these concepts will form the foundation for more complex topics and help you create powerful, efficient and interactive web apps.
 
 {{< callout context="note" title="Connect" icon="rocket" >}}
 

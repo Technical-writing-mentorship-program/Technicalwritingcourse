@@ -2,7 +2,7 @@
 title: "JavaScript Essentials: Understanding Variables and Data Types"
 description: "This guide will help you learn the fundamentals of JavaScript variables and data types. You'll also learn how to declare, assign and manipulate values effectively"
 summary: "Are you a beginner in JavaScript?
-This article will put on the right path of learning the basic building blocks of JavaScript."
+This article will put you on the right path of learning the basic building blocks of JavaScript."
 date: 2024-08-26T16:21:44+02:00
 lastmod: 2024-09-02T16:21:44+02:00
 draft: false
@@ -200,7 +200,7 @@ console.log(greeting); // Hello, world!
 
 ```
 
-{{< callout context="note" title="Use case" icon="rocket" >}}
+{{< callout context="note" title="Explanation" icon="rocket" >}}
 The code block defines two variables,
 name : which stores the string "Patricia Lawson"
 greeting : stores the string "Hello, world!"

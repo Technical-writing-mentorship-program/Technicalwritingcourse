@@ -1,0 +1,89 @@
+---
+title: "Introduction to AsciiDoc"
+description: "This introduces AsciiDoc as a Markup language to the reader"
+summary: ""
+date: 2024-09-15T01:44:34+01:00
+lastmod: 2024-09-15T01:44:34+01:00
+draft: false
+seo:
+  title: "Introduction to AsciiDoc" # custom title (optional)
+  description: "" # custom description (recommended)
+  canonical: "" # custom canonical URL (optional)
+  noindex: false # false (default) or true
+---
+
+
+Creating technical documentation, as you know, is one of the most essential tasks of Technical Writers. Documentation is integral in the Software development process, both for developers as Developer Documentation and users as User Documentation.
+
+
+
+
+For Developers, documentation serves as a repository of valuable knowledge that helps in understanding how the system works, it also encourages Knowledge sharing amongst developers. For Users, on the other hand, effectively written documentation can help improve the user’s experience with the product, for example, technical documents such as **how-to guides**, **FAQs**, and **Troubleshooting guides** help the user understand a particular product better.
+
+
+
+
+Now that you understand the importance of documentation in the software development process and how its creation is an essential task for Technical Writers, you are going to look at an important markup language used by technical writers called **AsciiDoc**.
+
+
+
+
+
+
+
+
+##### Course Overview
+
+
+
+
+In this course you are going to learn about the following;
+
+
+
+
+- Getting started with AsciiDoc using Antora which covers Antora as a Static Site Generator, how to install Antora, publishing with Antora etc.
+- Writing in AsciiDoc
+- Different building blocks available in AsciiDoc
+- Converting your AsciiDoc documents
+
+
+
+
+So let’s get right into it.
+
+
+
+
+
+
+
+
+## What is AsciiDoc?
+
+
+
+
+You may wonder if there’s a relationship between the popular [ASCII Characters](https://www.techtarget.com/whatis/definition/ASCII-American-Standard-Code-for-Information-Interchange#:~:text=Characters%20in%20ASCII%20encoding%20include,use%20with%20teletype%20printing%20terminals.) and [AsciiDoc](https://docs.asciidoctor.org/asciidoc/latest/), in a way, there is but it is important to note that the “Ascii” in AsciiDoc does not refer to the characters that define the language syntax.
+
+
+
+
+Although, ASCII characters can be used to express an AsciiDoc document, Any character range in **Unicode (UTF-8)** is employed in expressing the full content of an AsciiDoc document which may include **titles**, **paragraphs**, etc.
+
+
+
+
+To describe AsciiDoc, you may refer to it as a simple and plain markup language for writing technical documents or content. The language is written in a human-readable, plain text format. The syntax is easy to use and understand as it relies on an already-established, plain text rule for marking up and text structuring.
+
+
+
+
+AsciiDoc has the ability to produce document output in numerous formats such as HTML, PDF, [EPUB3](https://www.w3.org/TR/epub-overview-33/), or [DocBook](https://docbook.org/). This is due to the presence of an AsciiDoc processor which can parse and understand an AsciiDoc source document, the parsed document is then converted into any desired format.
+
+
+
+
+One of the main advantages of AsciiDoc is its ability to parse documents into various formats and this enables it to be integral in **static site generators**, **IDEs**, **CI/CD** systems and other software. It is also quite easy to get started with as it only requires a text editor to read or write.
+
+

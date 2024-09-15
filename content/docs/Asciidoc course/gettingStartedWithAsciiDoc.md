@@ -2,7 +2,7 @@
 title: "Getting Started With AsciiDoc Using Antora"
 description: "This section covers the relationship between AsciiDoc and Antora, how to install Antora, and publishing with Antora"
 summary: ""
-date: 2024-09-15T01:45:15+01:00
+date: 2024-08-15T01:45:15+01:00
 lastmod: 2024-09-15T01:45:15+01:00
 draft: false
 seo:

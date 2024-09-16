@@ -17,16 +17,15 @@ Creating technical documentation, as you know, is one of the most essential task
 
 
 
+For Developers, documentation serves as a repository of valuable knowledge that helps in understanding how the system works, it also encourages Knowledge sharing amongst developers. 
 
-For Developers, documentation serves as a repository of valuable knowledge that helps in understanding how the system works, it also encourages Knowledge sharing amongst developers. For Users, on the other hand, effectively written documentation can help improve the user’s experience with the product, for example, technical documents such as **how-to guides**, **FAQs**, and **Troubleshooting guides** help the user understand a particular product better.
+
+For Users, on the other hand, effectively written documentation can help improve the user’s experience with the product, for example, technical documents such as **how-to guides**, **FAQs**, and **Troubleshooting guides** help the user understand a particular product better.
 
 
 
 
 Now that you understand the importance of documentation in the software development process and how its creation is an essential task for Technical Writers, you are going to look at an important markup language used by technical writers called **AsciiDoc**.
-
-
-
 
 
 

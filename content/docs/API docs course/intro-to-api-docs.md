@@ -2,8 +2,8 @@
 title: Introduction to API Documentation
 description: This article is tailored for technical writers and provides essential insights into the role and responsibilities of API documentation. It emphasizes why technical writers are essential for great API Documentation, Types of API documentation and Examples of API documentation in facilitating the use of APIs by developers. 
 summary: This article introduces newbies to API Documentation.
-date: 2024-06-25T15:50:00+01:00
-lastmod: 2024-08-27T15:15:00+01:00
+date: 2024-09-20T02:00:00+01:00
+lastmod: 2024-09-20T02:30:00+01:00
 draft: false
 menu:
   docs:

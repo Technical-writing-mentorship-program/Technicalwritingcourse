@@ -1,9 +1,9 @@
 ---
 title: API Specification
-description: 
+description: This section covers the different types of API specification stating their structures and tools use for creating and documenting the API spec
 summary: .
-date: 2024-06-25T15:50:00+01:00
-lastmod: 2024-08-27T15:15:00+01:00
+date: 2024-09-20T02:00:00+01:00
+lastmod: 2024-09-20T02:30:00+01:00
 draft: false
 menu:
   docs:
@@ -12,8 +12,8 @@ menu:
 weight: 3
 toc: true
 seo:
-  title: "" # custom title (optional)
-  description: . # custom description (recommended)
+  title: "API Specification" # custom title (optional)
+  description: This section covers the different types of API specification stating their structures and tools use for creating and documenting the API spec. # custom description (recommended)
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---

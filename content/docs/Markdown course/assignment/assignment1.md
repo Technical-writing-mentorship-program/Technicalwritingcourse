@@ -20,7 +20,6 @@ seo:
   noindex: false # false (default) or true
 ---
 
-
 ## Portfolio
 
 **Objective:** Create a Markdown page to showcase your portfolio, including the following sections:
@@ -85,4 +84,3 @@ Hi, I'm Jane Doe, a web developer specializing in front-end technologies and UX/
 - **LinkedIn**: [Jane Doe](https://linkedin.com/in/jane-doe)
 
 ----------
-  

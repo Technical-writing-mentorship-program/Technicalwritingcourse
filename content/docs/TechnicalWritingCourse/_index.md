@@ -2,12 +2,12 @@
 title: "Technical writing course"
 description: ""
 summary: ""
-lastmod: 2024-04-07T16:06:50+02:00
+lastmod: 2024-09-07T16:06:50+02:00
 draft: false
 menu:
   docs:
     parent: ""
-    identifier: "guides-4e0d0e0f89f7decc11eaad4ae9193018"
+    identifier: "guides-4e0d0e0f89f7decc11eaad4ae9193019"
 weight: 800
 toc: true
 seo:

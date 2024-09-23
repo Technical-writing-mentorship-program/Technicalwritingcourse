@@ -212,3 +212,9 @@ You should include the following information in your rate limit page:
 {{< /callout >}}
 
 <img src="https://paper-attachments.dropboxusercontent.com/s_EDD9ADFB86920F498AB507D4AA462F35DADB64AD2D2C85E101246DF4DE91B194_1724570007110_x-rate-limit.png" alt="clear image" width="100%">
+
+{{< callout context="note" title="Assignment" icon="outline/info-circle" >}}
+
+Document the [Petstore API](https://petstore.swagger.io/) using Postman. Pay attention to the API's structure as explained in the course module and provide detailed descriptions and examples where necessary.
+
+{{< /callout >}}

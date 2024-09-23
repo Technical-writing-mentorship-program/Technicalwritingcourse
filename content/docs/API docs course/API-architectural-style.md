@@ -274,3 +274,13 @@ In the example above:
 - `socket.onmessage`: An event handler triggered when a message is received from the server, logging the message to the console.
 
 WebSockets are mostly used in scenarios where real-time communication is critical. Common use cases include live-chat applications and online gaming.
+
+{{< callout context="note" title="Assignment" icon="outline/info-circle" >}}
+
+1. Review the core principles of the API architectural styles: SOAP, GraphQL, WebSocket, and  REST. Summarize each style in 300-500 words.
+
+2. Write a 500-word analysis on the future trends of API architectural styles.
+
+Lastly, after review, publish on your blog and tag @Technicalwrit6 on Twitter and LinkedIn, stating that this is your introduction to API Documentation Course.
+
+{{< /callout >}}

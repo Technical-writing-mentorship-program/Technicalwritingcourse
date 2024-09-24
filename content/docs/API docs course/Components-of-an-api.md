@@ -44,7 +44,7 @@ Break away those tiny chunks, aka components, from a typical API sample and **ex
 
 **Sample Petstore API**
 
-
+```
     {
       "openapi": "3.0.0",
       "info": {
@@ -208,7 +208,7 @@ Break away those tiny chunks, aka components, from a typical API sample and **ex
       }
     }
     
-
+```
 
 That’s a lot to take in; to be honest, the whole JSON format and all the tags make it look even more intimidating. 
 
@@ -295,7 +295,7 @@ When that is done, you are in.
 
 **API Authentication in our** **Sample Petstore API**
 
-
+```
       "components": {
         "securitySchemes": {
           "ApiKeyAuth": {
@@ -313,7 +313,7 @@ When that is done, you are in.
           "ApiKeyAuth": []
         }
       ],
-    
+   ``` 
 
 Let’s understand the situation going on above. This is a snippet of how Authorization is used in an API document. 
 
@@ -343,11 +343,11 @@ An API endpoint is the location where the request by the API client is sent to r
 
 **API Endpoints in our** **Sample Petstore API**
 
-
+```
     /pets
     
     /pets/{petId}
-
+```
 
 
 
@@ -375,14 +375,15 @@ The **GET** method is used to request data from a specified resource. From our S
 
 **Example Request:**
 
-
+```
     GET https://api.petstore.example.com/v1/pets?limit=10
     X-API-Key: your-api-key-here
     Accept: application/json
 
+```
 
 **Example Response:'**
-
+```
     [
       {
         "id": 1,
@@ -397,9 +398,9 @@ The **GET** method is used to request data from a specified resource. From our S
     ]
 
 
+```
 
-
-## POS**T:** 
+## **POST:** 
 
 The `POST` method is used to create a new resource in the specified resource collection. In the context of the Sample Petstore API, you can use the `POST` method to add a new pet to the store.
 
@@ -408,7 +409,7 @@ The `POST` method is used to create a new resource in the specified resource col
 
 **Example Request:**
 
-
+```
     POST https://api.petstore.example.com/v1/pets
     X-API-Key: your-api-key-here
     Content-Type: application/json
@@ -418,17 +419,17 @@ The `POST` method is used to create a new resource in the specified resource col
       "name": "Bunny",
       "tag": "rabbit"
     }
+```
 
-
-E**xample Response:**
-
+**Example Response:**
+```
 
     {
       "id": 3,
       "name": "Bunny",
       "tag": "rabbit"
     }
-
+```
 
 
 ## PU**T:** 
@@ -440,7 +441,7 @@ The `PUT` method is used to update an existing resource or create a new resource
 
 **Example Request:**
 
-
+```
     PUT https://api.petstore.example.com/v1/pets/1
     X-API-Key: your-api-key-here
     Content-Type: application/json
@@ -450,15 +451,16 @@ The `PUT` method is used to update an existing resource or create a new resource
       "name": "Doggo Updated",
       "tag": "dog"
     }
+```
 
 **Example Response:**
 
-
+```
     {
       "id": 1,
       "name": "Doggo Updated",
       "tag": "dog"
-    
+   ``` 
 
 
 
@@ -471,16 +473,16 @@ The `DELETE` method is used to remove a resource from the server. From our Sampl
 
 **Example Request:**
 
-
+```
     DELETE https://api.petstore.example.com/v1/pets/1
     X-API-Key: your-api-key-here
-
+```
 
 **Example Response:**
 
-
+```
     HTTP/1.1 204 No Content
-
+```
 
 ## **REQUEST BODY:** 
 
@@ -494,7 +496,7 @@ The request body contains the data to be sent to the API. It has to be in a spec
 
 Since we are using a `GET` method, the response body is not clearly defined. However, if we are using a `POST` request, the response body will be given as:
 
-
+```
     {
       "requestBody": {
         "description": "Pet object that needs to be added",
@@ -508,7 +510,7 @@ Since we are using a `GET` method, the response body is not clearly defined. How
         }
       }
     }
-    
+```
 
 
 
@@ -546,7 +548,7 @@ Here are some types of request headers:
 
 **Example of Request Header from our Sample Petstore API**
 
-
+```
     "headers": {
         "Accept": {
           "description": "Media type that is acceptable for the response",
@@ -564,7 +566,7 @@ Here are some types of request headers:
         }
       }
     }
-
+```
 
 ## **RESPONSE HEADERS:**
 
@@ -582,7 +584,7 @@ Here are some types of response headers:
 
 **Example of Response Header from our Sample Petstore API**
 
-
+```
     "Content-Type": {
           "description": "The MIME type of the body of the request",
           "schema": {
@@ -593,7 +595,7 @@ Here are some types of response headers:
       }
     }
 
-
+```
 
 
 ## **STATUS CODES:**

@@ -1,3 +1,24 @@
+---
+title: "Key Components of an API"
+description: "This module introduces the essential components of an API (Application Programming Interface) and explains how they work together to enable communication between different software systems. It covers components like endpoints, methods, requests, responses, and authentication."
+summary: "Learn about the fundamental components of an API and how they interact to facilitate seamless communication between software systems."
+date: 2024-09-16T07:07:07+01:00
+lastmod: 2024-09-16T16:04:48+02:00
+draft: false
+menu:
+  docs:
+    parent: ""
+    identifier: "api-components-6a1a6be4373e933280d78ea53de6158e"
+weight: 1
+toc: true
+seo:
+  title: "Key Components of an API" 
+  description: "Explore the essential components of an API, such as endpoints, methods, requests, responses, and authentication, and learn how they enable communication between software systems." 
+  canonical: "" 
+  noindex: false 
+---
+
+
 # Components of an API
 In this module, we will learn about the **key components of an API (Application Programming Interface)** and how they function together to enable communication between different software systems.
 By breaking down the core elements that make up an API, you’ll better understand how APIs facilitate seamless interaction between applications. This knowledge is fundamental to effectively using or developing APIs.

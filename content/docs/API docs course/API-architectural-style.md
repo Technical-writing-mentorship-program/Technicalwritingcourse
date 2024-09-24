@@ -4,7 +4,7 @@ description: "This article explores various API architecture styles, providing a
 summary: "The article discusses different API architecture styles, including SOAP, REST, GraphQL, and WebSockets."
 date: 2024-09-16T07:07:07+01:00
 lastmod: 2024-09-16T16:04:48+02:00
-draft: false
+draft: true
 menu:
   docs:
     parent: ""

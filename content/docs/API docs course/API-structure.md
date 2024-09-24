@@ -4,7 +4,7 @@ description: "This article offers a comprehensive guide on structuring API docum
 summary: "The article covers the fundamental structure of an API document, emphasizing the importance of organization and user experience."
 date: 2024-09-16T07:07:07+01:00
 lastmod: 2024-09-16T16:04:48+02:00
-draft: false
+draft: true
 menu:
   docs:
     parent: ""

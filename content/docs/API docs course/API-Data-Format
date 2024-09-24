@@ -1,3 +1,25 @@
+---
+title: "API Data Formats"
+description: "This article delves into the various data formats used in APIs, such as JSON, XML, and Protocol Buffers. It explains how to structure and work with these formats, ensuring developers can efficiently transmit and receive data when interacting with APIs."
+summary: "Explore the different API data formats, their structures, and best practices for using them in API communication."
+date: 2024-09-16T07:07:07+01:00
+lastmod: 2024-09-16T16:04:48+02:00
+draft: false
+menu:
+  docs:
+    parent: ""
+    identifier: "api-data-format-6a1a6be4373e933280d78ea53de6158e"
+weight: 1
+toc: true
+seo:
+  title: "API Data Formats" # custom title (optional)
+  description: "A comprehensive guide on API data formats, covering JSON, XML, and Protocol Buffers, to help developers optimize API communication." # custom description (recommended)
+  canonical: "" # custom canonical URL (optional)
+  noindex: false # false (default) or true
+---
+
+
+
 # API Data Format
 Establishing a common language is one of the key goals during communication and interaction. Sometimes, that language can be unique to the two persons involved, like a secret sign between friends. The most important thing is that the data format is in whatever way the intended audience can understand.
 

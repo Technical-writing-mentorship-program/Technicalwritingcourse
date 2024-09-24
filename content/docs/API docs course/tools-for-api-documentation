@@ -1,3 +1,25 @@
+---
+title: "Tools for API Documentation"
+description: "This article explores various tools used in API documentation, distinguishing between interactive and non-interactive tools. It includes practical examples on how to use Swagger for interactive documentation and Docusaurus for non-interactive documentation."
+summary: "A guide on the tools available for creating API documentation, featuring both interactive solutions like Swagger and non-interactive tools like Docusaurus, with practical usage examples."
+date: 2024-09-16T07:07:07+01:00
+lastmod: 2024-09-16T16:04:48+02:00
+draft: false
+menu:
+  docs:
+    parent: ""
+    identifier: "api-tools-6a1a6be4373e933280d78ea53de6158e"
+weight: 1
+toc: true
+seo:
+  title: "Tools for API Documentation" 
+  description: "Discover key tools for creating API documentation, including interactive options like Swagger and non-interactive solutions like Docusaurus, with step-by-step usage guidance." # custom description (recommended)
+  canonical: "" 
+  noindex: false
+---
+
+
+
 # Tools for API Documentation 
 This is the point in the course where you get your hands busy. You are not expected to read through this module. This module has been specially designed so that you can practice as you learn.
 

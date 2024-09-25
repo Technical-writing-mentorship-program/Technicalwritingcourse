@@ -3,7 +3,7 @@ title: "Building Blocks With AsciiDoc"
 description: "This section shows the different building blocks on AsciiDoc"
 summary: ""
 date: 2024-09-24T22:39:22+01:00
-draft: true
+draft: false
 seo:
   title: "Building Blocks With AsciiDoc" # custom title (optional)
   description: "" # custom description (recommended)

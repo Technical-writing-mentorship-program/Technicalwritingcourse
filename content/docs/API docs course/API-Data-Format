@@ -39,6 +39,7 @@ The JSON syntax consists of attribute-value pairs and arrays. An attribute-value
 
 Here is an example of a JSON syntax of our Petstore sample API
 
+```
 {
     "petId": 12345,
     "name": "Buddy",
@@ -71,7 +72,7 @@ Here is an example of a JSON syntax of our Petstore sample API
     ]
 }
 
-
+```
 
 ## **RESOURCES** 
 
@@ -99,7 +100,7 @@ Like JSON, YAML has a simple and human-readable syntax. It can be called "JSON w
 
 **Here is an example of a YAML syntax of our Petstore sample API:**
 
-
+```
     petId: 12345
     name: Buddy
     species: Dog
@@ -122,7 +123,7 @@ Like JSON, YAML has a simple and human-readable syntax. It can be called "JSON w
         date: 2024-09-15
         time: 2:00 PM
         service: Grooming
-    
+```
 
 
 ## **RESOURCES** 
@@ -152,7 +153,7 @@ Nodes can contain other nodes, creating a hierarchical structure that defines th
 
 **Here is an example of an XML syntax of our Petstore sample API:**
 
-
+```
     <pet>
         <petId>12345</petId>
         <name>Buddy</name>
@@ -184,6 +185,7 @@ Nodes can contain other nodes, creating a hierarchical structure that defines th
             </appointment>
         </appointments>
     </pet>
+```
 
 In this example, each piece of data, like `petId`, `name`, and `species`, is enclosed within its tags, making it a node. The `pet` node contains other nested nodes, such as `owner` and `appointments`, which further break down the data into more detailed information.
 
@@ -211,7 +213,7 @@ When working with raw data formats, the data is typically sent directly over the
 
 **Here is an example of a Raw syntax of our Petstore sample API:**
 
-
+```
     
     POST /api/petstore HTTP/1.1
     Host: api.example.com
@@ -227,7 +229,7 @@ When working with raw data formats, the data is typically sent directly over the
       "vaccinated": true
     }
     
-
+```
 
 ## **RESOURCES** 
 
@@ -248,7 +250,7 @@ In binary format, the data is encoded into binary—those familiar 0s and 1s. Th
 
 **Here is an example of a Binary syntax of our Petstore sample API:**
 
-
+```
     syntax = "proto3";
     
     message Pet {
@@ -259,7 +261,7 @@ In binary format, the data is encoded into binary—those familiar 0s and 1s. Th
       int32 age = 5;
       bool vaccinated = 6;
     }
-    
+```    
 
 
 

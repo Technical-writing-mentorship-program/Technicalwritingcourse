@@ -143,14 +143,17 @@ There are two ways to edit and create parameters in Swagger UI
 
 1. Include the server URL
 
+```
 
     servers:
       - url: https://petstore.example.com/v1
         description: Production server
-    
+   ``` 
 
 
 2. Add the paths for the sample Petstore API endpoints. Each path includes the HTTP method, parameters, and responses. 
+
+```
     paths:
       /pets:
         get:
@@ -209,11 +212,11 @@ There are two ways to edit and create parameters in Swagger UI
                   schema:
                     $ref: '#/components/schemas/Error'
     
-
+```
 
 3. Add the components: (The components define reusable schemas, responses and requests)
 
-
+```
     components:
       schemas:
         Pet:
@@ -240,7 +243,7 @@ There are two ways to edit and create parameters in Swagger UI
               format: int32
             message:
               type: string
-    
+ ```   
 
 
 > **Note:** You can play around with the descriptions, responses and requests. Test them and see how they work. 
@@ -305,16 +308,19 @@ a. Make sure you have Node js installed (>18.0.)
 [Download Nodejs here](https://nodejs.org/en/download/package-manager/current) 
 
 b. Create a new Docusaurus project and navigate to the project directory
-
+```
     npx create-docusaurus@latest my-website classic
     cd my-website
-
+```
 c.  Install dependencies
-
+```
     npm install
+```
 
 d. Start the development server
+```
 npm start
+```
 
 Open `http://localhost:3000` in your browser to see the default Docusaurus site.
 
@@ -327,10 +333,10 @@ For this sample tutorial, I used **Visual Studio Code**
 
 a. Once you have successfully downloaded Docusaurus, you can open it using Visual studio code
 
-
+```
     cd my-website
     code .
-
+```
 
 b. In the `docs` folder, you will see `intro.md`, this is where we will be adding our API documentation. 
 

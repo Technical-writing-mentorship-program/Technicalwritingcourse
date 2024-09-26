@@ -1,5 +1,18 @@
-**Converting Your Document**
+---
+title: "Converting Asciidoc Files"
+description: "The document below explains how to convert asciidoc files to different formats"
+summary: ""
+date: 2024-09-26T12:16:33+03:00
+lastmod: 2024-09-26T12:16:33+03:00
+draft: false
+seo:
+  title: "Converting Asciidoc Files" # custom title (optional)
+  description: "The document below explains how to convert asciidoc files to different formats" # custom description (recommended)
+  canonical: "" # custom canonical URL (optional)
+  noindex: false # false (default) or true
+---
 
+**Convert** Converting Your Document
 
 **Asciidoctor**
 
@@ -70,7 +83,7 @@ npx asciidoctor --version
 Running the command above, on successful installation of asciidoctor, the follow message is displayed in terminal indicating the version of asciidoctor installed.
 
 
-![Alt text](https://raw.githubusercontent.com/kenneth256/mardown/master/image1.png)
+<img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/zf2t9inz8xjj0fi0quc3.png" width="100%">
 
 
 
@@ -94,9 +107,7 @@ gem install asciidoctor-diagram
 
 2. Set Up Your AsciiDoc Document:
 
-![Alt text](https://raw.githubusercontent.com/kenneth256/mardown/master/image2.png)
-
-
+<img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0a2yh3sqqtk53g4vrh7o.png" width="100%" />
 
 Fig 2: shows a sample set up of an asciidoctor document.
 
@@ -107,8 +118,7 @@ Fig 2: shows a sample set up of an asciidoctor document.
 asciidoctor -r asciidoctor-diagram your_document.adoc
 ```
 
-
-![Image Description](https://raw.githubusercontent.com/kenneth256/mardown/master/image3.png)
+<img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/jh1lk1nbr09e1bt1ik2g.png" width="100%" />
 
 
 
@@ -145,7 +155,7 @@ gem install prawn prawn-table prawn-iconv
 1. Create an AsciiDoc Document as below:
 
 
-![Image Description](https://raw.githubusercontent.com/kenneth256/mardown/master/image4.png)
+<img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/uujdzgpwoyw2l7herof8.png" width="100%" />
 
 
 
@@ -167,9 +177,7 @@ This command generates a pdf example.pdf in the same directory as of example.ado
 
 Create a theme file (my-theme.yml) to customize the look of your PDF:
 
-![Image Description](https://raw.githubusercontent.com/kenneth256/mardown/master/image5.png)
-
-
+<img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ldwoslptm6lf23fbv2qo.png" width="100%" />
 
 Fig 5: Showing sample of a theme that can be applied to an asciidoc document.
 
@@ -195,9 +203,7 @@ To highlight, set the code block to a specific language.
 For example, the snippet below specifies language as python and so on running the document the code block will be highlighted in python theme
 
 
-![Image Description](https://raw.githubusercontent.com/kenneth256/mardown/master/image6.png)
-
-
+<img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/8mmzza1d79jjizple2re.png"  width="100%" />
 
 Fig 6: Showing how to set Python language for specific code block.
 
@@ -288,38 +294,38 @@ On successful installation, the maven version is displayed or else run setup pro
 
 6. Open your IntelliJ IDE, and go to the File > New > Project as shown in the below image.
 
-![Image Description](https://raw.githubusercontent.com/kenneth256/mardown/master/image7.png)
+<img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/044h9wqwi65xp1a6p2nl.png" width="100%" />
 
 
 Fig 7: shows how to create a maven project
 
 **On the next screen:**
 
-7. Provide a suitable name as per your requirement
+1. Provide a suitable name as per your requirement
 
-8. Choose the location you want to store your project
+2. Choose the location you want to store your project
 
-9. Choose the programming language as per your requirement
+3. Choose the programming language as per your requirement
 
-10. Here you have to choose Maven
+4.  Here you have to choose Maven
 
-11. Choose the JDK you want to use
+5.  Choose the JDK you want to use
 
-![Image Description](https://raw.githubusercontent.com/kenneth256/mardown/master/image8.png)
+<img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/h299o2bo7vv30csh791u.png" width="100%" />
 
 
 fig 8: shows how to setup maven project.
 
-12. click on the Create button. And you are done.
+1.  click on the Create button. And you are done.
 
-13. After creating the project, you can see two default files created, pom.xml file and Main.java class
+2.  After creating the project, you can see two default files created, pom.xml file and Main.java class
 
 
  **Pom.xml**
 
 
     
-![Image Description](https://raw.githubusercontent.com/kenneth256/mardown/master/image9.png)
+<img  src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/y70by26b7sza1d753dow.png" width="100%" />
 
 
 
@@ -327,29 +333,21 @@ Fig 9: shows Pom.xml
 
 **Main.java class**
 
-
-![Image Description](https://raw.githubusercontent.com/kenneth256/mardown/master/image10.png)
-
-
+<img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/kncef9cjiodnidiz9cg5.png" width="100%" />
 
 Fig 10:  Shows main.java class
 
-14. Add AsciidoctorJ as a dependency in your pom.xml file as below:
+1.  Add AsciidoctorJ as a dependency in your pom.xml file as below:
 
-
-![Image Description](https://raw.githubusercontent.com/kenneth256/mardown/master/image11.png)
-
+<img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3p91zgisvfxpbbeuf15d.png" width="100%"/>
 
 Fig 11: shows how to add asciidoctorJ, to pom.xml file
 
 To read more about the maven file POM.xml and the tags used, visit [maven-pom-xml](https://www.javatpoint.com/maven-pom-xml).
 
-8. Initialize asciidoctor in main.java class as below:
+1. Initialize asciidoctor in main.java class as below:
 
-
-    
-![Image Description](https://github.com/kenneth256/mardown/raw/master/image12.png "Tooltip text")
-
+<img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/a0ccmerom82r8qufs7fk.png" width="100%" />
 
 Fig 12: Shows initialisation of asciidoctor in main.java class.
 
@@ -361,7 +359,7 @@ Where;
 
 -outputFile is the path where the converted HTML file will be saved.
 
-9. Build Your Project
+1. Build Your Project
 
 Open the command terminal and run the code below:
 
@@ -406,35 +404,33 @@ It supports many AsciiDoc features. So, you can render documents with capabiliti
 
 **3. Usage**:
 
-You can include Asciidoctor.js in your web pages with a <script> tag. Or, install it via npm for Node.js applications.
+You can include Asciidoctor.js in your web pages with a script tag. Or, install it via npm for Node.js applications.
 
 **In a Web Browser:**
 
-Include the Asciidoctor js library via a <script> tag or a package manager like npm. 
+Include the Asciidoctor js library via a `script` tag or a package manager like npm. 
 
-**Including Asciidoctor.js via <code><script></code> Tag</strong>
+**Including Asciidoctor.js via `script` Tag
 
 Include Asciidoctor.js directly from a CDN as shown below:
 
-![Image Description](https://raw.githubusercontent.com/kenneth256/mardown/master/image13.png)
-
-
+<img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/xwm2ypi0qmo44clh991g.png" width="100%" />
 
 Fig 13: Shows how to include asciidoctor.js in document using Cdn
 
 In the example above:
 
-The <script> tag includes the Asciidoctor.js library from a CDN.
+The `script` tag includes the Asciidoctor.js library from a CDN.
 
 Const Adoccontent is used for inputting the AsciiDoc content.
 
 asciidoctor.convert(adocContent) convers adocContent to html which is initialized as html.
 
-The resulting HTML is displayed in the <div> with the id "content."
+The resulting HTML is displayed in the `div` with the id "content."
 
 When the file is opened in browser, it displays;
 
-![Image Description](https://raw.githubusercontent.com/kenneth256/mardown/master/image14.png)
+<img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/70czevzr4ql2n0qjedbq.png"  width="100%" />
 
 Fig 14: shows the output of running the above document in a browser.
 
@@ -475,14 +471,13 @@ Npm install asciidoctor
 5. Create a JavaScript File (content.js) to Convert AsciiDoc to HTML:
 
 
-    
-![Image Description](https://raw.githubusercontent.com/kenneth256/mardown/master/image15.png)
+<img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/al0kjkevcrhjsr3n9f98.png" width="100%" />
 
 
 
 Fig 15: shows a sample javascript code using asciidoctor.js
 
-6. Running the command below  generates the html file:
+1. Running the command below  generates the html file:
 
 
 ```
@@ -506,7 +501,7 @@ The HTML file opens in a browser and makes use google web fonts which can be opt
 
 1.Create  a file with .adoc extension or navigate into the directory contain the document file.
     
-![Image Description](https://raw.githubusercontent.com/kenneth256/mardown/master/image16.png)
+<img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/xi9unlh1mc5khdnqsno3.png"  width="100%" />
 
 
 Fig 16: shows an asciidoc file
@@ -536,7 +531,7 @@ examplet.adoc  example.html
 ```
 
 
-6. Specify the output as HTML5 explicitly using the -b option:
+1. Specify the output as HTML5 explicitly using the -b option:
 
 
 ```
@@ -579,7 +574,7 @@ You can convert a document into HTML5 using Asciidoctor Maven plugin by followin
 
 1. Include the Asciidoctor Maven Plugin in your `pom.xml` file: 
 
-![Image Description](https://raw.githubusercontent.com/kenneth256/mardown/master/image17.png)
+<img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/y9yfeolmuqa4v3o8d2ce.png" width="100%" />
 
 Fig 17: shows setup for asciidoc  project conversion using maven plugin
 
@@ -612,7 +607,7 @@ To convert asciidoc file to a DocBook follow the steps below:
 
 1.Create a file named example.adoc with your AsciiDoc content. For example:
 
-![Image Description](https://raw.githubusercontent.com/kenneth256/mardown/master/image18.png)
+<img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/swn89i7vze46ov993ve8.png" width="100%" />
 
 
 Fig 18: shows a sample asciidoc document
@@ -627,9 +622,9 @@ asciidoctor -b docbook5 example.adoc
 
 The above command generates,example.xml file in DocBook 5 format in the same  directory as of example.adoc.
 
-3. Open example.xml to check the DocBook output. It should look something like this:
+1. Open example.xml to check the DocBook output. It should look something like this:
 
-![Image Description](https://raw.githubusercontent.com/kenneth256/mardown/master/image19.png)
+<img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/mn7tr2uo0vk7quc8ot58.png" />
 
 Fig 19: shows content of  example.xml 
 
@@ -642,7 +637,7 @@ To convert AsciiDoc to DocBook using Maven, configure the Asciidoctor Maven Plug
 
 1. Set up your Maven project structure
 
-![Image Description](https://raw.githubusercontent.com/kenneth256/mardown/master/image20.png)
+<img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/q5z14fk3bkf03p1e67nf.png" width="100%" />
 
 Fig 20: shows the structural setup of  a mave project.
 

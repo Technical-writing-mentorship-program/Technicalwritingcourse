@@ -44,8 +44,11 @@ It's packed with useful stuff and totally **FREE for everyone!**
 
 - [Opeyemi Odejimi:](https://www.linkedin.com/in/opeyemiodejimi) a cloud/devops engineer and a technical writer
 
+- [Kenneth David Magombe:](https://www.linkedin.com/in/kennethdavid) a frontend engineer and technical writer
+
 
 {{< callout context="tip" title="Why free?" icon="rocket" >}}
 We believe everyone deserves to learn tech writing, no matter what! So grab this open-source course and unlock your future in tech writing.
 {{< /callout >}}
+
 

@@ -27,6 +27,7 @@ You can use hard line breaks to create lists, write verses, and separate lines i
 &nbsp;
 <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/icdu6z3xh60861r3jbgl.png" alt="Fig 1. Hard line breaks in AsciiDocs" width="100%">
 
+_Fig 1. Ending a line with a space followed by a plus sign (+) to start a new line without wrapping the text._
 
 
 Additionally, you can use the following methods to incorporate hard line breaks in Asciidoc.

@@ -1,8 +1,8 @@
 ---
-title: "Writing in AsciiDoc Part 1"
+title: "Writing in AsciiDoc"
 description: "This article explains how to use AsciiDoc, a lightweight markup language, for creating structured documents with headings, lists, links, images, and code blocks, ideal for technical documentation and other written content."
 summary: ""
-date: 2024-09-27T16:32:46+01:00
+date: 2024-07-27T16:32:46+01:00
 lastmod: 2024-09-27T16:32:46+01:00
 draft: false
 seo:
@@ -11,18 +11,28 @@ seo:
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---
-# Writing in AsciiDoc
 
 ## AsciiDoc is just a text
 
-You can use AsciiDoc to quickly create professional-looking documents, whether you're writing a blog post or a book, without needing to learn complex formatting languages. With AsciiDoc, you can focus on writing your story or report and present it in a visually appealing format, like a stunning website or a well-designed book, without mastering a complicated program. To start writing in AsciiDoc, simply use a text editor. AsciiDoc takes care of the formatting and layout, allowing you to concentrate entirely on your content.<br/>
+You can use AsciiDoc to quickly create professional-looking documents, whether you're writing a blog post or a book, without needing to learn complex formatting languages. 
+
+With AsciiDoc, you can focus on writing your story or report and present it in a visually appealing format, like a stunning website or a well-designed book, without mastering a complicated program. 
+
+To start writing in AsciiDoc, simply use a text editor. AsciiDoc takes care of the formatting and layout, allowing you to concentrate entirely on your content.<br/>
+
 AsciiDoc's straightforward and intuitive syntax makes it easy to get started. You can use AsciiDoc to create documents in various formats, including HTML, PDF, and DocBook. Additionally, you can customize the output and include custom macros to suit your needs. Because AsciiDoc documents are plain text, you can easily collaborate with others.<br/>
 
 
 ## Wrapped Text and Hard Line Breaks in Asciidoc
 
-You can use AsciiDoc's wrapped text and hard line breaks features to precisely control your document's layout. By default, you can rely on AsciiDoc to wrap text automatically, filling the available space and ensuring readability and adaptability across various formats. This flexibility in text-wrapping is particularly beneficial for paragraphs, as it creates a smooth, natural flow of text. Moreover, you can dictate how text wraps and how lines break, fine-tuning your content to meet specific requirements.<br/>
-You can use hard line breaks to create lists, write verses, and separate lines in other situations. While wrapped text helps maintain readability in the source file, you may need to enforce hard line breaks to control how the text appears in the final document. <br/>AsciiDoc provides several ways to insert hard line breaks, allowing you to control the layout of your text precisely. You can insert a hard line break by ending a line with a space followed by a plus sign **(+).** This simple technique gives you control over your text layout and allows you to format your document precisely.
+You can use AsciiDoc's wrapped text and hard line breaks features to precisely control your document's layout. By default, you can rely on AsciiDoc to wrap text automatically, filling the available space and ensuring readability and adaptability across various formats. 
+
+This flexibility in text-wrapping is particularly beneficial for paragraphs, as it creates a smooth, natural flow of text. Moreover, you can dictate how text wraps and how lines break, fine-tuning your content to meet specific requirements.<br/>
+
+
+You can use hard line breaks to create lists, write verses, and separate lines in other situations. While wrapped text helps maintain readability in the source file, you may need to enforce hard line breaks to control how the text appears in the final document. <br/>
+
+AsciiDoc provides several ways to insert hard line breaks, allowing you to control the layout of your text precisely. You can insert a hard line break by ending a line with a space followed by a plus sign **(+).** This simple technique gives you control over your text layout and allows you to format your document precisely.
 
 &nbsp;
 <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/icdu6z3xh60861r3jbgl.png" alt="Fig 1. Hard line breaks in AsciiDocs" width="100%">
@@ -48,7 +58,11 @@ Additionally, you can use the following methods to incorporate hard line breaks 
 
 ## Admonitions
 
-Admonitions in AsciiDoc are an effective tool for improving your documentation. They are similar to special messages that highlight important information in a document.<br/> Assume you are reading a guide or a book, and the author wants you to pay attention to certain details, such as a warning about something dangerous or a helpful tip. Admonitions are used to make messages stand out, so you do not miss them.<br/>
+Admonitions in AsciiDoc are an effective tool for improving your documentation. They are similar to special messages that highlight important information in a document.<br/> 
+
+Assume you are reading a guide or a book, and the author wants you to pay attention to certain details, such as a warning about something dangerous or a helpful tip. 
+
+Admonitions are used to make messages stand out, so you do not miss them.<br/>
 AsciiDoc offers five admonition-style labels. 
 
 - **Note :** By adding the "note" label, you give readers the extra insight they need to fully grasp the topic, highlighting related points and showing connections between ideas to expand on key concepts. <br/>This additional information, while not essential, provides a richer understanding of the topic, making your documentation more informative and engaging.
@@ -65,7 +79,11 @@ AsciiDoc offers five admonition-style labels.
 
 - **Warning:**  The **"**warning**"** label actively warns readers of potential negative consequences, such as damage or loss, if they fail to follow instructions carefully, emphasizing the risks and urging them to take necessary precautions to avoid harm.
 
-In AsciiDoc, **caution** and **warning** are both used to alert readers to potential risks, but they differ in their level of severity.<br/> A **caution** is intended to make the reader aware of something that could go wrong if they’re not careful, but the consequences are generally moderate. It’s like a gentle reminder to proceed with care, as ignoring it could lead to minor problems or inconveniences.<br/> On the other hand, a **warning** signals a more serious risk that could result in significant harm, such as system failure, data loss, or physical injury. It’s a stronger alert meant to stop the reader in their tracks, emphasizing that ignoring it could lead to major issues.<br/> While both are important, a **warning** carries a higher level of urgency and is used for more critical situations.
+In AsciiDoc, **caution** and **warning** are both used to alert readers to potential risks, but they differ in their level of severity.<br/> 
+
+A **caution** is intended to make the reader aware of something that could go wrong if they’re not careful, but the consequences are generally moderate. It’s like a gentle reminder to proceed with care, as ignoring it could lead to minor problems or inconveniences.<br/> 
+
+On the other hand, a **warning** signals a more serious risk that could result in significant harm, such as system failure, data loss, or physical injury. It’s a stronger alert meant to stop the reader in their tracks, emphasizing that ignoring it could lead to major issues.<br/> While both are important, a **warning** carries a higher level of urgency and is used for more critical situations.
 
 ## **Punctuation**
 
@@ -73,6 +91,7 @@ In AsciiDoc, punctuation is used much like it is in regular text. You need to us
 
 **Quoted Text**<br/>
 In AsciiDoc, quoted text serves as a visual mechanism for highlighting dialogues or emphasizing particular content.<br/> Comparable to traditional quotation marks in standard writing, AsciiDoc presents additional formatting options for ensuring the effective visual distinction of quoted content.<br/>
+
 One of the instances of quoted text in AsciiDoc is the asterisk, which is used primarily for emphasis, similar to how you might use bold or italics in other word processors.<br/>
 
 &nbsp;
@@ -87,7 +106,9 @@ Here are the alternative forms of quoted text that AsciiDoc recognizes. You can 
 &nbsp;
 
 When writing in AsciiDoc, you can make certain words or phrases look special by giving them a "role". Think of it like labeling a word as "important" or "code.".<br/>
+
 To do this, you add a special label before the word, like **[.userinput]#asciidoc#**. This tells the computer to make the word "asciidoc" look different.<br/>
+
 However, sometimes, you might not want the computer to change the way your text looks. That's where "escaping" comes in. It's like telling the computer, "Hey, don't touch this text! Leave it exactly as I typed it. "When you "escape" text, you're telling the computer not to add any special formatting or styles. It's like a "do not touch" sign for your text.<br/>
 In summary,
 
@@ -95,7 +116,9 @@ In summary,
 - Escaping helps you keep text exactly as you typed it, without any extra formatting
 
 **Preventing Substitution**<br/>
-In AsciiDoc, specific characters trigger automatic text formatting. For example, asterisks (*) enclose text in bold, underscores (_) make text italic, and double underscores (_ _) create bold text. This feature allows for quick text styling for emphasis or clarity.<br/>
+In AsciiDoc, specific characters trigger automatic text formatting. For example, asterisks (*) enclose text in bold, underscores (_) make text italic, and double underscores (_ _) create bold text. 
+
+This feature allows for quick text styling for emphasis or clarity.<br/>
 However, this automatic formatting may not always align with your intentions. At times, you may need the text to remain exactly as typed, without special formatting. AsciiDoc provides tools like backslash escaping and passthrough macros to help you control text formatting.<br/>
 Understanding how quoted text behaves in AsciiDoc is crucial for customizing the appearance of your documents.
 
@@ -131,6 +154,7 @@ By using an inline pass macro, you take control of your text's formatting and en
 <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/vh692p5m48m2k7okddlv.png" alt="Fig 4. inline pass macro in Asciidocs" width="100%"> &nbsp;
 
 You enclose a phrase in the inline pass macro to exclude it from substitutions and disable escaping of special characters. This way, you can control how your text is formatted.<br/>
+
 For example, you want to underline a word when converting your document to HTML, without applying any other formatting to it. You take action by wrapping the word in the inline pass macro, like this: ''**pass:[<u>underline me</u>]**''.<br/>
 By doing so, you:
 
@@ -141,7 +165,9 @@ You're in charge of your text's formatting, and the inline pass macro helps you 
 
 <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/hf90mnrtrhiza004l3l1.png" alt="Fig 4. inline pass macro underline in Asciidocs" width="100%"> &nbsp;
 
-You enable ad-hoc quotes substitution by setting the macros value to subs, allowing you to control the replacement of specific characters or quotes.<br/> Then, you use the inline pass macro to specify which quotes to replace and with what, taking charge of the substitution process. By doing so, you ensure that specific quotes are replaced with other characters in certain places, achieving your desired text formatting. &nbsp;
+You enable ad-hoc quotes substitution by setting the macros value to subs, allowing you to control the replacement of specific characters or quotes.<br/> 
+
+Then, you use the inline pass macro to specify which quotes to replace and with what, taking charge of the substitution process. By doing so, you ensure that specific quotes are replaced with other characters in certain places, achieving your desired text formatting. &nbsp;
 
 <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/k6b8rmm9wnyj2nrz0l3n.png" alt="Fig 4. ad-hoc quotes substitution" width="100%">
 &nbsp;
@@ -179,8 +205,11 @@ The triple-plus passthrough in AsciiDoc works similarly to the pass macro but us
 &nbsp;
 
 You typically use the triple-plus passthrough when you need to add raw HTML or XML code to your document. By wrapping the code in triple pluses, you ensure that AsciiDoc leaves it exactly as you wrote it.<br/>
+
 When you convert your AsciiDoc to HTML, the text inside the triple pluses appears exactly as written, creating a **div** with the specified class.<br/>
+
 You use the triple-plus passthrough to embed code or content that AsciiDoc doesn’t natively handle, ensuring your custom HTML, XML, or other code stays intact in the final output.<br/>
+
 In summary, the triple-plus passthrough lets you include unaltered text, code, or markup in your AsciiDoc documents, making it perfect for custom HTML or XML output.<br/>
 
 **Single plus enclosure**<br/>
@@ -192,7 +221,9 @@ You protect a phrase from substitutions by wrapping it in plus signs (+) like th
 &nbsp;
 
 **Replacements**<br/>
-In AsciiDoc, you can use simple text to represent symbols, arrows, and dashes, making your writing look cleaner and more professional without sacrificing readability.<br/> You can easily create an arrow by typing -> or a dash by typing --, using formats that you're likely already familiar with. These textual symbols unclutter your text and make it easier to follow. You likely recognize these standard ways of writing, which helps them feel natural to use and understand.
+In AsciiDoc, you can use simple text to represent symbols, arrows, and dashes, making your writing look cleaner and more professional without sacrificing readability.<br/> 
+
+You can easily create an arrow by typing -> or a dash by typing --, using formats that you're likely already familiar with. These textual symbols unclutter your text and make it easier to follow. You likely recognize these standard ways of writing, which helps them feel natural to use and understand.
 
 
 
@@ -215,6 +246,7 @@ In AsciiDoc, you can use simple text to represent symbols, arrows, and dashes, m
 | Typographic apostrophe | Sam's      | Sam&#8217;s             | Sam’s        | AsciiDoc automatically replaces the straight typewriter apostrophe (`'`) with a curly, typographic apostrophe (`’`). This makes your text look more polished and professional, giving it the proper typographic style used in formal writing.                                                                                                                                                                                                         |
 
 This simple punctuation does not reduce the readability of the text. In fact, it might actually make the text easier to read.<br/>What is important is that these are standard practices you are probably already familiar with.<br/>
+
 In AsciiDoc, you also use punctuation to create one of the most common elements in document **lists**!<br/>
 Check out the second part of the writing in AsciiDoc guide to explore more about its syntax and advanced features.
 

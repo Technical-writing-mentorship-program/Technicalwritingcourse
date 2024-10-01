@@ -2,13 +2,13 @@
 title: "Authors"
 description: "This is an API Documentation  course for beginners"
 summary: ""
-date: 2024-01-15T07:07:07+01:00
-lastmod: 2023-09-07T16:04:48+02:00
+date: 2024-09-15T07:07:07+01:00
+lastmod: 2024-09-07T16:04:48+02:00
 draft: false
 menu:
   docs:
     parent: ""
-    identifier: "example-6a1a6be4373e933280d78ea53de6158e"
+    identifier: "authorssexample-6a1a6be4373e933280d78ea53de6158e"
 weight: 1
 toc: true
 seo:

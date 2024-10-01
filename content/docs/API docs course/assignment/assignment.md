@@ -1,10 +1,10 @@
----
-title: Assignment
+--- 
+title: OpenWeatherMap API Documentation
 description: Assignment for API Documentation. 
 summary: 
 date: 2024-09-28T17:50:05+01:00
 lastmod: 2024-09-28T18:20:05+01:00
-draft: true
+draft: false
 menu:
   docs:
     parent: ""
@@ -12,15 +12,15 @@ menu:
 weight: 5
 toc: true
 seo:
-  title: "Asssignment" # custom title (optional)
-  description: Create comprehensive documentation for three different APIs using various documentation tools . # custom description (recommended)
+  title: "Assignment" # custom title (optional)
+  description: Create comprehensive documentation for three different APIs using various documentation tools. # custom description (recommended)
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---
 
 
 
-Your task is to create comprehensive documentation for three different APIs using various documentation tools. Follow the instructions below for each API:
+Your task is to create comprehensive documentation for this API using various Readme tools. Follow the instructions below:
 
 General Requirements:
 - Ensure all documentation is clear, concise, and free of errors.
@@ -46,23 +46,6 @@ Instructions:
 4. Add a "Getting Started" guide for new users.
 5. Implement proper categorization and navigation for easy browsing.
 
-[WeatherStack API Documentation](https://weatherstack.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers)
-
-Tool: [Mintlify](https://mintlify.com/docs/development)
-
-Instructions:
-1. Set up a Mintlify project for the WeatherStack API documentation.
-2. Create a clear structure for the documentation, including:
-   - Introduction and overview
-   - Authentication
-   - API endpoints
-   - Query parameters
-   - Response structure
-   - Weather data fields explanation
-3. Utilize Mintlify's features to create an interactive API playground.
-4. Include examples of how to use the API for current weather, historical weather, and weather forecasts.
-5. Document any limitations or restrictions of the API.
-6. Create a troubleshooting section addressing common issues.
 
 
 

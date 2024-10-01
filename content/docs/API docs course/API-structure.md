@@ -2,9 +2,9 @@
 title: "Structuring an API Document"
 description: "This article offers a comprehensive guide on structuring API documentation for beginners. It explains the key sections every API document should include, such as the introduction, quick start, authentication, status/error codes, and rate limiting. Each section is designed to help developers understand how to navigate and use the API effectively."
 summary: "The article covers the fundamental structure of an API document, emphasizing the importance of organization and user experience."
-date: 2024-09-16T07:07:07+01:00
-lastmod: 2024-09-16T16:04:48+02:00
-draft: true
+date: 2024-07-16T07:07:07+01:00
+lastmod: 2024-07-16T16:04:48+02:00
+draft: false
 menu:
   docs:
     parent: ""

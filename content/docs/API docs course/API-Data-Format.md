@@ -2,7 +2,7 @@
 title: "API Data Formats"
 description: "This article delves into the various data formats used in APIs, such as JSON, XML, and Protocol Buffers. It explains how to structure and work with these formats, ensuring developers can efficiently transmit and receive data when interacting with APIs."
 summary: "Explore the different API data formats, their structures, and best practices for using them in API communication."
-date: 2024-09-16T07:07:07+01:00
+date: 2024-05-16T07:07:07+01:00
 lastmod: 2024-09-16T16:04:48+02:00
 draft: false
 menu:

@@ -2,7 +2,7 @@
 title: "API Documentation Course"
 description: "This is an API Documentation course for beginners"
 summary: ""
-lastmod: 2024-03-1T16:06:50+02:00
+lastmod: 2024-06-1T16:06:50+02:00
 draft: false
 menu:
   docs:

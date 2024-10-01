@@ -2,14 +2,14 @@
 title: "API Architectural Styles"
 description: "This article explores various API architecture styles, providing a foundational understanding of how APIs are designed and structured. It covers SOAP, REST, GraphQL, and WebSockets, explaining their distinct characteristics, usage scenarios, and technical structures. The piece aims to help readers grasp these fundamental concepts to design and implement efficient and maintainable APIs"
 summary: "The article discusses different API architecture styles, including SOAP, REST, GraphQL, and WebSockets."
-date: 2024-07-16T07:07:07+01:00
+date: 2024-09-16T07:07:07+01:00
 lastmod: 2024-09-16T16:04:48+02:00
 draft: false
 menu:
   docs:
     parent: ""
     identifier: "architectural-style-6a1a6be4373e933280d78ea53de6158e"
-weight: 1
+weight: 3
 toc: true
 seo:
   title: "API Architectural Styles" # custom title (optional)

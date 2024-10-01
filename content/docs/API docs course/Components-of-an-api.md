@@ -9,7 +9,7 @@ menu:
   docs:
     parent: ""
     identifier: "api-components-6a1a6be4373e933280d78ea53de6158e"
-weight: 1
+weight: 8
 toc: true
 seo:
   title: "Key Components of an API" 

@@ -8,8 +8,8 @@ draft: false
 menu:
   docs:
     parent: ""
-    identifier: "API specification"
-weight: 3
+    identifer: "API specification"
+weight: 4
 toc: true
 seo:
   title: "API Specification" # custom title (optional)

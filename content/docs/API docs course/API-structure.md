@@ -9,7 +9,7 @@ menu:
   docs:
     parent: ""
     identifier: "structure-6a1a6be4373e933280d78ea53de6158e"
-weight: 1
+weight: 6
 toc: true
 seo:
   title: "Structuring an API Document" # custom title (optional)

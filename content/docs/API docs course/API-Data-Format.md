@@ -9,7 +9,7 @@ menu:
   docs:
     parent: ""
     identifier: "api-data-format-6a1a6be4373e933280d78ea53de6158e"
-weight: 7
+weight: 5
 toc: true
 seo:
   title: "API Data Formats" # custom title (optional)

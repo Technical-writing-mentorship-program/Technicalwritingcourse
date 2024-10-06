@@ -44,6 +44,10 @@ It's packed with useful stuff and totally **FREE for everyone!**
 
 - [Prince Onyeanuna](https://www.linkedin.com/in/prince-onyeanuna-607352246/): Prince is a technical writer and DevOps engineer who believes in the power of showing up. He is passionate about helping others learn and grow through writing and coding.
 
+- [Etugbo Judith](https://www.linkedin.com/in/etugbo-judith-984545236): A technical content writer.
+
+- [Winifred John](https://www.linkedin.com/in/john-chidera-584731205): Technical Writer and Frontend Developer.
+
 
 {{< callout context="tip" title="Why free?" icon="rocket" >}}
 We believe everyone deserves to learn tech writing, no matter what! So grab this open-source course and unlock your future in tech writing.

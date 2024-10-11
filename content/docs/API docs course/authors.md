@@ -2,13 +2,13 @@
 title: "Authors"
 description: "This is an API Documentation  course for beginners"
 summary: ""
-date: 2024-01-15T07:07:07+01:00
-lastmod: 2023-09-07T16:04:48+02:00
+date: 2024-09-15T07:07:07+01:00
+lastmod: 2024-09-07T16:04:48+02:00
 draft: false
 menu:
   docs:
     parent: ""
-    identifier: "example-6a1a6be4373e933280d78ea53de6158e"
+    identifier: "authorssexample-6a1a6be4373e933280d78ea53de6158e"
 weight: 1
 toc: true
 seo:
@@ -41,6 +41,12 @@ It's packed with useful stuff and totally **FREE for everyone!**
 - [Wisdom Nwokocha:](https://www.linkedin.com/in/joklinztech) a seasoned software engineer and a technical writer
 
 ## Meet the Authors:
+
+- [Prince Onyeanuna](https://www.linkedin.com/in/prince-onyeanuna-607352246/): Prince is a technical writer and DevOps engineer who believes in the power of showing up. He is passionate about helping others learn and grow through writing and coding.
+
+- [Etugbo Judith](https://www.linkedin.com/in/etugbo-judith-984545236): A technical content writer.
+
+- [Winifred John](https://www.linkedin.com/in/john-chidera-584731205): Technical Writer and Frontend Developer.
 
 
 {{< callout context="tip" title="Why free?" icon="rocket" >}}

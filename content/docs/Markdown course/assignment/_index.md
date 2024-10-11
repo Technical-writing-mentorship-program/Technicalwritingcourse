@@ -1,6 +1,6 @@
 ---
 title: "Assignments"
-description: "This is a Markdown course for beginners"
+description: "This is a Markdown Assignment for beginners"
 summary: ""
 lastmod: 2024-05-1T16:06:50+02:00
 draft: false

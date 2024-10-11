@@ -330,7 +330,7 @@ There are different style guides for creating consistent styles in markdown. Eac
 There are various tools used for writing and editing markdown files. Below is a list of the top 5 markdown editing tools:
 
 1. **Dillinger:**
-   ![A screenshot of Dillinger markdown editor](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/qf6mso4f97kxny8o7wmg.png)
+   ![A screenshot of Dillinger markdown editor](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/sl457pcx2l8tftbjz9oc.png)
 
 [Dillinger](https://dillinger.io/) is the first on the list as a user-friendly markdown editor that allow users to create markdown files and also see the live preview of the markdown content on the right side of the screen.
 
@@ -345,7 +345,7 @@ There are various tools used for writing and editing markdown files. Below is a 
 Dillinger is a free web based markdown editor.
 
 2. **Typora:**
-   ![A screenshot of Typora features section](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/yzug47rewgvs2g79ngyy.png)
+   ![A screenshot of Typora features section](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/as2krvgr7vtwc5s09ix1.png)
 
 [Typora](https://typora.io/) is a markdown editor for windows, MacOS and Linux systems. It is created to enable users to focus on writing and eliminate any distractions. There is no preview window, mode switcher, etc. Your markdown content is immediately converted to plain text as you type along. This allows you to focus mainly on the content itself.
 
@@ -360,7 +360,7 @@ Dillinger is a free web based markdown editor.
 Typora is not free to use. Users have access to a free 15 days trial after which they will have to pay a one time fee of $14.99 for a lifetime access.
 
 3. **StackEdit:**
-   ![A screenshot of StackEdit home page](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/lauayhrrl3lga9jjn52k.png)
+   ![A screenshot of StackEdit home page](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/fosz8aqq6f7kzir2vxzc.png)
 
 [StackEdit](https://stackedit.io/) is an inbrowser Markdown editor. It allows you to visualize and preview the final rendering of your files as you write.
 
@@ -376,7 +376,7 @@ Typora is not free to use. Users have access to a free 15 days trial after which
 StackEdit is free to use.
 
 4. **Ghostwriter:**
-   ![A screenshot of Ghostwriter markdown editor](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/d088egqjl93c32j2so84.png)
+   ![A screenshot of Ghostwriter markdown editor](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/36ecnse8tv060l5gmezx.png)
 
 [Ghostwriter](https://ghostwriter.kde.org/) is a markdown editor for both Windows and Linux systems. It allows you to create markdown files without distractions. You can choose to see the live preview as you write along or focus mainly on the writing canvas.
 
@@ -384,7 +384,7 @@ StackEdit is free to use.
 Ghostwriter is free and open source.
 
 5. **Mou:**
-   ![A screenshot of how to download Mou markdown editor.](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/v9zy5zjr95r8w8iwiong.png)
+   ![A screenshot of how to download Mou markdown editor.](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/aunykt6b7fnd5nvdz012.png)
 
 [Mou](https://apps.apple.com/na/app/mou-markdown-editor/id1308265497?mt=12) is a markdown editor for MacOS operating systems. It has a live preview feature and allow users to choose custom themes for their editors.
 

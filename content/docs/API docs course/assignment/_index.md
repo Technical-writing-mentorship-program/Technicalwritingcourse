@@ -1,8 +1,8 @@
 ---
-title: "AsciiDoc  Course"
-description: "This is an AsciiDoc course for beginners"
+title: "Assignments"
+description: "This is an API Documentation Assignment for beginners"
 summary: ""
-lastmod: 2024-07-1T16:06:50+02:00
+lastmod: 2024-05-1T16:06:50+02:00
 draft: false
 menu:
   docs:
@@ -11,8 +11,8 @@ menu:
 weight: 800
 toc: true
 seo:
-  title: "AsciiDoc Course" # custom title (optional)
-  description: "This is an AsciiDoc course for beginners" # custom description (recommended)
+  title: "Markdown Course" # custom title (optional)
+  description: "This is a Markdown course for beginners" # custom description (recommended)
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---

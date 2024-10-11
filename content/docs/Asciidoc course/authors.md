@@ -44,6 +44,9 @@ It's packed with useful stuff and totally **FREE for everyone!**
 
 - [Opeyemi Odejimi:](https://www.linkedin.com/in/opeyemiodejimi) a cloud/devops engineer and a technical writer
 
+- [Crowei Gibson-Dick:](https://www.linkedin.com/in/croweigibson/) a data scientist and a technical writer
+
+- [Rosita Nkonye Nwosu:](https://www.linkedin.com/in/rosita-nwosu-04a8ba157/) a technical writer and product designer
 
 {{< callout context="tip" title="Why free?" icon="rocket" >}}
 We believe everyone deserves to learn tech writing, no matter what! So grab this open-source course and unlock your future in tech writing.

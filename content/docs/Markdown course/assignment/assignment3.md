@@ -20,8 +20,6 @@ seo:
   noindex: false # false (default) or true
 ---
 
-# Code Tutorial
-
 **Objective:** Write a Markdown page for a coding tutorial that explains a programming concept or demonstrates a coding example, including step-by-step instructions.
 
 - **Concept Overview**: Describe the programming concept or technique.

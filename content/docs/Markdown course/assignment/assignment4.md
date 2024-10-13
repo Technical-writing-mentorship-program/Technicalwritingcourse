@@ -20,8 +20,6 @@ seo:
   noindex: false # false (default) or true
 ---
 
-# Design a Conference Schedule
-
 **Objective:** Create a Markdown page outlining a conference schedule with multiple sessions, speakers, and breaks.
 
 - **Day 1 Schedule**: Include sessions, speakers, and timings for the first day.

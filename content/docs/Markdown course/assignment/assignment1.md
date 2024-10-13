@@ -20,8 +20,6 @@ seo:
   noindex: false # false (default) or true
 ---
 
-# Portfolio
-
 **Objective:** Create a Markdown page to showcase your portfolio, including the following sections:
 
 - **About Me**: A brief introduction about yourself.

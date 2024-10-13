@@ -20,8 +20,6 @@ seo:
   noindex: false # false (default) or true
 ---
 
-# Create a Recipe Book
-
 **Objective:** Write a Markdown page for a recipe book that includes different categories such as appetizers, main courses, and desserts. Each recipe should include ingredients, instructions, and optional images.
 
 - **Appetizers**: List and describe your favorite appetizers.

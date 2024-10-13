@@ -19,7 +19,6 @@ seo:
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---
-# Build a Markdown FAQ Page
 
 **Objective:**
 Develop a Markdown page for a Frequently Asked Questions (FAQ) section that provides answers to common questions about a product, service, or topic.

@@ -19,3 +19,61 @@ seo:
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---
+
+**Objective:** Create a Markdown page to showcase your portfolio, including the following sections:
+
+- **About Me**: A brief introduction about yourself.
+- **Projects**: A list of projects you have worked on with descriptions.
+- **Skills**: A section highlighting your key skills.
+- **Contact Information**: Details for getting in touch with you.
+- **Images**: Showcase yourself with a professional image. Include images of your projects if possible.
+
+1. **Instructions**:
+
+    a. **Editor**: Use Visual Studio Code (VSCode) to write and preview your Markdown.
+
+    b. **Testing Locally**: Make sure your Markdown file is rendered correctly by previewing it in VSCode. Test locally before submission.
+  
+    c. **Folder Structure**: Create a dedicated folder for this project. Name the folder `markdown-portfolio`, and inside it, create a `README.md` file, where all your portfolio content will go.
+
+2. **Folder Structure Example**:
+
+```bash
+    markdown-portfolio/
+    │
+    └───README.md   # Your Markdown portfolio page
+    └───images/     # Folder for images you want to showcase in the portfolio
+        └───profile.jpg   # Example image for About Me
+        └───project1.png  # Example image for a project
+```
+
+## Project Example Template
+### Portfolio
+
+#### About Me
+
+Hi, I'm Jane Doe, a web developer specializing in front-end technologies and UX/UI design.
+
+![paper image](https://paper-attachments.dropboxusercontent.com/s_59B55ADBAB7D7A55670C584A21EC6F04D6D50E31AA6DC372D704E4BE635F2ECA_1726483336662_file.jpeg)
+
+#### Projects
+
+##### Portfolio Website
+
+- **Description**: A personal portfolio website showcasing my projects and skills.
+- **Technologies**: HTML, CSS, JavaScript
+
+##### E-commerce Store
+
+- **Description**: An online store with features like product listings, shopping cart, and checkout.
+- **Technologies**: React, Node.js
+
+##### Skills
+
+- **HTML/CSS**: Expert in creating responsive web pages.
+- **JavaScript**: Proficient in front-end frameworks like React.
+
+#### Contact Information
+
+- Email: jane.doe@example.com
+- LinkedIn: Jane Doe

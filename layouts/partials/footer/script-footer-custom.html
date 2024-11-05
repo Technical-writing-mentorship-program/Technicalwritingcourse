@@ -1,13 +1,25 @@
-{{/* Put your custom <script></script> tags here */}}
+<!-- Add this to your HTML file -->
+<!-- Add this to your HTML file -->
+<style>
+  .custom-chatbot {
+    height: 400px; /* Adjust the height as needed */
+    max-height: 400px; /* Ensure the height does not exceed this value */
+  }
+</style>
 
-{{/* EXAMPLE - only load script for production
-{{ if eq (hugo.Environment) "production" -}}
-  {{ partial "footer/esbuild" (dict "src" "js/instantpage.js" "load" "async" "transpile" false) -}}
-{{ end -}}
-*/}}
-
-{{/* EXAMPLE - only load script for a page type e.g. contact or gallery
-{{ if eq .Type "gallery" -}}
-  {{ partial "footer/esbuild" (dict "src" "js/gallery.js" "load" "async" "transpile" false) -}}
-{{ end -}}
-*/}}
+<script src="https://sf-cdn.coze.com/obj/unpkg-va/flow-platform/chat-app-sdk/1.0.0-beta.4/libs/oversea/index.js"></script>
+<script>
+  try {
+    new CozeWebSDK.WebChatClient({
+      config: {
+        bot_id: '7433496463411642374',
+      },
+      componentProps: {
+        title: 'Coze',
+        className: 'custom-chatbot', // Apply the custom CSS class
+      },
+    });
+  } catch (error) {
+    console.error('Error initializing CozeWebSDK.WebChatClient:', error);
+  }
+</script>

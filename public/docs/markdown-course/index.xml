@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Introduction to Markdown on TWMP</title>
+    <link>//localhost:1313/docs/markdown-course/</link>
+    <description>Recent content in Introduction to Markdown on TWMP</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Copyright (c) 2023 TWMP</copyright>
+    <lastBuildDate>Thu, 07 Sep 2023 16:04:48 +0200</lastBuildDate>
+    <atom:link href="//localhost:1313/docs/markdown-course/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Authors</title>
+      <link>//localhost:1313/docs/markdown-course/authors/</link>
+      <pubDate>Mon, 15 Jan 2024 07:07:07 +0100</pubDate>
+      <guid>//localhost:1313/docs/markdown-course/authors/</guid>
+      <description>&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5378239849378753&#34;&#xA;     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;&#xA;&lt;p&gt;&lt;ins class=&#34;adsbygoogle&#34;&#xA;style=&#34;display:block; text-align:center;&#34;&#xA;data-ad-layout=&#34;in-article&#34;&#xA;data-ad-format=&#34;fluid&#34;&#xA;data-ad-client=&#34;ca-pub-5378239849378753&#34;&#xA;data-ad-slot=&#34;8846640451&#34;&gt;&lt;/ins&gt;&lt;/p&gt;&#xA;&lt;script&gt;&#xA;     (adsbygoogle = window.adsbygoogle || []).push({});&#xA;&lt;/script&gt;&#xA;&lt;p&gt;These fantastic folks volunteered their time and skills to create this Open Source Markdown Course for Beginners.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

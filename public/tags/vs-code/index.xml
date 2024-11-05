@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VS Code on TWMP</title>
+    <link>//localhost:1313/tags/vs-code/</link>
+    <description>Recent content in VS Code on TWMP</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Copyright (c) 2023 TWMP</copyright>
+    <lastBuildDate>Mon, 25 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/vs-code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How To Use Visual Studio Code For Beginners</title>
+      <link>//localhost:1313/blog/how-to-use-visual-studio-code-for-beginners/</link>
+      <pubDate>Sat, 23 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/blog/how-to-use-visual-studio-code-for-beginners/</guid>
+      <description>&lt;img src = &#34;https://github.com/Nickyshe/TWMP-Image/blob/main/1561145011_visualstudio2_story.jpg?raw=true&#34; alt=&#34;Visual Studio Code Interface&#34;&gt;&#xA;&lt;p&gt;Photo Credit: &lt;a href=&#34;https://www.neowin.net/news/microsoft-releases-developer-news-extension-for-visual-studio-after-complaints-from-users/&#34;&gt;Neowin&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Are you enthusiastic about exploring the Visual Studio code editor as a noob?. If yes, this article is for you.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Semrush on TWMP</title>
+    <link>//localhost:1313/tags/semrush/</link>
+    <description>Recent content in Semrush on TWMP</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Copyright (c) 2023 TWMP</copyright>
+    <lastBuildDate>Thu, 07 Mar 2024 20:29:00 +0200</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/semrush/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Master the Basics of SEO Using Semrush</title>
+      <link>//localhost:1313/blog/master-the-basics-of-seo-using-semrush/</link>
+      <pubDate>Thu, 07 Mar 2024 20:29:00 +0200</pubDate>
+      <guid>//localhost:1313/blog/master-the-basics-of-seo-using-semrush/</guid>
+      <description>&lt;img src=&#34;https://assets-global.website-files.com/5e052922ed2a27237b60d8de/6561430feaa9fd397efc4917_How%20Does%20Pay-Per-Click%20Work_-p-800.jpg&#34;&gt;&#xA;&lt;p&gt;Search engine optimization(SEO) focuses on optimizing website content for better visibility on the search engine result page (SERP).&lt;/p&gt;&#xA;&lt;p&gt;The goal is to drive organic traffic/results that are not paid i.e., the traffic is not gotten through Google ads.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

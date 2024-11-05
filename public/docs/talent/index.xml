@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Trusted Talent on TWMP</title>
-    <link>/docs/talent/</link>
+    <link>//localhost:1313/docs/talent/</link>
     <description>Recent content in Trusted Talent on TWMP</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <copyright>Copyright (c) 2023 TWMP</copyright>
     <lastBuildDate>Thu, 07 Sep 2023 16:04:48 +0200</lastBuildDate>
-    <atom:link href="/docs/talent/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/docs/talent/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Technical Writing Talent</title>
-      <link>/docs/talent/technical-writing-talent/</link>
+      <link>//localhost:1313/docs/talent/technical-writing-talent/</link>
       <pubDate>Mon, 07 Aug 2023 16:04:48 +0200</pubDate>
-      <guid>/docs/talent/technical-writing-talent/</guid>
-      <description>At our disposal, we have a talented pool of trusted writers who are poised to create world-class content tailored to your needs.</description>
+      <guid>//localhost:1313/docs/talent/technical-writing-talent/</guid>
+      <description>&lt;p&gt;At our disposal, we have a talented pool of trusted writers who are poised to create world-class content tailored to your needs.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

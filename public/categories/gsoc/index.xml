@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GSoC on TWMP</title>
+    <link>//localhost:1313/categories/gsoc/</link>
+    <description>Recent content in GSoC on TWMP</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Copyright (c) 2023 TWMP</copyright>
+    <lastBuildDate>Thu, 07 Sep 2023 16:27:22 +0200</lastBuildDate>
+    <atom:link href="//localhost:1313/categories/gsoc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GSoC for Beginners: A Guide to Google Summer of Code</title>
+      <link>//localhost:1313/blog/gsoc-for-beginners-a-guide-to-google-summer-of-code/</link>
+      <pubDate>Mon, 18 Mar 2024 16:27:22 +0200</pubDate>
+      <guid>//localhost:1313/blog/gsoc-for-beginners-a-guide-to-google-summer-of-code/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;Header designed image&#34; src=&#34;https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2a5jikx5anxedsq79vac.PNG&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://summerofcode.withgoogle.com/&#34;&gt;Google Summer of Code (GSoC)&lt;/a&gt; is an annual program sponsored by Google that helps introduce students and open-source beginners to software development.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

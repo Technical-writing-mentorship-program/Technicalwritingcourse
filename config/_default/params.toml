@@ -10,8 +10,9 @@ images = ["cover.png"]
   colorModeToggler = true # true (default) or false (this setting is only relevant when colorMode = auto)
 
   # Navbar
-  navbarSticky = true # true (default) or false
+  navbarSticky = false
   containerBreakpoint = "lg" # "", "sm", "md", "lg" (default), "xl", "xxl", or "fluid"
+
 
   ## Button
   navBarButton = true # false (default) or true
@@ -43,6 +44,7 @@ images = ["cover.png"]
   breadcrumbTrail = false # false (default) or true
   headlineHash = true # true (default) or false
   scrollSpy = true # true (default) or false
+  
 
   # Multilingual
   multilingualMode = false # false (default) or true

@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blessing Ene Anyebe on TWMP</title>
-    <link>/contributors/blessing-ene-anyebe/</link>
+    <link>//localhost:1313/contributors/blessing-ene-anyebe/</link>
     <description>Recent content in Blessing Ene Anyebe on TWMP</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <copyright>Copyright (c) 2023 TWMP</copyright>
     <lastBuildDate>Mon, 12 Feb 2024 10:03:22 +0200</lastBuildDate>
-    <atom:link href="/contributors/blessing-ene-anyebe/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/contributors/blessing-ene-anyebe/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to crack Google Season of Docs 2024</title>
-      <link>/blog/how-to-crack-google-season-of-docs-2024/</link>
+      <link>//localhost:1313/blog/how-to-crack-google-season-of-docs-2024/</link>
       <pubDate>Mon, 12 Feb 2024 10:03:22 +0200</pubDate>
-      <guid>/blog/how-to-crack-google-season-of-docs-2024/</guid>
-      <description>(Tips from GSOD’s past Interns) The Google Season of Docs is one of the most influential open source platforms for technical documentation beneficial to organizations and technical writers.</description>
+      <guid>//localhost:1313/blog/how-to-crack-google-season-of-docs-2024/</guid>
+      <description>&lt;h3 id=&#34;tips-from-gsods-past-interns&#34;&gt;(Tips from GSOD’s past Interns)&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img alt=&#34;Header designed image&#34; src=&#34;https://dev-to-uploads.s3.amazonaws.com/uploads/articles/kds36zdhckrv89i4xsaw.png&#34;&gt;&lt;/p&gt;&#xA;&#xA;&#xA;    &#xA;    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/iL9RCN3SeJk?autoplay=1&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=1&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;Google Season of Docs call with Wisdom Nwokocha&#34;&#xA;      &gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;The &lt;a href=&#34;https://developers.google.com/season-of-docs&#34;&gt;Google Season of Docs&lt;/a&gt; is one of the most influential open source platforms for technical documentation beneficial to organizations and technical writers. It supports open source projects to improve their documentation and allows professional technical writers to gain experience in open source.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

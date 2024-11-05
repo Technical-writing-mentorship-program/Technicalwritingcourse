@@ -2,8 +2,8 @@
 title: "How To Use Visual Studio Code For Beginners"
 description: "This guide provides information and steps on how to use visual studio code for beginners, its features and navigating through it"
 summary: ""
-date: 2024-03-23T20:29:00+02:00
-lastmod: 2024-23-25T21:50:00+02:00
+date: 2024-03-23
+lastmod: 2024-03-25
 draft: false
 weight: 50
 categories: [coding, VS Code]
@@ -20,7 +20,7 @@ seo:
 
 
 
-<img src = "https://github.com/Nickyshe/TWMP-Image/blob/main/1561145011_visualstudio2_story.jpg?raw=true">
+<img src = "https://github.com/Nickyshe/TWMP-Image/blob/main/1561145011_visualstudio2_story.jpg?raw=true" alt="Visual Studio Code Interface">
 
 Photo Credit: [Neowin](https://www.neowin.net/news/microsoft-releases-developer-news-extension-for-visual-studio-after-complaints-from-users/)
 
@@ -52,11 +52,9 @@ Step 1: Go to the [Visual Studio code website](https://code.visualstudio.com/dow
 
 Step 2: Click on your preferred operating system(OS) and download. In this guide, I will be using Windows OS.
 
-
 <img src ="https://raw.githubusercontent.com/Nickyshe/TWMP-Image/359f1fcc0c4a8daaac05ad183f1704f123a17286/Screenshot%20(453).png">
 
 Step 3: Locate the downloaded file in your folder
-
 
 <img src ="https://github.com/Nickyshe/TWMP-Image/blob/main/Screenshot%20(455).png?raw=true">
 

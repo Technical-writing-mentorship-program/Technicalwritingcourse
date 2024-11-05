@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Guide on TWMP</title>
-    <link>/tags/guide/</link>
+    <link>//localhost:1313/tags/guide/</link>
     <description>Recent content in Guide on TWMP</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <copyright>Copyright (c) 2023 TWMP</copyright>
     <lastBuildDate>Thu, 07 Sep 2023 16:27:22 +0200</lastBuildDate>
-    <atom:link href="/tags/guide/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/guide/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introduction to Antora for beginners</title>
-      <link>/blog/introduction-to-antora-for-beginners/</link>
+      <link>//localhost:1313/blog/introduction-to-antora-for-beginners/</link>
       <pubDate>Thu, 29 Feb 2024 16:27:22 +0200</pubDate>
-      <guid>/blog/introduction-to-antora-for-beginners/</guid>
-      <description>Antora is a static site generator that transforms AsciiDoc content into documentation sites.&#xA;AsciiDoc is a lightweight markup language for creating notes, articles, books, and web pages.</description>
+      <guid>//localhost:1313/blog/introduction-to-antora-for-beginners/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://paper-attachments.dropboxusercontent.com/s_040DBEFCD010CD9D72D8F68E5F48F297CEBF454A18B2565E8A617E8894CB0609_1708794318119_Screenshot+2024-02-24+at+18.05.04.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Antora is a static site generator that transforms AsciiDoc content into documentation sites.&lt;/p&gt;&#xA;&lt;p&gt;AsciiDoc is a lightweight markup language for creating notes, articles, books, and web pages. Its simplicity allows complex documents using plain text files.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

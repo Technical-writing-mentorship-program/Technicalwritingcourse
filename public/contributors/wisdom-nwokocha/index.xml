@@ -2,33 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wisdom Nwokocha on TWMP</title>
-    <link>/contributors/wisdom-nwokocha/</link>
+    <link>//localhost:1313/contributors/wisdom-nwokocha/</link>
     <description>Recent content in Wisdom Nwokocha on TWMP</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <copyright>Copyright (c) 2023 TWMP</copyright>
     <lastBuildDate>Thu, 07 Sep 2023 16:27:22 +0200</lastBuildDate>
-    <atom:link href="/contributors/wisdom-nwokocha/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/contributors/wisdom-nwokocha/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introduction to Antora for beginners</title>
-      <link>/blog/introduction-to-antora-for-beginners/</link>
+      <link>//localhost:1313/blog/introduction-to-antora-for-beginners/</link>
       <pubDate>Thu, 29 Feb 2024 16:27:22 +0200</pubDate>
-      <guid>/blog/introduction-to-antora-for-beginners/</guid>
-      <description>Antora is a static site generator that transforms AsciiDoc content into documentation sites.&#xA;AsciiDoc is a lightweight markup language for creating notes, articles, books, and web pages.</description>
+      <guid>//localhost:1313/blog/introduction-to-antora-for-beginners/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://paper-attachments.dropboxusercontent.com/s_040DBEFCD010CD9D72D8F68E5F48F297CEBF454A18B2565E8A617E8894CB0609_1708794318119_Screenshot+2024-02-24+at+18.05.04.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Antora is a static site generator that transforms AsciiDoc content into documentation sites.&lt;/p&gt;&#xA;&lt;p&gt;AsciiDoc is a lightweight markup language for creating notes, articles, books, and web pages. Its simplicity allows complex documents using plain text files.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to Use a Google Writing Style Guide to Write Performing Articles</title>
-      <link>/blog/how-to-use-a-google-writing-style-guide-to-write-performing-articles/</link>
+      <link>//localhost:1313/blog/how-to-use-a-google-writing-style-guide-to-write-performing-articles/</link>
       <pubDate>Tue, 20 Feb 2024 18:27:22 +0200</pubDate>
-      <guid>/blog/how-to-use-a-google-writing-style-guide-to-write-performing-articles/</guid>
-      <description>Writing compelling and Google-friendly content is essential. The Google developer documentation style guide provides invaluable insights and guidelines to help you achieve this goal.</description>
+      <guid>//localhost:1313/blog/how-to-use-a-google-writing-style-guide-to-write-performing-articles/</guid>
+      <description>&lt;img src=&#34;https://dev-to-uploads.s3.amazonaws.com/uploads/articles/zkar121kx4wnxf995fng.png&#34; alt=&#34;Technical writing steps&#34; width=&#34;100%&#34;&gt;&#xA;&lt;p&gt;Writing compelling and Google-friendly content is essential. The Google developer documentation style guide provides invaluable insights and guidelines to help you achieve this goal.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Glasp writing contest: How Glasp Helped You Learn Faster and Better</title>
-      <link>/blog/glasp-writing-contest-how-glasp-helped-you-learn-faster-and-better/</link>
+      <link>//localhost:1313/blog/glasp-writing-contest-how-glasp-helped-you-learn-faster-and-better/</link>
       <pubDate>Tue, 20 Feb 2024 16:27:22 +0200</pubDate>
-      <guid>/blog/glasp-writing-contest-how-glasp-helped-you-learn-faster-and-better/</guid>
-      <description>Do you love to explore the depths of the internet and share your insights with the world?&#xA;Are you a master at extracting valuable information from websites and distilling it into concise summaries?</description>
+      <guid>//localhost:1313/blog/glasp-writing-contest-how-glasp-helped-you-learn-faster-and-better/</guid>
+      <description>&lt;figure&gt;&#xA;    &lt;img src=&#34;https://glasp.co/images/icons/feature_highlight.jpeg&#34; alt=&#34;Glasp.co image&#34;&gt;&#xA;    &lt;figcaption&gt;&lt;/figcaption&gt;&#xA;  &lt;/figure&gt;&#xA;&lt;p&gt;Do you love to explore the depths of the internet and share your insights with the world?&lt;/p&gt;&#xA;&lt;p&gt;Are you a master at extracting valuable information from websites and distilling it into concise summaries?&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

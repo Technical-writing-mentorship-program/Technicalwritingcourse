@@ -1,0 +1,8 @@
+<!-- layouts/shortcodes/tab.html -->
+<div class="tab">
+    <input type="radio" id="{{ .Get "id" }}" name="tab-group">
+    <label for="{{ .Get "id" }}">{{ .Get "label" }}</label>
+    <div class="content">
+      {{ .Inner }}
+    </div>
+  </div>

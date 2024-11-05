@@ -2,82 +2,82 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Welcome to Technical writing mentorship program on TWMP</title>
-    <link>/</link>
+    <link>//localhost:1313/</link>
     <description>Recent content in Welcome to Technical writing mentorship program on TWMP</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <copyright>Copyright (c) 2023 TWMP</copyright>
     <lastBuildDate>Sat, 07 Sep 2024 16:04:48 +0200</lastBuildDate>
-    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Authors</title>
-      <link>/docs/technicalwritingcourse/authors/</link>
+      <link>//localhost:1313/docs/markdown-course/authors/</link>
       <pubDate>Mon, 15 Jan 2024 07:07:07 +0100</pubDate>
-      <guid>/docs/technicalwritingcourse/authors/</guid>
-      <description>These fantastic folks volunteered their time and skills to create this Open Source Technical Writing Course for Beginners.&#xA;It&amp;rsquo;s packed with useful stuff and totally FREE for everyone!</description>
+      <guid>//localhost:1313/docs/markdown-course/authors/</guid>
+      <description>&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5378239849378753&#34;&#xA;     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;&#xA;&lt;p&gt;&lt;ins class=&#34;adsbygoogle&#34;&#xA;style=&#34;display:block; text-align:center;&#34;&#xA;data-ad-layout=&#34;in-article&#34;&#xA;data-ad-format=&#34;fluid&#34;&#xA;data-ad-client=&#34;ca-pub-5378239849378753&#34;&#xA;data-ad-slot=&#34;8846640451&#34;&gt;&lt;/ins&gt;&lt;/p&gt;&#xA;&lt;script&gt;&#xA;     (adsbygoogle = window.adsbygoogle || []).push({});&#xA;&lt;/script&gt;&#xA;&lt;p&gt;These fantastic folks volunteered their time and skills to create this Open Source Markdown Course for Beginners.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Authors</title>
+      <link>//localhost:1313/docs/technicalwritingcourse/authors/</link>
+      <pubDate>Mon, 15 Jan 2024 07:07:07 +0100</pubDate>
+      <guid>//localhost:1313/docs/technicalwritingcourse/authors/</guid>
+      <description>&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5378239849378753&#34;&#xA;     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;&#xA;&lt;p&gt;&lt;ins class=&#34;adsbygoogle&#34;&#xA;style=&#34;display:block; text-align:center;&#34;&#xA;data-ad-layout=&#34;in-article&#34;&#xA;data-ad-format=&#34;fluid&#34;&#xA;data-ad-client=&#34;ca-pub-5378239849378753&#34;&#xA;data-ad-slot=&#34;8846640451&#34;&gt;&lt;/ins&gt;&lt;/p&gt;&#xA;&lt;script&gt;&#xA;     (adsbygoogle = window.adsbygoogle || []).push({});&#xA;&lt;/script&gt;&#xA;&lt;p&gt;These fantastic folks volunteered their time and skills to create this Open Source Technical Writing Course for Beginners.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Intro to technical writing</title>
-      <link>/docs/technicalwritingcourse/intro-to-technical-writing/</link>
+      <link>//localhost:1313/docs/technicalwritingcourse/intro-to-technical-writing/</link>
       <pubDate>Wed, 15 Nov 2023 07:07:07 +0100</pubDate>
-      <guid>/docs/technicalwritingcourse/intro-to-technical-writing/</guid>
+      <guid>//localhost:1313/docs/technicalwritingcourse/intro-to-technical-writing/</guid>
       <description>This detailed guide covers the fundamentals of technical articles, effective technical writing strategies, various types of technical documentation, identifying your target audience, and the essential steps in the technical writing process.</description>
     </item>
     <item>
       <title>Managing Technical Writing Projects</title>
-      <link>/docs/technicalwritingcourse/managing-technical-writing-projects/</link>
+      <link>//localhost:1313/docs/technicalwritingcourse/managing-technical-writing-projects/</link>
       <pubDate>Fri, 15 Sep 2023 07:07:07 +0100</pubDate>
-      <guid>/docs/technicalwritingcourse/managing-technical-writing-projects/</guid>
+      <guid>//localhost:1313/docs/technicalwritingcourse/managing-technical-writing-projects/</guid>
       <description>Build a solid foundation in project management practices for effective technical documentation</description>
     </item>
     <item>
+      <title>What is Content Marketing?</title>
+      <link>//localhost:1313/blog/what-is-content-marketing/</link>
+      <pubDate>Wed, 01 May 2024 10:10:26 +0200</pubDate>
+      <guid>//localhost:1313/blog/what-is-content-marketing/</guid>
+      <description>&lt;h2 id=&#34;content-marketing&#34;&gt;Content Marketing&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img alt=&#34;content marketing made easy&#34; src=&#34;https://dev-to-uploads.s3.amazonaws.com/uploads/articles/mqiiodip4qcqr2ejlhi3.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Content marketing is a sales strategy that shares unique, compelling content to attract and engage a target audience.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How To Use Visual Studio Code For Beginners</title>
+      <link>//localhost:1313/blog/how-to-use-visual-studio-code-for-beginners/</link>
+      <pubDate>Sat, 23 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/blog/how-to-use-visual-studio-code-for-beginners/</guid>
+      <description>&lt;img src = &#34;https://github.com/Nickyshe/TWMP-Image/blob/main/1561145011_visualstudio2_story.jpg?raw=true&#34; alt=&#34;Visual Studio Code Interface&#34;&gt;&#xA;&lt;p&gt;Photo Credit: &lt;a href=&#34;https://www.neowin.net/news/microsoft-releases-developer-news-extension-for-visual-studio-after-complaints-from-users/&#34;&gt;Neowin&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Are you enthusiastic about exploring the Visual Studio code editor as a noob?. If yes, this article is for you.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>GSoC for Beginners: A Guide to Google Summer of Code</title>
+      <link>//localhost:1313/blog/gsoc-for-beginners-a-guide-to-google-summer-of-code/</link>
+      <pubDate>Mon, 18 Mar 2024 16:27:22 +0200</pubDate>
+      <guid>//localhost:1313/blog/gsoc-for-beginners-a-guide-to-google-summer-of-code/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;Header designed image&#34; src=&#34;https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2a5jikx5anxedsq79vac.PNG&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://summerofcode.withgoogle.com/&#34;&gt;Google Summer of Code (GSoC)&lt;/a&gt; is an annual program sponsored by Google that helps introduce students and open-source beginners to software development.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Master the Basics of SEO Using Semrush</title>
+      <link>//localhost:1313/blog/master-the-basics-of-seo-using-semrush/</link>
+      <pubDate>Thu, 07 Mar 2024 20:29:00 +0200</pubDate>
+      <guid>//localhost:1313/blog/master-the-basics-of-seo-using-semrush/</guid>
+      <description>&lt;img src=&#34;https://assets-global.website-files.com/5e052922ed2a27237b60d8de/6561430feaa9fd397efc4917_How%20Does%20Pay-Per-Click%20Work_-p-800.jpg&#34;&gt;&#xA;&lt;p&gt;Search engine optimization(SEO) focuses on optimizing website content for better visibility on the search engine result page (SERP).&lt;/p&gt;&#xA;&lt;p&gt;The goal is to drive organic traffic/results that are not paid i.e., the traffic is not gotten through Google ads.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Introduction to Antora for beginners</title>
-      <link>/blog/introduction-to-antora-for-beginners/</link>
+      <link>//localhost:1313/blog/introduction-to-antora-for-beginners/</link>
       <pubDate>Thu, 29 Feb 2024 16:27:22 +0200</pubDate>
-      <guid>/blog/introduction-to-antora-for-beginners/</guid>
-      <description>Antora is a static site generator that transforms AsciiDoc content into documentation sites.&#xA;AsciiDoc is a lightweight markup language for creating notes, articles, books, and web pages.</description>
+      <guid>//localhost:1313/blog/introduction-to-antora-for-beginners/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://paper-attachments.dropboxusercontent.com/s_040DBEFCD010CD9D72D8F68E5F48F297CEBF454A18B2565E8A617E8894CB0609_1708794318119_Screenshot+2024-02-24+at+18.05.04.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Antora is a static site generator that transforms AsciiDoc content into documentation sites.&lt;/p&gt;&#xA;&lt;p&gt;AsciiDoc is a lightweight markup language for creating notes, articles, books, and web pages. Its simplicity allows complex documents using plain text files.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to Deploy a Dockerized Application to Amazon EKS Cluster</title>
-      <link>/blog/how-to-deploy-a-dockerized-application-to-amazon-eks-cluster/</link>
+      <link>//localhost:1313/blog/how-to-deploy-a-dockerized-application-to-amazon-eks-cluster/</link>
       <pubDate>Wed, 28 Feb 2024 16:27:22 +0200</pubDate>
-      <guid>/blog/how-to-deploy-a-dockerized-application-to-amazon-eks-cluster/</guid>
-      <description>Containers are a way to package, deploy, and manage applications. Docker is a popular open-source containerization platform that allows you to package your application, its OS libraries, and dependencies together into a container image.</description>
-    </item>
-    <item>
-      <title>How to Use a Google Writing Style Guide to Write Performing Articles</title>
-      <link>/blog/how-to-use-a-google-writing-style-guide-to-write-performing-articles/</link>
-      <pubDate>Tue, 20 Feb 2024 18:27:22 +0200</pubDate>
-      <guid>/blog/how-to-use-a-google-writing-style-guide-to-write-performing-articles/</guid>
-      <description>Writing compelling and Google-friendly content is essential. The Google developer documentation style guide provides invaluable insights and guidelines to help you achieve this goal.</description>
-    </item>
-    <item>
-      <title>Glasp writing contest: How Glasp Helped You Learn Faster and Better</title>
-      <link>/blog/glasp-writing-contest-how-glasp-helped-you-learn-faster-and-better/</link>
-      <pubDate>Tue, 20 Feb 2024 16:27:22 +0200</pubDate>
-      <guid>/blog/glasp-writing-contest-how-glasp-helped-you-learn-faster-and-better/</guid>
-      <description>Do you love to explore the depths of the internet and share your insights with the world?&#xA;Are you a master at extracting valuable information from websites and distilling it into concise summaries?</description>
-    </item>
-    <item>
-      <title>How to crack Google Season of Docs 2024</title>
-      <link>/blog/how-to-crack-google-season-of-docs-2024/</link>
-      <pubDate>Mon, 12 Feb 2024 10:03:22 +0200</pubDate>
-      <guid>/blog/how-to-crack-google-season-of-docs-2024/</guid>
-      <description>(Tips from GSOD’s past Interns) The Google Season of Docs is one of the most influential open source platforms for technical documentation beneficial to organizations and technical writers.</description>
-    </item>
-    <item>
-      <title>About Us</title>
-      <link>/docs/about-us/about-us/</link>
-      <pubDate>Sat, 07 Oct 2023 16:04:48 +0200</pubDate>
-      <guid>/docs/about-us/about-us/</guid>
-      <description>Our program is designed for individuals looking to improve their technical writing skills and advance their careers in software development, community management, and developer advocacy.</description>
-    </item>
-    <item>
-      <title>API Documentation Assignment</title>
-      <link>/docs/portfolio/api-documentation-assignment/</link>
-      <pubDate>Mon, 07 Aug 2023 16:04:48 +0200</pubDate>
-      <guid>/docs/portfolio/api-documentation-assignment/</guid>
-      <description>Assignment Title: The Movie Database (TMDb) API Documentation Objective&#xD;In this assignment, you will create API documentation for The Movie Database (TMDb) API using Postman or any API platform you can use (Eg, Readme,Postman), a popular movie and TV show database API.</description>
+      <guid>//localhost:1313/blog/how-to-deploy-a-dockerized-application-to-amazon-eks-cluster/</guid>
+      <description>&lt;img src=&#34;https://dev-to-uploads.s3.amazonaws.com/uploads/articles/q6kahlgsssyon3l6amrl.png&#34; alt=&#34;Amazon EKS Cover Image&#34; width=&#34;100%&#34;&gt;&#xA;&lt;p&gt;Containers are a way to package, deploy, and manage applications. &lt;a href=&#34;https://docs.docker.com/get-started/overview/&#34;&gt;Docker&lt;/a&gt; is a popular open-source containerization platform that allows you to package your application, its OS libraries, and dependencies together into a container image.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Writing Contest on TWMP</title>
-    <link>/tags/writing-contest/</link>
+    <link>//localhost:1313/tags/writing-contest/</link>
     <description>Recent content in Writing Contest on TWMP</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <copyright>Copyright (c) 2023 TWMP</copyright>
     <lastBuildDate>Thu, 07 Sep 2023 16:27:22 +0200</lastBuildDate>
-    <atom:link href="/tags/writing-contest/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/writing-contest/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Glasp writing contest: How Glasp Helped You Learn Faster and Better</title>
-      <link>/blog/glasp-writing-contest-how-glasp-helped-you-learn-faster-and-better/</link>
+      <link>//localhost:1313/blog/glasp-writing-contest-how-glasp-helped-you-learn-faster-and-better/</link>
       <pubDate>Tue, 20 Feb 2024 16:27:22 +0200</pubDate>
-      <guid>/blog/glasp-writing-contest-how-glasp-helped-you-learn-faster-and-better/</guid>
-      <description>Do you love to explore the depths of the internet and share your insights with the world?&#xA;Are you a master at extracting valuable information from websites and distilling it into concise summaries?</description>
+      <guid>//localhost:1313/blog/glasp-writing-contest-how-glasp-helped-you-learn-faster-and-better/</guid>
+      <description>&lt;figure&gt;&#xA;    &lt;img src=&#34;https://glasp.co/images/icons/feature_highlight.jpeg&#34; alt=&#34;Glasp.co image&#34;&gt;&#xA;    &lt;figcaption&gt;&lt;/figcaption&gt;&#xA;  &lt;/figure&gt;&#xA;&lt;p&gt;Do you love to explore the depths of the internet and share your insights with the world?&lt;/p&gt;&#xA;&lt;p&gt;Are you a master at extracting valuable information from websites and distilling it into concise summaries?&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

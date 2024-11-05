@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Writing on TWMP</title>
+    <link>//localhost:1313/tags/writing/</link>
+    <description>Recent content in Writing on TWMP</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Copyright (c) 2023 TWMP</copyright>
+    <lastBuildDate>Wed, 01 May 2024 10:26:00 +0200</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/writing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What is Content Marketing?</title>
+      <link>//localhost:1313/blog/what-is-content-marketing/</link>
+      <pubDate>Wed, 01 May 2024 10:10:26 +0200</pubDate>
+      <guid>//localhost:1313/blog/what-is-content-marketing/</guid>
+      <description>&lt;h2 id=&#34;content-marketing&#34;&gt;Content Marketing&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img alt=&#34;content marketing made easy&#34; src=&#34;https://dev-to-uploads.s3.amazonaws.com/uploads/articles/mqiiodip4qcqr2ejlhi3.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Content marketing is a sales strategy that shares unique, compelling content to attract and engage a target audience.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Master the Basics of SEO Using Semrush</title>
+      <link>//localhost:1313/blog/master-the-basics-of-seo-using-semrush/</link>
+      <pubDate>Thu, 07 Mar 2024 20:29:00 +0200</pubDate>
+      <guid>//localhost:1313/blog/master-the-basics-of-seo-using-semrush/</guid>
+      <description>&lt;img src=&#34;https://assets-global.website-files.com/5e052922ed2a27237b60d8de/6561430feaa9fd397efc4917_How%20Does%20Pay-Per-Click%20Work_-p-800.jpg&#34;&gt;&#xA;&lt;p&gt;Search engine optimization(SEO) focuses on optimizing website content for better visibility on the search engine result page (SERP).&lt;/p&gt;&#xA;&lt;p&gt;The goal is to drive organic traffic/results that are not paid i.e., the traffic is not gotten through Google ads.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

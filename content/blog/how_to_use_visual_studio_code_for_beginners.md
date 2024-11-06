@@ -3,7 +3,7 @@ title: "How To Use Visual Studio Code For Beginners"
 description: "This guide provides information and steps on how to use visual studio code for beginners, its features and navigating through it"
 summary: ""
 date: 2024-03-23T20:29:00+02:00
-lastmod: 2024-23-25T21:50:00+02:00
+lastmod: 2024-03-25T21:50:00+02:00
 draft: false
 weight: 50
 categories: [coding, VS Code]

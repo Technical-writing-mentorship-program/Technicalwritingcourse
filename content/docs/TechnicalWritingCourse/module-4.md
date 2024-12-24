@@ -290,7 +290,7 @@ With Madcap Flare, you can write once and publish for printing, web, desktop, an
 
 #### **Portfolio Websites**
 
-Portfolio websites are tools used to showcase your work to get writing gigs or jobs. Some portfolio websites are Linktree, Clippings, Wix, Concentre, and Disha.
+Portfolio websites are tools used to showcase your work to get writing gigs or jobs. Some portfolio websites are Linktree, Clippings, Wix, and Disha.
 
 ###### 1. **LinkTree**
 
@@ -307,12 +307,6 @@ Building a Wix website as a portfolio is a professional way of showcasing your w
 ###### 3. **Clippings**
 
 [Clippings](https://www.clippings.me/) is a software that allows you to add writing samples as a link for your portfolio. You can add links to your Medium, Hashnode, and LinkedIn articles.
-
-###### 4. **Concentre**
-
-[Concentre](http://concentre.io) is a writing portfolio that allows you to link writing samples to platforms like Medium and Hashnode.
-
-Concentre works as a browser extension, enabling users to take notes and manage portfolios. Concentre integrates with WordPress, HashNode, DevTo, Strapi, Medium, and Notion. Concentre is free to use.
 
 #### **Static Site Generators**
 

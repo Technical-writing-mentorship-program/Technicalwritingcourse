@@ -260,7 +260,7 @@ Striking the right balance is crucial for a style guide—it shouldn't be excess
     // Correct answers
     const correctAnswers = {
       question1: "Typography",
-      question2: "brand"
+      question2: "P&M"
     };
     let score = 0;
     // Check answers and calculate score

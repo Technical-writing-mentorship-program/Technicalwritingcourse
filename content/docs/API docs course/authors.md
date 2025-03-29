@@ -32,7 +32,7 @@ seo:
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-These fantastic folks volunteered their time and skills to create this Open Source Asciidoc Course for Beginners.
+These fantastic folks volunteered their time and skills to create this Open Source API documentation Course for Beginners.
 
 It's packed with useful stuff and totally **FREE for everyone!**
 

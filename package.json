@@ -1,41 +1,44 @@
 {
   "name": "technicalwritingcourse",
   "version": "0.0.0",
-  "description": "Doks theme",
-  "author": "Hyas",
-  "license": "MIT",
+  "private": true,
   "scripts": {
-    "dev": "hugo server --disableFastRender --noHTTPCache",
-    "create": "hugo new",
-    "lint": "npm run lint:markdown",
-    "lint:scripts": "eslint --cache themes/doks/assets/js",
-    "lint:styles": "stylelint --cache \"themes/doks/assets/scss/**/*.{css,sass,scss}\"",
-    "lint:markdown": "markdownlint-cli2 \"*.md\" \"content/**/*.md\"",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "hugo --minify --gc",
-    "preview": "http-server --gzip --brotli --ext=html --cors",
-    "clean": "npm run clean:build && npm run clean:lint && npm run clean:install",
-    "clean:build": "shx rm -rf public resources .hugo_build.lock",
-    "clean:install": "shx rm -rf node_modules package-lock.json yarn.lock pnpm-lock.yaml",
-    "clean:lint": "shx rm -rf .eslintcache .stylelintcache",
-    "preinfo": "npm version",
-    "info": "npm list"
+    "docusaurus": "docusaurus",
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "swizzle": "docusaurus swizzle",
+    "deploy": "docusaurus deploy",
+    "clear": "docusaurus clear",
+    "serve": "docusaurus serve",
+    "write-translations": "docusaurus write-translations",
+    "write-heading-ids": "docusaurus write-heading-ids"
   },
   "dependencies": {
-    "@hyas/doks-core": "^1.6.1",
-    "@hyas/images": "^3.2.0",
-    "@hyas/inline-svg": "^1.1.0",
-    "@hyas/seo": "^2.3.0",
-    "@tabler/icons": "^2.40.0",
-    "gethyas": "^2.4.2"
+    "@docusaurus/core": "3.7.0",
+    "@docusaurus/preset-classic": "3.7.0",
+    "@mdx-js/react": "^3.0.0",
+    "clsx": "^2.0.0",
+    "prism-react-renderer": "^2.3.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "prettier": "^3.2.5",
-    "vite": "^5.2.10"
+    "@docusaurus/module-type-aliases": "3.7.0",
+    "@docusaurus/types": "3.7.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.5%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 3 chrome version",
+      "last 3 firefox version",
+      "last 5 safari version"
+    ]
   },
   "engines": {
-    "node": ">=16.12.0",
-    "pnpm": ">=8.6.2"
-  },
-  "packageManager": "pnpm@8.6.2"
+    "node": ">=18.0"
+  }
 }

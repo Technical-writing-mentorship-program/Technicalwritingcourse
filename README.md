@@ -1,41 +1,74 @@
-# Website
+# Technical Writing Mentorship Program
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+> Please nobody should push the `public` folder to github from your local and ensure it is in your `.gitignore`
 
-### Installation
+Welcome to the Technical Writing Course repository. This repository contains all the materials, documentation, and resources for the Technical Writing Mentorship Program's course on technical writing, Developer documentation, and API documentation.
 
-```
-$ yarn
-```
+This repository contains modules for the Technical Writing Mentorship Program's documentation course.
 
-### Local Development
 
-```
-$ yarn start
-```
+## Getting Started
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+### Prerequisites
 
-### Build
+To work with this repository, you will need to have the following tools installed on your local machine:
 
-```
-$ yarn build
-```
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/) (which includes npm)
+- [Hugo](https://gohugo.io/) (if using Hugo for static site generation)
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+### Clone the Repository
 
-### Deployment
+To get started, clone the repository to your local machine using the following command:
 
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
+```bash
+git clone https://github.com/Technical-writing-mentorship-program/Technicalwritingcourse.git
 ```
 
-Not using SSH:
+### Navigate to the Project Directory
 
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
+Once the repository is cloned, navigate to the project directory:
+
+```bash
+cd Technicalwritingcourse
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+## Development Build
+
+### Using npm
+
+To run a development build for testing purposes, use the following npm command:
+
+```bash
+npm run dev
+```
+
+This will start a local server. You can view the project in your browser at `http://localhost:1313`.
+
+### Using Hugo
+
+If you are working with Hugo, you can start a development server using the following command:
+
+```bash
+hugo server
+```
+
+Hugo will start a local server, and you can view the site in your browser at `http://localhost:1313`.
+
+
+
+## How to contribute to this project
+
+This project is open to contributions from the community. If you would like to contribute to this project, please follow the steps in our [contributing guide](CONTRIBUTING.md).
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+
+## Contact
+
+If you have any questions or need further assistance, feel free to open an issue in this repository or contact the project maintainers directly.
+
+Happy writing!
+
+

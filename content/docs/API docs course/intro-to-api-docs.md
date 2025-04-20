@@ -18,6 +18,8 @@ seo:
   noindex: false # false (default) or true
 ---
 
+{{< video src="_099q7m5eik (540p)" autoplay="true" muted="true" >}}
+
 Building APIs that software products integrate is part of the software development process. A detailed and well-structured manual or guide on integrating the APIs is imperative. Thus, comprehensive API documentation is necessary for every organization and product that interacts with public or private APIs.
 
 Imagine purchasing an LG smart TV without a manual or guide on how to set up and use the remote control. The experience would likely be frustrating and confusing, and the ability to use the TV would be limited. You may not understand how to navigate the settings or access its advanced functionalities, thus leading to a bad user experience.

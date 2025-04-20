@@ -1,0 +1,492 @@
+---
+title: "Getting Started With AsciiDoc Using Antora"
+description: "This section covers the relationship between AsciiDoc and Antora, how to install Antora, and publishing with Antora"
+summary: ""
+date: 2024-08-15T01:45:15+01:00
+lastmod: 2024-09-15T01:45:15+01:00
+draft: false
+seo:
+  title: "Getting Started With AsciiDoc Using Antora" # custom title (optional)
+  description: "" # custom description (recommended)
+  canonical: "" # custom canonical URL (optional)
+  noindex: false # false (default) or true
+---
+
+
+A popular **Static Site Generator (SSG)** that supports the use of AsciiDoc syntax is [Antora](https://antora.org/). [Static Site Generators](https://en.wikipedia.org/wiki/Static_site_generator) are tools that generate a full static HTML website based on raw data and a set of templates and Antora is one that has been designed specifically around the needs of technical writers and their goal; which is to create technical documentation.
+
+
+
+
+Antora is developed around the AsciiDoc syntax or format that is somewhat similar to the [Markdown](https://technicalwritingmp.com/docs/markdown-course/introduction-to-markdown/) syntax. It also runs on [Asciidoctor](https://asciidoctor.org/), a processor that parses and converts AsciiDoc source documents into various formats such as HTML5, PDF, DocBook etc. It provides technical writers with a structured and defined way of organizing technical content.
+
+
+
+
+It is important to note that the developers of Asciidoctor are also the maintainers of Antora, this gives room for proper integration between the two technologies.
+
+
+
+
+To use Antora to generate a document, you need to assemble your files into a standard project structure, and then store them in a git repository. Once that is done, Antora picks your file and transforms it into a website.
+
+
+
+
+Now you will take a look at how to Install Antora.
+
+
+
+
+
+
+
+
+## Installation, Setup and Configuration
+
+
+
+
+Before installing Antora locally on your computer, it is important to take a look at the [Supported Platforms and System Requirements](https://docs.antora.org/antora/latest/install/supported-platforms/#:~:text=Antora%20runs%20on%20Linux%2C%20macOS%2C%20and%20Windows.). This is to ensure your development device is supported by the system.
+
+
+
+
+#### Installing Node.js and Chocolatey for Windows
+
+
+
+
+After checking for system requirements, you need to ensure you have [Node.js](https://nodejs.org/en) installed on your computer. To check if you do, open the PowerShell and type:
+
+
+
+
+```
+node --version
+```
+
+
+
+
+You should see something like the image below ;
+
+
+
+
+<img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/vhh22aqzdc4hy6delpcj.png" alt="Fig 1. An Image of the PowerShell showing the node version installed" width="100%">
+
+
+  _Fig 1. An Image of the PowerShell showing the node version installed_
+
+
+
+
+Pin 1 shows the command used to check if Node.js is installed.
+
+
+Pin 2 shows the version of Node.js installed.
+
+
+
+
+If you are presented with an error in your PowerShell after running the command, that would mean you do not have Node.js installed.
+
+
+
+
+The best way to install to install Node.js is by [Chocolatey](https://chocolatey.org/), a package manager for Windows. Open the PowerShell and run as an Administrator by right-clicking the PowerShell icon and selecting **Run as Administrator**.
+
+
+
+
+Then run the following command;
+
+
+
+
+```
+Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.webClient).DownloadString('https://chocolatey.org/install.ps1'))
+```
+
+
+
+
+<img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/s0e601pjodrw05lrl5nv.png" alt="Fig 2: A screenshot of the PowerShell showing the installation of Chocolatey" width="100%">
+
+
+  _Fig 2: A screenshot of the PowerShell showing the installation of Chocolatey_
+
+
+
+
+Once the command is complete, you can now install node.js
+
+
+
+
+You can install Node.js with Chocolatey by running the following command in the PowerShell;
+
+
+
+
+```
+choco install nodejs.install
+```
+
+
+
+
+<img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/bph6h7j9fepo062g4uhw.png" alt="Fig 3: A screenshot of the PowerShell showing the installation of Node.js" width="100%">
+
+
+  _Fig 3: A screenshot of the PowerShell showing the installation of Node.js_
+
+
+
+
+
+
+#### Installing Antora
+
+
+
+
+In this section, you will look at how to install Antora.
+
+
+
+
+> **Prerequisite: You must have Node.js installed**
+
+
+
+
+To be able to use Antora to generate a documentation site, you are going to need the **Antora command line interface (CLI)** and the **Antora site generator**.
+
+
+
+
+The first thing to do when trying to install Antora is to create a new directory for your documentation site, and then move into that directory. You can do this in your PowerShell. Let us call this directory _**test-site**_
+
+
+
+
+```
+mkdir test-site
+cd test-site
+```
+
+
+
+
+The next step is to initialize the _package.json_ file and install the necessary CLI package in the project so you can run Antora using [Node Package Execute](https://www.npmjs.com/package/npx) ( **npx: a npm package runner that executes any package from the npm registry without having to install it** ).
+
+
+
+
+```
+node -e "fs.writeFileSync('package.json', '{}')"
+npm i -D -E antora
+```
+
+
+
+
+ 
+> **Warning: In case you run into an error running the Antora installation script in the PowerShell of your Windows machine, refer to this article on [Execution Policies](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.4) to fix the issue.**
+
+
+
+
+
+
+
+
+Verify Antora has been installed by running the command below;
+
+
+
+
+```
+npx antora -v
+```
+
+
+
+
+If the installation is successful, the version of Antora CLI and the site generator specified will be printed onto the PowerShell.
+
+
+
+
+<img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/sb4vlhk3nknkjvwq5rjx.png" alt="Fig 4: A screenshot of the PowerShell that shows the various processes discussed above" width="100%">
+
+
+  _Fig 4: A screenshot of the PowerShell that shows the various processes discussed above_
+
+
+
+
+
+
+
+
+
+
+
+
+From the Screenshot above, you can see the visual representation of the installation process of Antora in the PowerShell. The processes are pinned and explained below:
+
+
+
+
+Pin 1: creation of the test-site directory
+
+
+Pin 2: moving into the directory
+
+
+Pin 3: Initializing the package.json file and other packages
+
+
+Pin 4: Installing Antora
+
+
+Pin 5: Verifying Antora, the version installed and the site generator
+
+
+
+
+
+
+
+
+
+
+## Creating a Playbook with IDE (Visual Studio Code)
+
+
+
+
+To create a documentation site, Antora needs a playbook. you will look at how to do that in this section. Follow the following steps
+
+
+Step 1: Using your preferred IDE, create a new file
+
+
+Step 2: Add the following configuration information to the file and save it as **_antora-playbook.yml_**:
+
+
+```
+site:
+  title: Antora Docs
+  start_page: component-b::index.adoc
+content:
+  sources:
+  - url: https://gitlab.com/antora/demo/demo-component-a.git
+    branches: HEAD
+  - url: https://gitlab.com/antora/demo/demo-component-b.git
+    branches: [v2.0, v1.0]
+    start_path: docs
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
+```
+
+
+<img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/14ynov4175bxk6hf87ah.png" alt="Fig 5: A screenshot of an IDE showing the antora-playbook.yml file" width="100%">
+
+
+  _Fig 5: A screenshot of an IDE showing the antora-playbook.yml file_
+
+
+This configuration file will create a site using the [Antora demo repositories](https://gitlab.com/antora/demo).
+
+
+Step 3: In the terminal, navigate to the _test-site_ directory
+
+
+Step 4: Run the following command :
+
+
+```
+npx antora --fetch antora-playbook.yml
+
+
+```
+
+
+This command lets Antora clone the content, UI repository and generate your documentation site to the default output directory.
+
+
+<img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/am500s8fqzejkj1ljdm1.png" alt="Fig 6: A screenshot from the terminal showing that the generation of documentation site is complete" width="100%">
+
+
+  _Fig 6: A screenshot from the terminal showing that the generation of the documentation site is complete_
+
+
+Navigate to the **_test-site/build/site/index.html_** directory. Open the **_index.html_** file in your browser to view your generated documentation site.
+
+
+
+
+<img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/47m1tn46m101xh668h1o.png" alt="Fig 7: A screenshot of the generated Antora documentation site." width="100%">
+
+
+  _Fig 7: A screenshot of the generated Antora documentation site._
+
+
+Congratulations, you just created your first documentation site with Antora.
+
+
+
+
+## Testing your Documentation Site and Publishing with Antora
+
+
+To be able to publish and test your documentation site, you should do the following:
+
+
+- In your already created folder, clone the content of this [Github repository](https://github.com/wise4rmgod/antora) into it.
+- Once you have the repo cloned, now you can work locally on your pc.
+- Change into the antora directory and then initialize the json package and install antora by running the following commands;
+
+
+```
+node -e "fs.writeFileSync('package.json', '{}')"
+npm i -D -E antora
+```
+
+
+- Now generate your site by running the following command;
+
+
+```
+npx antora antora-playbook.yml
+```
+
+
+- Now your site should be generated and ready to be viewed. Copy the displayed URL, and paste it into your browser to view your generated site.
+- To test for AsciiDoc syntax, navigate to the displayed folder below;
+
+
+  - antora/
+    - docs/
+      - modules/
+        - module_one/
+          - pages/
+            - gettingstarted.adoc
+            - installation.adoc
+            - overview.adoc
+
+
+           
+                   
+
+
+- In the **_gettingstarted.adoc_**, **_installation.adoc_** and **_overview.adoc_** files, copy and paste your AsciiDoc syntax into any of the files, then generate the site again by running the **_“npx antora antora-playboook.yml”_** command again.
+- Go to your browser, and refresh to see your AsciiDoc syntax displayed.
+
+
+
+
+> **NOTE: For any change you make with syntax in your vs code, always generate the site again by running the _“npx antora antora-playbook.yml”_ command.**
+
+
+- Create a GitHub repository of your own, and push changes you have made to this repo you created.
+- Once you have pushed to Github, configure the Github pages for your repo, and set Build and Deployment source to Github Actions.
+- Use the Git Action workflow below to deploy your Antora page to GitHub pages.
+
+
+> **Be sure to have enabled Github pages in your repo by creating a gh-pages branch**
+
+
+
+
+**Simple workflow to deploy static content to Github Pages**
+
+
+```
+name: Deploy Antora static content to Pages
+on:
+  # Runs on pushes targeting the default branch
+  push:
+    branches: ["main"]
+
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as you want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # Upload entire repository
+          path: "./build/site"
+
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build/site # Update this to match your Antora output directory
+```
+
+
+- Make edits to your documentation file.
+- Commit changes and push them to your repository.
+- Your content will be live once changes have been to the repository.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

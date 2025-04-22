@@ -89,6 +89,8 @@ We made a list of some of our favourites and hopefully, you will enjoy them too!
 
 3. [JSON course on Udemy:](https://www.udemy.com/course/json-crash-course/) This course contains videos, classwork and quizzes that will guide you on mastering JSON and it’s absolutely FREE!
 
+4. [JSON tools by JSONing:](https://jsoning.com/) This collection of JSON tools includes a formatter, validator, comparator, converter, JSONPath tester, JSON schema generator, and Mock API.
+
 
 
 # YAML (Yet Another Markup Language)

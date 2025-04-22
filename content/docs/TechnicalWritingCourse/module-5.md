@@ -355,7 +355,7 @@ Many blogs and companies utilize concise style guides to uphold consistency in t
 
 - [MDN Web Docs](https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide)
 - [DigitalOcean](https://www.digitalocean.com/community/tutorials/digitalocean-s-technical-writing-guidelines)
-- [The Red Hat Style Guide](https://styleguide.redhat.com/)
+- [The Red Hat Style Guide](https://stylepedia.net/)
 - [The Mailchimp Content Style Guide](https://styleguide.mailchimp.com/)
 
 ##### 4. Open source style guides

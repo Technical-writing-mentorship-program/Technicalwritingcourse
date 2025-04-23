@@ -1,8 +1,9 @@
 ---
 slug: welcome
-title: Welcome
+title: How To Use Visual Studio Code For Beginners
 authors: [slorber, yangshun]
 tags: [facebook, hello, docusaurus]
+date: 2024-03-23
 ---
 
 [Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).
@@ -16,6 +17,7 @@ Simply add Markdown files (or folders) to the `blog` directory.
 Regular blog authors can be added to `authors.yml`.
 
 The blog post date can be extracted from filenames, such as:
+2024-03-23T20:29:00+02:00
 
 - `2019-05-30-welcome.md`
 - `2019-05-30-welcome/index.md`

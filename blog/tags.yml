@@ -1,19 +1,19 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+writing style guide:
+  label: writing style guide
+  permalink: /blog/tags/writing-style-guide
+  description: Writing style guide tag description
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+content marketing:
+  label: Content marketing
+  permalink: /blog/tags/content-marketing
+  description: "Content marketing tag description"
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
+content strategy:
+  label: Content strategy
+  permalink:  /blog/tags/content-strategy
+  description: Content strategy tag description
 
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+writing: 
+  label: writing
+  permalink: /blog/tags/writing
+  description: writing tag description

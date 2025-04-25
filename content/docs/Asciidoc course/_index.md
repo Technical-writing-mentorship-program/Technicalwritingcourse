@@ -2,7 +2,7 @@
 title: "AsciiDoc  Course"
 description: "This is an AsciiDoc course for beginners"
 summary: ""
-lastmod: 2024-07-1T16:06:50+02:00
+lastmod: 2024-07-01T16:06:50+02:00
 draft: false
 menu:
   docs:

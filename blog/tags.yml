@@ -27,3 +27,38 @@ google season of docs:
   label: Google Season of Docs
   permalink: /google season of docs
   description: Google Season of Docs tag description
+
+vscode:
+  label: Vscode
+  permalink: /vscode
+  description: Blog posts related to vscode 
+
+coding:
+  label: Coding
+  permalink: /coding
+  description: Blog posts related to coding
+
+antora:
+  label: Antora
+  permalink: /antora
+  description: Blog posts related to coding
+
+guide:
+  label: Guide
+  permalink: /guides
+  description: guide
+
+docascode:
+  label: Doc as code
+  permalink: /docascode
+  description: doc as code
+
+writingcontest:
+  label: writing contest
+  permalink: /writingcontest
+  description: Writing contest
+
+documentation:
+  label: documentation
+  permalink: /documentation
+  description: Documentation

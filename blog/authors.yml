@@ -33,12 +33,23 @@ prince:
 wisdom: 
   name: Wisdom Nwokocha
   title: Senior Technical Writer | Documentation Engineer | Developer Advocate | Android Engineer
-  url: https://github.com/wise4rmgod
-  image url: https://avatars.githubusercontent.com/u/22228278?v=4
+  url: https://linktr.ee/wise4rmgod
+  image_url: https://github.com/OpeyemiOdejimi/Images/blob/main/wisdom.jpeg?raw=true
+  page: true
   socials:
-    x: https://twitter.com/Joklinztech
-    LinkedIn: https://www.linkedin.com/in/wisdom-nwokocha-76212a77/
+    x: Joklinztech
+    github: https://github.com/wise4rmgod
+    linkedin: https://www.linkedin.com/in/wisdom-nwokocha-76212a77/
     
 
 rejoice: 
   name: Rejoice Anodo
+  title: Technical Content Writer
+  url: https://linktr.ee/rejoiceanodo
+  image_url: https://github.com/OpeyemiOdejimi/Images/blob/main/rejoice.jpeg?raw=true
+  page: true
+  socials: 
+    x: adiimiche
+    github: https://github.com/iribama
+    linkedin: https://www.linkedin.com/in/rejoiceisaac
+

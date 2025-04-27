@@ -19,7 +19,7 @@ blessing:
     x: BibiTheWriter
     github: kwenb
     linkedin: https://www.linkedin.com/in/anyebe-blessing-ene-kwennb/
-  
+
 prince:
   name: Prince Onyeanuna
   title: Technical Writer
@@ -30,7 +30,7 @@ prince:
     github: Aahil13
     linkedin: https://www.linkedin.com/in/prince-onyeanuna-607352246/
 
-wisdom: 
+wisdom:
   name: Wisdom Nwokocha
   title: Senior Technical Writer | Documentation Engineer | Developer Advocate | Android Engineer
   url: https://linktr.ee/wise4rmgod
@@ -40,16 +40,14 @@ wisdom:
     x: Joklinztech
     github: https://github.com/wise4rmgod
     linkedin: https://www.linkedin.com/in/wisdom-nwokocha-76212a77/
-    
 
-rejoice: 
+rejoice:
   name: Rejoice Anodo
   title: Technical Content Writer
   url: https://linktr.ee/rejoiceanodo
   image_url: https://github.com/OpeyemiOdejimi/Images/blob/main/rejoice.jpeg?raw=true
   page: true
-  socials: 
+  socials:
     x: adiimiche
     github: https://github.com/iribama
     linkedin: https://www.linkedin.com/in/rejoiceisaac
-

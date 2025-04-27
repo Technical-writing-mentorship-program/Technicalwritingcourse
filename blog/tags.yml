@@ -31,7 +31,7 @@ google season of docs:
 vscode:
   label: Vscode
   permalink: /vscode
-  description: Blog posts related to vscode 
+  description: Blog posts related to vscode
 
 coding:
   label: Coding
@@ -62,3 +62,38 @@ documentation:
   label: documentation
   permalink: /documentation
   description: Documentation
+
+Frontend development:
+  label: Frontend development
+  permalink: /frontend
+  description: Frontend development
+
+Javascript:
+  label: Javascript
+  permalink: /javascript
+  description: Javascript
+
+AWS:
+  label: AWS
+  permalink: /aws
+  description: AWS
+
+Docker:
+  label: Docker
+  permalink: /docker
+  description: Docker
+
+EKS:
+  label: EKS
+  permalink: /eks
+  description: EKS
+
+Kubernetes:
+  label: Kubernetes
+  permalink: /kubernetes
+  description: Kubernetes
+
+Deployment:
+  label: Deployment
+  permalink: /deployment
+  description: Deployment

@@ -33,7 +33,7 @@ vscode:
   permalink: /vscode
   description: Blog posts related to vscode
 
-coding:
+Coding:
   label: Coding
   permalink: /coding
   description: Blog posts related to coding
@@ -68,10 +68,10 @@ Frontend development:
   permalink: /frontend
   description: Frontend development
 
-Javascript:
-  label: Javascript
+JavaScript:
+  label: JavaScript
   permalink: /javascript
-  description: Javascript
+  description: JavaScript
 
 AWS:
   label: AWS
@@ -97,3 +97,19 @@ Deployment:
   label: Deployment
   permalink: /deployment
   description: Deployment
+
+content marketing:
+  label: Content marketing
+  permalink: /content-marketing
+  description: Content marketing
+
+content strategy:
+  label: Content strategy
+  permalink: /contentstrategy
+  description: Content strategy
+
+writing style guide:
+  label: Writing style guide
+  permalink: /writing-style-guide
+  description: Writing style guide
+

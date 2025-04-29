@@ -1,23 +1,62 @@
-yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
+judith:
+  name: Judith Etugbo
+  title: Freelance Technical Writer
+  url: https://judithetugbo.netlify.app/
+  image_url: https://github.com/Nickyshe/Images/blob/main/pfp.jpg?raw=true
   page: true
   socials:
-    x: yangshunz
-    github: yangshun
+    x: judith_etugbo
+    github: Nickyshe
+    linkedin: https://www.linkedin.com/in/etugbo-judith-984545236/
 
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
-  page:
-    # customize the url of the author page at /blog/authors/<permalink>
-    permalink: '/all-sebastien-lorber-articles'
+blessing:
+  name: Blessing Ene Anyebe
+  title: Technical Writer | Developer Advocate | Documentation Engineer
+  url: https://linktr.ee/kwenn
+  image_url: https://github.com/Nickyshe/Images/blob/main/blessing-ene-anyebe.jpg?raw=true
+  page: true
   socials:
-    x: sebastienlorber
-    linkedin: sebastienlorber
-    github: slorber
-    newsletter: https://thisweekinreact.com
+    x: BibiTheWriter
+    github: kwenb
+    linkedin: https://www.linkedin.com/in/anyebe-blessing-ene-kwennb/
+
+prince:
+  name: Prince Onyeanuna
+  title: Technical Writer
+  image_url: https://github.com/Nickyshe/Images/blob/main/Prince.jpg?raw=true
+  page: true
+  socials:
+    x: OnyeanunaE
+    github: Aahil13
+    linkedin: https://www.linkedin.com/in/prince-onyeanuna-607352246/
+
+wisdom:
+  name: Wisdom Nwokocha
+  title: Senior Technical Writer | Documentation Engineer | Developer Advocate | Android Engineer
+  url: https://linktr.ee/wise4rmgod
+  image_url: https://github.com/OpeyemiOdejimi/Images/blob/main/wisdom.jpeg?raw=true
+  page: true
+  socials:
+    x: Joklinztech
+    github: https://github.com/wise4rmgod
+    linkedin: https://www.linkedin.com/in/wisdom-nwokocha-76212a77/
+
+rejoice:
+  name: Rejoice Anodo
+  title: Technical Content Writer
+  url: https://linktr.ee/rejoiceanodo
+  image_url: https://github.com/OpeyemiOdejimi/Images/blob/main/rejoice.jpeg?raw=true
+  page: true
+  socials:
+    x: adiimiche
+    github: https://github.com/iribama
+    linkedin: https://www.linkedin.com/in/rejoiceisaac
+
+deborah:
+  name: Fabusuyi Deborah
+  title: Technical Writer | Frontend Developer | Content Writer
+  email: fabusuyideborah03@gmail.com
+  page: true
+  image_url: https://dev-to-uploads.s3.amazonaws.com/uploads/articles/p3drvh63uusff73em73y.jpeg
+  socials:
+    linkedin: https://www.linkedin.com/in/deborah-fabusuyi

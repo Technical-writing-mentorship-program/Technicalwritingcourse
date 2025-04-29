@@ -1,14 +1,3 @@
-judith:
-  name: Judith Etugbo
-  title: Freelance Technical Writer
-  url: https://judithetugbo.netlify.app/
-  image_url: https://github.com/Nickyshe/Images/blob/main/pfp.jpg?raw=true
-  page: true
-  socials:
-    x: judith_etugbo
-    github: Nickyshe
-    linkedin: https://www.linkedin.com/in/etugbo-judith-984545236/
-
 blessing:
   name: Blessing Ene Anyebe
   title: Technical Writer | Developer Advocate | Documentation Engineer
@@ -20,6 +9,26 @@ blessing:
     github: kwenb
     linkedin: https://www.linkedin.com/in/anyebe-blessing-ene-kwennb/
 
+deborah:
+  name: Fabusuyi Deborah
+  title: Technical Writer | Frontend Developer | Content Writer
+  email: fabusuyideborah03@gmail.com
+  page: true
+  image_url: https://dev-to-uploads.s3.amazonaws.com/uploads/articles/p3drvh63uusff73em73y.jpeg
+  socials:
+    linkedin: https://www.linkedin.com/in/deborah-fabusuyi
+
+judith:
+  name: Judith Etugbo
+  title: Freelance Technical Writer
+  url: https://judithetugbo.netlify.app/
+  image_url: https://github.com/Nickyshe/Images/blob/main/pfp.jpg?raw=true
+  page: true
+  socials:
+    x: judith_etugbo
+    github: Nickyshe
+    linkedin: https://www.linkedin.com/in/etugbo-judith-984545236/
+
 prince:
   name: Prince Onyeanuna
   title: Technical Writer
@@ -29,18 +38,7 @@ prince:
     x: OnyeanunaE
     github: Aahil13
     linkedin: https://www.linkedin.com/in/prince-onyeanuna-607352246/
-
-wisdom:
-  name: Wisdom Nwokocha
-  title: Senior Technical Writer | Documentation Engineer | Developer Advocate | Android Engineer
-  url: https://linktr.ee/wise4rmgod
-  image_url: https://github.com/OpeyemiOdejimi/Images/blob/main/wisdom.jpeg?raw=true
-  page: true
-  socials:
-    x: Joklinztech
-    github: https://github.com/wise4rmgod
-    linkedin: https://www.linkedin.com/in/wisdom-nwokocha-76212a77/
-
+   
 rejoice:
   name: Rejoice Anodo
   title: Technical Content Writer
@@ -52,11 +50,15 @@ rejoice:
     github: https://github.com/iribama
     linkedin: https://www.linkedin.com/in/rejoiceisaac
 
-deborah:
-  name: Fabusuyi Deborah
-  title: Technical Writer | Frontend Developer | Content Writer
-  email: fabusuyideborah03@gmail.com
+wisdom:
+  name: Wisdom Nwokocha
+  title: Senior Technical Writer | Documentation Engineer | Developer Advocate | Android Engineer
+  url: https://linktr.ee/wise4rmgod
+  image_url: https://github.com/OpeyemiOdejimi/Images/blob/main/wisdom.jpeg?raw=true
   page: true
-  image_url: https://dev-to-uploads.s3.amazonaws.com/uploads/articles/p3drvh63uusff73em73y.jpeg
   socials:
-    linkedin: https://www.linkedin.com/in/deborah-fabusuyi
+    x: Joklinztech
+    github: https://github.com/wise4rmgod
+
+
+

@@ -50,6 +50,10 @@ const config = {
         },
         blog: {
           showReadingTime: true,
+          blogTitle: 'Technical Writing Mentorship Program Blog',
+          blogDescription: 'Technical Writing Mentorship Program Blog',
+          blogSidebarTitle: 'All posts',
+          blogSidebarCount: 'ALL',
           feedOptions: {
             type: ['rss', 'atom'],
             xslt: true,

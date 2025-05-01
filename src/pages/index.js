@@ -1,3 +1,4 @@
+
 import clsx from "clsx";
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
@@ -5,6 +6,9 @@ import Layout from "@theme/Layout";
 import HomepageFeatures from "@site/src/components/HomepageFeatures";
 import HandsOnCourses from "../components/HomepageFeatures/HandsOnCourses";
 import BlogSection from "../components/HomepageFeatures/BlogSection";
+
+import TestimonialSection from '../components/TestimonialSection/testimonial';
+
 
 import Heading from "@theme/Heading";
 import styles from "./index.module.css";
@@ -42,6 +46,8 @@ export default function Home() {
         <HandsOnCourses />
         <BlogSection />
       </main>
+      <TestimonialSection />
     </Layout>
+    
   );
 }

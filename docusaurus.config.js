@@ -4,15 +4,15 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-import {themes as prismThemes} from 'prism-react-renderer';
+import { themes as prismThemes } from 'prism-react-renderer';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.svg',
+  title: '',
+  tagline: '',
+  favicon: '',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
@@ -88,7 +88,7 @@ const config = {
             position: 'left',
             label: 'Academy',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          { to: '/blog', label: 'Blog', position: 'left' },
           { to: '/write-for-us', label: 'Write for us', position: 'left' },
           {
             href: 'https://github.com/facebook/docusaurus',

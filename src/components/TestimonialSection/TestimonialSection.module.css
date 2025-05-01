@@ -1,0 +1,53 @@
+.testimonialSection {
+background-color: #e5e5e5;
+padding: 3rem 0;
+text-align: center;
+width: 100%;
+}
+
+.testimonialSection :global(.container) {
+max-width: none; /* override default Docusaurus max-width */
+}
+
+
+.testimonialBox {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+  
+
+.testimonialContent {
+    background-color: #a259ff;
+    color: white;
+    border-radius: 20px;
+    padding: 2rem 1.5rem;
+    width: 100%;
+    max-width: 300px; /* was 250px */
+    min-height: 360px; /* optional: to increase height */
+    text-align: center;
+}
+  
+
+.testimonialImg {
+width: 100px;
+height: 100px;
+object-fit: cover;
+border-radius: 50%;
+border: 5px solid white;
+margin-bottom: 1rem;
+}
+
+.testimonialHeader {
+font-family: monospace;
+font-size: 1.2rem;
+margin-bottom: 0.5rem;
+}
+
+.testimonialText {
+font-family: monospace;
+font-size: 0.9rem;
+line-height: 1.4;
+}
+  

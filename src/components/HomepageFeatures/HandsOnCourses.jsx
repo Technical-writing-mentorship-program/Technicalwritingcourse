@@ -2,7 +2,6 @@
 
 const HandsOnCourses = () => {
   const containerStyle = {
-    backgroundColor: '#e0e0e0',
     padding: '4rem 1rem',
     textAlign: 'center',
   };

@@ -7,7 +7,6 @@ import TechnicalWriting from './Image/TechnicalWriting.jpg'
 const BlogSection = () => {
   const sectionStyle = {
     padding: '60px 20px',
-    backgroundColor: '#e0e0e0',
     textAlign: 'center',
     fontFamily: 'Arial, sans-serif'
   };

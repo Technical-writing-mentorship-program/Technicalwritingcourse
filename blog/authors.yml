@@ -1,23 +1,44 @@
-yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
+judith:
+  name: Judith Etugbo
+  title: Freelance Technical Writer
+  url: https://judithetugbo.netlify.app/
+  image_url: https://github.com/Nickyshe/Images/blob/main/pfp.jpg?raw=true
   page: true
   socials:
-    x: yangshunz
-    github: yangshun
+    x: judith_etugbo
+    github: Nickyshe
+    linkedin: https://www.linkedin.com/in/etugbo-judith-984545236/
 
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
-  page:
-    # customize the url of the author page at /blog/authors/<permalink>
-    permalink: '/all-sebastien-lorber-articles'
+blessing:
+  name: Blessing Ene Anyebe
+  title: Technical Writer | Developer Advocate | Documentation Engineer
+  url: https://linktr.ee/kwenn
+  image_url: https://github.com/Nickyshe/Images/blob/main/blessing-ene-anyebe.jpg?raw=true
+  page: true
   socials:
-    x: sebastienlorber
-    linkedin: sebastienlorber
-    github: slorber
-    newsletter: https://thisweekinreact.com
+    x: BibiTheWriter
+    github: kwenb
+    linkedin: https://www.linkedin.com/in/anyebe-blessing-ene-kwennb/
+  
+prince:
+  name: Prince Onyeanuna
+  title: Technical Writer
+  image_url: https://github.com/Nickyshe/Images/blob/main/Prince.jpg?raw=true
+  page: true
+  socials:
+    x: OnyeanunaE
+    github: Aahil13
+    linkedin: https://www.linkedin.com/in/prince-onyeanuna-607352246/
+
+wisdom: 
+  name: Wisdom Nwokocha
+  title: Senior Technical Writer | Documentation Engineer | Developer Advocate | Android Engineer
+  url: https://github.com/wise4rmgod
+  image url: https://avatars.githubusercontent.com/u/22228278?v=4
+  socials:
+    x: https://twitter.com/Joklinztech
+    LinkedIn: https://www.linkedin.com/in/wisdom-nwokocha-76212a77/
+    
+
+rejoice: 
+  name: Rejoice Anodo

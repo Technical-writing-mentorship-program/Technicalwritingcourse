@@ -1,3 +1,4 @@
+
 .heroSection {
 	padding: 4rem 2rem;
 }
@@ -89,3 +90,18 @@
 		margin: 0 auto;
 	}
 }
+=======
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.featureSvg {
+  height: 200px;
+  width: 200px;
+}
+

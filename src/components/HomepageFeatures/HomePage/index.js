@@ -11,7 +11,6 @@ export default function HomepageFeatures() {
                         <h1 className={styles.title}>
                             Welcome to the Technical Writing Mentorship Program
                         </h1>
-                        <p className={styles.subtitle}>Learn. Grow. Connect.</p>
                         <a
                             className={styles.button}
                             href="https://discord.gg/your-invite-link"

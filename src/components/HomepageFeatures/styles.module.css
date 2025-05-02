@@ -12,28 +12,28 @@
 }
 
 .containerReverse {
-	flex-direction: row-reverse; /* Image on the left, text on the right */
+	flex-direction: row-reverse;
 }
 
 .content {
 	flex: 1;
 	max-width: 600px;
 	text-align: left;
-	margin-left: 3rem; /* slightly pushed right */
+	margin-left: 3rem;
 }
 
 .title {
 	font-size: 4.5rem;
 	font-weight: 900;
 	margin-bottom: 1rem;
-	color: #8c52ff; /* purple heading */
+	color: #8c52ff;
 }
 
 .subtitle {
 	font-size: 2rem;
 	font-weight: 600;
 	margin-bottom: 2rem;
-	color: #333333; /* black for normal text */
+	color: #333333;
 }
 
 .button {
@@ -61,11 +61,10 @@
 
 .image {
 	max-width: 100%;
-	width: 90%; /* increased image width */
+	width: 90%;
 	height: auto;
 }
 
-/* Mobile responsive styles */
 @media (max-width: 768px) {
 	.container,
 	.containerReverse {

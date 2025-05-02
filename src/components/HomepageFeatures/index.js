@@ -4,7 +4,7 @@ import styles from './styles.module.css';
 export default function HomepageFeatures() {
   return (
     <>
-      {/* First section - Technical Writing Mentorship */}
+      { }
       <section className={styles.heroSection}>
         <div className={styles.container}>
           <div className={styles.content}>
@@ -31,7 +31,7 @@ export default function HomepageFeatures() {
         </div>
       </section>
 
-      {/* Second section - Direct Mentorship */}
+      { }
       <section className={styles.heroSection}>
         <div className={styles.container}>
           <div className={styles.imageContainer}>

@@ -5,19 +5,19 @@ import styles from './TestimonialSection.module.css';
 
 const Testimonials = [
   {
-    name: "J. COLE",
+    name: "Joshua Onwuemene",
     testimony: "TWMP has helped my tech writing skills.",
-    img: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cG9ydHJhaXR8ZW58MHx8MHx8fDA%3D"
+    img: "https://media.licdn.com/dms/image/v2/D4D03AQFdYbuW0s0H7w/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1732228944706?e=1751500800&v=beta&t=WZrrkKO-1LmdLPQgDg7SX_CaBiDLJUnHVoz5jv706vw"
   },
   {
-    name: "MARK OWEN",
+    name: "Edun Rilwan",
     testimony: "Technical Writing Community made us skilled tech writers! Clear lessons, hands-on practice, great results. Highly recommend!",
-    img: "https://plus.unsplash.com/premium_photo-1671656349322-41de944d259b?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cG9ydHJhaXR8ZW58MHx8MHx8fDA%3D"
+    img: "https://media.licdn.com/dms/image/v2/D5603AQGtHMpTYdjWwA/profile-displayphoto-shrink_400_400/B56ZTRxPe1HwAg-/0/1738686135680?e=1751500800&v=beta&t=P4Az0dyx-SXHkGKx8Z9R2WvlU0XW1fY5VaUtKxwpalk"
   },
   {
-    name: "JOHN DOE",
+    name: "Makinde Mercy",
     testimony: "From confused to confident! TW Community gave us the skills to excel in technical writing. 10/10!",
-    img: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cG9ydHJhaXR8ZW58MHx8MHx8fDA%3D"
+    img: "https://media.licdn.com/dms/image/v2/D4D03AQEWJ0ADOOcYaA/profile-displayphoto-shrink_400_400/B4DZXTqIpJHsAk-/0/1743012796934?e=1751500800&v=beta&t=UlgtLM-ICnjaAxF1dx9bH7SFBfJbXGA5ALzdChgbXHI"
   }
 ];
 

@@ -8,7 +8,7 @@ const BlogSection = () => {
   const sectionStyle = {
     padding: '60px 20px',
     textAlign: 'center',
-    fontFamily: 'Arial, sans-serif'
+    fontFamily: 'monospace'
   };
 
   const headingStyle = {

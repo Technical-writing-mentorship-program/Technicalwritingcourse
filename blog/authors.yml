@@ -1,3 +1,23 @@
+blessing:
+  name: Blessing Ene Anyebe
+  title: Technical Writer | Developer Advocate | Documentation Engineer
+  url: https://linktr.ee/kwenn
+  image_url: https://github.com/Nickyshe/Images/blob/main/blessing-ene-anyebe.jpg?raw=true
+  page: true
+  socials:
+    x: BibiTheWriter
+    github: kwenb
+    linkedin: https://www.linkedin.com/in/anyebe-blessing-ene-kwennb/
+
+deborah:
+  name: Fabusuyi Deborah
+  title: Technical Writer | Frontend Developer | Content Writer
+  email: fabusuyideborah03@gmail.com
+  page: true
+  image_url: https://dev-to-uploads.s3.amazonaws.com/uploads/articles/p3drvh63uusff73em73y.jpeg
+  socials:
+    linkedin: https://www.linkedin.com/in/deborah-fabusuyi
+
 judith:
   name: Judith Etugbo
   title: Freelance Technical Writer
@@ -9,17 +29,6 @@ judith:
     github: Nickyshe
     linkedin: https://www.linkedin.com/in/etugbo-judith-984545236/
 
-blessing:
-  name: Blessing Ene Anyebe
-  title: Technical Writer | Developer Advocate | Documentation Engineer
-  url: https://linktr.ee/kwenn
-  image_url: https://github.com/Nickyshe/Images/blob/main/blessing-ene-anyebe.jpg?raw=true
-  page: true
-  socials:
-    x: BibiTheWriter
-    github: kwenb
-    linkedin: https://www.linkedin.com/in/anyebe-blessing-ene-kwennb/
-  
 prince:
   name: Prince Onyeanuna
   title: Technical Writer
@@ -29,16 +38,27 @@ prince:
     x: OnyeanunaE
     github: Aahil13
     linkedin: https://www.linkedin.com/in/prince-onyeanuna-607352246/
+   
+rejoice:
+  name: Rejoice Anodo
+  title: Technical Content Writer
+  url: https://linktr.ee/rejoiceanodo
+  image_url: https://github.com/OpeyemiOdejimi/Images/blob/main/rejoice.jpeg?raw=true
+  page: true
+  socials:
+    x: adiimiche
+    github: https://github.com/iribama
+    linkedin: https://www.linkedin.com/in/rejoiceisaac
 
-wisdom: 
+wisdom:
   name: Wisdom Nwokocha
   title: Senior Technical Writer | Documentation Engineer | Developer Advocate | Android Engineer
-  url: https://github.com/wise4rmgod
-  image url: https://avatars.githubusercontent.com/u/22228278?v=4
+  url: https://linktr.ee/wise4rmgod
+  image_url: https://github.com/OpeyemiOdejimi/Images/blob/main/wisdom.jpeg?raw=true
+  page: true
   socials:
-    x: https://twitter.com/Joklinztech
-    LinkedIn: https://www.linkedin.com/in/wisdom-nwokocha-76212a77/
-    
+    x: Joklinztech
+    github: https://github.com/wise4rmgod
 
-rejoice: 
-  name: Rejoice Anodo
+
+

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 .testimonialSection {
 background-color: #e5e5e5;
 padding: 3rem 0;
@@ -6,7 +8,7 @@ width: 100%;
 }
 
 .testimonialSection :global(.container) {
-max-width: none; /* override default Docusaurus max-width */
+max-width: none;
 }
 
 
@@ -24,8 +26,8 @@ max-width: none; /* override default Docusaurus max-width */
     border-radius: 20px;
     padding: 2rem 1.5rem;
     width: 100%;
-    max-width: 300px; /* was 250px */
-    min-height: 360px; /* optional: to increase height */
+    max-width: 300px; 
+    min-height: 360px; 
     text-align: center;
 }
   
@@ -40,13 +42,13 @@ margin-bottom: 1rem;
 }
 
 .testimonialHeader {
-font-family: monospace;
+font-family: "Space Mono", monospace;
 font-size: 1.2rem;
 margin-bottom: 0.5rem;
 }
 
 .testimonialText {
-font-family: monospace;
+font-family: "Space Mono", monospace;
 font-size: 0.9rem;
 line-height: 1.4;
 }

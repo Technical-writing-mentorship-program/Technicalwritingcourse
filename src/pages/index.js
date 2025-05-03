@@ -46,6 +46,7 @@ export default function Home() {
       <main>
         <HandsOnCourses />
         <BlogSection />
+        <TestimonialSection/>
       </main>
     </Layout>
   );

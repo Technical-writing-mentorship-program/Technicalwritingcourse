@@ -1,19 +1,64 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+seo:
+  label: SEO
+  permalink: /seo
+  description: SEO tage description
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+writing:
+  label: Writing
+  permalink: /writing
+  description: Writing tag description
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
+semrush:
+  label: Semrush
+  permalink: /semrush
+  description: Semrush tag description
 
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+gsoc:
+  label: GSoC
+  permalink: /gsoc
+  description: GSoC tag description
+
+open source:
+  label: Open Source
+  permalink: /open source
+  description: Open Source tag description
+
+google season of docs:
+  label: Google Season of Docs
+  permalink: /google season of docs
+  description: Google Season of Docs tag description
+
+vscode:
+  label: Vscode
+  permalink: /vscode
+  description: Blog posts related to vscode 
+
+coding:
+  label: Coding
+  permalink: /coding
+  description: Blog posts related to coding
+
+antora:
+  label: Antora
+  permalink: /antora
+  description: Blog posts related to coding
+
+guide:
+  label: Guide
+  permalink: /guides
+  description: guide
+
+docascode:
+  label: Doc as code
+  permalink: /docascode
+  description: doc as code
+
+writingcontest:
+  label: writing contest
+  permalink: /writingcontest
+  description: Writing contest
+
+documentation:
+  label: documentation
+  permalink: /documentation
+  description: Documentation

@@ -9,7 +9,7 @@ export default function Homepage() {
         <div className={styles.container}>
           <div className={styles.content}>
             <h1 className={styles.title}>
-              Welcome to the Technical Writing Mentorship Program
+              WELCOME TO THE TECHNICAL WRITING MENTORSHIP PROGRAM
             </h1>
             <a
               className={styles.button}
@@ -43,13 +43,9 @@ export default function Homepage() {
           <div className={styles.content}>
             <h1 className={styles.title}>DIRECT MENTORSHIP</h1>
             <p className={styles.subtitle} style={{}}>
-              Gear up for the Quarkwood Dash, one of the region's biggest
-              marathons. It takes runners on a scenic and challenging course
-              through the hilly borders, circling back to pass some of the
-              city's historic landmarks before the finish line at Quark Square.
-              <br />
-              <br />
-              It's going to be a rush, so you better be run-ready this August!
+            Our Direct Mentorship program is designed to provide personalized guidance and one-on-one support to aspiring or early-career technical writers. 
+            Whether you're transitioning into technical writing or looking to refine your skills, direct mentorship gives you access to experienced professionals who are 
+            here to help you grow with intention and clarity.
             </p>
           </div>
         </div>

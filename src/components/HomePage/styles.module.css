@@ -1,4 +1,5 @@
 .heroSection {
+  font-family: monospace;
   padding: 4rem 2rem;
 }
 
@@ -23,17 +24,17 @@
 }
 
 .title {
-  font-size: 4.5rem;
+  font-size: 5rem;
   font-weight: 900;
   margin-bottom: 1rem;
   color: #8c52ff;
+  font-family: monospace;
 }
 
 .subtitle {
   font-size: 2rem;
   font-weight: 600;
   margin-bottom: 2rem;
-  color: #333333;
 }
 
 .button {
@@ -88,18 +89,4 @@
   .button {
     margin: 0 auto;
   }
-}
-
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
-
-.features {
-  display: flex;
-  align-items: center;
-  padding: 2rem 0;
-  width: 100%;
-}
-
-.featureSvg {
-  height: 200px;
-  width: 200px;
 }

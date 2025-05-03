@@ -4,12 +4,14 @@ const HandsOnCourses = () => {
   const containerStyle = {
     padding: '4rem 1rem',
     textAlign: 'center',
+    backgroundColor: "#e5e5e5",
+    fontFamily: "monospace"
   };
 
   const headingStyle = {
     color: '#8A4DFF',
     fontSize: '2.5rem',
-    fontFamily: 'Roboto',
+    fontFamily: 'monospace',
     marginBottom: '3rem',
   };
 

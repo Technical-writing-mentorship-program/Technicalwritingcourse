@@ -20,7 +20,7 @@ This is the point in the course where you get your hands busy. You are not expec
 
 In this module, you will explore different API documentation tools and provide a comprehensive overview of their use cases. We’ll look into samples of how to use popular API documentation tools to generate comprehensive, accurate, and visually appealing documentation.
 
-# Introduction to API Documentation Tools:
+# Introduction to API Documentation Tools
 
 
 > **Creating a strong impression for your API starts with the Docs.**
@@ -45,7 +45,7 @@ Creating and maintaining detailed, accurate, and user-friendly API documentation
 There are two types of API documentation tools: **Interactive tools** and **Non-interactive tools**.
 
 
-## **Interactive Tools:** 
+## **Interactive Tools** 
 
 From the name “interactive”, it simply means that you can perform certain actions using the API directly on the platform. These interactions range from enabling users to test API endpoints and see responses in real-time to more advanced interactions like customizing API requests and testing use cases from a playground.
 
@@ -113,7 +113,7 @@ c. Fill in the Basic information of the sample Petstore API into their respectiv
 d. After you have created the API, you will see a preview. 
 
 
-## **Documenting on Swagger UI**
+## Documenting on Swagger UI
 
 There are two ways to edit and create parameters in Swagger UI
 
@@ -197,8 +197,7 @@ There are two ways to edit and create parameters in Swagger UI
               content:
                 application/json:
                   schema:
-                    $ref: '#/components/schemas/Error'
-    
+                    $ref: '#/components/schemas/Error'   
 ```
 
 3. Add the components: (The components define reusable schemas, responses and requests)
@@ -256,7 +255,7 @@ After adding new parameters, and changing the response body to suit your use cas
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe4HS0Xcyel9uN3JX4vKfPNFOtaPPjwwX3TDWjgXh6jmdR98v5KS7jLusAQmNuduj6I0n71M4eG-cBYJ-kocXQSv_gOo4U70iaNTjIKvf8QF2FCKfWaPuqvV0pcBzh_1wmzjjcJVpRlSSLIQPDXOfvEoMW4?key=x6JC3786hMvUjyoxaGXwbg)
 
 
-## **Non-Interactive Tools:** 
+## Non-Interactive Tools 
 
 Non-interactive tools are more focused on providing detailed API information and instruction. They do not directly support API testing on their platforms. 
 
@@ -273,32 +272,36 @@ Non-interactive tools are more focused on providing detailed API information and
 3. Non-interactive tools are more documentation-focused 
 
 
-## **Using Non-Interactive API Documentation Tools** 
+## Using Non-Interactive API Documentation Tools
 
 In this hands-on section, we will use the Petstore API as our example and demonstrate how to document it using Docusaurus, a powerful static site generator. 
 
 
-## **Docusaurus**
+## Docusaurus
 
 In this section, we will walk through how to use Docusaurus to create a static site for our API documentation. 
 
 
-## Install Docusaurus. [(See complete documentation here)](https://docusaurus.io/docs/installation)
+## Install Docusaurus 
+[(See complete documentation here)](https://docusaurus.io/docs/installation)
 
 a. Make sure you have Node js installed (>18.0.)
 [Download Nodejs here](https://nodejs.org/en/download/package-manager/current) 
 
 b. Create a new Docusaurus project and navigate to the project directory
+
 ```sh
     npx create-docusaurus@latest my-website classic
     cd my-website
 ```
 c.  Install dependencies
+
 ```sh
     npm install
 ```
 
 d. Start the development server
+
 ```sh
 npm start
 ```
@@ -321,16 +324,22 @@ code .
 
 b. In the `docs` folder, you will see `intro.md`, this is where we will be adding our API documentation. 
 
-**Note: Docusarus supports Markdown and React pages.** 
+:::info
+Docusarus supports Markdown and React pages
+:::
 
-    ---
-    sidebar_position: 1
-    ---
+---
+sidebar_position: 1
+---
+
+
+
 ## API Documentation Intro
 This is a sample Petstore API endpoint built on **Docusaurus in less than 5 minutes**.
     
 #### Description of the API
-```json showLineNumbers
+
+```yaml showLineNumbers
     id: petstore-api
     title: Petstore API Documentation
     description: API documentation for the Petstore sample API.
@@ -378,8 +387,8 @@ Next, document the API endpoints. Include the paths, HTTP methods, parameters, a
                 application/json:
                   schema:
                     $ref: '#/components/schemas/Error'
-    ```
-    
+```
+  
 ##### Get Pet by ID
 
 ```yaml showLineNumbers
@@ -412,11 +421,14 @@ Next, document the API endpoints. Include the paths, HTTP methods, parameters, a
                     $ref: '#/components/schemas/Error'
 ```
 ## Add Component Schemas
+
 Schemas are reusable codes. They help in defining the structure of the data returned by the API. 
 
-#### We are going to include the reusable schemas for `Pet` and `Error`.
+We are going to include the reusable schemas for `Pet` and `Error`.
 
-### **Pet Schema**
+
+### Pet Schema
+
 ```yaml showLineNumbers
     components:
       schemas:
@@ -450,7 +462,7 @@ Schemas are reusable codes. They help in defining the structure of the data retu
 ```
 
 
-## **Preview of the API Documentation**
+## Preview of the API Documentation
 
 **Live View of the site:** [Petstore Sample API](https://petstore-api-docs.vercel.app/)
 This is how your API documentation site should look like:
@@ -464,22 +476,19 @@ There are several or tons of API documentation tools. **We’ll not be deciding 
 
 **Let's discuss those factors:**
 
-
 - **Usability:** Is the tool easy to use and understand? Your choice of API documentation tool, especially as a beginner, should have an intuitive interface, easy navigation, and good support/documentation.
-
 
 - **Functionality:** If you require additional functionalities like a search functionality to be part of your API docs, then your choice of API documentation tool must support that.
 
-
 - **Customization Options:** Your choice of API documentation tool also depends on the ability to add custom branding and styling.
-
 
 - **Integration Capabilities:** Does the tool integrate with existing development tools or support continuous integration and development (CI/CD) pipelines? If these features are necessary for your project, then you should consider tools that support them.
 
-
 - **Documentation Format Support:** When choosing a documentation tool, it is important to know its compatibility with different file formats (Markdown, HTML, JSON). 
 
-**Note:** It is advisable to choose a tool with the flexibility to export documentation in different formats.
+:::info
+It is advisable to choose a tool with the flexibility to export documentation in different formats.
+:::
 
 Other factors to consider depending on your usage include the cost/pricing model, scalability, support for version control, and access control features.
 
@@ -487,9 +496,9 @@ Other factors to consider depending on your usage include the cost/pricing model
 Here are popular API documentation tools and their unique features.
 **Key:**
 
-- **High:** The tool supports extensive capabilities and offers advanced features.
-- **Moderate:** The tool supports standard capabilities and includes essential features.
-- **Low:** The tool supports few or no capabilities and may lack essential features.
+- **High**: The tool supports extensive capabilities and offers advanced features.
+- **Moderate**: The tool supports standard capabilities and includes essential features.
+- **Low**: The tool supports few or no capabilities and may lack essential features.
 
 
 | **S/N** | **Tools**              | **Ease of Use** | **Search Functionality** | **Customization** | **Integration** | **Format Support**       |

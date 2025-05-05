@@ -87,7 +87,6 @@ An example of a resource in REST looks like this:
 ```bash
 https://example.com/api/v3/users
 ```
-
 From the URL above, the resource is identified by `users`. That means if you query this URL, you'll be accessing a collection of user-related data.
 <img 
   src="https://paper-attachments.dropboxusercontent.com/s_B5F8B435DE25A6DF1785579FB9C6AE24D78A3A4F62F70A8C7C6528E16C1C269E_1722581421264_REST.png" 
@@ -125,7 +124,7 @@ Below is a breakdown of this request:
 
 The server will process this request and respond with the following JSON data:
 
-```{1-9} showLineNumbers
+```json {1-9} showLineNumbers
 HTTP/1.1 200 OK
 Content-Type: application/json
 
@@ -149,6 +148,7 @@ With GraphQL, clients can specify the structure of the response, making it possi
 
 ### How does GraphQL work?
 In GraphQL, you interact with a single endpoint, typically `/graphql`. You send a query specifying the exact data you need, and the server responds with the data in the requested format.
+
 <img 
   src="https://paper-attachments.dropboxusercontent.com/s_B5F8B435DE25A6DF1785579FB9C6AE24D78A3A4F62F70A8C7C6528E16C1C269E_1722581449993_GraphQL.png"
   alt="clear image" 
@@ -157,10 +157,10 @@ In GraphQL, you interact with a single endpoint, typically `/graphql`. You send 
 
 GraphQL uses a schema to define the types of data and the relationships between them, ensuring that queries are valid and return predictable results.
 
-### **Structure of GraphQL**
+### Structure of GraphQL
 From our book example, imagine the client sends a query to the GraphQL endpoint instead:
 
-```{1-7} showLineNumbers
+``` {1-7} showLineNumbers
 query {
     book(isbn: "978-3-16-148410-0") {
         title
@@ -178,7 +178,7 @@ Below is a breakdown of this query:
 
 The server will process this query and respond with the following JSON data:
 
-```{1-9} showLineNumbers
+```json {1-9} showLineNumbers
 {
     "data": {
         "book": {
@@ -192,9 +192,9 @@ The server will process this query and respond with the following JSON data:
 
 Below is an explanation of the response:
 
-- `"data"`: The root field containing the data requested by the query.
-- `"book"`: The field corresponding to the `book` query.
-- `"title"`, `"author"`, `"year"`: The specific fields requested in the query, with their respective values.
+- `data`: The root field containing the data requested by the query.
+- `book`: The field corresponding to the `book` query.
+- `title`, `author`, `year`: The specific fields requested in the query, with their respective values.
 
 ### How GraphQL Differs from REST
 GraphQL allows clients to request exactly the data they need, whereas REST typically returns a fixed structure of data. This can result in over-fetching or under-fetching data with REST.

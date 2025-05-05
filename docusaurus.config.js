@@ -71,6 +71,8 @@ const config = {
         },
         theme: {
           customCss: './src/css/custom.css',
+
+          
         },
       }),
     ],
@@ -102,6 +104,11 @@ const config = {
             position: 'right',
           },
         ],
+      },
+      //TOC
+      tableOfContents: {
+        minHeadingLevel: 2,
+        maxHeadingLevel: 5,
       },
       footer: {
         style: 'dark',

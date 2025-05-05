@@ -8,25 +8,24 @@ keywords: ["API", "Components", "Endpoints", "Methods", "Requests", "Responses",
 slug: /api-components
 ---
 
-
-# Components of an API
 In this module, we will learn about the **key components of an API (Application Programming Interface)** and how they function together to enable communication between different software systems.
 By breaking down the core elements that make up an API, you’ll better understand how APIs facilitate seamless interaction between applications. This knowledge is fundamental to effectively using or developing APIs.
 
 
-# Getting Started
 
-**First, you will start with the Top-Bottom approach:**
+## Getting Started
+
+**First, you will start with the Top-Bottom approach**
 
 Break away those tiny chunks, aka components, from a typical API sample and **explain** each of these components. Then, **put them back together** again to form the API.
 
 **Sounds fun, right?**
 
-**Let’s Roll:**
+**Let’s Roll**
 
 
 
-## **Sample API in a JSON format**
+## Sample API in a JSON format
 
 
 > If you’ve been following the course in logical order (which we hope you have), then you’ll already be familiar with the **JSON format**. As always, you still use our **Sample Petstore API**, just like in the previous examples.
@@ -34,7 +33,7 @@ Break away those tiny chunks, aka components, from a typical API sample and **ex
 
 **Sample Petstore API**
 
-```json showLineNumber
+```json showLineNumbers
     {
       "openapi": "3.0.0",
       "info": {
@@ -196,20 +195,22 @@ Break away those tiny chunks, aka components, from a typical API sample and **ex
           "example": "application/json"
         }
       }
-    }
-    
+    }    
 ```
+
+
+   
 
 That’s a lot to take in; to be honest, the whole JSON format and all the tags make it look even more intimidating. 
 
-However, this is what a typical API sample would look like. To document an API, you **MUST** understand its **components****.** 
+However, this is what a typical API sample would look like. To document an API, you **MUST** understand its **components**. 
 
 
 ## Explaining Each of the API Components
 
 Since you are using the top-down approach that I mentioned, you will start from the largest component to the smallest based on their **SCOPE AND PURPOSE NOT SIZE**
 
-**The Components of an API:**
+**The Components of an API**
 
 
 1. Base URL
@@ -225,7 +226,7 @@ Since you are using the top-down approach that I mentioned, you will start from 
 ****
 
 
-## BASE URL:
+### Base URL
 
 In order not to jump the boat by first explaining what a **Base URL** is, you need to understand why APIs have **URLs** and how they are structured. 
 
@@ -253,7 +254,7 @@ An **API URL** has three parts:
 
 
 
-## AUTHORIZATION:
+### Authorization
 
 For security reasons, not everyone is allowed to access certain areas in an API especially ones that contain sensitive information. API Data is protected by adding an Authentication Layer which is normally called **Auth**. This Authentication Layer then **verifies** that the person trying to make a request has permission **using Authorization.** 
 
@@ -267,63 +268,59 @@ Once you have gotten the password nothing happens except you key in the password
 When that is done, you are in. 
 
 
-## **Types of Authentication** 
+### Types of Authentication
 
 
 1. **OAuth:** OAuth involves using a third-party provider to grant access so that you don't have to share your credentials with the API provider. An example is using your Google account to sign up for different platforms. This is a typical example of an OAuth authentication and how it works. 
 
 
 2. **JWT Bearer:** This uses JSON Web Tokens (JWTs), where the server issues a signed JWT to the client, and the client includes this token in the Authorization header of requests; the server then verifies the token's signature to ensure its validity and authenticity.
-****
 
 3. **API key:** An API key is a unique identifier issued by the API providers themselves. When making a request to a server that uses an API key, you have to include the API key as a parameter in the request body. 
 
 
 4. **Basic Oauth:** This is a simple authentication method that allows you to send HTTP requests by providing a username and password in plain text. 
-****
 
 
-**API Authentication in our** **Sample Petstore API**
-
-```json showLineNumber
-      "components": {
-        "securitySchemes": {
-          "ApiKeyAuth": {
-            "type": "apiKey",
-            "in": "header",
-            "name": "X-API-Key"
-          }
-        },
-    .
-    .
-    .
-    .
-    "security": [
-        {
-          "ApiKeyAuth": []
-        }
-      ],
-   ``` 
+**API Authentication in our Sample Petstore API**
+```json showLineNumbers
+{
+  "components": {
+    "securitySchemes": {
+      "ApiKeyAuth": {
+        "type": "apiKey",
+        "in": "header",
+        "name": "X-API-Key"
+      }
+    }
+  },
+  "security": [
+    {
+      "ApiKeyAuth": []
+    }
+  ]
+}
+```
 
 Let’s understand the situation going on above. This is a snippet of how Authorization is used in an API document. 
 
-In the component `**securitySchemes**`, the type of authentication is defined as `**apiKey**`. This means that the API requires an API key for security.
+In the component `securitySchemes`, the type of authentication is defined as `apiKey`. This means that the API requires an API key for security.
 
 Here’s a breakdown:
 
-- `**type: "apiKey"**`: Specifies that the API uses an API key for authentication.
+- `type`: `apiKey`: Specifies that the API uses an API key for authentication.
 
 
-- `**in: "header"**`: Indicates that the API key should be included in the request header.
+- `in`: `header`: Indicates that the API key should be included in the request header.
 
 
-- `**name: "X-API-Key"**`: The name of the header where the API key should be provided.
+- `name`: `X-API-Key`: The name of the header where the API key should be provided.
 
-In the `**security**` section, the `**ApiKeyAuth**` scheme is applied to the entire API or specific endpoints
+In the `security` section, the `ApiKeyAuth` scheme is applied to the entire API or specific endpoints
 
 
 
-## ENDPOINTS
+### Endpoints
 
 An API Endpoint is a URL. We have seen this in the diagram showing the parts of an API URL. 
 So the question is, what does an endpoint do? Well, we can say that it is the last destination of the API client on route to meet the API server.
@@ -331,9 +328,9 @@ So the question is, what does an endpoint do? Well, we can say that it is the la
 An API endpoint is the location where the request by the API client is sent to retrieve the resource from the server. An application can have multiple endpoints. Each of these endpoints retrieves a specific resource. Since API endpoints lead to the specific location of the resource, we use them to test the API response. 
 
 
-**API Endpoints in our** **Sample Petstore API**
+**API Endpoints in our Sample Petstore API**
 
-```
+``` {1-3} showLineNumbers
     /pets
     
     /pets/{petId}
@@ -343,11 +340,11 @@ An API endpoint is the location where the request by the API client is sent to r
 
 
 
-## METHODS (HTTP METHODS):
+### Methods (HTTP Methods)
 
 HTTP methods refer to the kind of actions a Client wants to take on a resource. These actions can involve retrieving, deleting, or updating certain information.
 
-**There are 5 HTTP Methods:**
+**There are 5 HTTP Methods**
 
 1. GET 
 2. POST
@@ -355,25 +352,24 @@ HTTP methods refer to the kind of actions a Client wants to take on a resource. 
 4. PUT
 5. PATCH
 
-
-## GET
+#### GET
 
 The **GET** method is used to request data from a specified resource. From our Sample Petstore API, you can use the `GET` method to retrieve a list of pets or get details about a specific pet.
 
 **Endpoint:** `/pets`
 **Description:** Fetches a list of all pets in the store. You can optionally limit the number of pets returned using a query parameter.
 
-**Example Request:**
+**Example Request**
 
-```
+``` {1-3} showLineNumbers
     GET https://api.petstore.example.com/v1/pets?limit=10
     X-API-Key: your-api-key-here
     Accept: application/json
 
 ```
 
-**Example Response:**
-```json showLineNumber
+**Example Response**
+```json showLineNumbers
     [
       {
         "id": 1,
@@ -386,20 +382,18 @@ The **GET** method is used to request data from a specified resource. From our S
         "tag": "cat"
       }
     ]
-
-
 ```
 
-## POST
+#### POST
 
 The `POST` method is used to create a new resource in the specified resource collection. In the context of the Sample Petstore API, you can use the `POST` method to add a new pet to the store.
 
 **Endpoint:** `/pets`
 **Description:** Adds a new pet to the store.
 
-**Example Request:**
+**Example Request**
 
-```json showLineNumber
+```json showLineNumbers
     POST https://api.petstore.example.com/v1/pets
     X-API-Key: your-api-key-here
     Content-Type: application/json
@@ -411,9 +405,8 @@ The `POST` method is used to create a new resource in the specified resource col
     }
 ```
 
-**Example Response:**
-```json showLineNumber
-
+**Example Response**
+```json showLineNumbers
     {
       "id": 3,
       "name": "Bunny",
@@ -422,16 +415,16 @@ The `POST` method is used to create a new resource in the specified resource col
 ```
 
 
-## PU**T:** 
+#### PUT
 
 The `PUT` method is used to update an existing resource or create a new resource if it does not already exist.
 
 **Endpoint:** `/pets/{petId}`
 **Description:** Updates the details of an existing pet by its ID.
 
-**Example Request:**
+**Example Request**
 
-```json showLineNumber
+``` {1-9} showLineNumbers
     PUT https://api.petstore.example.com/v1/pets/1
     X-API-Key: your-api-key-here
     Content-Type: application/json
@@ -443,9 +436,9 @@ The `PUT` method is used to update an existing resource or create a new resource
     }
 ```
 
-**Example Response:**
+**Example Response**
 
-```json showLineNumber
+```json showLineNumbers
     {
       "id": 1,
       "name": "Doggo Updated",
@@ -454,27 +447,27 @@ The `PUT` method is used to update an existing resource or create a new resource
  ```
 
 
-## DELETE
+#### DELETE
 
 The `DELETE` method is used to remove a resource from the server. From our Sample Petstore API, you can use the `DELETE` method to remove a specific pet from the store.
 
 **Endpoint:** `/pets/{petId}`
 **Description:** Deletes a pet from the store by its ID.
 
-**Example Request:**
+**Example Request**
 
-```{1-2} showLineNumber
+``` {1-2} showLineNumbers
     DELETE https://api.petstore.example.com/v1/pets/1
     X-API-Key: your-api-key-here
 ```
 
-**Example Response:**
+**Example Response**
 
-```{1} showLineNumber
+``` {1} showLineNumbers
     HTTP/1.1 204 No Content
 ```
 
-## REQUEST BODY: 
+### Request Body
 
 The request body contains the data to be sent to the API. It has to be in a specified format such as JSON, YAML, XML, etc.  The request body is usually specified under the `/path`
 
@@ -486,7 +479,7 @@ The request body contains the data to be sent to the API. It has to be in a spec
 
 Since we are using a `GET` method, the response body is not clearly defined. However, if we are using a `POST` request, the response body will be given as:
 
-```{1-13} showLineNumber
+```json showLineNumbers
     {
       "requestBody": {
         "description": "Pet object that needs to be added",
@@ -505,11 +498,11 @@ Since we are using a `GET` method, the response body is not clearly defined. How
 
 
 
-## RESPONSE:
+### Response
 
 Response is the data returned by the API after processing a request. The Response is made up of three parts: The Response Header, the Response body and Status code. We will cover each of them individually. 
 
-**RESPONSE BODY:** 
+**Response Body** 
 The Response body is the actual content returned after we send our request. 
 
 
@@ -523,7 +516,7 @@ The Response body is the actual content returned after we send our request.
 
 
 
-## REQUEST HEADERS:
+### Request Headers
 
 A request header provides additional details on the format and type of the data in the request body.  The request header holds important metadata about the request body such as the format request should be sent and authorization header. 
 
@@ -538,7 +531,7 @@ Here are some types of request headers:
 
 **Example of Request Header from our Sample Petstore API**
 
-```{1-17} showLineNumber
+```json showLineNumbers
     "headers": {
         "Accept": {
           "description": "Media type that is acceptable for the response",
@@ -558,7 +551,7 @@ Here are some types of request headers:
     }
 ```
 
-## **RESPONSE HEADERS:**
+### Response Header
 
 Headers in general provide additional information about a component. In this case, a response header provides additional details on the format and type of the response. 
 
@@ -574,7 +567,7 @@ Here are some types of response headers:
 
 **Example of Response Header from our Sample Petstore API**
 
-```{1-10} showLineNumber
+```json showLineNumbers
     "Content-Type": {
           "description": "The MIME type of the body of the request",
           "schema": {
@@ -588,7 +581,7 @@ Here are some types of response headers:
 ```
 
 
-## STATUS CODES:
+### Status Codes
 
 When you send a request, the API returns a response. Now the response may not always be what you expected. 
 Since an API always returns a response whether bad or good, Status codes are a necessity. Status codes are numbers that help you diagnose the situation of your responses. 

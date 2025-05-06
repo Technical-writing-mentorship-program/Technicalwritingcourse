@@ -211,7 +211,7 @@ Readers can click the link to jump to the content of the footnote at the bottom 
 ``` markdown showLineNumbers{1-4}
   This is a footnote[^1]and this too is another footnote[^2]
   [^1]: This is the reference to the foot note
-  [^2]:this is another reference
+  [^2]: This is another reference
 ```
 
 The output will look like this:
@@ -221,13 +221,7 @@ The output will look like this:
 
   This is a footnote[^1] and this too is another footnote[^2].
 
-  [^1]: This is the reference to the first footnote.
-  [^2]: This is the reference to the second footnote.
-
 </details>
-
-
-
 
 ## Code Blocks
 
@@ -271,7 +265,7 @@ This is also known as a multi-line code block; it is used to create code blocks 
 <details>
   <summary> Preview</summary>
   <p>
-     ```
+     ```json showLineNumbers
      {
      'firstName':'James';
      'lastName':'jakes';
@@ -280,6 +274,7 @@ This is also known as a multi-line code block; it is used to create code blocks 
        ```
    </p>
 </details>
+
 > To improve readability, add a blank line before and after code blocks.
 To display triple backticks in a fenced code block, you can wrap them inside four backticks(````)
 
@@ -301,7 +296,7 @@ To display triple backticks in a fenced code block, you can wrap them inside fou
    <summary> Preview </summary>
    <p>
        ````
-       ```
+       ```json
        {
          'firstName':'James';
           'lastName':'jakes';
@@ -309,11 +304,11 @@ To display triple backticks in a fenced code block, you can wrap them inside fou
         }
       ```
      ````
-
-     > you'll notice that the code block is wrapped in three backticks
-
     </p>
 </details>
+
+> you'll notice that the code block is wrapped in three backticks
+
 
 #### Indented Code Block
 
@@ -367,7 +362,7 @@ The rendered output would be:
 <details>
   <summary> Preview </summary>
   <p>
-      ```javascript
+      ```javascript showLineNumbers
       function greet(name) {
        if (name) {
        console.log(`Hello, ${name}!`);
@@ -578,7 +573,7 @@ Keep in mind that not all Markdown processors render definition lists. You will 
   Second Term
   : This is the definition of the second term
 
-Third Term
+  Third Term
   : This is the definition of the third term
   : This is another definition of the third term.
 ```

@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Geist:wght@100..900&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+
 .heroSection {
-  font-family: monospace;
   padding: 4rem 2rem;
 }
 
@@ -21,6 +22,7 @@
   max-width: 600px;
   text-align: left;
   margin-left: 3rem;
+  color: "#444";
 }
 
 .title {
@@ -28,13 +30,17 @@
   font-weight: 900;
   margin-bottom: 1rem;
   color: #8c52ff;
-  font-family: monospace;
+  font-style: bold;
+  line-height: 1.5;
+  font-family: Bebas Neue, "Arial";
 }
 
 .subtitle {
-  font-size: 2rem;
-  font-weight: 600;
+  font-size: 1.8rem;
+  font-weight: 500;
   margin-bottom: 2rem;
+  font-style: Instrument Sans, "Arial";
+  color: '#444';
 }
 
 .button {
@@ -46,6 +52,7 @@
   border-radius: 8px;
   font-weight: bold;
   font-size: 1rem;
+  font-style: Instrument Sans, "Arial";
   transition: background-color 0.3s ease;
 }
 

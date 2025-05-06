@@ -155,6 +155,11 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
     }),
+    
+  stylesheets: [
+    'https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Geist:wght@100..900&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap'
+  ]
 };
 
 export default config;
+

@@ -40,13 +40,15 @@ margin-bottom: 1rem;
 }
 
 .testimonialHeader {
-font-family: monospace;
-font-size: 1.2rem;
+font-family: Bebas Neue, "Arial";
+font-size: 2rem;
 margin-bottom: 0.5rem;
 }
 
 .testimonialText {
-font-family: monospace;
-font-size: 0.9rem;
-line-height: 1.4;
+font-family: Instrument Sans, "Arial";
+font-size: 1rem;
+line-height: 1.6;
+
+
 }

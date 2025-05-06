@@ -5,13 +5,12 @@ const HandsOnCourses = () => {
     padding: '4rem 1rem',
     textAlign: 'center',
     backgroundColor: "#e5e5e5",
-    fontFamily: "monospace"
   };
 
   const headingStyle = {
     color: '#8A4DFF',
     fontSize: '2.5rem',
-    fontFamily: 'monospace',
+    fontFamily: "Bebas Neue",
     marginBottom: '3rem',
   };
 
@@ -21,6 +20,7 @@ const HandsOnCourses = () => {
     gap: '2rem',
     flexWrap: 'wrap',
     marginBottom: '2rem',
+    fontFamily: "Instrument Sans",
   };
 
   const cardStyle = {
@@ -39,8 +39,8 @@ const HandsOnCourses = () => {
   };
 
   const titleStyle = {
-    fontFamily: 'Roboto',
-    fontSize: '1.5rem',
+    fontFamily: "Bebas Neue",
+    fontSize: '2rem',
     fontWeight: 'bold',
     color: 'black',
     margin: '0.5rem 0',
@@ -60,6 +60,7 @@ const HandsOnCourses = () => {
     fontWeight: 'bold',
     border: 'none',
     cursor: 'pointer',
+    fontFamily: "Instrument Sans",
   };
 
   return (

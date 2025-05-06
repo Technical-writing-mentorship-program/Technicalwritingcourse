@@ -7,8 +7,7 @@ import TechnicalWriting from './Image/TechnicalWriting.jpg'
 const BlogSection = () => {
   const sectionStyle = {
     padding: '60px 20px',
-    textAlign: 'center',
-    fontFamily: 'monospace'
+    textAlign: 'center'
   };
 
   const headingStyle = {
@@ -16,7 +15,8 @@ const BlogSection = () => {
     color: '#8A2BE2',
     fontWeight: 'bold',
     marginBottom: '40px',
-    letterSpacing: '2px'
+    letterSpacing: '2px',
+    fontFamily: "Bebas Neue"
   };
 
   const blogsContainer = {
@@ -39,10 +39,11 @@ const BlogSection = () => {
   };
 
   const blogTitle = {
-    fontSize: '1.1rem',
+    fontSize: '1.5rem',
     fontWeight: 'bold',
     color: '#8A2BE2',
-    lineHeight: '1.5'
+    lineHeight: '1.5',
+    fontFamily: "Bebas Neue",
   };
 
   const buttonStyle = {
@@ -88,7 +89,7 @@ const BlogSection = () => {
             style={blogImage}
           />
           <p style={blogTitle}>
-            TECHNICAL WRITIN FOR BEGINNERS.
+            TECHNICAL WRITING FOR BEGINNERS.
           </p>
         </div>
       </div>

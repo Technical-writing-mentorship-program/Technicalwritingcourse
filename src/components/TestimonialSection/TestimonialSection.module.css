@@ -1,54 +1,49 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
 .testimonialSection {
-background-color: #e5e5e5;
-padding: 3rem 0;
-text-align: center;
-width: 100%;
+  background-color: #e5e5e5;
+  padding: 3rem 0;
+  text-align: center;
+  width: 100%;
 }
 
 .testimonialSection :global(.container) {
-max-width: none; 
+  max-width: none;
 }
-
 
 .testimonialBox {
-    display: flex;
-    justify-content: center;
-    padding: 1rem;
-    margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  margin: 1rem 0;
 }
-  
 
 .testimonialContent {
-    background-color: #a259ff;
-    color: white;
-    border-radius: 20px;
-    padding: 2rem 1.5rem;
-    width: 100%;
-    max-width: 300px;
-    min-height: 360px; 
-    text-align: center;
+  background-color: #a259ff;
+  color: white;
+  border-radius: 20px;
+  padding: 2rem 1.5rem;
+  width: 100%;
+  max-width: 300px;
+  min-height: 360px;
+  text-align: center;
 }
-  
 
 .testimonialImg {
-width: 100px;
-height: 100px;
-object-fit: cover;
-border-radius: 50%;
-border: 5px solid white;
-margin-bottom: 1rem;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid white;
+  margin-bottom: 1rem;
 }
 
 .testimonialHeader {
-font-family: "Space Mono", monospace;
-font-size: 1.2rem;
-margin-bottom: 0.5rem;
+  font-family: monospace;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
 }
 
 .testimonialText {
-font-family: "Space Mono", monospace;
-font-size: 0.9rem;
-line-height: 1.4;
+  font-family: monospace;
+  font-size: 0.9rem;
+  line-height: 1.4;
 }

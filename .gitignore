@@ -1,6 +1,6 @@
 # Dependencies
 /node_modules
-.yarn/
+
 
 # Production
 /build
@@ -20,5 +20,3 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-.pnp.cjs
-.pnp.loader.mjs

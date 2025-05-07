@@ -1,4 +1,6 @@
-
+import API from './Image/API.png'
+import xml from './Image/xml.png'
+import writing from './Image/writing.png'
 
 const HandsOnCourses = () => {
   const containerStyle = {
@@ -33,14 +35,14 @@ const HandsOnCourses = () => {
   };
 
   const iconStyle = {
-    fontSize: '3rem',
-    color: '#8A4DFF',
+    width: '60px',
+    height: '60px',
     marginBottom: '1rem',
   };
 
   const titleStyle = {
     fontFamily: "Bebas Neue",
-    fontSize: '2rem',
+    fontSize: '1.5rem',
     fontWeight: 'bold',
     color: 'black',
     margin: '0.5rem 0',
@@ -61,6 +63,8 @@ const HandsOnCourses = () => {
     border: 'none',
     cursor: 'pointer',
     fontFamily: "Instrument Sans",
+    textDecoration: 'none',
+    display: 'inline-block',
   };
 
   return (
@@ -68,38 +72,51 @@ const HandsOnCourses = () => {
       <h2 style={headingStyle}>HANDS-ON COURSES</h2>
 
       <div style={coursesContainerStyle}>
-        {/* Card 1 */}
+        {/* Card 1: API Documentation */}
         <div style={cardStyle}>
-          <div style={iconStyle}>🧩</div>
+          <img 
+            src={API} 
+            alt="API Documentation Icon" 
+            style={iconStyle} 
+          />
           <div style={titleStyle}>API DOCUMENTATION</div>
           <p style={descriptionStyle}>
-            Enhance your technical writing skills by how learning to create clear and effective API documentation
+            Enhance your technical writing skills by learning how to create clear and effective API documentation.
           </p>
-          <button style={buttonStyle}>EXPLORE COURSE</button>
+          <a href="/docs/category/api-documentation-course" style={buttonStyle}>EXPLORE COURSE</a>
         </div>
 
-        {/* Card 2 */}
+        {/* Card 2: AsciiDoc */}
         <div style={cardStyle}>
-          <div style={iconStyle}>📄</div>
-          <div style={titleStyle}>ASCIIDOC COURSE</div>
+          <img 
+            src={xml} 
+            alt="Markup Language" 
+            style={iconStyle} 
+          />
+          <div style={titleStyle}>Markup Languages</div>
           <p style={descriptionStyle}>
-            Dive into the AsciiDoc Course to master this powerful markup language, enabling you to produce professional documents that are easily integrated into your workflow
+            Enhance your technical writing skills by learning how to use markup languages to structure and present content clearly and efficiently
           </p>
-          <button style={buttonStyle}>EXPLORE COURSE</button>
+          <a href="/docs/category/markup-languages" style={buttonStyle}>EXPLORE COURSE</a>
         </div>
 
-        {/* Card 3 */}
+        {/* Card 3: Technical Writing */}
         <div style={cardStyle}>
-          <div style={iconStyle}>📑</div>
+          <img 
+            src={writing} 
+            alt="Technical Writing Icon" 
+            style={iconStyle} 
+          />
           <div style={titleStyle}>TECHNICAL WRITING COURSE</div>
           <p style={descriptionStyle}>
-            Develop the essential skills needed to convey complex information clearly and effectively in our Technical Writing Course
+            Develop essential skills to convey complex information clearly and effectively in our Technical Writing Course.
           </p>
-          <button style={buttonStyle}>EXPLORE COURSE</button>
+          <a href="/docs/category/technical-writing-course" style={buttonStyle}>EXPLORE COURSE</a>
         </div>
       </div>
 
-      <button style={buttonStyle}>GO TO ACADEMY</button>
+      {/* Go to the Academy session */}
+      <a href="/docs/category/technical-writing-course" style={buttonStyle}>GO TO ACADEMY</a>
     </div>
   );
 };

@@ -26,10 +26,12 @@ const Testimonials = [
 
 function Testimony({ name, testimony, img }) {
   return (
-    <div className={clsx(styles.testimonialBox, 'col col--4')}>
+    <div className={clsx(styles.testimonialBox, "col col--4")}>
       <div className={styles.testimonialContent}>
         <img src={img} alt={name} className={styles.testimonialImg} />
-        <Heading as="h2" className={styles.testimonialHeader}>{name}</Heading>
+        <Heading as="h2" className={styles.testimonialHeader}>
+          {name}
+        </Heading>
         <p className={styles.testimonialText}>{testimony}</p>
       </div>
     </div>
@@ -39,7 +41,7 @@ function Testimony({ name, testimony, img }) {
 export default function TestimonialSection() {
   return (
     <div className={styles.testimonialSection}>
-      <div className='container'>
+      <div className="container">
         <div className="row">
           {Testimonials.map((props, idx) => (
             <Testimony key={idx} {...props} />

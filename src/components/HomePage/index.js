@@ -4,7 +4,7 @@ import styles from "./styles.module.css";
 export default function Homepage() {
   return (
     <>
-      {}
+      { }
       <section className={styles.heroSection}>
         <div className={styles.container}>
           <div className={styles.content}>
@@ -22,7 +22,7 @@ export default function Homepage() {
           </div>
           <div className={styles.imageContainer}>
             <img
-              src="https://res.cloudinary.com/dmvphwhvc/image/upload/v1746098734/Untitled_design__3_-removebg-preview_uudx1p.png"
+              src="https://res.cloudinary.com/dmvphwhvc/image/upload/v1746631442/c4o3ioll12krqycoxnmt.png"
               alt="Technical writing illustration"
               className={styles.image}
             />
@@ -30,12 +30,12 @@ export default function Homepage() {
         </div>
       </section>
 
-      {}
+      { }
       <section className={styles.heroSection}>
         <div className={styles.container}>
           <div className={styles.imageContainer}>
             <img
-              src="https://res.cloudinary.com/dmvphwhvc/image/upload/v1746103162/directmentorshipTMWP-removebg-preview_z1edw9.png"
+              src="https://res.cloudinary.com/dmvphwhvc/image/upload/v1746632400/Discussion-amico-removebg-preview_wt4lak.png"
               alt="Direct mentorship"
               className={styles.image}
             />
@@ -43,9 +43,9 @@ export default function Homepage() {
           <div className={styles.content}>
             <h1 className={styles.title}>DIRECT MENTORSHIP</h1>
             <p className={styles.subtitle} style={{}}>
-            Our Direct Mentorship program is designed to provide personalized guidance and one-on-one support to aspiring or early-career technical writers. 
-            Whether you're transitioning into technical writing or looking to refine your skills, direct mentorship gives you access to experienced professionals who are 
-            here to help you grow with intention and clarity.
+              Our Direct Mentorship program is designed to provide personalized guidance and one-on-one support to aspiring or early-career technical writers.
+              Whether you're transitioning into technical writing or looking to refine your skills, direct mentorship gives you access to experienced professionals who are
+              here to help you grow with intention and clarity.
             </p>
           </div>
         </div>

@@ -196,58 +196,6 @@ Table generators can be very useful for creating large and complex tables as it 
 
 ---
 
-## Footnotes
-
-Footnotes allow you to add notes and reference them while keeping your content organized and not disrupting the reader's flow. When creating footnotes in Markdown, the process is straightforward.
-
-Add a caret symbol (^) in a square bracket`[]` followed by a number or word.
-Add the footnote using another caret and number inside brackets with a colon and text `([^1]: My footnote.)`
-This method allows you to add notes and references without cluttering the body of the document.
-
-Readers can click the link to jump to the content of the footnote at the bottom of the page.
-
-**Examples:**
-
-``` markdown showLineNumbers{1-4}
-  This is a footnote[^1]and this too is another footnote[^2]
-  [^1]: This is the reference to the foot note
-  [^2]: This is another reference 
-```
-
-The output will look like this:
-<details>
-  <summary>Preview</summary>
-
-  This is a footnote[^1] and this too is another footnote[^2].
-  [^1]: This is the reference to the first footnote.
-  [^2]: This is the reference to the second footnote.
-</details>
-
-The footnotes will be displayed at the bottom of the page, allowing us to easily access them by scrolling or clicking on the specific footnote.
-
-Here is another example using a word as a footnote identifier:
-
-```markdown showLineNumbers
-
-  Regular exercise is known to boost overall health, including improving mood and energy levels[^1].
-  Even just a short daily walk can make a big difference[^bignote].
- 
-  [^1]:Example: Exercise releases endorphins, which are natural mood lifters.
-  [^bignote]: A 30-minute walk each day can improve cardiovascular health. It’s a simple habit that can also help with weight management, reduce stress, and increase overall fitness. Even if you have a busy schedule, fitting in a quick walk can lead to significant long-term benefits
-```
-The output will look like this
-
-<details>
-  <summary>Preview</summary>
-
-  Regular exercise is known to boost overall health, including improving mood and energy levels[^1].
-  Even just a short daily walk can make a big difference[^bignote].
- 
-  [^1]:Example: Exercise releases endorphins, which are natural mood lifters.
-  [^bignote]: A 30-minute walk each day can improve cardiovascular health. It’s a simple habit that can also help with weight management, reduce stress, and increase overall fitness. Even if you have a busy schedule, fitting in a quick walk can lead to significant long-term benefits
-
-</details>
-
 ## Code Blocks
 
 Code blocks are used to display multiple lines of code, and it ensures that formatting is intact.
@@ -761,4 +709,56 @@ For larger, standalone mathematical expressions, use double dollar signs ($$) to
     x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
     $$
 ```
+## Footnotes
+
+Footnotes allow you to add notes and reference them while keeping your content organized and not disrupting the reader's flow. When creating footnotes in Markdown, the process is straightforward.
+
+Add a caret symbol (^) in a square bracket`[]` followed by a number or word.
+Add the footnote using another caret and number inside brackets with a colon and text `([^1]: My footnote.)`
+This method allows you to add notes and references without cluttering the body of the document.
+
+Readers can click the link to jump to the content of the footnote at the bottom of the page.
+
+**Examples:**
+
+``` markdown showLineNumbers{1-4}
+  This is a footnote[^1]and this too is another footnote[^2]
+  [^1]: This is the reference to the foot note
+  [^2]: This is another reference 
+```
+
+The output will look like this:
+<details>
+  <summary>Preview</summary>
+
+  This is a footnote[^1] and this too is another footnote[^2].
+  [^1]: This is the reference to the first footnote.
+  [^2]: This is the reference to the second footnote.
+</details>
+
+The footnotes will be displayed at the bottom of the page, allowing us to easily access them by scrolling or clicking on the specific footnote.
+
+Here is another example using a word as a footnote identifier:
+
+```markdown showLineNumbers
+
+  Regular exercise is known to boost overall health, including improving mood and energy levels[^1].
+  Even just a short daily walk can make a big difference[^bignote].
+ 
+  [^1]:Example: Exercise releases endorphins, which are natural mood lifters.
+  [^bignote]: A 30-minute walk each day can improve cardiovascular health. It’s a simple habit that can also help with weight management, reduce stress, and increase overall fitness. Even if you have a busy schedule, fitting in a quick walk can lead to significant long-term benefits
+```
+The output will look like this
+
+<details>
+  <summary>Preview</summary>
+
+  Regular exercise is known to boost overall health, including improving mood and energy levels[^1].
+  Even just a short daily walk can make a big difference[^bignote].
+ 
+  [^1]:Example: Exercise releases endorphins, which are natural mood lifters.
+  [^bignote]: A 30-minute walk each day can improve cardiovascular health. It’s a simple habit that can also help with weight management, reduce stress, and increase overall fitness. Even if you have a busy schedule, fitting in a quick walk can lead to significant long-term benefits
+
+</details>
+
 

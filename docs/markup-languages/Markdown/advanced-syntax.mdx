@@ -217,10 +217,35 @@ Readers can click the link to jump to the content of the footnote at the bottom 
 The output will look like this:
 <details>
   <summary>Preview</summary>
-  
+
   This is a footnote[^1] and this too is another footnote[^2].
   [^1]: This is the reference to the first footnote.
   [^2]: This is the reference to the second footnote.
+</details>
+
+The footnotes will be displayed at the bottom of the page, allowing us to easily access them by scrolling or clicking on the specific footnote.
+
+Here is another example using a word as a footnote identifier:
+
+```markdown showLineNumbers
+
+  Regular exercise is known to boost overall health, including improving mood and energy levels[^1].
+  Even just a short daily walk can make a big difference[^bignote].
+ 
+  [^1]:Example: Exercise releases endorphins, which are natural mood lifters.
+  [^bignote]: A 30-minute walk each day can improve cardiovascular health. It’s a simple habit that can also help with weight management, reduce stress, and increase overall fitness. Even if you have a busy schedule, fitting in a quick walk can lead to significant long-term benefits
+```
+The output will look like this
+
+<details>
+  <summary>Preview</summary>
+
+  Regular exercise is known to boost overall health, including improving mood and energy levels[^1].
+  Even just a short daily walk can make a big difference[^bignote].
+ 
+  [^1]:Example: Exercise releases endorphins, which are natural mood lifters.
+  [^bignote]: A 30-minute walk each day can improve cardiovascular health. It’s a simple habit that can also help with weight management, reduce stress, and increase overall fitness. Even if you have a busy schedule, fitting in a quick walk can lead to significant long-term benefits
+
 </details>
 
 ## Code Blocks

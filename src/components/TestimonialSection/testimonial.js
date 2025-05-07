@@ -2,22 +2,25 @@ import React from 'react';
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './TestimonialSection.module.css';
+import Judith from './images/judith.jpeg'
+import Prince from './images/prince.jpeg'
+import Elizabeth from './images/elizabeth.jpeg'
 
 const Testimonials = [
   {
     name: "Etugbo Judith",
-    testimony: "TWMP has helped my tech writing skills.",
-    img: "https://media.licdn.com/dms/image/v2/D4D03AQFJSMphKkMJOw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1730597439173?e=1752105600&v=beta&t=x6Thtg3X2pcJ8RioL7-W-E2_r1PMify9i4cWEMDsA8w"
+    testimony: "TWMP has played a big role in my journey as a technical writer. Since I joined its Technical writing mentorship program in 2024, my view of technical writing has changed a lot. I have learned so much with the help of mentors and the founder, who is always ready to guide us and answer our questions.",
+    img: Judith
   },
   {
     name: "Prince Onyeanuna",
-    testimony: "Technical Writing Community made us skilled tech writers! Clear lessons, hands-on practice, great results. Highly recommend!",
-    img: "https://media.licdn.com/dms/image/v2/D4D03AQH23-gKK3aPdA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1681679348016?e=1752105600&v=beta&t=JT8jjp9Gm0r7slhbxF3h-kyXEMI1dgXvyDnZDeFgIgA"
+    testimony: "The Technical Writing Mentorship Program was the turning point in my career. I joined the 2023 cohort with curiosity and left with clarity, confidence, and a strong foundation in technical writing. \n\nToday, I not only write but also mentor others, all thanks to the seed this community planted in me.",
+    img: Prince
   },
   {
-    name: "JOHN DOE",
-    testimony: "From confused to confident! TW Community gave us the skills to excel in technical writing. 10/10!",
-    img: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cG9ydHJhaXR8ZW58MHx8MHx8fDA%3D"
+    name: "Elizabeth Bassey",
+    testimony: "The TWMP is a place for anyone looking to build industry standard technical writing and documentation skills with solid projects on their portfolio to show. They don't just say, they do exactly what they say!",
+    img: Elizabeth
   }
 ];
 

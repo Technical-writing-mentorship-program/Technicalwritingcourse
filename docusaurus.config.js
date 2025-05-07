@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
+  title: 'Technical Writing Mentorship Program',
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.svg',
 
@@ -105,11 +105,19 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Learn',
             items: [
               {
                 label: 'Academy',
                 to: '/docs/category/technical-writing-course',
+              },
+              {
+                label: 'YouTube',
+                to: 'https://www.youtube.com/@TechnicalWriti6',
+              },
+              {
+                label: 'Blog',
+                to: '/blog',
               },
             ],
           },
@@ -118,15 +126,19 @@ const config = {
             items: [
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://discord.gg/THf7jCXU',
               },
               {
                 label: 'X',
-                href: 'https://x.com/docusaurus',
+                href: 'https://twitter.com/TechnicalWriti6',
               },
               {
                 label: 'linkedin',
-                href: 'https://linkedin.com/company/twmp',
+                href: 'https://www.linkedin.com/company/technical-writing-mentorship-program',
+              },
+              {
+                label: 'GitHub',
+                to: 'https://github.com/Technical-writing-mentorship-program/Technicalwritingcourse',
               },
             ],
           },

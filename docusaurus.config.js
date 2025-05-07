@@ -4,19 +4,15 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-
-import { themes as prismThemes } from 'prism-react-renderer';
-=======
 import { themes as prismThemes } from "prism-react-renderer";
-
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Technical Writing Mentorship Program',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.svg',
+  title: "Technical Writing Mentorship Program",
+  tagline: "Dinosaurs are cool",
+  favicon: "img/favicon.svg",
 
   // Set the production url of your site here
   url: "https://your-docusaurus-site.example.com",
@@ -97,9 +93,6 @@ const config = {
             label: "Academy",
           },
 
-          { to: '/blog', label: 'Blog', position: 'left' },
-          { to: '/write-for-us', label: 'Write for us', position: 'left' },
-
           { to: "/blog", label: "Blog", position: "left" },
           { to: "/write-for-us", label: "Write for us", position: "left" },
 
@@ -114,19 +107,19 @@ const config = {
         style: "dark",
         links: [
           {
-            title: 'Learn',
+            title: "Learn",
             items: [
               {
-                label: 'Academy',
-                to: '/docs/category/technical-writing-course',
+                label: "Academy",
+                to: "/docs/category/technical-writing-course",
               },
               {
-                label: 'YouTube',
-                to: 'https://www.youtube.com/@TechnicalWriti6',
+                label: "YouTube",
+                to: "https://www.youtube.com/@TechnicalWriti6",
               },
               {
-                label: 'Blog',
-                to: '/blog',
+                label: "Blog",
+                to: "/blog",
               },
             ],
           },
@@ -134,20 +127,20 @@ const config = {
             title: "Community",
             items: [
               {
-                label: 'Discord',
-                href: 'https://discord.gg/THf7jCXU',
+                label: "Discord",
+                href: "https://discord.gg/THf7jCXU",
               },
               {
-                label: 'X',
-                href: 'https://twitter.com/TechnicalWriti6',
+                label: "X",
+                href: "https://twitter.com/TechnicalWriti6",
               },
               {
-                label: 'linkedin',
-                href: 'https://www.linkedin.com/company/technical-writing-mentorship-program',
+                label: "linkedin",
+                href: "https://www.linkedin.com/company/technical-writing-mentorship-program",
               },
               {
-                label: 'GitHub',
-                to: 'https://github.com/Technical-writing-mentorship-program/Technicalwritingcourse',
+                label: "GitHub",
+                to: "https://github.com/Technical-writing-mentorship-program/Technicalwritingcourse",
               },
             ],
           },

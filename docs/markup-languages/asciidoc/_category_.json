@@ -2,6 +2,7 @@
   "label": "AsciiDoc Course",
   "position": 1,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+     "description": "Explore our AsciiDoc course"
   }
 }

@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Geist:wght@100..900&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap");
+
+.heroSection {
+	padding: 4rem 2rem;
+}
+
+.container,
+.containerReverse {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 2rem;
+}
+
+.containerReverse {
+	flex-direction: row-reverse;
+}
+
+.content {
+	flex: 1;
+	max-width: 600px;
+	text-align: left;
+	margin-left: 3rem;
+	color: "#444";
+}
+
+.title {
+	font-size: 5rem;
+	font-weight: 900;
+	margin-bottom: 1rem;
+	color: #8c52ff;
+	font-style: bold;
+	line-height: 1.5;
+	font-family: Bebas Neue, "Arial";
+}
+
+.subtitle {
+	font-size: 1.8rem;
+	font-weight: 500;
+	margin-bottom: 2rem;
+	font-style: Instrument Sans, "Arial";
+	color: "#444";
+}
+
+.button {
+	display: inline-block;
+	padding: 1rem 2rem;
+	background-color: #8c52ff;
+	color: white;
+	text-decoration: none;
+	border-radius: 8px;
+	font-weight: bold;
+	font-size: 1rem;
+	font-style: Instrument Sans, "Arial";
+	transition: background-color 0.3s ease;
+}
+
+.button:hover {
+	background-color: #773dff;
+}
+
+.imageContainer {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.image {
+	max-width: 100%;
+	width: 60%;
+	height: auto;
+}
+
+@media (max-width: 768px) {
+	.container,
+	.containerReverse {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.content {
+		max-width: 100%;
+		margin-left: 0;
+	}
+
+	.title {
+		font-size: 3rem;
+	}
+
+	.subtitle {
+		font-size: 1.75rem;
+	}
+
+	.button {
+		margin: 0 auto;
+	}
+}

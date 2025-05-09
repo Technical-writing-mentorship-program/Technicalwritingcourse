@@ -11,7 +11,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Technical Writing Mentorship Program",
-  tagline: "Dinosaurs are cool",
+  tagline: "TWMP",
   favicon: "img/favicon.svg",
 
   // Set the production url of your site here
@@ -22,8 +22,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "Technical Writing mentorship program", // Usually your GitHub org/user name.
+  projectName: "Technical Writing Course", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -46,7 +46,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+            "https://github.com/Technical-writing-mentorship-program/Technicalwritingcourse",
         },
         blog: {
           showReadingTime: true,
@@ -82,7 +82,7 @@ const config = {
       navbar: {
         title: "TWMP",
         logo: {
-          alt: "My Site Logo",
+          alt: "TWMP logo",
           src: "img/favicon.svg",
         },
         items: [
@@ -97,7 +97,7 @@ const config = {
           { to: "/write-for-us", label: "Write for us", position: "left" },
 
           {
-            href: "https://github.com/facebook/docusaurus",
+            href: "https://github.com/Technical-writing-mentorship-program/",
             label: "GitHub",
             position: "right",
           },
@@ -128,19 +128,19 @@ const config = {
             items: [
               {
                 label: "Discord",
-                href: "https://discord.gg/THf7jCXU",
+                href: "https://discord.gg/UC4QEsE8",
               },
               {
                 label: "X",
                 href: "https://twitter.com/TechnicalWriti6",
               },
               {
-                label: "linkedin",
+                label: "Linkedin",
                 href: "https://www.linkedin.com/company/technical-writing-mentorship-program",
               },
               {
                 label: "GitHub",
-                to: "https://github.com/Technical-writing-mentorship-program/Technicalwritingcourse",
+                to: "https://github.com/Technical-writing-mentorship-program/",
               },
             ],
           },
@@ -162,7 +162,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Technical Writing Mentorship Program`,
       },
       prism: {
         theme: prismThemes.github,

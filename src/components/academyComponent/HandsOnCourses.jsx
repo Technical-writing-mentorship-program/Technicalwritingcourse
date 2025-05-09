@@ -86,7 +86,7 @@ const HandsOnCourses = () => {
           <a href="/docs/category/api-documentation-course" style={buttonStyle}>EXPLORE COURSE</a>
         </div>
 
-        {/* Card 2: AsciiDoc */}
+        {/* Card 2: Markup Language */}
         <div style={cardStyle}>
           <img 
             src={xml} 

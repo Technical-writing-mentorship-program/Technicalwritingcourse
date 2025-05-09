@@ -45,6 +45,8 @@ const config = {
           sidebarPath: "./sidebars.js",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
+          showLastUpdateTime: true,
+          showLastUpdateAuthor: true,
           editUrl:
             "https://github.com/Technical-writing-mentorship-program/Technicalwritingcourse",
         },
@@ -102,6 +104,11 @@ const config = {
             position: "right",
           },
         ],
+      },
+      //TOC
+      tableOfContents: {
+        minHeadingLevel: 2,
+        maxHeadingLevel: 5,
       },
       footer: {
         style: "dark",

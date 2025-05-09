@@ -2,6 +2,7 @@
   "label": "Markdown Course",
   "position": 2,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+     "description": "Explore our Markdown Course"
   }
 }

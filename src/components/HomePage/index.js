@@ -22,7 +22,7 @@ export default function Homepage() {
           </div>
           <div className={styles.imageContainer}>
             <img
-              src="https://res.cloudinary.com/dmvphwhvc/image/upload/v1746631442/c4o3ioll12krqycoxnmt.png"
+              src="https://res.cloudinary.com/dmvphwhvc/image/upload/v1746784638/transparent_1746727403_8269_fbdc3y.svg"
               alt="Technical writing illustration"
               className={styles.image}
             />
@@ -35,7 +35,7 @@ export default function Homepage() {
         <div className={styles.container}>
           <div className={styles.imageContainer}>
             <img
-              src="https://res.cloudinary.com/dmvphwhvc/image/upload/v1746632400/Discussion-amico-removebg-preview_wt4lak.png"
+              src="https://res.cloudinary.com/dmvphwhvc/image/upload/v1746783075/transparent_1746727524_6550_t2uoah.svg"
               alt="Direct mentorship"
               className={styles.image}
             />

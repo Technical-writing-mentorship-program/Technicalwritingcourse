@@ -44,7 +44,7 @@ AsciiDoc provides several ways to insert hard line breaks, allowing you to contr
   width="100%"
 />
 
-_Fig 1. Ending a line with a space followed by a plus sign (+) to start a new line without wrapping the text._
+_**Fig 1.** Ending a line with a space followed by a plus sign (+) to start a new line without wrapping the text._
 
 Additionally, you can use the following methods to incorporate hard line breaks in Asciidoc.
 
@@ -52,17 +52,21 @@ Additionally, you can use the following methods to incorporate hard line breaks 
 
 <img
   src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3g94bhliqaee7gjem9fd.png"
-  alt="Fig 1. Hard breaks in AsciiDocs"
+  alt="Fig 2. Hard breaks in AsciiDocs"
   width="100%"
 />
+_**Fig 2:** using the `[%hardbreaks]` block to enforce hard line breaks in specific
+sections of an AsciiDoc document._
 
 - Add the "hard breaks" attribute to the document's header to preserve line breaks throughout your whole document. You can achieve this by adding ''**=**'' to the title of the document and '**':hardbreaks:**" after that.
 
 <img
   src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/o6pa1ojyrp62irvdkajr.png"
-  alt="Fig 2. Hard breaks in AsciiDocs"
+  alt="Fig 3. Hard breaks in AsciiDocs"
   width="100%"
 />
+_**Fig 3:** Setting the `:hardbreaks:` attribute in the document header to apply
+hard line breaks throughout the entire AsciiDoc file._{" "}
 
 ## Admonitions
 
@@ -82,12 +86,12 @@ AsciiDoc offers five admonition-style labels.
 - **Caution:** The "caution" is a warning about something that could cause problems if not handled carefully. It is like a gentle reminder to proceed with caution
 
 - **Warning:** The **"**warning**"** label actively warns readers of potential negative consequences, such as damage or loss, if they fail to follow instructions carefully, emphasizing the risks and urging them to take necessary precautions to avoid harm.
-  
+
   :::info
-  In AsciiDoc, **caution** and **warning** are both used to alert readers to potential risks, but they differ in their level of severity. 
-  
-  A **caution** is intended to make the reader aware of something that could go wrong if they’re not careful, but the consequences are generally moderate. It’s like a gentle reminder to proceed with care, as ignoring it could lead to minor problems or inconveniences. 
-  
+  In AsciiDoc, **caution** and **warning** are both used to alert readers to potential risks, but they differ in their level of severity.
+
+  A **caution** is intended to make the reader aware of something that could go wrong if they’re not careful, but the consequences are generally moderate. It’s like a gentle reminder to proceed with care, as ignoring it could lead to minor problems or inconveniences.
+
   On the other hand, a **warning** signals a more serious risk that could result in significant harm, such as system failure, data loss, or physical injury. It’s a stronger alert meant to stop the reader in their tracks, emphasizing that ignoring it could lead to major issues. While both are important, a **warning** carries a higher level of urgency and is used for more critical situations.
   :::
 
@@ -103,17 +107,20 @@ One of the instances of quoted text in AsciiDoc is the asterisk, which is used p
 
 <img
   src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/r289lr3b6po6rh904ltn.png"
-  alt="Fig 3. Quoted text in AsciiDocs"
+  alt="Fig 4. Quoted text in AsciiDocs"
   width="100%"
 />
+_**Fig 4:** Emphasizing text in AsciiDoc using asterisks for bold or italics._{" "}
 
-Here are the alternative forms of quoted text that AsciiDoc recognizes. You can apply bold, italic, and monospace formatting to the text using the following syntax:
+Here are the alternative forms of quoted text that AsciiDoc recognizes. You can apply
+bold, italic, and monospace formatting to the text using the following syntax:
 
 <img
   src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/38qwtucqrnen5uor6jhc.png"
-  alt="Fig 4. alternative forms of quoted text in AsciiDocs"
+  alt="Fig 5. alternative forms of quoted text in AsciiDocs"
   width="100%"
 />
+_**Fig 5:** Syntax examples for bold, italic, and monospace formatting in AsciiDoc._
 
 When writing in AsciiDoc, you can make certain words or phrases look special by giving them a "role". Think of it like labeling a word as "important" or "code.".
 
@@ -146,19 +153,21 @@ By using backslash escaping, you take charge of your text's formatting and avoid
 
 <img
   src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/kfex35drwu0cm5n0tf1q.png"
-  alt="Fig 4. backslash escaping in AsciiDocs"
+  alt="Fig 6. backslash escaping in AsciiDocs"
   width="100%"
 />
-{""}
+_**Fig 6:** Examples of backslash escaping to prevent formatting in AsciiDoc._
+
 <img
   src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/r2j4ccamffn7i3n94ute.png"
-  alt="Fig 4. backslash escaping"
+  alt="Fig 7. backslash escaping"
   width="100%"
 />
+_**Fig 7:** Rendering literal characters using backslash escaping._
 
 ### Inline pass macro and explicit substitution
 
-You use an inline pass macro to wrap your text in a protective bubble, telling AsciiDoc to leave it alone. By enclosing your text in ''**pass:[text goes here]**'', you command AsciiDoc to pass it through to the output without making any changes.
+You use an inline pass macro to wrap your text in a protective bubble, telling AsciiDoc to leave it alone. By enclosing your text in `pass:[text goes here]`, you command AsciiDoc to pass it through to the output without making any changes.
 You're in charge, and you're telling AsciiDoc to:
 
 - Leave your text as is
@@ -169,15 +178,19 @@ By using an inline pass macro, you take control of your text's formatting and en
 
 <img
   src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/a3o389dpphmg6wdnkgpl.png"
-  alt="Fig 4. inline pass macro"
+  alt="Fig 8. inline pass macro"
   width="100%"
 />
+_**Fig 8:** Using the inline pass macro to prevent AsciiDoc from altering specific
+content._
 {""}
 <img
   src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/vh692p5m48m2k7okddlv.png"
-  alt="Fig 4. inline pass macro in Asciidocs"
+  alt="Fig 9: inline pass macro in Asciidocs"
   width="100%"
 />
+_**Fig 9:** Output comparison with and without the inline pass macro in
+AsciiDoc._
 
 You enclose a phrase in the inline pass macro to exclude it from substitutions and disable escaping of special characters. This way, you can control how your text is formatted.
 
@@ -191,20 +204,22 @@ You're in charge of your text's formatting, and the inline pass macro helps you 
 
 <img
   src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/hf90mnrtrhiza004l3l1.png"
-  alt="Fig 4. inline pass macro underline in Asciidocs"
+  alt="Fig 10. inline pass macro underline in Asciidocs"
   width="100%"
 />
+_**Fig 10:** inline pass macro underline in Asciidocs_
 {""}
-You enable ad-hoc quotes substitution by setting the macros value to subs,
-allowing you to control the replacement of specific characters or quotes.
+You enable ad-hoc quotes substitution by setting the macros value to subs, allowing
+you to control the replacement of specific characters or quotes.
 
 Then, you use the inline pass macro to specify which quotes to replace and with what, taking charge of the substitution process. By doing so, you ensure that specific quotes are replaced with other characters in certain places, achieving your desired text formatting.
 
 <img
   src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/k6b8rmm9wnyj2nrz0l3n.png"
-  alt="Fig 4. ad-hoc quotes substitution"
+  alt="Fig 11. ad-hoc quotes substitution"
   width="100%"
 />
+_**Fig 11:** ad-hoc quotes substitution_
 
 You can also specify which types of substitutions AsciiDoc should ignore by using shorthand values.
 Here’s how each shorthand value works:
@@ -224,14 +239,16 @@ macro below.
 
 <img
   src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/rf7l5cbrlgx2i98p1ilg.png"
-  alt="Fig 4. attributes text substitution value"
+  alt="Fig 12. Using the 'a' shorthand for attribute substitution in AsciiDoc"
   width="100%"
 />
+_**Fig 12:** Using the `a` shorthand for attribute substitution in AsciiDoc._
 <img
   src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/mgdt8yh7i7usfjvwc3df.png"
-  alt="Fig 4. attributes text substitution value version"
+  alt="Fig 13. Attribute value rendered via shorthand substitution"
   width="100%"
 />
+_**Fig 13:** Attribute value rendered via shorthand substitution._
 
 ### Triple plus passthrough
 
@@ -243,9 +260,11 @@ The triple-plus passthrough in AsciiDoc works similarly to the pass macro but us
 
 <img
   src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/8y79bcve4efc9dp3k7qw.png"
-  alt="Fig 4. triple plus syntax"
+  alt="Fig 14. triple plus syntax"
   width="100%"
-/>{" "}
+/>
+_**Fig 14:** Using the triple-plus passthrough to prevent AsciiDoc from altering
+specific content._
 
 You typically use the triple-plus passthrough when you need to add raw HTML or XML code to your document. By wrapping the code in triple pluses, you ensure that AsciiDoc leaves it exactly as you wrote it.
 
@@ -260,9 +279,10 @@ You protect a phrase from substitutions by wrapping it in plus signs (+) like th
 
 <img
   src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/7p8u45ishki48cxzteqq.png"
-  alt="Fig 4. single plus enclosure"
+  alt="Fig 15. Using single plus signs to prevent substitutions in AsciiDoc"
   width="100%"
 />
+_**Fig 15:**_ Using single plus signs to prevent substitutions in AsciiDoc.
 
 ### Replacements
 

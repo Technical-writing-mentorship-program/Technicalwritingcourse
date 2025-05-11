@@ -1,32 +1,210 @@
-import React from 'react';
-import Layout from '@theme/Layout';
+import React, { useState } from "react";
+import Layout from "@theme/Layout";
 
 export default function TrustedTalent() {
+  const [activeTab, setActiveTab] = useState("api-docs");
+
+  const tabsData = [
+    {
+      id: "api-docs",
+      label: "API Docs",
+      content: [
+        {
+          name: "C-one wallet",
+          url: "https://c-one.readme.io/reference/getting-started-with-your-api",
+        },
+        {
+          name: "Dummy API",
+          url: "https://app.swaggerhub.com/apis-docs/wise4rmgod/DummyAPI/0.1",
+        },
+        { name: "Nylas Docs", url: "https://developer.nylas.com/docs/api/" },
+      ],
+    },
+    {
+      id: "docs-guides",
+      label: "Documentation guides",
+      content: [
+        {
+          name: "Interswitch Group",
+          url: "https://docs.interswitchgroup.com/v1.1/docs/home",
+        },
+        {
+          name: "Accumulate Network",
+          url: "https://docs.accumulatenetwork.io",
+        },
+        { name: "Nylas", url: "https://developer.nylas.com" },
+      ],
+    },
+    {
+      id: "tech-blogs",
+      label: "Technical blogs",
+      content: [
+        {
+          name: "How to Automate A Blog Post App Deployment With GitHub Actions, Node.js, CouchDB, and Aptible",
+          url: "https://hackernoon.com/how-to-automate-a-blog-post-app-deployment-with-github-actions-nodejs-couchdb-and-aptible",
+        },
+        {
+          name: "Postman Guide for Beginners: A comprehensive Introduction to API Testing and Collaboration",
+          url: "https://wise4rmgod.hashnode.dev/postman-guide-for-beginners-a-comprehensive-introduction-to-api-testing-and-collaboration",
+        },
+      ],
+    },
+  ];
+
+  const Callout = ({ title, children }) => (
+    <div
+      style={{
+        padding: "1rem",
+        backgroundColor: "#474749",
+        borderLeft: "4px solid #474749",
+        borderRadius: "4px",
+        margin: "1rem 0",
+        color: "white",
+      }}
+    >
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          marginBottom: "0.5rem",
+          gap: "0.5rem",
+        }}
+      >
+        <svg
+          style={{
+            width: "1.25rem",
+            height: "1.25rem",
+            color: "white",
+          }}
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={2}
+            d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+          />
+        </svg>
+        <strong
+          style={{
+            fontSize: "1rem",
+            color: "white",
+          }}
+        >
+          {title}
+        </strong>
+      </div>
+      <div style={{ color: "white" }}>
+        {" "}
+        {/* Wrapper for children content */}
+        {children}
+      </div>
+    </div>
+  );
   return (
-    <Layout title="Trusted Talent" description="Hire from a vetted pool of technical writers trained by TWMP.">
+    <Layout
+      title="Trusted Talent"
+      description="Hire from a vetted pool of technical writers trained by TWMP."
+    >
       <main className="container margin-vert--lg">
-        <h1>✅ Trusted Talent</h1>
+        <h1>Trusted Talent</h1>
+
         <p>
-          Need documentation done right? We’ve got you.
+          At our disposal, we have a talented pool of trusted writers who are
+          poised to create world-class content tailored to your needs.
         </p>
         <p>
-          TWMP trains and mentors technical writers through real projects, reviews, and community feedback. Our graduates don’t just know the theory—they’ve done the work.
+          Whether you require assistance with technical writing, documentation,
+          API guides, or any other aspect of technical articles, we’ve got you
+          covered.
+        </p>
+        <p>
+          Feel free to reach out to us, and let’s embark on a journey of
+          exceptional content creation together!
         </p>
 
-        <h2>💼 Why Hire Through TWMP?</h2>
-        <ul>
-          <li><strong>Vetted Talent:</strong> Every writer goes through hands-on training and mentorship.</li>
-          <li><strong>Technical Know-How:</strong> Our writers work on cloud-native, open-source, API, and DevOps documentation.</li>
-          <li><strong>Fast & Reliable:</strong> We match you with writers who deliver high-quality docs—on time.</li>
-        </ul>
+        <Callout title="Contact us:">
+          <a
+            href="mailto:writingt82@gmail.com"
+            style={{
+              color: "#FFFFFF",
+              textDecoration: "none",
+              fontWeight: "500",
+              ":hover": { textDecoration: "underline" },
+            }}
+          >
+            Email us at writingt82@gmail.com
+          </a>
+        </Callout>
 
-        <h2>🚀 Ready to Get Started?</h2>
-        <p>
-          Whether you’re looking for help with internal documentation, product onboarding, or API references—we’ll connect you with the right writer.
-        </p>
-        <p>
-          <a href="mailto:talent@twmp.com">Contact us at talent@twmp.com</a> and let’s make documentation less painful.
-        </p>
+        <h2>Sample Projects</h2>
+
+        <div style={{ marginBottom: "2rem" }}>
+          <div
+            style={{
+              display: "flex",
+              gap: "1rem",
+              borderBottom: "2px solid #e5e7eb",
+              marginBottom: "1rem",
+            }}
+          >
+            {tabsData.map((tab) => (
+              <button
+                key={tab.id}
+                onClick={() => setActiveTab(tab.id)}
+                style={{
+                  padding: "0.75rem 1.5rem",
+                  background: "none",
+                  border: "none",
+                  borderBottom:
+                    activeTab === tab.id
+                      ? "2px solid #FFFFFF"
+                      : "2px solid transparent",
+                  color: activeTab === tab.id ? "#FFFFFF" : "#FFFFFF",
+                  cursor: "pointer",
+                  fontSize: "1rem",
+                  fontWeight: "500",
+                  transition: "all 0.2s ease",
+                }}
+              >
+                {tab.label}
+              </button>
+            ))}
+          </div>
+
+          {tabsData.map((tab) => (
+            <div
+              key={tab.id}
+              style={{ display: activeTab === tab.id ? "block" : "none" }}
+            >
+              <ul style={{ listStyle: "disc", paddingLeft: "2rem" }}>
+                {tab.content.map((item, index) => (
+                  <li
+                    key={index}
+                    style={{
+                      margin: "0.5rem 0",
+                      fontSize: "1.125rem",
+                    }}
+                  >
+                    <a
+                      href={item.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      style={{
+                        textDecoration: "none",
+                        ":hover": { textDecoration: "underline" },
+                      }}
+                    >
+                      {item.name}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
       </main>
     </Layout>
   );

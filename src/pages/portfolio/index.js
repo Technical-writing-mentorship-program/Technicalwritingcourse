@@ -6,7 +6,7 @@ export default function PortfolioHome() {
   return (
     <Layout title="Portfolio" description="Explore our documentation and writing portfolio.">
       <main className="container margin-vert--lg">
-        <h1>📁 Portfolio</h1>
+        <h1>Portfolio</h1>
         <p>
           Here’s a glimpse into our work—real-world projects, case studies, and technical documentation written by our talented community.
         </p>

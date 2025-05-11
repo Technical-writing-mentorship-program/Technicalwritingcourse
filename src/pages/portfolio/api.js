@@ -6,7 +6,6 @@ export default function ApiPortfolio() {
     <Layout title="TMDb API Documentation">
       <main className="container margin-vert--lg">
         <h1>TMDb API Documentation</h1>
-        <h2>Assignment Title</h2>
 
         <p>
           In this assignment, you will create API documentation for{" "}

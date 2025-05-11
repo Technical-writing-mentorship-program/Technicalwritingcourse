@@ -15,7 +15,7 @@ export default function TrustedTalent() {
         },
         {
           name: "Dummy API",
-          url: "https://app.swaggerhub.com/apis-docs/wise4rmgod/DummyAPI/0.1",
+          url: "https://app.swaggerhub.com/apis-docs/wise4rmgod/DummyAPI",
         },
         { name: "Nylas Docs", url: "https://developer.nylas.com/docs/api/" },
       ],

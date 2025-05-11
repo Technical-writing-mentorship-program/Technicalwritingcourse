@@ -5,7 +5,6 @@ export default function GlaspPortfolio() {
     <Layout title="Glasp User Guide">
       <main className="container margin-vert--lg">
         <h1>Glasp user guide</h1>
-        <h2>Assignment Title</h2>
 
         <p>
           In this assignment, you will create write a user guide for{" "}

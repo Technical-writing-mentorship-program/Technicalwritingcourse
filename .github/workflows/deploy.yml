@@ -18,9 +18,6 @@ jobs:
           node-version: '20'
 
       - name: Install dependencies
-        run: npm install
-      
-      - name: Install dependencies (legacy-peer-deps)
         run: npm install --force
 
       - name: Build site

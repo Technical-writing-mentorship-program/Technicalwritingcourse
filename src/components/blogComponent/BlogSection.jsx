@@ -1,4 +1,4 @@
-import semrush from './image/semrush.jpg'
+import semrush from './image/semrush.png'
 import Javascript from './image/JavascriptVariables.png'
 import contentmarketing from './image/contentMarketing.png'
 

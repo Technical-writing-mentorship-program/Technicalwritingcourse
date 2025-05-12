@@ -1,6 +1,6 @@
-import semrush from './Image/semrush.jpg'
-import Javascript from './Image/JavascriptVariables.png'
-import contentmarketing from './Image/contentMarketing.png'
+import semrush from './image/semrush.jpg'
+import Javascript from './image/JavascriptVariables.png'
+import contentmarketing from './image/contentMarketing.png'
 
 const BlogSection = () => {
   const sectionStyle = {

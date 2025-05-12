@@ -55,11 +55,11 @@ export default function TrustedTalent() {
     <div
       style={{
         padding: "1rem",
-        backgroundColor: "#474749",
-        borderLeft: "4px solid #474749",
+        backgroundColor: "var(--ifm-background-surface-color)",
+        borderLeft: "4px solid var(--ifm-color-primary)",
         borderRadius: "4px",
         margin: "1rem 0",
-        color: "white",
+        color: "var(--ifm-font-color-base)",
       }}
     >
       <div
@@ -74,7 +74,7 @@ export default function TrustedTalent() {
           style={{
             width: "1.25rem",
             height: "1.25rem",
-            color: "white",
+            color: "var(--ifm-font-color-base)",
           }}
           fill="none"
           stroke="currentColor"
@@ -90,19 +90,16 @@ export default function TrustedTalent() {
         <strong
           style={{
             fontSize: "1rem",
-            color: "white",
+            color: "var(--ifm-font-color-base)",
           }}
         >
           {title}
         </strong>
       </div>
-      <div style={{ color: "white" }}>
-        {" "}
-        {/* Wrapper for children content */}
-        {children}
-      </div>
+      <div style={{ color: "var(--ifm-font-color-base)" }}>{children}</div>
     </div>
   );
+
   return (
     <Layout
       title="Trusted Talent"
@@ -129,7 +126,7 @@ export default function TrustedTalent() {
           <a
             href="mailto:writingt82@gmail.com"
             style={{
-              color: "#FFFFFF",
+              color: "var(--ifm-link-color)",
               textDecoration: "none",
               fontWeight: "500",
               ":hover": { textDecoration: "underline" },
@@ -146,7 +143,7 @@ export default function TrustedTalent() {
             style={{
               display: "flex",
               gap: "1rem",
-              borderBottom: "2px solid #e5e7eb",
+              borderBottom: "2px solid var(--ifm-color-emphasis-200)",
               marginBottom: "1rem",
             }}
           >
@@ -160,9 +157,11 @@ export default function TrustedTalent() {
                   border: "none",
                   borderBottom:
                     activeTab === tab.id
-                      ? "2px solid #FFFFFF"
+                      ? "2px solid var(--ifm-color-primary)"
                       : "2px solid transparent",
-                  color: activeTab === tab.id ? "#FFFFFF" : "#FFFFFF",
+                  color: activeTab === tab.id
+                    ? "var(--ifm-color-primary)"
+                    : "var(--ifm-font-color-secondary)",
                   cursor: "pointer",
                   fontSize: "1rem",
                   fontWeight: "500",
@@ -186,6 +185,7 @@ export default function TrustedTalent() {
                     style={{
                       margin: "0.5rem 0",
                       fontSize: "1.125rem",
+                      color: "var(--ifm-font-color-base)",
                     }}
                   >
                     <a
@@ -193,6 +193,7 @@ export default function TrustedTalent() {
                       target="_blank"
                       rel="noopener noreferrer"
                       style={{
+                        color: "var(--ifm-link-color)",
                         textDecoration: "none",
                         ":hover": { textDecoration: "underline" },
                       }}
@@ -209,3 +210,4 @@ export default function TrustedTalent() {
     </Layout>
   );
 }
+

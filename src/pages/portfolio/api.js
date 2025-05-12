@@ -2,6 +2,55 @@ import React from "react";
 import Layout from "@theme/Layout";
 
 export default function ApiPortfolio() {
+  const Callout = ({ title, children }) => (
+    <div
+      style={{
+        padding: "1rem",
+        backgroundColor: "var(--ifm-background-surface-color)",
+        borderLeft: "4px solid var(--ifm-color-primary)",
+        borderRadius: "4px",
+        margin: "1rem 0",
+        color: "var(--ifm-font-color-base)",
+      }}
+    >
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          marginBottom: "0.5rem",
+          gap: "0.5rem",
+        }}
+      >
+        <svg
+          style={{
+            width: "1.25rem",
+            height: "1.25rem",
+            color: "var(--ifm-font-color-base)",
+          }}
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={2}
+            d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+          />
+        </svg>
+        <strong
+          style={{
+            fontSize: "1rem",
+            color: "var(--ifm-font-color-base)",
+          }}
+        >
+          {title}
+        </strong>
+      </div>
+      <div style={{ color: "var(--ifm-font-color-base)" }}>{children}</div>
+    </div>
+  );
+
   return (
     <Layout title="TMDb API Documentation">
       <main className="container margin-vert--lg">
@@ -17,61 +66,11 @@ export default function ApiPortfolio() {
           The goal is to teach you how to access and document real-world APIs
           effectively.
         </p>
-        <div
-          style={{
-            background: "#474749",
-            borderRadius: "6px",
-            padding: "1rem",
-            margin: "1rem 0",
-            border: "1px solid rgba(255,255,255,0.1)",
-          }}
-        >
-          <div
-            style={{
-              display: "flex",
-              alignItems: "center",
-              gap: "0.5rem",
-              marginBottom: "0.5rem",
-            }}
-          >
-            <svg
-              style={{
-                width: "1.25rem",
-                height: "1.25rem",
-                stroke: "white",
-              }}
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-              />
-            </svg>
-            <span
-              style={{
-                color: "white",
-                fontWeight: "600",
-                fontSize: "1rem",
-              }}
-            >
-              Note
-            </span>
-          </div>
-          <div
-            style={{
-              color: "white",
-              fontSize: "0.95rem",
-              lineHeight: "1.5",
-            }}
-          >
-            Please use an interactive API platform where users can test without
-            leaving the platform.
-          </div>
-        </div>
+
+        <Callout title="Note">
+          Please use an interactive API platform where users can test without
+          leaving the platform.
+        </Callout>
 
         <h2>Prerequisites</h2>
         <ul>
@@ -199,84 +198,43 @@ export default function ApiPortfolio() {
           </li>
         </ul>
 
-        <div
-          style={{
-            background: "#474749",
-            borderRadius: "6px",
-            padding: "1rem",
-            margin: "1rem 0",
-            border: "1px solid rgba(255,255,255,0.1)",
-          }}
-        >
-          <div
-            style={{
-              display: "flex",
-              alignItems: "center",
-              gap: "0.5rem",
-              marginBottom: "0.5rem",
-            }}
-          >
-            <svg
-              style={{
-                width: "1.25rem",
-                height: "1.25rem",
-                stroke: "white",
-              }}
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-              />
-            </svg>
-            <span
-              style={{
-                color: "white",
-                fontWeight: "600",
-                fontSize: "1rem",
-              }}
-            >
-              Submission
-            </span>
-          </div>
-          <div
-            style={{
-              color: "white",
-              fontSize: "0.95rem",
-              lineHeight: "1.5",
-            }}
-          >
-            <ul>
-              <li>
-                <strong>Name:</strong> Samuel Theophilus
-              </li>
-              <li>
-                <strong>LinkedIn Profile:</strong>{" "}
-                <a
-                  href="https://www.linkedin.com/in/samuel-theophilus/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  LinkedIn Profile
-                </a>
-              </li>
-              <li>
-                <strong>Postman Documentation:</strong>{" "}
-                <a
-                  href="https://documenter.getpostman.com/view/26159839/2s9YsQ9AQD"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Postman Documentation
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
+        <Callout title="Submission">
+          <ul style={{ margin: 0, paddingLeft: "1rem" }}>
+            <li>
+              <strong>Name:</strong> Samuel Theophilus
+            </li>
+            <li>
+              <strong>LinkedIn Profile:</strong>{" "}
+              <a
+                href="https://www.linkedin.com/in/samuel-theophilus/"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  color: "var(--ifm-link-color)",
+                  textDecoration: "none",
+                  ":hover": { textDecoration: "underline" },
+                }}
+              >
+                LinkedIn Profile
+              </a>
+            </li>
+            <li>
+              <strong>Postman Documentation:</strong>{" "}
+              <a
+                href="https://documenter.getpostman.com/view/26159839/2s9YsQ9AQD"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  color: "var(--ifm-link-color)",
+                  textDecoration: "none",
+                  ":hover": { textDecoration: "underline" },
+                }}
+              >
+                Postman Documentation
+              </a>
+            </li>
+          </ul>
+        </Callout>
       </main>
     </Layout>
   );

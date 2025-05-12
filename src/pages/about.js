@@ -1,28 +1,47 @@
-import React from 'react';
-import Layout from '@theme/Layout';
+import React from "react";
+import Layout from "@theme/Layout";
 
 export default function AboutUs() {
   return (
-    <Layout title="About Us" description="Learn about TWMP, our mission, and the people behind the scenes.">
+    <Layout
+      title="About Us"
+      description="Learn about TWMP's mentorship program"
+    >
       <main className="container margin-vert--lg">
-        <h1>👋 About TWMP</h1>
+        <h1>About TWMP</h1>
+
         <p>
-          TWMP (Technical Writers Mentorship Program) is a global community that helps aspiring technical writers gain real-world experience, connect with mentors, and work on open-source documentation.
-        </p>
-        <p>
-          We started as a grassroots initiative to bridge the gap between learning and doing. Since then, we’ve mentored hundreds of writers, collaborated with open-source projects, and created a space where learning meets contribution.
+          Our program is designed for individuals looking to improve their
+          technical writing skills and advance their careers in software
+          development, community management, and developer advocacy.
         </p>
 
-        <h2>🌍 What We Stand For</h2>
-        <ul>
-          <li><strong>Access:</strong> We believe great opportunities should be available to anyone, regardless of background.</li>
-          <li><strong>Growth:</strong> Learning by doing is our thing—every writer gets hands-on experience.</li>
-          <li><strong>Community:</strong> Collaboration is at the heart of everything we do.</li>
-        </ul>
-
-        <h2>🤝 Meet the Team</h2>
         <p>
-          We’re a mix of technical writers, engineers, open-source contributors, and documentation nerds. Want to join us? Reach out via <a href="mailto:hello@twmp.com">hello@twmp.com</a>.
+          Participants will be matched with experienced technical writers who
+          mentor them, providing guidance and feedback on their writing
+          projects.
+        </p>
+
+        <p>
+          The mentors will share their knowledge of industry-specific
+          terminology and best practices, and offer tips on explaining complex
+          technical concepts in simple terms.
+        </p>
+
+        <p>
+          Participants will work on real-world writing projects throughout the
+          program, such as documentation, tutorials, and blog posts.
+        </p>
+
+        <p>
+          They will also have access to various resources and tools, including
+          templates, style guides, and documentation software.
+        </p>
+
+        <p>
+          The program is flexible and can be tailored to fit each participant’s
+          schedule and goals. It will run for a period of 12 weeks, with weekly
+          check-ins and progress reports.
         </p>
       </main>
     </Layout>

@@ -1,4 +1,6 @@
 import semrush from './image/semrush.png'
+import Javascript from './image/JavascriptVariables.png'
+import contentmarketing from './image/contentMarketing.png'
 
 const BlogSection = () => {
   const sectionStyle = {
@@ -64,7 +66,14 @@ const BlogSection = () => {
           <img src={semrush} alt="SEO Basics" style={blogImage} />
           <p style={blogTitle}>Master the Basics of SEO Using Semrush</p>
         </a>
-       
+        <a href="/blog/javascript-variables-and-data-types" style={blogCard}>
+          <img src={Javascript} alt="JavaScript Essentials" style={blogImage} />
+          <p style={blogTitle}>JavaScript Essentials Understanding Variables and Data Types</p>
+        </a>
+        <a href="/blog/what-is-content-marketing" style={blogCard}>
+          <img src={contentmarketing} alt="Technical Writing" style={blogImage} />
+          <p style={blogTitle}>What is Content Marketing?</p>
+        </a>
       </div>
       <a href="/blog">
         <button style={buttonStyle}>READ MORE</button>

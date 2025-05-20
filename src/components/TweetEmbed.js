@@ -10,4 +10,3 @@ const TweetEmbed = ({ tweetId }) => {
 };
 
 export default TweetEmbed;
- 

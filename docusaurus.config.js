@@ -72,29 +72,6 @@ const config = {
         theme: {
           customCss: "./src/css/custom.css",
         },
-
-        gtag: {
-          trackingID: 'G-999X9XX9XX',
-          anonymizeIP: true,
-        },
-
-        sitemap: {
-          lastmod: 'date',
-          changefreq: 'weekly',
-          priority: 0.5,
-          ignorePatterns: ['/tags/**'],
-          filename: 'sitemap.xml',
-          createSitemapItems: async (params) => {
-            const {defaultCreateSitemapItems, ...rest} = params;
-            const items = await defaultCreateSitemapItems(rest);
-            return items.filter((item) => !item.url.includes('/page/'));
-          },
-        },
-
-        googleTagManager: {
-          containerId: 'GTM-12345',
-        },
-
       }),
     ],
   ],

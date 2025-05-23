@@ -21,7 +21,7 @@
     "prism-react-renderer": "^2.3.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-twitter-embed": "^4.0.4"
+    "react-json-view-lite": "^2.4.1"
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "3.7.0",

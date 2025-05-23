@@ -1,11 +1,17 @@
-import React from 'react';
-import { TwitterTweetEmbed } from 'react-twitter-embed';
+import React, { useEffect } from 'react';
 
-const TweetEmbed = ({ tweetId }) => {
+const TweetEmbed = ({ tweetUrl }) => {
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.setAttribute('src', 'https://platform.twitter.com/widgets.js');
+    script.setAttribute('async', 'true');
+    document.body.appendChild(script);
+  }, []);
+
   return (
-    <div style={{ margin: '2rem 0' }}>
-      <TwitterTweetEmbed tweetId={tweetId} />
-    </div>
+    <blockquote className="twitter-tweet">
+      <a href={tweetUrl}></a>
+    </blockquote>
   );
 };
 

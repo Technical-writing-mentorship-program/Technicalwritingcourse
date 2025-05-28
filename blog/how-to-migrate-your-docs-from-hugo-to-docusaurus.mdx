@@ -87,7 +87,7 @@ You can see a before-and-after depiction of the site, and if you're reading this
 
 No migration is without a few hiccups, and ours was no exception. From technical blockers to coordination issues, here are a few key challenges we had to work through:
 
-1. **Dependency conflicts (yarn.lock issues):** During development, the homepage team ran into persistent merge conflicts caused by the yarn.lock file. Despite multiple attempts to resolve it manually and suggestions to ignore it, the conflict remained a blocker. After deliberation, we made a key decision: to drop Yarn entirely and standardize on NPM across the project. This meant the homepage team had to:  
+1. **Dependency conflicts (yarn.lock issues)**: During development, the homepage team ran into persistent merge conflicts caused by the yarn.lock file. Despite multiple attempts to resolve it manually and suggestions to ignore it, the conflict remained a blocker. After deliberation, we made a key decision: to drop Yarn entirely and standardize on NPM across the project. This meant the homepage team had to:  
     * Discard all Yarn-related files from their branch.  
     * Reinstall dependencies using NPM, and  
     * Submit a fresh pull request that aligns with the rest of the project.  

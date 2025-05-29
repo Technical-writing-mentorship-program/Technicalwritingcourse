@@ -286,35 +286,9 @@ Writing to meet your audience's needs requires selflessness; you must learn to c
 
 
 
-Check your knowledge
-
-Doks is a documentation website toolkit built with Hyas. You can get started with this command:
 
 
-import Quiz from '@site/src/components/Quiz';
 
-<Quiz
-  questions={[
-    {
-      text: 'One of these is not a step in audience analysis',
-      options: [
-        { value: '1', label: 'Information Gathering' },
-        { value: '2', label: 'Tailoring your writing to your persona' },
-        { value: '3', label: 'Trust and Credibility' }
-      ],
-      correct: '3'
-    },
-    {
-      text: 'What is the Bedrock of a successful communication in technical writing?',
-      options: [
-        { value: '1', label: "Audience Identification" },
-        { value: '2', label: 'Audience Analysis' },
-        { value: '3', label: 'Audience Characteristics' }
-      ],
-      correct: '2'
-    }
-  ]}
-/>
 
 ## Tailoring your Writing to your Audience
 
@@ -435,7 +409,7 @@ Passive voice: "The feedback was given by the team lead"
 Active voice: "The Scrum master implemented changes to the Kanban board"
 
 
-Passive voice: " The changes to the Kanbaan board were implemented by the Scrum master.
+Passive voice: " The changes to the Kanban board were implemented by the Scrum master.
 
 :::
 
@@ -612,16 +586,34 @@ Lastly, please tag @Technicalwrit6 on Twitter and LinkedIn, stating that this is
 :::
 
 
-Answer the following questions.
+## Answer the following questions
 
 
-<iframe
-  src="https://forms.gle/QSdqDSnziXjQ3HLN7"
-  width="100%"
-  height="800"
-  style={{ border: 0, margin: 0 }}
-  title="Google Form"
+import Quiz from '@site/src/components/Quiz';
+
+<Quiz
+  questions={[
+    {
+      text: 'One of these is not a step in audience analysis',
+      options: [
+        { value: '1', label: 'Information Gathering' },
+        { value: '2', label: 'Tailoring your writing to your persona' },
+        { value: '3', label: 'Trust and Credibility' }
+      ],
+      correct: '3'
+    },
+    {
+      text: 'What is the Bedrock of a successful communication in technical writing?',
+      options: [
+        { value: '1', label: "Audience Identification" },
+        { value: '2', label: 'Audience Analysis' },
+        { value: '3', label: 'Audience Characteristics' }
+      ],
+      correct: '2'
+    }
+  ]}
 />
+
 
 
 

@@ -7,6 +7,11 @@ pagination_label: "API Specification"
 keywords: ["API", "Specification"]
 slug: /api-specification
 ---
+import openapi from './images/openapi.png';
+import swagger from './images/swagger.png';
+import raml from './images/raml.png';
+import apiary from './images/apiary.png';
+
 
 API specifications are crucial. They provide standard rules and guidelines for integrating an API and serve as a single source of truth for software engineers. 
 
@@ -32,7 +37,7 @@ An API specification is not the same as an API architectural style
 :::
 
 
-## Why do you need an API Specification?
+## Why Do You Need an API Specification?
 
 An API specification offers clear, standardized guidelines detailing how an API should operate and interact with other software components. It ensures consistent communication by defining expected behavior, data formats, and protocols. This eliminates the need for developers to rely on internal implementation details.
 
@@ -46,7 +51,7 @@ It minimizes misunderstanding and reduces the time spent on API integration.
 
 ## Types of API Specification
 
-There are various types of API specifications with different formats
+There are various types of API specifications with different formats. These include:
 
 1. Open API Specification(OAS)
 2. Restful API Modelling Language(RAML)
@@ -66,19 +71,14 @@ An Open API file, sometimes called an Open API document, describes an API, inclu
 
 #### Top-Level Structure of an Open API Specification
 
-<img
- src="https://static1.smartbear.co/swagger/media/blog/wp-hub/openapi3structure.png" 
-  alt="Structure of an API Specification"
-/>
-
-
-Image Source:[Swagger.io](https://swagger.io/blog/api-design/openapi-driven-api-design/)
+<img src={openapi} alt="Structure of an API Specification"/>
 
 
 - **openapi**: This section specifies the version of the OAS. The OAS has different versions.
 
 :::tip
-You can write your OAS in YAML or JSON. I will use YAML for the example descriptions. One thing you should know about YAML is that it is indentation-sensitive.
+You can write your OAS in YAML or JSON. The example descriptions in this tutorial is in YAML format.
+You should also note that YAML is indentation-sensitive.
 :::
 
 ```yaml showLineNumbers
@@ -242,9 +242,11 @@ externalDocs:
       url: 'http://swagger.io'
 ```
 
-Here is the full example code. You can preview it using the [Swagger editor](https://editor.swagger.io/).
 
-```yaml showLineNumbers
+<details>
+  <summary> Toggle to Preview the full code</summary>
+  <p>
+  ```yaml showLineNumbers
 openapi: 3.0.0
 info:
   description: |
@@ -371,13 +373,16 @@ security:
   - api_key: []
 ```
 
-Here is how the preview will look like 
+  </p>
+</details>
 
-<img 
-  src="https://github.com/Nickyshe/Images/blob/main/annotely_image%20(73).png" 
-  alt="Swagger editor preview" 
-  width="100%"
-  />
+
+
+Here is how the preview will look like:
+
+  <img src={swagger} alt="Swagger image preview" width="100%" />
+
+ You can also preview it using the [Swagger editor](https://editor.swagger.io/).
 
 #### 0AS Tools
 
@@ -397,7 +402,7 @@ The language's focus on modeling rather than documenting APIs has set it apart f
 
 With the rise in adoption of the OAS, RAML is no longer popular.
 
-**Brief History of RAML**
+#### Brief History of RAML
 
 RAML was first introduced in 2013. Its goal was to provide a more effective way to design APIs compared to existing standards like Swagger (now OpenAPI). It was developed to facilitate API design rather than document existing APIs.
 
@@ -504,8 +509,11 @@ title: e-BookMobile API
                     }
 ```
 
-Here is the full code example
 
+<details>
+  <summary>Toggle to preview the full code</summary>
+
+  <p>
 ```{1-56} showLineNumbers
    #%RAML 1.0
     ---
@@ -563,16 +571,18 @@ Here is the full code example
                       "status": 200
                     }
 ```
+
+
+  </p>
+</details>
+
  
 
 Preview Documentation with [RAML Github Play Ground](https://raml-org.github.io/playground/learn_raml.html?raml=%23%25RAML%201.0%0Atitle%3A%20Mobile%20Order%20API%0AbaseUri%3A%20http%3A%2F%2Flocalhost%3A8081%2Fapi%0Aversion%3A%201.0%0A%0Auses%3A%0A%20%20assets%3A%20assets.lib.raml%0A%0AannotationTypes%3A%0A%20%20monitoringInterval%3A%0A%20%20%20%20type%3A%20integer%0A%0A%2Forders%3A%0A%20%20displayName%3A%20Orders%0A%20%20get%3A%0A%20%20%20%20is%3A%20%5B%20assets.paging%20%5D%0A%20%20%20%20(monitoringInterval)%3A%2030%0A%20%20%20%20description%3A%20Lists%20all%20orders%20of%20a%20specific%20user%0A%20%20%20%20queryParameters%3A%0A%20%20%20%20%20%20userId%3A%0A%20%20%20%20%20%20%20%20type%3A%20string%0A%20%20%20%20%20%20%20%20description%3A%20use%20to%20query%20all%20orders%20of%20a%20user%0A%20%20post%3A%0A%20%20%2F%7BorderId%7D%3A%0A%20%20%20%20get%3A%0A%20%20%20%20%20%20responses%3A%0A%20%20%20%20%20%20%20%20200%3A%0A%20%20%20%20%20%20%20%20%20%20body%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20application%2Fjson%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20type%3A%20assets.Order%0A%20%20%20%20%20%20%20%20%20%20%20%20application%2Fxml%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20type%3A%20!include%20schemas%2Forder.xsd#)
 
-<img
- src="https://github.com/Nickyshe/Images/blob/main/annotely_image%20(72).png" 
- alt="Raml Github playground" 
- width="100%" />
 
 
+<img src={raml} alt="RAML github playground" width="100%"/>
 
 #### RAML Tools
 
@@ -689,8 +699,10 @@ API Blueprint is ideal for projects that need clear documentation and rapid prot
                 }
 ```
 
-Here is the full example code
 
+<details>
+  <summary> Toggle to preview the full code </summary>
+  <p>
 ```{1-81} showLineNumbers
    FORMAT: 1A
     HOST: https://polls.apiblueprint.org/
@@ -774,19 +786,15 @@ Here is the full example code
                 }    
 ```
 
- 
+  </p>
+</details>
 
 
 Preview Documentation on [Apiary](https://apiary.io/)
 
 
-<img 
-  src="https://github.com/Nickyshe/Images/blob/main/annotely_image%20(71).png?raw=true" 
-  alt="Apairy preview" 
-  width="100%"
-/>
 
-
+<img src={apiary} alt="Apiary preview" width="100%"/>
 
 #### Tools for API Blueprint
 - [**Apiary**](https://apiary.io/)[:](https://apiary.io/) Provides interactive documentation, API mocking, testing suites, and collaboration features.

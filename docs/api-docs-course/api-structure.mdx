@@ -7,6 +7,12 @@ pagination_label: "Structuring an API Document"
 keywords: ["API", "Documentation", "Structure", "Guide"]
 slug: /structuring-an-api-document
 ---
+import rawg from './images/rawg.png';
+import tmdb from './images/tmdb.png';
+import interswitch from './images/interswitch.png';
+import paystack from './images/paystack.png';
+import twitter from './images/twitter.png';
+
 
 An API document is more than a collection of pages—it's the complete guide to your product's API.
 
@@ -48,12 +54,8 @@ Consider adding images or videos about the product to enhance the page's look an
 For inspiration, check out the introduction page of this web3 product, [Bitpowr](https://docs.bitpowr.com/reference/api-reference), or this video game API, [RAWG](https://rawg.readme.io/reference/overview):
 :::
 
-<img 
-  src="https://paper-attachments.dropboxusercontent.com/s_EDD9ADFB86920F498AB507D4AA462F35DADB64AD2D2C85E101246DF4DE91B194_1724569494303_RAWG-intro.png" 
-  alt="clear image" 
-  width="100%"
-/>
 
+<img src={rawg} width="100%"/>
 ## Quick Start
 
 After showcasing all the incredible things developers can do with your API on the introduction page, it's time to put all that talk into practice.
@@ -82,11 +84,11 @@ As a tip, you want to make this page as brief as possible, so select an endpoint
 The [Movie Database API](https://developer.themoviedb.org/reference/intro/getting-started) provides a good example of what a quick start guide should look like
 :::
 
-<img 
-  src="https://paper-attachments.dropboxusercontent.com/s_EDD9ADFB86920F498AB507D4AA462F35DADB64AD2D2C85E101246DF4DE91B194_1724569648391_TMDB+quick+start.png" 
-  alt="clear image" 
-  width="100%"
-/>
+<img src={tmdb}
+      alt="Tmdb image"
+      width="100%"
+  />
+
 
 ## Authorization/Authentication
 
@@ -105,33 +107,33 @@ This is where authentication methods like API keys, OAuth, or HMAC come into pla
 
 Authorization, on the other hand, determines what an authenticated user is allowed to do. Once a user is authenticated, authorization defines their level of access—what resources they can use, what actions they can perform, and what data they can interact with.
 
-### Their differences?
+### Authentication vs Authorization
 
 Authentication asks, "Who are you?" Authorization asks, "What are you allowed to do?" While these concepts are closely related, they serve different purposes.
 
 Think of authentication as the lock on the front door and authorization as the rules for what rooms someone can enter once inside.
 
-### Authentication methods
+### Authentication Methods
 
 Authentication isn't one-size-fits-all. Below are some common methods of authenticating a user:
 
-#### API Keys
+#### 1. API Keys
 
 API keys are like a unique password for your API. They're simple and easy to use, making them a go-to choice for many developers.
 
 However, while convenient, they may not offer the highest level of security, especially if not handled properly.
 
-#### OAuth
+#### 2. OAuth
 
 OAuth is a more robust and secure method of authentication, particularly popular in scenarios where users need to grant third-party apps access to their data without sharing their actual credentials. It's a bit more complex but offers greater flexibility and security.
 
-#### HMAC
+#### 3. HMAC
 
 Hash-based Message Authentication Code (HMAC) adds an extra layer of security by combining a secret key with the message itself to generate a unique signature.
 
 This method ensures that the message hasn't been tampered with and comes from a legitimate source.
 
-### How to structure this page
+### How to Structure This Page
 
 When structuring the authentication/authorization page, you want to ensure it is clear and straightforward.
 
@@ -151,11 +153,12 @@ Therefore, you should include the following:
 The [Interswitch API](https://docs.interswitchgroup.com/docs/authentication) docs provides an excellent example of an authentication page.
 :::
 
-<img  
-  src="https://paper-attachments.dropboxusercontent.com/s_EDD9ADFB86920F498AB507D4AA462F35DADB64AD2D2C85E101246DF4DE91B194_1724569682732_interswitch-auth.png" 
-  alt="clear image" 
-  width="100%"
-/>
+
+<img src={interswitch}
+    alt="interswitch image"
+    width="100%"
+  />
+
 
 ## Status and Error Codes
 
@@ -165,7 +168,7 @@ While many of these codes are standardized across APIs, it's crucial to dedicate
 
 For endpoints that require a specific explanation of an error, it's good practice to provide a brief description within the endpoint's documentation and link it back to this general page for more context.
 
-### Documenting this page
+### Documenting This Page
 
 When documenting this page, the developers usually supply the codes associated with each endpoint. However, it's a good idea to play around with the endpoints yourself to observe the codes in action. This hands-on approach ensures accuracy and gives you a deeper understanding of how these codes function within your API.
 
@@ -187,9 +190,8 @@ To document this page effectively, organize the codes and their descriptions in 
 An excellent example of an errors and status codes page can be found on the [Paystack API documentation.](https://paystack.com/docs/api/errors/)
 :::
 
-<img 
-  src="https://paper-attachments.dropboxusercontent.com/s_EDD9ADFB86920F498AB507D4AA462F35DADB64AD2D2C85E101246DF4DE91B194_1724569804556_paystack-errors.png" 
-  alt="clear image" 
+<img src={paystack}
+  alt="paystack API"
   width="100%"
 />
 
@@ -201,7 +203,7 @@ It's an important part of API docs because it helps developers understand how to
 
 Many companies offer different rate limits based on their pricing tiers. For example, a free tier might have stricter limits, while a commercial plan offers more flexibility, allowing users to make more requests. This gives developers options depending on their needs and budget.
 
-### How to document this page
+### How to Document This Page
 
 You should include the following information in your rate limit page:
 
@@ -223,11 +225,10 @@ You should include the following information in your rate limit page:
 :::
 
 <img 
-  src="https://paper-attachments.dropboxusercontent.com/s_EDD9ADFB86920F498AB507D4AA462F35DADB64AD2D2C85E101246DF4DE91B194_1724570007110_x-rate-limit.png" 
-  alt="clear image" 
+  src={twitter} 
+  alt="twitter image" 
   width="100%"
 />
-
 :::tip[Assignment] 
 Document the [Petstore API](https://petstore.swagger.io/) using Postman. Pay attention to the API's structure as explained in the course module and provide detailed descriptions and examples where necessary.
 

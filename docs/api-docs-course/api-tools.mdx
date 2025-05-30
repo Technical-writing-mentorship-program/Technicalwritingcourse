@@ -12,12 +12,13 @@ slug: /api-docs-tools
 
 # Tools for API Documentation
 
-This is the point in the course where you get your hands busy. You are not expected to read through this module. This module has been specially designed so that you can practice as you learn.
 :::tip
+This is the point in the course where you get your hands busy. You are not expected to read through this module. This module has been specially designed so that you can practice as you learn.
+
 The best way to learn API documentation is to write one.
-:::
 
 In this module, you will explore different API documentation tools and provide a comprehensive overview of their use cases. We’ll look into samples of how to use popular API documentation tools to generate comprehensive, accurate, and visually appealing documentation.
+:::
 
 # Introduction to API Documentation Tools
 
@@ -80,18 +81,21 @@ a. To simply test the endpoints or play around with the API parameters, you can 
 `**Live Demo**`
 
 ![Swagger UI Demo](./img/swagger-ui-demo.png)
+_Swagger UI Live Demo page showcasing real-time testing of API endpoints in an interactive environment_
 
 > We are looking beyond testing endpoints, so let’s create our API document and interact with it on Swagger.
 
 b. Sign up to [Swagger UI](https://swagger.io/tools/swagger-ui/), and you will be sent to the `**Homepage**`, Click on `**Create API**`
 
 ![Create API Page](./img/create-api-page.png)
+_The 'Create API' page on Swagger UI where users can begin documenting a new API project_
 
 > For this tutorial, we will be working with a sample Petstore API. However, if you already have an API to document, Click on **Import API** > **Note: Swagger only permits API in OpenAPI JSON or YAML format**
 
 c. Fill in the Basic information of the sample Petstore API into their respective field.
 
 ![Petstore API Info Form](./img/petstore-info-form.png)
+_Form interface in Swagger UI for entering basic information about the Petstore API._
 
 d. After you have created the API, you will see a preview.
 
@@ -103,6 +107,9 @@ There are two ways to edit and create parameters in Swagger UI
 
 2. The alternative to \***\*`**Code**`is`**Form**`. With `**Form\*\*`, you can directly fill in the parameters and documentation as text fields.
    ![Code Editor vs Form View](./img/code-vs-form-view.png)
+   _Comparison of Swagger UI's code editor and form view, allowing users to choose between writing YAML or using form fields_
+
+   <br />
    **Let’s add documentation to our sample Petstore API.**
 
 3. Include the server URL
@@ -211,6 +218,7 @@ components:
 ## Preview of the API documentation on Swagger UI
 
 ![Petstore Preview Page](./img/petstore-preview.png)
+_Preview of the documented Petstore API in Swagger UI with an interactive display of endpoints and schemas_
 
 ## Testing the API
 
@@ -220,9 +228,11 @@ After adding new parameters, and changing the response body to suit your use cas
 
 - Click on **Try it out** under each request and see the real-time response below.
   ![Try it out Button in Swagger](./img/try-it-out-button.png)
+  _The 'Try it out' button in Swagger UI_
 
 - Click on **Execute** to see the real-time response
   ![Execute Button and Response in Swagger](./img/execute-button.png)
+  _The "Execute" button in Swagger UI, which sends the request and displays the response below_
 
 ## Non-Interactive Tools
 
@@ -291,7 +301,7 @@ code .
 b. In the `docs` folder, you will see `intro.md`, this is where we will be adding our API documentation.
 
 :::info
-Docusarus supports Markdown and React pages
+Docusaurus supports Markdown and React pages
 :::
 
 ---
@@ -436,7 +446,8 @@ Error:
 **Live View of the site:** [Petstore Sample API](https://petstore-api-docs.vercel.app/)
 This is how your API documentation site should look like:
 
-![Live View of Petstore API Site](./img/live-view-petstore-api-site.png)
+![Live View of Petstore API Site](./img/live-view-petstore-api-site.png) <br />
+_The Image of how your API documentation site should look like._
 
 ## Factors to consider when choosing an API Documentation tool
 
@@ -474,7 +485,7 @@ Here are popular API documentation tools and their unique features.
 | 2.      | Postman            | **High**        | **High**                 | **High**          | **High**        | **Markdown & JSON**        |
 | 3.      | Redoc              | **High**        | **High**                 | **Moderate**      | **Moderate**    | **OpenAPI (JSON, YAML)**   |
 | 4.      | Readme             | **High**        | **High**                 | **High**          | **High**        | **Markdown & JSON**        |
-| 5.      | Docasaurus         | **Moderate**    | **High**                 | **High**          | **High**        | **Markdown & JSON**        |
+| 5.      | Docusaurus         | **Moderate**    | **High**                 | **High**          | **High**        | **Markdown & JSON**        |
 | 6.      | MkDocs             | **High**        | **High**                 | **High**          | **High**        | **Markdown**               |
 | 7.      | Apiary             | **High**        | **High**                 | **High**          | **High**        | **API Blueprint, Swagger** |
 | 8.      | APIdog             | **High**        | **High**                 | **Moderate**      | **High**        | **Markdown & JSON**        |

@@ -113,3 +113,17 @@ writing style guide:
   permalink: /writing-style-guide
   description: Writing style guide
 
+docusaurus:
+  label: Docusaurus
+  permalink: /docusaurus
+  description: Docusaurus
+
+migration:
+  label: Migration
+  permalink: /migration
+  description: Migration
+
+hugo:
+  label: Hugo
+  permalink: /hugo
+  description: Hugo

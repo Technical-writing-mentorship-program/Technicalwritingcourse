@@ -8,17 +8,18 @@ keywords: ["API", "Specification"]
 slug: /api-specification
 ---
 
-API specifications are crucial. They provide standard rules and guidelines for integrating an API and serve as a single source of truth for software engineers. 
+API specifications are crucial. They provide standard rules and guidelines for integrating an API and serve as a single source of truth for software engineers.
 
 :::tip[In this section, you will learn]
+
 - What is API Specification
 - Why do you need an API specification and,
 - Types of API Specification
-:::
+  :::
 
 ## What is API Specification?
 
-An API specification is a standardized format that describes the behavior and elements of an API, ensuring clear communication and integration among developers. 
+An API specification is a standardized format that describes the behavior and elements of an API, ensuring clear communication and integration among developers.
 
 The specification describes endpoints, operations on each endpoint, query and path parameters, methods, schemas, version descriptions, and more.
 
@@ -26,23 +27,20 @@ All these elements are compiled into a specification file, which is usually crea
 
 API specifications are technical and often lack detailed explanations, requiring technical writers to provide comprehensive descriptions translated into API documentation. While specifications outline API elements, they don't instruct on usage.
 
-
 :::info
 An API specification is not the same as an API architectural style
 :::
-
 
 ## Why do you need an API Specification?
 
 An API specification offers clear, standardized guidelines detailing how an API should operate and interact with other software components. It ensures consistent communication by defining expected behavior, data formats, and protocols. This eliminates the need for developers to rely on internal implementation details.
 
-**Moving further,** a well-defined API specification fosters collaboration among teams. 
+**Moving further,** a well-defined API specification fosters collaboration among teams.
 It minimizes misunderstanding and reduces the time spent on API integration.
 
 **In addition**, an API specification serves as a single source of truth that can be easily shared and modified, simplifying the development process. **As a result**, integration becomes significantly easier when APIs are clearly defined. Third-party developers can integrate their products seamlessly by referring to the specifications rather than relying on trial and error.
 
 **Finally**, security is essential in API development. An API specification enables developers to implement essential security measures, such as authentication, rate limiting, and encryption, to protect sensitive data.
-
 
 ## Types of API Specification
 
@@ -58,7 +56,7 @@ This section will focus on the first three API specification types.
 
 ### Open API Specification
 
-[OAS](https://swagger.io/specification/), previously known as the Swagger specification, is a format for describing, producing, consuming, and visualizing restful web services. It evolved from the Swagger framework and is now managed by the Open API Initiative(OAI) under the Linux Foundation.  It is an open-source collaboration project of the Linux Foundation.
+[OAS](https://swagger.io/specification/), previously known as the Swagger specification, is a format for describing, producing, consuming, and visualizing restful web services. It evolved from the Swagger framework and is now managed by the Open API Initiative(OAI) under the Linux Foundation. It is an open-source collaboration project of the Linux Foundation.
 
 This specification defines the structure and syntax of REST APIs, making it easy for developers to build consistent APIs that adhere to Industry standards. One of the most significant advantages of open APIs is that they are language agnostic. This means that humans and computers can identify and understand service capabilities without requiring additional documentation or access to source code.
 
@@ -66,14 +64,9 @@ An Open API file, sometimes called an Open API document, describes an API, inclu
 
 #### Top-Level Structure of an Open API Specification
 
-<img
- src="https://static1.smartbear.co/swagger/media/blog/wp-hub/openapi3structure.png" 
-  alt="Structure of an API Specification"
-/>
-
+![Structure of an API Specification](IMAGE/openapi3structure.png)
 
 Image Source:[Swagger.io](https://swagger.io/blog/api-design/openapi-driven-api-design/)
-
 
 - **openapi**: This section specifies the version of the OAS. The OAS has different versions.
 
@@ -84,6 +77,7 @@ You can write your OAS in YAML or JSON. I will use YAML for the example descript
 ```yaml showLineNumbers
 openapi: 3.0.0
 ```
+
 - **info**: This section provides metadata about the API, including title, description, version, contact, license, etc. It gives a general overview of what the API does.
 
 ```yaml showLineNumbers
@@ -95,22 +89,20 @@ info:
     [irc.freenode.net, #swagger](http://swagger.io/irc/).
   version: "1.0.0"
   title: Swagger Petstore
-  termsOfService: 'http://swagger.io/terms/'
+  termsOfService: "http://swagger.io/terms/"
   contact:
     email: apiteam@swagger.io
   license:
     name: Apache 2.0
-    url: 'http://www.apache.org/licenses/LICENSE-2.0.html'    
+    url: "http://www.apache.org/licenses/LICENSE-2.0.html"
 ```
-
 
 - **servers**: This section defines the base URLs for accessing the API. You can add multiple server URLs, such as production and testing environments, as supported by [OAS 3.0](https://github.com/OAI/OpenAPI-Specification/releases/tag/3.0.0-rc2)
 
-```yaml showLineNumbers 
-    servers:
-      - url: 'https://petstore.swagger.io/v2'
+```yaml showLineNumbers
+servers:
+  - url: "https://petstore.swagger.io/v2"
 ```
-
 
 - **tags**: This section contains a collection or group of related operations. Tags can also be added to path operations to add clear descriptions. For example, the [pet store API](https://petstore.swagger.io/#/) has tags like user, pet, store, and more.
 
@@ -119,6 +111,7 @@ tags:
   - name: pet
     description: Everything about your Pets
 ```
+
 - **paths**: This section lists all the API paths/endpoints available and the HTTP methods supported for each path. It contains request and response objects.
 
 ```yaml showLineNumbers
@@ -138,20 +131,20 @@ paths:
             type: integer
             format: int32
       responses:
-        '200':
+        "200":
           description: A paged array of pets
           content:
             application/json:
               schema:
                 type: array
                 items:
-                  $ref: '#/components/schemas/Pet'
-        'default':
+                  $ref: "#/components/schemas/Pet"
+        "default":
           description: unexpected error
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/Error'
+                $ref: "#/components/schemas/Error"
   /pets/{petId}:
     get:
       summary: Info for a specific pet
@@ -167,33 +160,32 @@ paths:
             type: integer
             format: int64
       responses:
-        '200':
+        "200":
           description: Expected response to a valid request
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/Pet'
-        'default':
+                $ref: "#/components/schemas/Pet"
+        "default":
           description: unexpected error
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/Error'      
-```    
+                $ref: "#/components/schemas/Error"
+```
 
-
-- **components**: This section holds reusable objects for parameters, schemas, responses, etc. These components can be referenced in any path item.  
+- **components**: This section holds reusable objects for parameters, schemas, responses, etc. These components can be referenced in any path item.
 
 ```yaml showLineNumbers
 components:
   securitySchemes:
-    petstore_auth:  
+    petstore_auth:
       type: oauth2
       flows:
         implicit:
-          authorizationUrl: 'http://petstore.swagger.io/oauth/dialog'
-          scopes: 
-            write:pets: modify pets in your account  
+          authorizationUrl: "http://petstore.swagger.io/oauth/dialog"
+          scopes:
+            write:pets: modify pets in your account
             read:pets: read your pets
     api_key:
       type: apiKey
@@ -211,8 +203,8 @@ components:
           format: int64
         name:
           type: string
-        tag: 
-          type: string  
+        tag:
+          type: string
     Error:
       type: object
       required:
@@ -231,15 +223,15 @@ components:
 ```yaml showLineNumbers
 security:
   - petstore_auth: []
-  - api_key: []    
+  - api_key: []
 ```
 
-- **External Docs**: This section allows you to reference external documentation by adding links. 
+- **External Docs**: This section allows you to reference external documentation by adding links.
 
 ```yaml showLineNumbers
 externalDocs:
-      description: Find out more
-      url: 'http://swagger.io'
+  description: Find out more
+  url: "http://swagger.io"
 ```
 
 Here is the full example code. You can preview it using the [Swagger editor](https://editor.swagger.io/).
@@ -254,22 +246,22 @@ info:
     [irc.freenode.net, #swagger](http://swagger.io/irc/).
   version: "1.0.0"
   title: Swagger Petstore
-  termsOfService: 'http://swagger.io/terms/'
+  termsOfService: "http://swagger.io/terms/"
   contact:
     email: apiteam@swagger.io
   license:
     name: Apache 2.0
-    url: 'http://www.apache.org/licenses/LICENSE-2.0.html'
+    url: "http://www.apache.org/licenses/LICENSE-2.0.html"
 servers:
   - description: SwaggerHub API Auto Mocking
     url: https://virtserver.swaggerhub.com/JudyPearls/Pet/1.0.0
-  - url: 'https://petstore.swagger.io/v2'
+  - url: "https://petstore.swagger.io/v2"
 tags:
   - name: pet
     description: Everything about your Pets
     externalDocs:
       description: Find out more
-      url: 'http://swagger.io'
+      url: "http://swagger.io"
 paths:
   /pets:
     get:
@@ -286,20 +278,20 @@ paths:
             type: integer
             format: int32
       responses:
-        '200':
+        "200":
           description: A paged array of pets
           content:
             application/json:
               schema:
                 type: array
                 items:
-                  $ref: '#/components/schemas/Pet'
-        'default':
+                  $ref: "#/components/schemas/Pet"
+        "default":
           description: unexpected error
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/Error'
+                $ref: "#/components/schemas/Error"
   /pets/{petId}:
     get:
       summary: Info for a specific pet
@@ -315,27 +307,27 @@ paths:
             type: integer
             format: int64
       responses:
-        '200':
+        "200":
           description: Expected response to a valid request
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/Pet'
-        'default':
+                $ref: "#/components/schemas/Pet"
+        "default":
           description: unexpected error
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/Error'      
+                $ref: "#/components/schemas/Error"
 components:
   securitySchemes:
-    petstore_auth:  
+    petstore_auth:
       type: oauth2
       flows:
         implicit:
-          authorizationUrl: 'http://petstore.swagger.io/oauth/dialog'
-          scopes: 
-            write:pets: modify pets in your account  
+          authorizationUrl: "http://petstore.swagger.io/oauth/dialog"
+          scopes:
+            write:pets: modify pets in your account
             read:pets: read your pets
     api_key:
       type: apiKey
@@ -353,8 +345,8 @@ components:
           format: int64
         name:
           type: string
-        tag: 
-          type: string  
+        tag:
+          type: string
     Error:
       type: object
       required:
@@ -371,23 +363,19 @@ security:
   - api_key: []
 ```
 
-Here is how the preview will look like 
+Here is how the preview will look like
 
-<img 
-  src="https://github.com/Nickyshe/Images/blob/main/annotely_image%20(73).png" 
-  alt="Swagger editor preview" 
-  width="100%"
-  />
+![Preview of swagger editor](IMAGE/swaggerEditor.png)
 
 #### 0AS Tools
 
-- [**SwaggerHub**:](https://app.swaggerhub.com/home) SwaggerHub is a collaborative platform developed by SmartBear that allows teams to design, manage, and publish APIs using the OAS. It offers a premium version of the open-source Swagger tools, providing enhanced features for API documentation. 
+- [**SwaggerHub**:](https://app.swaggerhub.com/home) SwaggerHub is a collaborative platform developed by SmartBear that allows teams to design, manage, and publish APIs using the OAS. It offers a premium version of the open-source Swagger tools, providing enhanced features for API documentation.
 
 - [**PostMan**](https://identity.getpostman.com/login?addAccount=1): This tool allows users to import APIs created with Swagger and other OpenAPI specifications.
 
 - [**Swagger Codegen:**](https://swagger.io/tools/swagger-codegen/) Swagger Codegen is a tool that generates client libraries, server stubs (generated code), and API documentation from an OpenAPI Specification.
 
-Other tools include:  Open API generator, API Dog, and more.
+Other tools include: Open API generator, API Dog, and more.
 
 ### RAML Specification
 
@@ -405,16 +393,14 @@ Moving on, in 2015, the Open API Initiative was established under the Linux Foun
 
 A year later, on May 16, 2016, the latest major release of RAML, version 1.0, was launched. This version introduced several enhancements aimed at improving usability and modularity.
 
-
 #### Basic Structure of a RAML Specification
 
 A basic RAML specification starts with a version declaration, followed by metadata about the API, and then the definition of resources and their associated methods. Here’s a breakdown of the specification structure.
 
-
 - **Version Declaration**: In RAML, you must define the version of the document.
 
 ```{1} showLineNumbers
-#%RAML 1.0   
+#%RAML 1.0
 ```
 
 - **Metadata:** This section contains detailed information about the API, such as the title, version, and base URL.
@@ -424,8 +410,6 @@ title: e-BookMobile API
     baseUri: http://api.e-bookmobile.com/{version}
     version: v1
 ```
-    
-
 
 - **Resource Definition**: Resources represent the various API endpoints. Each resource is defined with a leading slash and can have nested resources.
 
@@ -434,15 +418,13 @@ title: e-BookMobile API
     /authors:
     /books:
 ```
-   
-
 
 - **Method**: Each resource supports various HTTP methods (GET, POST, PUT, DELETE), which are defined under their respective resources.
+
 ```{1-2} showLineNumbers
  /books:
       get:
 ```
-
 
 - **Query Parameter**: In RAML, you can define query parameters for a resource or method to filter, sort, or paginate the returned data.
 
@@ -476,7 +458,6 @@ title: e-BookMobile API
             required: false
 
 ```
-   
 
 - **Responses:** Responses define the expected outcomes of API calls, including HTTP status codes and response bodies.
 
@@ -563,28 +544,18 @@ Here is the full code example
                       "status": 200
                     }
 ```
- 
 
-Preview Documentation with [RAML Github Play Ground](https://raml-org.github.io/playground/learn_raml.html?raml=%23%25RAML%201.0%0Atitle%3A%20Mobile%20Order%20API%0AbaseUri%3A%20http%3A%2F%2Flocalhost%3A8081%2Fapi%0Aversion%3A%201.0%0A%0Auses%3A%0A%20%20assets%3A%20assets.lib.raml%0A%0AannotationTypes%3A%0A%20%20monitoringInterval%3A%0A%20%20%20%20type%3A%20integer%0A%0A%2Forders%3A%0A%20%20displayName%3A%20Orders%0A%20%20get%3A%0A%20%20%20%20is%3A%20%5B%20assets.paging%20%5D%0A%20%20%20%20(monitoringInterval)%3A%2030%0A%20%20%20%20description%3A%20Lists%20all%20orders%20of%20a%20specific%20user%0A%20%20%20%20queryParameters%3A%0A%20%20%20%20%20%20userId%3A%0A%20%20%20%20%20%20%20%20type%3A%20string%0A%20%20%20%20%20%20%20%20description%3A%20use%20to%20query%20all%20orders%20of%20a%20user%0A%20%20post%3A%0A%20%20%2F%7BorderId%7D%3A%0A%20%20%20%20get%3A%0A%20%20%20%20%20%20responses%3A%0A%20%20%20%20%20%20%20%20200%3A%0A%20%20%20%20%20%20%20%20%20%20body%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20application%2Fjson%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20type%3A%20assets.Order%0A%20%20%20%20%20%20%20%20%20%20%20%20application%2Fxml%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20type%3A%20!include%20schemas%2Forder.xsd#)
+Preview Documentation with [RAML Github Play Ground](<https://raml-org.github.io/playground/learn_raml.html?raml=%23%25RAML%201.0%0Atitle%3A%20Mobile%20Order%20API%0AbaseUri%3A%20http%3A%2F%2Flocalhost%3A8081%2Fapi%0Aversion%3A%201.0%0A%0Auses%3A%0A%20%20assets%3A%20assets.lib.raml%0A%0AannotationTypes%3A%0A%20%20monitoringInterval%3A%0A%20%20%20%20type%3A%20integer%0A%0A%2Forders%3A%0A%20%20displayName%3A%20Orders%0A%20%20get%3A%0A%20%20%20%20is%3A%20%5B%20assets.paging%20%5D%0A%20%20%20%20(monitoringInterval)%3A%2030%0A%20%20%20%20description%3A%20Lists%20all%20orders%20of%20a%20specific%20user%0A%20%20%20%20queryParameters%3A%0A%20%20%20%20%20%20userId%3A%0A%20%20%20%20%20%20%20%20type%3A%20string%0A%20%20%20%20%20%20%20%20description%3A%20use%20to%20query%20all%20orders%20of%20a%20user%0A%20%20post%3A%0A%20%20%2F%7BorderId%7D%3A%0A%20%20%20%20get%3A%0A%20%20%20%20%20%20responses%3A%0A%20%20%20%20%20%20%20%20200%3A%0A%20%20%20%20%20%20%20%20%20%20body%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20application%2Fjson%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20type%3A%20assets.Order%0A%20%20%20%20%20%20%20%20%20%20%20%20application%2Fxml%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20type%3A%20!include%20schemas%2Forder.xsd#>)
 
-<img
- src="https://github.com/Nickyshe/Images/blob/main/annotely_image%20(72).png" 
- alt="Raml Github playground" 
- width="100%" />
-
-
+![Preview of Raml Playground](IMAGE/RamlPlayground.png)
 
 #### RAML Tools
 
-
 - [**API Designer**](https://www.mulesoft.com/platform/api/anypoint-designer): A web-based editor for creating and sharing RAML API specifications. It provides suggestions for elements and highlights errors in the RAML document.
 
-
-- [**RAML TO OAS***](https://mulesoft.github.io/oas-raml-converter/): This tool converts RAML API specifications to OpenAPI specifications.
+- [**RAML TO OAS\***](https://mulesoft.github.io/oas-raml-converter/): This tool converts RAML API specifications to OpenAPI specifications.
 
 Other tools include RAML parser, raml2html, API Console, and more. Visit the RAML [Project page](https://raml.org/projects) to learn more about RAML tools.
-
-
 
 ### API Blueprint Specification
 
@@ -594,7 +565,6 @@ API Blueprint is ideal for projects that need clear documentation and rapid prot
 
 #### Basic Structure of an API Blueprint Specification
 
-
 - **Metadata**: This section includes general information about the API, such as its title, version, and other basic information.
 
 ```{1-2} showLineNumbers
@@ -602,25 +572,25 @@ API Blueprint is ideal for projects that need clear documentation and rapid prot
     HOST: https://polls.apiblueprint.org/
 ```
 
-  
 - **API Name & Overview Section: This section** briefly describes the API, including its name and purpose.
 
 ```{1-3} showLineNumbers
     # Poll API
-    Polls is a simple API allowing consumers to view polls and vote in them.   
+    Polls is a simple API allowing consumers to view polls and vote in them.
 ```
+
 - **Resource Group Section**: These sections group related resources together.
 
-```{1} showLineNumbers 
+```{1} showLineNumbers
     ## Questions Collection [/questions]
 ```
 
-- **Action Sections**: Define the actions that can be performed on resources, such as HTTP methods (GET, POST, etc.). Each action section can specify requests, responses, headers, and more. 
+- **Action Sections**: Define the actions that can be performed on resources, such as HTTP methods (GET, POST, etc.). Each action section can specify requests, responses, headers, and more.
 
 ```{1-74} showLineNumbers
- ### List All Questions [GET]  
+ ### List All Questions [GET]
     + Response 200 (application/json)
-    
+
             [
                 {
                     "question": "Favourite programming language?",
@@ -643,13 +613,13 @@ API Blueprint is ideal for projects that need clear documentation and rapid prot
                 }
             ]
     ### Create a New Question [POST]
-    
+
     You may create your own question using this action. It takes a JSON
     object containing a question and a collection of answers in the
     form of choices.
-    
+
     + Request (application/json)
-    
+
             {
                 "question": "Favourite programming language?",
                 "choices": [
@@ -659,15 +629,15 @@ API Blueprint is ideal for projects that need clear documentation and rapid prot
                     "Ruby"
                 ]
             }
-    
+
     + Response 201 (application/json)
-    
+
         + Headers
-    
+
                 Location: /questions/2
-    
+
         + Body
-    
+
                 {
                     "question": "Favourite programming language?",
                     "published_at": "2015-08-05T08:40:51.620Z",
@@ -694,17 +664,17 @@ Here is the full example code
 ```{1-81} showLineNumbers
    FORMAT: 1A
     HOST: https://polls.apiblueprint.org/
-    
+
     # Poll
-    
+
     Polls is a simple API allowing consumers to view polls and vote in them.
-    
+
     ## Questions Collection [/questions]
-    
+
     ### List All Questions [GET]
-    
+
     + Response 200 (application/json)
-    
+
             [
                 {
                     "question": "Favourite programming language?",
@@ -726,15 +696,15 @@ Here is the full example code
                     ]
                 }
             ]
-    
+
     ### Create a New Question [POST]
-    
+
     You may create your own question using this action. It takes a JSON
     object containing a question and a collection of answers in the
     form of choices.
-    
+
     + Request (application/json)
-    
+
             {
                 "question": "Favourite programming language?",
                 "choices": [
@@ -744,15 +714,15 @@ Here is the full example code
                     "Ruby"
                 ]
             }
-    
+
     + Response 201 (application/json)
-    
+
         + Headers
-    
+
                 Location: /questions/2
-    
+
         + Body
-    
+
                 {
                     "question": "Favourite programming language?",
                     "published_at": "2015-08-05T08:40:51.620Z",
@@ -771,24 +741,15 @@ Here is the full example code
                             "votes": 0
                         }
                     ]
-                }    
+                }
 ```
-
- 
-
 
 Preview Documentation on [Apiary](https://apiary.io/)
 
-
-<img 
-  src="https://github.com/Nickyshe/Images/blob/main/annotely_image%20(71).png?raw=true" 
-  alt="Apairy preview" 
-  width="100%"
-/>
-
-
+![Apiary Preview](IMAGE/apiaryPreview.png)
 
 #### Tools for API Blueprint
+
 - [**Apiary**](https://apiary.io/)[:](https://apiary.io/) Provides interactive documentation, API mocking, testing suites, and collaboration features.
 
 - [**Dredd**](https://dredd.org/en/latest/quickstart.html)[:](https://dredd.org/en/latest/quickstart.html) This tool Validates API implementations against the API Blueprint specification. It can generate test cases based on the API Blueprint.
@@ -797,10 +758,10 @@ Preview Documentation on [Apiary](https://apiary.io/)
 
 To learn more about API Blueprint tools, visit [API Blueprint tools.](https://apiblueprint.org/tools.html#)
 
-
 :::tip[Assignment]
 Use a Swagger editor (like SwaggerHub, Editor.Swagger.io) to create an OpenAPI Specification (OAS) document for the TDMB API.
 The document should include the following elements:
+
 - Info: Basic information about the API (title, description, version, contact, license).
 - Paths: Define the API endpoints and their supported HTTP methods (GET, POST, PUT, DELETE).
 - Parameters: Describe query parameters, path parameters, and request bodies for each operation.
@@ -811,6 +772,7 @@ The document should include the following elements:
 **Documentation Preview and Generation**: Use Swagger tools to preview the generated API documentation. This will give you an interactive view of the API, similar to what developers will see when using it.
 
 Write a reflection on the experience of documenting the TDMB API using Swagger. Include the following:
+
 - Challenges you faced.
 - Key lessons learned about API documentation and Swagger.
 

@@ -6,9 +6,14 @@ import HandsOnCourses from "../components/academyComponent/HandsOnCourses";
 import BlogSection from "../components/blogComponent/BlogSection";
 import TestimonialSection from "../components/TestimonialSection/testimonial";
 import Homepage from "../components/HomePage";
+import Hotjar from '@hotjar/browser';
 
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
+  const siteId = 6417587;
+const hotjarVersion = 6;
+
+Hotjar.init(siteId, hotjarVersion);
   return (
     <Layout
       title={`${siteConfig.title}`}

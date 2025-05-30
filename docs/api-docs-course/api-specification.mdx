@@ -7,10 +7,10 @@ pagination_label: "API Specification"
 keywords: ["API", "Specification"]
 slug: /api-specification
 ---
-import openapi from './images/openapi.png';
-import swagger from './images/swagger.png';
-import raml from './images/raml.png';
-import apiary from './images/apiary.png';
+import openapi from './img/openapi.png';
+import swagger from './img/swagger.png';
+import raml from './img/raml.png';
+import apiary from './img/apiary.png';
 
 
 API specifications are crucial. They provide standard rules and guidelines for integrating an API and serve as a single source of truth for software engineers. 
@@ -70,9 +70,10 @@ This specification defines the structure and syntax of REST APIs, making it easy
 An Open API file, sometimes called an Open API document, describes an API, including endpoints, authentication methods, operation parameters, and contact information. It can be written in YAML or JSON. Big organizations like Google, Postman, Oracle, and more use the OAS.
 
 #### Top-Level Structure of an Open API Specification
-
-<img src={openapi} alt="Structure of an API Specification"/>
-
+<figure>
+  <img src={openapi} alt="Structure of an API Specification"/>
+  <figcaption>Structure of an API Specification</figcaption>
+</figure>
 
 - **openapi**: This section specifies the version of the OAS. The OAS has different versions.
 
@@ -380,8 +381,10 @@ security:
 
 Here is how the preview will look like:
 
+<figure>
   <img src={swagger} alt="Swagger image preview" width="100%" />
-
+  <figcaption> Swagger image preview </figcaption>
+</figure>
  You can also preview it using the [Swagger editor](https://editor.swagger.io/).
 
 #### 0AS Tools
@@ -581,9 +584,10 @@ title: e-BookMobile API
 Preview Documentation with [RAML Github Play Ground](https://raml-org.github.io/playground/learn_raml.html?raml=%23%25RAML%201.0%0Atitle%3A%20Mobile%20Order%20API%0AbaseUri%3A%20http%3A%2F%2Flocalhost%3A8081%2Fapi%0Aversion%3A%201.0%0A%0Auses%3A%0A%20%20assets%3A%20assets.lib.raml%0A%0AannotationTypes%3A%0A%20%20monitoringInterval%3A%0A%20%20%20%20type%3A%20integer%0A%0A%2Forders%3A%0A%20%20displayName%3A%20Orders%0A%20%20get%3A%0A%20%20%20%20is%3A%20%5B%20assets.paging%20%5D%0A%20%20%20%20(monitoringInterval)%3A%2030%0A%20%20%20%20description%3A%20Lists%20all%20orders%20of%20a%20specific%20user%0A%20%20%20%20queryParameters%3A%0A%20%20%20%20%20%20userId%3A%0A%20%20%20%20%20%20%20%20type%3A%20string%0A%20%20%20%20%20%20%20%20description%3A%20use%20to%20query%20all%20orders%20of%20a%20user%0A%20%20post%3A%0A%20%20%2F%7BorderId%7D%3A%0A%20%20%20%20get%3A%0A%20%20%20%20%20%20responses%3A%0A%20%20%20%20%20%20%20%20200%3A%0A%20%20%20%20%20%20%20%20%20%20body%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20application%2Fjson%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20type%3A%20assets.Order%0A%20%20%20%20%20%20%20%20%20%20%20%20application%2Fxml%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20type%3A%20!include%20schemas%2Forder.xsd#)
 
 
-
-<img src={raml} alt="RAML github playground" width="100%"/>
-
+<figure>
+  <img src={raml} alt="RAML github playground" width="100%"/>
+  <figcaption> RAML Github Playground </figcaption>
+</figure>
 #### RAML Tools
 
 
@@ -792,10 +796,10 @@ API Blueprint is ideal for projects that need clear documentation and rapid prot
 
 Preview Documentation on [Apiary](https://apiary.io/)
 
-
-
-<img src={apiary} alt="Apiary preview" width="100%"/>
-
+<figure>
+  <img src={apiary} alt="Apiary preview" width="100%"/>
+  <figcaption> Apiary API Documentation Preview</figcaption>
+</figure>
 #### Tools for API Blueprint
 - [**Apiary**](https://apiary.io/)[:](https://apiary.io/) Provides interactive documentation, API mocking, testing suites, and collaboration features.
 

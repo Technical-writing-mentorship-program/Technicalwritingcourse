@@ -7,11 +7,11 @@ pagination_label: "Structuring an API Document"
 keywords: ["API", "Documentation", "Structure", "Guide"]
 slug: /structuring-an-api-document
 ---
-import rawg from './images/rawg.png';
-import tmdb from './images/tmdb.png';
-import interswitch from './images/interswitch.png';
-import paystack from './images/paystack.png';
-import twitter from './images/twitter.png';
+import rawg from './img/rawg.png';
+import tmdb from './img/tmdb.png';
+import interswitch from './img/interswitch.png';
+import paystack from './img/paystack.png';
+import twitter from './img/twitter.png';
 
 
 An API document is more than a collection of pages—it's the complete guide to your product's API.
@@ -54,8 +54,10 @@ Consider adding images or videos about the product to enhance the page's look an
 For inspiration, check out the introduction page of this web3 product, [Bitpowr](https://docs.bitpowr.com/reference/api-reference), or this video game API, [RAWG](https://rawg.readme.io/reference/overview):
 :::
 
-
-<img src={rawg} width="100%"/>
+<figure>
+  <img src={rawg} width="100%"/>
+  <figcaption> RAWG API Introduction Page</figcaption>
+</figure>
 ## Quick Start
 
 After showcasing all the incredible things developers can do with your API on the introduction page, it's time to put all that talk into practice.
@@ -84,12 +86,14 @@ As a tip, you want to make this page as brief as possible, so select an endpoint
 The [Movie Database API](https://developer.themoviedb.org/reference/intro/getting-started) provides a good example of what a quick start guide should look like
 :::
 
-<img src={tmdb}
+<figure>
+
+  <img src={tmdb}
       alt="Tmdb image"
       width="100%"
-  />
-
-
+    />
+  <figcaption> TMDB API Quickstart Quide</figcaption>
+</figure>
 ## Authorization/Authentication
 
 Before users can interact with any endpoint on your API, they need to authenticate themselves, typically using an API key.
@@ -153,12 +157,13 @@ Therefore, you should include the following:
 The [Interswitch API](https://docs.interswitchgroup.com/docs/authentication) docs provides an excellent example of an authentication page.
 :::
 
-
-<img src={interswitch}
+<figure>
+   <img src={interswitch}
     alt="interswitch image"
     width="100%"
-  />
-
+   />
+  <figcaption> Interswitch API Authentication Page </figcaption>
+</figure>
 
 ## Status and Error Codes
 
@@ -189,12 +194,13 @@ To document this page effectively, organize the codes and their descriptions in 
 :::info
 An excellent example of an errors and status codes page can be found on the [Paystack API documentation.](https://paystack.com/docs/api/errors/)
 :::
-
-<img src={paystack}
+<figure>
+  <img src={paystack}
   alt="paystack API"
   width="100%"
-/>
-
+  />
+  <figcaption>  Paystack API Error Page </figcaption>
+</figure>
 ## Rate Limiting
 
 The rate limiting page explains how many requests a user can make to the API in a specific period, like per minute or hour.
@@ -224,11 +230,15 @@ You should include the following information in your rate limit page:
 [X (Twitter)](https://developer.x.com/en/docs/x-api/rate-limits) provides a detailed API rate limit section for inspiration. If you scroll further down this page, you can see how they structured the rate-limiting information based on tiers in tables.
 :::
 
-<img 
-  src={twitter} 
-  alt="twitter image" 
-  width="100%"
-/>
+<figure>
+  <img 
+    src={twitter} 
+    alt="twitter image" 
+    width="100%"
+  />
+  <figcaption> Twitter API Rate Limit Page</figcaption>
+</figure>
+
 :::tip[Assignment] 
 Document the [Petstore API](https://petstore.swagger.io/) using Postman. Pay attention to the API's structure as explained in the course module and provide detailed descriptions and examples where necessary.
 

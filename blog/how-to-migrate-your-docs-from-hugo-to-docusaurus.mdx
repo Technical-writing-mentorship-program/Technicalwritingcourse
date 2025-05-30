@@ -1,0 +1,117 @@
+---
+slug: /how-to-migrate-your-docs-from-hugo-to-docusaurus
+title: "How to Migrate Your Docs from Hugo to Docusaurus: The TWMP Approach"
+description: This guide provides information and steps on how to use visual studio code for beginners, its features and navigating through it
+authors: prince
+date: 2025-05-28
+tags: [migration, hugo, docusaurus, documentation]
+---
+
+![Hugo to Docusaurus migration](/img/hugo-to-docusaurus.png)
+
+{/* truncate */}
+
+When you're part of a growing open source community, keeping things accessible and easy to contribute to becomes a top priority. That’s exactly why we decided it was time for a change.
+
+The [Technical Writing Mentorship Program (TWMP) website](https://technicalwritingmp.com/) ran on Hugo for years. It served us well, but as our content expanded and more contributors joined, we started to feel its limits. New contributors often struggled to get started, and maintaining the site took more effort than it should have. We needed a platform that could grow with us, one that was easier to customize and more contributor-friendly.
+
+So, we decided to migrate our entire documentation site to Docusaurus.
+
+In this post, I’ll walk you through how we approached the first phase of this migration, the plan we followed, how we split the work, and what we learned along the way. Whether you're maintaining an open source documentation site or planning your migration, I hope this gives you a helpful look into what it takes to make a transition like this happen.
+
+### Why we Migrated from Hugo to Docusaurus
+
+Before we began planning, we had to ask ourselves an important question: Why move away from something that already works?
+
+[Hugo](https://gohugo.io/) had been our home for a while, but it came with its challenges. The setup wasn’t as intuitive for new contributors, especially those unfamiliar with static site generators. Making updates or customizations often required way more effort than it ought to.
+
+We wanted something simpler. We needed a site that felt modern and welcoming, one that reflected how far the TWMP community had come.
+
+[Docusaurus](https://docusaurus.io/) stood out because it gave us that flexibility. It uses Markdown by default, which fits nicely with modern documentation styles. The platform also made it easier to customize the site structure and visuals without overcomplicating things. Plus, it had strong support for features like versioning, search, and theming, all of which mattered to us as our documentation continued to grow.
+
+This migration was about creating a smoother experience for everyone—readers, contributors, and maintainers alike.
+
+### Planning the Migration
+
+Once we agreed on Docusaurus as our new home, the next step was figuring out how to move everything without disrupting our ongoing work.
+
+We decided to use the same repository, but created a separate branch called [`Newdocs`](https://github.com/Technical-writing-mentorship-program/Technicalwritingcourse/tree/Newdocs). This allowed us to work freely without affecting the live site. From there, we broke the project into two major focus areas: the **homepage redesign** and the **content migration**. Each had its own lead and team members to keep things organized and moving steadily.
+
+We mapped out a two-week timeline with specific milestones. Initially, we planned that the first week would focus on setting up the new homepage and migrating the blog, while in the second week, we’ll turn our attention to moving the core course documentation and refining the overall site structure.
+
+However, we realised this would just slow us down, and it’ll be better if both teams work simultaneously since their tasks are different. So, the content migration team handled everything concerning written content, and as the name implies, the homepage team handled any homepage-related tasks.
+
+The team for this project were mentors from the community. The team leads, [Joshua Onwuemene](https://github.com/onwuemenejoshua) for the homepage and [Judith Etugbo](https://github.com/Nickyshe) for content and blog migration, were responsible for coordinating efforts, assigning tasks, and reviewing work before it was sent for final checks.
+
+We also set up a structured workflow:
+
+* Team members worked in their branches (like the homepage and blog branches).
+
+* Pull requests were submitted every two days for review.
+
+* Communication and updates happened on GitHub and WhatsApp.
+
+* We used Loom videos to share walkthroughs and feedback asynchronously.
+
+This clear structure allowed us to move quickly while keeping everyone aligned. It also made it easier for contributors to pick up tasks and collaborate, regardless of their individual responsibility or experience level.
+
+### Executing the Migration
+
+With the plan in place, we moved quickly into action. The homepage and content teams each branched off to start their work, and the Newdocs branch became our shared base for all pull requests and reviews.
+
+The homepage team focused on redesigning the site’s look and feel. They created a cleaner, more modern interface that reflects the professionalism of the community. The team also worked on improving navigation so that new visitors could easily find information about our courses, mentorship, and blog.
+
+Meanwhile, the content migration team handled the actual documentation. This included four major course sections: **Asciidoc**, **Markdown**, **Technical Writing**, and **API** **Documentation**. The team carefully converted content from Hugo’s format into Docusaurus’s structure, ensuring that formatting stayed consistent and readable throughout the site.
+
+Workload distribution played a key role in our speed. Each team lead shared responsibilities among members, who reviewed each other's contributions before raising pull requests to the Newdocs branch. From there, the final round of review ensured quality and consistency across the board.
+
+We adopted a rhythm of submitting PRs every two days. This gave us time to review updates thoroughly without blocking momentum. We used [GitHub](https://github.com/Technical-writing-mentorship-program/Technicalwritingcourse) for reviews and tracked discussions, while WhatsApp helped with real-time check-ins and updates. We recorded [Loom](https://www.loom.com/share/8097d60aaee84d5089d6e126ef383a35?sid=bfce3405-7c89-4be9-9411-99cef4b22672) videos to give walkthroughs or explain decisions asynchronously when needed.
+
+By working in parallel across teams, we made steady, visible progress throughout a three-week period (yes, we didn’t meet the two-week goal we set). The site came together piece by piece, and each merge brought us closer to a fully migrated and redesigned platform.
+
+You can see a before-and-after depiction of the site, and if you're reading this, you're already experiencing the live version of this migration.
+
+<div style={{ textAlign: 'center' }}>
+  ![Old website](/img/old-website.png)
+</div>
+
+***Figure 1:*** *The homepage of the old TWMP website*
+
+<div style={{ textAlign: 'center' }}>
+  ![New website](/img/new-website.png)
+</div>
+
+***Figure 2:*** *The homepage of the new TWMP website*
+
+### Challenges we faced
+
+No migration is without a few hiccups, and ours was no exception. From technical blockers to coordination issues, here are a few key challenges we had to work through:
+
+1. **Dependency conflicts (yarn.lock issues)**: During development, the homepage team ran into persistent merge conflicts caused by the yarn.lock file. Despite multiple attempts to resolve it manually and suggestions to ignore it, the conflict remained a blocker. After deliberation, we made a key decision: to drop Yarn entirely and standardize on NPM across the project. This meant the homepage team had to:  
+    * Discard all Yarn-related files from their branch.  
+    * Reinstall dependencies using NPM, and  
+    * Submit a fresh pull request that aligns with the rest of the project.  
+  
+    This switch simplified dependency management and prevented similar conflicts in future contributions.  
+  
+2. **Missed deadlines and pressure to deliver:** Despite having an internal deadline, the actual timeline stretched. A few team members couldn’t submit their PRs on time due to blockers. But rather than escalating the pressure, the leads offered support and encouragement while keeping everyone accountable. We still got it done, but it was just not exactly when we had planned.
+
+3. **CSS framework challenges**: We initially wanted to use TailwindCSS for styling, but couldn’t initialize it successfully. Both local setups and fresh installations failed at the same stage, even after following the recommended documentation. In the end, we chose to use vanilla CSS so the homepage wouldn’t be delayed. We documented the issue and plan to revisit the styling once the Tailwind setup is properly resolved.
+
+4. **Communication gaps and missing PR templates**: There were a few moments when some contributors weren’t sure if others were done or ready to merge. Not everyone followed a consistent PR structure, which made reviews harder. We realized that clearer task definitions and templates would improve our workflow in future projects.
+
+Despite these issues, the team’s commitment and communication kept things moving forward. Every blocker became an opportunity to learn, and the team handled problems with collaboration and humor.
+
+## What’s next for the TWMP Docs?
+
+Migrating the TWMP community site from Hugo to Docusaurus was a step toward building a more engaging, maintainable, and contributor-friendly documentation experience.
+
+We tackled the migration with a strong focus on collaboration, clear roles, and planning. From rewriting the homepage to tracking issues, assigning roles and responsibilities across teams, each choice helped us ship something better, not just newer.
+
+Now, we’re moving into **Phase 2**.
+
+This next phase is all about refinement and interactivity. We’ll restore any missing content that slipped through the cracks, add subtle animations to the homepage, clean up small formatting issues, and ensure everything from media files to metadata feels polished and consistent.
+
+The work continues over the next three weeks, and we’re sticking with our collaborative branching strategy and frequent pull requests to maintain momentum.
+
+This migration was about building a better foundation for contributors, learners, and the TWMP community. And we’re just getting started\!

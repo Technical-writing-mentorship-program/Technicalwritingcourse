@@ -8,14 +8,13 @@ keywords: ["API", "Documentation", "Structure", "Guide"]
 slug: /structuring-an-api-document
 ---
 
-An API document is more than a collection of pages—it's the complete guide to your product's API.
 
+
+An API document is more than a collection of pages—it's the complete guide to your product's API.
 Every page in this document needs to capture a specific aspect of the API, ensuring that users have all the details they need to maximize its potential.
 
 The structure of your API document isn't just about organization; it's about creating a user-friendly experience for your users.
-
 It's crucial to think carefully about how each page is arranged because this will guide users' interactions with your API.
-
 Imagine starting with an error handling page before giving users a proper introduction or overview of the API.
 
 In this section, you'll learn how to structure API documentation, explore the significance of each page, and determine what its content should be.
@@ -23,7 +22,6 @@ In this section, you'll learn how to structure API documentation, explore the si
 ## Introduction (Product Overview)
 
 The introduction page of your API is your chance to make a solid first impression. It's where you provide a soft landing for your users, giving them a clear and concise overview without overwhelming them with details.
-
 In API documentation, you often don't have the luxury of long-winded stories or paragraphs, so this is the page where you need to grab attention quickly.
 
 On this page, you'll provide a high-level overview of the API, its purpose, and how it can be used. The goal is to give developers a solid understanding of what they can achieve with the API and why they might want to use it.
@@ -41,27 +39,20 @@ Your introduction page typically includes the following sections:
 5. **Versioning and updates**: If the API has recently been updated, include information about the current version. This keeps developers informed about the API's lifecycle.
 
 As a tip for creating this page, please stick to the company's tone and voice, as it sets the foundation for the rest of the documentation. If you're unsure, aim for a friendly tone that's easy to follow, avoiding vague or overly complex language.
-
 Consider adding images or videos about the product to enhance the page's look and feel. A well-designed introduction page can set the right tone for the entire documentation.
 
 :::tip
 For inspiration, check out the introduction page of this web3 product, [Bitpowr](https://docs.bitpowr.com/reference/api-reference), or this video game API, [RAWG](https://rawg.readme.io/reference/overview):
 :::
 
-<img 
-  src="https://paper-attachments.dropboxusercontent.com/s_EDD9ADFB86920F498AB507D4AA462F35DADB64AD2D2C85E101246DF4DE91B194_1724569494303_RAWG-intro.png" 
-  alt="clear image" 
-  width="100%"
-/>
+  ![RAWG API](./img/rawg.png)
+  _**Fig 1.** RAWG API Introduction Page_
 
 ## Quick Start
 
-After showcasing all the incredible things developers can do with your API on the introduction page, it's time to put all that talk into practice.
-
-This guide is all about action. Your goal is to lead developers through the steps to make their first API call quickly and efficiently. The name says it all: it's a quick-start guide, so keep the focus on code; there is no need for stories.
+After showcasing all the incredible things developers can do with your API on the introduction page, it's time to put all that talk into practice. This guide is all about action. Your goal is to lead developers through the steps to make their first API call quickly and efficiently. The name says it all: it's a quick-start guide, so keep the focus on code; there is no need for stories.
 
 Your job in this guide is to take the user by the hand and walk them through a series of steps to achieve a tangible result. Think of it like writing your first "**hello world**" program—simple, direct, and concise.
-
 To be effective, this guide must be as self-contained as possible. This means it should include everything the developer needs to get that first successful response from your API without having to hunt for information elsewhere.
 
 Below are some key elements to include in the quick start guide:
@@ -82,59 +73,51 @@ As a tip, you want to make this page as brief as possible, so select an endpoint
 The [Movie Database API](https://developer.themoviedb.org/reference/intro/getting-started) provides a good example of what a quick start guide should look like
 :::
 
-<img 
-  src="https://paper-attachments.dropboxusercontent.com/s_EDD9ADFB86920F498AB507D4AA462F35DADB64AD2D2C85E101246DF4DE91B194_1724569648391_TMDB+quick+start.png" 
-  alt="clear image" 
-  width="100%"
-/>
+
+
+  ![TMDB Image](./img/tmdb.png)
+ _**Fig 2**. TMDB API Quickstart Guide_
 
 ## Authorization/Authentication
 
 Before users can interact with any endpoint on your API, they need to authenticate themselves, typically using an API key.
-
 While API keys are a popular choice for authentication, they're not the only method available.
 Before discussing how this page should be structured, you need to understand what authentication is and other means of authentication.
 
 ### What is Authentication?
 
-Authentication is all about verifying who someone is. When a user wants to access your API, they need to prove their identity.
-
-This is where authentication methods like API keys, OAuth, or HMAC come into play. It's the first line of defense, ensuring that only legitimate users can interact with your API.
+Authentication is all about verifying who someone is. When a user wants to access your API, they need to prove their identity. This is where authentication methods like API keys, OAuth, or HMAC come into play. It's the first line of defense, ensuring that only legitimate users can interact with your API.
 
 ### What is Authorization?
 
 Authorization, on the other hand, determines what an authenticated user is allowed to do. Once a user is authenticated, authorization defines their level of access—what resources they can use, what actions they can perform, and what data they can interact with.
 
-### Their differences?
+### Authentication vs Authorization
 
 Authentication asks, "Who are you?" Authorization asks, "What are you allowed to do?" While these concepts are closely related, they serve different purposes.
-
 Think of authentication as the lock on the front door and authorization as the rules for what rooms someone can enter once inside.
 
-### Authentication methods
+### Authentication Methods
 
 Authentication isn't one-size-fits-all. Below are some common methods of authenticating a user:
 
-#### API Keys
+#### 1. API Keys
 
 API keys are like a unique password for your API. They're simple and easy to use, making them a go-to choice for many developers.
-
 However, while convenient, they may not offer the highest level of security, especially if not handled properly.
 
-#### OAuth
+#### 2. OAuth
 
 OAuth is a more robust and secure method of authentication, particularly popular in scenarios where users need to grant third-party apps access to their data without sharing their actual credentials. It's a bit more complex but offers greater flexibility and security.
 
-#### HMAC
+#### 3. HMAC
 
 Hash-based Message Authentication Code (HMAC) adds an extra layer of security by combining a secret key with the message itself to generate a unique signature.
-
 This method ensures that the message hasn't been tampered with and comes from a legitimate source.
 
-### How to structure this page
+### How to Structure This Page
 
 When structuring the authentication/authorization page, you want to ensure it is clear and straightforward.
-
 Therefore, you should include the following:
 
 1. **The type of authentication method used**: Clearly state which authentication method your API uses, whether it's API keys, OAuth, HMAC, or another method. Provide a brief explanation of why this method was chosen. Do well to leave it at a high-level description for increased security.
@@ -151,11 +134,8 @@ Therefore, you should include the following:
 The [Interswitch API](https://docs.interswitchgroup.com/docs/authentication) docs provides an excellent example of an authentication page.
 :::
 
-<img  
-  src="https://paper-attachments.dropboxusercontent.com/s_EDD9ADFB86920F498AB507D4AA462F35DADB64AD2D2C85E101246DF4DE91B194_1724569682732_interswitch-auth.png" 
-  alt="clear image" 
-  width="100%"
-/>
+   ![Interswitch API ](./img/interswitch.png)
+  _**Fig 3.** Interswitch API Authentication Page_
 
 ## Status and Error Codes
 
@@ -165,7 +145,7 @@ While many of these codes are standardized across APIs, it's crucial to dedicate
 
 For endpoints that require a specific explanation of an error, it's good practice to provide a brief description within the endpoint's documentation and link it back to this general page for more context.
 
-### Documenting this page
+### Documenting This Page
 
 When documenting this page, the developers usually supply the codes associated with each endpoint. However, it's a good idea to play around with the endpoints yourself to observe the codes in action. This hands-on approach ensures accuracy and gives you a deeper understanding of how these codes function within your API.
 
@@ -187,21 +167,17 @@ To document this page effectively, organize the codes and their descriptions in 
 An excellent example of an errors and status codes page can be found on the [Paystack API documentation.](https://paystack.com/docs/api/errors/)
 :::
 
-<img 
-  src="https://paper-attachments.dropboxusercontent.com/s_EDD9ADFB86920F498AB507D4AA462F35DADB64AD2D2C85E101246DF4DE91B194_1724569804556_paystack-errors.png" 
-  alt="clear image" 
-  width="100%"
-/>
+  ![paystack API](./img/paystack.png)
+  _**Fig 4.**:  Paystack API Error Page_
 
 ## Rate Limiting
 
 The rate limiting page explains how many requests a user can make to the API in a specific period, like per minute or hour.
-
 It's an important part of API docs because it helps developers understand how to use the API without issues, such as getting blocked for making too many requests.
 
 Many companies offer different rate limits based on their pricing tiers. For example, a free tier might have stricter limits, while a commercial plan offers more flexibility, allowing users to make more requests. This gives developers options depending on their needs and budget.
 
-### How to document this page
+### How to Document This Page
 
 You should include the following information in your rate limit page:
 
@@ -222,11 +198,8 @@ You should include the following information in your rate limit page:
 [X (Twitter)](https://developer.x.com/en/docs/x-api/rate-limits) provides a detailed API rate limit section for inspiration. If you scroll further down this page, you can see how they structured the rate-limiting information based on tiers in tables.
 :::
 
-<img 
-  src="https://paper-attachments.dropboxusercontent.com/s_EDD9ADFB86920F498AB507D4AA462F35DADB64AD2D2C85E101246DF4DE91B194_1724570007110_x-rate-limit.png" 
-  alt="clear image" 
-  width="100%"
-/>
+  ![twitter image](./img/twitter.png)
+  _**Fig 5.** Twitter API Rate Limit Page_
 
 :::tip[Assignment] 
 Document the [Petstore API](https://petstore.swagger.io/) using Postman. Pay attention to the API's structure as explained in the course module and provide detailed descriptions and examples where necessary.

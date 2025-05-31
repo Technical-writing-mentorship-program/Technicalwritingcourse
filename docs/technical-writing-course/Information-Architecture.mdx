@@ -272,32 +272,7 @@ Following these steps diligently will let you create a taxonomy that organizes i
 
 
 
-import Quiz from '@site/src/components/Quiz';
 
-<Quiz
-  questions={[
-    {
-      text: 'Why is taxonomy important when building your information architecture for technical documentation?',
-      options: [
-        { value: '1', label: 'It enhances user understanding by grouping related topics together' },
-        { value: '2', label: 'It eliminates the need for usability testing' },
-        { value: '3', label: 'It forces users to follow a specific path in the documentation ' },
-        { value: '4', label: 'It ensures all topic are covered' }
-      ],
-      correct: '1'
-    },
-    {
-      text: 'What is the primary goal of information architecture in technical documentation?',
-      options: [
-        { value: '1', label: "To reduce maintenance cost" },
-        { value: '2', label: 'To make technical documentation visually appealing' },
-        { value: '3', label: 'To replace the need for clear writing' },
-        { value: '4', label: 'To improve findability for users' }
-      ],
-      correct: '4'
-    }
-  ]}
-/>
 
 
 ## How to create an information architecture for your technical documentation
@@ -381,12 +356,31 @@ After review, tag @TechnicalWriti6 on Twitter to the link to your article.
 ## Answer the following questions
 
 
-<iframe
-  src="https://forms.gle/tn3pe9Y7CK6edGp38"
-  width="100%"
-  height="800"
-  style={{ border: '0', margin: 0 }}
-  title="Embedded Google Form"
+import Quiz from '@site/src/components/Quiz';
+
+<Quiz
+  questions={[
+    {
+      text: 'Why is taxonomy important when building your information architecture for technical documentation?',
+      options: [
+        { value: '1', label: 'It enhances user understanding by grouping related topics together' },
+        { value: '2', label: 'It eliminates the need for usability testing' },
+        { value: '3', label: 'It forces users to follow a specific path in the documentation ' },
+        { value: '4', label: 'It ensures all topic are covered' }
+      ],
+      correct: '1'
+    },
+    {
+      text: 'What is the primary goal of information architecture in technical documentation?',
+      options: [
+        { value: '1', label: "To reduce maintenance cost" },
+        { value: '2', label: 'To make technical documentation visually appealing' },
+        { value: '3', label: 'To replace the need for clear writing' },
+        { value: '4', label: 'To improve findability for users' }
+      ],
+      correct: '4'
+    }
+  ]}
 />
 
 

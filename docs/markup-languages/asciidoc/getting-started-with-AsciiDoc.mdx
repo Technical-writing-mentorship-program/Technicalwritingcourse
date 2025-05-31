@@ -4,7 +4,7 @@ title: Getting Started with AsciiDoc Using Antora
 sidebar_label: Getting Started with AsciiDoc Using Antora
 sidebar_position: 3
 description: This section covers the relationship between AsciiDoc and Antora, how to install Antora, and publishing with Antora
-slug: /getting started
+slug: /getting-started
 keywords: [AsciiDoc, Antora, Asciidoctor, technical writing]
 ---
 
@@ -84,9 +84,11 @@ _**Fig 3:** A screenshot of the PowerShell showing the installation of Node.js_
 
 In this section, you will look at how to install Antora.
 
-> **Prerequisite: You must have Node.js installed**
+:::info[Prerequisite]
+You must have Node.js installed
+:::
 
-To be able to use Antora to generate a documentation site, you are going to need the **Antora command line interface (CLI)** and the **Antora site generator**.
+To use Antora to generate a documentation site, you need the **Antora command line interface (CLI)** and the **Antora site generator**.
 
 The first thing to do when trying to install Antora is to create a new directory for your documentation site, and then move into that directory. You can do this in your PowerShell. Let us call this directory _**test-site**_
 
@@ -102,7 +104,9 @@ node -e "fs.writeFileSync('package.json', '{}')"
 npm i -D -E antora
 ```
 
-> **Warning: In case you run into an error running the Antora installation script in the PowerShell of your Windows machine, refer to this article on [Execution Policies](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.4) to fix the issue.**
+:::warning
+In case you run into an error running the Antora installation script in the PowerShell of your Windows machine, refer to this article on [Execution Policies](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.4) to fix the issue.
+:::
 
 Verify Antora has been installed by running the command below;
 
@@ -192,7 +196,7 @@ This command lets Antora clone the content, UI repository and generate your docu
 
 _**Fig 6:** A screenshot from the terminal showing that the generation of the documentation site is complete_
 
-Navigate to the **_test-site/build/site/index.html_** directory. Open the **_index.html_** file in your browser to view your generated documentation site.
+Go to the **_test-site/build/site/index.html_** directory. Open the **_index.html_** file in your browser to view your generated documentation site.
 
 **Step 5:** After opening the **_index.html_** file, you should see your generated documentation site.
 
@@ -252,6 +256,11 @@ For any change you make with syntax in your vs code, always generate the site ag
 
 ## Simple workflow to deploy static content to Github Pages
 
+<details>
+  <summary>Toggle to preview the code</summary>
+
+  <p>
+  
 ```bash showLineNumbers
 name: Deploy Antora static content to Pages
 on:
@@ -309,6 +318,8 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build/site # Update this to match your Antora output directory
 ```
+  </p>
+</details>
 
 - Make edits to your documentation file.
 - Commit changes and push them to your repository.

@@ -19,11 +19,13 @@ From the previous lesson, you’ve learnt what Markdown is, its Importance, its 
 
 Here is saying “_The best way to learn is to practice_” This way you will be able to identify common errors and avoid them in your next project. In this lesson, you will be doing a lot of practicals and getting your hands dirty in markdown.
 
-In the lesson, you will be learning:
+:::tip
+In the lesson, you will learn:
 
-- How to Set Up Markdown Tools.
-- Markdown basic syntaxes and Formatting.
-- How to Structure Contents in Markdown.
+- How to set up Markdown tools.
+- Markdown basic syntaxes and formatting.
+- How to structure contents in Markdown.
+  :::
 
 ## Let's Get the ball Rolling
 
@@ -43,26 +45,29 @@ Here are some Markdown editors you can use to try writing in Markdown:
 6. [GhostWriter](https://wereturtle.github.io/ghostwriter/)
 7. [Wri.pe](https://wri.pe/)
 
----
-
 ## Setting Up Markdown Tools
 
-For this lesson, you will be using StackEdit. StackEdit is a free online Markdown editor with a visual toolbar for formatting (bold, emphasis, lists, etc.). It can sync with cloud storage services such as Dropbox and Google Drive, and import files from a URL or your computer's hard drive.
+In this lesson, you will use StackEdit. StackEdit is a free online Markdown editor with a visual toolbar for formatting (bold, emphasis, lists, etc.). It can sync with cloud storage services such as Dropbox and Google Drive, and import files from a URL or your computer's hard drive.
 
 1. Visit [StackEdit](https://stackedit.io/).
 2. Click on `Start Writing` at the top of the page.
 
-![start writing](IMAGE/stackedit.png)
+![start writing](img/stackedit.png)
 
-You will see a welcome file that contains various Mardown syntax and its usage together with the Outcome on the right hand.
+_**Fig 1.** Start Writing in StackEdit_
 
-![Welcome file](IMAGE/stackedit2.png)
+You will see a welcome file that contains various Markdown syntax and its usage together with the outcome on the right hand.
 
-3.Click on the Folder icon at the left side of the Nav bar.
+![Welcome file](img/stackedit2.png)
 
-4.Create a New File or Folder depending on your choice and name it.
+_**Fig 2.** Welcome file in StackEdit_
 
-![create a new file or folder](IMAGE/stackedit3.png)
+3. Click on the Folder icon at the left side of the Nav bar.
+
+4. Create a New File or Folder depending on your choice and name it.
+
+![create a new file or folder](img/stackedit3.png)
+_**Fig 3.** Create a new file or folder in StackEdit_
 
 This is where You will be carrying out all your practicals.
 
@@ -76,7 +81,7 @@ In this section, you will learn the basic syntax in Markdown
 
 There are six levels of heading as seen below:
 
-##### Syntax:
+#### Syntax
 
 ```markdown showLineNumbers{1-6}
 # Heading One (H1)
@@ -92,7 +97,12 @@ There are six levels of heading as seen below:
 ###### Heading Six (H6)
 ```
 
-##### Result
+#### Result
+
+<details>
+  <summary>Toggle to preview the result</summary>
+
+  <p>
 
 # Heading One (H1)
 
@@ -105,6 +115,9 @@ There are six levels of heading as seen below:
 ##### Heading Five (H5)
 
 ###### Heading Six (H6)
+
+  </p>
+</details>
 
 > Take note of the space between the ‘#’ tag and the text or phrase
 
@@ -123,17 +136,24 @@ You can add emphasis in markdown either as a **Bold text** or _Italic text_. Thi
 
 Check the usage ⬇️
 
-##### Syntax:
+#### Syntax
 
 ```markdown showLineNumbers{1-2}
 **Bold text**
 _Italic text_
 ```
 
-##### Result
+#### Result
+
+<details>
+  <summary>Toggle to preview the result</summary>
+  <p>
 
 **Bold text**
 _Italic text_
+
+  </p>
+</details>
 
 ### 3. Lists (Ordered and Unordered)
 
@@ -165,6 +185,11 @@ Add dashes (`-`), asterisks (`*`), or plus signs (`+`) in front as seen below �
 
 ##### Result
 
+
+<details>
+  <summary>Toggle to preview the result</summary>
+
+<p>
 - First item
 - Second item
 - Third item
@@ -172,8 +197,13 @@ Add dashes (`-`), asterisks (`*`), or plus signs (`+`) in front as seen below �
   - Indented item
     - Extra item
 - Fourth item
+</p>
 
-> Note: For nested listing either as an ordered or unordered list, maintain the same syntax and add extra spacing before nest items e.g Press the space bar four times before you begin the nest list
+</details>
+
+:::note
+For nested listing either as an ordered or unordered list, maintain the same syntax and add extra spacing before nest items e.g Press the space bar four times before you begin the nest list.
+:::
 
 | Right ✅                                                                                                                                                                                                                                | Wrong ❌                                                                                                                                                                                                                                |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -199,7 +229,8 @@ Add dashes (`-`), asterisks (`*`), or plus signs (`+`) in front as seen below �
 
 The output will look like this ⬇️
 
-![Stellar Bridge illustration](IMAGE/stellerBridge.png)
+![Stellar Bridge illustration](img/stellerBridge.png)
+_**Fig 4.** Stellar Bridge illustration_
 
 ## Structuring Content
 
@@ -209,7 +240,7 @@ In this section, you will learn how to structure your content in an organised an
 
 This is an important aspect of structuring content in markdown. Headings and subheadings help the readers quickly scan the content, understand its structure, and easily locate specific information.
 
-- **Ideally, H1 are best suitable for Title or Main Heading.** This is the most prominent heading level and should be used sparingly, typically once per page.
+- **H1** are best suitable for Title or Main Heading. This is the most prominent heading level and should be used sparingly, typically once per page.
 
 - **H2:** Used for primary section headings. These are subheadings under the main topic. - Example: Introduction, Methods, Results, Conclusion.
 
@@ -217,7 +248,7 @@ This is an important aspect of structuring content in markdown. Headings and sub
 
 - **H4, H5, H6:** These lower-level headings can be used for smaller subsections or to emphasize specific points within the content. - Example: Demographics, Instrumentation, Statistical Analysis
 
-##### Syntax
+#### Syntax
 
 ```markdown showLineNumbers{1-29}
 # H1: Main Title or Page Heading
@@ -251,7 +282,12 @@ This level of heading is used less frequently, but can be useful for providing a
 These headings are typically not necessary for most content, but can be used in very complex documents with multiple layers of organization.
 ```
 
-##### Result⬇️
+#### Result
+
+<details>
+  <summary>Toggle to preview the result</summary>
+
+  <p>
 
 # H1: Main Title or Page Heading
 
@@ -282,11 +318,12 @@ This level of heading is used less frequently, but can be useful for providing a
 ###### H6: Even Lower-level Headings (Rarely Used)
 
 These headings are typically not necessary for most content, but can be used in very complex documents with multiple layers of organization.
+</p>
+</details>
 
 ### 2. **Creating Tables**
 
 To create a table,
-
 1. start by adding pipes `|` before and after the table heading to create rows.
 2. use three or more hyphens (`---`) to create each column’s header.
 3. use pipes (`|`) to separate each column.
@@ -299,7 +336,7 @@ For compatibility, you should also add a pipe on either end of the row.
 Don’t add space between the column
 :::
 
-##### Syntax
+#### Syntax
 
 ```markdown showLineNumbers(1-5)
 | Frontend   | Backend | Smart contract |
@@ -309,7 +346,12 @@ Don’t add space between the column
 | Javascript | PhP     | Vyper          |
 ```
 
-##### Result
+#### Result
+
+<details>
+  <summary>Toggle to preview the result</summary>
+
+  <p>
 
 | Frontend   | Backend | Smart contract |
 | ---------- | ------- | -------------- |
@@ -317,7 +359,10 @@ Don’t add space between the column
 | Css        | Node.js | Rust           |
 | Javascript | PhP     | Vyper          |
 
-##### Comparison
+  </p>
+</details>
+
+#### Comparison
 
 ```markdown showLineNumbers{1-6}
     Right ✅
@@ -361,11 +406,20 @@ You can align text in the columns to the left, right, or centre.
 
 ##### Result For Center Alignment
 
+<details>
+  <summary>Toggle to preview the result</summary>
+
+  <p>
+
 |  Frontend  | Backend | Smart contract |
 | :--------: | :-----: | :------------: |
 |    Html    | Python  |    Solidity    |
 |    Css     | Node.js |      Rust      |
 | Javascript |   PhP   |     Vyper      |
+
+
+  </p>
+</details>
 
 ##### Syntax For Right Alignment
 
@@ -379,11 +433,20 @@ You can align text in the columns to the left, right, or centre.
 
 ##### Result For Right Alignment
 
+<details>
+  <summary>Toggle to preview the result</summary>
+
+  <p>
+
 |   Frontend | Backend | Smart contract |
 | ---------: | ------: | -------------: |
 |       Html |  Python |       Solidity |
 |        Css | Node.js |           Rust |
 | Javascript |     PhP |          Vyper |
+
+
+  </p>
+</details>
 
 ##### Syntax For Left Alignment
 
@@ -395,6 +458,11 @@ You can align text in the columns to the left, right, or centre.
 | Javascript |   PhP   |     Vyper      |
 ```
 
+
+<details>
+  <summary>Toggle to preview the result</summary>
+
+  <p>
 ##### Result For Left Alignment
 
 | Frontend   | Backend | Smart contract |
@@ -402,6 +470,10 @@ You can align text in the columns to the left, right, or centre.
 | Html       | Python  | Solidity       |
 | Css        | Node.js | Rust           |
 | Javascript | PhP     | Vyper          |
+
+
+  </p>
+</details>
 
 ### 3. Using Blockquotes for Text Formatting
 
@@ -431,7 +503,12 @@ You can also create a nested blockquote by adding `>>` or more in front of the p
          >>>>+ kkkkkkkkk
 ```
 
-Check the output below ⬇️
+Check the output below 
+
+<details>
+  <summary>Toggle to preview the output</summary>
+
+  <p>
 
 > In this lesson, you will be doing a lot of practicals and getting your hands dirty in markdown.
 >
@@ -442,6 +519,8 @@ Check the output below ⬇️
 > > - How to Structure Contents in Markdown.
 > >   > - Additional nested item
 > >   >   > - Further nested item
+  </p>
+</details>
 
 The best way to learn markdown is to use it at all times e.g. after this lesson, write an article in StackEdit.
 

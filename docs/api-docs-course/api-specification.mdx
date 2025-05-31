@@ -64,7 +64,6 @@ An Open API file, sometimes called an Open API document, describes an API, inclu
 
 #### Top-Level Structure of an Open API Specification
 
-![Structure of an API Specification](IMAGE/openapi3structure.png)
 
 Image Source:[Swagger.io](https://swagger.io/blog/api-design/openapi-driven-api-design/)
 
@@ -365,8 +364,6 @@ security:
 
 Here is how the preview will look like
 
-![Preview of swagger editor](IMAGE/swaggerEditor.png)
-
 #### 0AS Tools
 
 - [**SwaggerHub**:](https://app.swaggerhub.com/home) SwaggerHub is a collaborative platform developed by SmartBear that allows teams to design, manage, and publish APIs using the OAS. It offers a premium version of the open-source Swagger tools, providing enhanced features for API documentation.
@@ -547,7 +544,6 @@ Here is the full code example
 
 Preview Documentation with [RAML Github Play Ground](<https://raml-org.github.io/playground/learn_raml.html?raml=%23%25RAML%201.0%0Atitle%3A%20Mobile%20Order%20API%0AbaseUri%3A%20http%3A%2F%2Flocalhost%3A8081%2Fapi%0Aversion%3A%201.0%0A%0Auses%3A%0A%20%20assets%3A%20assets.lib.raml%0A%0AannotationTypes%3A%0A%20%20monitoringInterval%3A%0A%20%20%20%20type%3A%20integer%0A%0A%2Forders%3A%0A%20%20displayName%3A%20Orders%0A%20%20get%3A%0A%20%20%20%20is%3A%20%5B%20assets.paging%20%5D%0A%20%20%20%20(monitoringInterval)%3A%2030%0A%20%20%20%20description%3A%20Lists%20all%20orders%20of%20a%20specific%20user%0A%20%20%20%20queryParameters%3A%0A%20%20%20%20%20%20userId%3A%0A%20%20%20%20%20%20%20%20type%3A%20string%0A%20%20%20%20%20%20%20%20description%3A%20use%20to%20query%20all%20orders%20of%20a%20user%0A%20%20post%3A%0A%20%20%2F%7BorderId%7D%3A%0A%20%20%20%20get%3A%0A%20%20%20%20%20%20responses%3A%0A%20%20%20%20%20%20%20%20200%3A%0A%20%20%20%20%20%20%20%20%20%20body%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20application%2Fjson%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20type%3A%20assets.Order%0A%20%20%20%20%20%20%20%20%20%20%20%20application%2Fxml%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20type%3A%20!include%20schemas%2Forder.xsd#>)
 
-![Preview of Raml Playground](IMAGE/RamlPlayground.png)
 
 #### RAML Tools
 
@@ -746,7 +742,6 @@ Here is the full example code
 
 Preview Documentation on [Apiary](https://apiary.io/)
 
-![Apiary Preview](IMAGE/apiaryPreview.png)
 
 #### Tools for API Blueprint
 

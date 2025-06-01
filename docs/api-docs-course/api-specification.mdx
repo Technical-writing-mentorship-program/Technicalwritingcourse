@@ -4,9 +4,10 @@ description: This section covers the different types of API specification statin
 sidebar_position: 4
 sidebar_label: "API Specification"
 pagination_label: "API Specification"
-keywords: ["API", "Specification"]
+keywords: ["API", "Specification", "openAPI", "OAS"]
 slug: /api-specification
 ---
+
 
 API specifications are crucial. They provide standard rules and guidelines for integrating an API and serve as a single source of truth for software engineers.
 
@@ -31,7 +32,7 @@ API specifications are technical and often lack detailed explanations, requiring
 An API specification is not the same as an API architectural style
 :::
 
-## Why do you need an API Specification?
+## Why Do You Need an API Specification?
 
 An API specification offers clear, standardized guidelines detailing how an API should operate and interact with other software components. It ensures consistent communication by defining expected behavior, data formats, and protocols. This eliminates the need for developers to rely on internal implementation details.
 
@@ -44,7 +45,7 @@ It minimizes misunderstanding and reduces the time spent on API integration.
 
 ## Types of API Specification
 
-There are various types of API specifications with different formats
+There are various types of API specifications with different formats. These include:
 
 1. Open API Specification(OAS)
 2. Restful API Modelling Language(RAML)
@@ -54,7 +55,7 @@ There are various types of API specifications with different formats
 
 This section will focus on the first three API specification types.
 
-### Open API Specification
+### 1. Open API Specification
 
 [OAS](https://swagger.io/specification/), previously known as the Swagger specification, is a format for describing, producing, consuming, and visualizing restful web services. It evolved from the Swagger framework and is now managed by the Open API Initiative(OAI) under the Linux Foundation. It is an open-source collaboration project of the Linux Foundation.
 
@@ -64,13 +65,17 @@ An Open API file, sometimes called an Open API document, describes an API, inclu
 
 #### Top-Level Structure of an Open API Specification
 
+  ![Structure of an API Specification](./img/openapi.png)
 
-Image Source:[Swagger.io](https://swagger.io/blog/api-design/openapi-driven-api-design/)
+
+_**Fig 1.** Stucture of an API Specification_
+
 
 - **openapi**: This section specifies the version of the OAS. The OAS has different versions.
 
 :::tip
-You can write your OAS in YAML or JSON. I will use YAML for the example descriptions. One thing you should know about YAML is that it is indentation-sensitive.
+You can write your OAS in YAML or JSON. The example descriptions in this tutorial is in YAML format.
+You should also note that YAML is indentation-sensitive.
 :::
 
 ```yaml showLineNumbers
@@ -233,9 +238,11 @@ externalDocs:
   url: "http://swagger.io"
 ```
 
-Here is the full example code. You can preview it using the [Swagger editor](https://editor.swagger.io/).
 
-```yaml showLineNumbers
+<details>
+  <summary> Toggle to Preview the full code</summary>
+  <p>
+  ```yaml showLineNumbers
 openapi: 3.0.0
 info:
   description: |
@@ -362,7 +369,18 @@ security:
   - api_key: []
 ```
 
-Here is how the preview will look like
+  </p>
+</details>
+
+
+
+Here is how the preview will look like:
+
+  ![Swagger image preview](./img/swagger.png)
+
+_**Fig.2**: Swagger image preview_
+
+ You can also preview it using the [Swagger editor](https://editor.swagger.io/).
 
 #### 0AS Tools
 
@@ -374,7 +392,7 @@ Here is how the preview will look like
 
 Other tools include: Open API generator, API Dog, and more.
 
-### RAML Specification
+### 2.  RAML Specification
 
 RAML, which stands for **RESTful API Modeling Language**, is a specification language designed to describe RESTful APIs in a structured and human-readable format. It utilizes **YAML** (YAML Ain't Markup Language) as its syntax, making it accessible for developers and non-developers to understand and use.
 
@@ -382,7 +400,7 @@ The language's focus on modeling rather than documenting APIs has set it apart f
 
 With the rise in adoption of the OAS, RAML is no longer popular.
 
-**Brief History of RAML**
+#### Brief History of RAML
 
 RAML was first introduced in 2013. Its goal was to provide a more effective way to design APIs compared to existing standards like Swagger (now OpenAPI). It was developed to facilitate API design rather than document existing APIs.
 
@@ -482,8 +500,11 @@ title: e-BookMobile API
                     }
 ```
 
-Here is the full code example
 
+<details>
+  <summary>Toggle to preview the full code</summary>
+
+  <p>
 ```{1-56} showLineNumbers
    #%RAML 1.0
     ---
@@ -542,7 +563,18 @@ Here is the full code example
                     }
 ```
 
-Preview Documentation with [RAML Github Play Ground](<https://raml-org.github.io/playground/learn_raml.html?raml=%23%25RAML%201.0%0Atitle%3A%20Mobile%20Order%20API%0AbaseUri%3A%20http%3A%2F%2Flocalhost%3A8081%2Fapi%0Aversion%3A%201.0%0A%0Auses%3A%0A%20%20assets%3A%20assets.lib.raml%0A%0AannotationTypes%3A%0A%20%20monitoringInterval%3A%0A%20%20%20%20type%3A%20integer%0A%0A%2Forders%3A%0A%20%20displayName%3A%20Orders%0A%20%20get%3A%0A%20%20%20%20is%3A%20%5B%20assets.paging%20%5D%0A%20%20%20%20(monitoringInterval)%3A%2030%0A%20%20%20%20description%3A%20Lists%20all%20orders%20of%20a%20specific%20user%0A%20%20%20%20queryParameters%3A%0A%20%20%20%20%20%20userId%3A%0A%20%20%20%20%20%20%20%20type%3A%20string%0A%20%20%20%20%20%20%20%20description%3A%20use%20to%20query%20all%20orders%20of%20a%20user%0A%20%20post%3A%0A%20%20%2F%7BorderId%7D%3A%0A%20%20%20%20get%3A%0A%20%20%20%20%20%20responses%3A%0A%20%20%20%20%20%20%20%20200%3A%0A%20%20%20%20%20%20%20%20%20%20body%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20application%2Fjson%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20type%3A%20assets.Order%0A%20%20%20%20%20%20%20%20%20%20%20%20application%2Fxml%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20type%3A%20!include%20schemas%2Forder.xsd#>)
+
+  </p>
+</details>
+
+ 
+
+Preview Documentation with [RAML Github Play Ground](https://raml-org.github.io/playground/learn_raml.html?raml=%23%25RAML%201.0%0Atitle%3A%20Mobile%20Order%20API%0AbaseUri%3A%20http%3A%2F%2Flocalhost%3A8081%2Fapi%0Aversion%3A%201.0%0A%0Auses%3A%0A%20%20assets%3A%20assets.lib.raml%0A%0AannotationTypes%3A%0A%20%20monitoringInterval%3A%0A%20%20%20%20type%3A%20integer%0A%0A%2Forders%3A%0A%20%20displayName%3A%20Orders%0A%20%20get%3A%0A%20%20%20%20is%3A%20%5B%20assets.paging%20%5D%0A%20%20%20%20(monitoringInterval)%3A%2030%0A%20%20%20%20description%3A%20Lists%20all%20orders%20of%20a%20specific%20user%0A%20%20%20%20queryParameters%3A%0A%20%20%20%20%20%20userId%3A%0A%20%20%20%20%20%20%20%20type%3A%20string%0A%20%20%20%20%20%20%20%20description%3A%20use%20to%20query%20all%20orders%20of%20a%20user%0A%20%20post%3A%0A%20%20%2F%7BorderId%7D%3A%0A%20%20%20%20get%3A%0A%20%20%20%20%20%20responses%3A%0A%20%20%20%20%20%20%20%20200%3A%0A%20%20%20%20%20%20%20%20%20%20body%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20application%2Fjson%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20type%3A%20assets.Order%0A%20%20%20%20%20%20%20%20%20%20%20%20application%2Fxml%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20type%3A%20!include%20schemas%2Forder.xsd#)
+
+
+
+  ![RAML github playground](./img/raml.png)
+  _**Fig 3.** RAML Github Playground_
 
 
 #### RAML Tools
@@ -553,7 +585,7 @@ Preview Documentation with [RAML Github Play Ground](<https://raml-org.github.io
 
 Other tools include RAML parser, raml2html, API Console, and more. Visit the RAML [Project page](https://raml.org/projects) to learn more about RAML tools.
 
-### API Blueprint Specification
+### 3. API Blueprint Specification
 
 [API Blueprint](https://apiblueprint.org/documentation/tutorial.html) is a high-level API specification language designed for creating and documenting web APIs. It uses a syntax similar to Markdown, known as MSON (Markdown Syntax for Object Notation), which makes it easy for humans to read and write while still being processable by machines.
 
@@ -655,8 +687,10 @@ API Blueprint is ideal for projects that need clear documentation and rapid prot
                 }
 ```
 
-Here is the full example code
 
+<details>
+  <summary> Toggle to preview the full code </summary>
+  <p>
 ```{1-81} showLineNumbers
    FORMAT: 1A
     HOST: https://polls.apiblueprint.org/
@@ -740,7 +774,15 @@ Here is the full example code
                 }
 ```
 
+  </p>
+</details>
+
+
 Preview Documentation on [Apiary](https://apiary.io/)
+
+  ![Apiary preview](./img/apiary.png)
+
+  _**fig 4.** Apiary API Documentation Preview_
 
 
 #### Tools for API Blueprint

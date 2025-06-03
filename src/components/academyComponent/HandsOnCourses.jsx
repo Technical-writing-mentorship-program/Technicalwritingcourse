@@ -1,6 +1,7 @@
 import API from './Image/API.png'
 import xml from './Image/xml.png'
 import writing from './Image/writing.png'
+import styles from './styles.module.css'
 
 const HandsOnCourses = () => {
   const containerStyle = {
@@ -67,6 +68,7 @@ const HandsOnCourses = () => {
     display: 'inline-block',
   };
 
+
   return (
     <div style={containerStyle}>
       <h2 style={headingStyle}>HANDS-ON COURSES</h2>
@@ -83,7 +85,7 @@ const HandsOnCourses = () => {
           <p style={descriptionStyle}>
             Enhance your technical writing skills by learning how to create clear and effective API documentation.
           </p>
-          <a href="/docs/category/api-documentation-course" style={buttonStyle}>EXPLORE COURSE</a>
+          <a href="/docs/category/api-documentation-course" className={styles.button} style={buttonStyle}>EXPLORE COURSE</a>
         </div>
 
         {/* Card 2: Markup Language */}
@@ -97,7 +99,7 @@ const HandsOnCourses = () => {
           <p style={descriptionStyle}>
             Enhance your technical writing skills by learning how to use markup languages to structure and present content clearly and efficiently
           </p>
-          <a href="/docs/category/markup-languages" style={buttonStyle}>EXPLORE COURSE</a>
+          <a href="/docs/category/markup-languages" className={styles.button} style={buttonStyle}>EXPLORE COURSE</a>
         </div>
 
         {/* Card 3: Technical Writing */}
@@ -111,12 +113,12 @@ const HandsOnCourses = () => {
           <p style={descriptionStyle}>
             Develop essential skills to convey complex information clearly and effectively in our Technical Writing Course.
           </p>
-          <a href="/docs/category/technical-writing-course" style={buttonStyle}>EXPLORE COURSE</a>
+          <a href="/docs/category/technical-writing-course" className={styles.button} style={buttonStyle}>EXPLORE COURSE</a>
         </div>
       </div>
 
       {/* Go to the Academy session */}
-      <a href="/docs/category/technical-writing-course" style={buttonStyle}>GO TO ACADEMY</a>
+      <a href="/docs/category/technical-writing-course" className={styles.button} style={buttonStyle}>GO TO ACADEMY</a>
     </div>
   );
 };

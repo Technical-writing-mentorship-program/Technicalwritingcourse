@@ -58,6 +58,7 @@
 
 .button:hover {
 	background-color: #773dff;
+	transform: scale(1.05);
 }
 
 .imageContainer {

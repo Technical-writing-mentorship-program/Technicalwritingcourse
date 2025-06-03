@@ -1,4 +1,5 @@
 import semrush from './image/semrush.png'
+import styles from './styles.module.css'
 
 const BlogSection = () => {
   const sectionStyle = {
@@ -67,7 +68,7 @@ const BlogSection = () => {
        
       </div>
       <a href="/blog">
-        <button style={buttonStyle}>READ MORE</button>
+        <button className={styles.button} style={buttonStyle}>READ MORE</button>
       </a>
     </section>
   );

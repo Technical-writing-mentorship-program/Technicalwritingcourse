@@ -59,6 +59,8 @@
 .button:hover {
 	background-color: #773dff;
 	transform: scale(1.05);
+	text-decoration: none;
+	color: white;
 }
 
 .imageContainer {

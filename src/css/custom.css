@@ -37,13 +37,13 @@
 }
 
 :root {
-  --ifm-color-primary: #29784c;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #8a4dff;
+  --ifm-color-primary-dark: #7a3dff;
+  --ifm-color-primary-darker: #6b2eff;
+  --ifm-color-primary-darkest: #5a1de6;
+  --ifm-color-primary-light: #9b5dff;
+  --ifm-color-primary-lighter: #ac6dff;
+  --ifm-color-primary-lightest: #bd7dff;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
@@ -69,4 +69,8 @@
 [data-theme="dark"] .footer {
   background-color: #18181b; /* or any dark background you want */
   color: #f0f0f0;
+}
+
+.footer a:hover {
+  color: #d1b3ff; /* A lighter shade for hover, visible on purple */
 }

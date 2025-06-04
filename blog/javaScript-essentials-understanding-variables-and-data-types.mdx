@@ -3,14 +3,12 @@ title: JavaScript Essentials Understanding Variables and Data Types
 description: This guide will help you learn the fundamentals of JavaScript variables and data types. You'll also learn how to declare, assign and manipulate values effectively.
 slug: /javascript-variables-and-data-types
 tags: [Frontend development, JavaScript, Coding]
+keywords: ["JavaScript tutorial","Javascript basics", "Javascript data types", "Coding"]
 date: 2024-08-26
 authors: deborah
 ---
 
-<img
-  src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/lcgdsfuzxfqsnklr4dpm.png"
-  alt="javascript variables and data types"
-/>
+![javascript variables and data types](./img/js-essentials.png)
 {/* truncate */}
 
 Are you a beginner in JavaScript? This article will put you on the right path of learning the basic building blocks of JavaScript.
@@ -34,9 +32,9 @@ Variables holds different data types such as numbers, string, booleans, arrays, 
 The `Var` keyword is an old method of declaring a variable and it’s not recommended due to its [hoisting](https://www.freecodecamp.org/news/what-is-hoisting-in-javascript/) and [scope concerns](https://www.freecodecamp.org/news/scope-and-closures-in-javascript/). Using `Var` can lead to accidental reassignment of variables.
 
 ```js [1,3] showLineNumbers
-1 var x = 5;
+ var x = 5;
 
-2 var name = "Sophie";
+ var name = "Sophie";
 ```
 
 :::tip[Explanation]
@@ -127,9 +125,17 @@ The const keyword is used to declare a constant variable, it is useful for value
 
 ## Understanding Data Types
 
-### Primitive Data types
+There are different data types in Javascript, and they can be categorized into two, which are:
 
-### Number : Numeric values
+**1. Primitive Data Types**: This data type are the most basic type in Javascript and they can only hold a single value.
+
+**2. Non-primitive Data Type**: This data type are the most complex type in Javascript and they can hold multiple values.
+
+### 1. Primitive Data Types
+
+There are different types of primitive data types in Javscript, which include:
+
+### i. Number : Numeric Values
 
 Number represents numerical values. They could be integers or floating-point numbers and are also used to perform mathematical operations.
 
@@ -162,7 +168,7 @@ You can see that all of these are assigned to a numerical value.
 Use case : In a E-commerce, you can use Numbers to calculate product prices, discount etc.
 :::
 
-### String : Textual data
+### ii. String : Textual Data
 
 String represent sequences of characters and textual data. They must be enclosed within a single (’ ‘) or double (" “) quotes.
 
@@ -184,7 +190,7 @@ Note: It is a string data type when they are enclosed in a single or double quot
 Use case : In a To-do application, you can use String to store the To-do tasks.
 :::
 
-### Booleans : True or False
+### iii. Booleans : True or False
 
 Booleans represents logical values either `true` or `false`. The are often used for conditional statements and logical operations. `true` means “yes or correct”, and `false` means “no or incorrect”
 
@@ -205,7 +211,7 @@ The console.log statements then prints the values of these variables to the cons
 Use case: In a Social media application, you can use Boolean to determine if the user is a female or male when creating a profile.
 :::
 
-### BigInt : large Integers
+### iv. BigInt : large Integers
 
 BigInt are used to store numbers that are too large to be stored in the Number data type. They provide precise calculation for large integers. To create a BigInt, add n to the end of an integer or call BigInt()
 
@@ -230,7 +236,7 @@ largeNumber : 123456789023456789098765432155575643213456789 y : 1234567890987654
 Use case: In a financial application, you can use BigInt to store values that are too big to be stored in Number.
 :::
 
-### Null : Absence of a value
+### v. Null : Absence of a Value
 
 Null is used to explicitly state the intentional absence of a value. It represents “nothing “, “empty” or “unknown value”. It’s often used to intentionally set a variable to an empty state.
 
@@ -249,7 +255,7 @@ console.log(emptyValue); This line prints the value of “emptyValue” to the c
 Use case: Imagine you’re building a form where users can enter their information . You can use Null to indicate the user chose not to answer a particular question.
 :::
 
-### Undefined : Uninitialized variable
+### vi. Undefined : Uninitialized Variable
 
 Undefined represents variable that has been declared but has not yet been assigned a value. It means the variable exists, but it doesn’t hold any specific data yet.
 
@@ -266,9 +272,12 @@ console.log(name); This line prints the value of “name”, because “name” 
 Use case: Imagine you’re building an E-commerce website, when a user registers but hasn’t completed their profile, their profile information could be undefined.
 :::
 
-## Complex Data types
 
-### Arrays : Ordered collections
+## 2. Non-primitive Data Types
+
+There are two different types of non-primitive data types in Javascript, which include:
+
+### i. Arrays : Ordered Collections
 
 Arrays are used to store and manipulate multiple values in a specific order. Each of these value is termed an element, and the each of these elements can be accessed using their index number, which starts from “0”, because they are zero-indexed.
 
@@ -295,7 +304,7 @@ console.log(fruits[2]); This line of code prints to the console the element at i
 Use case: Imagine you want to create a simple application that allows a user to input their favourite fruits. You can use a JavaScript Arrays to store the fruits.
 :::
 
-### Objects : Unordered collections
+### ii. Objects : Unordered Collections
 
 Objects are unordered collections of key-value pairs used to store data in a structured way and each of these key-value pair is termed a property.
 

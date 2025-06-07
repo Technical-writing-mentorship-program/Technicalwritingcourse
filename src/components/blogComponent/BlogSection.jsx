@@ -1,5 +1,7 @@
-import semrush from './image/semrush.png'
-import styles from './styles.module.css'
+import semrush from './image/semrush.png';
+import hugoMigration from "/img/hugo-to-docusaurus.png";
+import javascriptVariables from "./image/javascriptVariables.png";
+import styles from './styles.module.css';
 
 const BlogSection = () => {
   const sectionStyle = {
@@ -19,7 +21,7 @@ const BlogSection = () => {
   const blogsContainer = {
     display: 'flex',
     justifyContent: 'center',
-    gap: '40px',
+    gap: '80px',
     flexWrap: 'wrap'
   };
 
@@ -27,6 +29,7 @@ const BlogSection = () => {
     width: '300px',
     textAlign: 'center',
     textDecoration: 'none'
+
   };
 
   const blogImage = {
@@ -57,15 +60,38 @@ const BlogSection = () => {
     textDecoration: 'none'
   };
 
+  const blogPreviews = [
+    {
+      "title": "JavaScript Essentials Understanding Variables and Data Types",
+      "img": javascriptVariables,
+      "url": "/blog/javascript-variables-and-data-types" 
+    },
+
+    {
+      "title": "Master the Basics of SEO Using Semrush",
+      "img": semrush,
+      "url": "/blog/master-the-basics-of-seo-using-semrush"
+    },
+
+    {
+      "title": "How to Migrate Your Docs from Hugo to Docusaurus: The TWMP Approach",
+      "img": hugoMigration,
+      "url": "/blog/how-to-migrate-your-docs-from-hugo-to-docusaurus" 
+    }
+  
+  ]
   return (
     <section style={sectionStyle}>
       <h2 style={headingStyle}>CHECKOUT OUR BLOG</h2>
       <div style={blogsContainer}>
-        <a href="/blog/master-the-basics-of-seo-using-semrush" style={blogCard}>
-          <img src={semrush} alt="SEO Basics" style={blogImage} />
-          <p style={blogTitle}>Master the Basics of SEO Using Semrush</p>
-        </a>
-       
+      {
+        blogPreviews.map((preview, index) => (
+          <a key={index} href={preview.url} style={blogCard} className={styles.blogPreviewCard}>
+            <img src={preview.img} alt={preview.title} style={blogImage} />
+            <p style={blogTitle}>{preview.title}</p>
+          </a>
+        ))
+      }
       </div>
       <a href="/blog">
         <button className={styles.button} style={buttonStyle}>READ MORE</button>

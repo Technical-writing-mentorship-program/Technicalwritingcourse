@@ -20,7 +20,7 @@ const HandsOnCourses = () => {
   const coursesContainerStyle = {
     display: 'flex',
     justifyContent: 'center',
-    gap: '2rem',
+    gap: '3rem',
     flexWrap: 'wrap',
     marginBottom: '2rem',
     fontFamily: "Instrument Sans",
@@ -75,7 +75,7 @@ const HandsOnCourses = () => {
 
       <div style={coursesContainerStyle}>
         {/* Card 1: API Documentation */}
-        <div style={cardStyle}>
+        <div className={styles.courseCard} style={cardStyle}>
           <img 
             src={API} 
             alt="API Documentation Icon" 
@@ -89,7 +89,7 @@ const HandsOnCourses = () => {
         </div>
 
         {/* Card 2: Markup Language */}
-        <div style={cardStyle}>
+        <div className={styles.courseCard} style={cardStyle}>
           <img 
             src={xml} 
             alt="Markup Language" 
@@ -103,7 +103,7 @@ const HandsOnCourses = () => {
         </div>
 
         {/* Card 3: Technical Writing */}
-        <div style={cardStyle}>
+        <div className={styles.courseCard} style={cardStyle}>
           <img 
             src={writing} 
             alt="Technical Writing Icon" 

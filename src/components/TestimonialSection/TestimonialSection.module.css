@@ -16,6 +16,10 @@
   margin: 1rem 0;
 }
 
+.testimonialBox:hover {
+  	transform: scale(1.05);
+}
+
 .testimonialContent {
     background-color: #a259ff;
     color: white;

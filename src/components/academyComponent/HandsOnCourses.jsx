@@ -33,6 +33,9 @@ const HandsOnCourses = () => {
     boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
     width: '300px',
     textAlign: 'center',
+    alignItems: 'center',
+    display: 'flex',
+    flexDirection: 'column',
   };
 
   const iconStyle = {
@@ -66,6 +69,7 @@ const HandsOnCourses = () => {
     fontFamily: "Instrument Sans",
     textDecoration: 'none',
     display: 'inline-block',
+    marginTop: 'auto', // This pushes the button to the bottom of the card
   };
 
 

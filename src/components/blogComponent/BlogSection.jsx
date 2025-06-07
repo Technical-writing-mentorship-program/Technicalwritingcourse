@@ -49,9 +49,9 @@ const BlogSection = () => {
 
   const buttonStyle = {
     marginTop: '40px',
-    padding: '10px 30px',
+    padding: '0.75rem 1.25rem',
     fontSize: '1rem',
-    backgroundColor: '#8A2BE2',
+    backgroundColor: '#8A4DFF',
     color: '#fff',
     border: 'none',
     borderRadius: '8px',

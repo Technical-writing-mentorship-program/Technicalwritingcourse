@@ -185,18 +185,12 @@ Add dashes (`-`), asterisks (`*`), or plus signs (`+`) in front as seen below �
 
 ##### Result
 
-
 <details>
   <summary>Toggle to preview the result</summary>
 
 <p>
-- First item
-- Second item
-- Third item
-  - Indented item
-  - Indented item
-    - Extra item
-- Fourth item
+  - First item - Second item - Third item - Indented item - Indented item -
+  Extra item - Fourth item
 </p>
 
 </details>
@@ -224,7 +218,7 @@ For nested listing either as an ordered or unordered list, maintain the same syn
 - **Image:** To add an image, add an exclamation mark (`!`), followed by alt text in brackets, and the path or URL to the image asset in parentheses.
 
 ```markdown
-![Stellar Bridge illustration\](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/x32gn1w21u095qfkw3ie.png 'stellar')
+![Stellar Bridge illustration](img/stellerBridge.png "stellar")
 ```
 
 The output will look like this ⬇️
@@ -318,12 +312,14 @@ This level of heading is used less frequently, but can be useful for providing a
 ###### H6: Even Lower-level Headings (Rarely Used)
 
 These headings are typically not necessary for most content, but can be used in very complex documents with multiple layers of organization.
+
 </p>
 </details>
 
 ### 2. **Creating Tables**
 
 To create a table,
+
 1. start by adding pipes `|` before and after the table heading to create rows.
 2. use three or more hyphens (`---`) to create each column’s header.
 3. use pipes (`|`) to separate each column.
@@ -417,7 +413,6 @@ You can align text in the columns to the left, right, or centre.
 |    Css     | Node.js |      Rust      |
 | Javascript |   PhP   |     Vyper      |
 
-
   </p>
 </details>
 
@@ -444,7 +439,6 @@ You can align text in the columns to the left, right, or centre.
 |        Css | Node.js |           Rust |
 | Javascript |     PhP |          Vyper |
 
-
   </p>
 </details>
 
@@ -458,7 +452,6 @@ You can align text in the columns to the left, right, or centre.
 | Javascript |   PhP   |     Vyper      |
 ```
 
-
 <details>
   <summary>Toggle to preview the result</summary>
 
@@ -470,7 +463,6 @@ You can align text in the columns to the left, right, or centre.
 | Html       | Python  | Solidity       |
 | Css        | Node.js | Rust           |
 | Javascript | PhP     | Vyper          |
-
 
   </p>
 </details>
@@ -503,7 +495,7 @@ You can also create a nested blockquote by adding `>>` or more in front of the p
          >>>>+ kkkkkkkkk
 ```
 
-Check the output below 
+Check the output below
 
 <details>
   <summary>Toggle to preview the output</summary>
@@ -519,6 +511,7 @@ Check the output below
 > > - How to Structure Contents in Markdown.
 > >   > - Additional nested item
 > >   >   > - Further nested item
+
   </p>
 </details>
 

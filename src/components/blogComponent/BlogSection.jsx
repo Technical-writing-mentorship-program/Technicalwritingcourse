@@ -1,6 +1,6 @@
 import semrush from './image/semrush.png';
 import hugoMigration from "/img/hugo-to-docusaurus.png";
-import javascriptVariables from "./image/javascriptVariables.png";
+import javascriptVariables from "./image/JavascriptVariables.png";
 import styles from './styles.module.css';
 
 const BlogSection = () => {

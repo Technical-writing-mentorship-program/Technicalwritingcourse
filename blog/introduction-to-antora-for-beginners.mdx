@@ -8,7 +8,7 @@ date: 2024-02-29
 tags: [antora, guide, docascode, documentation]
 ---
 
-![](https://paper-attachments.dropboxusercontent.com/s_040DBEFCD010CD9D72D8F68E5F48F297CEBF454A18B2565E8A617E8894CB0609_1708794318119_Screenshot+2024-02-24+at+18.05.04.png)
+![Antora Demo](./img/antora-demo.png)
 
 {/* truncate */}
 Antora is a static site generator that transforms AsciiDoc content into documentation sites.
@@ -49,7 +49,9 @@ If you encounter any issues during the installation, refer to the [official inst
 
 3. Define the **UI bundle** (e.g., a theme) that Antora will use to generate your site.
 
-:::tip Playbook configuration
+:::tip 
+Playbook configuration
+
 A playbook is a configuration file that tells Antora where to find the content and UI resources it needs to generate a documentation site.
 
 
@@ -103,10 +105,11 @@ Save the file as `antora-playbook.yml` in the root folder.
 
 This command tells Antora to generate the documentation site in this folder `build/site` using your created playbook.
 
-![](https://paper-attachments.dropboxusercontent.com/s_040DBEFCD010CD9D72D8F68E5F48F297CEBF454A18B2565E8A617E8894CB0609_1708794254984_Screenshot+2024-02-24+at+18.03.55.png)
+![antora-playbook.yml file](./img/antora-playbook.png)
+_**Figure 1**. An antora-playbook.yml file in VS Code._
 
-:::tip Site generation complete!
-
+:::tip 
+Site generation complete!
 
 :::
 
@@ -115,7 +118,8 @@ Open `file:///Users/wisdomnwokocha/Desktop/Doctest/build/site/index.html` in a b
 
 Copy the URL and open the `index.html` file in your browser to see the result.
 
-![](https://paper-attachments.dropboxusercontent.com/s_040DBEFCD010CD9D72D8F68E5F48F297CEBF454A18B2565E8A617E8894CB0609_1708794318119_Screenshot+2024-02-24+at+18.05.04.png)
+![Welcome to Antora](./img/antora-demo.png)
+_**Figure 2**. Antora generated site welcome page_ 
 
 To run Antora remotely, use the following command:
 
@@ -123,7 +127,9 @@ To run Antora remotely, use the following command:
     npx antora -fetch antora-playbook.yml
 ```
 
-:::tip Add this flag `--fetch` to fetch from a remote repo.
+:::tip 
+
+Add this flag `--fetch` to fetch from a remote repo.
 
 
 :::
@@ -186,7 +192,8 @@ An easy way to export your documents is to use the AsciiDoc extension for Visual
 **AsciiDoc Extension for VSCode**
 To use the AsciiDoc extension for Visual Studio Code, you need to install it from the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=asciidoctor.asciidoctor-vscode).
 
-:::tip Make sure the extension you install is published by Asciidoctor.
+:::tip 
+Make sure the extension you install is published by AsciiDoctor.
 
 
 :::
@@ -194,7 +201,8 @@ To use the AsciiDoc extension for Visual Studio Code, you need to install it fro
 
 The extension looks like this:
 
-![Figure 1. AsciiDoc Extension for Visual Studio Code](https://paper-attachments.dropboxusercontent.com/s_E9BDCFC0C93DDDA993B60CF9314B6A3AD4616C2100C9F1602C752A57FE01CAE2_1707822679177_Screenshot+2024-02-13+at+12.10.10.png)
+![AsciiDoc Extension for Visual Studio Code](./img/asciidoc-vscode-extension.png)
+_**Figure 3.** AsciiDoc extension for VS Code_
 
 After installation, ensure the extension is enabled in your Visual Studio Code settings.
 
@@ -207,7 +215,9 @@ To export your AsciiDoc document as a PDF, follow these steps:
 
 2. Select `AsciiDoc: Export document as PDF`.
 
-   ![Figure 2. Export document as PDF](https://paper-attachments.dropboxusercontent.com/s_4FE4BC8304E498F537D34F4A70D29DBE4E6CE923A3D9678B32EB9B22AE3F151E_1708342476453_PDF.png)
+   ![Export document as PDF](./img/export-as-doc.png)
+
+   _**Figure 4.** How to export AsciiDoc document as PDF_
 
 3. The AsciiDoc extension will prompt you to select the PDF's desired file name and location.
 
@@ -230,12 +240,14 @@ To export your AsciiDoc document as a PDF, follow these steps:
 
 
 **Save as HTML**
-To generate HTML from your Asciidoc file, follow the steps below:
+To generate HTML from your AsciiDoc file, follow the steps below:
 
 1. Open the command palette.
 
 2. Select `AsciiDoc: Save HTML document`.
-   ![Figure 3. Save document as HTML](https://paper-attachments.dropboxusercontent.com/s_4FE4BC8304E498F537D34F4A70D29DBE4E6CE923A3D9678B32EB9B22AE3F151E_1708342556831_HTML.png)
+  ![Save document as HTML](./img/save-html-doc.png)
+
+   _**Figure 5.** How to save AsciiDoc file as HTML document_
 
 3. The file is generated in the same folder as the source document.
 
@@ -247,25 +259,26 @@ To quickly do this, use the shortcut keys below:
 ```
 
 **Save to DocBook**
-Docbook is another type of markup language used in technical documentation.
+DocBook is another type of markup language used in technical documentation.
 
-To save your AsciiDoc file to Docbook, follow the steps below:
+To save your AsciiDoc file to DocBook, follow the steps below:
 
 1. From the command palette.
 
 2. Select `AsciiDoc: Save to DocBook`.
 
-   ![Figure 4. Save document to DocBook](https://paper-attachments.dropboxusercontent.com/s_4FE4BC8304E498F537D34F4A70D29DBE4E6CE923A3D9678B32EB9B22AE3F151E_1708342601608_DocBook.png)
+  ![Save document to DocBook](./img/save-docbook.png)
+
+  _**Figure 6.** How to save document to DocBook_
 
 3. The file is generated in the same folder as the source document.
 
-:::tip Only DocBook 5 is supported
-
-
+:::tip 
+Only DocBook 5 is supported
 :::
 
 
-## 5. Customize your Playbook and publish Antora on Github
+## 5. Customize Your Playbook and Publish Antora on GitHub
 
 - Create a `/docs` in the root folder of your project.
 
@@ -364,7 +377,7 @@ To save your AsciiDoc file to Docbook, follow the steps below:
 
 4. **Live Updates**: Your updated content will be live once it’s pushed to the repository.
 
-## 6. Azure DevOps pipeline for publishing Antora Page to AzureStaticWeb:
+## 6. Azure DevOps Pipeline for Publishing Antora Page to AzureStaticWeb:
 
 **Follow the Same Process as GitHub**:
 
@@ -424,5 +437,3 @@ To save your AsciiDoc file to Docbook, follow the steps below:
               output_location: "./build/site" # Built app content directory - optional
     ###### End of Repository/Build Configurations ######
 ```
-
-## **Conclusion**

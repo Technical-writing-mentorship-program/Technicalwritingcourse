@@ -1,6 +1,6 @@
 import semrush from './image/semrush.png';
 import hugoMigration from "/img/hugo-to-docusaurus.png";
-import javascriptVariables from "./image/JavascriptVariables.png";
+import JavascriptVariables from './Image/JavascriptVariables.png';
 import styles from './styles.module.css';
 
 const BlogSection = () => {
@@ -63,7 +63,7 @@ const BlogSection = () => {
   const blogPreviews = [
     {
       "title": "JavaScript Essentials Understanding Variables and Data Types",
-      "img": javascriptVariables,
+     "img": JavascriptVariables,
       "url": "/blog/javascript-variables-and-data-types" 
     },
 

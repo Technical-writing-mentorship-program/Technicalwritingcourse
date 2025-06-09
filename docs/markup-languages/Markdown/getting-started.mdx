@@ -1,27 +1,35 @@
 ---
 slug: /getting-started-with-markdown
 title: Getting Started with Markdown
-description:  It covers the basics of Markdown syntax, best practices for writing clear and effective technical content, and tips for organizing and structuring your documents. Whether you're new to Markdown or looking to refine your skills, this guide will help you master the essentials and produce professional-quality documentation
+description: It covers the basics of Markdown syntax, best practices for writing clear and effective technical content, and tips for organizing and structuring your documents. Whether you're new to Markdown or looking to refine your skills, this guide will help you master the essentials and produce professional-quality documentation
 summary: This detailed guide covers how to Set Up Markdown Tools, markdown basic syntaxes and Formatting and how to Structure Contents in Markdown.
 date: 2024-07-01
 sidebar_position: 3
-keywords: ["Markdown", "markdown course", "markdown tutorial", "markdown syntax", "markdown tools"]
-
+keywords:
+  [
+    "Markdown",
+    "markdown course",
+    "markdown tutorial",
+    "markdown syntax",
+    "markdown tools",
+  ]
 ---
 
 From the previous lesson, you’ve learnt what Markdown is, its Importance, its advantages, and its comparisons to [WYSIWYG](https://en.wikipedia.org/wiki/WYSIWYG) Editors.
 
-Here is saying “*The best way to learn is to practice*” This way you will be able to identify common errors and avoid them in your next project. In this lesson, you will be doing a lot of practicals and getting your hands dirty in markdown.
+Here is saying “_The best way to learn is to practice_” This way you will be able to identify common errors and avoid them in your next project. In this lesson, you will be doing a lot of practicals and getting your hands dirty in markdown.
 
-In the lesson, you will be learning:
+:::tip
+In the lesson, you will learn:
 
-- How to Set Up Markdown Tools.
-- Markdown basic syntaxes and Formatting.
-- How to Structure Contents in Markdown.
+- How to set up Markdown tools.
+- Markdown basic syntaxes and formatting.
+- How to structure contents in Markdown.
+  :::
 
 ## Let's Get the ball Rolling
 
-You must have got used to downloading and installing packages before you can use certain tools or software on your computers. In this case, you won’t need that at all, as some applications already support writing in Markdown such as Code editors like [VScode](http://code.visualstudio.com) for `Read.md` **files, Blog sites like [Hashnode](http://hashnode.com), [Dev.to](http://dev.to), social apps like [Discord](http://discord.com), [Slack](http://slack.com), [Whatsapp](http://web.whatsapp.com) etc.
+You must have got used to downloading and installing packages before you can use certain tools or software on your computers. In this case, you won’t need that at all, as some applications already support writing in Markdown such as Code editors like [VScode](http://code.visualstudio.com) for `Read.md` \*\*files, Blog sites like [Hashnode](http://hashnode.com), [Dev.to](http://dev.to), social apps like [Discord](http://discord.com), [Slack](http://slack.com), [Whatsapp](http://web.whatsapp.com) etc.
 
 Aside from these, there are Markdown editors the same way there are Code editors. Markdown editors are **simple, lightweight tools for converting text to HTML. They can be used to format lists, headers, and importantly, to add images, videos, and links**.
 
@@ -37,25 +45,29 @@ Here are some Markdown editors you can use to try writing in Markdown:
 6. [GhostWriter](https://wereturtle.github.io/ghostwriter/)
 7. [Wri.pe](https://wri.pe/)
 
-----------
 ## Setting Up Markdown Tools
 
-For this lesson, you will be using StackEdit. StackEdit is a free online Markdown editor with a visual toolbar for formatting (bold, emphasis, lists, etc.). It can sync with cloud storage services such as Dropbox and Google Drive, and import files from a URL or your computer's hard drive.
+In this lesson, you will use StackEdit. StackEdit is a free online Markdown editor with a visual toolbar for formatting (bold, emphasis, lists, etc.). It can sync with cloud storage services such as Dropbox and Google Drive, and import files from a URL or your computer's hard drive.
 
 1. Visit [StackEdit](https://stackedit.io/).
 2. Click on `Start Writing` at the top of the page.
 
-![start writing](https://paper-attachments.dropboxusercontent.com/s_700DE6F6C75E69B3D2CC7C7B9276E5C990376BF0759DB928E701B03B106CFA37_1722448619181_annotely_image.png)
+![start writing](img/stackedit.png)
 
-You will see a welcome file that contains various Mardown syntax and its usage together with the Outcome on the right hand.
+_**Fig 1.** Start Writing in StackEdit_
 
-![welcome file](https://paper-attachments.dropboxusercontent.com/s_700DE6F6C75E69B3D2CC7C7B9276E5C990376BF0759DB928E701B03B106CFA37_1721998465426_Screenshot+2024-07-26+at+13.54.15.png)
+You will see a welcome file that contains various Markdown syntax and its usage together with the outcome on the right hand.
 
-3.Click on the Folder icon at the left side of the Nav bar.
-![folder icon](https://paper-attachments.dropboxusercontent.com/s_700DE6F6C75E69B3D2CC7C7B9276E5C990376BF0759DB928E701B03B106CFA37_1721998655118_Screenshot+2024-07-26+at+13.57.21.png)
+![Welcome file](img/stackedit2.png)
 
-4.Create a New File or Folder depending on your choice and name it.
-![create a new file or folder](https://paper-attachments.dropboxusercontent.com/s_700DE6F6C75E69B3D2CC7C7B9276E5C990376BF0759DB928E701B03B106CFA37_1723832455840_aaaa.png)
+_**Fig 2.** Welcome file in StackEdit_
+
+3. Click on the Folder icon at the left side of the Nav bar.
+
+4. Create a New File or Folder depending on your choice and name it.
+
+![create a new file or folder](img/stackedit3.png)
+_**Fig 3.** Create a new file or folder in StackEdit_
 
 This is where You will be carrying out all your practicals.
 
@@ -67,73 +79,101 @@ In this section, you will learn the basic syntax in Markdown
 
 `#` is used to create a heading in Markdown. The number of # signs at the beginning of a line determines the heading level. For example, one # creates the largest heading, while six # creates the smallest.
 
- There are six levels of heading as seen below:
-##### Syntax:
+There are six levels of heading as seen below:
+
+#### Syntax
 
 ```markdown showLineNumbers{1-6}
 # Heading One (H1)
-## Heading Two (H2)
-### Heading Three (H3)
-#### Heading Four (H4)
-##### Heading Five (H5)
-###### Heading Six (H6)
 
+## Heading Two (H2)
+
+### Heading Three (H3)
+
+#### Heading Four (H4)
+
+##### Heading Five (H5)
+
+###### Heading Six (H6)
 ```
 
-##### Result
+#### Result
+
+<details>
+  <summary>Toggle to preview the result</summary>
+
+  <p>
+
 # Heading One (H1)
+
 ## Heading Two (H2)
+
 ### Heading Three (H3)
+
 #### Heading Four (H4)
+
 ##### Heading Five (H5)
+
 ###### Heading Six (H6)
 
+  </p>
+</details>
 
 > Take note of the space between the ‘#’ tag and the text or phrase
 
-| Right ✅                                              | Result                                                        | Wrong ❌                                              |
-| ---------------------------------------------------- | ------------------------------------------------------------- | ---------------------------------------------------- |
-| ## Technical Writing                                 | <h2>Technical Writing</h2>                                    | ##Technical writing                                  |
-| ## Technical Writing<br /><br />Technical Writing is … | <h2>Technical Writing</h2><br /><br />Technical Writing is … | ##Technical Writing <br />Technical writing is …      |
+| Right ✅                                               | Result                                                       | Wrong ❌                                         |
+| ------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------ |
+| ## Technical Writing                                   | <h2>Technical Writing</h2>                                   | ##Technical writing                              |
+| ## Technical Writing<br /><br />Technical Writing is … | <h2>Technical Writing</h2><br /><br />Technical Writing is … | ##Technical Writing <br />Technical writing is … |
 
 ### 2. Emphasis (Bold, Italics)
 
-You can add emphasis in markdown either as a **Bold text** or *Italic text*. This can be achieved using **asterisk(s).**
+You can add emphasis in markdown either as a **Bold text** or _Italic text_. This can be achieved using **asterisk(s).**
 
-- **Bold**:  Use two asterisks before the text and after the text (**).
+- **Bold**: Use two asterisks before the text and after the text (\*\*).
 
-- **Italic**:  Use one asterisk or underscore before the text and after the text. (*/ _).
+- **Italic**: Use one asterisk or underscore before the text and after the text. (\*/ \_).
 
 Check the usage ⬇️
-##### Syntax: 
 
-``` markdown showLineNumbers{1-2}
+#### Syntax
+
+```markdown showLineNumbers{1-2}
 **Bold text**
-*Italic text*
+_Italic text_
 ```
 
-##### Result
+#### Result
+
+<details>
+  <summary>Toggle to preview the result</summary>
+  <p>
 
 **Bold text**
-*Italic text*
+_Italic text_
+
+  </p>
+</details>
 
 ### 3. Lists (Ordered and Unordered)
 
 You can itemize as an Ordered or Unordered list.
 
 #### Ordered
+
 Add numbers followed by content, as seen below ⬇️
 
-| Syntax ✅ | Result ✅ |
-| ---------------- | ---------------- |
+| Syntax ✅                                                                                                                                                                                                                           | Result ✅                                                                                                                                                                                                                                  |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | 1. Writing<br/>2. Documentation<br />3. Technical Writing<br />4. Training<br />&nbsp;&nbsp;&nbsp;&nbsp;1. Training 1<br />&nbsp;&nbsp;&nbsp;&nbsp;2. Training 2<br />&nbsp;&nbsp;&nbsp;&nbsp;3. Training 3<br />5. Troubleshooting | 1. Writing<br />2. Documentation<br />3. Technical Writing<br />4. Training<br />&nbsp;&nbsp;&nbsp;&nbsp;1. Training 1<br />&nbsp;&nbsp;&nbsp;&nbsp;2. Training 2<br />&nbsp;&nbsp;&nbsp;&nbsp;3. Training 3<br />5. Troubleshooting<br /> |
 
 #### Unordered
+
 Add dashes (`-`), asterisks (`*`), or plus signs (`+`) in front as seen below ⬇️
 
 ##### Syntax
 
-``` markdown showLineNumbers{1-7}
+```markdown showLineNumbers{1-7}
 - First item
 - Second item
 - Third item
@@ -145,43 +185,46 @@ Add dashes (`-`), asterisks (`*`), or plus signs (`+`) in front as seen below �
 
 ##### Result
 
-- First item
-- Second item
-- Third item
-  - Indented item
-  - Indented item
-    - Extra item
-- Fourth item
+<details>
+  <summary>Toggle to preview the result</summary>
 
+<p>
+  - First item - Second item - Third item - Indented item - Indented item -
+  Extra item - Fourth item
+</p>
 
+</details>
 
-> Note: For nested listing either as an ordered or unordered list, maintain the same syntax and add extra spacing before nest items e.g Press the space bar four times before you begin the nest list
+:::note
+For nested listing either as an ordered or unordered list, maintain the same syntax and add extra spacing before nest items e.g Press the space bar four times before you begin the nest list.
+:::
 
-
-
-
-| Right ✅ | Wrong ❌ |
-| ------- | -------- |
-| - First item<br />- Second item<br />- Third item<br />&nbsp;&nbsp;&nbsp;&nbsp;- Indented item<br />&nbsp;&nbsp;&nbsp;&nbsp;- Indented item<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Extra item<br />- Fourth item | - First item<br />- Second item<br />- Third item<br />&nbsp;&nbsp;- Indented item<br />&nbsp;&nbsp;- Indented item<br />&nbsp;&nbsp;&nbsp;&nbsp;- Extra item<br />- Fourth item |
-| - First item<br />- Second item<br />- Third item<br />&nbsp;&nbsp;&nbsp;&nbsp;- Indented item<br />&nbsp;&nbsp;&nbsp;&nbsp;- Indented item<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Extra item<br />- Fourth item | - First item<br />- Second item<br />- Third item<br />&nbsp;&nbsp;&nbsp;&nbsp;+ Indented item<br />&nbsp;&nbsp;&nbsp;&nbsp;* Indented item<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Extra item<br />- Fourth item |
+| Right ✅                                                                                                                                                                                                                                | Wrong ❌                                                                                                                                                                                                                                |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| - First item<br />- Second item<br />- Third item<br />&nbsp;&nbsp;&nbsp;&nbsp;- Indented item<br />&nbsp;&nbsp;&nbsp;&nbsp;- Indented item<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Extra item<br />- Fourth item        | - First item<br />- Second item<br />- Third item<br />&nbsp;&nbsp;- Indented item<br />&nbsp;&nbsp;- Indented item<br />&nbsp;&nbsp;&nbsp;&nbsp;- Extra item<br />- Fourth item                                                        |
+| - First item<br />- Second item<br />- Third item<br />&nbsp;&nbsp;&nbsp;&nbsp;- Indented item<br />&nbsp;&nbsp;&nbsp;&nbsp;- Indented item<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Extra item<br />- Fourth item        | - First item<br />- Second item<br />- Third item<br />&nbsp;&nbsp;&nbsp;&nbsp;+ Indented item<br />&nbsp;&nbsp;&nbsp;&nbsp;\* Indented item<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Extra item<br />- Fourth item       |
 | 1. First item<br />2. Second item<br />3. Third item<br />&nbsp;&nbsp;&nbsp;&nbsp;1. Indented item<br />&nbsp;&nbsp;&nbsp;&nbsp;2. Indented item<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Extra item<br />4. Fourth item | 1) First item<br />2) Second item<br />3) Third item<br />&nbsp;&nbsp;&nbsp;&nbsp;1) Indented item<br />&nbsp;&nbsp;&nbsp;&nbsp;2) Indented item<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1) Extra item<br />4) Fourth item |
 
 ### 4. Links and Images
 
 - **Links:** To create a link, enclose the link text in brackets and then follow it immediately with the URL in parentheses e.g `[Google](https://www.google.com)`
 
- <u><b>The outcome is [Google](http://www.google.com)</b></u>
+{" "}
+
+<u>
+  <b>The outcome is [Google](http://www.google.com)</b>
+</u>
 
 - **Image:** To add an image, add an exclamation mark (`!`), followed by alt text in brackets, and the path or URL to the image asset in parentheses.
 
 ```markdown
-![Stellar Bridge illustration\](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/x32gn1w21u095qfkw3ie.png 'stellar')
+![Stellar Bridge illustration](img/stellerBridge.png "stellar")
 ```
 
 The output will look like this ⬇️
 
-![Stellar Bridge illustration](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/x32gn1w21u095qfkw3ie.png)
-
+![Stellar Bridge illustration](img/stellerBridge.png)
+_**Fig 4.** Stellar Bridge illustration_
 
 ## Structuring Content
 
@@ -191,18 +234,15 @@ In this section, you will learn how to structure your content in an organised an
 
 This is an important aspect of structuring content in markdown. Headings and subheadings help the readers quickly scan the content, understand its structure, and easily locate specific information.
 
-- **Ideally, H1 are best suitable for Title or Main Heading.** This is the most prominent heading level and should be used sparingly, typically once per page.
+- **H1** are best suitable for Title or Main Heading. This is the most prominent heading level and should be used sparingly, typically once per page.
 
-- **H2:** Used for primary section headings. These are subheadings under the main topic.
-      - Example: Introduction, Methods, Results, Conclusion.
+- **H2:** Used for primary section headings. These are subheadings under the main topic. - Example: Introduction, Methods, Results, Conclusion.
 
-- **H3:** Used for subheadings within sections. They provide further structure and organization.
-      - Example: Study Participants, Data Collection, Data Analysis
+- **H3:** Used for subheadings within sections. They provide further structure and organization. - Example: Study Participants, Data Collection, Data Analysis
 
-- **H4, H5, H6:** These lower-level headings can be used for smaller subsections or to emphasize specific points within the content.
-      - Example: Demographics, Instrumentation, Statistical Analysis
+- **H4, H5, H6:** These lower-level headings can be used for smaller subsections or to emphasize specific points within the content. - Example: Demographics, Instrumentation, Statistical Analysis
 
-##### Syntax
+#### Syntax
 
 ```markdown showLineNumbers{1-29}
 # H1: Main Title or Page Heading
@@ -211,21 +251,21 @@ This is the most important heading on the page. It should clearly and concisely 
 
 ## H2: Primary Section Heading
 
--   **Section 1**
--   **Section 2**
--   **Section 3**
+- **Section 1**
+- **Section 2**
+- **Section 3**
 
 ### H3: Subheading within a Section
 
 #### Section 1
 
--   Subtopic A
--   Subtopic B
+- Subtopic A
+- Subtopic B
 
 #### Section 2
 
--   Subtopic C
--   Subtopic D
+- Subtopic C
+- Subtopic D
 
 ##### H5: Lower-level Heading (Optional)
 
@@ -236,9 +276,15 @@ This level of heading is used less frequently, but can be useful for providing a
 These headings are typically not necessary for most content, but can be used in very complex documents with multiple layers of organization.
 ```
 
-##### Result⬇️
+#### Result
+
+<details>
+  <summary>Toggle to preview the result</summary>
+
+  <p>
 
 # H1: Main Title or Page Heading
+
 This is the most important heading on the page. It should clearly and concisely convey the main topic of the content.
 
 ## H2: Primary Section Heading
@@ -267,6 +313,9 @@ This level of heading is used less frequently, but can be useful for providing a
 
 These headings are typically not necessary for most content, but can be used in very complex documents with multiple layers of organization.
 
+</p>
+</details>
+
 ### 2. **Creating Tables**
 
 To create a table,
@@ -283,24 +332,33 @@ For compatibility, you should also add a pipe on either end of the row.
 Don’t add space between the column
 :::
 
-##### Syntax
+#### Syntax
 
 ```markdown showLineNumbers(1-5)
-| Frontend | Backend | Smart contract|
-|---|---|---|
-| Html | Python | Solidity |
-| Css | Node.js | Rust |
-| Javascript | PhP | Vyper |
+| Frontend   | Backend | Smart contract |
+| ---------- | ------- | -------------- |
+| Html       | Python  | Solidity       |
+| Css        | Node.js | Rust           |
+| Javascript | PhP     | Vyper          |
 ```
-##### Result
 
-| Frontend | Backend | Smart contract|
-|---|---|---|
-| Html | Python | Solidity |
-| Css | Node.js | Rust |
-| Javascript | PhP | Vyper |
+#### Result
 
-##### Comparison
+<details>
+  <summary>Toggle to preview the result</summary>
+
+  <p>
+
+| Frontend   | Backend | Smart contract |
+| ---------- | ------- | -------------- |
+| Html       | Python  | Solidity       |
+| Css        | Node.js | Rust           |
+| Javascript | PhP     | Vyper          |
+
+  </p>
+</details>
+
+#### Comparison
 
 ```markdown showLineNumbers{1-6}
     Right ✅
@@ -314,39 +372,49 @@ Don’t add space between the column
 ```markdown showLineNumbers{1-10}
     Wrong ❌
     | Frontend | Backend | Smart contract|
-    
+
     |:---|:---|:---|
-    
+
     | Html | Python | Solidity |
-    
+
     | Css | Node.js | Rust |
-    
+
     | Javascript | PhP | Vyper |
 ```
+
 #### **Alignment**
 
- You can align text in the columns to the left, right, or centre.
+You can align text in the columns to the left, right, or centre.
 
-- **Right:** add `:`  the right side of the hyphens within the header row.
-- **Left:**  add `:` to the left side of the hyphens within the header row.
+- **Right:** add `:` the right side of the hyphens within the header row.
+- **Left:** add `:` to the left side of the hyphens within the header row.
 - **Center:** add `:` on both sides of the hyphens within the header row.
 
 ##### Syntax For Center Alignment
 
 ```markdown showLineNumbers{1-5}
-| Frontend | Backend | Smart contract|
-|:---:|:---:|:---:|
-| Html | Python | Solidity |
-| Css | Node.js | Rust |
-| Javascript | PhP | Vyper |
+|  Frontend  | Backend | Smart contract |
+| :--------: | :-----: | :------------: |
+|    Html    | Python  |    Solidity    |
+|    Css     | Node.js |      Rust      |
+| Javascript |   PhP   |     Vyper      |
 ```
 
 ##### Result For Center Alignment
-| Frontend | Backend | Smart contract|
-|:---:|:---:|:---:|
-| Html | Python | Solidity |
-| Css | Node.js | Rust |
-| Javascript | PhP | Vyper |
+
+<details>
+  <summary>Toggle to preview the result</summary>
+
+  <p>
+
+|  Frontend  | Backend | Smart contract |
+| :--------: | :-----: | :------------: |
+|    Html    | Python  |    Solidity    |
+|    Css     | Node.js |      Rust      |
+| Javascript |   PhP   |     Vyper      |
+
+  </p>
+</details>
 
 ##### Syntax For Right Alignment
 
@@ -357,46 +425,61 @@ Don’t add space between the column
 4| Css | Node.js | Rust |
 5| Javascript | PhP | Vyper |
 ```
+
 ##### Result For Right Alignment
 
+<details>
+  <summary>Toggle to preview the result</summary>
 
-| Frontend | Backend | Smart contract|
-|-------------:|-------------:|----------:|
-| Html         | Python       | Solidity |
-| Css          | Node.js      | Rust |
-| Javascript   | PhP          | Vyper |
+  <p>
 
+|   Frontend | Backend | Smart contract |
+| ---------: | ------: | -------------: |
+|       Html |  Python |       Solidity |
+|        Css | Node.js |           Rust |
+| Javascript |     PhP |          Vyper |
 
+  </p>
+</details>
 
 ##### Syntax For Left Alignment
 
 ```markdown showLineNumbers{1-5}
-| Frontend | Backend | Smart contract|
-|:---:|:---:|:---:|
-| Html | Python | Solidity |
-| Css | Node.js | Rust |
-| Javascript | PhP | Vyper |
+|  Frontend  | Backend | Smart contract |
+| :--------: | :-----: | :------------: |
+|    Html    | Python  |    Solidity    |
+|    Css     | Node.js |      Rust      |
+| Javascript |   PhP   |     Vyper      |
 ```
 
+<details>
+  <summary>Toggle to preview the result</summary>
+
+  <p>
 ##### Result For Left Alignment
-| Frontend | Backend | Smart contract|
-|:---|:---|:---|
-| Html | Python | Solidity |
-| Css | Node.js | Rust |
-| Javascript | PhP | Vyper |
+
+| Frontend   | Backend | Smart contract |
+| :--------- | :------ | :------------- |
+| Html       | Python  | Solidity       |
+| Css        | Node.js | Rust           |
+| Javascript | PhP     | Vyper          |
+
+  </p>
+</details>
 
 ### 3. Using Blockquotes for Text Formatting
 
 Blockquotes are used to set off long quotations from other sources. To create a blockquote, add the **greater than sign** `>` in the font of the paragraph.
 
 ```markdown
-1> Here is saying  “_The_ _best way to learn is to practice_” This way you will be able to identify common errors and avoid them in your next project. 
+1> Here is saying “_The_ _best way to learn is to practice_” This way you will be able to identify common errors and avoid them in your next project.
 ```
+
 For multiple paragraphs, add `>` before the next paragraph to create a space between them.
 
 ```markdown
-> Here is saying  "_The_ _best way to learn is to practice_" This way you will be able to identify common errors and avoid them in your next project.
-> 
+> Here is saying "_The_ _best way to learn is to practice_" This way you will be able to identify common errors and avoid them in your next project.
+>
 > In simple terms, these editors allow writers to create markdown documents like how code editors enable developers to write code.
 ```
 
@@ -412,16 +495,25 @@ You can also create a nested blockquote by adding `>>` or more in front of the p
          >>>>+ kkkkkkkkk
 ```
 
-Check the output below ⬇️
+Check the output below
+
+<details>
+  <summary>Toggle to preview the output</summary>
+
+  <p>
 
 > In this lesson, you will be doing a lot of practicals and getting your hands dirty in markdown.
 >
 > In the lesson, you will be learning:
->> - How to Set Up Markdown Tools.
->> - Markdown basic syntaxes and Formatting.
->> - How to Structure Contents in Markdown.
->>> - Additional nested item
->>>> - Further nested item
+>
+> > - How to Set Up Markdown Tools.
+> > - Markdown basic syntaxes and Formatting.
+> > - How to Structure Contents in Markdown.
+> >   > - Additional nested item
+> >   >   > - Further nested item
+
+  </p>
+</details>
 
 The best way to learn markdown is to use it at all times e.g. after this lesson, write an article in StackEdit.
 

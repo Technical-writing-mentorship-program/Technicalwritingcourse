@@ -13,7 +13,7 @@ Peter Morville says - “Findability precedes usability; you can’t use what yo
 :::
 
 
-:::note
+:::tip
 
 In this Module, you will learn:
 
@@ -43,7 +43,7 @@ It is how the content of applications, websites, and information systems are org
 A good information architecture anticipates user needs and ensures a logical flow of information is followed through intelligent grouping and intuitive navigation medium." icon="rocket"
 :::
 
-![Key element of information architecture](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5g8d27kf06abrtm4l4wc.png)
+![Key element of information architecture](../../docs/technical-writing-course/img/key-elements-of-info-architecture.png)
 
 
 
@@ -102,7 +102,7 @@ In Information architecture, taxonomy is crucial in organizing and labeling cont
 
 It is how information is segmented and labeled within a shared information environment. It helps organize topics, subtopics, and related content within manuals and guides.
 
-![Taxonomy in use in The Atlantic website](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/s92uajitouwqpxquamkt.png)
+![Taxonomy in use in The Atlantic website](../../docs/technical-writing-course/img/taxonomy-used-in-atlantic-website.png)
 
 _**Figure 2**: Taxonomy in use in The Atlantic website_
 
@@ -116,8 +116,7 @@ Think of Information architecture as a clothing store; the taxonomy is the dedic
 Then the clothing store will have other subcategories where dresses, pants, jackets, and shirts are found within the ladies' clothing section.
 
 
-![Information architecture and taxonomy working together to deliver content efficiently in an e-commerce platform](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/7nru6tuftoxm60vqzpbi.png)
-
+![Information architecture and taxonomy working together to deliver content efficiently in an e-commerce platform](../../docs/technical-writing-course/img/ia-taxonomy-example.png)
 _**Figure 3**: Information architecture and taxonomy working together to deliver content efficiently in an e-commerce platform_
 
 
@@ -176,13 +175,13 @@ Note down likely pain points users are trying to find answers to and the key dec
 
 
 
-![Table of content showing content category for easy navigation](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/h9ccz4e4pxs7lfi2c0ix.png)
+![Table of content showing content category for easy navigation](../../docs/technical-writing-course/img/table-of-contents-example.png)
 
 
 _**Figure 4**: Table of content showing content category for easy navigation_
 
 
-The above image is an example of a technical documentation on hashnode. The content goal has been defined, which is an article on “Navigating AWS IPV4”.
+The above image is an example of a technical documentation on (Hashnode)(https://www.hashnode.com). The content goal has been defined, which is an article on “Navigating AWS IPV4”.
 
 
 If we then pay a closer look at the content category for this article, we can see how intentional the writer is with regards to enlightening his readers and what he wants them to learn when they read his article.
@@ -231,7 +230,7 @@ You should consider the following navigation methods.
 It also provides easy access to key sections of the documentation like “Getting started”, “Concept”, “Task”. And lastly, the user’s location within the documentation at any particular time is highlighted for easy tracking.
 
 
-![Global navigation system of kubernetes documentation website](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/i0wdg3wmjn5c3nnmfmda.png)
+![Global navigation system of kubernetes documentation website](../../docs/technical-writing-course/img/global-nav-system-example.png)
 
 _**Figure 5**: Global navigation system of kubernetes documentation website_
 
@@ -241,7 +240,7 @@ _**Figure 5**: Global navigation system of kubernetes documentation website_
 
 - **Search functionality**: Implement a robust search feature for quick content delivery.
 
-![Local navigation and search functionality on Kubernetes documentation website](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2a3lc4lxmf833v0m25qm.png)
+![Local navigation and search functionality on Kubernetes documentation website](../technical-writing-course/img/local-search-nav-example.png)
 
 _**Figure 6**: Local navigation and search functionality on kubernetes documentation website_
 
@@ -257,7 +256,7 @@ Following these steps diligently will let you create a taxonomy that organizes i
 :::
 
 
-#### Benefit of taxonomy for your technical documentatiion
+#### Benefit of taxonomy for your technical documentation
 
 
 - **Improved user experience**: A well-defined taxonomy leads to a positive user experience by making it easier for users to find what they need and complete their tasks.
@@ -273,32 +272,7 @@ Following these steps diligently will let you create a taxonomy that organizes i
 
 
 
-import Quiz from '@site/src/components/Quiz';
 
-<Quiz
-  questions={[
-    {
-      text: 'Why is taxonomy important when building your information architecture for technical documentation?',
-      options: [
-        { value: '1', label: 'It enhances user understanding by grouping related topics together' },
-        { value: '2', label: 'It eliminates the need for usability testing' },
-        { value: '3', label: 'It forces users to follow a specific path in the documentation ' },
-        { value: '4', label: 'It ensures all topic are covered' }
-      ],
-      correct: '1'
-    },
-    {
-      text: 'What is the primary goal of information architecture in technical documentation?',
-      options: [
-        { value: '1', label: "To reduce maintenance cost" },
-        { value: '2', label: 'To make technical documentation visually appealing' },
-        { value: '3', label: 'To replace the need for clear writing' },
-        { value: '4', label: 'To improve findability for users' }
-      ],
-      correct: '4'
-    }
-  ]}
-/>
 
 
 ## How to create an information architecture for your technical documentation
@@ -366,7 +340,7 @@ It starts with a deep understanding of the application, content, and organizatio
 - **The principle of growth**: Embrace flexibility and anticipate future expansion as there is every likelihood that the content you start with will evolve over time. Ensure it remains organized and scalable.
 
 
-:::note
+:::tip
 Exercise
 
 
@@ -382,12 +356,31 @@ After review, tag @TechnicalWriti6 on Twitter to the link to your article.
 ## Answer the following questions
 
 
-<iframe
-  src="https://forms.gle/tn3pe9Y7CK6edGp38"
-  width="100%"
-  height="800"
-  style={{ border: '0', margin: 0 }}
-  title="Embedded Google Form"
+import Quiz from '@site/src/components/Quiz';
+
+<Quiz
+  questions={[
+    {
+      text: 'Why is taxonomy important when building your information architecture for technical documentation?',
+      options: [
+        { value: '1', label: 'It enhances user understanding by grouping related topics together' },
+        { value: '2', label: 'It eliminates the need for usability testing' },
+        { value: '3', label: 'It forces users to follow a specific path in the documentation ' },
+        { value: '4', label: 'It ensures all topic are covered' }
+      ],
+      correct: '1'
+    },
+    {
+      text: 'What is the primary goal of information architecture in technical documentation?',
+      options: [
+        { value: '1', label: "To reduce maintenance cost" },
+        { value: '2', label: 'To make technical documentation visually appealing' },
+        { value: '3', label: 'To replace the need for clear writing' },
+        { value: '4', label: 'To improve findability for users' }
+      ],
+      correct: '4'
+    }
+  ]}
 />
 
 

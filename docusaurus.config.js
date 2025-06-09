@@ -56,6 +56,8 @@ const config = {
           blogDescription: "Technical Writing Mentorship Program Blog",
           blogSidebarTitle: "All posts",
           blogSidebarCount: "ALL",
+          showLastUpdateTime: true,
+          showLastUpdateAuthor: true,
           feedOptions: {
             type: ["rss", "atom"],
             xslt: true,

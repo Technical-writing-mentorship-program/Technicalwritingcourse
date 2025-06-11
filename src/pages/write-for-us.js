@@ -28,7 +28,7 @@ export default function WriteForUs() {
 
         <h2>How to Submit</h2>
         <p>
-          Send a short pitch or draft to <a href="mailto:hello@twmp.com">hello@twmp.com</a>. If it fits, we’ll get back to you within a week with next steps.
+          Send a short pitch or draft to <a href="mailto:info@technicalwritingmp.com">hello@twmp.com</a>. If it fits, we’ll get back to you within a week with next steps.
         </p>
 
         <h2>Need Inspiration?</h2>

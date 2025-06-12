@@ -16,8 +16,6 @@ keywords:
   ]
 ---
 
-## AsciiDoc is just a text
-
 You can use AsciiDoc to quickly create professional-looking documents, whether you're writing a blog post or a book, without needing to learn complex formatting languages.
 
 With AsciiDoc, you can focus on writing your story or report and present it in a visually appealing format, like a stunning website or a well-designed book, without mastering a complicated program.
@@ -38,11 +36,7 @@ AsciiDoc provides several ways to insert hard line breaks, allowing you to contr
 
 { " "}
 
-<img
-  src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/icdu6z3xh60861r3jbgl.png"
-  alt="Fig 1. Hard line breaks in AsciiDocs"
-  width="100%"
-/>
+![Plus Sign](img\PlusSign.png)
 
 _**Fig 1.** Ending a line with a space followed by a plus sign (+) to start a new line without wrapping the text._
 
@@ -50,21 +44,13 @@ Additionally, you can use the following methods to incorporate hard line breaks 
 
 - The hard breaks option, you can enable hard line breaks by adding **[%hardbreaks]** before your content. This directive allows you to take control of your text layout and insert hard line breaks where needed.By adding **[%hardbreaks]**, you can precisely format your document and ensure that your text appears exactly as you intend.
 
-<img
-  src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3g94bhliqaee7gjem9fd.png"
-  alt="Fig 2. Hard breaks in AsciiDocs"
-  width="100%"
-/>
+![Using Hardbreaks](img\UsingHardbreaks.png)
 _**Fig 2:** using the `[%hardbreaks]` block to enforce hard line breaks in specific
 sections of an AsciiDoc document._
 
 - Add the "hard breaks" attribute to the document's header to preserve line breaks throughout your whole document. You can achieve this by adding ''**=**'' to the title of the document and '**':hardbreaks:**" after that.
 
-<img
-  src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/o6pa1ojyrp62irvdkajr.png"
-  alt="Fig 3. Hard breaks in AsciiDocs"
-  width="100%"
-/>
+![Setting HardBreaks](img\SettingHardbreaks.png)
 _**Fig 3:** Setting the `:hardbreaks:` attribute in the document header to apply
 hard line breaks throughout the entire AsciiDoc file._{" "}
 
@@ -105,21 +91,13 @@ In AsciiDoc, quoted text serves as a visual mechanism for highlighting dialogues
 
 One of the instances of quoted text in AsciiDoc is the asterisk, which is used primarily for emphasis, similar to how you might use bold or italics in other word processors.
 
-<img
-  src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/r289lr3b6po6rh904ltn.png"
-  alt="Fig 4. Quoted text in AsciiDocs"
-  width="100%"
-/>
+![EmphasizingText](img\EmphasizingText.png)
 _**Fig 4:** Emphasizing text in AsciiDoc using asterisks for bold or italics._{" "}
 
 Here are the alternative forms of quoted text that AsciiDoc recognizes. You can apply
 bold, italic, and monospace formatting to the text using the following syntax:
 
-<img
-  src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/38qwtucqrnen5uor6jhc.png"
-  alt="Fig 5. alternative forms of quoted text in AsciiDocs"
-  width="100%"
-/>
+![Syntax](img\Syntax.png)
 _**Fig 5:** Syntax examples for bold, italic, and monospace formatting in AsciiDoc._
 
 When writing in AsciiDoc, you can make certain words or phrases look special by giving them a "role". Think of it like labeling a word as "important" or "code.".
@@ -151,18 +129,10 @@ For example:
 
 By using backslash escaping, you take charge of your text's formatting and avoid unexpected changes. You decide how your text looks, and AsciiDoc follows your lead.
 
-<img
-  src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/kfex35drwu0cm5n0tf1q.png"
-  alt="Fig 6. backslash escaping in AsciiDocs"
-  width="100%"
-/>
+![Examples of Backlash](img\Backslash.png)
 _**Fig 6:** Examples of backslash escaping to prevent formatting in AsciiDoc._
 
-<img
-  src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/r2j4ccamffn7i3n94ute.png"
-  alt="Fig 7. backslash escaping"
-  width="100%"
-/>
+![Rendering Backslash](img\RenderingCharacters.png)
 _**Fig 7:** Rendering literal characters using backslash escaping._
 
 ### Inline pass macro and explicit substitution
@@ -176,21 +146,13 @@ You're in charge, and you're telling AsciiDoc to:
 
 By using an inline pass macro, you take control of your text's formatting and ensure it looks exactly how you want it to!
 
-<img
-  src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/a3o389dpphmg6wdnkgpl.png"
-  alt="Fig 8. inline pass macro"
-  width="100%"
-/>
+![Inline Pass Macro](img\Usingtheinlinepassmacro.png)
 _**Fig 8:** Using the inline pass macro to prevent AsciiDoc from altering specific
 content._
 {""}
-<img
-  src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/vh692p5m48m2k7okddlv.png"
-  alt="Fig 9: inline pass macro in Asciidocs"
-  width="100%"
-/>
-_**Fig 9:** Output comparison with and without the inline pass macro in
-AsciiDoc._
+
+![Output Comparison](img\OutputComparison.png)
+_**Fig 9:** Output comparison with and without the inline pass macro in AsciiDoc._
 
 You enclose a phrase in the inline pass macro to exclude it from substitutions and disable escaping of special characters. This way, you can control how your text is formatted.
 
@@ -202,11 +164,7 @@ By doing so, you:
 
 You're in charge of your text's formatting, and the inline pass macro helps you achieve your desired output!
 
-<img
-  src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/hf90mnrtrhiza004l3l1.png"
-  alt="Fig 10. inline pass macro underline in Asciidocs"
-  width="100%"
-/>
+![Inline Pass Macro](img\InlinePassMacro.png)
 _**Fig 10:** inline pass macro underline in Asciidocs_
 {""}
 You enable ad-hoc quotes substitution by setting the macros value to subs, allowing
@@ -214,11 +172,7 @@ you to control the replacement of specific characters or quotes.
 
 Then, you use the inline pass macro to specify which quotes to replace and with what, taking charge of the substitution process. By doing so, you ensure that specific quotes are replaced with other characters in certain places, achieving your desired text formatting.
 
-<img
-  src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/k6b8rmm9wnyj2nrz0l3n.png"
-  alt="Fig 11. ad-hoc quotes substitution"
-  width="100%"
-/>
+![AdHoc Quotes](img\Ad-Hocquotes.png)
 _**Fig 11:** ad-hoc quotes substitution_
 
 You can also specify which types of substitutions AsciiDoc should ignore by using shorthand values.
@@ -237,17 +191,10 @@ Here’s how each shorthand value works:
 For example, the attributes text substitution value is assigned in the inline passthrough
 macro below.
 
-<img
-  src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/rf7l5cbrlgx2i98p1ilg.png"
-  alt="Fig 12. Using the 'a' shorthand for attribute substitution in AsciiDoc"
-  width="100%"
-/>
+![ShortHand Attribute](img\Shorthandattribute.png)
 _**Fig 12:** Using the `a` shorthand for attribute substitution in AsciiDoc._
-<img
-  src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/mgdt8yh7i7usfjvwc3df.png"
-  alt="Fig 13. Attribute value rendered via shorthand substitution"
-  width="100%"
-/>
+
+![Attribute Value](img\Attributevalue.png)
 _**Fig 13:** Attribute value rendered via shorthand substitution._
 
 ### Triple plus passthrough
@@ -258,11 +205,7 @@ The triple-plus passthrough in AsciiDoc works similarly to the pass macro but us
 
 - **Triple-Plus Syntax**: Place **+++** before and after your text to tell AsciiDoc to ignore everything inside those markers. It won’t format, change, or substitute anything.
 
-<img
-  src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/8y79bcve4efc9dp3k7qw.png"
-  alt="Fig 14. triple plus syntax"
-  width="100%"
-/>
+![Triple Plus](img\Triple-Pluspassthrough.png)
 _**Fig 14:** Using the triple-plus passthrough to prevent AsciiDoc from altering
 specific content._
 
@@ -277,11 +220,7 @@ In summary, the triple-plus passthrough lets you include unaltered text, code, o
 **Single plus enclosure**
 You protect a phrase from substitutions by wrapping it in plus signs (+) like this: **+phrase+**. By doing so, you tell the Asciidoc to leave the phrase alone and not make any changes to it. It's like putting a "do not touch" sign on your text!
 
-<img
-  src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/7p8u45ishki48cxzteqq.png"
-  alt="Fig 15. Using single plus signs to prevent substitutions in AsciiDoc"
-  width="100%"
-/>
+![Using Sign Plus](img\Single-PlusSign.png)
 _**Fig 15:**_ Using single plus signs to prevent substitutions in AsciiDoc.
 
 ### Replacements

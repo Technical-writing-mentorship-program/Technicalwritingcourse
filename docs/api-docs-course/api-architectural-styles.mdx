@@ -17,7 +17,7 @@ keywords:
 slug: /architectural-styles
 ---
 
-You can't fully grasp the concept of APIs without understanding how they're designed. If you've been playing with APIs for a while now, you might have encountered terms like REST, SOAP, and GraphQL. These are exactly what we'll be looking at in this section.
+You can't fully understand the concept of APIs without understanding how they're designed. If you've been playing with APIs for a while now, you might have encountered terms like REST, SOAP, and GraphQL. These are exactly what we'll be looking at in this section.
 
 ## What are API Architecture Styles?
 
@@ -38,9 +38,7 @@ This course will focus on documenting RESTful APIs. However, we'll give an overv
 
 ## SOAP
 
-Simple Object Access Protocol (SOAP) is a mature and well-known API architectural style. It's used to exchange structured information for the implementation of web services.
-
-SOAP relies on XML (Extensible Markup Language) for its message format. This ensures that messages are platform-independent and can be read by any system that understands XML.
+Simple Object Access Protocol (SOAP) is a mature and well-known API architectural style. It is used to exchange structured information for the implementation of web services. SOAP relies on XML (Extensible Markup Language) for its message format. This ensures that messages are platform-independent and can be read by any system that understands XML.
 
 One of SOAP's key features is its support for complex operations and stateful interactions. This means that SOAP can handle more sophisticated interactions than simpler protocols, such as those requiring multiple steps or transactions. However, this complexity also makes SOAP more heavyweight, requiring more resources to parse and process the XML messages.
 
@@ -63,7 +61,7 @@ It uses a specific envelope structure for messages, which includes a header and 
 
 Below is an example of this structure. The following is a SOAP request to get information about a book by its ISBN.
 
-```{1-13} showLineNumbers
+```{1-11} showLineNumbers
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:lib="http://example.com/library">
     <soapenv:Header/>
     <soapenv:Body>
@@ -97,7 +95,7 @@ RESTful APIs use standard HTTP methods to perform operations on resources. These
 
 REST is designed to be simple and lightweight, making it easy to use and understand. It leverages the existing capabilities of the web and HTTP, allowing for scalability and flexibility. Unlike SOAP, REST does not have a strict standard, giving developers more freedom in how they design their APIs.
 
-### How does REST work?
+### How does REST Work?
 
 When you use REST, the client makes an HTTP request to a specific URL, which represents a resource.
 
@@ -158,7 +156,7 @@ With its stateless nature and reliance on web standards, REST is ideal for build
 
 ## GraphQL
 
-GraphQL is an open-source architectural style and query language for APIs. It's a runtime for executing queries by using a type system you define for your data.
+GraphQL is an open source architectural style and query language for APIs. It is a runtime for executing queries by using a type system you define for your data.
 
 GraphQL was developed by Meta (Facebook) and provides a more flexible and efficient alternative to REST. It allows clients to request exactly the data they need and nothing more. This reduces the amount of data transferred over the network.
 

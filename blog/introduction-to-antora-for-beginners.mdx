@@ -17,15 +17,15 @@ AsciiDoc is a lightweight markup language for creating notes, articles, books, a
 
 This guide walks you through building a documentation site with Antora and AsciiDoc, including exporting to PDF, HTML, and other formats.
 
-## **1. Install Antora**
+## 1. Install Antora
 
 First, make sure you have [**Node.js**](https://nodejs.org/) installed on your system. Then, follow these steps:
 
-1. Create a new directory for your documentation project.
+a. Create a new directory for your documentation project.
 
-2. Open a terminal and navigate to the project directory.
+b. Open a terminal and navigate to the project directory.
 
-3. Run the following command to install Antora:
+c. Run the following command to install Antora:
 
 ```
    node -e "fs.writeFileSync('package.json', '{}')" && npm i -D -E @antora/cli@3.1 @antora/site-generator@3.1
@@ -41,13 +41,13 @@ To verify that Antora is installed, run the following command:
 
 If you encounter any issues during the installation, refer to the [official installation guide](https://docs.antora.org/antora/latest/install-and-run-quickstart/).
 
-## **2. Set Up Your Documentation Content**
+## 2. Set Up Your Documentation Content
 
-1. Create an **Antora playbook file** (e.g., `antora-playbook.yml`) in your project directory. This file defines the structure of your documentation.
+a. Create an **Antora playbook file** (e.g., `antora-playbook.yml`) in your project directory. This file defines the structure of your documentation.
 
-2. Specify the **content sources** (e.g., Git repositories, local directories) where your documentation files reside.
+b. Specify the **content sources** (e.g., Git repositories, local directories) where your documentation files reside.
 
-3. Define the **UI bundle** (e.g., a theme) that Antora will use to generate your site.
+c. Define the **UI bundle** (e.g., a theme) that Antora will use to generate your site.
 
 :::tip 
 Playbook configuration
@@ -57,11 +57,11 @@ A playbook is a configuration file that tells Antora where to find the content a
 
 :::
 
-To create a playbook, follow these steps:
+**To create a playbook, follow these steps:**
 
-1. Using your preferred text editor or IDE, create a new file.
+a. Using your preferred text editor or IDE, create a new file.
 
-2. Populate the file with the configuration information provided below.
+b. Populate the file with the configuration information provided below:
 
 ```{1-13} showLineNumbers
     site:
@@ -79,10 +79,9 @@ To create a playbook, follow these steps:
         url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
         snapshot: true
 ```
+_**This playbook file will create a site using the [Antora demo repositories](https://gitlab.com/antora/demo)**_
 
-This playbook file will create a site using the [Antora demo repositories](https://gitlab.com/antora/demo).
-
-Save the file as `antora-playbook.yml` in the root folder.
+c. Save the file as `antora-playbook.yml` in the root folder.
 
 - **Site**: Contains the documentation site’s title and start page.
 - **Content**: Specifies content repository locations.
@@ -93,11 +92,11 @@ Save the file as `antora-playbook.yml` in the root folder.
 - **Bundle**: UI bundle URL.
 - **Snapshot**: Determines whether to use the UI bundle as a snapshot.
 
-## **3. Generate Your Documentation Site**
+## 3. Generate Your Documentation Site
 
-1. In the terminal, navigate to your project directory.
+a. In the terminal, navigate to your project directory.
 
-2. Run the following command to generate your site in the root folder:
+b. Run the following command to generate your site in the root folder:
 
 ```
     npx antora generate antora-playbook.yml
@@ -114,9 +113,9 @@ Site generation complete!
 :::
 
 
-Open `file:///Users/wisdomnwokocha/Desktop/Doctest/build/site/index.html` in a browser to view your site.
+c. Open `file:///Users/wisdomnwokocha/Desktop/Doctest/build/site/index.html` in a browser to view your site.
 
-Copy the URL and open the `index.html` file in your browser to see the result.
+d. Copy the URL and open the `index.html` file in your browser to see the result.
 
 ![Welcome to Antora](./img/antora-demo.png)
 _**Figure 2**. Antora generated site welcome page_ 
@@ -141,7 +140,7 @@ Congratulations!
 
 You’ve successfully built your first site with Antora.
 
-## **Basic Syntax**
+### 3.1. AsciiDoc Basic Syntax
 
 Now that you’ve created a documentation site, it’s time to learn how to create content using AsciiDoc.
 
@@ -185,17 +184,12 @@ To learn more about the syntax, refer to the [AsciiDoctor Quick Syntax Reference
 
 ## 4. Export as PDF, HTML, DocBook
 
-You can export your AsciiDoc documents to PDF, HTML, and DocBook formats.
+You can export your AsciiDoc documents to PDF, HTML, and DocBook formats. An easy way to export your documents is to use the AsciiDoc extension for Visual Studio Code.
 
-An easy way to export your documents is to use the AsciiDoc extension for Visual Studio Code.
-
-**AsciiDoc Extension for VSCode**
 To use the AsciiDoc extension for Visual Studio Code, you need to install it from the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=asciidoctor.asciidoctor-vscode).
 
 :::tip 
 Make sure the extension you install is published by AsciiDoctor.
-
-
 :::
 
 
@@ -206,20 +200,19 @@ _**Figure 3.** AsciiDoc extension for VS Code_
 
 After installation, ensure the extension is enabled in your Visual Studio Code settings.
 
-**Export as PDF**
-To export your AsciiDoc document as a PDF, follow these steps:
+a. **Export as PDF:** To export your AsciiDoc document as a PDF, follow these steps
 
-1. Open the command palette using the following command:
+i. Open the command palette using the following command:
    ctrl+shift+p // On Windows. Alternatively, use F1.
    cmd+shift+p // On Mac
 
-2. Select `AsciiDoc: Export document as PDF`.
+ii. Select `AsciiDoc: Export document as PDF`.
 
    ![Export document as PDF](./img/export-as-doc.png)
 
    _**Figure 4.** How to export AsciiDoc document as PDF_
 
-3. The AsciiDoc extension will prompt you to select the PDF's desired file name and location.
+iii. The AsciiDoc extension will prompt you to select the PDF's desired file name and location.
 
  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5378239849378753"
        crossorigin="anonymous">
@@ -239,17 +232,16 @@ To export your AsciiDoc document as a PDF, follow these steps:
 
 
 
-**Save as HTML**
-To generate HTML from your AsciiDoc file, follow the steps below:
+b. **Save as HTML:** To generate HTML from your AsciiDoc file, follow the steps below:
 
-1. Open the command palette.
+i. Open the command palette.
 
-2. Select `AsciiDoc: Save HTML document`.
+ii. Select `AsciiDoc: Save HTML document`.
   ![Save document as HTML](./img/save-html-doc.png)
 
    _**Figure 5.** How to save AsciiDoc file as HTML document_
 
-3. The file is generated in the same folder as the source document.
+iii. The file is generated in the same folder as the source document.
 
 To quickly do this, use the shortcut keys below:
 
@@ -258,20 +250,19 @@ To quickly do this, use the shortcut keys below:
      cmd+alt+s \\ On Mac
 ```
 
-**Save to DocBook**
-DocBook is another type of markup language used in technical documentation.
+c. **Save to DocBook:** DocBook is another type of markup language used in technical documentation.
 
 To save your AsciiDoc file to DocBook, follow the steps below:
 
-1. From the command palette.
+i. From the command palette.
 
-2. Select `AsciiDoc: Save to DocBook`.
+ii. Select `AsciiDoc: Save to DocBook`.
 
   ![Save document to DocBook](./img/save-docbook.png)
 
   _**Figure 6.** How to save document to DocBook_
 
-3. The file is generated in the same folder as the source document.
+iii. The file is generated in the same folder as the source document.
 
 :::tip 
 Only DocBook 5 is supported
@@ -280,13 +271,13 @@ Only DocBook 5 is supported
 
 ## 5. Customize Your Playbook and Publish Antora on GitHub
 
-- Create a `/docs` in the root folder of your project.
+* Create a `/docs` in the root folder of your project.
 
-- Copy the content from the [GitHub repository’s](https://github.com/wise4rmgod/antora) `docs` folder into your own.
+* Copy the content from the [GitHub repository’s](https://github.com/wise4rmgod/antora) `docs` folder into your own.
 
-- Modify the content as needed.
+* Modify the content as needed.
 
-**Work Offline:**
+a. **Work Offline**
 
 - Run the following command to generate your site using the modified playbook:
 
@@ -294,7 +285,7 @@ Only DocBook 5 is supported
     npx antora antora-playbook.yml
 ```
 
-**Update Your Playbook:**
+b. **Update Your Playbook**
 
 - Edit your playbook (`antora-playbook.yml`) with the following configurations:
 
@@ -320,9 +311,11 @@ Only DocBook 5 is supported
 - Configure GitHub Pages for your repo[Link to do this on Github].
 - Use the following Git Action workflow to deploy your Antora page to GitHub Pages:
 
-> Ensure you have enabled your repository's GitHub Pages by creating a gh-pages branch.
-
-   #  Simple workflow for deploying static content to GitHub Pages
+:::tip 
+Ensure you have enabled your repository's GitHub Pages by creating a gh-pages branch.
+:::
+  
+_**Simple workflow for deploying static content to GitHub Pages:**_
     
 
 ```
@@ -367,19 +360,19 @@ Only DocBook 5 is supported
               publish_dir: ./build/site # Update this to match your Antora output directory
 ```
 
-**To Publish Your Changes:**
+c. **To Publish Your Changes**
 
-1. **Make Edits**: Update your documentation files as needed.
+* **Make Edits**: Update your documentation files as needed.
 
-2. **Commit**: Commit your changes to Git.
+* **Commit**: Commit your changes to Git.
 
-3. **Push to GitHub**: Always push your changes to GitHub.
+* **Push to GitHub**: Always push your changes to GitHub.
 
-4. **Live Updates**: Your updated content will be live once it’s pushed to the repository.
+* **Live Updates**: Your updated content will be live once it’s pushed to the repository.
 
-## 6. Azure DevOps Pipeline for Publishing Antora Page to AzureStaticWeb:
+## 6. Azure DevOps Pipeline for Publishing Antora Page to AzureStaticWeb
 
-**Follow the Same Process as GitHub**:
+a. **Follow the Same Process as GitHub**
 
 - Just like you did for GitHub, follow a similar process for AzureStaticWebApp.
 - Make sure your documentation is ready and committed in your repository.
@@ -402,7 +395,7 @@ Only DocBook 5 is supported
 
 
 
-**Create an Azure Pages Workflow**:
+b. **Create an Azure Pages Workflow**
 
 - Set up a workflow file (e.g., `azure-pages.yml`) in your repository.
 - This workflow will deploy your Antora page to AzureStaticWebApp.

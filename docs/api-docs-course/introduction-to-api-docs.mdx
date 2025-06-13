@@ -27,7 +27,7 @@ Many back-end developers struggle with writing detailed API documentation since 
 ## What is API Documentation?
 
 ![What is API documentation](./img/what-is-api-docs.jpeg)
-_Figure 1: What is API documentation_
+_**Fig.1**: What is API documentation_
 
 API stands for application programming interface. API documentation is a form of [developer documentation](https://judy.hashnode.dev/what-is-developer-documentation-for-technical-writers#heading-types-of-developer-documentation). It is a detailed content, guide, manual, or reference to convey information to developers or the general public on integrating APIs into their applications.
 
@@ -51,14 +51,14 @@ This reduces development time and enhances overall productivity. API documentati
 
 - By taking over the documentation role, technical writers let developers do what they do best: writing code and improving the API.
 
-## How do APIs Work?
+## How Do APIs Work?
 
 API acts as a middleman that allows different software applications to communicate and exchange data. This communication occurs in a request-response cycle. The players during this cycle are the client and server. The client could be a browser, mobile application, or web application, while the server is the backend where the business and application logic is written.
 
 Where does the API come in? The API mediates between client and server by sending requests and returning responses.
 
 ![How API works](./img/how-api-works.png)
-_Figure 2: How API works_
+_**Fig.2**: How API works_
 
 Using the analogy of a Dinner Reservation in a restaurant, **Joe (Client)** has a dinner reservation for three and would like to change it to six. Joe calls **customer service (API)** to place a request. The customer service person forwards the request to the **restaurant management (Server).** Restaurant Management provides food and services to the clients.
 
@@ -91,12 +91,39 @@ API types can be categorized by access and function.
 
 - **Web APIs**: Web APIs are designed for use over the web. They use communication protocols like HTTP to allow applications to communicate and transmit data over a network. The most common type of API is web APIs, which power various applications such as social media apps, e-commerce websites, and mobile apps. They represent and transmit data in multiple formats, including JSON (JavaScript Object Notation) and XML (Extensible Markup Language).
 
+import Quiz from '@site/src/components/Quiz';
+
+<Quiz
+  questions={[
+    {
+      text: 'An API documentation must contain the following:',
+      options: [
+        { value: '1', label: 'Endpoint expiration, call and response, and error messages' },
+        { value: '2', label: 'Endpoint descriptions, request and response examples, and error messages' },
+        { value: '3', label: 'Endpoint updates, status codes, and error messages.' }
+      ],
+      correct: '2'
+    },
+    {
+      text: 'What communication protocol is used to make API calls to the server?',
+      options: [
+        { value: '1', label: 'Simple Mail Transfer Protocol' },
+        { value: '2', label: 'File Transfer Protocol' },
+        { value: '3', label: 'Hypertext Transfer Protocol (HTTP)' }
+      ],
+      correct: '3'
+    }
+  ]}
+/>
+
+
+
 ## Examples of API Documentation
 
 ### 1. [**Pay Stack API Documentation**](https://paystack.com/docs/api/)
 
 ![Paystack API](./img/paystack.png)
-_Figure 3: Paystack API_
+_**Fig.3**: Paystack API_
 
 Paystack provides a comprehensive API reference to assist developers and other users in integrating the API into their applications. This documentation incorporates the essential information every API documentation should have, well structured and easy to navigate. For example,
 
@@ -112,7 +139,7 @@ It offers a solid framework for handling transactions, customers, subscriptions,
 ### 2. [**Paypal API Documentation**](https://developer.paypal.com/api/rest/)
 
 ![PayPal API](./img/paypal.png)
-_Figure 4: PayPal API_
+_**Fig.4**: PayPal API_
 
 The Paypal API documentation provides a well-structured interface for easy navigation. Its search function makes it easy for developers to find specific pages. The documentation is straightforward and easy to understand, so new users can easily find what they are looking for without feeling overwhelmed.
 
@@ -135,7 +162,7 @@ You will need a [PayPal Business account](https://www.paypal.com/business/open-b
 ### 3. [**The Movie Database API Documentation (TMDB)**](https://developer.themoviedb.org/reference/intro/getting-started)
 
 ![The Movie Database API](./img/tdmb.png)
-_Figure 5: The Movie Database API_
+_**Fig.5**: The Movie Database API_
 
 The TDMB API documentation caters to both new and experienced developers. The user interface is easy to navigate with well structured content. It provides comprehensive information on authentication methods, endpoint descriptions, request and response examples, an interactive interface for testing API, versioning, and guides for getting started.
 
@@ -146,7 +173,7 @@ This API is free. All you need to do is [sign up](https://www.themoviedb.org/sig
 ### 4. [**Spotify Web API Documentation**](https://developer.spotify.com/documentation/web-api)
 
 ![Spotify API](./img/spotify.png)
-_Figure 6: Spotify API_
+_**Fig.6**: Spotify API_
 
 The Spotify API documentation stands out with its interactive interface for testing the API. It is well-organized into sections for easy navigation and offers detailed and logically presented information.
 

@@ -5,19 +5,28 @@ description: It covers best tips and practices to help you create clear and easy
 summary: This detailed guide covers how to write quality markdown documents easier and faster. You will also find the top markdown tools to create markdown files seamlessly.
 date: 2024-05-31
 sidebar_position: 5
-keywords: ["markdown best practices", "markdown tips", "markdown tools", "markdown style guide", "markdown formatting tips"]
+keywords:
+  [
+    "markdown best practices",
+    "markdown tips",
+    "markdown tools",
+    "markdown style guide",
+    "markdown formatting tips",
+  ]
 ---
+
 You have covered some of the basic syntax in Markdown in the previous lessons; your lesson won't be over until you see some of the advanced or extended syntax in Markdown.
 
 In this section, you'll look at Markdown's advanced syntax and formatting. So, stay sharp; there's more to uncover as you explore the advanced layers of syntax and formatting.
 
-**What you'll Cover in This Lesson:**
+:::tip
+**What you'll cover in this Lesson:**
 
 - Advanced Syntax and Formatting in Markdown.
 - Linking and Organization.
 - Structuring and managing markdown files.
-
-Now that you have an overview of what you will cover, let's get started.
+  :::
+  Now that you have an overview of what you will cover, let's get started.
 
 ## Tables
 
@@ -33,16 +42,16 @@ Tables are made up of cells in rows and columns, and you can keep adding more ro
 
 Imagine it this way⬇️
 
-![](https://paper-attachments.dropboxusercontent.com/s_BFB988F13D88AEFF61C8D50AC74C88DBC31D9E127606DC374813CDC68CEE7924_1724250248411_image.png)
+![](img/tableImage.png)
 
 **Creating Multiple Rows:**  
 To add multiple rows, use a dashed line separator and additional rows below
 
-``` markdown showLineNumbers{1-4}
-|  |
-|--|
-|  |
-|  |
+```markdown showLineNumbers{1-4}
+|     |
+| --- |
+|     |
+|     |
 ```
 
 The output of the syntax above would give you three rows.
@@ -52,12 +61,11 @@ Create headers for each column using three or more hyphens (---).
 
 Let’s apply everything you have learned above to create a table.
 
-``` markdown showLineNumbers{1-4}
-  | Header 1 | Header 2 | Header 3 |
-  |----------|----------|----------|
-  | Cell 1   | Cell 2   | Cell 3   |
-  | Cell 4   | Cell 5   | Cell 6   |
-
+```markdown showLineNumbers{1-4}
+| Header 1 | Header 2 | Header 3 |
+| -------- | -------- | -------- |
+| Cell 1   | Cell 2   | Cell 3   |
+| Cell 4   | Cell 5   | Cell 6   |
 ```
 
 **Output:** ⬇️
@@ -75,12 +83,11 @@ Let’s apply everything you have learned above to create a table.
 
 Cell widths may vary, as seen below :
 
-``` markdown showLineNumbers{1-5}
-  | Header 1 | Header 2 | Header 3 |
-  |--|----|----|
-  | Cell 1    | Cell 2   | Cell 3   |
-  | Cell 4| Cell 5 | Cell 6  |
-
+```markdown showLineNumbers{1-5}
+| Header 1 | Header 2 | Header 3 |
+| -------- | -------- | -------- |
+| Cell 1   | Cell 2   | Cell 3   |
+| Cell 4   | Cell 5   | Cell 6   |
 ```
 
 The output would be the same.
@@ -95,13 +102,13 @@ To align text to the left, center, or right in the table cells, you add colons (
 
 Example:
 
-``` markdown showLineNumbers{1-6}
-  |Car Models| Brands |Country|
-  |:----------|:--------:|------:|
-  |Accord Hybrid|Honda|Japan  |
-  |    Mustang  |Ford |   USA |
-  |      X5     | BMW |Germany|
-  |   Wrangler  | Jeep|  USA  |
+```markdown showLineNumbers{1-6}
+| Car Models    | Brands | Country |
+| :------------ | :----: | ------: |
+| Accord Hybrid | Honda  |   Japan |
+| Mustang       |  Ford  |     USA |
+| X5            |  BMW   | Germany |
+| Wrangler      |  Jeep  |     USA |
 ```
 
 The output would look like: ⬇️
@@ -120,7 +127,7 @@ The output would look like: ⬇️
 </details>
 
 :::note
-  The markdown renderer determines how to format the data when alignment is either absent or only suggested. The common default alignment is to the left.
+The markdown renderer determines how to format the data when alignment is either absent or only suggested. The common default alignment is to the left.
 
 :::
 
@@ -128,10 +135,10 @@ The output would look like: ⬇️
 
 Some Markdown editors or renderers allow you to omit the pipe symbol at the sides of the table:
 
-``` markdown showLineNumbers{1-3}
-  Take |this|table
-  -----|----|---
-  for | an |example
+```markdown showLineNumbers{1-3}
+| Take | this | table   |
+| ---- | ---- | ------- |
+| for  | an   | example |
 ```
 
 Even in this scenario, the output would still be displayed as:
@@ -144,6 +151,7 @@ Even in this scenario, the output would still be displayed as:
       | for  | an   | example |
 
     </p>
+
 </details>
 
 #### Formatting Text in Tables
@@ -162,7 +170,7 @@ However, it does not support certain formatting syntax, such as:
 
 To include special characters like the pipe ( `|` ) in table cells, use backslash ( `\|` ) or HTML character codes ( `&#124;` ).
 
-``` markdown showLineNumbers{1-5}
+```markdown showLineNumbers{1-5}
 | Header 1      | Header 2            |
 | ------------- | ------------------- |
 | Data1         | Data2               |
@@ -194,7 +202,6 @@ Table generators can be very useful for creating large and complex tables as it 
 3. [Ascii Table Generator:](https://ozh.github.io/ascii-tables/) Here, you can create ASCII-styled tables that can be used in Markdown format.
 4. [Table to Markdown:](https://tabletomarkdown.com/) This tool can convert HTML tables to Markdown format.
 
----
 
 ## Code Blocks
 
@@ -205,25 +212,29 @@ You can create code blocks in different ways in markdown.
 
 To create an inline code block, use backticks (`) around the code. This is useful for creating short code snippets within a sentence just like in the example below.
 
-``` markdown showLineNumbers{1-1}
-  To print "Hello, World!" in Python, use the command `print("Hello, World!")`.
+```markdown showLineNumbers{1-1}
+To print "Hello, World!" in Python, use the command `print("Hello, World!")`.
 ```
 
 **Output:**
- <details>
-    <summary> Preview</summary>
-    <p>
-        To print "Hello, World!" in Python, use the command `print("Hello, World!")`.
-    </p>
- </details>
 
- #### Fenced Code Block
+{" "}
+
+<details>
+  <summary> Preview</summary>
+  <p>
+    To print "Hello, World!" in Python, use the command `print("Hello,
+    World!")`.
+  </p>
+</details>
+
+#### Fenced Code Block
 
 This is also known as a multi-line code block; it is used to create code blocks without indenting. To create this, use three backticks **(```)** before and after the code block.
 
 **Example:**
 
-```` markdown showLineNumbers {1-6}
+````markdown showLineNumbers {1-6}
 ```
   {
     'firstName':'James';
@@ -249,19 +260,24 @@ This is also known as a multi-line code block; it is used to create code blocks 
 </details>
 
 > To improve readability, add a blank line before and after code blocks.
-To display triple backticks in a fenced code block, you can wrap them inside four backticks(````)
 
-```` markdown showLineNumbers {1-9}
-  ````
-    ```
+> To display triple backticks in a fenced code block, you can wrap them inside four backticks(````)
+
+```
+
+```
+
+    ```markdown showLineNumbers {1-5}
       {
         'firstName':'James';
         'lastName':'jakes';
         'age': 30;
       }
     ```
-  ````
-`````
+
+```
+
+```
 
 **Output:**
 
@@ -282,14 +298,13 @@ To display triple backticks in a fenced code block, you can wrap them inside fou
 
 > you'll notice that the code block is wrapped in three backticks
 
-
 #### Indented Code Block
 
 you can also create a code block by indenting each line with four spaces or a tab.
 
 **Example:**
 
-``` markdown showLineNumbers{1-4}
+```markdown showLineNumbers{1-4}
 [tab] <Html>
 [tab] <Html>
 [tab] <Html>
@@ -309,7 +324,9 @@ Because of the tab before each line, it would be rendered as a code block withou
     <p>&lt;Html&gt;</p>
   </div>
 </details>
-> Note: if you don't put spaces before the code. The code will not be rendered; you’ll get a black space.
+
+> Note: if you don't put spaces before the code. The code will not be rendered; you’ll
+get a black space.
 
 ## Syntax Highlighting
 
@@ -318,7 +335,7 @@ When adding syntax highlighting, specify the programming language next to the ba
 
 **Example:**
 
-```` markdown showLineNumbers{1-9}
+````markdown showLineNumbers{1-9}
 ```javascript
 function greet(name) {
   if (name) {
@@ -346,6 +363,7 @@ The rendered output would be:
        ```
 
      </p>
+
 </details>
 And this is it without syntax highlighting
 <details>
@@ -373,10 +391,11 @@ Highlighting a text emphasizes a word. To highlight in Markdown, put the text be
 &nbsp;&nbsp;&nbsp;&nbsp;`This ==text== is ==highlighted.==`
 
 **Output**
+
 <details>
   <summary> Preview </summary>
-  <p> This <mark>text</mark> is <mark>highlighted</mark>.</p>
-  > 📝Note: There should be no space between the equal signs and text; otherwise, the equal signs will be treated as text
+  <p>This <mark>text</mark> is <mark>highlighted</mark>.</p> 📝Note: There should be no space between the equal signs and text; otherwise,
+  the equal signs will be treated as text
 </details>
 
 Not all markdown processors support Highlight, but if your markdown editor supports HTML, you can use the `<mark>` HTML tag.
@@ -401,6 +420,7 @@ In Markdown, you can create a heading with a custom ID by using curly braces `{}
       ## My Heading
 
      With this, the heading "My Heading" above has the ID "custom-id."
+
   </p>
 </details>
 
@@ -408,11 +428,11 @@ In Markdown, you can create a heading with a custom ID by using curly braces `{}
 
 Once a heading has an ID, you can create a link that jumps to that heading within the same document.
 
-    [Go to Custom Section](#custom-id)
+    [Go to Code blocks Section](#code-blocks)
 
 **Rendered:**  
-&nbsp;&nbsp;&nbsp;&nbsp;[Go to Custom Section](#custom-id)  
-When you click this link, it will take you directly to the heading you created earlier with the ID `custom-id`.
+&nbsp;&nbsp;&nbsp;&nbsp;[Go to Code blocks Section](#code-blocks)  
+When you click this link, it will take you directly to the heading you created earlier with the ID `code blocks`.
 
 This allows you to create internal links within your Markdown document, directing readers to specific sections.
 
@@ -420,17 +440,21 @@ This allows you to create internal links within your Markdown document, directin
 
 You can add IDs to multiple headings throughout your document for easy navigation.
 
-``` markdown showLineNumbers{1-4}
+```markdown showLineNumbers{1-4}
 ## Table of content
-  ### Introduction {#introduction}
-  ### Features {#features}
-  ### Conclusion {#conclusion}
+
+### Introduction {#introduction}
+
+### Features {#features}
+
+### Conclusion {#conclusion}
 ```
 
 You can create links to these sections like this:
 
-``` markdown showLineNumbers{1-5}
+```markdown showLineNumbers{1-5}
 ## Table of content
+
 - [Introduction](#introduction)
 - [Features](#features)
 - [Conclusion](#conclusion)
@@ -446,6 +470,7 @@ This is what you’ll get as your output
     - [Introduction](#introduction)
     - [Features](#features)
     - [Conclusion](#conclusion)
+
    </p>
 </details>
 
@@ -478,9 +503,7 @@ This is displayed as
 
 <details>
   <summary> Preview</summary>
-  <p> 
-    [This is an external link to Google ](https://google.com/)
-  </p>
+  <p>[This is an external link to Google ](https://google.com/)</p>
 </details>
 
 ## Task Lists
@@ -493,7 +516,7 @@ Insert Checkbox Syntax: an incomplete task is square brackets with a space ([ ])
 
 - **Incomplete Task**
 
-``` markdown showLineNumbers{1-3}
+```markdown showLineNumbers{1-3}
 - [ ] Task 1
 - [ ] Task 2
 - [ ] Task 3
@@ -502,21 +525,18 @@ Insert Checkbox Syntax: an incomplete task is square brackets with a space ([ ])
 **Output:**
 
 <details>
-   <summary> Preview </summary>
-    <p>
-      - [ ] Task 1
-      - [ ] Task 2
-      - [ ] Task 3
-    </p>
+  <summary> Preview </summary>
+  <p>- [ ] Task 1 - [ ] Task 2 - [ ] Task 3</p>
 </details>
 
 - **Completed Task**
 
-``` markdown showLineNumbers{1-3}
-  - [x] Task 1
-  - [x] Task 2
-  - [x] Task 3
+```markdown showLineNumbers{1-3}
+- [x] Task 1
+- [x] Task 2
+- [x] Task 3
 ```
+
 <details>
    <summary> Preview </summary>
     <p>
@@ -539,16 +559,16 @@ Keep in mind that not all Markdown processors render definition lists. You will 
 
 **Example:**
 
-``` markdown showLineNumbers{1-9}
-  First Term
-  : This is the definition of the first term
+```markdown showLineNumbers{1-9}
+First Term
+: This is the definition of the first term
 
-  Second Term
-  : This is the definition of the second term
+Second Term
+: This is the definition of the second term
 
-  Third Term
-  : This is the definition of the third term
-  : This is another definition of the third term.
+Third Term
+: This is the definition of the third term
+: This is another definition of the third term.
 ```
 
 > Note: Ensure that there is a space between the colon and the definition
@@ -566,7 +586,6 @@ Keep in mind that not all Markdown processors render definition lists. You will 
 
      Third Term
       : This is the definition of the third term
-       : This is another definition of the third term.
 
   </p>
 </details>
@@ -595,7 +614,7 @@ The output of all three methods is the same.
 
 **Example:**
 
-``` markdown showLineNumbers{1-7}
+```markdown showLineNumbers{1-7}
     ***
     with three asterisk
     ---
@@ -605,6 +624,7 @@ The output of all three methods is the same.
 ```
 
 **Output:**
+
 <details>
   <summary> Preview </summary>
   <p> 
@@ -628,12 +648,17 @@ An alternative option is to use the HTML tag `<sup>..<sup>,` which is more popul
 `Y = X^2^`
 
 **Output:**
+
 <details>
   <summary> Preview </summary>
-  <p> Y = X<sup>2</sup></p>
+  <p>
+    {" "}
+    Y = X<sup>2</sup>
+  </p>
 </details>
 
 With the HTML tag, it would be `y = x<sup>2<sup>,` and it will display the same output as above.
+
 ## Subscript
 
 Similar to superscripts, not all markdown processors support subscripts. you use a tilde symbol (~) before and after a character to create a superscript.
@@ -646,10 +671,14 @@ Similar to superscripts, not all markdown processors support subscripts. you use
 
 <details>
   <summary> Preview </summary>
-  <p> Y = X<sub>2</sub></p>
+  <p>
+    {" "}
+    Y = X<sub>2</sub>
+  </p>
 </details>
 
 With the HTML tag, it would be `y = x<sub>2<sub>,` and it will display the same output above.
+
 ## Emoji
 
 Emojis give your Markdown documents a fun and expressive touch. You can use them to set the tone, point out key ideas, or make your content more engaging. Adding emojis to Markdown is easy.  
@@ -660,8 +689,9 @@ Copying and pasting from sources like [Emojipedia](https://emojipedia.org/)
 **For example**  
 Copying and pasting 🔧 directly into your Markdown document is as simple as:
 
-  Here's how you can fix the issue: 🔧
+Here's how you can fix the issue: 🔧
 **Output:**
+
 <details>
   <summary> Preview </summary>
   <p> Here's how you can fix the issue: 🔧</p>
@@ -702,13 +732,14 @@ For larger, standalone mathematical expressions, use double dollar signs ($$) to
 
 **Example:**
 
-```  markdown showLineNumbers{1-6}
+```markdown showLineNumbers{1-6}
     The quadratic formula:
 
     $$
     x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
     $$
 ```
+
 ## Footnotes
 
 Footnotes allow you to add notes and reference them while keeping your content organized and not disrupting the reader's flow. When creating footnotes in Markdown, the process is straightforward.
@@ -721,19 +752,21 @@ Readers can click the link to jump to the content of the footnote at the bottom 
 
 **Examples:**
 
-``` markdown showLineNumbers{1-4}
-  This is a footnote[^1]and this too is another footnote[^2]
-  [^1]: This is the reference to the foot note
-  [^2]: This is another reference 
+```markdown showLineNumbers{1-4}
+This is a footnote[^1]and this too is another footnote[^2]
+[^1]: This is the reference to the foot note
+[^2]: This is another reference
 ```
 
 The output will look like this:
+
 <details>
   <summary>Preview</summary>
 
-  This is a footnote[^1] and this too is another footnote[^2].
-  [^1]: This is the reference to the first footnote.
-  [^2]: This is the reference to the second footnote.
+This is a footnote[^1] and this too is another footnote[^2].
+[^1]: This is the reference to the first footnote.
+[^2]: This is the reference to the second footnote.
+
 </details>
 
 The footnotes will be displayed at the bottom of the page, allowing us to easily access them by scrolling or clicking on the specific footnote.
@@ -741,24 +774,22 @@ The footnotes will be displayed at the bottom of the page, allowing us to easily
 Here is another example using a word as a footnote identifier:
 
 ```markdown showLineNumbers
+Regular exercise is known to boost overall health, including improving mood and energy levels[^1].
+Even just a short daily walk can make a big difference[^bignote].
 
-  Regular exercise is known to boost overall health, including improving mood and energy levels[^1].
-  Even just a short daily walk can make a big difference[^bignote].
- 
-  [^1]:Example: Exercise releases endorphins, which are natural mood lifters.
-  [^bignote]: A 30-minute walk each day can improve cardiovascular health. It’s a simple habit that can also help with weight management, reduce stress, and increase overall fitness. Even if you have a busy schedule, fitting in a quick walk can lead to significant long-term benefits
+[^1]: Example: Exercise releases endorphins, which are natural mood lifters.
+[^bignote]: A 30-minute walk each day can improve cardiovascular health. It’s a simple habit that can also help with weight management, reduce stress, and increase overall fitness. Even if you have a busy schedule, fitting in a quick walk can lead to significant long-term benefits
 ```
+
 The output will look like this
 
 <details>
   <summary>Preview</summary>
 
-  Regular exercise is known to boost overall health, including improving mood and energy levels[^1].
-  Even just a short daily walk can make a big difference[^bignote].
- 
-  [^1]:Example: Exercise releases endorphins, which are natural mood lifters.
-  [^bignote]: A 30-minute walk each day can improve cardiovascular health. It’s a simple habit that can also help with weight management, reduce stress, and increase overall fitness. Even if you have a busy schedule, fitting in a quick walk can lead to significant long-term benefits
+Regular exercise is known to boost overall health, including improving mood and energy levels[^1].
+Even just a short daily walk can make a big difference[^bignote].
+
+[^1]: Example: Exercise releases endorphins, which are natural mood lifters.
+[^bignote]: A 30-minute walk each day can improve cardiovascular health. It’s a simple habit that can also help with weight management, reduce stress, and increase overall fitness. Even if you have a busy schedule, fitting in a quick walk can lead to significant long-term benefits
 
 </details>
-
-

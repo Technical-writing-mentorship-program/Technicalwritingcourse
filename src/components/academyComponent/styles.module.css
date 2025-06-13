@@ -1,0 +1,33 @@
+.button:hover {
+	background-color: #773dff;
+	transform: scale(1.05);
+}
+
+.courseCard {
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  z-index: 0; /* ensure proper stacking */
+}
+
+.courseCard::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom right, #8A4DFF, #c09cff);
+  opacity: 0;
+  border-radius: 1.5rem;
+  z-index: -1;
+  transition: opacity 0.3s ease;
+}
+
+.courseCard:hover::before {
+  opacity: 0.15; /* adjust intensity of the gradient overlay */
+}
+
+.courseCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+}

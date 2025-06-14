@@ -17,11 +17,11 @@ export default function Quiz({ questions }) {
 
   return (
     <div className="quizContainer alert">
-      <strong><em>Check your knowledge 📘🧠:</em></strong>
+      <strong><em>Check your knowledge:</em></strong>
       <form onSubmit={handleSubmit}>
         {questions.map((q, idx) => (
           <div className="questionContainer" key={idx}>
-            <h3>📌 QUESTION {idx + 1}:</h3>
+            <h3>QUESTION {idx + 1}:</h3>
             <p>{q.text}</p>
             {q.options.map((opt, i) => (
               <label key={i}>
@@ -42,7 +42,7 @@ export default function Quiz({ questions }) {
 
       {score !== null && (
         <p className="resultLabel" style={{ fontWeight: "bold" }}>
-          📊🏁 You scored {score} out of {questions.length}
+          You scored {score} out of {questions.length}
         </p>
       )}
     </div>

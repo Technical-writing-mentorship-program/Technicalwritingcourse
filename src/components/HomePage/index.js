@@ -1,16 +1,26 @@
 import React from "react";
 import styles from "./styles.module.css";
+import { TypeAnimation } from 'react-type-animation';
 
 export default function Homepage() {
   return (
     <>
-      { }
       <section className={styles.heroSection}>
         <div className={styles.container}>
           <div className={styles.content}>
-            <h1 className={styles.title}>
-              WELCOME TO THE TECHNICAL WRITING MENTORSHIP PROGRAM
-            </h1>
+            <div className={styles.titleContainer}>
+              <TypeAnimation
+                sequence={[
+                  'WELCOME TO THE TECHNICAL WRITING MENTORSHIP PROGRAM',
+                  2000,
+                ]}
+                wrapper="h1"
+                speed={50}
+                className={styles.title}
+                repeat={Infinity}
+                cursor={false}
+              />
+            </div>
             <a
               className={styles.button}
               href="https://discord.com/invite/hxydebksg3"
@@ -40,7 +50,7 @@ export default function Homepage() {
               className={styles.image}
             />
           </div>
-          <div className={styles.content}>
+          <div className={styles.aboutContainer}>
             <h1 className={styles.title}>DIRECT MENTORSHIP</h1>
             <p className={styles.subtitle} style={{}}>
               Our Direct Mentorship program is designed to provide personalized guidance and one-on-one support to aspiring or early-career technical writers.

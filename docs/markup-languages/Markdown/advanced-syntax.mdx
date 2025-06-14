@@ -11,7 +11,7 @@ keywords:
     "markdown tips",
     "markdown tools",
     "markdown style guide",
-    "markdown formatting tips",
+    "markdown formatting tips"
   ]
 ---
 
@@ -235,7 +235,7 @@ This is also known as a multi-line code block; it is used to create code blocks 
 
 **Example:**
 
-````markdown showLineNumbers {1-6}
+````markdown showLineNumbers {1-7}
 ```
   {
     'firstName':'James';
@@ -441,7 +441,7 @@ This allows you to create internal links within your Markdown document, directin
 
 You can add IDs to multiple headings throughout your document for easy navigation.
 
-```markdown showLineNumbers{1-4}
+```markdown showLineNumbers{1-7}
 ## Table of content
 
 ### Introduction {#introduction}
@@ -794,3 +794,33 @@ Even just a short daily walk can make a big difference[^bignote].
 [^bignote]: A 30-minute walk each day can improve cardiovascular health. It’s a simple habit that can also help with weight management, reduce stress, and increase overall fitness. Even if you have a busy schedule, fitting in a quick walk can lead to significant long-term benefits
 
 </details>
+
+## Answer the following questions
+
+
+import Quiz from '@site/src/components/Quiz';
+
+<Quiz
+  questions={[
+    {
+      text: 'How do you highlight a text in Markdown?',
+      options: [
+        { value: '1', label: 'Wrap the text in between two equal (==test==) symbols' },
+        { value: '2', label: 'Wrap the text in between two quotes (""test"") symbols' },
+        { value: '3', label: 'Wrap the text in between two asterisks (**test**) symbols' },
+        { value: '4', label: 'Wrap the text in between two underscore (__test__) symbols' }
+      ],
+      correct: '1'
+    },
+    {
+      text: 'Which of the following can used to create a collection of terms and their meanings?',
+      options: [
+        { value: '1', label: 'Unordered lists' },
+        { value: '2', label: 'Indented lists' },
+        { value: '3', label: 'Ordered lists' },
+        { value: '4', label: ' Definition lists' }
+      ],
+      correct: '4'
+    }
+  ]}
+/>

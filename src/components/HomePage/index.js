@@ -18,7 +18,7 @@ export default function Homepage() {
                 speed={50}
                 className={styles.title}
                 repeat={Infinity}
-                cursor={true}
+                cursor={false}
               />
             </div>
             <a

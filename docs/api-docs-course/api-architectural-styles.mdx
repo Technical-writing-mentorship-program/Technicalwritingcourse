@@ -42,12 +42,12 @@ Simple Object Access Protocol (SOAP) is a mature and well-known API architectura
 
 One of SOAP's key features is its support for complex operations and stateful interactions. This means that SOAP can handle more sophisticated interactions than simpler protocols, such as those requiring multiple steps or transactions. However, this complexity also makes SOAP more heavyweight, requiring more resources to parse and process the XML messages.
 
-### How does SOAP work?
+### How Does SOAP Work?
 
 When you use SOAP, you typically send a request from a client to a server. This request is an XML document that contains a structured query or command.
 
 ![A diagram describing how SOAP works](./img/how-soap-works.png)
-_Figure 1: A diagram describing how SOAP works_
+_**Fig.1**: A diagram describing how SOAP works_
 
 The server processes this request and responds with another XML document containing the requested data or the result of the command.
 
@@ -95,7 +95,7 @@ RESTful APIs use standard HTTP methods to perform operations on resources. These
 
 REST is designed to be simple and lightweight, making it easy to use and understand. It leverages the existing capabilities of the web and HTTP, allowing for scalability and flexibility. Unlike SOAP, REST does not have a strict standard, giving developers more freedom in how they design their APIs.
 
-### How does REST Work?
+### How Does REST Work?
 
 When you use REST, the client makes an HTTP request to a specific URL, which represents a resource.
 
@@ -108,7 +108,7 @@ https://example.com/api/v3/users
 From the URL above, the resource is identified by `users`. That means if you query this URL, you'll be accessing a collection of user-related data.
 
 ![A diagram describing how REST works](./img/how-rest-works.png)
-_Figure 2: A diagram describing how REST works_
+_**Fig.2**: A diagram describing how REST works_
 
 The server processes the request and returns an appropriate HTTP response, typically with a status code and the requested data in a standard format like JSON.
 
@@ -162,12 +162,12 @@ GraphQL was developed by Meta (Facebook) and provides a more flexible and effici
 
 With GraphQL, clients can specify the structure of the response, making it possible to retrieve multiple resources in a single request. This reduces the need for multiple API calls and can significantly improve the performance of applications.
 
-### How does GraphQL work?
+### How Does GraphQL Work?
 
 In GraphQL, you interact with a single endpoint, typically `/graphql`. You send a query specifying the exact data you need, and the server responds with the data in the requested format.
 
 ![A diagram describing how GraphQL works](./img/how-graphql-works.png)
-_Figure 3: A diagram describing how GraphQL works_
+_**Fig.3**: A diagram describing how GraphQL works_
 
 GraphQL uses a schema to define the types of data and the relationships between them, ensuring that queries are valid and return predictable results.
 
@@ -225,12 +225,12 @@ Unlike traditional HTTP, where a new connection is established for each request-
 
 WebSockets work by upgrading an HTTP connection to a WebSocket connection using a [handshake process](https://www.linkedin.com/pulse/websocket-handshaking-explained-understanding-key-real-time-saafan). Once the connection is established, data can be sent back and forth without the overhead of HTTP headers.
 
-### How do WebSockets work?
+### How Do WebSockets Work?
 
 When a WebSocket connection is initiated, the client sends an HTTP request to the server requesting an upgrade to the WebSocket protocol.
 
 ![A diagram describing how WebSockets works](./img/how-websockets-works.png)
-_Figure 4: A diagram describing how WebSockets works_
+_**Fig.4**: A diagram describing how WebSockets works_
 
 If the server supports WebSockets, it agrees to the upgrade, and the connection switches from HTTP to WebSocket. From this point, both the client and server can send and receive messages independently of each other.
 
@@ -303,6 +303,31 @@ In the example above:
 
 WebSockets are mostly used in scenarios where real-time communication is critical. Common use cases include live-chat applications and online gaming.
 
+import Quiz from '@site/src/components/Quiz';
+
+<Quiz
+  questions={[
+    {
+      text: 'What message format is used in the SOAP architectural style?',
+      options: [
+        { value: '1', label: 'Extensible Markup Language (XML)' },
+        { value: '2', label: 'Internet Message Format (IMF)' },
+        { value: '3', label: 'JavaScript Object Notation (JSON)' }
+      ],
+      correct: '1'
+    },
+    {
+      text: 'What is the difference between REST and GraphQL architectural style',
+      options: [
+        { value: '1', label: 'REST uses a single endpoint with a fixed data structure, while GraphQL uses multiple endpoints and allows clients to request the exact data they need.' },
+        { value: '2', label: 'REST uses multiple endpoints with a fixed data structure, while GraphQL uses a single endpoint and allows clients to request the exact data they need.' },
+        { value: '3', label: 'REST uses multiple endpoints with different data structures, while GraphQL uses a single endpoint and allows clients to request the exact data they need.' }
+      ],
+      correct: '2'
+    }
+  ]}
+/>
+<br />
 :::tip[Assignment]
 
 1. Review the core principles of the API architectural styles: SOAP, GraphQL, WebSocket, and REST. Summarize each style in 300-500 words.

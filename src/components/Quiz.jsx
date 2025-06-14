@@ -17,7 +17,7 @@ export default function Quiz({ questions }) {
 
   return (
     <div className="quizContainer alert">
-      <strong><em>Check your knowledge:</em></strong>
+      <strong><em>Test your knowledge:</em></strong>
       <form onSubmit={handleSubmit}>
         {questions.map((q, idx) => (
           <div className="questionContainer" key={idx}>

@@ -7,41 +7,27 @@ tags: [Docker, EKS, Kubernetes, AWS, Deployment]
 authors: prince
 ---
 
-<img
-  src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/q6kahlgsssyon3l6amrl.png"
-  alt="Amazon EKS Cover Image"
-/>
+![Amazon EKS Cover Image](./img/dockerized-app.png)
+
 {/* truncate */}
 
 ## Introduction
 
-Containers are a way to package, deploy, and manage applications. [Docker](https://docs.docker.com/get-started/overview/) is a popular open-source containerization platform that allows you to package your application, its OS libraries, and dependencies together into a container image.
+Containers are a way to package, deploy, and manage applications. [Docker](https://docs.docker.com/get-started/overview/) is a popular open source containerization platform that allows you to package your application, its operating system (OS) libraries, and dependencies together into a container image. This container image can run on any system regardless of the underlying OS.
 
-This container image can be run on any system regardless of the underlying OS.
+Usually, companies could have very few containers, which can be easily managed. However, with companies rapidly adopting containers, several containers can be managed. This is where container orchestration platforms come in. [Kubernetes](https://kubernetes.io/docs/concepts/overview/) is an open-source container orchestration platform that automates containerized applications' deployment, scaling, and management.
 
-Usually, companies could have very few containers, which can be easily managed. However, with companies rapidly adopting containers, several containers can be managed.
+When setting up a Kubernetes cluster, you have to create and manage the Kubernetes control plane and the worker nodes. These individual tasks can become complicated because of the complexity of the Kubernetes architecture.
 
-This is where container orchestration platforms come in. [Kubernetes](https://kubernetes.io/docs/concepts/overview/) is an open-source container orchestration platform that automates containerized applications' deployment, scaling, and management.
+For this reason, most companies rely on managed Kubernetes services that abstract the complexity of managing the Kubernetes control plane while still providing the flexibility to manage the worker nodes. AWS provides a managed Kubernetes service called Elastic Kubernetes Service (EKS), and you'll learn how to deploy your containerized application to it in this tutorial.
 
-When setting up a Kubernetes cluster, you have to create and manage the Kubernetes control plane and the worker nodes.
-
-These individual tasks can become complicated because of the complexity of the Kubernetes architecture.
-
-For this reason, most companies rely on managed Kubernetes services that abstract the complexity of managing the Kubernetes control plane while still providing the flexibility to manage the worker nodes.
-
-AWS provides a managed Kubernetes service called Elastic Kubernetes Service (EKS), and you'll learn how to deploy your containerized application to it in this tutorial.
-
-Ultimately, you'll understand why major companies adopt managed Kubernetes services, especially Amazon EKS.
+In this article, you'll understand why major companies adopt managed Kubernetes services, especially Amazon EKS.
 
 ## Why EKS?
 
-[Amazon EKS](https://aws.amazon.com/pm/eks/?gclid=CjwKCAiArfauBhApEiwAeoB7qMdCQdwq0XYNFlGNq1ULapznpksvaaTH6vH5T6fWylGsKSE46UBWWxoCToIQAvD_BwE&trk=c69c708c-c423-4c07-9fc8-513781540cc7&sc_channel=ps&ef_id=CjwKCAiArfauBhApEiwAeoB7qMdCQdwq0XYNFlGNq1ULapznpksvaaTH6vH5T6fWylGsKSE46UBWWxoCToIQAvD_BwE:G:s&s_kwcid=AL!4422!3!669047416746!e!!g!!aws%20eks!20433874212!155230227787) is a managed Kubernetes service that allows you to run Kubernetes on AWS without installing, operating, and maintaining your own Kubernetes control plane.
+[Amazon EKS](https://aws.amazon.com/pm/eks/?gclid=CjwKCAiArfauBhApEiwAeoB7qMdCQdwq0XYNFlGNq1ULapznpksvaaTH6vH5T6fWylGsKSE46UBWWxoCToIQAvD_BwE&trk=c69c708c-c423-4c07-9fc8-513781540cc7&sc_channel=ps&ef_id=CjwKCAiArfauBhApEiwAeoB7qMdCQdwq0XYNFlGNq1ULapznpksvaaTH6vH5T6fWylGsKSE46UBWWxoCToIQAvD_BwE:G:s&s_kwcid=AL!4422!3!669047416746!e!!g!!aws%20eks!20433874212!155230227787) is a managed Kubernetes service that allows you to run Kubernetes on AWS without installing, operating, and maintaining your own Kubernetes control plane. It is fully compatible with the Kubernetes API, and you can use it to run your applications in a highly available manner across multiple availability zones.
 
-It is fully compatible with the Kubernetes API, and you can use it to run your applications in a highly available manner across multiple availability zones.
-
-With EKS, you only have to create and manage the worker nodes. AWS manages the control plane.
-
-This means you can focus on building and running applications without worrying about the complexity of managing the Kubernetes control plane.
+With EKS, you only have to create and manage the worker nodes. AWS manages the control plane. This means you can focus on building and running applications without worrying about the complexity of managing the Kubernetes control plane.
 
 EKS automatically upgrades the Kubernetes control plane and applies patches to the underlying nodes. This ensures your cluster is always updated with the latest security patches and features.
 
@@ -51,11 +37,11 @@ Since EKS is part of the AWS ecosystem, you can use other AWS services like IAM,
 
 There are several ways to create an EKS cluster, such as through the AWS EKS console, AWS CLI, or Terraform. However, in this tutorial, you’ll learn how to use the eksctl command-line tool to create an EKS cluster.
 
-The application will be containerized using Docker, and the container image will be pushed to the [Amazon Elastic Container Registry (ECR)](https://docs.aws.amazon.com/AmazonECR/latest/userguide/what-is-ecr.html).
+- The application will be containerized using Docker, and the container image will be pushed to the [Amazon Elastic Container Registry (ECR)](https://docs.aws.amazon.com/AmazonECR/latest/userguide/what-is-ecr.html).
 
-The EKS cluster will then be created using eksctl, and the application will be deployed from the container image in ECR.
+- The EKS cluster will then be created using eksctl, and the application will be deployed from the container image in ECR.
 
-The deployment will be done using the Kubernetes CLI, Kubectl and the application will be exposed to the internet using an AWS Load Balancer.
+- The deployment will be done using the Kubernetes CLI, Kubectl and the application will be exposed to the internet using an AWS Load Balancer.
 
 ## What is eksctl?
 
@@ -78,7 +64,7 @@ The application you’ll be deploying is a sample hello-world application provid
 The application is written in Go and the source code is available on GitHub. Clone the repository by running the following command:
 
 ```bash
-1 git clone https://github.com/GoogleCloudPlatform/kubernetes-engine-samples.git
+git clone https://github.com/GoogleCloudPlatform/kubernetes-engine-samples.git
 ```
 
 Change into the directory of the application:
@@ -96,17 +82,14 @@ The following steps will guide you in building the Docker image and pushing it t
 - **Build the Docker image**:
 
   ```bash
-  1 docker build -t hello-app
+  docker build -t hello-app
   ```
 
-- **Create an ECR repository**. Navigate to the AWS console and search for ECR. Click on **Get Started**. Give the repository a name and leave the other settings as default. Once you’re done, click on **Create repository**.
+- **Create an ECR repository**. Go to the AWS console and search for ECR. Click on **Get Started**. Give the repository a name and leave the other settings as default. Once you’re done, click on **Create repository**.
 
-  {" "}
+  ![create ECR Repository](./img/create-ecr-repository.png)
 
-  <img
-    src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/rgm64negf57aazzf3vlv.png"
-    alt="Create ECR Repository"
-  /> _**Figure 1**. Create ECR Repository_
+  _**Figure 1**. Create ECR Repository_
 
 - **Authenticate Docker to the ECR registry**:
 
@@ -118,10 +101,9 @@ The following steps will guide you in building the Docker image and pushing it t
   Replace `<region>` with your AWS region and `<account-id>` with your AWS account ID. You can get the exact push commands for your ECR repository by clicking on the **View push commands** button on the ECR console.
   :::
 
-  <img
-    src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/fp2ya0sslkxfp4yeu5op.png"
-    alt="View Push Commands"
-  /> _**Figure 2**. View Push Commands (ECR Repository)_
+![View Push Command](./img/view-push-command.png)
+ 
+  _**Figure 2**. View Push Commands (ECR Repository)_
 
 - **Tag the Docker image**:
 
@@ -145,12 +127,8 @@ The following steps will guide you in building the Docker image and pushing it t
 
   View the pushed Docker image on the ECR console.
 
-  {" "}
-
-  <img
-    src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/bx3fnhv9uimu0h3k4xgz.png"
-    alt="ECR Repository Image"
-  /> _**Figure 3**. ECR Repository Image_
+  ![ECR Repository Image](./img/ecr-repo-image.png)
+ _**Figure 3**. ECR Repository Image_
 
 ### Step 2 - Install eksctl
 
@@ -176,7 +154,7 @@ You'll need to install `eksctl` if you haven't already. This tutorial uses a Lin
 
   You should see the version of `eksctl` installed.
 
-{" "}
+
 
 ### Step 3 - Create an EKS Cluster
 
@@ -190,12 +168,10 @@ The `--version` flag specifies the Kubernetes version to use. The `--nodegroup-n
 
 Modify the flags to suit your needs. The command will take a few minutes to complete and you'll see the progress in the terminal. After completing the command, you can view the created EKS cluster on the AWS console.
 
-<img
-  src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/x6e37po6x898ue7q53lp.png"
-  alt="EKS Cluster"
-/> _**Figure 4**. EKS Cluster on AWS Console_
+![EKS Cluster on AWS Console](./img/eks-cluster-aws.png)
 
-{" "}
+ _**Figure 4**. EKS Cluster on AWS Console_
+
 
 ### Step 4 - Deploy the Application
 
@@ -231,7 +207,7 @@ This will create a deployment for the application. You can view the created depl
   kubectl get deployments
 ```
 
-{" "}
+
 
 ### Step 5 - Deploy the Service
 
@@ -253,12 +229,11 @@ This will create a service for the application. View the created service by runn
 
 The service will take a few minutes to be created after which you can view the Load Balancer on the AWS console.
 
-<img
-  src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/o6nlbl8q4tts1guisxye.png"
-  alt="Load Balancer"
-/> _**Figure 5**. Load Balancer on AWS Console_
 
-{" "}
+![Load Balancer on AWS Console](./img/load-balancer-aws.png)
+ _**Figure 5**. Load Balancer on AWS Console_
+
+
 
 ### Step 6 - Access the Application
 
@@ -270,12 +245,10 @@ After the service is created, you can access the application online. Run the fol
 
 Access the application by visiting the URL in your browser.
 
-<img
-  src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/09xdwxydsub9qe5mmaq6.png"
-  alt="Application"
-/> _**Figure 6**. Hello World Application running on Browser_
+![Hello World Application](./img/hello-world-app.png)
 
-{" "}
+_**Figure 6**. Hello World Application running on Browser_
+
 
 ## Clean Up
 

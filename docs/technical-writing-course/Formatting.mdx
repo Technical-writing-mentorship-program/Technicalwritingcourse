@@ -1,5 +1,5 @@
 ---
-slug: /Formatting
+slug: /formatting
 title: Formatting
 description: "In this module, you will learn how to format your technical documents effectively."
 keywords: [formatting, heading, list, table, figures and images]
@@ -7,7 +7,7 @@ sidebar_position: 8
 ---
 
 
-:::tip In this Module, you will learn:
+:::tip[In this module, you will learn]
 
 
 - Headings
@@ -69,9 +69,6 @@ Avoid using headings that do not convey specific information. Headings should cl
 5. Always use a consistent style of capitalization. Headings can be capitalized using several approaches. It is important maintain the same capitalization style across the document.
 
 ## Levels Of Heading
-:::tip
-First level heading, second level heading, third level heading
-:::
 
 ### First Level Heading
 
@@ -258,7 +255,9 @@ Use of numbered lists helps convey a sense of order and progression, making it e
 
 Here is a simple, numbered list providing a clear and concise set of instructions on baking cookies:
 
-<blockquote>
+<details>
+  <summary>Toggle to preview numbered list</summary>
+  
 1. Gather the necessary ingredients.
 2. Preheat the oven to 375 degrees Fahrenheit.
 3. Combine the dry ingredients in a large bowl.
@@ -267,7 +266,8 @@ Here is a simple, numbered list providing a clear and concise set of instruction
 6. Drop rounded tablespoons onto ungreased baking sheets.
 7. Bake for 10-12 minutes, or until golden brown.
 8. cool on baking sheets for a few minutes before transferring to a wire rack to cool completely.
-</blockquote>
+
+</details>
 
  Strive to keep your numbered lists within eight items, for optimal clarity. 
  
@@ -301,7 +301,7 @@ Labeled lists are used when the listed items require further explanation or elab
 > **_Example of a labeled list_**
 
 
-##### Components of a Computer
+**Components of a Computer**
 
 
 1. Hardware: the physical components of a computer, such as the CPU, RAM, and hard drive.
@@ -320,7 +320,11 @@ Nested lists are commonly used when list items have sub-lists, which are lists w
 
 > **_Example of a nested list_**
 
-##### How to Set Up Your Project
+<details>
+<summary>Toggle to preview nested list</summary>
+  
+
+**How to Set Up Your Project**
 
 1. Install the required tools:
   - Node.js
@@ -332,6 +336,7 @@ Nested lists are commonly used when list items have sub-lists, which are lists w
   - Run the following commands:
     - mkdir my-project
     - cd my-project
+  </details>
 
 
 Lists are crucial features of technical writing. They enhance readability, improve clarity, and ensure that ideas are conveyed accurately and effectively.
@@ -478,13 +483,8 @@ Figures should be simple and clear. Avoid adding borders, grid lines, background
 
 2. Each figure in a technical report should be assigned a unique identifier, enabling seamless referencing throughout the document.
 
-<figure style={{ textAlign: 'center'}}>
-  <img 
-    src="/img/sales-strategy.png" 
-      alt="Sales Strategy for three demo projects about to be launched" 
-      style={{ width: '100%', maxWidth: '600px', height: 'auto'}} />
-  <figcaption><em>Figure 3.4.2 Sales Strategy for three demo projects about to be launched</em></figcaption>
-</figure>
+![Sales Strategy](./img/sales-strategy.png)
+ _**Fig 1: Sales Strategy**_
 
 
 Notice that the image used above has a unique identifier for easy reference. 
@@ -505,29 +505,19 @@ Notice that the image used above has a unique identifier for easy reference.
 7. Add a clear, concise, and descriptive image description, and include all necessary information.
 
 
-Take a close look at Figure 3.5.2 below. Do you understand what information it conveys?
+Take a close look at Fig 2 below. Do you understand what information it conveys?
 
-<figure style={{ textAlign: 'center'}}>
-  <img 
-    src="/img/figure.png" 
-      alt="Figure 3.5.2" 
-      style={{ width: '100%', maxWidth: '600px', height: 'auto'}} />
-  <figcaption><em>Figure 3.5.2</em></figcaption>
-</figure>
+![Budget pie chart](./img/figure.png)
+_**Fig 2: Budget pie chart**_
 
 
-If you take a closer look at Figure 3.5.2, you can interpret the image. However, the lack of a descriptive caption makes it difficult to be certain.
 
-<figure style={{ textAlign: 'center'}}>
-  <img 
-    src="/img/t-shirts.png" 
-      alt="Figure 3.5.2" 
-      style={{ width: '100%', maxWidth: '600px', height: 'auto'}} />
-  <figcaption><em>Figure 3.5.3 A Budget Bar Chart showing the percentage of T-shirt sales</em></figcaption>
-</figure>
+If you take a closer look at Fig 3, you can interpret the image. However, the lack of a descriptive caption makes it difficult to be certain.
 
+![Budget Bar Chart](./img/t-shirts.png)
+_**Fig 3: A Budget Bar Chart showing the percentage of T-shirt sales**_
 
-Figure 3.5.3 has a numbered caption and a descriptive title. With this added information, the reader will have a clearer and more informative view of the figure.
+Figure 3 has a numbered caption and a descriptive title. With this added information, the reader will have a clearer and more informative view of the figure.
 
 
 ## Types of Figures
@@ -572,46 +562,31 @@ When guiding a user to use a new application, it is important to ensure the inst
 > **_Example 1_**
 
 
-To seamlessly utilize this app, follow these steps:
+To seamlessly use this app, follow these steps:
 
 
 1. Navigating the Home Screen: The initial screen presents various sections allowing you to select a class based on your preferred subject.
 
-<figure style={{ textAlign: 'center'}}>
-  <img 
-    src="/img/home-screen.png" 
-      alt="Figure 3.5.2" 
-      style={{ width: '200px', maxWidth: '600px', height: '400px'}} 
-  />
-  <figcaption><em>How to navigate the home screen</em></figcaption>
-</figure>
+![How to navigate the home screen](./img/home-screen.png)
+
+  _**Fig 4: How to navigate the home screen**_
+
 
 
 2. Upgrading to VIP Membership: If you wish to unlock the app's additional benefits, click the "Upgrade Now" button to become a VIP member.
 
+![How to upgrade to VIP membership](./img/upgrade.png)
 
-<figure style={{ textAlign: 'center'}}>
-  <img 
-    src="/img/upgrade.png" 
-      alt="Figure 3.5.2" 
-      style={{ width: '200px', maxWidth: '600px', height: '400px'}} 
-  />
-  <figcaption><em>How to upgrade to VIP membership</em></figcaption>
-</figure>
+  _**Fig 5: How to upgrade to VIP membership**_
+
 
 
 3. Accessing the Finance Class: If you're interested in finance, click the "Join Class" button to commence the course.
 
+![How to access the finance class](./img/finance-class.png)
 
-<figure style={{ textAlign: 'center'}}>
-  <img 
-    src="/img/finance-class.png" 
-      alt="Figure 3.5.2" 
-      style={{ width: '200px', maxWidth: '600px', height: '400px'}} 
-  />
-  <figcaption><em>How to access the finance class</em></figcaption>
-</figure>
-
+  _**Fig 6: How to access the finance class**_
+ 
 
 From example 1, you can see that the steps for seamlessly using the application were well-aligned and structured.
 However, one thing is missing. Guess what?
@@ -673,32 +648,32 @@ The following guidelines are best practices for adding an image to your article.
 ## Best Practices for Adding Images
 
 
-1. Choose the right image format
+### 1. Choose the right image format
 
 When selecting an image format, consider the type of image you are working with and its intended use. Common image formats in technical documentation include JPEG, PNG, and GIF. JPEGs are best for photographs, while PNGs and GIFs are better suited for screenshots or diagrams.
 
 
-2. Optimize image size and resolution
+### 2. Optimize image size and resolution
 
 Keep image sizes as small as possible without compromising quality. Large images can slow down the loading time of online documentation, while overly compressed images can affect their clarity and readability. As a general rule of thumb, aim for a resolution of 72 dpi for web-based documentation and 300 dpi for print.
 
 
-3. Use descriptive image titles and alt text
+### 3. Use descriptive image titles and alt text
 
 Provide descriptive titles for images that accurately reflect their contents. This can help users quickly identify the image's purpose and relevance. Additionally, provide alternative text (alt text) for each image to ensure accessibility for visually impaired users.
 
 
-4. Place images near relevant text
+### 4. Place images near relevant text
 
 Place them near the relevant text or instructions they illustrate to ensure that images are helpful and not confusing. This will help users understand the relationship between the image and the text and avoid confusion.
 
 
-5. Label images clearly 
+### 5. Label images clearly
 
 Use labels or captions to provide additional context or information about an image. For example, if you use a screenshot to illustrate a process, label each step with a descriptive caption.
 
 
-6. Use consistent formatting
+### 6. Use consistent formatting
 
 To ensure consistency throughout your documentation, use the same formatting for all images. This includes size, resolution, and placement.
 
@@ -750,17 +725,14 @@ consider:
 
 - Call to action: Does the post end with a clear call to action for the reader?
 
-:::
 After review, tag @TechnicalWriti6 on X(Twitter with the link to you published submission.)
 
-
-
-
-
-
-:::tip
-The next module explores editing in technical writing.
 :::
+
+
+
+The next module explores editing in technical writing.
+
 
 
 

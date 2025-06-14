@@ -16,6 +16,40 @@ It is important to note that the developers of Asciidoctor are also the maintain
 
 To use Antora to generate a document, you need to assemble your files into a standard project structure, and then store them in a git repository. Once that is done, Antora picks your file and transforms it into a website.
 
+import Quiz from "@site/src/components/Quiz";
+
+<Quiz
+	questions={[
+		{
+			text: "Which of the following Static Site Generators is specifically designed for technical documentation and supports AsciiDoc syntax?",
+			options: [
+				{ value: "a", label: "Hugo" },
+				{ value: "b", label: "Jekyll" },
+				{ value: "c", label: "Antora" },
+				{ value: "d", label: "Gatsby" },
+			],
+			correct: "c",
+		},
+		{
+			text: "What is the role of Asciidoctor in the Antora documentation workflow?",
+			options: [
+				{ value: "a", label: "It hosts the generated website online" },
+				{
+					value: "b",
+					label:
+						"It converts AsciiDoc source files into formats like HTML5 and PDF",
+				},
+				{ value: "c", label: "It manages the version control system" },
+				{
+					value: "d",
+					label: "It provides styling templates for the static site",
+				},
+			],
+			correct: "b",
+		},
+	]}
+/>
+
 Now you will take a look at how to Install Antora.
 
 ## Installation, Setup and Configuration
@@ -207,15 +241,15 @@ npx antora antora-playbook.yml
 <details>
 <summary>Toggle to preview folder</summary>
 
-  - antora/
-    - docs/
-      - modules/
-        - module_one/
-          - pages/
-            - gettingstarted.adoc
-            - installation.adoc
-            - overview.adoc
-  
+- antora/
+  - docs/
+    - modules/
+      - module_one/
+        - pages/
+          - gettingstarted.adoc
+          - installation.adoc
+          - overview.adoc
+
 </details>
 
 - In the **_gettingstarted.adoc_**, **_installation.adoc_** and **_overview.adoc_** files, copy and paste your AsciiDoc syntax into any of the files, then generate the site again by running the **_“npx antora antora-playboook.yml”_** command again.
@@ -301,4 +335,21 @@ runs-on: ubuntu-latest
 - Make edits to your documentation file.
 - Commit changes and push them to your repository.
 - Your content will be live once changes have been to the repository.
+
+
+
+:::tip[Exercise]
+**Complete the following essay questions before proceeding to the next module.**
+
+**Explain how Antora supports technical writers in creating structured documentation.**
+
+In your answer, describe its key features, how it integrates with AsciiDoc, and the importance of its Git-based project structure.
+
+Make sure your responses are clear, well-structured, and demonstrate your understanding of how these tools enhance the documentation process.
+:::
+
+
+
+
+
 ```

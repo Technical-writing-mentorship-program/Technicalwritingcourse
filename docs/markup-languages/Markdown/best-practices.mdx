@@ -346,6 +346,37 @@ This tip allows you to create a clickable image in markdown. This image is wrapp
    </p>
 </details>
 
+import Quiz from "@site/src/components/Quiz";
+
+<Quiz
+	questions={[
+		{
+			text: "Which of following statements will be displayed as heading 1 in Markdown?",
+			options: [
+				{
+					value: "a",
+					label: "#### What is Markdown?",
+				},
+				{ value: "b", label: "# Consistent Formatting in Technical Writing" },
+				{ value: "c", label: "### Markdown is a Markup Language" },
+				{ value: "d", label: "## Popular Style Guides in Technical Writing" },
+			],
+			correct: "b",
+		},
+		{
+			text: "Which of the following is not a tool for Markdown formatting?",
+			options: [
+				{ value: "a", label: "StackEdit" },
+				{ value: "b", label: "GhostWriter" },
+				{ value: "c", label: "Dillinger" },
+				{ value: "d", label: "Git" },
+			],
+			correct: "d",
+		},
+	]}
+/>
+
+
 ## Consistent Formatting and Styles in Markdown
 
 There are different style guides for creating consistent styles in markdown. Each documentation provides detailed guide on how to ensure consistency in markdown. Here is a list of some of these guide:
@@ -433,3 +464,13 @@ _**Fig 5.** Start writing with Mou editor_
 
 **Pricing**:
 Mou is a free markdown editor for MacOS systems
+
+:::tip[Exercise]
+**Complete the following essay questions before proceeding to the next module.**
+
+**Explain how Consistent formatting can be achieved in Markdown.**
+
+In your answer, use any of the guides listed in the tutorial.
+
+Make sure your responses are clear, well-structured, and that they demonstrate your understanding of the subject.
+:::

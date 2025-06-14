@@ -19,7 +19,7 @@ slug: /api-components
 
 :::tip[In this module, you will learn]
 
-- key components of an API (Application Programming Interface)
+- Key components of an API (Application Programming Interface)
 - How they function together to enable communication between different software systems.
 
 Understanding the core elements that make up an API is fundamental to effectively using or developing APIs.
@@ -596,3 +596,39 @@ Here is a well-explained list of status codes:
 - **503 Service Unavailable:** The server is currently unable to handle the request due to temporary overloading or maintenance.
 - **504 Gateway Timeout:** The server did not receive a timely response from the upstream server it needed to access to complete the request.
 - **505 HTTP Version Not Supported:** The server does not support the HTTP protocol version that was used in the request.
+
+
+import Quiz from '@site/src/components/Quiz';
+
+<Quiz
+  questions={[
+    {
+      text: 'These are components of an API, except?',
+      options: [
+        { value: '1', label: 'Endpoints' },
+        { value: '2', label: 'Request Headers' },
+        { value: '3', label: 'Request Footer' }
+      ],
+      correct: '3'
+    },
+    {
+      text: 'What does a POST method in an API do?',
+      options: [
+        { value: '1', label: 'Request data from a specified resource' },
+        { value: '2', label: 'Create a new resource in the specified resource collection.' },
+        { value: '3', label: 'Update an existing resource or create a new resource' }
+      ],
+      correct: '2'
+    }
+  ]}
+/>
+<br />
+
+:::tip[Assignment]
+
+  Based on your knowledge of how to structure an API documentation in the last module and your newly acquired knowledge on the key components of an API, document the first 20 endpoints of the [TMDB API](https://developer.themoviedb.org/reference/intro/getting-started) on Postman by:
+  - Taking note of the key components of the API, e.g., Endpoints, Request body, Request response, etc  
+  - Ensuring your documentation is logically structured.
+ Lastly, once you are done, publish your documentation and tag @Technicalwrit6 on Twitter and LinkedIn, stating that this is your assignment for the API Component in the API documentation course 
+
+:::

@@ -13,7 +13,7 @@ export default function Homepage() {
             </h1>
             <a
               className={styles.button}
-              href="https://discord.gg/UC4QEsE8"
+              href="https://discord.com/invite/hxydebksg3"
               target="_blank"
               rel="noopener noreferrer"
             >

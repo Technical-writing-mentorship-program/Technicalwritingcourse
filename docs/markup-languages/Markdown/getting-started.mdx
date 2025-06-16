@@ -83,7 +83,7 @@ There are six levels of heading as seen below:
 
 #### Syntax
 
-```markdown showLineNumbers{1-6}
+```markdown showLineNumbers{1-11}
 # Heading One (H1)
 
 ## Heading Two (H2)
@@ -365,11 +365,11 @@ Don’t add space between the column
 
 ```markdown showLineNumbers{1-6}
     Right ✅
-    | Frontend | Backend | Smart contract|
-    |:---|:---|:---|
-    | Html | Python | Solidity |
-    | Css | Node.js | Rust |
-    | Javascript | PhP | Vyper |
+    | Frontend   | Backend | Smart contract|
+    |:---------  |:--------|:--------------|
+    | Html       | Python  | Solidity      |
+    | Css        | Node.js | Rust          |
+    | Javascript | PhP     | Vyper         |
 ```
 
 ```markdown showLineNumbers{1-10}
@@ -422,11 +422,11 @@ You can align text in the columns to the left, right, or centre.
 ##### Syntax For Right Alignment
 
 ```markdown showLineNumbers{1-5}
-1| Frontend | Backend | Smart contract|
-2|---:|---:|---:|
-3| Html | Python | Solidity |
-4| Css | Node.js | Rust |
-5| Javascript | PhP | Vyper |
+1| Frontend   | Backend | Smart contract|
+2|---------:  |--------:|--------------:|
+3|   Html     | Python  |   Solidity    |
+4|   Css      | Node.js |    Rust       |
+5| Javascript |  PhP    |    Vyper      |
 ```
 
 ##### Result For Right Alignment
@@ -449,17 +449,19 @@ You can align text in the columns to the left, right, or centre.
 
 ```markdown showLineNumbers{1-5}
 |  Frontend  | Backend | Smart contract |
-| :--------: | :-----: | :------------: |
+| :--------- | :-------| :------------- |
 |    Html    | Python  |    Solidity    |
 |    Css     | Node.js |      Rust      |
 | Javascript |   PhP   |     Vyper      |
 ```
 
+
+##### Result For Left Alignment
+
 <details>
   <summary>Toggle to preview the result</summary>
 
   <p>
-##### Result For Left Alignment
 
 | Frontend   | Backend | Smart contract |
 | :--------- | :------ | :------------- |
@@ -521,3 +523,33 @@ Check the output below
 The best way to learn markdown is to use it at all times e.g. after this lesson, write an article in StackEdit.
 
 See you in the next lesson.
+
+## Answer the following questions
+
+
+import Quiz from '@site/src/components/Quiz';
+
+<Quiz
+  questions={[
+    {
+      text: 'How do you add images in Markdown?',
+      options: [
+        { value: '1', label: '(https://google.com/getting-started/)[Home Page]!' },
+        { value: '2', label: '(https://google.com/getting-started/)![Home Page]' },
+        { value: '3', label: '[Home Page]!(https://google.com/getting-started/)' },
+        { value: '4', label: '![Home Page](https://google.com/getting-started/)' }
+      ],
+      correct: '4'
+    },
+    {
+      text: 'How do you center align texts in a Markdown table?',
+      options: [
+        { value: '1', label: 'add : on both sides of the hypens within the header row' },
+        { value: '2', label: 'add : on the left side of the hypens within the header row' },
+        { value: '3', label: 'add : on the right side of the hypens within the header row' },
+        { value: '4', label: ' do not add : on either sides of the hypens within the header row' }
+      ],
+      correct: '1'
+    }
+  ]}
+/>

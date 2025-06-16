@@ -30,6 +30,37 @@ Example blocks provide examples or additional information related to the content
 ![Example Block](img\exampleblog.png)
 _**Fig 1:** An image of an example block on Antora_
 
+import Quiz from "@site/src/components/Quiz";
+
+<Quiz
+	questions={[
+		{
+			text: "What are delimited blocks used for in AsciiDoc?",
+			options: [
+				{ value: "a", label: "To create navigation menus" },
+				{
+					value: "b",
+					label:
+						"To include and format non-paragraph texts like quotes, sidebars, and tables",
+				},
+				{ value: "c", label: "To manage CSS styles" },
+				{ value: "d", label: "To write metadata in documents" },
+			],
+			correct: "b",
+		},
+		{
+			text: "Which delimiter is used to define a quote block in AsciiDoc?",
+			options: [
+				{ value: "a", label: "====" },
+				{ value: "b", label: "____" },
+				{ value: "c", label: "++++" },
+				{ value: "d", label: "////" },
+			],
+			correct: "b",
+		},
+	]}
+/>
+
 ### Quote Blocks
 
 Quote blocks are used to include quotations within your document. They delimited with double underscores (\_\_\_\_)
@@ -280,3 +311,13 @@ You can mark the first row as a header by setting the header option, which ensur
 ![Table with Header Row](img\AsciidocTable.png)
 
 _**Fig 11:** Image of AsciiDoc Table with Header Row_
+
+:::tip[Exercise]
+**Complete the following essay question before proceeding to the next module.**
+
+**Explain the roles and differences of Quote Blocks, Literal Blocks, and Passthrough Blocks in AsciiDoc, including how block metadata (such as titles, IDs, and styles) enhances the structure and readability of documents.**
+
+In your answer, describe the delimiters used for each block type, their typical use cases, and how metadata helps control the presentation and navigation of content.
+
+Make sure your response is clear, well-structured, and demonstrates a thorough understanding of these AsciiDoc features.
+:::

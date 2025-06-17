@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 /**
  * Any CSS included here will be global. The classic template
  * bundles Infima by default. Infima is a CSS framework designed to
@@ -73,4 +74,47 @@
 
 .footer a:hover {
   color: #d1b3ff; /* A lighter shade for hover, visible on purple */
+}
+
+.quizBtn {
+  color: black;
+  padding: 15px;
+  margin-top: 5px;
+  border: 1px solid white;
+  border-radius: 8px;
+  font-size: 15px;
+  background-color: white;
+  transition: transform 0.1s ease background-color 0.2s ease;
+}
+
+.quizBtn:active {
+  transform: scale(0.95);
+}
+
+.quizBtn:hover {
+  transform: scale(1.05);
+  background-color: #d1b3ff;
+}
+
+.quizContainer {
+  background-color: #8a4dff;
+  color: white;
+}
+
+.quizContainer input[type="radio"] {
+  accent-color: green; 
+  color: white;
+  background-color: white;
+}
+
+.questionContainer {
+  margin-bottom: 20px;
+}
+
+.resultLabel {
+  margin-top: 5px;
+}
+
+body {
+  font-family: "Lora";
 }

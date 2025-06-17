@@ -790,7 +790,38 @@ Preview Documentation on [Apiary](https://apiary.io/)
 
 To learn more about API Blueprint tools, visit [API Blueprint tools.](https://apiblueprint.org/tools.html#)
 
-:::tip[Assignment]
+
+
+import Quiz from '@site/src/components/Quiz';
+
+<Quiz
+  questions={[
+    {
+      text: 'Which specification language uses Markdown-like syntax (MSON) and typically has a .apib extension?',
+      options: [
+        { value: '1', label: 'OAS' },
+        { value: '2', label: 'JSON Schema' },
+        { value: '3', label: 'API Blueprint' },
+        { value: '4', label: 'RAML' }
+      ],
+      correct: '3'
+    },
+    {
+      text: 'What is the primary purpose of an API specification?',
+      options: [
+        { value: '1', label: "To document user-facing UI interactions" },
+        { value: '2', label: 'To define endpoints, operations, parameters, schemas, and versioning in a standardized format' },
+        { value: '3', label: 'To provide a marketing overview of the API' },
+        { value: '4', label: 'To replace source code entirely' }
+      ],
+      correct: '2'
+    }
+  ]}
+/>
+
+&nbsp;
+
+:::tip[Exercise]
 Use a Swagger editor (like SwaggerHub, Editor.Swagger.io) to create an OpenAPI Specification (OAS) document for the TDMB API.
 The document should include the following elements:
 

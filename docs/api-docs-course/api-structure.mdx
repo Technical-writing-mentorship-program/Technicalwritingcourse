@@ -150,6 +150,37 @@ While many of these codes are standardized across APIs, it's crucial to dedicate
 
 For endpoints that require a specific explanation of an error, it's good practice to provide a brief description within the endpoint's documentation and link it back to this general page for more context.
 
+
+import Quiz from '@site/src/components/Quiz';
+
+<Quiz
+  questions={[
+    {
+      text: 'Which section of an API document typically explains the base URL, authentication methods, and versioning?',
+      options: [
+        { value: '1', label: 'Reference Section' },
+        { value: '2', label: 'Introduction Section' },
+        { value: '3', label: 'Changelog Section' },
+        { value: '4', label: 'Error Handling Section' }
+      ],
+      correct: '2'
+    },
+    {
+      text: 'Why is it important to include example requests and responses in an API reference?',
+      options: [
+        { value: '1', label: 'To make the document look longer and more professional' },
+        { value: '2', label: 'To help developers understand how to interact with the API effectively' },
+        { value: '3', label: 'To replace endpoint explanations' },
+        { value: '4', label: 'To discourage beginners from using the API' }
+      ],
+      correct: '2'
+    }
+  ]}
+/>
+
+
+
+
 ### Documenting This Page
 
 When documenting this page, the developers usually supply the codes associated with each endpoint. However, it's a good idea to play around with the endpoints yourself to observe the codes in action. This hands-on approach ensures accuracy and gives you a deeper understanding of how these codes function within your API.
@@ -206,7 +237,11 @@ You should include the following information in your rate limit page:
   ![twitter image](./img/twitter.png)
   _**Fig 5.** Twitter API Rate Limit Page_
 
-:::tip[Assignment] 
+:::tip[Exercise] 
 Document the [Petstore API](https://petstore.swagger.io/) using Postman. Pay attention to the API's structure as explained in the course module and provide detailed descriptions and examples where necessary.
 
+:::
+
+:::info
+Complete the following exercises before proceeding to the next module.
 :::

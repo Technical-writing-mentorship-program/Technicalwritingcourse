@@ -16,6 +16,40 @@ It is important to note that the developers of Asciidoctor are also the maintain
 
 To use Antora to generate a document, you need to assemble your files into a standard project structure, and then store them in a git repository. Once that is done, Antora picks your file and transforms it into a website.
 
+import Quiz from "@site/src/components/Quiz";
+
+<Quiz
+	questions={[
+		{
+			text: "Which of the following Static Site Generators is specifically designed for technical documentation and supports AsciiDoc syntax?",
+			options: [
+				{ value: "a", label: "Hugo" },
+				{ value: "b", label: "Jekyll" },
+				{ value: "c", label: "Antora" },
+				{ value: "d", label: "Gatsby" },
+			],
+			correct: "c",
+		},
+		{
+			text: "What is the role of Asciidoctor in the Antora documentation workflow?",
+			options: [
+				{ value: "a", label: "It hosts the generated website online" },
+				{
+					value: "b",
+					label:
+						"It converts AsciiDoc source files into formats like HTML5 and PDF",
+				},
+				{ value: "c", label: "It manages the version control system" },
+				{
+					value: "d",
+					label: "It provides styling templates for the static site",
+				},
+			],
+			correct: "b",
+		},
+	]}
+/>
+
 Now you will take a look at how to Install Antora.
 
 ## Installation, Setup and Configuration
@@ -78,14 +112,19 @@ You must have Node.js installed
 
 To use Antora to generate a documentation site, you need the **Antora command line interface (CLI)** and the **Antora site generator**.
 
-The first thing to do when trying to install Antora is to create a new directory for your documentation site, and then move into that directory. You can do this in your PowerShell. Let us call this directory _**test-site**_
+1. Create a new directory for your documentation site, and then move into that directory. You can do this in your PowerShell. Let us call this directory _**test-site**_
 
 ```bash
 mkdir test-site
 cd test-site
 ```
 
-The next step is to initialize the _package.json_ file and install the necessary CLI package in the project so you can run Antora using [Node Package Execute](https://www.npmjs.com/package/npx) ( **npx: a npm package runner that executes any package from the npm registry without having to install it** ).
+2. Initialize the _package.json_ file and install the necessary CLI package in the project so you can run Antora using [Node Package Execute](https://www.npmjs.com/package/npx) 
+
+:::info
+ npx: a npm package runner that executes any package from the npm registry without having to install it.
+
+ :::
 
 ```bash
 node -e "fs.writeFileSync('package.json', '{}')"
@@ -96,7 +135,7 @@ npm i -D -E antora
 In case you run into an error running the Antora installation script in the PowerShell of your Windows machine, refer to this article on [Execution Policies](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.4) to fix the issue.
 :::
 
-Verify Antora has been installed by running the command below;
+3. Verify Antora has been installed by running the command below;
 
 ```bash
 npx antora -v
@@ -150,7 +189,8 @@ ui:
     snapshot: true
 ```
 
-{" "}
+&nbsp;
+
 
 ![Antora Playbook](img\antora-playbook.png)
 
@@ -184,29 +224,33 @@ Congratulations, you just created your first documentation site with Antora.
 
 ## Testing your Documentation Site and Publishing with Antora
 
-To be able to publish and test your documentation site, you should do the following:
+To publish and test your documentation site, you should do the following:
 
-- In your already created folder, clone the content of this [Github repository](https://github.com/wise4rmgod/antora) into it.
-- Once you have the repo cloned, now you can work locally on your pc.
-- Change into the antora directory and then initialize the json package and install antora by running the following commands;
+**Publishing with Antora**
+
+1. In your already created folder, clone the content of this [Github repository](https://github.com/wise4rmgod/antora) into it. Once you have the repo cloned, now you can work locally on your pc.
+2. Change into the antora directory and then initialize the json package and install antora by running the following commands;
 
 ```
 node -e "fs.writeFileSync('package.json', '{}')"
 npm i -D -E antora
 ```
 
-- Now generate your site by running the following command;
+3. Generate your site by running the following command;
 
 ```
 npx antora antora-playbook.yml
 ```
 
-- Now your site should be generated and ready to be viewed. Copy the displayed URL, and paste it into your browser to view your generated site.
-- To test for AsciiDoc syntax, go to the displayed folder below;
+4. Now your site should be generated and ready to be viewed. Copy the displayed URL, and paste it into your browser to view your generated site.
+
+**Testing for Asciidoc syntax**
+
+1. Go to the displayed folder below
 
 <details>
 <summary>Toggle to preview folder</summary>
-
+  
   - antora/
     - docs/
       - modules/
@@ -218,16 +262,16 @@ npx antora antora-playbook.yml
   
 </details>
 
-- In the **_gettingstarted.adoc_**, **_installation.adoc_** and **_overview.adoc_** files, copy and paste your AsciiDoc syntax into any of the files, then generate the site again by running the **_“npx antora antora-playboook.yml”_** command again.
-- Go to your browser, and refresh to see your AsciiDoc syntax displayed.
+2. In the **_gettingstarted.adoc_**, **_installation.adoc_** and **_overview.adoc_** files, copy and paste your AsciiDoc syntax into any of the files, then generate the site again by running the **_“npx antora antora-playboook.yml”_** command again.
+3. Go to your browser, and refresh to see your AsciiDoc syntax displayed.
 
 :::note
 For any change you make with syntax in your vs code, always generate the site again by running the _“npx antora antora-playbook.yml”_ command.
 :::
 
-- Create a GitHub repository of your own, and push changes you have made to this repo you created.
-- Once you have pushed to Github, configure the Github pages for your repo, and set Build and Deployment source to Github Actions.
-- Use the Git Action workflow below to deploy your Antora page to GitHub pages.
+4. Create a GitHub repository of your own, and push changes you have made to this repo you created.
+5. Once you have pushed to Github, configure the Github pages for your repo, and set Build and Deployment source to Github Actions.
+6. Use the Git Action workflow below to deploy your Antora page to GitHub pages.
 
 > **Be sure to have enabled Github pages in your repo by creating a gh-pages branch**
 
@@ -301,4 +345,17 @@ runs-on: ubuntu-latest
 - Make edits to your documentation file.
 - Commit changes and push them to your repository.
 - Your content will be live once changes have been to the repository.
-```
+
+
+
+:::tip[Exercise]
+**Complete the following essay questions before proceeding to the next module.**
+
+- Explain how Antora supports technical writers in creating structured documentation.
+
+- In your answer, describe its key features, how it integrates with AsciiDoc, and the importance of its Git-based project structure.
+
+- Make sure your responses are clear, well-structured, and demonstrate your understanding of how these tools enhance the documentation process.
+
+Make a post and tag @TechnicalWriti6 on Twitter to the link to your document.
+:::

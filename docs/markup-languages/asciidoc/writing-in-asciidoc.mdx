@@ -63,15 +63,15 @@ Assume you are reading a guide or a book, and the author wants you to pay attent
 Admonitions are used to make messages stand out, so you do not miss them.
 AsciiDoc offers five admonition-style labels.
 
-- **Note :** By adding the "note" label, you give readers the extra insight they need to fully grasp the topic, highlighting related points and showing connections between ideas to expand on key concepts. This additional information, while not essential, provides a richer understanding of the topic, making your documentation more informative and engaging.
+- **Note :** By adding the **note** label, you give readers the extra insight they need to fully grasp the topic, highlighting related points and showing connections between ideas to expand on key concepts. This additional information, while not essential, provides a richer understanding of the topic, making your documentation more informative and engaging.
 
-- **Tip:** By implementing the "tip" label, you provide valuable insights and best practices, to help readers work more efficiently and achieve better results. This friendly piece of advice allows readers to easily navigate challenges, making their experience more productive and enjoyable.
+- **Tip:** By implementing the **tip** label, you provide valuable insights and best practices, to help readers work more efficiently and achieve better results. This friendly piece of advice allows readers to easily navigate challenges, making their experience more productive and enjoyable.
 
-- **Important:** The "important" label denotes a level of seriousness greater than that of a standard note, such as a reminder to back up your data before making significant changes. It signifies the importance of paying close attention to a particular matter, emphasizing that it should not be overlooked, similar to a substantial reminder that warrants careful consideration.
+- **Important:** The **important** label denotes a level of seriousness greater than that of a standard note, such as a reminder to back up your data before making significant changes. It signifies the importance of paying close attention to a particular matter, emphasizing that it should not be overlooked, similar to a substantial reminder that warrants careful consideration.
 
-- **Caution:** The "caution" is a warning about something that could cause problems if not handled carefully. It is like a gentle reminder to proceed with caution
+- **Caution:** The **caution** is a warning about something that could cause problems if not handled carefully. It is like a gentle reminder to proceed with caution
 
-- **Warning:** The **"**warning**"** label actively warns readers of potential negative consequences, such as damage or loss, if they fail to follow instructions carefully, emphasizing the risks and urging them to take necessary precautions to avoid harm.
+- **Warning:** The **warnin** label actively warns readers of potential negative consequences, such as damage or loss, if they fail to follow instructions carefully, emphasizing the risks and urging them to take necessary precautions to avoid harm.
 
   :::info
   In AsciiDoc, **caution** and **warning** are both used to alert readers to potential risks, but they differ in their level of severity.
@@ -81,39 +81,8 @@ AsciiDoc offers five admonition-style labels.
   On the other hand, a **warning** signals a more serious risk that could result in significant harm, such as system failure, data loss, or physical injury. It’s a stronger alert meant to stop the reader in their tracks, emphasizing that ignoring it could lead to major issues. While both are important, a **warning** carries a higher level of urgency and is used for more critical situations.
   :::
 
----
 
-import Quiz from "@site/src/components/Quiz";
-
-<Quiz
-	questions={[
-		{
-			text: "How can you insert a hard line break in AsciiDoc?",
-			options: [
-				{
-					value: "a",
-					label: "By ending a line with a space followed by a plus sign (+)",
-				},
-				{ value: "b", label: "By adding two blank lines" },
-				{ value: "c", label: "By surrounding the line with asterisks (*)" },
-				{ value: "d", label: "By using triple backticks" },
-			],
-			correct: "a",
-		},
-		{
-			text: "Which admonition label in AsciiDoc is used to highlight potential dangers or risks?",
-			options: [
-				{ value: "a", label: "Note" },
-				{ value: "b", label: "Tip" },
-				{ value: "c", label: "Caution" },
-				{ value: "d", label: "Warning" },
-			],
-			correct: "d",
-		},
-	]}
-/>
-
-## **Punctuation**
+## Punctuation
 
 In AsciiDoc, punctuation is used much like it is in regular text. You need to use punctuation correctly so that your text looks good and is easy to read. If you do it right, your text will look great, and people will understand what you're saying. In Asciidoc, punctuation is referred to as **quoted text.**
 
@@ -229,6 +198,38 @@ _**Fig 12:** Using the `a` shorthand for attribute substitution in AsciiDoc._
 ![Attribute Value](img\Attributevalue.png)
 _**Fig 13:** Attribute value rendered via shorthand substitution._
 
+
+import Quiz from "@site/src/components/Quiz";
+
+<Quiz
+	questions={[
+		{
+			text: "How can you insert a hard line break in AsciiDoc?",
+			options: [
+				{
+					value: "a",
+					label: "By ending a line with a space followed by a plus sign (+)",
+				},
+				{ value: "b", label: "By adding two blank lines" },
+				{ value: "c", label: "By surrounding the line with asterisks (*)" },
+				{ value: "d", label: "By using triple backticks" },
+			],
+			correct: "a",
+		},
+		{
+			text: "Which admonition label in AsciiDoc is used to highlight potential dangers or risks?",
+			options: [
+				{ value: "a", label: "Note" },
+				{ value: "b", label: "Tip" },
+				{ value: "c", label: "Caution" },
+				{ value: "d", label: "Warning" },
+			],
+			correct: "d",
+		},
+	]}
+/>
+
+
 ### Triple plus passthrough
 
 The triple-plus passthrough in AsciiDoc works similarly to the pass macro but uses a different syntax. To prevent AsciiDoc from applying any formatting or substitutions to your text, enclose it in triple pluses **(+++).** You often use this method to include custom HTML or XML code in your document.
@@ -284,9 +285,12 @@ Check out the second part of the writing in AsciiDoc guide to explore more about
 :::tip[Exercise]
 **Complete the following essay questions before proceeding to the next module.**
 
-**Explain the role of quoted text and passthrough mechanisms in AsciiDoc.**
+- Explain the role of quoted text and passthrough mechanisms in AsciiDoc.
 
-In your response, describe how punctuation symbols such as asterisks and underscores are interpreted by AsciiDoc, and discuss how features like backslash escaping, inline pass macros, triple-plus passthrough, and single plus signs help users control formatting and prevent unwanted substitutions. Use examples to support your explanations.
+- In your response, describe how punctuation symbols such as asterisks and underscores are interpreted by AsciiDoc, and discuss how features like backslash escaping, inline pass macros, triple-plus passthrough, and single plus signs help users control formatting and prevent unwanted substitutions. Use examples to support your explanations.
 
-Make sure your responses are clear, well-structured, and demonstrate your understanding of how these tools enhance the documentation process.
+- Make sure your responses are clear, well-structured, and demonstrate your understanding of how these tools enhance the documentation process.
+
+Make a post and tag @TechnicalWriti6 on Twitter to the link to your document.
+
 :::

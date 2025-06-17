@@ -8,8 +8,7 @@ sidebar_position: 5
 
 Writing for different audiences is necessary for every writer; it involves tailoring your content to ensure it is accessible, engaging, and comprehensible to the readers.
 
-:::tip
-In this module, you will learn how to:
+:::tip[In this module, you will learn how to]
 
 - Identify your audience
 - Tailor your writing to your audience
@@ -251,6 +250,33 @@ Use the second person point of view to refer to your readers, such as "you", and
 > In this documentation, you will learn how to create a hamburger using HTML and CSS.
 
 
+
+import Quiz from "@site/src/components/Quiz";
+
+<Quiz
+  questions={[
+    {
+      text: "One of these is not a step in audience analysis",
+      options: [
+        { value: "1", label: "Information Gathering" },
+        { value: "2", label: "Tailoring your writing to your persona" },
+        { value: "3", label: "Trust and Credibility" },
+      ],
+      correct: "3",
+    },
+    {
+      text: "What is the Bedrock of a successful communication in technical writing?",
+      options: [
+        { value: "1", label: "Audience Identification" },
+        { value: "2", label: "Audience Analysis" },
+        { value: "3", label: "Audience Characteristics" },
+      ],
+      correct: "2",
+    },
+  ]}
+/>
+
+
 ## Avoiding Technical Jargon
 
 ### What is Technical Jargon?
@@ -328,28 +354,3 @@ Follow the instructions below;
 Lastly, tag @Technicalwrit6 on Twitter and LinkedIn, stating that this is your exercise for module 2.
 :::
 
-
-import Quiz from "@site/src/components/Quiz";
-
-<Quiz
-  questions={[
-    {
-      text: "One of these is not a step in audience analysis",
-      options: [
-        { value: "1", label: "Information Gathering" },
-        { value: "2", label: "Tailoring your writing to your persona" },
-        { value: "3", label: "Trust and Credibility" },
-      ],
-      correct: "3",
-    },
-    {
-      text: "What is the Bedrock of a successful communication in technical writing?",
-      options: [
-        { value: "1", label: "Audience Identification" },
-        { value: "2", label: "Audience Analysis" },
-        { value: "3", label: "Audience Characteristics" },
-      ],
-      correct: "2",
-    },
-  ]}
-/>

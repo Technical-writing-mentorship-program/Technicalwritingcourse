@@ -76,20 +76,23 @@ In this section, we will walk through how to use Swagger to interact and test AP
 **Step-by-Step Guide**
 
 a. To simply test the endpoints or play around with the API parameters, you can click on
-`**Live Demo**`
+`Live Demo`
 
 ![Swagger UI Demo](./img/swagger-ui-demo.png)
 _**Figure 1:** Swagger UI Live Demo page showcasing real-time testing of API endpoints in an interactive environment_
 
 > We are looking beyond testing endpoints, so let’s create our API document and interact with it on Swagger.
 
-b. Sign up to [Swagger UI](https://swagger.io/tools/swagger-ui/), and you will be sent to the `**Homepage**`, Click on `**Create API**`
+b. Sign up to [Swagger UI](https://swagger.io/tools/swagger-ui/), and you will be sent to the `Homepage`, Click on `Create API`
 
 ![Create API Page](./img/create-api-page.png)
-_**Figure 2:** The 'Create API' page on Swagger UI where users can begin documenting a new API project_
+_**Figure 2:** The **Create API** page on Swagger UI where users can begin documenting a new API project_
 
-> For this tutorial, we will be working with a sample Petstore API. However, if you already have an API to document, Click on **Import API** > **Note: Swagger only permits API in OpenAPI JSON or YAML format**
+> In this tutorial, we will be working with a sample Petstore API. However, if you already have an API to document, Click on **Import API** 
 
+:::info
+Swagger only permits API in OpenAPI JSON or YAML format
+:::
 c. Fill in the Basic information of the sample Petstore API into their respective field.
 
 ![Petstore API Info Form](./img/petstore-info-form.png)
@@ -226,11 +229,11 @@ After adding new parameters, and changing the response body to suit your use cas
 
 - Click on **Try it out** under each request and see the real-time response below.
   ![Try it out Button in Swagger](./img/try-it-out-button.png)
-  _**Figure 6:** The 'Try it out' button in Swagger UI_
+  _**Figure 6:** The **Try it out** button in Swagger UI_
 
 - Click on **Execute** to see the real-time response
   ![Execute Button and Response in Swagger](./img/execute-button.png)
-  _**Figure 7:** The "Execute" button in Swagger UI, which sends the request and displays the response below_
+  _**Figure 7:** The **Execute** button in Swagger UI, which sends the request and displays the response below_
 
 ## Non-Interactive Tools
 
@@ -252,11 +255,11 @@ Non-interactive tools are more focused on providing detailed API information and
 
 In this hands-on section, we will use the Petstore API as our example and demonstrate how to document it using Docusaurus, a powerful static site generator.
 
-## Docusaurus
+### Docusaurus
 
 In this section, we will walk through how to use Docusaurus to create a static site for our API documentation.
 
-## Install Docusaurus
+### Install Docusaurus
 
 [(See complete documentation here)](https://docusaurus.io/docs/installation)
 
@@ -287,7 +290,7 @@ Open `http://localhost:3000` in your browser to see the default Docusaurus site.
 Tip: For the next steps, Use a code editor of your choice for easy visualization and Debugging.
 For this sample tutorial, I used **Visual Studio Code**
 
-## Edit the Template:
+### Edit the Template
 
 a. Once you have successfully downloaded Docusaurus, you can open it using Visual studio code
 
@@ -302,11 +305,9 @@ b. In the `docs` folder, you will see `intro.md`, this is where we will be addin
 Docusaurus supports Markdown and React pages
 :::
 
----
 
-## sidebar_position: 1
 
-## API Documentation Intro
+### API Documentation Intro
 
 This is a sample Petstore API endpoint built on **Docusaurus in less than 5 minutes**.
 
@@ -326,7 +327,7 @@ This is a sample Petstore API endpoint built on **Docusaurus in less than 5 minu
         description: Production server
 ````
 
-## API Endpoints
+#### API Endpoints
 
 Next, document the API endpoints. Include the paths, HTTP methods, parameters, and responses.
 
@@ -397,13 +398,13 @@ paths:
               $ref: "#/components/schemas/Error"
 ```
 
-## Add Component Schemas
+### Add Component Schemas
 
 Schemas are reusable codes. They help in defining the structure of the data returned by the API.
 
 We are going to include the reusable schemas for `Pet` and `Error`.
 
-### Pet Schema
+#### Pet Schema
 
 ```yaml showLineNumbers
 components:
@@ -423,7 +424,7 @@ components:
           type: string
 ```
 
-### Error Schema
+#### Error Schema
 
 ```yaml showLineNumbers
 Error:
@@ -439,7 +440,7 @@ Error:
       type: string
 ```
 
-## Preview of the API Documentation
+### Preview of the API Documentation
 
 **Live View of the site:** [Petstore Sample API](https://petstore-api-docs.vercel.app/)
 This is how your API documentation site should look like:
@@ -490,8 +491,6 @@ Here are popular API documentation tools and their unique features.
 | 9.      | Slate              | **Moderate**    | **Moderate**             | **High**          | **Moderate**    | **Markdown**               |
 
 
-
-## Answer the following questions
 
 
 import Quiz from '@site/src/components/Quiz';

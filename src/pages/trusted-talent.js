@@ -110,13 +110,11 @@ export default function TrustedTalent() {
 
         <p>
           At our disposal, we have a talented pool of trusted writers who are
-          poised to create world-class content tailored to your needs.
-        </p>
-        <p>
-          Whether you require assistance with technical writing, documentation,
+          poised to create world-class content tailored to your needs.  Whether you require assistance with technical writing, documentation,
           API guides, or any other aspect of technical articles, we’ve got you
           covered.
         </p>
+
         <p>
           Feel free to reach out to us, and let’s embark on a journey of
           exceptional content creation together!

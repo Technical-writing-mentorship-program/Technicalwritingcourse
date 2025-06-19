@@ -1,4 +1,4 @@
-import semrush from './image/semrush.png';
+import semrush from './Image/semrush.jpg';
 import hugoMigration from "/img/hugo-to-docusaurus.png";
 import JavascriptVariables from './Image/JavascriptVariables.png';
 import styles from './styles.module.css';

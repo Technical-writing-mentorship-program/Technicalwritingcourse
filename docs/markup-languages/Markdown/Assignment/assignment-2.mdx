@@ -7,33 +7,46 @@ keywords: ["markdown practice", "markdown assignment", "markdown exercise", "mar
 sidebar_position: 2
 ---
 
-**Objective:** Write a Markdown page for a coding tutorial that explains a programming concept or demonstrates a coding example, including step-by-step instructions.
+:::tip Objective
 
+Write a Markdown page for a coding tutorial that explains a programming concept or demonstrates a coding example, including step-by-step instructions.
+:::
+---
+## Learning Goals
 - **Concept Overview**: Describe the programming concept or technique.
 - **Code Examples**: Provide code snippets demonstrating the concept.
 - **Step-by-Step Instructions**: Outline the steps involved in the tutorial.
 - **Images**: Include screenshots of code or results if applicable.
+---
+## Instructions
+:::info Editor Required
+Use Visual Studio Code (VSCode) to write and preview your Markdown.
+:::
 
-1. **Instructions**
+**1. Testing Locally**
 
-   a. **Editor**: Use Visual Studio Code (VSCode) to write and preview your Markdown.
+- Preview using Ctrl + Shift + V in VSCode.
 
-   b. **Testing Locally**: Make sure your Markdown file is rendered correctly by previewing it in VSCode. Test locally before submission.
-  
-   c. **Folder Structure**: Create a folder named `markdown-code-tutorial`, and inside it, create a `TUTORIAL.md` file for your content and an `images/` folder for any tutorial images.
+- Ensure everything renders before submission.
 
-2. **Folder Structure Example**
+**2. Folder Structure** 
+
+- Create a folder named `markdown-code-tutorial` 
+- In the folder, create a `TUTORIAL.md` file for your content.
+
+> **Folder Structure Example**
 
 ```bash showLineNumbers{1-8}
     markdown-code-tutorial/
     │
     └───TUTORIAL.md   # Your Markdown tutorial page
-    └───images/       # Folder for tutorial-related images
+ 
+   └───images/       # Folder for tutorial-related images
         └───code-example.png  # Example screenshot of code
         └───output.png        # Example screenshot of output
 ```
-
-## Project Template
+<details>
+<summary> **Project Template** </summary>
 ### Coding Tutorial: JavaScript Basics
 #### Overview
 
@@ -61,11 +74,13 @@ This tutorial covers the basics of JavaScript, including variables, functions, a
       console.log(i);
     }
 ```
+</details>
 
-#### Step-by-Step Instructions
+
+:::info Step-by-Step Instructions
 
 1. **Introduction**: Understand the basics of JavaScript syntax.
 2. **Variables**: Learn how to declare and use variables.
 3. **Functions**: Create reusable functions to organize your code.
 4. **Loops**: Use loops to iterate over data.
-
+:::

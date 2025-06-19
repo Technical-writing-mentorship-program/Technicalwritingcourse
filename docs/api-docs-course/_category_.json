@@ -1,6 +1,7 @@
 {
   "label": "API Documentation Course",
   "position": 2,
+  "className": "api-docs-course",
   "link": {
     "type": "generated-index",
     "description": "Explore our API Documentation Course"

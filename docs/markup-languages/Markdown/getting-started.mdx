@@ -19,17 +19,16 @@ From the previous lesson, you’ve learnt what Markdown is, its Importance, its 
 
 Here is saying “_The best way to learn is to practice_” This way you will be able to identify common errors and avoid them in your next project. In this lesson, you will be doing a lot of practicals and getting your hands dirty in markdown.
 
-:::tip
-In the lesson, you will learn:
+:::tip[In the lesson, you will learn]
 
 - How to set up Markdown tools.
 - Markdown basic syntaxes and formatting.
 - How to structure contents in Markdown.
   :::
 
-## Let's Get the ball Rolling
+## Let's Get Started
 
-You must have got used to downloading and installing packages before you can use certain tools or software on your computers. In this case, you won’t need that at all, as some applications already support writing in Markdown such as Code editors like [VScode](http://code.visualstudio.com) for `Read.md` \*\*files, Blog sites like [Hashnode](http://hashnode.com), [Dev.to](http://dev.to), social apps like [Discord](http://discord.com), [Slack](http://slack.com), [Whatsapp](http://web.whatsapp.com) etc.
+You must have got used to downloading and installing packages before you can use certain tools or software on your computers. In this case, you won’t need that at all, as some applications already support writing in Markdown such as Code editors like [VScode](http://code.visualstudio.com) for `Read.md` files, blog sites like [Hashnode](http://hashnode.com), [Dev.to](http://dev.to), social apps like [Discord](http://discord.com), [Slack](http://slack.com), [Whatsapp](http://web.whatsapp.com) etc.
 
 Aside from these, there are Markdown editors the same way there are Code editors. Markdown editors are **simple, lightweight tools for converting text to HTML. They can be used to format lists, headers, and importantly, to add images, videos, and links**.
 
@@ -83,7 +82,7 @@ There are six levels of heading as seen below:
 
 #### Syntax
 
-```markdown showLineNumbers{1-6}
+```markdown showLineNumbers{1-11}
 # Heading One (H1)
 
 ## Heading Two (H2)
@@ -187,11 +186,14 @@ Add dashes (`-`), asterisks (`*`), or plus signs (`+`) in front as seen below �
 
 <details>
   <summary>Toggle to preview the result</summary>
+- First item
+- Second item
+- Third item
+  - Indented item
+  - Indented item
+    - Extra item
+- Fourth item
 
-<p>
-  - First item - Second item - Third item - Indented item - Indented item -
-  Extra item - Fourth item
-</p>
 
 </details>
 
@@ -362,11 +364,11 @@ Don’t add space between the column
 
 ```markdown showLineNumbers{1-6}
     Right ✅
-    | Frontend | Backend | Smart contract|
-    |:---|:---|:---|
-    | Html | Python | Solidity |
-    | Css | Node.js | Rust |
-    | Javascript | PhP | Vyper |
+    | Frontend   | Backend | Smart contract|
+    |:---------  |:--------|:--------------|
+    | Html       | Python  | Solidity      |
+    | Css        | Node.js | Rust          |
+    | Javascript | PhP     | Vyper         |
 ```
 
 ```markdown showLineNumbers{1-10}
@@ -419,11 +421,11 @@ You can align text in the columns to the left, right, or centre.
 ##### Syntax For Right Alignment
 
 ```markdown showLineNumbers{1-5}
-1| Frontend | Backend | Smart contract|
-2|---:|---:|---:|
-3| Html | Python | Solidity |
-4| Css | Node.js | Rust |
-5| Javascript | PhP | Vyper |
+1| Frontend   | Backend | Smart contract|
+2|---------:  |--------:|--------------:|
+3|   Html     | Python  |   Solidity    |
+4|   Css      | Node.js |    Rust       |
+5| Javascript |  PhP    |    Vyper      |
 ```
 
 ##### Result For Right Alignment
@@ -446,17 +448,19 @@ You can align text in the columns to the left, right, or centre.
 
 ```markdown showLineNumbers{1-5}
 |  Frontend  | Backend | Smart contract |
-| :--------: | :-----: | :------------: |
+| :--------- | :-------| :------------- |
 |    Html    | Python  |    Solidity    |
 |    Css     | Node.js |      Rust      |
 | Javascript |   PhP   |     Vyper      |
 ```
 
+
+##### Result For Left Alignment
+
 <details>
   <summary>Toggle to preview the result</summary>
 
   <p>
-##### Result For Left Alignment
 
 | Frontend   | Backend | Smart contract |
 | :--------- | :------ | :------------- |
@@ -518,3 +522,49 @@ Check the output below
 The best way to learn markdown is to use it at all times e.g. after this lesson, write an article in StackEdit.
 
 See you in the next lesson.
+
+
+
+import Quiz from '@site/src/components/Quiz';
+
+<Quiz
+  questions={[
+    {
+      text: 'How do you add images in Markdown?',
+      options: [
+        { value: '1', label: '(https://google.com/getting-started/)[Home Page]!' },
+        { value: '2', label: '(https://google.com/getting-started/)![Home Page]' },
+        { value: '3', label: '[Home Page]!(https://google.com/getting-started/)' },
+        { value: '4', label: '![Home Page](https://google.com/getting-started/)' }
+      ],
+      correct: '4'
+    },
+    {
+      text: 'How do you center align texts in a Markdown table?',
+      options: [
+        { value: '1', label: 'add : on both sides of the hypens within the header row' },
+        { value: '2', label: 'add : on the left side of the hypens within the header row' },
+        { value: '3', label: 'add : on the right side of the hypens within the header row' },
+        { value: '4', label: ' do not add : on either sides of the hypens within the header row' }
+      ],
+      correct: '1'
+    }
+  ]}
+/>
+
+
+&nbsp;
+
+:::tip[Exercise]
+
+In 300 words, describe how to set up and use Markdown for technical documentation, focusing on the three most essential formatting elements covered in the guide. Include practical examples using proper Markdown syntax to demonstrate:
+
+- How to create document headers and organize content hierarchy
+- How to emphasize text appropriately
+- How to create either ordered or unordered lists
+
+Support your explanation with code examples 
+
+After review, make a post and tag @TechnicalWriti6 on Twitter to the link to your document.
+
+:::

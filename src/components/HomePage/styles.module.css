@@ -17,7 +17,7 @@
 	flex-direction: row-reverse;
 }
 
-.content {
+.titleContainer, .aboutContainer {
 	flex: 1;
 	max-width: 600px;
 	text-align: left;
@@ -35,6 +35,15 @@
 	font-family: Bebas Neue, "Arial";
 }
 
+.content {
+	padding: 0px;
+	margin: 0px;
+	align-items: flex-start;      
+	justify-content: flex-start; 
+	display: flex;
+	flex-direction: column;
+}
+
 .subtitle {
 	font-size: 1.0rem;
 	font-weight: 500;
@@ -44,7 +53,6 @@
 }
 
 .button {
-	display: inline-block;
 	padding: 1rem 2rem;
 	background-color: #8c52ff;
 	color: white;
@@ -54,6 +62,9 @@
 	font-size: 1rem;
 	font-style: Instrument Sans, "Arial";
 	transition: background-color 0.3s ease;
+	margin-left: 3rem;
+	width: auto;                        
+	align-self: flex-start; 
 }
 
 .button:hover {
@@ -82,7 +93,7 @@
 		text-align: center;
 	}
 
-	.content {
+	.titleContainer, .aboutContainer {
 		max-width: 100%;
 		margin-left: 0;
 	}
@@ -96,6 +107,7 @@
 	}
 
 	.button {
-		margin: 0 auto;
+		margin: 0 0;
 	}
+
 }

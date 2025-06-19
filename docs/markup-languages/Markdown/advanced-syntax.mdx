@@ -11,7 +11,7 @@ keywords:
     "markdown tips",
     "markdown tools",
     "markdown style guide",
-    "markdown formatting tips",
+    "markdown formatting tips"
   ]
 ---
 
@@ -19,14 +19,12 @@ You have covered some of the basic syntax in Markdown in the previous lessons; y
 
 In this section, you'll look at Markdown's advanced syntax and formatting. So, stay sharp; there's more to uncover as you explore the advanced layers of syntax and formatting.
 
-:::tip
-**What you'll Cover in This Lesson:**
+:::tip[What you'll cover in this lesson]
 
 - Advanced Syntax and Formatting in Markdown.
 - Linking and Organization.
 - Structuring and managing markdown files.
   :::
-  Now that you have an overview of what you will cover, let's get started.
 
 ## Tables
 
@@ -202,7 +200,6 @@ Table generators can be very useful for creating large and complex tables as it 
 3. [Ascii Table Generator:](https://ozh.github.io/ascii-tables/) Here, you can create ASCII-styled tables that can be used in Markdown format.
 4. [Table to Markdown:](https://tabletomarkdown.com/) This tool can convert HTML tables to Markdown format.
 
----
 
 ## Code Blocks
 
@@ -235,7 +232,7 @@ This is also known as a multi-line code block; it is used to create code blocks 
 
 **Example:**
 
-````markdown showLineNumbers {1-6}
+````markdown showLineNumbers {1-7}
 ```
   {
     'firstName':'James';
@@ -405,7 +402,7 @@ Not all markdown processors support Highlight, but if your markdown editor suppo
 
 The output would be the same.
 
----
+
 
 ## Heading IDs
 
@@ -425,7 +422,7 @@ In Markdown, you can create a heading with a custom ID by using curly braces `{}
   </p>
 </details>
 
-#### Linking to Heading IDs
+### Linking to Heading IDs
 
 Once a heading has an ID, you can create a link that jumps to that heading within the same document.
 
@@ -437,11 +434,11 @@ When you click this link, it will take you directly to the heading you created e
 
 This allows you to create internal links within your Markdown document, directing readers to specific sections.
 
-#### Multiple Headings with IDs
+### Multiple Headings with IDs
 
 You can add IDs to multiple headings throughout your document for easy navigation.
 
-```markdown showLineNumbers{1-4}
+```markdown showLineNumbers{1-7}
 ## Table of content
 
 ### Introduction {#introduction}
@@ -492,7 +489,7 @@ You may deactivate automated URL linking and prevent the link from being clickab
 
 &nbsp;&nbsp;&nbsp;&nbsp; `https://technicalwritingmp.com/`
 
-#### External Links
+### External Links
 
 The markdown for external links is the same for internal links, except you use the full URL
 
@@ -715,7 +712,7 @@ GitHub's recommended [shortcode cheat sheet](https://jimit105.github.io/github-e
 
 Markdown allows you to include mathematical expressions both inline and as standalone blocks using [LaTeX syntax](https://en.wikipedia.org/wiki/LaTeX). Here’s a guide on how to use both types:
 
-#### Inline Math
+### Inline Math
 
 You can insert short mathematical expressions within a line of text using single dollar signs ($).
 
@@ -727,7 +724,7 @@ You can insert short mathematical expressions within a line of text using single
 
 &nbsp;&nbsp;&nbsp;&nbsp;This is an inline math example: \\( E = mc^2 \\)
 
-#### Block Math
+### Block Math
 
 For larger, standalone mathematical expressions, use double dollar signs ($$) to create block math. These are usually centered on the page and are easier to read for more complex equations.
 
@@ -794,3 +791,53 @@ Even just a short daily walk can make a big difference[^bignote].
 [^bignote]: A 30-minute walk each day can improve cardiovascular health. It’s a simple habit that can also help with weight management, reduce stress, and increase overall fitness. Even if you have a busy schedule, fitting in a quick walk can lead to significant long-term benefits
 
 </details>
+
+import Quiz from '@site/src/components/Quiz';
+
+<Quiz
+  questions={[
+    {
+      text: 'How do you highlight a text in Markdown?',
+      options: [
+        { value: '1', label: 'Wrap the text in between two equal (==test==) symbols' },
+        { value: '2', label: 'Wrap the text in between two quotes (""test"") symbols' },
+        { value: '3', label: 'Wrap the text in between two asterisks (**test**) symbols' },
+        { value: '4', label: 'Wrap the text in between two underscore (__test__) symbols' }
+      ],
+      correct: '1'
+    },
+    {
+      text: 'Which of the following can used to create a collection of terms and their meanings?',
+      options: [
+        { value: '1', label: 'Unordered lists' },
+        { value: '2', label: 'Indented lists' },
+        { value: '3', label: 'Ordered lists' },
+        { value: '4', label: ' Definition lists' }
+      ],
+      correct: '4'
+    }
+  ]}
+/>
+
+
+&nbsp;
+
+:::tip[Exercise]
+
+In 250 words, explain how to create and format tables in Markdown, including:
+
+- Basic table structure
+- Text alignment options
+- Handling special characters
+- Include practical examples using proper Markdown syntax to demonstrate each concept.
+
+
+**Evaluation criteria**
+- Correct table syntax usage
+- Clear explanation of alignment options
+- Proper handling of special characters like pipes (\|)
+- Overall table readability
+
+After review, make a post and tag @TechnicalWriting6 on Twitter to the link to your document.
+
+:::

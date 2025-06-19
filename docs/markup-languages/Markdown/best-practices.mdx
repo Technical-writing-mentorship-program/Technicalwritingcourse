@@ -14,8 +14,7 @@ keywords:
   ]
 ---
 
-:::tip
-In this lesson, you will be learning:
+:::tip[In this lesson, you will learn]
 
 - Best tips and practices in markdown.
 - Markdown style guides.
@@ -223,12 +222,15 @@ Check the preview below:
      | Edun Rilwan       | edun...@gmail.com |
      | Oladapo Alexandra | alex...@gmail.com |
 
-    _NOTE: Both format will render your table correctly. However, it is useful when editing your markdown file and sharing it with others.
+</p>
+</details>
+
+:::note
+Both format will render your table correctly. However, it is useful when editing your markdown file and sharing it with others.
 
 Editors can quickly find out which column each row data belongs to.\_
 
-</p>
-</details>
+:::
 
 7. **Using backticks for writing code:**
 
@@ -343,7 +345,38 @@ This tip allows you to create a clickable image in markdown. This image is wrapp
    </p>
 </details>
 
-## Consistent formatting and styles in markdown
+import Quiz from "@site/src/components/Quiz";
+
+<Quiz
+	questions={[
+		{
+			text: "Which of following statements will be displayed as heading 1 in Markdown?",
+			options: [
+				{
+					value: "a",
+					label: "#### What is Markdown?",
+				},
+				{ value: "b", label: "# Consistent Formatting in Technical Writing" },
+				{ value: "c", label: "### Markdown is a Markup Language" },
+				{ value: "d", label: "## Popular Style Guides in Technical Writing" },
+			],
+			correct: "b",
+		},
+		{
+			text: "Which of the following is not a tool for Markdown formatting?",
+			options: [
+				{ value: "a", label: "StackEdit" },
+				{ value: "b", label: "GhostWriter" },
+				{ value: "c", label: "Dillinger" },
+				{ value: "d", label: "Git" },
+			],
+			correct: "d",
+		},
+	]}
+/>
+
+
+## Consistent Formatting and Styles in Markdown
 
 There are different style guides for creating consistent styles in markdown. Each documentation provides detailed guide on how to ensure consistency in markdown. Here is a list of some of these guide:
 
@@ -351,7 +384,7 @@ There are different style guides for creating consistent styles in markdown. Eac
 2. [Formatting standards for readable & consistent Markdown](https://github.com/carwin/markdown-styleguide) by Carwin on GitHub.
 3. [Markdown style guide](https://docs.gruntwork.io/guides/style/markdown-style-guide/) by Gruntwork docs.
 
-## Tools for markdown editing
+## Tools for Markdown Editing
 
 There are various tools used for writing and editing markdown files. Below is a list of the top 5 markdown editing tools:
 
@@ -430,3 +463,15 @@ _**Fig 5.** Start writing with Mou editor_
 
 **Pricing**:
 Mou is a free markdown editor for MacOS systems
+
+:::tip[Exercise]
+**Complete the following exercise before proceeding to the next module.**
+
+- Explain how Consistent formatting can be achieved in Markdown.**
+
+- In your answer, use any of the guides listed in the tutorial.
+
+- Make sure your responses are clear, well-structured, and that they demonstrate your understanding of the subject.
+
+Make a post and tag @TechnicalWriti6 on Twitter to the link to your document.
+:::

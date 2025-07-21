@@ -117,8 +117,22 @@ const config = {
             position: "left",
             label: "Academy",
           },
+      // { 
+      //   label: "Cohort", 
+      //   position: "left",
+      //   items: [
+      //     {
+      //       label: "API",
+      //       to: "/cohort/api", // URL path to page one
+      //     },
 
-          { to: "/blog", label: "Blog", position: "left" },
+      //     {
+      //       label: "Product",
+      //       to: "/cohort/product", // URL path to page one
+      //     },
+      //   ],
+      // },
+        { to: "/blog", label: "Blog", position: "left" },
           { to: "/write-for-us", label: "Write for us", position: "left" },
 
           {
@@ -194,6 +208,14 @@ const config = {
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Technical Writing Mentorship Program`,
       },
+
+algolia: {
+  appId: '6XU5JO5BGK',
+  apiKey: '597fc683aca1fea4d88169c42926d462',
+  indexName: 'technicalwritingmp',
+  contextualSearch: true,
+},
+
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,

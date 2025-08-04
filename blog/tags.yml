@@ -127,3 +127,16 @@ hugo:
   label: Hugo
   permalink: /hugo
   description: Hugo
+
+docusaurus:
+  label: Docusaurus
+  permalink: /blog/tags/docusaurus
+
+beginners:
+  label: Beginners
+  permalink: /blog/tags/beginners
+
+documentation:
+  label: Documentation
+  permalink: /blog/tags/documentation
+  description: Documentation

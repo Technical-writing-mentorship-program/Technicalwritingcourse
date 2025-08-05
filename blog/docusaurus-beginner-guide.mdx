@@ -39,6 +39,45 @@ Other available themes include:
 
 Each theme gives your site different powers. You can explore these based on your needs.
 
+## How to Know Which Docusaurus Theme You’re Using
+
+To find out which theme you’re using, follow these steps:
+
+1. **Open your project folder.**
+2. Look for the file named `docusaurus.config.js`.
+3. Inside that file, scroll down until you find a section that looks like this:
+
+```js
+presets: [
+  [
+    'classic',
+    {
+      docs: {
+        // config options here
+      },
+      blog: {
+        // config options here
+      },
+      theme: {
+        customCss: require.resolve('./src/css/custom.css'),
+      },
+    },
+  ],
+],
+```
+
+The word `'classic'` means you're using the **Classic theme**.
+
+If you're using another theme or plugin-based layout, it may show something else like:
+
+```js
+presets: [
+  '@docusaurus/preset-openapi', // for API reference sites
+]
+```
+
+This tells you which design and features are enabled in your Docusaurus project.
+
 
 ## What You Need Before Starting
 

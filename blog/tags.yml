@@ -133,3 +133,6 @@ beginners:
   permalink: /beginners
   description: Beginners
 
+contributors:
+  label: Contributors
+  permalink: /blog/tags/contributors

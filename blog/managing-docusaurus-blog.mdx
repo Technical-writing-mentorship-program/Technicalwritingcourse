@@ -1,0 +1,283 @@
+---
+title: How to Manage a Docusaurus Blog with Multiple Contributors
+description: Learn how to use VS Code and Docusaurus to manage a blog site that supports multiple contributors and displays their profiles
+slug: /managing-docusaurus-blog
+date: 2025-08-07
+authors: [samyben]
+tags: [docusaurus, blog, contributors]
+---
+
+{/* truncate */}
+
+![Docusaurus Logo](./img/docusaurus.png)
+
+
+So you've built a basic Docusaurus site. Now you want to take it further. Maybe turn it into a real community blog. You want contributions. You want author images and bios to show. You want tags and categories to make your content searchable.
+
+Let’s make it happen. This guide will walk you through managing a Docusaurus blog, enabling public contributions, and structuring your content in a maintainable way, all using VS Code.
+### Initial Setup
+
+First, make sure you have Node.js and Git installed. Then, scaffold your Docusaurus site:
+
+```bash
+npx create-docusaurus@latest my-blog classic
+cd my-blog
+npm install
+npm start
+```
+
+This creates a classic Docusaurus setup with a blog included by default.
+
+
+### Folder Structure Explained
+
+In the `my-blog` project folder, note the following structure:
+
+```
+my-blog/
+├── blog/
+│   ├── my-first-post.md
+│   ├── another-post.md
+├── blog-authors.yml
+├── src/
+│   └── pages
+├── docusaurus.config.js
+```
+
+* **blog/**: This contains all blog articles written in Markdown.
+* **blog-authors.yml**: This YAML file defines contributors.
+* **docusaurus.config.js**: Central configuration file for the whole site.
+
+
+### Adding a Blog Post**
+
+To add a new post, create a new markdown file in the `blog/` folder:
+
+```bash
+advanced-docusaurus-blog.md
+```
+
+Inside the markdown file, start with front matter:
+
+```markdown
+---
+title: "Managing Docusaurus Blog for Contributors"
+authors:
+  - samuelbenson
+tags: [docusaurus, blog, contribution]
+---
+
+This is an example article.
+```
+
+### 4. Set Up Author Metadata with `authors.yml`
+
+To manage contributor information without repeating details in every markdown file, you can create an `authors.yml` file inside the blog folder.
+
+This method allows you to reference authors using a `key` in your blog markdown file.
+
+**Why use `key`?**
+
+The `key` acts as a unique identifier that pulls the author's name, picture, and title from `authors.yml`. This keeps your blog files clean and easy to maintain.
+
+#### Folder structure:
+
+```
+my-docusaurus-site/
+├── blog/
+│   ├── my-first-blog-post.md
+│   ├── another-post.md
+│   └── authors.yml
+```
+
+#### Sample `authors.yml`:
+
+```yaml
+samyben:
+  name: Samuel Benson
+  title: Technical Writer
+  url: https://github.com/Samuel-Benso
+  image_url: https://avatars.githubusercontent.com/u/12345678?v=4
+
+janedoe:
+  name: Jane Doe
+  title: DevOps Engineer
+  url: https://janedoe.dev
+  image_url: https://avatars.githubusercontent.com/u/87654321?v=4
+```
+
+> You can copy your GitHub profile image link by opening your GitHub profile, right-clicking the avatar, and selecting “Copy Image Address.”
+
+#### Sample blog markdown:
+
+```md
+---
+slug: my-first-blog
+title: My First Blog Post
+authors: [samyben]
+tags: [introduction, docusaurus]
+---
+
+Welcome to my blog post written in Markdown. This was contributed by Samuel.
+```
+
+If you want to add multiple contributors:
+
+```md
+authors: [samyben, janedoe]
+```
+
+This setup will automatically display their names, roles, and profile pictures at the end of the post.
+
+
+### Understanding the blog frontmatter
+
+Each blog post starts with frontmatter. Here's a breakdown:
+
+```markdown
+---
+title: "How to Contribute to the Blog"
+description: "Guide for new contributors to our Docusaurus blog."
+authors:
+  - samuelbenson
+tags: [contribution, docusaurus, writing]
+keywords: [Docusaurus, blog, contribution]
+---
+```
+
+**Explanation:**
+
+* **title**: Post title.
+* **description**: Short snippet shown in previews.
+* **authors**: Keys from `blog-authors.yml`. Use an array if there are multiple authors.
+* **tags**: Help group content by category.
+* **keywords**: Improve SEO.
+
+
+### Using tags.yaml for Tag Definitions
+
+Create `tags.yaml` in the root (blog) folder:
+
+```yaml
+docusaurus:
+  label: Docusaurus
+  description: Posts about Docusaurus blog and site management.
+
+contribution:
+  label: Contribution
+  description: Posts focused on helping contributors write.
+```
+
+#### What `tags.yml` Does in Docusaurus
+
+In a Docusaurus blog, `tags.yml` is used to **define metadata** about blog post tags. Each tag in your blog (e.g. `#Beginner`, `#DevTools`, `#API`) can have more descriptive information such as a label, description, and permalink.
+
+
+#### Where It’s Found
+
+You’ll typically find it here:
+
+```
+/blog/tags.yml
+```
+
+
+#### Example `tags.yml` File:
+
+```yaml
+beginner:
+  label: Beginner
+  permalink: /blog/tags/beginner
+  description: Posts suitable for beginners in technical writing or documentation.
+
+vscode:
+  label: VS Code
+  permalink: /blog/tags/vscode
+  description: Posts related to Visual Studio Code setup, extensions, and usage.
+
+docusaurus:
+  label: Docusaurus
+  permalink: /blog/tags/docusaurus
+  description: Tips and tutorials related to Docusaurus usage and configuration.
+```
+
+#### Why It’s Important
+
+* It ensures **tag pages are well-structured** and user-friendly.
+* Helps with **SEO**: Each tag can have a unique URL and description.
+* Makes your blog **more navigable**: Tags show up as clickable filters in your blog UI.
+
+
+#### How to Use
+
+When you write your frontmatter and assign it tags like this:
+
+```md
+tags: [beginner, vscode]
+```
+
+Docusaurus will look in `tags.yml` to display the tag label, description, and link it to a proper `/tags/{tag}` page.
+
+
+### Running Locally with VS Code
+
+In VS Code:
+
+1. Open the folder.
+2. Use the integrated terminal to run:
+
+```bash
+npm start
+```
+
+3. Your site will be live at `http://localhost:3000`.
+4. Modify files in real-time and see changes.
+
+
+### Enable GitHub Contributions
+
+To allow external contributions:
+
+* Push your Docusaurus repo to GitHub.
+* Create a `.github/CONTRIBUTING.md` file explaining how to add posts.
+* Example:
+
+```markdown
+## How to Contribute
+
+1. Fork the repo
+2. Create a new branch
+3. Add your blog post in `/blog`
+4. Update `blog-authors.yml` with your info
+5. Commit and push
+6. Open a pull request
+```
+
+
+### Common Issues and Fixes
+
+* **Issue:** Author image not loading
+
+* **Fix:** Make sure the `image_url` is a direct image link (ends in `.jpg`, `.png`, etc.)
+
+* **Issue:** Post not showing
+
+* **Fix:** Ensure the date in filename is valid and frontmatter is correct
+
+* **Issue:** Contributor name not appearing
+
+* **Fix:** The key in frontmatter must match the key in `blog-authors.yml`
+
+
+### Final Checklist
+
+* [x] Blog file named with date
+* [x] Frontmatter has `authors`, `title`, `tags`
+* [x] Author key is defined in `blog-authors.yml`
+* [x] Images are correctly linked
+* [x] Blog appears on `/blog`
+
+
+### Conclusion
+
+With Docusaurus and VS Code, you can create a flexible, open-source blog platform for multiple contributors. Managing posts, defining authors, using GitHub for collaboration, and organizing your blog for clarity will position your documentation site for long-term success. Happy documenting!

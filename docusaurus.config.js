@@ -117,6 +117,7 @@ const config = {
             position: "left",
             label: "Academy",
           },
+<<<<<<< HEAD
           { label: "Alumni", position: "left",
             items: [
               {
@@ -124,6 +125,8 @@ const config = {
               },
             ]
         //   },
+=======
+>>>>>>> parent of c5019a7 (Co-authored-by: Samuel-Benso <samyben554@gmail.com>)
       // { 
       //   label: "Cohort", 
       //   position: "left",

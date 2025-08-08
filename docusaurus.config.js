@@ -117,6 +117,13 @@ const config = {
             position: "left",
             label: "Academy",
           },
+          { label: "Alumni", position: "left",
+            items: [
+              {
+          label: "/2024," // URL path to page one
+              },
+            ]
+         },
       // { 
       //   label: "Cohort", 
       //   position: "left",

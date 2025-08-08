@@ -123,7 +123,7 @@ const config = {
           label: "/2024," // URL path to page one
               },
             ]
-         },
+        //   },
       // { 
       //   label: "Cohort", 
       //   position: "left",

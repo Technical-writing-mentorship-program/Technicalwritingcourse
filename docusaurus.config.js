@@ -122,7 +122,7 @@ const config = {
   position: "left",
   items: [
     {
-      label: "/2024", // URL path to page one
+      label: "2024", to: "/2024", // URL path to page one
     },
   ],
 },

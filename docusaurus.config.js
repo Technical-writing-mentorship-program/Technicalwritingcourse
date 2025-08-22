@@ -13,6 +13,7 @@ const config = {
   title: "Technical Writing Mentorship Program",
   tagline: "TWMP",
   favicon: "img/favicon.svg",
+  plugins: ["./src/plugins/tailwind-config.js"],
 
   // Set the production url of your site here
   url: "https://technicalwritingmp.com/",

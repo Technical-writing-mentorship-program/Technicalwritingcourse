@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Edun Rilwan",
+        "role": "Technical writer & Software developer",
+        "bio": "I build Software solutions and write about technologu",
+        "imgURL": "https://media.licdn.com/dms/image/v2/D5603AQGtHMpTYdjWwA/profile-displayphoto-shrink_400_400/B56ZTRxPe1HwAg-/0/1738686135680?e=1757548800&v=beta&t=tBNXXL-tZJpxY4qpZ05BeLNd7Gcd-JiRr-NlGcrg8Bo",
+        "projects": [
+            {
+                "type": "api",
+                "title": "PLAID API DOCUMENTATION",
+                "description": "A revamp of the PLAID API documentation",
+                "link": "https://abstract-python.vercel.app/",
+                "tags": "Fintech, Postman, API Testing"
+            },
+
+            {
+                "type": "api",
+                "title": "TMDB API DOCUMENTATION",
+                "description": "A revamp of The Movie Database API documentation",
+                "link": "https://abstract-python.vercel.app/",
+                "tags": "OAS, Postman, API Testing, APIs"
+            }
+        ]
+    },
+
+    {
+        "name": "Etugbo Judith",
+        "role": "Technical writer & Software developer",
+        "bio": "I build Software solutions and write about technologu",
+        "imgURL": "https://media.licdn.com/dms/image/v2/D4D03AQFGtXJS1tDy0Q/profile-displayphoto-scale_400_400/B4DZhhb.HUHwAg-/0/1753981381054?e=1757548800&v=beta&t=wvSJwVICS8XnS4zm7FEK1BQieye5b21nqUgCg07DXBE",
+        "projects": [
+            {
+                "type": "api",
+                "title": "PLAID API DOCUMENTATION",
+                "description": "A revamp of the PLAID API documentation",
+                "link": "https://abstract-python.vercel.app/",
+                "tags": "Fintech, Postman, API Testing"
+            },
+
+            {
+                "type": "api",
+                "title": "TMDB API DOCUMENTATION",
+                "description": "A revamp of The Movie Database API documentation",
+                "link": "https://abstract-python.vercel.app/",
+                "tags": "OAS, Postman, API Testing, APIs"
+            }
+        ]    },
+
+    {
+        "name": "Peace Sandy",
+        "role": "Technical writer & Software developer",
+        "bio": "I build Software solutions and write about technologu",
+        "imgURL": "https://media.licdn.com/dms/image/v2/D4D03AQF48XBl0sVXkA/profile-displayphoto-scale_400_400/B4DZfKw0CXHkAk-/0/1751453486115?e=1757548800&v=beta&t=OgFLOAbtp9rYfTv-LB49UIJMyTTZbPfR9FJDWBpjSNI",
+        "projects": [
+            {
+                "type": "api",
+                "title": "PLAID API DOCUMENTATION",
+                "description": "A revamp of the PLAID API documentation",
+                "link": "https://abstract-python.vercel.app/",
+                "tags": "Fintech, Postman, API Testing"
+            },
+
+            {
+                "type": "api",
+                "title": "TMDB API DOCUMENTATION",
+                "description": "A revamp of The Movie Database API documentation",
+                "link": "https://abstract-python.vercel.app/",
+                "tags": "OAS, Postman, API Testing, APIs"
+            }
+        ]
+    }
+]

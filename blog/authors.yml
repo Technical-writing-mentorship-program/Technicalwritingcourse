@@ -71,3 +71,12 @@ samyben:
     x: SamyD41082
     github:  https://github.com/Samuel-Benso
     linkedin: https://www.linkedin.com/in/samuelbenso
+
+tanja:
+  name: Tanja Lorber
+  title: Senior Technical Editor
+  url:  https://www.linkedin.com/in/tanjalorber/
+  image_url: https://github.com/Nickyshe/Images/blob/cc25c83cca55f6feffbc8d535b69ac9b954909b1/tanja-lorber.jpeg
+  page: true
+  socials:
+    linkedin: https://www.linkedin.com/in/tanjalorber/

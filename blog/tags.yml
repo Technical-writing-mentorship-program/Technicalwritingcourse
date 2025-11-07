@@ -133,3 +133,18 @@ beginners:
   permalink: /beginners
   description: Beginners
 
+  
+writers-block:
+  label: Writers Block
+  permalink: /writers-block
+  description: Writers Block
+
+
+technical-writing:
+  label: Technical Writing
+  permalink: /technical-writing
+  description: Technical Writing
+
+
+
+

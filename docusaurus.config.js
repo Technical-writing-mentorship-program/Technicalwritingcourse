@@ -124,12 +124,12 @@ const config = {
             items: [
               {
                 label: "API",
-                to: "/cohort/api", // URL path to page one
+                to: "/cohorts/api", // URL path to page one
               },
 
               {
                 label: "Product",
-                to: "/cohort/product", // URL path to page one
+                to: "/cohorts/product", // URL path to page one
               },
             ],
           },

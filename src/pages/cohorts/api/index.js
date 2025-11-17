@@ -1,6 +1,6 @@
 import React from "react";
-import data from './mentees.json';
-import MenteeCard from "../../../../components/menteeCard";
+import data from './menteesDetails/first/mentees.json';
+import MenteeCard from "../../../components/menteeCard";
 
 export default function ApiMentees (){
   return (

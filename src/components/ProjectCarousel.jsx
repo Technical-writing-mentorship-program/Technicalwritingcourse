@@ -21,18 +21,18 @@ const projects = [
   }
 ];
 
-const ProjectCarousel = () => {
+const ProjectCarousel = ({ userProjects }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const handlePrev = () => {
-    setCurrentIndex((prevIndex) => (prevIndex === 0 ? projects.length - 1 : prevIndex - 1));
+    setCurrentIndex((prevIndex) => (prevIndex === 0 ? userProjects.length - 1 : prevIndex - 1));
   };
 
   const handleNext = () => {
-    setCurrentIndex((prevIndex) => (prevIndex === projects.length - 1 ? 0 : prevIndex + 1));
+    setCurrentIndex((prevIndex) => (prevIndex === userProjects.length - 1 ? 0 : prevIndex + 1));
   };
 
-  const currentProject = projects[currentIndex];
+  const currentProject = userProjects[currentIndex];
 
   return (
     <div className="relative w-full">
@@ -50,7 +50,7 @@ const ProjectCarousel = () => {
             </span>
           ))}
         </div>
-        <a href={currentProject.previewUrl} className="mt-6 inline-flex items-center gap-2 text-white hover:text-violet-200 font-semibold transition-colors duration-300 group">
+        <a href={currentProject.link} className="mt-6 inline-flex items-center gap-2 text-white hover:text-violet-200 font-semibold transition-colors duration-300 group">
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
           <span className="group-hover:underline">Preview</span>
         </a>

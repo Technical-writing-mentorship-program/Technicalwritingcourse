@@ -11,7 +11,7 @@
                 "title": "PLAID API DOCUMENTATION",
                 "description": "A revamp of the PLAID API documentation",
                 "link": "https://abstract-python.vercel.app/",
-                "tags": "Fintech, Postman, API Testing"
+                "tags": ["Fintech, Postman, API Testing"]
             },
 
             {
@@ -19,7 +19,7 @@
                 "title": "TMDB API DOCUMENTATION",
                 "description": "A revamp of The Movie Database API documentation",
                 "link": "https://abstract-python.vercel.app/",
-                "tags": "OAS, Postman, API Testing, APIs"
+                "tags": ["OAS, Postman, API Testing, APIs"]
             }
         ]
     },
@@ -36,7 +36,7 @@
                 "title": "PLAID API DOCUMENTATION",
                 "description": "A revamp of the PLAID API documentation",
                 "link": "https://abstract-python.vercel.app/",
-                "tags": "Fintech, Postman, API Testing"
+                "tags": ["Fintech, Postman, API Testing"]
             },
 
             {
@@ -44,7 +44,7 @@
                 "title": "TMDB API DOCUMENTATION",
                 "description": "A revamp of The Movie Database API documentation",
                 "link": "https://abstract-python.vercel.app/",
-                "tags": "OAS, Postman, API Testing, APIs"
+                "tags": ["OAS, Postman, API Testing, APIs"]
             }
         ]    },
 
@@ -60,7 +60,7 @@
                 "title": "PLAID API DOCUMENTATION",
                 "description": "A revamp of the PLAID API documentation",
                 "link": "https://abstract-python.vercel.app/",
-                "tags": "Fintech, Postman, API Testing"
+                "tags": ["Fintech, Postman, API Testing"]
             },
 
             {
@@ -68,7 +68,7 @@
                 "title": "TMDB API DOCUMENTATION",
                 "description": "A revamp of The Movie Database API documentation",
                 "link": "https://abstract-python.vercel.app/",
-                "tags": "OAS, Postman, API Testing, APIs"
+                "tags": ["OAS, Postman, API Testing, APIs"]
             }
         ]
     }

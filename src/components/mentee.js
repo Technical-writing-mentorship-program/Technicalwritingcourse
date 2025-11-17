@@ -6,6 +6,7 @@ import { useParams } from 'react-router-dom';
 const App = () => {
   const { slug } = useParams();
   const mentee = data.find((mentee) => mentee.slug === slug);
+  const userProjects = mentee ? mentee.projects : [];
 
   return (
     <main className="min-h-screen bg-gray-100 font-sans">
@@ -51,7 +52,7 @@ const App = () => {
                 </p>
               </div>
               <div className="flex flex-col sm:flex-row gap-4 w-full justify-center md:justify-start max-w-md">
-                <ProjectCarousel/>
+                <ProjectCarousel userProjects={userProjects}/>
               </div>
             </div>
           </div>

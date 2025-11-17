@@ -118,22 +118,22 @@ const config = {
             position: "left",
             label: "Academy",
           },
-      // { 
-      //   label: "Cohort", 
-      //   position: "left",
-      //   items: [
-      //     {
-      //       label: "API",
-      //       to: "/cohort/api", // URL path to page one
-      //     },
+          { 
+            label: "Cohort", 
+            position: "left",
+            items: [
+              {
+                label: "API",
+                to: "/cohort/api", // URL path to page one
+              },
 
-      //     {
-      //       label: "Product",
-      //       to: "/cohort/product", // URL path to page one
-      //     },
-      //   ],
-      // },
-        { to: "/blog", label: "Blog", position: "left" },
+              {
+                label: "Product",
+                to: "/cohort/product", // URL path to page one
+              },
+            ],
+          },
+          { to: "/blog", label: "Blog", position: "left" },
           { to: "/write-for-us", label: "Write for us", position: "left" },
 
           {

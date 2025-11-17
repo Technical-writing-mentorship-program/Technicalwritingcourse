@@ -1,0 +1,346 @@
+---
+title: How to Use Docusaurus From Scratch (Beginner-Friendly Tutorial)
+description: Learn how to use Docusaurus with simple step-by-step instructions, from setup to customization and deployment.
+authors: [samyben]
+date: 2025-08-01
+slug: /docusaurus-beginner-guide
+tags: [docusaurus, beginners, documentation]
+---
+
+{/* truncate */}
+
+![Docusaurus Logo](./img/docusaurus.PNG)
+
+
+Do you want to build a beautiful website to share your documentation or project guide? Maybe you're a developer or writer who wants a space online to organize your ideas. Well, meet **Docusaurus**, a tool that helps you do just that, and it's super friendly for beginners.
+
+In this guide, I’ll show you step-by-step how to use Docusaurus from scratch using simple language. Even if this is your first attempt, you’ll be able to follow along.
+
+
+## What Is Docusaurus?
+
+[Docusaurus](https://docusaurus.io/) is a tool made by Facebook (now Meta). It helps people create websites for documentation. These websites are fast, pretty, and easy to use.
+
+Think of it like this. If your documentation is a book, Docusaurus is the bookshelf that displays it neatly.
+
+
+## Docusaurus Themes: Choosing the Right Starter
+
+When you create a new Docusaurus project, you need to choose a **theme**. A theme is a set of pre-built pages and layouts that give your documentation site structure and style.
+
+For this tutorial, we’ll use the **classic** theme. It comes with everything you need: a docs section, a blog section, a homepage, and a sidebar. This is the best theme for beginners.
+
+Other available [themes](https://docusaurus.io/docs/api/themes) include:
+
+* **@docusaurus/theme-live-codeblock**: Adds support for live-editable code blocks.
+* **@docusaurus/theme-search-algolia**: Adds search powered by Algolia.
+* **@docusaurus/theme-redocusaurus**: Integrates OpenAPI documentation.
+* **@docusaurus/preset-openapi**: Good for API documentation sites.
+
+Each theme gives your site different powers. You can explore these based on your needs.
+
+## How to Know Which Docusaurus Theme You’re Using
+
+To find out which theme you’re using, follow these steps:
+
+1. **Open your project folder.**
+2. Look for the file named `docusaurus.config.js`.
+3. Inside that file, scroll down until you find a section that looks like this:
+
+```js
+presets: [
+  [
+    'classic',
+    {
+      docs: {
+        // config options here
+      },
+      blog: {
+        // config options here
+      },
+      theme: {
+        customCss: require.resolve('./src/css/custom.css'),
+      },
+    },
+  ],
+],
+```
+
+The word `'classic'` means you're using the **Classic theme**.
+
+If you're using another theme or plugin-based layout, it may show something else like:
+
+```js
+presets: [
+  '@docusaurus/preset-openapi', // for API reference sites
+]
+```
+
+This tells you which design and features are enabled in your Docusaurus project.
+
+
+## What You Need Before Starting
+
+Before we begin, make sure you have these:
+
+* A computer (Windows, Mac, or Linux)
+* Internet connection
+* Node.js installed (version 16.14 or later)
+* Git installed (to track your work and collaborate)
+* Yarn or npm
+
+### Install Git and Node.js
+
+If you don't already have them:
+
+* [Download Git](https://git-scm.com)
+* [Download Node.js](https://nodejs.org)
+
+To check versions:
+
+```bash
+node -v
+git --version
+yarn -v (optional)
+```
+
+> If `yarn` is not installed and you prefer it over `npm`, run:
+>
+> ```bash
+> npm install -g yarn
+> ```
+
+
+## Create a New Docusaurus Project
+
+There are two options here. You can use **npm** or **yarn**.
+
+### Option 1: Using npm
+
+```bash
+npx create-docusaurus@latest my-docs-site classic
+```
+
+### Option 2: Using yarn (faster if npm fails)
+
+```bash
+yarn create docusaurus my-docs-site classic
+```
+
+Both commands do the same thing:
+
+* `my-docs-site` is the name of the folder.
+* `classic` is the theme preset.
+
+You’ll be asked:
+
+* What language? Choose `JavaScript` for now.
+
+
+## Go Into Your New Project
+
+```bash
+cd my-docs-site
+```
+
+Install dependencies (if not auto-installed):
+
+```bash
+npm install
+```
+
+or
+
+```bash
+yarn install
+```
+
+
+## Start the Development Server
+
+This shows your site in the browser:
+
+```bash
+npm run start
+```
+
+or
+
+```bash
+yarn start
+```
+
+Your site should open at:
+
+```
+http://localhost:3000
+```
+
+
+## Understand the Project Structure
+
+Here’s what’s inside your new project:
+
+* `docs/`: Markdown files for your documentation.
+* `blog/`: Markdown files for your blog posts.
+* `src/pages/`: Custom pages like "About" or "Contact".
+* `static/`: Static assets like images or favicons.
+* `docusaurus.config.js`: Main configuration for your site.
+* `sidebars.js`: Controls the navigation sidebar.
+* `package.json`: Lists project dependencies and scripts.
+
+
+## Configuration Files Explained
+
+### docusaurus.config.js
+
+This file controls your entire site.
+
+Important fields:
+
+```js
+const config = {
+  title: 'My Docs Site',
+  tagline: 'Learn fast. Build smart.',
+  url: 'https://yoursite.com',
+  baseUrl: '/',
+  favicon: 'img/favicon.ico',
+
+  themeConfig: {
+    navbar: {
+      title: 'Docs Site',
+      items: [
+        { to: '/docs/intro', label: 'Docs', position: 'left' },
+        { to: '/blog', label: 'Blog', position: 'left' },
+        { href: 'https://github.com/your-org', label: 'GitHub', position: 'right' },
+      ],
+    },
+  },
+};
+```
+
+You can change the title, links, logo, theme, and even add Google Analytics or search here.
+
+### sidebars.js
+
+This file helps organize your sidebar menu. If you want Docusaurus to create it automatically:
+
+```js
+const sidebars = {
+  tutorialSidebar: [{ type: 'autogenerated', dirName: '.' }],
+};
+```
+
+That tells Docusaurus: “Scan the `docs/` folder and build the sidebar based on what you find.”
+
+
+## Add Your First Doc Page
+
+1. Go to the `docs/` folder.
+2. Create a new file called `hello.md`
+3. Add this:
+
+```markdown
+---
+id: hello
+title: Hello, Docusaurus!
+---
+
+Welcome to your first Docusaurus doc page.
+```
+
+> ⚠️ The section at the top (between the triple dashes) is called **Frontmatter**.
+>
+> It tells Docusaurus important info like the `id`, `title`, and where the page fits. It's also useful for SEO because it helps search engines understand your page content better.
+
+Now visit:
+
+```
+http://localhost:3000/docs/hello
+```
+
+
+## Customize the Homepage
+
+1. Open `src/pages/index.js`
+2. Change the heading and subtitle:
+
+```js
+<Heading as="h1">Welcome to My Docs Site</Heading>
+<p>Your go-to place for guides and tutorials.</p>
+```
+
+3. Update the call-to-action button:
+
+```js
+<Link to="/docs/hello">Get Started</Link>
+```
+
+
+## Add a Blog Post
+
+1. Go to `blog/`
+2. Create `first-post.md`
+
+```markdown
+---
+title: My First Blog Post
+description: Sharing my documentation journey.
+date: 2025-08-01
+---
+
+Hello everyone! This is my first blog post on Docusaurus.
+```
+
+Visit:
+
+```
+http://localhost:3000/blog
+```
+
+
+## Build Your Site
+
+When you're ready to go live:
+
+```bash
+npm run build
+```
+
+or
+
+```bash
+yarn build
+```
+
+It creates a `build/` folder with all the static files ready to upload.
+
+
+## Deploy Your Site (Optional)
+
+You can publish your site using:
+
+* GitHub Pages
+* Netlify
+* Vercel
+
+Follow Docusaurus [deployment guide](https://docusaurus.io/docs/deployment) to choose your preferred host.
+
+
+## Conclusion
+
+Congrats! You just built and customized your first documentation website using Docusaurus.
+
+You learned:
+
+* What Docusaurus is
+* How to install with npm or yarn
+* The different theme options
+* What each config file does
+* How to add docs and blog posts
+* How to customize the homepage
+* How to build and deploy your site
+
+Now you have a powerful tool to share knowledge, document code, or publish your guides. The best part? It looks great and is easy to maintain.
+
+Happy documenting!

@@ -1,7 +1,7 @@
 seo:
   label: SEO
   permalink: /seo
-  description: SEO tage description
+  description: SEO tag description
 
 writing:
   label: Writing
@@ -127,3 +127,24 @@ hugo:
   label: Hugo
   permalink: /hugo
   description: Hugo
+
+beginners:
+  label: Beginners
+  permalink: /beginners
+  description: Beginners
+
+  
+writers-block:
+  label: Writers Block
+  permalink: /writers-block
+  description: Writers Block
+
+
+technical-writing:
+  label: Technical Writing
+  permalink: /technical-writing
+  description: Technical Writing
+
+
+
+

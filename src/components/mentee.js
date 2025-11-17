@@ -1,6 +1,6 @@
-import SocialIcons from '../../../../components/socialIcons';
-import ProjectCarousel from '../../../../components/ProjectCarousel';
-import data from '../menteesDetails/first/mentees.json';
+import SocialIcons from './socialIcons';
+import ProjectCarousel from './ProjectCarousel';
+import data from '../pages/cohorts/api/menteesDetails/first/mentees.json';
 import { useParams } from 'react-router-dom';
 
 const App = () => {

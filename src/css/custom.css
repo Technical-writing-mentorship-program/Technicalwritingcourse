@@ -1,5 +1,5 @@
-@import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
 /**
  * Any CSS included here will be global. The classic template
  * bundles Infima by default. Infima is a CSS framework designed to
@@ -11,7 +11,7 @@
 /* Navbar general styling */
 .navbar {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* subtle shadow for depth */
-  padding: 0 2rem; /* add horizontal padding */
+  padding: 0 2rem; /*add horizontal padding*/
 }
 
 /* Navbar Logo */
@@ -37,6 +37,7 @@
 .navbar__items--right {
   margin-left: auto;
 }
+
 
 :root {
   --ifm-color-primary: #8a4dff;
@@ -76,6 +77,7 @@
 .footer a:hover {
   color: #d1b3ff; /* A lighter shade for hover, visible on purple */
 }
+
 
 .quizBtn {
   color: black;
@@ -118,4 +120,49 @@
 
 body {
   font-family: "Lora";
+}
+
+
+/**********************************************
+ * FIX: Docusaurus HEADER (navbar)
+ * Tailwind resets break inline icon + text alignment
+ **********************************************/
+
+/* Keep navbar text + icons aligned horizontally */
+.navbar__item,
+.navbar__link {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+}
+
+/* If GitHub icon or other SVGs become block elements */
+.navbar__link svg {
+  display: inline-block !important;
+}
+
+
+/**********************************************
+ * FIX: Docusaurus FOOTER
+ * External link icons are rendered OUTSIDE <a>
+ * Tailwind makes the icons block, so they drop vertically
+ **********************************************/
+
+/* Inside each footer link: keep text horizontal */
+footer .footer__link {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+}
+
+/* This targets the external-link icon (↗) that appears AFTER the link */
+footer .footer__link + svg {
+  display: inline-block !important;
+  margin-left: 4px;      /* optional but looks nicer */
+  vertical-align: middle !important;
+}
+
+/* Extra safety: ensure ALL SVGs in footer behave inline */
+footer svg {
+  display: inline-block !important;
 }

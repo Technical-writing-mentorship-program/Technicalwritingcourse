@@ -7,7 +7,7 @@ module.exports = function (context, options) {
 
         // Example dynamic route for a workflow item
         addRoute({
-        path: '/cohorts/api/mentee/:slug',
+        path: '/cohorts/mentee/:slug',
         component: '@site/src/components/mentee', // Path to your React component
         // You can also pass data to the component via 'modules'
         // modules: {

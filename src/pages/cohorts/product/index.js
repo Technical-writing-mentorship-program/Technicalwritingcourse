@@ -8,10 +8,10 @@ export default function ApiMentees (){
       <div className="max-w-7xl mx-auto">
         <header className="text-left mb-16 text-gray-900! dark:text-white!">
           <p className="text-sm text-slate-400 tracking-[0.2em] uppercase mb-4">
-            OUR API DOCS MENTEES
+            OUR PRODUCT DOCS MENTEES
           </p>
           <h1 className="text-5xl md:text-6xl font-medium text-gray-900! dark:text-white!">
-            Mentees from the API cohort
+            Mentees from the product documentation cohort
           </h1>
         </header>
 

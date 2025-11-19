@@ -1,9 +1,9 @@
 import SocialIcons from './socialIcons';
 import ProjectCarousel from './ProjectCarousel';
-import data from '../pages/cohorts/api/menteesDetails/first/mentees.json';
+import data from '../pages/cohorts/api/menteesDetails/2024/mentees.json';
 import { useParams } from 'react-router-dom';
 
-const App = () => {
+const Mentees = () => {
   const { slug } = useParams();
   const mentee = data.find((mentee) => mentee.slug === slug);
   const userProjects = mentee ? mentee.projects : [];
@@ -62,4 +62,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Mentees;

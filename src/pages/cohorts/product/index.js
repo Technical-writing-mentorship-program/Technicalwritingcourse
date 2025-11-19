@@ -3,6 +3,7 @@ import data from './menteesDetails/first/mentees.json';
 import MenteeCard from "../../../components/menteeCard";
 
 export default function ApiMentees (){
+
   return (
     <div className="min-h-screen font-sans text-black dark:text-white p-8 md:p-16 lg:p-24">
       <div className="max-w-7xl mx-auto">

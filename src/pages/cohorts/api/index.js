@@ -1,5 +1,9 @@
 // Dynamic import of all mentees.json files
 import Layout from "@theme/Layout";
+import Link from "@docusaurus/Link";
+
+
+
 const menteesContext = require.context(
   './menteesDetails',
   true,
@@ -47,6 +51,9 @@ export default function CohortsPage() {
                     <div className="flex items-center justify-between">
                       <button
                         className="px-4 py-2 bg-[#8a4dff] text-white rounded hover:bg-[#5a1de6]"
+                        onClick={() => {
+                          window.location.href = `/cohorts/api/${year}`;
+                        }} 
                       >
                         View Participants
                       </button>

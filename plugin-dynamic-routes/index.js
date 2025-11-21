@@ -9,10 +9,11 @@ module.exports = function (context, options) {
         addRoute({
         path: '/cohorts/mentee/:slug',
         component: '@site/src/components/mentee', // Path to your React component
-        // You can also pass data to the component via 'modules'
-        // modules: {
-        //   data: createData('workflowData.json', JSON.stringify({ /* ... */ })),
-        // },
+        });
+
+        addRoute({
+        path: '/cohorts/api/:year',
+        component: '@site/src/components/apiCohortList', // Path to your React component
         });
 
         // Add other dynamic routes as needed

@@ -13,6 +13,7 @@ const config = {
   title: "Technical Writing Mentorship Program",
   tagline: "TWMP",
   favicon: "img/favicon.svg",
+  plugins: ["./src/plugins/tailwind-config.js", "./plugin-dynamic-routes"],
 
   // Set the production url of your site here
   url: "https://technicalwritingmp.com/",
@@ -117,22 +118,22 @@ const config = {
             position: "left",
             label: "Academy",
           },
-      // { 
-      //   label: "Cohort", 
-      //   position: "left",
-      //   items: [
-      //     {
-      //       label: "API",
-      //       to: "/cohort/api", // URL path to page one
-      //     },
+          { 
+            label: "Cohort", 
+            position: "left",
+            items: [
+              {
+                label: "API",
+                to: "/cohorts/api", // URL path to page one
+              },
 
-      //     {
-      //       label: "Product",
-      //       to: "/cohort/product", // URL path to page one
-      //     },
-      //   ],
-      // },
-        { to: "/blog", label: "Blog", position: "left" },
+              {
+                label: "Product",
+                to: "/cohorts/product", // URL path to page one
+              },
+            ],
+          },
+          { to: "/blog", label: "Blog", position: "left" },
           { to: "/write-for-us", label: "Write for us", position: "left" },
 
           {

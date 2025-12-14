@@ -132,19 +132,23 @@ beginners:
   label: Beginners
   permalink: /beginners
   description: Beginners
-
   
 writers-block:
   label: Writers Block
   permalink: /writers-block
   description: Writers Block
 
-
 technical-writing:
   label: Technical Writing
   permalink: /technical-writing
   description: Technical Writing
 
+writing-carol:
+  label: Writing Carol
+  permalink: /writing-carol
+  description: Writing Carol
 
-
-
+content-past:
+  label: Content Past
+  permalink: /content-past
+  description: Content Past

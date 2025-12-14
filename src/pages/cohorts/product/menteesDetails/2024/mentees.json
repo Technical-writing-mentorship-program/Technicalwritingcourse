@@ -5,24 +5,39 @@
         "role": "Technical writer & Software developer",
         "bio": "I build Software solutions and write about technology",
         "year": "2024",
-        "imgURL": "https://media.licdn.com/dms/image/v2/D5603AQGtHMpTYdjWwA/profile-displayphoto-shrink_400_400/B56ZTRxPe1HwAg-/0/1738686135680?e=1764806400&v=beta&t=QRvLYprq1Z7XjgURLyhxoTuXBdtsxKMScYxt-3kxfyo",
+        "portfolio": "https://emiloju.netlify.app/",
+        "imgURL": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/1j8rhvwqck6st16ttxmt.jpg",
         "projects": [
             {
                 "type": "api",
                 "title": "PLAID API DOCUMENTATION",
-                "description": "A revamp of the PLAID API documentation",
-                "link": "https://abstract-python.vercel.app/",
-                "tags": ["Fintech, Postman, API Testing"]
+                "description": "A revamp of the PLAID API documentation on Postman",
+                "link": "https://documenter.getpostman.com/view/34422222/2sAYBPmEMP",
+                "tags": ["Fintech, Postman, API Testing", "APIs", "Documentation",  "PLAID"]
             },
 
             {
                 "type": "api",
-                "title": "TMDB API DOCUMENTATION",
-                "description": "A revamp of The Movie Database API documentation",
-                "link": "https://abstract-python.vercel.app/",
-                "tags": ["OAS, Postman, API Testing, APIs"]
+                "title": "The Movie Database API DOCUMENTATION",
+                "description": "A complete revamp of The Movie Database API documentation on Mintlify",
+                "link": "https://emiloju.mintlify.app/documentation/overview",
+                "tags": ["OAS, Postman, API Testing, APIs", "Documentation", "TMDB", "Mintlify"]
+            },
+
+            {
+                "type": "api",
+                "title": "TWILIO IAM API DOCUMENTATION",
+                "description": "A complete revamp of Twilio IAM API documentation on ReadMe",
+                "link": "https://twilio-iam-remake.readme.io/reference/getting-started-with-your-api",
+                "tags": ["Postman, API Testing, APIs", "Documentation", "Twilio", "ReadMe", "Identity and Access Management"]
             }
-        ]
+        ],
+        "socials": {
+            "linkedin": "https://www.linkedin.com/in/edun-rilwan/",
+            "x": "https://x.com/emiloju_py",
+            "github": "https://github.com/Omotunde2005"
+        }
+
     },
 
     {
@@ -48,7 +63,13 @@
                 "link": "https://abstract-python.vercel.app/",
                 "tags": ["OAS, Postman, API Testing, APIs"]
             }
-        ]    },
+        ],
+        "socials": {
+            "linkedin": "https://www.linkedin.com/in/etugbo-judith-2b4b07210/",
+            "x": "https://twitter.com/EtugboJudith",
+            "github": "https://github.com/EtugboJudith"
+        }    
+    },
 
     {
         "name": "Peace Sandy",
@@ -73,6 +94,11 @@
                 "link": "https://abstract-python.vercel.app/",
                 "tags": ["OAS, Postman, API Testing, APIs"]
             }
-        ]
+        ],
+        "socials": {
+            "linkedin": "https://www.linkedin.com/in/peace-sandy-2b4b07210/",
+            "x": "https://twitter.com/PeaceSandy",
+            "github": "https://github.com/PeaceSandy"
+        }
     }
 ]

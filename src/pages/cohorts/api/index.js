@@ -1,6 +1,6 @@
 // Dynamic import of all mentees.json files
 import Layout from "@theme/Layout";
-import Link from "@docusaurus/Link";
+import { ListCohortsCard } from "../../../components/ListCohortsCard";
 
 
 const menteesContext = require.context(
@@ -21,6 +21,9 @@ const menteesByYear = menteesContext.keys().map((key) => {
   };
 }).sort((a, b) => b.year - a.year);
 
+const headerText = "API Cohort";
+const path = "/cohorts/api";
+
 
 export default function CohortsPage() {
 
@@ -40,26 +43,7 @@ export default function CohortsPage() {
 
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {menteesByYear.map(({ year, count }) => (
-                  <div
-                    key={year}
-                    className="bg-[#8a4dff] rounded-lg shadow p-6"
-                  >
-                    <h2 className="text-xl font-semibold mb-1">{`API cohort ${year}`}</h2>
-                    <p className="text-sm mb-3">{year}</p>
-                    <div className="flex items-center justify-between">
-                      <button
-                        className="px-4 py-2 bg-white text-[#8a4dff] rounded hover:bg-gray-200 transition"
-                        onClick={() => {
-                          window.location.href = `/cohorts/api/${year}`;
-                        }} 
-                      >
-                        View Participants
-                      </button>
-                      <span className="text-sm">
-                        {count} participants
-                      </span>
-                    </div>
-                  </div>
+                  <ListCohortsCard key={year} year={year} count={count} header={header} path={path} />
                 ))}
               </div>
           </div>

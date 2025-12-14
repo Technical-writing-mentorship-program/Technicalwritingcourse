@@ -16,6 +16,11 @@ module.exports = function (context, options) {
         component: '@site/src/components/apiCohortList', // Path to your React component
         });
 
+        addRoute({
+        path: '/cohorts/product-docs/:year',
+        component: '@site/src/components/productCohortList', // Path to your React component
+        });
+
         // Add other dynamic routes as needed
     },
     };

@@ -169,6 +169,6 @@ footer svg {
 
 /* API Cohorts Page Header Style */
 /* Make the color adapt to light/dark mode */
-.apiCohortsHeader, .apiCohortsListHeader {
+.apiCohortsHeader, .apiCohortsListHeader, .menteeNameHeader {
   color: var(--ifm-color-primary);
 }

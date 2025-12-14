@@ -1,26 +1,5 @@
 import React, { useState } from 'react';
 
-const projects = [
-  {
-    title: 'PLAID API DOCUMENTATION',
-    description: 'A Postman documentation consisting of the first 30 endpoints of Plaid API',
-    tags: ['API', 'Technical Writing', 'OpenAPI spec', 'Postman', 'Swagger', 'API testing'],
-    previewUrl: '#',
-  },
-  {
-    title: 'E-COMMERCE PLATFORM',
-    description: 'A full-stack e-commerce solution with a React frontend and Node.js backend.',
-    tags: ['React', 'Node.js', 'Express', 'MongoDB', 'Stripe API'],
-    previewUrl: '#',
-  },
-  {
-    title: 'PROJECT MANAGEMENT TOOL',
-    description: 'A collaborative tool for teams to manage tasks, track progress, and communicate effectively.',
-    tags: ['Vue.js', 'Firebase', 'Real-time', 'UI/UX Design'],
-    previewUrl: '#',
-  }
-];
-
 const ProjectCarousel = ({ userProjects }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 

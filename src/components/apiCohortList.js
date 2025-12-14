@@ -36,7 +36,7 @@ export default function ApiMentees (){
       <div className="min-h-screen font-sans text-black dark:text-white p-8 md:p-16 lg:p-24">
         <div className="max-w-7xl mx-auto">
           <header className="text-left mb-16 text-gray-900! dark:text-white!">
-            <p className="text-sm text-black tracking-[0.2em] uppercase mb-4">
+            <p className="apiCohortsListHeader text-sm text-black tracking-[0.2em] uppercase mb-4">
               OUR API DOCS MENTEES
             </p>
           </header>

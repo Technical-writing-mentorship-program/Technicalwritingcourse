@@ -33,7 +33,7 @@ export default function CohortsPage() {
         <div className="min-h-screen font-sans text-gray-800 dark:text-white p-8 md:p-16 lg:p-24">
           <div className="max-w-7xl mx-auto">
             <header className="text-left mb-12">
-              <p className="text-sm text-black tracking-[0.2em] uppercase mb-4">
+              <p className="apiCohortsHeader text-sm text-black tracking-[0.2em] uppercase mb-4">
                 ALL API DOCUMENTATION COHORTS
               </p>
             </header>

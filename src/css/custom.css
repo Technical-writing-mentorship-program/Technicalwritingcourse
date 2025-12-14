@@ -166,3 +166,9 @@ footer .footer__link + svg {
 footer svg {
   display: inline-block !important;
 }
+
+/* API Cohorts Page Header Style */
+/* Make the color adapt to light/dark mode */
+.apiCohortsHeader, .apiCohortsListHeader {
+  color: var(--ifm-color-primary);
+}

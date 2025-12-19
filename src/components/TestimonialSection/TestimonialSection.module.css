@@ -29,6 +29,9 @@
     max-width: 400px;
     min-height: 360px; 
     text-align: center;
+    display: flex;              /* NEW */
+    flex-direction: column;     /* NEW */
+    align-items: center;        /* NEW */
 }
 
 .testimonialImg {

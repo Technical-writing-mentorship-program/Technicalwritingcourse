@@ -6,24 +6,24 @@ labels: enhancement, documentation, blog
 assignees: ''
 ---
 
-# Article Title
+# Article title
 What is the working title of your article?
 
 # Category
 - [ ] Technical (AI/ML, Web3, Cybersecurity, Cloud, etc.)
 - [ ] Non-Technical (Career, Work Experience, Soft Skills, etc.)
 
-# Concise Description
+# Concise description
 Provide a 2-3 sentence summary of what this article will cover and who the target audience is.
 
 # Why is this topic important?
 How does this help the TWMP community or aspiring technical writers?
 
-# Draft Link
+# Draft link
 *Note: You can add this later once the pitch is approved.*
-[Link to Google Doc/HackMD/Draft]
+[Link to Google Doc or Dropbox paper draft]
 
-### Maintainer Tag
+### Maintainer tag
 I am tagging @Nickyshe for review and approval of this pitch.
 
 ---

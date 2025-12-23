@@ -20,9 +20,9 @@ Steps to Reproduce
 2. Click on '....'
 3. See error
 
-# Expected Behavior
+# Expected behavior
 A clear description of what you expected to happen.
 
-# Additional Context
+# Additional context
 Add any other context about the problem here, for example, browser type, mobile vs desktop.
 

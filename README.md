@@ -1,14 +1,17 @@
-# Website
+
+# Technical writing mentorship program website
+
+A resource hub and blog for aspiring technical writers, maintained by the [Technical Writing Mentorship Program (TWMP)](https://technicalwritingmp.com/).
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
-### Installation
+## Installation
 
 ```
 $ npm install
 ```
 
-### Local Development
+## Local development
 
 ```
 $ npm run start
@@ -24,18 +27,6 @@ $ npm build
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
-### Deployment
+## Contributing 🤝
 
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+All kinds of contributions are encouraged. For information on how to contribute to the TWMP repository, please read the [Contributing Guidelines](.github/CONTRIBUTING.md).

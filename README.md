@@ -29,4 +29,4 @@ This command generates static content into the `build` directory and can be serv
 
 ## Contributing 🤝
 
-All kinds of contributions are encouraged. For information on how to contribute to the TWMP repository, please read the [Contributing Guidelines](.github/CONTRIBUTING.md).
+All kinds of contributions are encouraged. For information on how to contribute to the TWMP repository, please read the [Contributing Guidelines](.github/workflows/CONTRIBUTING.md).

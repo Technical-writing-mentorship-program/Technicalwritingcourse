@@ -1,4 +1,4 @@
-# TWMP Contribution Guide
+# TWMP contribution guide
 
 ## Content style guide
 Read our [TWMP Writing Style Guide](writing_style_guide.md) to understand our guidelines for writing and formatting documents. The purpose of our style guide is to ensure consistency in the tone, voice, and structure of our documentation across all articles.
@@ -25,12 +25,12 @@ Read our [TWMP Writing Style Guide](writing_style_guide.md) to understand our gu
 
 
 ### Report issues and bugs
-If you find a typo, a broken link, or a technical error on the site, please open a new issue and use the [bug report template](.github/ISSUE_TEMPLATE/bug-report.md). Provide a clear description and a link to the page where the issue exists.
+If you find a typo, a broken link, or a technical error on the site, please open a new issue and use the [bug report template](../ISSUE_TEMPLATE/bug-report.md). Provide a clear description and a link to the page where the issue exists.
 
 ### Issue management 
 We use GitHub Issues to manage article pitches:
 
-1. Create an Issue: Use the [article pitch template](.github/workflows/article-pitch.md).
+1. Create an Issue: Use the [article pitch template](article-pitch.md).
 2. Details: Provide a concise description of your topic (Technical or Non-Technical).
 3. Tagging: You must tag @Nickyshe in the issue for approval.
 
@@ -52,7 +52,7 @@ After a mentor approves your draft in the issue:
 
 2. Link the PR to your issue by adding Closes #IssueNumber in the description.
 
-3. Ensure you have followed the [PR Template checklist](.github/workflows/pull_request_template.md), including frontmatter and image 
+3. Ensure you have followed the [PR Template checklist](pull_request_template.md), including frontmatter and image 
 
 ### Releases
 The TWMP site uses continuous deployment. Once a maintainer merges your PR into the main branch, your article will be automatically built and published to the live site within a few minutes.

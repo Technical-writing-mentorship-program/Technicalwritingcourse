@@ -2,9 +2,10 @@
 name: 🐛 Bug Report
 about: Report a typo, broken link, or technical error on the site.
 title: [BUG]:
-labels: bug
+labels: [bug]
 assignees: ''
 ---
+
 
 # Description
 A clear and concise description of what the bug is.

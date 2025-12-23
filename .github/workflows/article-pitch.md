@@ -2,7 +2,7 @@
 name: ✍️ Article Pitch
 about: Pitch a technical or non-technical article for the TWMP blog.
 title: "[PITCH]: "
-labels: enhancement, documentation, blog
+labels: blog, article
 assignees: ''
 ---
 
@@ -10,8 +10,8 @@ assignees: ''
 What is the working title of your article?
 
 # Category
-- [ ] Technical (AI/ML, Web3, Cybersecurity, Cloud, etc.)
-- [ ] Non-Technical (Career, Work Experience, Soft Skills, etc.)
+- [ ] Technical (AI/ML, web3, cybersecurity, cloud, etc.)
+- [ ] Non-Technical (career, work Experience, soft skills, etc.)
 
 # Concise description
 Provide a 2-3 sentence summary of what this article will cover and who the target audience is.

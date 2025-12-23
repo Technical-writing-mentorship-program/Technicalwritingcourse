@@ -30,7 +30,7 @@ If you find a typo, a broken link, or a technical error on the site, please open
 ### Issue management 
 We use GitHub Issues to manage article pitches:
 
-1. Create an Issue: Use the [article pitch template](.github/ISSUE_TEMPLATE/article-pitch.md).
+1. Create an Issue: Use the [article pitch template](.github/workflows/article-pitch.md).
 2. Details: Provide a concise description of your topic (Technical or Non-Technical).
 3. Tagging: You must tag @Nickyshe in the issue for approval.
 
@@ -52,7 +52,7 @@ After a mentor approves your draft in the issue:
 
 2. Link the PR to your issue by adding Closes #IssueNumber in the description.
 
-3. Ensure you have followed the [PR Template checklist](.github/pull_request_template.md), including frontmatter and image 
+3. Ensure you have followed the [PR Template checklist](.github/workflows/pull_request_template.md), including frontmatter and image 
 
 ### Releases
 The TWMP site uses continuous deployment. Once a maintainer merges your PR into the main branch, your article will be automatically built and published to the live site within a few minutes.

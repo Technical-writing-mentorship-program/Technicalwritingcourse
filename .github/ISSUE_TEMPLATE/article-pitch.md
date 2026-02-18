@@ -27,4 +27,4 @@ How does this help the TWMP community or aspiring technical writers?
 I am tagging @Nickyshe for review and approval of this pitch.
 
 ---
-**By submitting this pitch, I agree to follow the TWMP Writing Style Guide.**
+**By submitting this pitch, I agree to follow the [TWMP Writing Style Guide](https://github.com/Technical-writing-mentorship-program/Technicalwritingcourse/blob/main/.github/workflows/writing_style_guide.md).**

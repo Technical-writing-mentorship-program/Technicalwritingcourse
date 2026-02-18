@@ -1,4 +1,10 @@
-
+---
+name: "🐞 Bug report"
+about: "Report a bug to help us improve our documentation"
+title: "[BUG] "
+labels: bug
+assignees: ""
+---
 # Description
 A clear and concise description of what the bug is.
 

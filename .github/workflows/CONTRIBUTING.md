@@ -52,7 +52,7 @@ After a mentor approves your draft in the issue:
 
 2. Link the PR to your issue by adding Closes #IssueNumber in the description.
 
-3. Ensure you have followed the [PR Template checklist](../PULL_REQUEST_TEMPLATE/pull_request_template.md), including frontmatter and image 
+3. Ensure you have followed the [PR Template checklist](../pull_request_template/pull_request_template.md), including frontmatter and image 
 
 ### Releases
 The TWMP site uses continuous deployment. Once a maintainer merges your PR into the main branch, your article will be automatically built and published to the live site within a few minutes.

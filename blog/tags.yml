@@ -132,7 +132,7 @@ beginners:
   label: Beginners
   permalink: /beginners
   description: Beginners
-  
+
 writers-block:
   label: Writers Block
   permalink: /writers-block
@@ -152,7 +152,7 @@ content-past:
   label: Content Past
   permalink: /content-past
   description: Content Past
-  
+
 content-reuse:
   label: Content Reuse
   permalink: /content-reuse

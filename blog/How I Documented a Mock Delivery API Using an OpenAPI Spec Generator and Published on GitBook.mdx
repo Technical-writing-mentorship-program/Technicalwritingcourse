@@ -20,7 +20,7 @@ Well-structured API documentation is as important as the API itself. In this art
 
 - Understanding the API behavior
 - Documenting endpoints manually
-- Converting requests into an OpenAPI 3.1 specification using an [API-to-OpenAPI generator](https://openapi-spec-generator.netlify.app/)
+- Converting requests into an OpenAPI 3.1 specification using an [API-to-OpenAPI-generator](https://openapi-spec-generator.netlify.app/)
 - Publishing the documentation on GitBook for public consumption
 
 This workflow mirrors what many real-world teams do when retrofitting documentation onto an existing API or mock service.
@@ -40,7 +40,7 @@ The Mock Delivery API is a simulated logistics and delivery service designed to 
 - Tracking
 - Reports
 
-** [GitHub Repository link](https://github.com/Technical-writing-mentorship-program/mock-delivery-api)**
+[GitHub-Repository-link](https://github.com/Technical-writing-mentorship-program/mock-delivery-api)
 
 ---
 
@@ -48,7 +48,7 @@ The Mock Delivery API is a simulated logistics and delivery service designed to 
 
 Before starting, here are some basic things to know:
 
-- Basic understanding of RESTful APIs[RESTful APIs](https://aws.amazon.com/what-is/restful-api/)
+- Basic understanding of RESTful APIs[RESTful APIs](https://aws.amazon.com/what-is/restful-api)
 - Familiarity with HTTP methods (GET, POST, PUT, DELETE)
 - Knowledge of request–response cycles and status codes
 - Understanding of authentication concepts (tokens, headers, authorization flow)
@@ -90,7 +90,7 @@ http://localhost:4000
 
 ## Step 2 - Authentication
 
-There are 52 endpoints to document, as listed in the README on [GitHub](https://github.com/Technical-writing-mentorship-program/mock-delivery-api?tab=readme-ov-file#authentication-flow). Documentation starts with the Authentication section.
+There are 52 endpoints to document, as listed in the README on [GitHub](https://github.com/Technical-writing-mentorship-program/mock-delivery-api?tab=readme-ov-file#authentication-flow/). Documentation starts with the Authentication section.
 
 ### Request
 
@@ -123,6 +123,7 @@ This response returns the **Bearer token** used for authenticated requests.
 ---
 
 The diagram below shows where to insert your endpoint, select your POST request, and insert the body while using your openapi-spec-generator. After filling in all the parameters, click send.
+
 ![Image one](./img/img-1.png)
 
 ### Output
@@ -134,7 +135,8 @@ This output below shows a fully documented API endpoint, including:
 - Tag
 - Summary
 - Description
-  ![Image two](./img/img-2.png)
+
+![Image two](./img/img-2.jpg)
 
 ![Image three](./img/img-3.png)
 
@@ -164,11 +166,13 @@ GET http://localhost:4000/deliveries
 - Add a tag name
 - Write a brief summary/description
 - Add the **Bearer Token** in the Authorization section
+
   ![Image four](./img/img-4.png)
 
 ### Output
 
 This shows the output after clicking the send button; it provides a full list of all delivery records.
+
 ![Image five](./img/img-5.png)
 
 ---
@@ -199,11 +203,13 @@ http://localhost:4000/deliveries/{id}
   - Value: `2`
 
 - Click **Send** to retrieve the specific record.
+
   ![Image six](./img/img-6.png)
 
 ### Output
 
 The image below shows the response after the request was sent. It retrieves only the delivery record with an ID of 2.
+
 ![Image seven](./img/img-7.png)
 
 ---
@@ -221,7 +227,8 @@ Go to [GitBook](https://www.gitbook.com/) and navigate to the OpenAPI tab at the
 1. Navigate to the **OpenAPI** tab
 2. Upload your OpenAPI specification file
 3. After adding your OpenAPI specification, click **Publish**
-   ![Image Nine](./img/img-9.png)
+
+![Image Nine](./img/img-9.png)
 
 This allows you to:
 
@@ -230,7 +237,8 @@ This allows you to:
 - Customize your documentation site
 - Collaborate with your team
 
-** [Published API Docs URL](https://samuel-8.gitbook.io/samuel-docs/)**
+ [Published API Docs URL](https://samuel-8.gitbook.io/samuel-docs/)
+
 ![Image Ten](./img/img-10.png)
 
 ---

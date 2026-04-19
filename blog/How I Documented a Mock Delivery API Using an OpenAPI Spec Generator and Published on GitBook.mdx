@@ -25,7 +25,7 @@ Well-structured API documentation is as important as the API itself. In this art
 This workflow mirrors what many real-world teams do when retrofitting documentation onto an existing API or mock service.
 
 
-## Project Overview: Mock Delivery API
+## Project overview: mock delivery API
 
 The Mock Delivery API is a simulated logistics and delivery service designed to represent common backend workflows in a delivery platform. It includes endpoints for:
 
@@ -52,7 +52,7 @@ Before starting, here are some basic things to know:
 - Ability to read and interpret JSON payloads
 
 
-## Understanding the API and Authentication Flow
+## Understanding the API and authentication flow
 
 Before writing any documentation, I reviewed the API behavior and request-response patterns, starting with authentication, since it governs access to protected endpoints.
 
@@ -63,7 +63,7 @@ The authentication flow follows a straightforward pattern:
 3. The token is included in subsequent requests as an authorization header
 
 
-## Step 1 - Server Setup
+## Step 1 - Server setup
 
 Clone the repository on your local machine. Then open your terminal in VS Code and run:
 
@@ -95,7 +95,7 @@ POST http://localhost:4000/auth/login
 
 The above shows the authentication endpoint used to get the bearer token.
 
-### Request Body
+### Request body
 
 ```json
 {
@@ -119,11 +119,11 @@ This response returns the **Bearer token** used for authenticated requests.
 
 The diagram below shows where to insert your endpoint, select your POST request, and insert the body while using your openapi-spec-generator. After filling in all the parameters, click send.
 
-![Image one](./img/img-1.png)
+![img-1-Insert-end-point-details](./img/Insert-end-point-details.png)
 
 ### Output
 
-This output below shows a fully documented API endpoint, including:
+The output below shows a fully documented API endpoint, including:
 
 - Method
 - URL
@@ -131,20 +131,20 @@ This output below shows a fully documented API endpoint, including:
 - Summary
 - Description
 
-![Image two](./img/img-2.jpg)
+![img-2-Inserted-end-point](./Inserted-end-point.jpg)
 
-![Image three](./img/img-3.png)
+![img-3-Response](./img/Response.png)
 
 After clicking **Send**, the `bearer token` appears in the response tab.
 
 ---
 
-## Step 3 - Documenting Other Endpoints
+## Step 3 - Documenting other endpoints
 
 This section demonstrates how to document additional endpoints using the Bearer token for authorization and how to use path parameters.
 
 
-### Documenting the Deliveries Endpoint
+### Documenting the deliveries endpoint
 
 1. GET /deliveries – list deliveries (supports status, city, country)
    This endpoint retrieves the entire list of deliveries
@@ -153,7 +153,7 @@ This section demonstrates how to document additional endpoints using the Bearer 
 GET http://localhost:4000/deliveries
 ```
 
-#### As shown in the image below, Steps:
+#### As shown in the image below, steps:
 
 - Select **GET** request
 - Enter the endpoint
@@ -161,16 +161,16 @@ GET http://localhost:4000/deliveries
 - Write a brief summary/description
 - Add the **Bearer Token** in the Authorization section
 
-  ![Image four](./img/img-4.png)
+  ![Image four-select-bearer-token](./img/select-bearer-token.png)
 
 ### Output
 
 This shows the output after clicking the send button; it provides a full list of all delivery records.
 
-![Image five](./img/img-5.png)
+![Image five-response-200](./img/response-200.png)
 
 
-### 2. GET /deliveries/:id – Get Single Delivery
+### 2. GET /deliveries/:id – Get single delivery
 
 ```
 GET http://localhost:4000/deliveries/:id
@@ -197,19 +197,19 @@ http://localhost:4000/deliveries/{id}
 
 - Click **Send** to retrieve the specific record.
 
-  ![Image six](./img/img-6.png)
+  ![Image six-path-parameter-details](./img/path-parameter-details.png)
 
 ### Output
 
 The image below shows the response after the request was sent. It retrieves only the delivery record with an ID of 2.
 
-![Image seven](./img/img-7.png)
+![Image seven-delivery-response-200](./img/delivery-response-200.png)
 
 
 After documenting all endpoints, download the OpenAPI specification file.
 
 
-![Image Eight](./img/img-8.png)
+![Image Eight-download-open-api-spec](./img/download-open-api-spec.png)
 
 ## Step 4 - Publishing on GitBook
 
@@ -219,7 +219,7 @@ Go to [GitBook](https://www.gitbook.com/) and navigate to the OpenAPI tab at the
 2. Upload your OpenAPI specification file
 3. After adding your OpenAPI specification, click **Publish**
 
-![Image Nine](./img/img-9.png)
+![Image Nine-upload-open-api-spec-on-mintlify](./img/upload-open-api-spec-on-mintlify.png)
 
 This allows you to:
 
@@ -230,10 +230,10 @@ This allows you to:
 
  [Published API Docs URL](https://samuel-8.gitbook.io/samuel-docs/)
 
-![Image Ten](./img/img-10.png)
+![Image Ten-published-docs](./img/published-docs.png)
 
 
-## Next Steps
+## Next steps
 
 Explore the [OpenAPI Spec Generator](https://openapi-spec-generator.netlify.app/) to better understand how it helps you create structured API specifications quickly.
 

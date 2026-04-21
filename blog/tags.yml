@@ -157,12 +157,7 @@ content-reuse:
   label: Content Reuse
   permalink: /content-reuse
   description: Content Reuse
-
-  docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
-
+  
 openapi:
   label: OpenAPI
   permalink: /openapi
@@ -177,8 +172,3 @@ api:
   label: API
   permalink: /api
   description: API tag description
-
-documentation:
-  label: Documentation
-  permalink: /documentation
-  description: Documentation tag description

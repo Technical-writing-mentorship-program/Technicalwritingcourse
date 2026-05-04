@@ -130,7 +130,7 @@ export default function TrustedTalent() {
               ":hover": { textDecoration: "underline" },
             }}
           >
-            Email us at writingt82@gmail.com
+            Email us at info@technicalwritingmp.com
           </a>
         </Callout>
 

@@ -157,3 +157,18 @@ content-reuse:
   label: Content Reuse
   permalink: /content-reuse
   description: Content Reuse
+  
+openapi:
+  label: OpenAPI
+  permalink: /openapi
+  description: OpenAPI tag description
+
+gitbook:
+  label: GitBook
+  permalink: /gitbook
+  description: GitBook tag description
+
+api:
+  label: API
+  permalink: /api
+  description: API tag description

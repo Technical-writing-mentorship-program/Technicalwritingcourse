@@ -80,3 +80,13 @@ tanja:
   page: true
   socials:
     linkedin: https://www.linkedin.com/in/tanjalorber/
+
+samuel:
+  name: Samuel Thomas
+  title: Technical Writer | DevRel | Software Developer
+  url:  https://www.linkedin.com/in/samuel-thomas-sam/
+  image_url: https://imgur.com/a/DnYHayV
+  page: true
+  socials:
+    linkedin: https://www.linkedin.com/in/samuel-thomas-sam/
+    github: https://github.com/Sammex45

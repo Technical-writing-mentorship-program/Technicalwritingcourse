@@ -122,7 +122,7 @@ export default function TrustedTalent() {
 
         <Callout title="Contact us:">
           <a
-            href="mailto:writingt82@gmail.com"
+            href="mailto:info@technicalwritingmp.com"
             style={{
               color: "var(--ifm-link-color)",
               textDecoration: "none",

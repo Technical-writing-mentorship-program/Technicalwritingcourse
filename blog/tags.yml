@@ -172,3 +172,13 @@ api:
   label: API
   permalink: /api
   description: API tag description
+
+editorial-judgment:
+  label: Editorial Judgment
+  permalink: /editorial-judgment
+  description: Editorial Judgment tag description
+
+content-structure:
+  label: Content Structure
+  permalink: /content-structure
+  description: Content Structure tag description

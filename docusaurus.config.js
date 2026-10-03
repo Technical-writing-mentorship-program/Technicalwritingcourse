@@ -134,6 +134,7 @@ const config = {
       // },
         { to: "/blog", label: "Blog", position: "left" },
           { to: "/write-for-us", label: "Write for us", position: "left" },
+          { to: "/events", label: "Events", position: "left" },
 
           {
             href: "https://github.com/Technical-writing-mentorship-program/",
